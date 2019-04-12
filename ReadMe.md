@@ -1,1 +1,1 @@
-This repository contains the reference of the [GRYLibrary](https://github.com/anionDev/gryLibrary). If you are here you are probably looking for [this site](https://aniondev.github.io/gryLibraryReference/Site/api/GRYLibrary.html).
+This repository contains the reference of the [GRYLibrary](https://github.com/anionDev/gryLibrary). If you are here you are probably looking for [the class reference](https://aniondev.github.io/gryLibraryReference/Site/api/GRYLibrary.html) or [additional information](https://aniondev.github.io/gryLibraryReference/Site/index.html).
