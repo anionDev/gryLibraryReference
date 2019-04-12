@@ -110,95 +110,17 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class TableGenerator</code></pre>
   </div>
-  <h3 id="fields">Fields
-  </h3>
-  
-  
-  <h4 id="GRYLibrary_Miscellaneous_TableGenerator_TableCharacter" data-uid="GRYLibrary.Miscellaneous.TableGenerator.TableCharacter">TableCharacter</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ITableCharacter TableCharacter</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="GRYLibrary.Miscellaneous.ITableCharacter.html">ITableCharacter</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="GRYLibrary_Miscellaneous_TableGenerator_Encoding_" data-uid="GRYLibrary.Miscellaneous.TableGenerator.Encoding*"></a>
-  <h4 id="GRYLibrary_Miscellaneous_TableGenerator_Encoding" data-uid="GRYLibrary.Miscellaneous.TableGenerator.Encoding">Encoding</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Encoding Encoding { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Text.Encoding</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="GRYLibrary_Miscellaneous_TableGenerator_MaximalWidth_" data-uid="GRYLibrary.Miscellaneous.TableGenerator.MaximalWidth*"></a>
-  <h4 id="GRYLibrary_Miscellaneous_TableGenerator_MaximalWidth" data-uid="GRYLibrary.Miscellaneous.TableGenerator.MaximalWidth">MaximalWidth</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int MaximalWidth { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
   
   <a id="GRYLibrary_Miscellaneous_TableGenerator_Generate_" data-uid="GRYLibrary.Miscellaneous.TableGenerator.Generate*"></a>
-  <h4 id="GRYLibrary_Miscellaneous_TableGenerator_Generate_System_String_0__0___System_String_System_Boolean_System_Boolean_" data-uid="GRYLibrary.Miscellaneous.TableGenerator.Generate(System.String[0:,0:],System.String,System.Boolean,System.Boolean)">Generate(String[,], String, Boolean, Boolean)</h4>
+  <h4 id="GRYLibrary_Miscellaneous_TableGenerator_Generate_System_String_0__0___GRYLibrary_Miscellaneous_TableGenerator_TableOutputType_" data-uid="GRYLibrary.Miscellaneous.TableGenerator.Generate(System.String[0:,0:],GRYLibrary.Miscellaneous.TableGenerator.TableOutputType)">Generate(String[,], TableGenerator.TableOutputType)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string[] Generate(string[, ] array, string title, bool tableHasTitles, bool addLinesAbove)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string[] Generate(string[, ] array, TableGenerator.TableOutputType outputType)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -216,18 +138,8 @@
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">title</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">tableHasTitles</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">addLinesAbove</span></td>
+        <td><a class="xref" href="GRYLibrary.Miscellaneous.TableGenerator.TableOutputType.html">TableGenerator.TableOutputType</a></td>
+        <td><span class="parametername">outputType</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -243,167 +155,6 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="GRYLibrary_Miscellaneous_TableGenerator_Generate_" data-uid="GRYLibrary.Miscellaneous.TableGenerator.Generate*"></a>
-  <h4 id="GRYLibrary_Miscellaneous_TableGenerator_Generate_System_String_0__0___System_String_System_Boolean_System_Boolean_GRYLibrary_Miscellaneous_TableGenerator_ILineCharacterDecider_" data-uid="GRYLibrary.Miscellaneous.TableGenerator.Generate(System.String[0:,0:],System.String,System.Boolean,System.Boolean,GRYLibrary.Miscellaneous.TableGenerator.ILineCharacterDecider)">Generate(String[,], String, Boolean, Boolean, TableGenerator.ILineCharacterDecider)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string[] Generate(string[, ] array, string title, bool tableHasTitles, bool addLinesAbove, TableGenerator.ILineCharacterDecider lineCharacterDecider)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span>[,]</td>
-        <td><span class="parametername">array</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">title</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">tableHasTitles</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">addLinesAbove</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="GRYLibrary.Miscellaneous.TableGenerator.ILineCharacterDecider.html">TableGenerator.ILineCharacterDecider</a></td>
-        <td><span class="parametername">lineCharacterDecider</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span>[]</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="GRYLibrary_Miscellaneous_TableGenerator_Generate_" data-uid="GRYLibrary.Miscellaneous.TableGenerator.Generate*"></a>
-  <h4 id="GRYLibrary_Miscellaneous_TableGenerator_Generate_System_String_0__0___System_String_System_String_System_Boolean_System_Boolean_" data-uid="GRYLibrary.Miscellaneous.TableGenerator.Generate(System.String[0:,0:],System.String,System.String,System.Boolean,System.Boolean)">Generate(String[,], String, String, Boolean, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Generate(string[, ] array, string title, string file, bool tableHasTitles, bool addLinesAbove)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span>[,]</td>
-        <td><span class="parametername">array</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">title</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">file</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">tableHasTitles</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">addLinesAbove</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="GRYLibrary_Miscellaneous_TableGenerator_Generate_" data-uid="GRYLibrary.Miscellaneous.TableGenerator.Generate*"></a>
-  <h4 id="GRYLibrary_Miscellaneous_TableGenerator_Generate_System_String_0__0___System_String_System_String_System_Boolean_System_Boolean_GRYLibrary_Miscellaneous_TableGenerator_ILineCharacterDecider_" data-uid="GRYLibrary.Miscellaneous.TableGenerator.Generate(System.String[0:,0:],System.String,System.String,System.Boolean,System.Boolean,GRYLibrary.Miscellaneous.TableGenerator.ILineCharacterDecider)">Generate(String[,], String, String, Boolean, Boolean, TableGenerator.ILineCharacterDecider)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Generate(string[, ] array, string title, string file, bool tableHasTitles, bool addLinesAbove, TableGenerator.ILineCharacterDecider lineCharacterDecider)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span>[,]</td>
-        <td><span class="parametername">array</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">title</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">file</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">tableHasTitles</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">addLinesAbove</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="GRYLibrary.Miscellaneous.TableGenerator.ILineCharacterDecider.html">TableGenerator.ILineCharacterDecider</a></td>
-        <td><span class="parametername">lineCharacterDecider</span></td>
         <td></td>
       </tr>
     </tbody>

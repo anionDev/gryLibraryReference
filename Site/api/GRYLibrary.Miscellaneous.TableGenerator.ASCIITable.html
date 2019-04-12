@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class DoubleLineTableCharacter
+    <title>Class TableGenerator.ASCIITable
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class DoubleLineTableCharacter
+    <meta name="title" content="Class TableGenerator.ASCIITable
    ">
     <meta name="generator" content="docfx 2.41.0.0">
     
@@ -68,21 +68,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="GRYLibrary.Miscellaneous.DoubleLineTableCharacter">
+            <article class="content wrap" id="_content" data-uid="GRYLibrary.Miscellaneous.TableGenerator.ASCIITable">
   
   
-  <h1 id="GRYLibrary_Miscellaneous_DoubleLineTableCharacter" data-uid="GRYLibrary.Miscellaneous.DoubleLineTableCharacter" class="text-break">Class DoubleLineTableCharacter
+  <h1 id="GRYLibrary_Miscellaneous_TableGenerator_ASCIITable" data-uid="GRYLibrary.Miscellaneous.TableGenerator.ASCIITable" class="text-break">Class TableGenerator.ASCIITable
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">DoubleLineTableCharacter</span></div>
-  </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="GRYLibrary.Miscellaneous.ITableCharacter.html">ITableCharacter</a></div>
+    <div class="level1"><a class="xref" href="GRYLibrary.Miscellaneous.TableGenerator.TableOutputType.html">TableGenerator.TableOutputType</a></div>
+    <div class="level2"><span class="xref">TableGenerator.ASCIITable</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -110,21 +107,21 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="GRYLibrary.Miscellaneous.html">GRYLibrary.Miscellaneous</a></h6>
   <h6><strong>Assembly</strong>: GRYLibrary.dll</h6>
-  <h5 id="GRYLibrary_Miscellaneous_DoubleLineTableCharacter_syntax">Syntax</h5>
+  <h5 id="GRYLibrary_Miscellaneous_TableGenerator_ASCIITable_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class DoubleLineTableCharacter : ITableCharacter</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class ASCIITable : TableGenerator.TableOutputType</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="GRYLibrary_Miscellaneous_DoubleLineTableCharacter_CrossCharacter_" data-uid="GRYLibrary.Miscellaneous.DoubleLineTableCharacter.CrossCharacter*"></a>
-  <h4 id="GRYLibrary_Miscellaneous_DoubleLineTableCharacter_CrossCharacter" data-uid="GRYLibrary.Miscellaneous.DoubleLineTableCharacter.CrossCharacter">CrossCharacter</h4>
+  <a id="GRYLibrary_Miscellaneous_TableGenerator_ASCIITable_Characters_" data-uid="GRYLibrary.Miscellaneous.TableGenerator.ASCIITable.Characters*"></a>
+  <h4 id="GRYLibrary_Miscellaneous_TableGenerator_ASCIITable_Characters" data-uid="GRYLibrary.Miscellaneous.TableGenerator.ASCIITable.Characters">Characters</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public char CrossCharacter { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public TableGenerator.ITableCharacter Characters { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -136,20 +133,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Char</span></td>
+        <td><a class="xref" href="GRYLibrary.Miscellaneous.TableGenerator.ITableCharacter.html">TableGenerator.ITableCharacter</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="GRYLibrary_Miscellaneous_DoubleLineTableCharacter_HorizontalLineCharacter_" data-uid="GRYLibrary.Miscellaneous.DoubleLineTableCharacter.HorizontalLineCharacter*"></a>
-  <h4 id="GRYLibrary_Miscellaneous_DoubleLineTableCharacter_HorizontalLineCharacter" data-uid="GRYLibrary.Miscellaneous.DoubleLineTableCharacter.HorizontalLineCharacter">HorizontalLineCharacter</h4>
+  <a id="GRYLibrary_Miscellaneous_TableGenerator_ASCIITable_MaximalWidth_" data-uid="GRYLibrary.Miscellaneous.TableGenerator.ASCIITable.MaximalWidth*"></a>
+  <h4 id="GRYLibrary_Miscellaneous_TableGenerator_ASCIITable_MaximalWidth" data-uid="GRYLibrary.Miscellaneous.TableGenerator.ASCIITable.MaximalWidth">MaximalWidth</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public char HorizontalLineCharacter { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int MaximalWidth { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -161,20 +158,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Char</span></td>
+        <td><span class="xref">System.Int32</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="GRYLibrary_Miscellaneous_DoubleLineTableCharacter_LeftLowerCornerCharacter_" data-uid="GRYLibrary.Miscellaneous.DoubleLineTableCharacter.LeftLowerCornerCharacter*"></a>
-  <h4 id="GRYLibrary_Miscellaneous_DoubleLineTableCharacter_LeftLowerCornerCharacter" data-uid="GRYLibrary.Miscellaneous.DoubleLineTableCharacter.LeftLowerCornerCharacter">LeftLowerCornerCharacter</h4>
+  <a id="GRYLibrary_Miscellaneous_TableGenerator_ASCIITable_TableHasTitles_" data-uid="GRYLibrary.Miscellaneous.TableGenerator.ASCIITable.TableHasTitles*"></a>
+  <h4 id="GRYLibrary_Miscellaneous_TableGenerator_ASCIITable_TableHasTitles" data-uid="GRYLibrary.Miscellaneous.TableGenerator.ASCIITable.TableHasTitles">TableHasTitles</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public char LeftLowerCornerCharacter { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool TableHasTitles { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -186,20 +183,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Char</span></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="GRYLibrary_Miscellaneous_DoubleLineTableCharacter_LeftUpperCornerCharacter_" data-uid="GRYLibrary.Miscellaneous.DoubleLineTableCharacter.LeftUpperCornerCharacter*"></a>
-  <h4 id="GRYLibrary_Miscellaneous_DoubleLineTableCharacter_LeftUpperCornerCharacter" data-uid="GRYLibrary.Miscellaneous.DoubleLineTableCharacter.LeftUpperCornerCharacter">LeftUpperCornerCharacter</h4>
+  <a id="GRYLibrary_Miscellaneous_TableGenerator_ASCIITable_Title_" data-uid="GRYLibrary.Miscellaneous.TableGenerator.ASCIITable.Title*"></a>
+  <h4 id="GRYLibrary_Miscellaneous_TableGenerator_ASCIITable_Title" data-uid="GRYLibrary.Miscellaneous.TableGenerator.ASCIITable.Title">Title</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public char LeftUpperCornerCharacter { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Title { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -211,22 +208,70 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Char</span></td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
   
   
-  <a id="GRYLibrary_Miscellaneous_DoubleLineTableCharacter_RightLowerCornerCharacter_" data-uid="GRYLibrary.Miscellaneous.DoubleLineTableCharacter.RightLowerCornerCharacter*"></a>
-  <h4 id="GRYLibrary_Miscellaneous_DoubleLineTableCharacter_RightLowerCornerCharacter" data-uid="GRYLibrary.Miscellaneous.DoubleLineTableCharacter.RightLowerCornerCharacter">RightLowerCornerCharacter</h4>
+  <a id="GRYLibrary_Miscellaneous_TableGenerator_ASCIITable_Accept_" data-uid="GRYLibrary.Miscellaneous.TableGenerator.ASCIITable.Accept*"></a>
+  <h4 id="GRYLibrary_Miscellaneous_TableGenerator_ASCIITable_Accept_GRYLibrary_Miscellaneous_TableGenerator_ITableOutputTypeVisitor_" data-uid="GRYLibrary.Miscellaneous.TableGenerator.ASCIITable.Accept(GRYLibrary.Miscellaneous.TableGenerator.ITableOutputTypeVisitor)">Accept(TableGenerator.ITableOutputTypeVisitor)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public char RightLowerCornerCharacter { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Accept(TableGenerator.ITableOutputTypeVisitor visitor)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GRYLibrary.Miscellaneous.TableGenerator.ITableOutputTypeVisitor.html">TableGenerator.ITableOutputTypeVisitor</a></td>
+        <td><span class="parametername">visitor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="GRYLibrary.Miscellaneous.TableGenerator.TableOutputType.html#GRYLibrary_Miscellaneous_TableGenerator_TableOutputType_Accept_GRYLibrary_Miscellaneous_TableGenerator_ITableOutputTypeVisitor_">TableGenerator.TableOutputType.Accept(TableGenerator.ITableOutputTypeVisitor)</a></div>
+  
+  
+  <a id="GRYLibrary_Miscellaneous_TableGenerator_ASCIITable_Accept_" data-uid="GRYLibrary.Miscellaneous.TableGenerator.ASCIITable.Accept*"></a>
+  <h4 id="GRYLibrary_Miscellaneous_TableGenerator_ASCIITable_Accept__1_GRYLibrary_Miscellaneous_TableGenerator_ITableOutputTypeVisitor___0__" data-uid="GRYLibrary.Miscellaneous.TableGenerator.ASCIITable.Accept``1(GRYLibrary.Miscellaneous.TableGenerator.ITableOutputTypeVisitor{``0})">Accept&lt;T&gt;(TableGenerator.ITableOutputTypeVisitor&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override T Accept&lt;T&gt;(TableGenerator.ITableOutputTypeVisitor&lt;T&gt; visitor)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GRYLibrary.Miscellaneous.TableGenerator.ITableOutputTypeVisitor-1.html">TableGenerator.ITableOutputTypeVisitor</a>&lt;T&gt;</td>
+        <td><span class="parametername">visitor</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -236,165 +281,28 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Char</span></td>
+        <td><span class="xref">T</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="GRYLibrary_Miscellaneous_DoubleLineTableCharacter_RightUpperCornerCharacter_" data-uid="GRYLibrary.Miscellaneous.DoubleLineTableCharacter.RightUpperCornerCharacter*"></a>
-  <h4 id="GRYLibrary_Miscellaneous_DoubleLineTableCharacter_RightUpperCornerCharacter" data-uid="GRYLibrary.Miscellaneous.DoubleLineTableCharacter.RightUpperCornerCharacter">RightUpperCornerCharacter</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public char RightUpperCornerCharacter { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Char</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="GRYLibrary_Miscellaneous_DoubleLineTableCharacter_TDownCharacter_" data-uid="GRYLibrary.Miscellaneous.DoubleLineTableCharacter.TDownCharacter*"></a>
-  <h4 id="GRYLibrary_Miscellaneous_DoubleLineTableCharacter_TDownCharacter" data-uid="GRYLibrary.Miscellaneous.DoubleLineTableCharacter.TDownCharacter">TDownCharacter</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public char TDownCharacter { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Char</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="GRYLibrary_Miscellaneous_DoubleLineTableCharacter_TLeftCharacter_" data-uid="GRYLibrary.Miscellaneous.DoubleLineTableCharacter.TLeftCharacter*"></a>
-  <h4 id="GRYLibrary_Miscellaneous_DoubleLineTableCharacter_TLeftCharacter" data-uid="GRYLibrary.Miscellaneous.DoubleLineTableCharacter.TLeftCharacter">TLeftCharacter</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public char TLeftCharacter { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Char</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="GRYLibrary_Miscellaneous_DoubleLineTableCharacter_TRightCharacter_" data-uid="GRYLibrary.Miscellaneous.DoubleLineTableCharacter.TRightCharacter*"></a>
-  <h4 id="GRYLibrary_Miscellaneous_DoubleLineTableCharacter_TRightCharacter" data-uid="GRYLibrary.Miscellaneous.DoubleLineTableCharacter.TRightCharacter">TRightCharacter</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public char TRightCharacter { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Char</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="GRYLibrary_Miscellaneous_DoubleLineTableCharacter_TUpCharacter_" data-uid="GRYLibrary.Miscellaneous.DoubleLineTableCharacter.TUpCharacter*"></a>
-  <h4 id="GRYLibrary_Miscellaneous_DoubleLineTableCharacter_TUpCharacter" data-uid="GRYLibrary.Miscellaneous.DoubleLineTableCharacter.TUpCharacter">TUpCharacter</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public char TUpCharacter { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Char</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="GRYLibrary_Miscellaneous_DoubleLineTableCharacter_VerticalLineCharacter_" data-uid="GRYLibrary.Miscellaneous.DoubleLineTableCharacter.VerticalLineCharacter*"></a>
-  <h4 id="GRYLibrary_Miscellaneous_DoubleLineTableCharacter_VerticalLineCharacter" data-uid="GRYLibrary.Miscellaneous.DoubleLineTableCharacter.VerticalLineCharacter">VerticalLineCharacter</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public char VerticalLineCharacter { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Char</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="GRYLibrary.Miscellaneous.ITableCharacter.html">ITableCharacter</a>
-  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">GRYLibrary.Miscellaneous.TableGenerator.TableOutputType.Accept&lt;T&gt;(GRYLibrary.Miscellaneous.TableGenerator.ITableOutputTypeVisitor&lt;T&gt;)</span></div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="GRYLibrary.Utilities.html#GRYLibrary_Utilities_IsList_System_Object_">Utilities.IsList(Object)</a>
