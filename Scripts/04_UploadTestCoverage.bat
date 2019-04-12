@@ -1,1 +1,0 @@
-csmacnz.Coveralls --opencover -i ..\OpenCoverTests.xml --useRelativePaths
