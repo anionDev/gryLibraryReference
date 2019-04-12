@@ -1,0 +1,1 @@
+ReportGenerator -reports:"..\OpenCoverTests.xml" -targetdir:"..\TestReports"

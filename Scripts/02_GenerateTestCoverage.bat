@@ -1,0 +1,1 @@
+OpenCover.Console -target:"..\..\gryLibrary\GRYLibraryTest\bin\Release\GRYLibraryTest.dll" -filter:"+[GRYLibrary]* -[GRYLibraryTest]*" -output:..\OpenCoverTests.xml -register:user
