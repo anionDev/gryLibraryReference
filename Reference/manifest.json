@@ -597,10 +597,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "2mA84jyXM0SLOeZrwWTkag=="
+          "hash": "ksc6IxGwPe0ms646Cz3VGA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     }
   ],
@@ -630,7 +630,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 1,
-          "skipped_file_count": 1
+          "skipped_file_count": 0
         }
       }
     },
