@@ -213,7 +213,7 @@ var assemblies = [
       { "name": "GRYLibrary.ColorGradient", "rp": "GRYLibrary_ColorGradient.htm", "cl": 0, "ucl": 13, "cal": 13, "tl": 33, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Event.Argument`2", "rp": "GRYLibrary_Argument_2.htm", "cl": 5, "ucl": 1, "cal": 6, "tl": 14, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Event.EventSender`2", "rp": "GRYLibrary_EventSender_2.htm", "cl": 12, "ucl": 12, "cal": 24, "tl": 61, "ct": "LineCoverage", "mc": "-", "cb": 1, "tb": 8, "lch": [], "bch": [], "hc": [] },
-      { "name": "GRYLibrary.ExtendedColor", "rp": "GRYLibrary_ExtendedColor.htm", "cl": 0, "ucl": 39, "cal": 39, "tl": 81, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 6, "lch": [], "bch": [], "hc": [] },
+      { "name": "GRYLibrary.ExtendedColor", "rp": "GRYLibrary_ExtendedColor.htm", "cl": 25, "ucl": 14, "cal": 39, "tl": 81, "ct": "LineCoverage", "mc": "-", "cb": 1, "tb": 6, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.ExternalProgramExecutor", "rp": "GRYLibrary_ExternalProgramExecutor.htm", "cl": 0, "ucl": 108, "cal": 108, "tl": 181, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 34, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.GRYLog", "rp": "GRYLibrary_GRYLog.htm", "cl": 70, "ucl": 204, "cal": 274, "tl": 713, "ct": "LineCoverage", "mc": "-", "cb": 41, "tb": 148, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.GRYLogConfiguration", "rp": "GRYLibrary_GRYLogConfiguration.htm", "cl": 87, "ucl": 9, "cal": 96, "tl": 713, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
@@ -225,7 +225,7 @@ var assemblies = [
       { "name": "GRYLibrary.GRYObjectSystem.Meta.Property.Property`1", "rp": "GRYLibrary_Property_1.htm", "cl": 34, "ucl": 21, "cal": 55, "tl": 168, "ct": "LineCoverage", "mc": "-", "cb": 9, "tb": 18, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.GRYObjectSystem.Meta.Type", "rp": "GRYLibrary_Type.htm", "cl": 0, "ucl": 7, "cal": 7, "tl": 16, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.GRYObjectSystem.Other.PropertyChangedEvengArgument`1", "rp": "GRYLibrary_PropertyChangedEvengArgument_1.htm", "cl": 5, "ucl": 3, "cal": 8, "tl": 18, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "GRYLibrary.Miscellaneous.FileSelector", "rp": "GRYLibrary_FileSelector.htm", "cl": 0, "ucl": 23, "cal": 23, "tl": 60, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 10, "lch": [], "bch": [], "hc": [] },
+      { "name": "GRYLibrary.Miscellaneous.FileSelector", "rp": "GRYLibrary_FileSelector.htm", "cl": 16, "ucl": 7, "cal": 23, "tl": 59, "ct": "LineCoverage", "mc": "-", "cb": 5, "tb": 10, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Miscellaneous.Playlists.AbstractPlaylistHandler", "rp": "GRYLibrary_AbstractPlaylistHandler.htm", "cl": 73, "ucl": 14, "cal": 87, "tl": 202, "ct": "LineCoverage", "mc": "-", "cb": 20, "tb": 36, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Miscellaneous.Playlists.ConcretePlaylistHandler.M3UHandler", "rp": "GRYLibrary_M3UHandler.htm", "cl": 97, "ucl": 21, "cal": 118, "tl": 264, "ct": "LineCoverage", "mc": "-", "cb": 32, "tb": 48, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Miscellaneous.Playlists.ConcretePlaylistHandler.PLSHandler", "rp": "GRYLibrary_PLSHandler.htm", "cl": 46, "ucl": 6, "cal": 52, "tl": 113, "ct": "LineCoverage", "mc": "-", "cb": 20, "tb": 24, "lch": [], "bch": [], "hc": [] },
@@ -240,7 +240,7 @@ var assemblies = [
       { "name": "GRYLibrary.SimpleGenericXMLSerializer`1", "rp": "GRYLibrary_SimpleGenericXMLSerializer_1.htm", "cl": 0, "ucl": 19, "cal": 19, "tl": 47, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.SimpleObjectPersistence`1", "rp": "GRYLibrary_SimpleObjectPersistence_1.htm", "cl": 0, "ucl": 30, "cal": 30, "tl": 53, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 2, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.SupervisedThread", "rp": "GRYLibrary_SupervisedThread.htm", "cl": 0, "ucl": 41, "cal": 41, "tl": 78, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 12, "lch": [], "bch": [], "hc": [] },
-      { "name": "GRYLibrary.Utilities", "rp": "GRYLibrary_Utilities.htm", "cl": 94, "ucl": 256, "cal": 350, "tl": 885, "ct": "LineCoverage", "mc": "-", "cb": 46, "tb": 190, "lch": [], "bch": [], "hc": [] },
+      { "name": "GRYLibrary.Utilities", "rp": "GRYLibrary_Utilities.htm", "cl": 102, "ucl": 248, "cal": 350, "tl": 885, "ct": "LineCoverage", "mc": "-", "cb": 48, "tb": 190, "lch": [], "bch": [], "hc": [] },
     ]},
 ];
 
@@ -352,13 +352,6 @@ var riskHotspots = [
       { "value": 20, "exceeded": true },
     ]},
   {
-    "assembly": "GRYLibrary", "class": "GRYLibrary.Miscellaneous.FileSelector", "reportPath": "GRYLibrary_FileSelector.htm", "methodName": "GRYLibrary.Miscellaneous.FileSelector GRYLibrary.Miscellaneous.FileSelector::FilesInFolder(System.String,System.Func`2<System.String,System.Boolean>,System.Boolean)", "methodShortName": "FilesInFolder(...)", "fileIndex": 0, "line": 40,
-    "metrics": [
-      { "value": 4, "exceeded": false },
-      { "value": 4, "exceeded": false },
-      { "value": 20, "exceeded": true },
-    ]},
-  {
     "assembly": "GRYLibrary", "class": "GRYLibrary.Miscellaneous.SimpleStreamMultiplier", "reportPath": "GRYLibrary_SimpleStreamMultiplier.htm", "methodName": "System.Int32 GRYLibrary.Miscellaneous.SimpleStreamMultiplier::Read(System.Int32)", "methodShortName": "Read(...)", "fileIndex": 0, "line": 12,
     "metrics": [
       { "value": 4, "exceeded": false },
@@ -406,13 +399,6 @@ var riskHotspots = [
       { "value": 4, "exceeded": false },
       { "value": 4, "exceeded": false },
       { "value": 20, "exceeded": true },
-    ]},
-  {
-    "assembly": "GRYLibrary", "class": "GRYLibrary.Utilities", "reportPath": "GRYLibrary_Utilities.htm", "methodName": "System.Void GRYLibrary.Utilities::ForEachFileAndDirectoryTransitively(System.String,System.Action`2<System.String,System.Object>,System.Action`2<System.String,System.Object>,System.Boolean,System.Object,System.Object)", "methodShortName": "ForEachFileAndDirectoryTransitively(...)", "fileIndex": 0, "line": 252,
-    "metrics": [
-      { "value": 7, "exceeded": false },
-      { "value": 16, "exceeded": false },
-      { "value": 15.15, "exceeded": true },
     ]},
 ];
 
