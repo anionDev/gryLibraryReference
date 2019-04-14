@@ -1,4 +1,4 @@
-set currentDevBranch=dev/grylibrary-0-3-0-0
+set currentDevBranch=dev/grylibrary-0-3-0
 
 pushd ..\..\gryLibrary
 git checkout %currentDevBranch%
