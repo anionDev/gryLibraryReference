@@ -404,9 +404,9 @@
       <ModuleName>Microsoft.VisualStudio.TestPlatform.ObjectModel</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="D8-58-D6-FB-BE-CE-58-EE-ED-AD-FC-31-51-9F-53-36-12-B0-6C-9F">
+    <Module skippedDueTo="Filter" hash="93-E7-C4-4E-BE-5E-8C-0E-9E-EE-A2-81-0F-C2-13-D6-9D-18-31-28">
       <ModulePath>C:\Dev\projects\gryLibrary\GRYLibraryTest\bin\Release\GRYLibraryTest.dll</ModulePath>
-      <ModuleTime>2019-04-14T16:08:44.4329357Z</ModuleTime>
+      <ModuleTime>2019-04-14T18:42:25.9885601Z</ModuleTime>
       <ModuleName>GRYLibraryTest</ModuleName>
       <Classes />
     </Module>
@@ -440,9 +440,9 @@
       <ModuleName>Microsoft.TestPlatform.CoreUtilities</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="D8-58-D6-FB-BE-CE-58-EE-ED-AD-FC-31-51-9F-53-36-12-B0-6C-9F">
+    <Module skippedDueTo="Filter" hash="93-E7-C4-4E-BE-5E-8C-0E-9E-EE-A2-81-0F-C2-13-D6-9D-18-31-28">
       <ModulePath>C:\Dev\projects\gryLibrary\GRYLibraryTest\bin\Release\GRYLibraryTest.dll</ModulePath>
-      <ModuleTime>2019-04-14T16:08:44.4329357Z</ModuleTime>
+      <ModuleTime>2019-04-14T18:42:25.9885601Z</ModuleTime>
       <ModuleName>GRYLibraryTest</ModuleName>
       <Classes />
     </Module>
@@ -500,9 +500,9 @@
       <ModuleName>System.Globalization</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="D8-58-D6-FB-BE-CE-58-EE-ED-AD-FC-31-51-9F-53-36-12-B0-6C-9F">
+    <Module skippedDueTo="Filter" hash="93-E7-C4-4E-BE-5E-8C-0E-9E-EE-A2-81-0F-C2-13-D6-9D-18-31-28">
       <ModulePath>C:\Dev\projects\gryLibrary\GRYLibraryTest\bin\Release\GRYLibraryTest.dll</ModulePath>
-      <ModuleTime>2019-04-14T16:08:44.4329357Z</ModuleTime>
+      <ModuleTime>2019-04-14T18:42:25.9885601Z</ModuleTime>
       <ModuleName>GRYLibraryTest</ModuleName>
       <Classes />
     </Module>
@@ -584,6 +584,12 @@
       <ModuleName>System.Xml</ModuleName>
       <Classes />
     </Module>
+    <Module skippedDueTo="Filter" hash="6F-7D-E3-BE-C3-7E-85-62-AC-B9-D3-9F-2F-C7-A7-4C-32-95-7A-E8">
+      <ModulePath>C:\Dev\projects\gryLibrary\GRYLibraryTest\bin\Release\de\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll</ModulePath>
+      <ModuleTime>2017-10-09T10:25:46Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources</ModuleName>
+      <Classes />
+    </Module>
     <Module skippedDueTo="Filter" hash="E2-1F-F9-B3-02-3C-58-DD-BF-FA-FF-9D-8C-F3-7B-AA-70-07-1A-90">
       <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Serialization\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll</ModulePath>
       <ModuleTime>2019-01-22T22:55:26.0337455Z</ModuleTime>
@@ -596,10 +602,22 @@
       <ModuleName>System.Resources.ResourceManager</ModuleName>
       <Classes />
     </Module>
+    <Module skippedDueTo="Filter" hash="6F-7D-E3-BE-C3-7E-85-62-AC-B9-D3-9F-2F-C7-A7-4C-32-95-7A-E8">
+      <ModulePath>C:\Dev\projects\gryLibrary\GRYLibraryTest\bin\Release\de\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll</ModulePath>
+      <ModuleTime>2017-10-09T10:25:46Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources</ModuleName>
+      <Classes />
+    </Module>
     <Module skippedDueTo="Filter" hash="9C-AE-2F-6E-35-BB-1C-FF-DF-58-73-2C-99-CA-9D-73-A4-D6-11-31">
       <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\TestPlatform\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll</ModulePath>
       <ModuleTime>2019-04-06T08:21:56.3120249Z</ModuleTime>
       <ModuleName>Microsoft.VisualStudio.TestPlatform.ObjectModel.resources</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="61-71-FB-8E-D0-F8-86-59-51-86-BB-63-D3-F8-42-51-75-2A-C2-3F">
+      <ModulePath>C:\Dev\projects\gryLibrary\GRYLibraryTest\bin\Release\de\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll</ModulePath>
+      <ModuleTime>2017-10-09T10:25:46Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources</ModuleName>
       <Classes />
     </Module>
     <Module skippedDueTo="Filter" hash="BD-E3-3F-DA-C7-EE-14-50-59-28-89-D2-18-9D-FC-6D-E0-6A-B7-44">
@@ -626,9 +644,9 @@
       <ModuleName>Microsoft.TestPlatform.CoreUtilities</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="D8-58-D6-FB-BE-CE-58-EE-ED-AD-FC-31-51-9F-53-36-12-B0-6C-9F">
+    <Module skippedDueTo="Filter" hash="93-E7-C4-4E-BE-5E-8C-0E-9E-EE-A2-81-0F-C2-13-D6-9D-18-31-28">
       <ModulePath>C:\Dev\projects\gryLibrary\GRYLibraryTest\bin\Release\GRYLibraryTest.dll</ModulePath>
-      <ModuleTime>2019-04-14T16:08:44.4329357Z</ModuleTime>
+      <ModuleTime>2019-04-14T18:42:25.9885601Z</ModuleTime>
       <ModuleName>GRYLibraryTest</ModuleName>
       <Classes />
     </Module>
@@ -716,9 +734,9 @@
       <ModuleName>System.Data</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="D8-58-D6-FB-BE-CE-58-EE-ED-AD-FC-31-51-9F-53-36-12-B0-6C-9F">
+    <Module skippedDueTo="Filter" hash="93-E7-C4-4E-BE-5E-8C-0E-9E-EE-A2-81-0F-C2-13-D6-9D-18-31-28">
       <ModulePath>C:\Dev\projects\gryLibrary\GRYLibraryTest\bin\Release\GRYLibraryTest.dll</ModulePath>
-      <ModuleTime>2019-04-14T16:08:44.4329357Z</ModuleTime>
+      <ModuleTime>2019-04-14T18:42:25.9885601Z</ModuleTime>
       <ModuleName>GRYLibraryTest</ModuleName>
       <Classes />
     </Module>
@@ -764,10 +782,10 @@
       <ModuleName>System.Xml</ModuleName>
       <Classes />
     </Module>
-    <Module hash="E2-66-55-0D-47-D7-90-88-AD-1B-E8-88-2B-0E-09-7E-E7-35-F8-46">
+    <Module hash="EA-3A-17-25-80-F1-03-73-B6-B4-FA-55-54-DB-44-E1-89-06-E7-7E">
       <Summary numSequencePoints="1723" visitedSequencePoints="739" numBranchPoints="1144" visitedBranchPoints="432" sequenceCoverage="42.89" branchCoverage="37.76" maxCyclomaticComplexity="28" minCyclomaticComplexity="0" maxCrapScore="62.46" minCrapScore="0" visitedClasses="26" numClasses="50" visitedMethods="229" numMethods="530" />
       <ModulePath>C:\Dev\projects\gryLibrary\GRYLibraryTest\bin\Release\GRYLibrary.dll</ModulePath>
-      <ModuleTime>2019-04-14T15:13:21.478587Z</ModuleTime>
+      <ModuleTime>2019-04-14T18:42:23.7340786Z</ModuleTime>
       <ModuleName>GRYLibrary</ModuleName>
       <Files>
         <File uid="1" fullPath="C:\Dev\projects\gryLibrary\GRYLibrary\Miscellaneous\SimpleObjectPersistence.cs" />
@@ -9111,6 +9129,12 @@
       <ModuleName>Microsoft.TestPlatform.CoreUtilities</ModuleName>
       <Classes />
     </Module>
+    <Module skippedDueTo="Filter" hash="B4-38-24-23-6B-7C-59-C6-DD-A2-81-91-74-2C-E3-7D-79-83-BB-2B">
+      <ModulePath>C:\Dev\projects\gryLibrary\GRYLibraryTest\bin\Release\de\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll</ModulePath>
+      <ModuleTime>2017-10-09T10:25:46Z</ModuleTime>
+      <ModuleName>Microsoft.VisualStudio.TestPlatform.TestFramework.resources</ModuleName>
+      <Classes />
+    </Module>
     <Module skippedDueTo="Filter" hash="B3-94-87-7C-22-6A-C7-08-C8-3A-D7-07-B3-D2-7A-D9-AD-C0-65-27">
       <ModulePath>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\TestPlatform\Microsoft.VisualStudio.QualityTools.ExecutionCommon.dll</ModulePath>
       <ModuleTime>2019-04-06T08:21:56.3120249Z</ModuleTime>
@@ -9135,9 +9159,9 @@
       <ModuleName>Microsoft.VisualStudio.TestPlatform.ObjectModel</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="D8-58-D6-FB-BE-CE-58-EE-ED-AD-FC-31-51-9F-53-36-12-B0-6C-9F">
+    <Module skippedDueTo="Filter" hash="93-E7-C4-4E-BE-5E-8C-0E-9E-EE-A2-81-0F-C2-13-D6-9D-18-31-28">
       <ModulePath>C:\Dev\projects\gryLibrary\GRYLibraryTest\bin\Release\GRYLibraryTest.dll</ModulePath>
-      <ModuleTime>2019-04-14T16:08:44.4329357Z</ModuleTime>
+      <ModuleTime>2019-04-14T18:42:25.9885601Z</ModuleTime>
       <ModuleName>GRYLibraryTest</ModuleName>
       <Classes />
     </Module>
@@ -9147,9 +9171,9 @@
       <ModuleName>Microsoft.VisualStudio.TestPlatform.ObjectModel</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="D8-58-D6-FB-BE-CE-58-EE-ED-AD-FC-31-51-9F-53-36-12-B0-6C-9F">
+    <Module skippedDueTo="Filter" hash="93-E7-C4-4E-BE-5E-8C-0E-9E-EE-A2-81-0F-C2-13-D6-9D-18-31-28">
       <ModulePath>C:\Dev\projects\gryLibrary\GRYLibraryTest\bin\Release\GRYLibraryTest.dll</ModulePath>
-      <ModuleTime>2019-04-14T16:08:44.4329357Z</ModuleTime>
+      <ModuleTime>2019-04-14T18:42:25.9885601Z</ModuleTime>
       <ModuleName>GRYLibraryTest</ModuleName>
       <Classes />
     </Module>
