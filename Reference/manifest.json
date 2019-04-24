@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Dev/projects/gryLibrary/GRYLibrary",
+  "source_base_path": "C:/Dev/projects/gryLibrary/GRYLibrary/ReferenceGeneration",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,10 +9,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.ColorGradient.html",
-          "hash": "HDmxSZVqiCAyln5Wcez2dw=="
+          "hash": "/aaHTKGWzY1aB1BNojDyug=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -21,10 +21,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Event.Argument-2.html",
-          "hash": "9vkAvgC8DyBfrCzcGoPqdA=="
+          "hash": "a7FYw++BMu8Dkc9nDVwBdQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -33,10 +33,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Event.EventSender-2.html",
-          "hash": "RguvAzwbxgqoNxcwI/lbUQ=="
+          "hash": "9j23T3Ah9U23Q0wjvb67CA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -45,10 +45,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Event.IObserver-2.html",
-          "hash": "ZiyDQSU6rOCqFdffvvhPQw=="
+          "hash": "EK8YsovgHjQMNOhnibbLeg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -57,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Event.html",
-          "hash": "bLHqtsRca1wkOdzZnMXV0A=="
+          "hash": "+ISKbBY/EbaoFZjKAlk3nQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -69,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.ExtendedColor.html",
-          "hash": "s4n/y2+tEkd5v0hyilY7/g=="
+          "hash": "okNwXAtilPQ6VfL5eUwcNQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -81,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.ExternalProgramExecutor.html",
-          "hash": "RX3amhhsFr188QM40o/KHQ=="
+          "hash": "LuJY+w7paYteYcsqpE/EBg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -93,10 +93,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.GRYLog.NewLogItemEventHandler.html",
-          "hash": "gi1PpCY9pZXCpjcs0u3J3g=="
+          "hash": "PuNJKsjDF24ffNMEujH4Iw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -105,10 +105,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.GRYLog.html",
-          "hash": "BoAwQeZLV/E58KwdT6LzsQ=="
+          "hash": "yQXKxBhMXUJErqn2a8EiXQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -117,10 +117,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.GRYLogConfiguration.html",
-          "hash": "qgnOxYgZ8RjbPG1cl2N44Q=="
+          "hash": "Yh1MIf4kGWnTnJzdSzIBRA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -129,10 +129,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.GRYLogLogLevel.html",
-          "hash": "odZCmU2wKcw+HoUtid0ZeA=="
+          "hash": "vePdQbOsAkHiZAKNOagmVw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -141,10 +141,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.GRYObjectSystem.Exceptions.InvalidArgumentException.html",
-          "hash": "/PCrlfonxhjTIGZWdfZa2g=="
+          "hash": "1HavSA1P+6ck9F8ilMT0Zg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -153,10 +153,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.GRYObjectSystem.Exceptions.SetNotAllowedException.html",
-          "hash": "X7OiNdTwY5IoOl+Nam6Dtw=="
+          "hash": "OCoLJHjEeDpgcTbx4eSd4Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -165,10 +165,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.GRYObjectSystem.Exceptions.html",
-          "hash": "WFKdh4WHYz7IytYpAav0Zw=="
+          "hash": "D9OPbF+p8LNpvmn6iGNzqw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -177,10 +177,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.GRYObjectSystem.Meta.Property.IProperty.html",
-          "hash": "hChZaJmIUxRc/YLUXRxM2w=="
+          "hash": "hj8lfqK6Jy59m8TyT4af3g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -189,10 +189,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.GRYObjectSystem.Meta.Property.Property-1.html",
-          "hash": "VaH912xKqjdg3J26RzUHSQ=="
+          "hash": "+1En38CfrmxHYUCCP2LkKg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -201,10 +201,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.GRYObjectSystem.Meta.Property.html",
-          "hash": "EtFOCGrFuDhYMap6mojBAQ=="
+          "hash": "JXHdqilMczCiAZKEBdUWlQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -213,10 +213,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.GRYObjectSystem.Other.PropertyChangedEvengArgument-1.html",
-          "hash": "WULPgREjspdbOAIuCaasew=="
+          "hash": "sCqqi10w3uoYWd7VV+n+cQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -225,10 +225,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.GRYObjectSystem.Other.html",
-          "hash": "wlw0qfUoWCy/5a56R3E3JQ=="
+          "hash": "LBfI1ktIq3mJsDWZqbqx7w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -237,10 +237,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Miscellaneous.FileSelector.html",
-          "hash": "tJUZJfqYjj6T438ZE4kGQg=="
+          "hash": "eMoI9kMqUxH2NpT/39b02Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -249,10 +249,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Miscellaneous.Playlists.AbstractPlaylistHandler.html",
-          "hash": "2EXqT/lqqnSn1ZWSXtThkA=="
+          "hash": "0EgJZvaakRFQ/zYhzaZYgA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -261,10 +261,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Miscellaneous.Playlists.ConcretePlaylistHandler.M3UHandler.html",
-          "hash": "qDKeFQR3O+lrihiBrgz5sQ=="
+          "hash": "2kaL0OtWuw6k7qWA9JeJgA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -273,10 +273,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Miscellaneous.Playlists.ConcretePlaylistHandler.PLSHandler.html",
-          "hash": "FZtBW096eUHUTxxLDKAAHA=="
+          "hash": "o9K5oR0yPi9xIxrC//pM6Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -285,10 +285,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Miscellaneous.Playlists.ConcretePlaylistHandler.html",
-          "hash": "DMDu/AEBCngSL+gttPM1dw=="
+          "hash": "UKRtAwvzmx7xUbqGt+pp7w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -297,10 +297,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Miscellaneous.Playlists.html",
-          "hash": "TwSObR9nHPXYd/dqTc+uIg=="
+          "hash": "fHWq8zybu9BVdJ+RKwFCxQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -309,10 +309,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Miscellaneous.Semaphore.html",
-          "hash": "BaZKfoQujSNsC/PmzS+DZg=="
+          "hash": "mpr3jhpe+vi/9MGchi6zYw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -321,10 +321,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Miscellaneous.SimpleStreamMultiplier.html",
-          "hash": "hlNcTkB6JQqG0Ky1BrAWHQ=="
+          "hash": "JKt2pu/wJ5jG23o6Sw4nEQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -333,10 +333,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.html",
-          "hash": "pn3ykEoNXfgJe2I0zKPuyw=="
+          "hash": "v1wn6t1dKqNVUbiBYwMwKg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -345,10 +345,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Miscellaneous.StreamMixer.html",
-          "hash": "lWpBx4ZMWHA1w0g5VYiYHw=="
+          "hash": "F9ptVUsUfkYsKMTioTPr2w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -357,10 +357,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Miscellaneous.TableGenerator.ASCIITable.html",
-          "hash": "epY8wLVv0DvFIa3dbSCGJA=="
+          "hash": "CAwLbl+dHkwNJh9ew/lAqQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -369,10 +369,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Miscellaneous.TableGenerator.CSV.html",
-          "hash": "2dASoGaYZUwRzftRz60yFw=="
+          "hash": "uTwE6VRc8h/qA/To8aoCsw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -381,10 +381,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Miscellaneous.TableGenerator.DoubleLineTableCharacter.html",
-          "hash": "uZp9z3mpcUHJ5GbF8sdBBg=="
+          "hash": "RSn8Lu2Z+JONNqBDuWiiKw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -393,10 +393,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Miscellaneous.TableGenerator.HTMLTable.html",
-          "hash": "mcfNf3FTjhbRN9VC3KVrTQ=="
+          "hash": "LV8t688qbSYpYCi1VCg1wg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -405,10 +405,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Miscellaneous.TableGenerator.ITableCharacter.html",
-          "hash": "BfCT0P4EwWegReWr13fucA=="
+          "hash": "dPzK32g8Y2CbC5OWNFtISQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -417,10 +417,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Miscellaneous.TableGenerator.ITableOutputTypeVisitor-1.html",
-          "hash": "g5ZyIymTbOMeXiyoBaalBQ=="
+          "hash": "pttwoHs5a9qWIhqQDPsbQQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -429,10 +429,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Miscellaneous.TableGenerator.ITableOutputTypeVisitor.html",
-          "hash": "o4XehmJvOivKlfa+kYNZ6g=="
+          "hash": "y1d61X/P3s5A/wqAxmhOFg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -441,10 +441,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Miscellaneous.TableGenerator.OneLineTableCharacter.html",
-          "hash": "fKC/YlIqcAhTCoVBlnAAQA=="
+          "hash": "oueZyO0TpL6fy+eL2NFfMw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -453,10 +453,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Miscellaneous.TableGenerator.RoundLineTableCharacter.html",
-          "hash": "m3ENudNRRtxiAbm34YC75Q=="
+          "hash": "5oDGAjynJPIewq4+RTGmsw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -465,10 +465,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Miscellaneous.TableGenerator.TableOutputType.html",
-          "hash": "GnEn5L+saLAoG7NQPYc/3A=="
+          "hash": "hq7mowrJcIlYpCBxwcT9BA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -477,10 +477,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Miscellaneous.TableGenerator.html",
-          "hash": "uAVonOwlxdqQWNwO/Pla7Q=="
+          "hash": "Kac/AQ/VG5KZpMYc917nqw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -489,10 +489,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Miscellaneous.TaskQueue.html",
-          "hash": "ILIRmjFoCPyAHdK7cwIZKg=="
+          "hash": "zz03abZ/aVBXndtTAhPRBA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -501,10 +501,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Miscellaneous.TupleWithValueComparisonEquals-2.html",
-          "hash": "0uqad96uFzIL6+usUrc96w=="
+          "hash": "787J+oAzK+w14RznlcEmyA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -513,10 +513,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Miscellaneous.WriteableTuple-2.html",
-          "hash": "09KjR5v2ryRUrWoVI65uTw=="
+          "hash": "WreCiqrfSGgQTcKbhg89FA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -525,10 +525,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Miscellaneous.html",
-          "hash": "Ni+mb6IroWLy4093F4cTOw=="
+          "hash": "O2FBVpXEK7kg+WQKlUVgyA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -537,10 +537,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.NonPersistentInputHistoryList.html",
-          "hash": "p+/7I2twCLaD2Z7IOxHhxw=="
+          "hash": "NVitj3dTs3CKnMouUaaGMg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -549,10 +549,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.PercentValue.html",
-          "hash": "b/QVgIvEqtMU+ZZ5hfrsGg=="
+          "hash": "nfGQhZI8zFlt/0uFMYbKGw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -561,10 +561,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.SimpleGenericXMLSerializer-1.html",
-          "hash": "Utjbi/+B/3Bs5Sw6JqP8xQ=="
+          "hash": "cOJptIgEozeBZWUhB6sl4Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -573,10 +573,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.SimpleObjectPersistence-1.html",
-          "hash": "xpHo8HD2C+l63XZBBG4GGQ=="
+          "hash": "9K7IvsMkv4pZOO+6c9vYyg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -585,10 +585,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.SupervisedThread.html",
-          "hash": "zgr29gFYHiVvGW5RT/26Ug=="
+          "hash": "dPhduFEBbFBSinTMJ+/mbw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -597,10 +597,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Utilities.html",
-          "hash": "6sng3M3XIhEUceFhuAX6xA=="
+          "hash": "plNkxjFFWTqbRfanlDAS+Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -609,10 +609,22 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.html",
-          "hash": "IbGSgLOR3kIYA8F0SN8voQ=="
+          "hash": "9qdDs6Q2o9clN4eleVOKEg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "6WHHnSUeouv24WUWisBvvw=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -629,11 +641,47 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "hXoVWyp6jV3+QHnpvlGEMQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "InXCLEiZwcZ2tEUzjwUjYA=="
+          "hash": "SAGMPSL71J/FLU9bmZe5cw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "k+/dkjFuwAVS32HduMpmBw=="
         }
       },
       "is_incremental": false,
@@ -649,24 +697,24 @@
         "skipped_file_count": 0
       },
       "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 51,
+          "skipped_file_count": 51
+        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
-        },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 1,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 51,
-          "skipped_file_count": 40
         }
       }
     },
