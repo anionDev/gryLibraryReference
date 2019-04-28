@@ -1,7 +1,5 @@
-set currentDevBranch=dev/grylibrary-0-3-0
-
 pushd ..\..\gryLibrary
-git checkout %currentDevBranch%
+git checkout development
 git pull AnionDev
 popd
 if %errorlevel% neq 0 exit /b %errorlevel%
