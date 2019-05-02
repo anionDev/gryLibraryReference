@@ -404,9 +404,9 @@
       <ModuleName>Microsoft.VisualStudio.TestPlatform.ObjectModel</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="BC-43-FD-B7-E4-91-A2-E6-71-88-0E-0E-3D-6A-63-4E-F8-B3-FB-C5">
+    <Module skippedDueTo="Filter" hash="8E-EA-8C-14-25-79-AF-DB-04-86-9A-0A-33-7F-45-8D-4E-7C-28-6B">
       <ModulePath>C:\Dev\projects\gryLibrary\GRYLibraryTest\bin\Release\GRYLibraryTest.dll</ModulePath>
-      <ModuleTime>2019-05-02T11:27:46.4388457Z</ModuleTime>
+      <ModuleTime>2019-05-02T11:37:36.7799055Z</ModuleTime>
       <ModuleName>GRYLibraryTest</ModuleName>
       <Classes />
     </Module>
@@ -440,9 +440,9 @@
       <ModuleName>Microsoft.TestPlatform.CoreUtilities</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="BC-43-FD-B7-E4-91-A2-E6-71-88-0E-0E-3D-6A-63-4E-F8-B3-FB-C5">
+    <Module skippedDueTo="Filter" hash="8E-EA-8C-14-25-79-AF-DB-04-86-9A-0A-33-7F-45-8D-4E-7C-28-6B">
       <ModulePath>C:\Dev\projects\gryLibrary\GRYLibraryTest\bin\Release\GRYLibraryTest.dll</ModulePath>
-      <ModuleTime>2019-05-02T11:27:46.4388457Z</ModuleTime>
+      <ModuleTime>2019-05-02T11:37:36.7799055Z</ModuleTime>
       <ModuleName>GRYLibraryTest</ModuleName>
       <Classes />
     </Module>
@@ -500,9 +500,9 @@
       <ModuleName>System.Globalization</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="BC-43-FD-B7-E4-91-A2-E6-71-88-0E-0E-3D-6A-63-4E-F8-B3-FB-C5">
+    <Module skippedDueTo="Filter" hash="8E-EA-8C-14-25-79-AF-DB-04-86-9A-0A-33-7F-45-8D-4E-7C-28-6B">
       <ModulePath>C:\Dev\projects\gryLibrary\GRYLibraryTest\bin\Release\GRYLibraryTest.dll</ModulePath>
-      <ModuleTime>2019-05-02T11:27:46.4388457Z</ModuleTime>
+      <ModuleTime>2019-05-02T11:37:36.7799055Z</ModuleTime>
       <ModuleName>GRYLibraryTest</ModuleName>
       <Classes />
     </Module>
@@ -650,9 +650,9 @@
       <ModuleName>Microsoft.TestPlatform.CoreUtilities</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="BC-43-FD-B7-E4-91-A2-E6-71-88-0E-0E-3D-6A-63-4E-F8-B3-FB-C5">
+    <Module skippedDueTo="Filter" hash="8E-EA-8C-14-25-79-AF-DB-04-86-9A-0A-33-7F-45-8D-4E-7C-28-6B">
       <ModulePath>C:\Dev\projects\gryLibrary\GRYLibraryTest\bin\Release\GRYLibraryTest.dll</ModulePath>
-      <ModuleTime>2019-05-02T11:27:46.4388457Z</ModuleTime>
+      <ModuleTime>2019-05-02T11:37:36.7799055Z</ModuleTime>
       <ModuleName>GRYLibraryTest</ModuleName>
       <Classes />
     </Module>
@@ -740,9 +740,9 @@
       <ModuleName>System.Data</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="BC-43-FD-B7-E4-91-A2-E6-71-88-0E-0E-3D-6A-63-4E-F8-B3-FB-C5">
+    <Module skippedDueTo="Filter" hash="8E-EA-8C-14-25-79-AF-DB-04-86-9A-0A-33-7F-45-8D-4E-7C-28-6B">
       <ModulePath>C:\Dev\projects\gryLibrary\GRYLibraryTest\bin\Release\GRYLibraryTest.dll</ModulePath>
-      <ModuleTime>2019-05-02T11:27:46.4388457Z</ModuleTime>
+      <ModuleTime>2019-05-02T11:37:36.7799055Z</ModuleTime>
       <ModuleName>GRYLibraryTest</ModuleName>
       <Classes />
     </Module>
@@ -794,10 +794,10 @@
       <ModuleName>System.Xml</ModuleName>
       <Classes />
     </Module>
-    <Module hash="31-C2-D3-F2-BF-3F-90-06-D0-0D-9E-86-EC-CA-93-0A-FF-2F-4C-6D">
+    <Module hash="56-4E-D8-35-34-73-68-85-BA-A5-39-AC-AD-1C-23-F5-3A-13-29-21">
       <Summary numSequencePoints="1785" visitedSequencePoints="816" numBranchPoints="1202" visitedBranchPoints="475" sequenceCoverage="45.71" branchCoverage="39.52" maxCyclomaticComplexity="29" minCyclomaticComplexity="0" maxCrapScore="67.75" minCrapScore="0" visitedClasses="30" numClasses="54" visitedMethods="264" numMethods="566" />
       <ModulePath>C:\Dev\projects\gryLibrary\GRYLibraryTest\bin\Release\GRYLibrary.dll</ModulePath>
-      <ModuleTime>2019-05-02T11:27:46.1105097Z</ModuleTime>
+      <ModuleTime>2019-05-02T11:37:36.4611258Z</ModuleTime>
       <ModuleName>GRYLibrary</ModuleName>
       <Files>
         <File uid="1" fullPath="C:\Dev\projects\gryLibrary\GRYLibrary\Miscellaneous\SimpleObjectPersistence.cs" />
@@ -9693,9 +9693,9 @@
       <ModuleName>Microsoft.VisualStudio.TestPlatform.ObjectModel</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="BC-43-FD-B7-E4-91-A2-E6-71-88-0E-0E-3D-6A-63-4E-F8-B3-FB-C5">
+    <Module skippedDueTo="Filter" hash="8E-EA-8C-14-25-79-AF-DB-04-86-9A-0A-33-7F-45-8D-4E-7C-28-6B">
       <ModulePath>C:\Dev\projects\gryLibrary\GRYLibraryTest\bin\Release\GRYLibraryTest.dll</ModulePath>
-      <ModuleTime>2019-05-02T11:27:46.4388457Z</ModuleTime>
+      <ModuleTime>2019-05-02T11:37:36.7799055Z</ModuleTime>
       <ModuleName>GRYLibraryTest</ModuleName>
       <Classes />
     </Module>
@@ -9705,9 +9705,9 @@
       <ModuleName>Microsoft.VisualStudio.TestPlatform.ObjectModel</ModuleName>
       <Classes />
     </Module>
-    <Module skippedDueTo="Filter" hash="BC-43-FD-B7-E4-91-A2-E6-71-88-0E-0E-3D-6A-63-4E-F8-B3-FB-C5">
+    <Module skippedDueTo="Filter" hash="8E-EA-8C-14-25-79-AF-DB-04-86-9A-0A-33-7F-45-8D-4E-7C-28-6B">
       <ModulePath>C:\Dev\projects\gryLibrary\GRYLibraryTest\bin\Release\GRYLibraryTest.dll</ModulePath>
-      <ModuleTime>2019-05-02T11:27:46.4388457Z</ModuleTime>
+      <ModuleTime>2019-05-02T11:37:36.7799055Z</ModuleTime>
       <ModuleName>GRYLibraryTest</ModuleName>
       <Classes />
     </Module>
