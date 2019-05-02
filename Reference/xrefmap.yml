@@ -516,31 +516,6 @@ references:
   commentId: T:GRYLibrary.ExternalProgramExecutor
   fullName: GRYLibrary.ExternalProgramExecutor
   nameWithType: ExternalProgramExecutor
-- uid: GRYLibrary.ExternalProgramExecutor.#ctor(System.String,System.String,System.String,System.String,GRYLibrary.GRYLog,System.Boolean,System.Nullable{System.Int32})
-  name: ExternalProgramExecutor(String, String, String, String, GRYLog, Boolean, Nullable<Int32>)
-  href: api/GRYLibrary.ExternalProgramExecutor.html#GRYLibrary_ExternalProgramExecutor__ctor_System_String_System_String_System_String_System_String_GRYLibrary_GRYLog_System_Boolean_System_Nullable_System_Int32__
-  commentId: M:GRYLibrary.ExternalProgramExecutor.#ctor(System.String,System.String,System.String,System.String,GRYLibrary.GRYLog,System.Boolean,System.Nullable{System.Int32})
-  name.vb: ExternalProgramExecutor(String, String, String, String, GRYLog, Boolean, Nullable(Of Int32))
-  fullName: GRYLibrary.ExternalProgramExecutor.ExternalProgramExecutor(System.String, System.String, System.String, System.String, GRYLibrary.GRYLog, System.Boolean, System.Nullable<System.Int32>)
-  fullName.vb: GRYLibrary.ExternalProgramExecutor.ExternalProgramExecutor(System.String, System.String, System.String, System.String, GRYLibrary.GRYLog, System.Boolean, System.Nullable(Of System.Int32))
-  nameWithType: ExternalProgramExecutor.ExternalProgramExecutor(String, String, String, String, GRYLog, Boolean, Nullable<Int32>)
-  nameWithType.vb: ExternalProgramExecutor.ExternalProgramExecutor(String, String, String, String, GRYLog, Boolean, Nullable(Of Int32))
-- uid: GRYLibrary.ExternalProgramExecutor.#ctor(System.String,System.String,System.String,System.String,System.String,System.Boolean,System.Nullable{System.Int32})
-  name: ExternalProgramExecutor(String, String, String, String, String, Boolean, Nullable<Int32>)
-  href: api/GRYLibrary.ExternalProgramExecutor.html#GRYLibrary_ExternalProgramExecutor__ctor_System_String_System_String_System_String_System_String_System_String_System_Boolean_System_Nullable_System_Int32__
-  commentId: M:GRYLibrary.ExternalProgramExecutor.#ctor(System.String,System.String,System.String,System.String,System.String,System.Boolean,System.Nullable{System.Int32})
-  name.vb: ExternalProgramExecutor(String, String, String, String, String, Boolean, Nullable(Of Int32))
-  fullName: GRYLibrary.ExternalProgramExecutor.ExternalProgramExecutor(System.String, System.String, System.String, System.String, System.String, System.Boolean, System.Nullable<System.Int32>)
-  fullName.vb: GRYLibrary.ExternalProgramExecutor.ExternalProgramExecutor(System.String, System.String, System.String, System.String, System.String, System.Boolean, System.Nullable(Of System.Int32))
-  nameWithType: ExternalProgramExecutor.ExternalProgramExecutor(String, String, String, String, String, Boolean, Nullable<Int32>)
-  nameWithType.vb: ExternalProgramExecutor.ExternalProgramExecutor(String, String, String, String, String, Boolean, Nullable(Of Int32))
-- uid: GRYLibrary.ExternalProgramExecutor.#ctor*
-  name: ExternalProgramExecutor
-  href: api/GRYLibrary.ExternalProgramExecutor.html#GRYLibrary_ExternalProgramExecutor__ctor_
-  commentId: Overload:GRYLibrary.ExternalProgramExecutor.#ctor
-  isSpec: "True"
-  fullName: GRYLibrary.ExternalProgramExecutor.ExternalProgramExecutor
-  nameWithType: ExternalProgramExecutor.ExternalProgramExecutor
 - uid: GRYLibrary.ExternalProgramExecutor.Arguments
   name: Arguments
   href: api/GRYLibrary.ExternalProgramExecutor.html#GRYLibrary_ExternalProgramExecutor_Arguments
@@ -554,6 +529,54 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.ExternalProgramExecutor.Arguments
   nameWithType: ExternalProgramExecutor.Arguments
+- uid: GRYLibrary.ExternalProgramExecutor.Create(System.String,System.String,System.String,System.String,System.Boolean,System.Nullable{System.Int32})
+  name: Create(String, String, String, String, Boolean, Nullable<Int32>)
+  href: api/GRYLibrary.ExternalProgramExecutor.html#GRYLibrary_ExternalProgramExecutor_Create_System_String_System_String_System_String_System_String_System_Boolean_System_Nullable_System_Int32__
+  commentId: M:GRYLibrary.ExternalProgramExecutor.Create(System.String,System.String,System.String,System.String,System.Boolean,System.Nullable{System.Int32})
+  name.vb: Create(String, String, String, String, Boolean, Nullable(Of Int32))
+  fullName: GRYLibrary.ExternalProgramExecutor.Create(System.String, System.String, System.String, System.String, System.Boolean, System.Nullable<System.Int32>)
+  fullName.vb: GRYLibrary.ExternalProgramExecutor.Create(System.String, System.String, System.String, System.String, System.Boolean, System.Nullable(Of System.Int32))
+  nameWithType: ExternalProgramExecutor.Create(String, String, String, String, Boolean, Nullable<Int32>)
+  nameWithType.vb: ExternalProgramExecutor.Create(String, String, String, String, Boolean, Nullable(Of Int32))
+- uid: GRYLibrary.ExternalProgramExecutor.Create*
+  name: Create
+  href: api/GRYLibrary.ExternalProgramExecutor.html#GRYLibrary_ExternalProgramExecutor_Create_
+  commentId: Overload:GRYLibrary.ExternalProgramExecutor.Create
+  isSpec: "True"
+  fullName: GRYLibrary.ExternalProgramExecutor.Create
+  nameWithType: ExternalProgramExecutor.Create
+- uid: GRYLibrary.ExternalProgramExecutor.CreateByLogFile(System.String,System.String,System.String,System.String,System.String,System.Boolean,System.Nullable{System.Int32})
+  name: CreateByLogFile(String, String, String, String, String, Boolean, Nullable<Int32>)
+  href: api/GRYLibrary.ExternalProgramExecutor.html#GRYLibrary_ExternalProgramExecutor_CreateByLogFile_System_String_System_String_System_String_System_String_System_String_System_Boolean_System_Nullable_System_Int32__
+  commentId: M:GRYLibrary.ExternalProgramExecutor.CreateByLogFile(System.String,System.String,System.String,System.String,System.String,System.Boolean,System.Nullable{System.Int32})
+  name.vb: CreateByLogFile(String, String, String, String, String, Boolean, Nullable(Of Int32))
+  fullName: GRYLibrary.ExternalProgramExecutor.CreateByLogFile(System.String, System.String, System.String, System.String, System.String, System.Boolean, System.Nullable<System.Int32>)
+  fullName.vb: GRYLibrary.ExternalProgramExecutor.CreateByLogFile(System.String, System.String, System.String, System.String, System.String, System.Boolean, System.Nullable(Of System.Int32))
+  nameWithType: ExternalProgramExecutor.CreateByLogFile(String, String, String, String, String, Boolean, Nullable<Int32>)
+  nameWithType.vb: ExternalProgramExecutor.CreateByLogFile(String, String, String, String, String, Boolean, Nullable(Of Int32))
+- uid: GRYLibrary.ExternalProgramExecutor.CreateByLogFile*
+  name: CreateByLogFile
+  href: api/GRYLibrary.ExternalProgramExecutor.html#GRYLibrary_ExternalProgramExecutor_CreateByLogFile_
+  commentId: Overload:GRYLibrary.ExternalProgramExecutor.CreateByLogFile
+  isSpec: "True"
+  fullName: GRYLibrary.ExternalProgramExecutor.CreateByLogFile
+  nameWithType: ExternalProgramExecutor.CreateByLogFile
+- uid: GRYLibrary.ExternalProgramExecutor.CreateWithGRYLog(System.String,System.String,GRYLibrary.GRYLog,System.String,System.String,System.Boolean,System.Nullable{System.Int32})
+  name: CreateWithGRYLog(String, String, GRYLog, String, String, Boolean, Nullable<Int32>)
+  href: api/GRYLibrary.ExternalProgramExecutor.html#GRYLibrary_ExternalProgramExecutor_CreateWithGRYLog_System_String_System_String_GRYLibrary_GRYLog_System_String_System_String_System_Boolean_System_Nullable_System_Int32__
+  commentId: M:GRYLibrary.ExternalProgramExecutor.CreateWithGRYLog(System.String,System.String,GRYLibrary.GRYLog,System.String,System.String,System.Boolean,System.Nullable{System.Int32})
+  name.vb: CreateWithGRYLog(String, String, GRYLog, String, String, Boolean, Nullable(Of Int32))
+  fullName: GRYLibrary.ExternalProgramExecutor.CreateWithGRYLog(System.String, System.String, GRYLibrary.GRYLog, System.String, System.String, System.Boolean, System.Nullable<System.Int32>)
+  fullName.vb: GRYLibrary.ExternalProgramExecutor.CreateWithGRYLog(System.String, System.String, GRYLibrary.GRYLog, System.String, System.String, System.Boolean, System.Nullable(Of System.Int32))
+  nameWithType: ExternalProgramExecutor.CreateWithGRYLog(String, String, GRYLog, String, String, Boolean, Nullable<Int32>)
+  nameWithType.vb: ExternalProgramExecutor.CreateWithGRYLog(String, String, GRYLog, String, String, Boolean, Nullable(Of Int32))
+- uid: GRYLibrary.ExternalProgramExecutor.CreateWithGRYLog*
+  name: CreateWithGRYLog
+  href: api/GRYLibrary.ExternalProgramExecutor.html#GRYLibrary_ExternalProgramExecutor_CreateWithGRYLog_
+  commentId: Overload:GRYLibrary.ExternalProgramExecutor.CreateWithGRYLog
+  isSpec: "True"
+  fullName: GRYLibrary.ExternalProgramExecutor.CreateWithGRYLog
+  nameWithType: ExternalProgramExecutor.CreateWithGRYLog
 - uid: GRYLibrary.ExternalProgramExecutor.LogObject
   name: LogObject
   href: api/GRYLibrary.ExternalProgramExecutor.html#GRYLibrary_ExternalProgramExecutor_LogObject
@@ -1317,6 +1340,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.GRYLogConfiguration.MaximalLengthOfPrefixes
   nameWithType: GRYLogConfiguration.MaximalLengthOfPrefixes
+- uid: GRYLibrary.GRYLogConfiguration.Name
+  name: Name
+  href: api/GRYLibrary.GRYLogConfiguration.html#GRYLibrary_GRYLogConfiguration_Name
+  commentId: P:GRYLibrary.GRYLogConfiguration.Name
+  fullName: GRYLibrary.GRYLogConfiguration.Name
+  nameWithType: GRYLogConfiguration.Name
+- uid: GRYLibrary.GRYLogConfiguration.Name*
+  name: Name
+  href: api/GRYLibrary.GRYLogConfiguration.html#GRYLibrary_GRYLogConfiguration_Name_
+  commentId: Overload:GRYLibrary.GRYLogConfiguration.Name
+  isSpec: "True"
+  fullName: GRYLibrary.GRYLogConfiguration.Name
+  nameWithType: GRYLogConfiguration.Name
 - uid: GRYLibrary.GRYLogConfiguration.NameOfSourceForWindowsEventViewer
   name: NameOfSourceForWindowsEventViewer
   href: api/GRYLibrary.GRYLogConfiguration.html#GRYLibrary_GRYLogConfiguration_NameOfSourceForWindowsEventViewer
@@ -2337,12 +2373,12 @@ references:
   commentId: T:GRYLibrary.Miscellaneous.Semaphore
   fullName: GRYLibrary.Miscellaneous.Semaphore
   nameWithType: Semaphore
-- uid: GRYLibrary.Miscellaneous.Semaphore.#ctor(System.String,System.Boolean)
-  name: Semaphore(String, Boolean)
-  href: api/GRYLibrary.Miscellaneous.Semaphore.html#GRYLibrary_Miscellaneous_Semaphore__ctor_System_String_System_Boolean_
-  commentId: M:GRYLibrary.Miscellaneous.Semaphore.#ctor(System.String,System.Boolean)
-  fullName: GRYLibrary.Miscellaneous.Semaphore.Semaphore(System.String, System.Boolean)
-  nameWithType: Semaphore.Semaphore(String, Boolean)
+- uid: GRYLibrary.Miscellaneous.Semaphore.#ctor(System.String)
+  name: Semaphore(String)
+  href: api/GRYLibrary.Miscellaneous.Semaphore.html#GRYLibrary_Miscellaneous_Semaphore__ctor_System_String_
+  commentId: M:GRYLibrary.Miscellaneous.Semaphore.#ctor(System.String)
+  fullName: GRYLibrary.Miscellaneous.Semaphore.Semaphore(System.String)
+  nameWithType: Semaphore.Semaphore(String)
 - uid: GRYLibrary.Miscellaneous.Semaphore.#ctor*
   name: Semaphore
   href: api/GRYLibrary.Miscellaneous.Semaphore.html#GRYLibrary_Miscellaneous_Semaphore__ctor_
@@ -2363,6 +2399,32 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Miscellaneous.Semaphore.Decrement
   nameWithType: Semaphore.Decrement
+- uid: GRYLibrary.Miscellaneous.Semaphore.Equals(System.Object)
+  name: Equals(Object)
+  href: api/GRYLibrary.Miscellaneous.Semaphore.html#GRYLibrary_Miscellaneous_Semaphore_Equals_System_Object_
+  commentId: M:GRYLibrary.Miscellaneous.Semaphore.Equals(System.Object)
+  fullName: GRYLibrary.Miscellaneous.Semaphore.Equals(System.Object)
+  nameWithType: Semaphore.Equals(Object)
+- uid: GRYLibrary.Miscellaneous.Semaphore.Equals*
+  name: Equals
+  href: api/GRYLibrary.Miscellaneous.Semaphore.html#GRYLibrary_Miscellaneous_Semaphore_Equals_
+  commentId: Overload:GRYLibrary.Miscellaneous.Semaphore.Equals
+  isSpec: "True"
+  fullName: GRYLibrary.Miscellaneous.Semaphore.Equals
+  nameWithType: Semaphore.Equals
+- uid: GRYLibrary.Miscellaneous.Semaphore.GetHashCode
+  name: GetHashCode()
+  href: api/GRYLibrary.Miscellaneous.Semaphore.html#GRYLibrary_Miscellaneous_Semaphore_GetHashCode
+  commentId: M:GRYLibrary.Miscellaneous.Semaphore.GetHashCode
+  fullName: GRYLibrary.Miscellaneous.Semaphore.GetHashCode()
+  nameWithType: Semaphore.GetHashCode()
+- uid: GRYLibrary.Miscellaneous.Semaphore.GetHashCode*
+  name: GetHashCode
+  href: api/GRYLibrary.Miscellaneous.Semaphore.html#GRYLibrary_Miscellaneous_Semaphore_GetHashCode_
+  commentId: Overload:GRYLibrary.Miscellaneous.Semaphore.GetHashCode
+  isSpec: "True"
+  fullName: GRYLibrary.Miscellaneous.Semaphore.GetHashCode
+  nameWithType: Semaphore.GetHashCode
 - uid: GRYLibrary.Miscellaneous.Semaphore.Increment
   name: Increment()
   href: api/GRYLibrary.Miscellaneous.Semaphore.html#GRYLibrary_Miscellaneous_Semaphore_Increment
@@ -2376,6 +2438,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Miscellaneous.Semaphore.Increment
   nameWithType: Semaphore.Increment
+- uid: GRYLibrary.Miscellaneous.Semaphore.Name
+  name: Name
+  href: api/GRYLibrary.Miscellaneous.Semaphore.html#GRYLibrary_Miscellaneous_Semaphore_Name
+  commentId: P:GRYLibrary.Miscellaneous.Semaphore.Name
+  fullName: GRYLibrary.Miscellaneous.Semaphore.Name
+  nameWithType: Semaphore.Name
+- uid: GRYLibrary.Miscellaneous.Semaphore.Name*
+  name: Name
+  href: api/GRYLibrary.Miscellaneous.Semaphore.html#GRYLibrary_Miscellaneous_Semaphore_Name_
+  commentId: Overload:GRYLibrary.Miscellaneous.Semaphore.Name
+  isSpec: "True"
+  fullName: GRYLibrary.Miscellaneous.Semaphore.Name
+  nameWithType: Semaphore.Name
 - uid: GRYLibrary.Miscellaneous.Semaphore.Value
   name: Value
   href: api/GRYLibrary.Miscellaneous.Semaphore.html#GRYLibrary_Miscellaneous_Semaphore_Value
@@ -2434,122 +2509,6 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Miscellaneous.SimpleStreamMultiplier.Source
   nameWithType: SimpleStreamMultiplier.Source
-- uid: GRYLibrary.Miscellaneous.StreamMixer
-  name: StreamMixer
-  href: api/GRYLibrary.Miscellaneous.StreamMixer.html
-  commentId: T:GRYLibrary.Miscellaneous.StreamMixer
-  fullName: GRYLibrary.Miscellaneous.StreamMixer
-  nameWithType: StreamMixer
-- uid: GRYLibrary.Miscellaneous.StreamMixer.AddPipe(GRYLibrary.Miscellaneous.StreamMixer.StreamPipe)
-  name: AddPipe(StreamMixer.StreamPipe)
-  href: api/GRYLibrary.Miscellaneous.StreamMixer.html#GRYLibrary_Miscellaneous_StreamMixer_AddPipe_GRYLibrary_Miscellaneous_StreamMixer_StreamPipe_
-  commentId: M:GRYLibrary.Miscellaneous.StreamMixer.AddPipe(GRYLibrary.Miscellaneous.StreamMixer.StreamPipe)
-  fullName: GRYLibrary.Miscellaneous.StreamMixer.AddPipe(GRYLibrary.Miscellaneous.StreamMixer.StreamPipe)
-  nameWithType: StreamMixer.AddPipe(StreamMixer.StreamPipe)
-- uid: GRYLibrary.Miscellaneous.StreamMixer.AddPipe*
-  name: AddPipe
-  href: api/GRYLibrary.Miscellaneous.StreamMixer.html#GRYLibrary_Miscellaneous_StreamMixer_AddPipe_
-  commentId: Overload:GRYLibrary.Miscellaneous.StreamMixer.AddPipe
-  isSpec: "True"
-  fullName: GRYLibrary.Miscellaneous.StreamMixer.AddPipe
-  nameWithType: StreamMixer.AddPipe
-- uid: GRYLibrary.Miscellaneous.StreamMixer.GetConnections
-  name: GetConnections()
-  href: api/GRYLibrary.Miscellaneous.StreamMixer.html#GRYLibrary_Miscellaneous_StreamMixer_GetConnections
-  commentId: M:GRYLibrary.Miscellaneous.StreamMixer.GetConnections
-  fullName: GRYLibrary.Miscellaneous.StreamMixer.GetConnections()
-  nameWithType: StreamMixer.GetConnections()
-- uid: GRYLibrary.Miscellaneous.StreamMixer.GetConnections*
-  name: GetConnections
-  href: api/GRYLibrary.Miscellaneous.StreamMixer.html#GRYLibrary_Miscellaneous_StreamMixer_GetConnections_
-  commentId: Overload:GRYLibrary.Miscellaneous.StreamMixer.GetConnections
-  isSpec: "True"
-  fullName: GRYLibrary.Miscellaneous.StreamMixer.GetConnections
-  nameWithType: StreamMixer.GetConnections
-- uid: GRYLibrary.Miscellaneous.StreamMixer.RemovePipe(GRYLibrary.Miscellaneous.StreamMixer.StreamPipe)
-  name: RemovePipe(StreamMixer.StreamPipe)
-  href: api/GRYLibrary.Miscellaneous.StreamMixer.html#GRYLibrary_Miscellaneous_StreamMixer_RemovePipe_GRYLibrary_Miscellaneous_StreamMixer_StreamPipe_
-  commentId: M:GRYLibrary.Miscellaneous.StreamMixer.RemovePipe(GRYLibrary.Miscellaneous.StreamMixer.StreamPipe)
-  fullName: GRYLibrary.Miscellaneous.StreamMixer.RemovePipe(GRYLibrary.Miscellaneous.StreamMixer.StreamPipe)
-  nameWithType: StreamMixer.RemovePipe(StreamMixer.StreamPipe)
-- uid: GRYLibrary.Miscellaneous.StreamMixer.RemovePipe*
-  name: RemovePipe
-  href: api/GRYLibrary.Miscellaneous.StreamMixer.html#GRYLibrary_Miscellaneous_StreamMixer_RemovePipe_
-  commentId: Overload:GRYLibrary.Miscellaneous.StreamMixer.RemovePipe
-  isSpec: "True"
-  fullName: GRYLibrary.Miscellaneous.StreamMixer.RemovePipe
-  nameWithType: StreamMixer.RemovePipe
-- uid: GRYLibrary.Miscellaneous.StreamMixer.StreamPipe
-  name: StreamMixer.StreamPipe
-  href: api/GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.html
-  commentId: T:GRYLibrary.Miscellaneous.StreamMixer.StreamPipe
-  fullName: GRYLibrary.Miscellaneous.StreamMixer.StreamPipe
-  nameWithType: StreamMixer.StreamPipe
-- uid: GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.#ctor(System.IO.Stream,System.IO.Stream)
-  name: StreamPipe(Stream, Stream)
-  href: api/GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.html#GRYLibrary_Miscellaneous_StreamMixer_StreamPipe__ctor_System_IO_Stream_System_IO_Stream_
-  commentId: M:GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.#ctor(System.IO.Stream,System.IO.Stream)
-  fullName: GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.StreamPipe(System.IO.Stream, System.IO.Stream)
-  nameWithType: StreamMixer.StreamPipe.StreamPipe(Stream, Stream)
-- uid: GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.#ctor*
-  name: StreamPipe
-  href: api/GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.html#GRYLibrary_Miscellaneous_StreamMixer_StreamPipe__ctor_
-  commentId: Overload:GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.#ctor
-  isSpec: "True"
-  fullName: GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.StreamPipe
-  nameWithType: StreamMixer.StreamPipe.StreamPipe
-- uid: GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.Equals(System.Object)
-  name: Equals(Object)
-  href: api/GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.html#GRYLibrary_Miscellaneous_StreamMixer_StreamPipe_Equals_System_Object_
-  commentId: M:GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.Equals(System.Object)
-  fullName: GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.Equals(System.Object)
-  nameWithType: StreamMixer.StreamPipe.Equals(Object)
-- uid: GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.Equals*
-  name: Equals
-  href: api/GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.html#GRYLibrary_Miscellaneous_StreamMixer_StreamPipe_Equals_
-  commentId: Overload:GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.Equals
-  isSpec: "True"
-  fullName: GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.Equals
-  nameWithType: StreamMixer.StreamPipe.Equals
-- uid: GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.GetHashCode
-  name: GetHashCode()
-  href: api/GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.html#GRYLibrary_Miscellaneous_StreamMixer_StreamPipe_GetHashCode
-  commentId: M:GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.GetHashCode
-  fullName: GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.GetHashCode()
-  nameWithType: StreamMixer.StreamPipe.GetHashCode()
-- uid: GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.GetHashCode*
-  name: GetHashCode
-  href: api/GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.html#GRYLibrary_Miscellaneous_StreamMixer_StreamPipe_GetHashCode_
-  commentId: Overload:GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.GetHashCode
-  isSpec: "True"
-  fullName: GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.GetHashCode
-  nameWithType: StreamMixer.StreamPipe.GetHashCode
-- uid: GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.Source
-  name: Source
-  href: api/GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.html#GRYLibrary_Miscellaneous_StreamMixer_StreamPipe_Source
-  commentId: P:GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.Source
-  fullName: GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.Source
-  nameWithType: StreamMixer.StreamPipe.Source
-- uid: GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.Source*
-  name: Source
-  href: api/GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.html#GRYLibrary_Miscellaneous_StreamMixer_StreamPipe_Source_
-  commentId: Overload:GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.Source
-  isSpec: "True"
-  fullName: GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.Source
-  nameWithType: StreamMixer.StreamPipe.Source
-- uid: GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.Target
-  name: Target
-  href: api/GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.html#GRYLibrary_Miscellaneous_StreamMixer_StreamPipe_Target
-  commentId: P:GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.Target
-  fullName: GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.Target
-  nameWithType: StreamMixer.StreamPipe.Target
-- uid: GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.Target*
-  name: Target
-  href: api/GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.html#GRYLibrary_Miscellaneous_StreamMixer_StreamPipe_Target_
-  commentId: Overload:GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.Target
-  isSpec: "True"
-  fullName: GRYLibrary.Miscellaneous.StreamMixer.StreamPipe.Target
-  nameWithType: StreamMixer.StreamPipe.Target
 - uid: GRYLibrary.Miscellaneous.TableGenerator
   name: TableGenerator
   href: api/GRYLibrary.Miscellaneous.TableGenerator.html
@@ -2829,34 +2788,6 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Miscellaneous.TableGenerator.Generate
   nameWithType: TableGenerator.Generate
-- uid: GRYLibrary.Miscellaneous.TableGenerator.HTMLTable
-  name: TableGenerator.HTMLTable
-  href: api/GRYLibrary.Miscellaneous.TableGenerator.HTMLTable.html
-  commentId: T:GRYLibrary.Miscellaneous.TableGenerator.HTMLTable
-  fullName: GRYLibrary.Miscellaneous.TableGenerator.HTMLTable
-  nameWithType: TableGenerator.HTMLTable
-- uid: GRYLibrary.Miscellaneous.TableGenerator.HTMLTable.Accept(GRYLibrary.Miscellaneous.TableGenerator.ITableOutputTypeVisitor)
-  name: Accept(TableGenerator.ITableOutputTypeVisitor)
-  href: api/GRYLibrary.Miscellaneous.TableGenerator.HTMLTable.html#GRYLibrary_Miscellaneous_TableGenerator_HTMLTable_Accept_GRYLibrary_Miscellaneous_TableGenerator_ITableOutputTypeVisitor_
-  commentId: M:GRYLibrary.Miscellaneous.TableGenerator.HTMLTable.Accept(GRYLibrary.Miscellaneous.TableGenerator.ITableOutputTypeVisitor)
-  fullName: GRYLibrary.Miscellaneous.TableGenerator.HTMLTable.Accept(GRYLibrary.Miscellaneous.TableGenerator.ITableOutputTypeVisitor)
-  nameWithType: TableGenerator.HTMLTable.Accept(TableGenerator.ITableOutputTypeVisitor)
-- uid: GRYLibrary.Miscellaneous.TableGenerator.HTMLTable.Accept*
-  name: Accept
-  href: api/GRYLibrary.Miscellaneous.TableGenerator.HTMLTable.html#GRYLibrary_Miscellaneous_TableGenerator_HTMLTable_Accept_
-  commentId: Overload:GRYLibrary.Miscellaneous.TableGenerator.HTMLTable.Accept
-  isSpec: "True"
-  fullName: GRYLibrary.Miscellaneous.TableGenerator.HTMLTable.Accept
-  nameWithType: TableGenerator.HTMLTable.Accept
-- uid: GRYLibrary.Miscellaneous.TableGenerator.HTMLTable.Accept``1(GRYLibrary.Miscellaneous.TableGenerator.ITableOutputTypeVisitor{``0})
-  name: Accept<T>(TableGenerator.ITableOutputTypeVisitor<T>)
-  href: api/GRYLibrary.Miscellaneous.TableGenerator.HTMLTable.html#GRYLibrary_Miscellaneous_TableGenerator_HTMLTable_Accept__1_GRYLibrary_Miscellaneous_TableGenerator_ITableOutputTypeVisitor___0__
-  commentId: M:GRYLibrary.Miscellaneous.TableGenerator.HTMLTable.Accept``1(GRYLibrary.Miscellaneous.TableGenerator.ITableOutputTypeVisitor{``0})
-  name.vb: Accept(Of T)(TableGenerator.ITableOutputTypeVisitor(Of T))
-  fullName: GRYLibrary.Miscellaneous.TableGenerator.HTMLTable.Accept<T>(GRYLibrary.Miscellaneous.TableGenerator.ITableOutputTypeVisitor<T>)
-  fullName.vb: GRYLibrary.Miscellaneous.TableGenerator.HTMLTable.Accept(Of T)(GRYLibrary.Miscellaneous.TableGenerator.ITableOutputTypeVisitor(Of T))
-  nameWithType: TableGenerator.HTMLTable.Accept<T>(TableGenerator.ITableOutputTypeVisitor<T>)
-  nameWithType.vb: TableGenerator.HTMLTable.Accept(Of T)(TableGenerator.ITableOutputTypeVisitor(Of T))
 - uid: GRYLibrary.Miscellaneous.TableGenerator.ITableCharacter
   name: TableGenerator.ITableCharacter
   href: api/GRYLibrary.Miscellaneous.TableGenerator.ITableCharacter.html
@@ -3024,12 +2955,6 @@ references:
   commentId: M:GRYLibrary.Miscellaneous.TableGenerator.ITableOutputTypeVisitor.Handle(GRYLibrary.Miscellaneous.TableGenerator.CSV)
   fullName: GRYLibrary.Miscellaneous.TableGenerator.ITableOutputTypeVisitor.Handle(GRYLibrary.Miscellaneous.TableGenerator.CSV)
   nameWithType: TableGenerator.ITableOutputTypeVisitor.Handle(TableGenerator.CSV)
-- uid: GRYLibrary.Miscellaneous.TableGenerator.ITableOutputTypeVisitor.Handle(GRYLibrary.Miscellaneous.TableGenerator.HTMLTable)
-  name: Handle(TableGenerator.HTMLTable)
-  href: api/GRYLibrary.Miscellaneous.TableGenerator.ITableOutputTypeVisitor.html#GRYLibrary_Miscellaneous_TableGenerator_ITableOutputTypeVisitor_Handle_GRYLibrary_Miscellaneous_TableGenerator_HTMLTable_
-  commentId: M:GRYLibrary.Miscellaneous.TableGenerator.ITableOutputTypeVisitor.Handle(GRYLibrary.Miscellaneous.TableGenerator.HTMLTable)
-  fullName: GRYLibrary.Miscellaneous.TableGenerator.ITableOutputTypeVisitor.Handle(GRYLibrary.Miscellaneous.TableGenerator.HTMLTable)
-  nameWithType: TableGenerator.ITableOutputTypeVisitor.Handle(TableGenerator.HTMLTable)
 - uid: GRYLibrary.Miscellaneous.TableGenerator.ITableOutputTypeVisitor.Handle*
   name: Handle
   href: api/GRYLibrary.Miscellaneous.TableGenerator.ITableOutputTypeVisitor.html#GRYLibrary_Miscellaneous_TableGenerator_ITableOutputTypeVisitor_Handle_
@@ -3062,14 +2987,6 @@ references:
   fullName.vb: GRYLibrary.Miscellaneous.TableGenerator.ITableOutputTypeVisitor(Of T).Handle(GRYLibrary.Miscellaneous.TableGenerator.CSV)
   nameWithType: TableGenerator.ITableOutputTypeVisitor<T>.Handle(TableGenerator.CSV)
   nameWithType.vb: TableGenerator.ITableOutputTypeVisitor(Of T).Handle(TableGenerator.CSV)
-- uid: GRYLibrary.Miscellaneous.TableGenerator.ITableOutputTypeVisitor`1.Handle(GRYLibrary.Miscellaneous.TableGenerator.HTMLTable)
-  name: Handle(TableGenerator.HTMLTable)
-  href: api/GRYLibrary.Miscellaneous.TableGenerator.ITableOutputTypeVisitor-1.html#GRYLibrary_Miscellaneous_TableGenerator_ITableOutputTypeVisitor_1_Handle_GRYLibrary_Miscellaneous_TableGenerator_HTMLTable_
-  commentId: M:GRYLibrary.Miscellaneous.TableGenerator.ITableOutputTypeVisitor`1.Handle(GRYLibrary.Miscellaneous.TableGenerator.HTMLTable)
-  fullName: GRYLibrary.Miscellaneous.TableGenerator.ITableOutputTypeVisitor<T>.Handle(GRYLibrary.Miscellaneous.TableGenerator.HTMLTable)
-  fullName.vb: GRYLibrary.Miscellaneous.TableGenerator.ITableOutputTypeVisitor(Of T).Handle(GRYLibrary.Miscellaneous.TableGenerator.HTMLTable)
-  nameWithType: TableGenerator.ITableOutputTypeVisitor<T>.Handle(TableGenerator.HTMLTable)
-  nameWithType.vb: TableGenerator.ITableOutputTypeVisitor(Of T).Handle(TableGenerator.HTMLTable)
 - uid: GRYLibrary.Miscellaneous.TableGenerator.ITableOutputTypeVisitor`1.Handle*
   name: Handle
   href: api/GRYLibrary.Miscellaneous.TableGenerator.ITableOutputTypeVisitor-1.html#GRYLibrary_Miscellaneous_TableGenerator_ITableOutputTypeVisitor_1_Handle_
@@ -4029,25 +3946,6 @@ references:
   commentId: T:GRYLibrary.SupervisedThread
   fullName: GRYLibrary.SupervisedThread
   nameWithType: SupervisedThread
-- uid: GRYLibrary.SupervisedThread.#ctor(System.Action,GRYLibrary.GRYLog,System.String,System.String)
-  name: SupervisedThread(Action, GRYLog, String, String)
-  href: api/GRYLibrary.SupervisedThread.html#GRYLibrary_SupervisedThread__ctor_System_Action_GRYLibrary_GRYLog_System_String_System_String_
-  commentId: M:GRYLibrary.SupervisedThread.#ctor(System.Action,GRYLibrary.GRYLog,System.String,System.String)
-  fullName: GRYLibrary.SupervisedThread.SupervisedThread(System.Action, GRYLibrary.GRYLog, System.String, System.String)
-  nameWithType: SupervisedThread.SupervisedThread(Action, GRYLog, String, String)
-- uid: GRYLibrary.SupervisedThread.#ctor(System.Action,System.String,System.String,System.String)
-  name: SupervisedThread(Action, String, String, String)
-  href: api/GRYLibrary.SupervisedThread.html#GRYLibrary_SupervisedThread__ctor_System_Action_System_String_System_String_System_String_
-  commentId: M:GRYLibrary.SupervisedThread.#ctor(System.Action,System.String,System.String,System.String)
-  fullName: GRYLibrary.SupervisedThread.SupervisedThread(System.Action, System.String, System.String, System.String)
-  nameWithType: SupervisedThread.SupervisedThread(Action, String, String, String)
-- uid: GRYLibrary.SupervisedThread.#ctor*
-  name: SupervisedThread
-  href: api/GRYLibrary.SupervisedThread.html#GRYLibrary_SupervisedThread__ctor_
-  commentId: Overload:GRYLibrary.SupervisedThread.#ctor
-  isSpec: "True"
-  fullName: GRYLibrary.SupervisedThread.SupervisedThread
-  nameWithType: SupervisedThread.SupervisedThread
 - uid: GRYLibrary.SupervisedThread.Abort
   name: Abort()
   href: api/GRYLibrary.SupervisedThread.html#GRYLibrary_SupervisedThread_Abort
@@ -4074,6 +3972,45 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.SupervisedThread.Action
   nameWithType: SupervisedThread.Action
+- uid: GRYLibrary.SupervisedThread.Create(System.Action,System.String,System.String)
+  name: Create(Action, String, String)
+  href: api/GRYLibrary.SupervisedThread.html#GRYLibrary_SupervisedThread_Create_System_Action_System_String_System_String_
+  commentId: M:GRYLibrary.SupervisedThread.Create(System.Action,System.String,System.String)
+  fullName: GRYLibrary.SupervisedThread.Create(System.Action, System.String, System.String)
+  nameWithType: SupervisedThread.Create(Action, String, String)
+- uid: GRYLibrary.SupervisedThread.Create*
+  name: Create
+  href: api/GRYLibrary.SupervisedThread.html#GRYLibrary_SupervisedThread_Create_
+  commentId: Overload:GRYLibrary.SupervisedThread.Create
+  isSpec: "True"
+  fullName: GRYLibrary.SupervisedThread.Create
+  nameWithType: SupervisedThread.Create
+- uid: GRYLibrary.SupervisedThread.CreateByLogFile(System.Action,System.String,System.String,System.String)
+  name: CreateByLogFile(Action, String, String, String)
+  href: api/GRYLibrary.SupervisedThread.html#GRYLibrary_SupervisedThread_CreateByLogFile_System_Action_System_String_System_String_System_String_
+  commentId: M:GRYLibrary.SupervisedThread.CreateByLogFile(System.Action,System.String,System.String,System.String)
+  fullName: GRYLibrary.SupervisedThread.CreateByLogFile(System.Action, System.String, System.String, System.String)
+  nameWithType: SupervisedThread.CreateByLogFile(Action, String, String, String)
+- uid: GRYLibrary.SupervisedThread.CreateByLogFile*
+  name: CreateByLogFile
+  href: api/GRYLibrary.SupervisedThread.html#GRYLibrary_SupervisedThread_CreateByLogFile_
+  commentId: Overload:GRYLibrary.SupervisedThread.CreateByLogFile
+  isSpec: "True"
+  fullName: GRYLibrary.SupervisedThread.CreateByLogFile
+  nameWithType: SupervisedThread.CreateByLogFile
+- uid: GRYLibrary.SupervisedThread.CreateWithGRYLog(System.Action,GRYLibrary.GRYLog,System.String,System.String)
+  name: CreateWithGRYLog(Action, GRYLog, String, String)
+  href: api/GRYLibrary.SupervisedThread.html#GRYLibrary_SupervisedThread_CreateWithGRYLog_System_Action_GRYLibrary_GRYLog_System_String_System_String_
+  commentId: M:GRYLibrary.SupervisedThread.CreateWithGRYLog(System.Action,GRYLibrary.GRYLog,System.String,System.String)
+  fullName: GRYLibrary.SupervisedThread.CreateWithGRYLog(System.Action, GRYLibrary.GRYLog, System.String, System.String)
+  nameWithType: SupervisedThread.CreateWithGRYLog(Action, GRYLog, String, String)
+- uid: GRYLibrary.SupervisedThread.CreateWithGRYLog*
+  name: CreateWithGRYLog
+  href: api/GRYLibrary.SupervisedThread.html#GRYLibrary_SupervisedThread_CreateWithGRYLog_
+  commentId: Overload:GRYLibrary.SupervisedThread.CreateWithGRYLog
+  isSpec: "True"
+  fullName: GRYLibrary.SupervisedThread.CreateWithGRYLog
+  nameWithType: SupervisedThread.CreateWithGRYLog
 - uid: GRYLibrary.SupervisedThread.Id
   name: Id
   href: api/GRYLibrary.SupervisedThread.html#GRYLibrary_SupervisedThread_Id
@@ -4219,22 +4156,6 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Utilities.ClearFile
   nameWithType: Utilities.ClearFile
-- uid: GRYLibrary.Utilities.ConvertEnumerableOfEnumerableTo2DArray*
-  name: ConvertEnumerableOfEnumerableTo2DArray
-  href: api/GRYLibrary.Utilities.html#GRYLibrary_Utilities_ConvertEnumerableOfEnumerableTo2DArray_
-  commentId: Overload:GRYLibrary.Utilities.ConvertEnumerableOfEnumerableTo2DArray
-  isSpec: "True"
-  fullName: GRYLibrary.Utilities.ConvertEnumerableOfEnumerableTo2DArray
-  nameWithType: Utilities.ConvertEnumerableOfEnumerableTo2DArray
-- uid: GRYLibrary.Utilities.ConvertEnumerableOfEnumerableTo2DArray``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{``0}})
-  name: ConvertEnumerableOfEnumerableTo2DArray<T>(IEnumerable<IEnumerable<T>>)
-  href: api/GRYLibrary.Utilities.html#GRYLibrary_Utilities_ConvertEnumerableOfEnumerableTo2DArray__1_System_Collections_Generic_IEnumerable_System_Collections_Generic_IEnumerable___0___
-  commentId: M:GRYLibrary.Utilities.ConvertEnumerableOfEnumerableTo2DArray``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{``0}})
-  name.vb: ConvertEnumerableOfEnumerableTo2DArray(Of T)(IEnumerable(Of IEnumerable(Of T)))
-  fullName: GRYLibrary.Utilities.ConvertEnumerableOfEnumerableTo2DArray<T>(System.Collections.Generic.IEnumerable<System.Collections.Generic.IEnumerable<T>>)
-  fullName.vb: GRYLibrary.Utilities.ConvertEnumerableOfEnumerableTo2DArray(Of T)(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.IEnumerable(Of T)))
-  nameWithType: Utilities.ConvertEnumerableOfEnumerableTo2DArray<T>(IEnumerable<IEnumerable<T>>)
-  nameWithType.vb: Utilities.ConvertEnumerableOfEnumerableTo2DArray(Of T)(IEnumerable(Of IEnumerable(Of T)))
 - uid: GRYLibrary.Utilities.CopyFolderAcrossVolumes(System.String,System.String)
   name: CopyFolderAcrossVolumes(String, String)
   href: api/GRYLibrary.Utilities.html#GRYLibrary_Utilities_CopyFolderAcrossVolumes_System_String_System_String_
@@ -4524,6 +4445,22 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Utilities.EnsurePathStartsWithSlash
   nameWithType: Utilities.EnsurePathStartsWithSlash
+- uid: GRYLibrary.Utilities.EnumerableOfEnumerableToJaggedArray*
+  name: EnumerableOfEnumerableToJaggedArray
+  href: api/GRYLibrary.Utilities.html#GRYLibrary_Utilities_EnumerableOfEnumerableToJaggedArray_
+  commentId: Overload:GRYLibrary.Utilities.EnumerableOfEnumerableToJaggedArray
+  isSpec: "True"
+  fullName: GRYLibrary.Utilities.EnumerableOfEnumerableToJaggedArray
+  nameWithType: Utilities.EnumerableOfEnumerableToJaggedArray
+- uid: GRYLibrary.Utilities.EnumerableOfEnumerableToJaggedArray``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{``0}})
+  name: EnumerableOfEnumerableToJaggedArray<T>(IEnumerable<IEnumerable<T>>)
+  href: api/GRYLibrary.Utilities.html#GRYLibrary_Utilities_EnumerableOfEnumerableToJaggedArray__1_System_Collections_Generic_IEnumerable_System_Collections_Generic_IEnumerable___0___
+  commentId: M:GRYLibrary.Utilities.EnumerableOfEnumerableToJaggedArray``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{``0}})
+  name.vb: EnumerableOfEnumerableToJaggedArray(Of T)(IEnumerable(Of IEnumerable(Of T)))
+  fullName: GRYLibrary.Utilities.EnumerableOfEnumerableToJaggedArray<T>(System.Collections.Generic.IEnumerable<System.Collections.Generic.IEnumerable<T>>)
+  fullName.vb: GRYLibrary.Utilities.EnumerableOfEnumerableToJaggedArray(Of T)(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.IEnumerable(Of T)))
+  nameWithType: Utilities.EnumerableOfEnumerableToJaggedArray<T>(IEnumerable<IEnumerable<T>>)
+  nameWithType.vb: Utilities.EnumerableOfEnumerableToJaggedArray(Of T)(IEnumerable(Of IEnumerable(Of T)))
 - uid: GRYLibrary.Utilities.EqualsIgnoringOrder*
   name: EqualsIgnoringOrder
   href: api/GRYLibrary.Utilities.html#GRYLibrary_Utilities_EqualsIgnoringOrder_
@@ -4660,15 +4597,6 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Utilities.GetHexValue
   nameWithType: Utilities.GetHexValue
-- uid: GRYLibrary.Utilities.GuessEncodingOfByteArray(System.Byte[],System.Text.Encoding)
-  name: GuessEncodingOfByteArray(Byte[], Encoding)
-  href: api/GRYLibrary.Utilities.html#GRYLibrary_Utilities_GuessEncodingOfByteArray_System_Byte___System_Text_Encoding_
-  commentId: M:GRYLibrary.Utilities.GuessEncodingOfByteArray(System.Byte[],System.Text.Encoding)
-  name.vb: GuessEncodingOfByteArray(Byte(), Encoding)
-  fullName: GRYLibrary.Utilities.GuessEncodingOfByteArray(System.Byte[], System.Text.Encoding)
-  fullName.vb: GRYLibrary.Utilities.GuessEncodingOfByteArray(System.Byte(), System.Text.Encoding)
-  nameWithType: Utilities.GuessEncodingOfByteArray(Byte[], Encoding)
-  nameWithType.vb: Utilities.GuessEncodingOfByteArray(Byte(), Encoding)
 - uid: GRYLibrary.Utilities.GuessEncodingOfByteArray(System.String,System.Text.Encoding)
   name: GuessEncodingOfByteArray(String, Encoding)
   href: api/GRYLibrary.Utilities.html#GRYLibrary_Utilities_GuessEncodingOfByteArray_System_String_System_Text_Encoding_
@@ -4812,6 +4740,22 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Utilities.IsRelativePath
   nameWithType: Utilities.IsRelativePath
+- uid: GRYLibrary.Utilities.JaggedArrayToTwoDimensionalArray*
+  name: JaggedArrayToTwoDimensionalArray
+  href: api/GRYLibrary.Utilities.html#GRYLibrary_Utilities_JaggedArrayToTwoDimensionalArray_
+  commentId: Overload:GRYLibrary.Utilities.JaggedArrayToTwoDimensionalArray
+  isSpec: "True"
+  fullName: GRYLibrary.Utilities.JaggedArrayToTwoDimensionalArray
+  nameWithType: Utilities.JaggedArrayToTwoDimensionalArray
+- uid: GRYLibrary.Utilities.JaggedArrayToTwoDimensionalArray``1(``0[][])
+  name: JaggedArrayToTwoDimensionalArray<T>(T[][])
+  href: api/GRYLibrary.Utilities.html#GRYLibrary_Utilities_JaggedArrayToTwoDimensionalArray__1___0_____
+  commentId: M:GRYLibrary.Utilities.JaggedArrayToTwoDimensionalArray``1(``0[][])
+  name.vb: JaggedArrayToTwoDimensionalArray(Of T)(T()())
+  fullName: GRYLibrary.Utilities.JaggedArrayToTwoDimensionalArray<T>(T[][])
+  fullName.vb: GRYLibrary.Utilities.JaggedArrayToTwoDimensionalArray(Of T)(T()())
+  nameWithType: Utilities.JaggedArrayToTwoDimensionalArray<T>(T[][])
+  nameWithType.vb: Utilities.JaggedArrayToTwoDimensionalArray(Of T)(T()())
 - uid: GRYLibrary.Utilities.Load*
   name: Load
   href: api/GRYLibrary.Utilities.html#GRYLibrary_Utilities_Load_

@@ -110,92 +110,6 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class SupervisedThread</code></pre>
   </div>
-  <h3 id="constructors">Constructors
-  </h3>
-  
-  
-  <a id="GRYLibrary_SupervisedThread__ctor_" data-uid="GRYLibrary.SupervisedThread.#ctor*"></a>
-  <h4 id="GRYLibrary_SupervisedThread__ctor_System_Action_GRYLibrary_GRYLog_System_String_System_String_" data-uid="GRYLibrary.SupervisedThread.#ctor(System.Action,GRYLibrary.GRYLog,System.String,System.String)">SupervisedThread(Action, GRYLog, String, String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SupervisedThread(Action action, GRYLog log, string name = &quot;&quot;, string informationAboutInvoker = &quot;&quot;)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Action</span></td>
-        <td><span class="parametername">action</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="GRYLibrary.GRYLog.html">GRYLog</a></td>
-        <td><span class="parametername">log</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">informationAboutInvoker</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="GRYLibrary_SupervisedThread__ctor_" data-uid="GRYLibrary.SupervisedThread.#ctor*"></a>
-  <h4 id="GRYLibrary_SupervisedThread__ctor_System_Action_System_String_System_String_System_String_" data-uid="GRYLibrary.SupervisedThread.#ctor(System.Action,System.String,System.String,System.String)">SupervisedThread(Action, String, String, String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SupervisedThread(Action action, string logFile = &quot;&quot;, string name = &quot;&quot;, string informationAboutInvoker = &quot;&quot;)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Action</span></td>
-        <td><span class="parametername">action</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">logFile</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">informationAboutInvoker</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="properties">Properties
   </h3>
   
@@ -360,6 +274,172 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Abort()</code></pre>
   </div>
+  
+  
+  <a id="GRYLibrary_SupervisedThread_Create_" data-uid="GRYLibrary.SupervisedThread.Create*"></a>
+  <h4 id="GRYLibrary_SupervisedThread_Create_System_Action_System_String_System_String_" data-uid="GRYLibrary.SupervisedThread.Create(System.Action,System.String,System.String)">Create(Action, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SupervisedThread Create(Action action, string name = &quot;&quot;, string informationAboutInvoker = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">action</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">informationAboutInvoker</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GRYLibrary.SupervisedThread.html">SupervisedThread</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_SupervisedThread_CreateByLogFile_" data-uid="GRYLibrary.SupervisedThread.CreateByLogFile*"></a>
+  <h4 id="GRYLibrary_SupervisedThread_CreateByLogFile_System_Action_System_String_System_String_System_String_" data-uid="GRYLibrary.SupervisedThread.CreateByLogFile(System.Action,System.String,System.String,System.String)">CreateByLogFile(Action, String, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SupervisedThread CreateByLogFile(Action action, string logFile, string name = &quot;&quot;, string informationAboutInvoker = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">action</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">logFile</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">informationAboutInvoker</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GRYLibrary.SupervisedThread.html">SupervisedThread</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_SupervisedThread_CreateWithGRYLog_" data-uid="GRYLibrary.SupervisedThread.CreateWithGRYLog*"></a>
+  <h4 id="GRYLibrary_SupervisedThread_CreateWithGRYLog_System_Action_GRYLibrary_GRYLog_System_String_System_String_" data-uid="GRYLibrary.SupervisedThread.CreateWithGRYLog(System.Action,GRYLibrary.GRYLog,System.String,System.String)">CreateWithGRYLog(Action, GRYLog, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SupervisedThread CreateWithGRYLog(Action action, GRYLog log = null, string name = &quot;&quot;, string informationAboutInvoker = &quot;&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">action</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GRYLibrary.GRYLog.html">GRYLog</a></td>
+        <td><span class="parametername">log</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">informationAboutInvoker</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GRYLibrary.SupervisedThread.html">SupervisedThread</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="GRYLibrary_SupervisedThread_Start_" data-uid="GRYLibrary.SupervisedThread.Start*"></a>

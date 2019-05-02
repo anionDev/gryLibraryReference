@@ -211,37 +211,37 @@ var assemblies = [
     "name": "GRYLibrary",
     "classes": [
       { "name": "GRYLibrary.ColorGradient", "rp": "GRYLibrary_ColorGradient.htm", "cl": 13, "ucl": 0, "cal": 13, "tl": 33, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "GRYLibrary.Event.Argument`2", "rp": "GRYLibrary_Argument_2.htm", "cl": 5, "ucl": 1, "cal": 6, "tl": 14, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "GRYLibrary.Event.EventSender`2", "rp": "GRYLibrary_EventSender_2.htm", "cl": 12, "ucl": 12, "cal": 24, "tl": 61, "ct": "LineCoverage", "mc": "-", "cb": 1, "tb": 8, "lch": [], "bch": [], "hc": [] },
+      { "name": "GRYLibrary.Event.Argument`2", "rp": "GRYLibrary_Argument_2.htm", "cl": 4, "ucl": 2, "cal": 6, "tl": 14, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "GRYLibrary.Event.EventSender`2", "rp": "GRYLibrary_EventSender_2.htm", "cl": 12, "ucl": 10, "cal": 22, "tl": 55, "ct": "LineCoverage", "mc": "-", "cb": 1, "tb": 4, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.ExtendedColor", "rp": "GRYLibrary_ExtendedColor.htm", "cl": 36, "ucl": 4, "cal": 40, "tl": 85, "ct": "LineCoverage", "mc": "-", "cb": 3, "tb": 6, "lch": [], "bch": [], "hc": [] },
-      { "name": "GRYLibrary.ExternalProgramExecutor", "rp": "GRYLibrary_ExternalProgramExecutor.htm", "cl": 0, "ucl": 108, "cal": 108, "tl": 181, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 34, "lch": [], "bch": [], "hc": [] },
-      { "name": "GRYLibrary.GRYLog", "rp": "GRYLibrary_GRYLog.htm", "cl": 70, "ucl": 204, "cal": 274, "tl": 713, "ct": "LineCoverage", "mc": "-", "cb": 41, "tb": 148, "lch": [], "bch": [], "hc": [] },
-      { "name": "GRYLibrary.GRYLogConfiguration", "rp": "GRYLibrary_GRYLogConfiguration.htm", "cl": 87, "ucl": 9, "cal": 96, "tl": 713, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "GRYLibrary.ExternalProgramExecutor", "rp": "GRYLibrary_ExternalProgramExecutor.htm", "cl": 0, "ucl": 107, "cal": 107, "tl": 187, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 34, "lch": [], "bch": [], "hc": [] },
+      { "name": "GRYLibrary.GRYLog", "rp": "GRYLibrary_GRYLog.htm", "cl": 71, "ucl": 205, "cal": 276, "tl": 719, "ct": "LineCoverage", "mc": "-", "cb": 42, "tb": 150, "lch": [], "bch": [], "hc": [] },
+      { "name": "GRYLibrary.GRYLogConfiguration", "rp": "GRYLibrary_GRYLogConfiguration.htm", "cl": 89, "ucl": 9, "cal": 98, "tl": 719, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.GRYObjectSystem.Exceptions.InvalidArgumentException", "rp": "GRYLibrary_InvalidArgumentException.htm", "cl": 2, "ucl": 2, "cal": 4, "tl": 14, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.GRYObjectSystem.Exceptions.SetNotAllowedException", "rp": "GRYLibrary_SetNotAllowedException.htm", "cl": 0, "ucl": 4, "cal": 4, "tl": 12, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.GRYObjectSystem.Meta.Attribute", "rp": "GRYLibrary_Attribute.htm", "cl": 0, "ucl": 6, "cal": 6, "tl": 14, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.GRYObjectSystem.Meta.Object", "rp": "GRYLibrary_Object.htm", "cl": 0, "ucl": 6, "cal": 6, "tl": 16, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.GRYObjectSystem.Meta.Operation", "rp": "GRYLibrary_Operation.htm", "cl": 0, "ucl": 4, "cal": 4, "tl": 11, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "GRYLibrary.GRYObjectSystem.Meta.Property.Property`1", "rp": "GRYLibrary_Property_1.htm", "cl": 34, "ucl": 21, "cal": 55, "tl": 168, "ct": "LineCoverage", "mc": "-", "cb": 9, "tb": 18, "lch": [], "bch": [], "hc": [] },
+      { "name": "GRYLibrary.GRYObjectSystem.Meta.Property.Property`1", "rp": "GRYLibrary_Property_1.htm", "cl": 34, "ucl": 21, "cal": 55, "tl": 167, "ct": "LineCoverage", "mc": "-", "cb": 9, "tb": 18, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.GRYObjectSystem.Meta.Type", "rp": "GRYLibrary_Type.htm", "cl": 0, "ucl": 7, "cal": 7, "tl": 16, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.GRYObjectSystem.Other.PropertyChangedEvengArgument`1", "rp": "GRYLibrary_PropertyChangedEvengArgument_1.htm", "cl": 5, "ucl": 3, "cal": 8, "tl": 18, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Miscellaneous.FileSelector", "rp": "GRYLibrary_FileSelector.htm", "cl": 16, "ucl": 7, "cal": 23, "tl": 59, "ct": "LineCoverage", "mc": "-", "cb": 5, "tb": 10, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Miscellaneous.Playlists.AbstractPlaylistHandler", "rp": "GRYLibrary_AbstractPlaylistHandler.htm", "cl": 73, "ucl": 14, "cal": 87, "tl": 202, "ct": "LineCoverage", "mc": "-", "cb": 20, "tb": 36, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Miscellaneous.Playlists.ConcretePlaylistHandler.M3UHandler", "rp": "GRYLibrary_M3UHandler.htm", "cl": 97, "ucl": 21, "cal": 118, "tl": 264, "ct": "LineCoverage", "mc": "-", "cb": 32, "tb": 48, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Miscellaneous.Playlists.ConcretePlaylistHandler.PLSHandler", "rp": "GRYLibrary_PLSHandler.htm", "cl": 46, "ucl": 6, "cal": 52, "tl": 113, "ct": "LineCoverage", "mc": "-", "cb": 20, "tb": 24, "lch": [], "bch": [], "hc": [] },
-      { "name": "GRYLibrary.Miscellaneous.Semaphore", "rp": "GRYLibrary_Semaphore.htm", "cl": 0, "ucl": 10, "cal": 10, "tl": 27, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 2, "lch": [], "bch": [], "hc": [] },
+      { "name": "GRYLibrary.Miscellaneous.Semaphore", "rp": "GRYLibrary_Semaphore.htm", "cl": 0, "ucl": 16, "cal": 16, "tl": 43, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 4, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Miscellaneous.SimpleStreamMultiplier", "rp": "GRYLibrary_SimpleStreamMultiplier.htm", "cl": 0, "ucl": 8, "cal": 8, "tl": 24, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 2, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Miscellaneous.StreamMixer", "rp": "GRYLibrary_StreamMixer.htm", "cl": 0, "ucl": 27, "cal": 27, "tl": 72, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 12, "lch": [], "bch": [], "hc": [] },
-      { "name": "GRYLibrary.Miscellaneous.TableGenerator", "rp": "GRYLibrary_TableGenerator.htm", "cl": 77, "ucl": 24, "cal": 101, "tl": 275, "ct": "LineCoverage", "mc": "-", "cb": 26, "tb": 28, "lch": [], "bch": [], "hc": [] },
+      { "name": "GRYLibrary.Miscellaneous.TableGenerator", "rp": "GRYLibrary_TableGenerator.htm", "cl": 77, "ucl": 23, "cal": 100, "tl": 275, "ct": "LineCoverage", "mc": "-", "cb": 26, "tb": 28, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Miscellaneous.TaskQueue", "rp": "GRYLibrary_TaskQueue.htm", "cl": 0, "ucl": 51, "cal": 51, "tl": 101, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 26, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Miscellaneous.TupleWithValueComparisonEquals`2", "rp": "GRYLibrary_TupleWithValueComparisonEquals_2.htm", "cl": 0, "ucl": 4, "cal": 4, "tl": 21, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 2, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Miscellaneous.WriteableTuple`2", "rp": "GRYLibrary_WriteableTuple_2.htm", "cl": 0, "ucl": 6, "cal": 6, "tl": 15, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.NonPersistentInputHistoryList", "rp": "GRYLibrary_NonPersistentInputHistoryList.htm", "cl": 0, "ucl": 18, "cal": 18, "tl": 47, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 10, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.PercentValue", "rp": "GRYLibrary_PercentValue.htm", "cl": 6, "ucl": 16, "cal": 22, "tl": 59, "ct": "LineCoverage", "mc": "-", "cb": 2, "tb": 8, "lch": [], "bch": [], "hc": [] },
-      { "name": "GRYLibrary.SimpleGenericXMLSerializer`1", "rp": "GRYLibrary_SimpleGenericXMLSerializer_1.htm", "cl": 18, "ucl": 1, "cal": 19, "tl": 47, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "GRYLibrary.SimpleObjectPersistence`1", "rp": "GRYLibrary_SimpleObjectPersistence_1.htm", "cl": 22, "ucl": 8, "cal": 30, "tl": 53, "ct": "LineCoverage", "mc": "-", "cb": 2, "tb": 2, "lch": [], "bch": [], "hc": [] },
-      { "name": "GRYLibrary.SupervisedThread", "rp": "GRYLibrary_SupervisedThread.htm", "cl": 0, "ucl": 41, "cal": 41, "tl": 78, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 12, "lch": [], "bch": [], "hc": [] },
-      { "name": "GRYLibrary.Utilities", "rp": "GRYLibrary_Utilities.htm", "cl": 102, "ucl": 248, "cal": 350, "tl": 885, "ct": "LineCoverage", "mc": "-", "cb": 49, "tb": 190, "lch": [], "bch": [], "hc": [] },
+      { "name": "GRYLibrary.SimpleGenericXMLSerializer`1", "rp": "GRYLibrary_SimpleGenericXMLSerializer_1.htm", "cl": 18, "ucl": 1, "cal": 19, "tl": 51, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "GRYLibrary.SimpleObjectPersistence`1", "rp": "GRYLibrary_SimpleObjectPersistence_1.htm", "cl": 22, "ucl": 8, "cal": 30, "tl": 57, "ct": "LineCoverage", "mc": "-", "cb": 2, "tb": 2, "lch": [], "bch": [], "hc": [] },
+      { "name": "GRYLibrary.SupervisedThread", "rp": "GRYLibrary_SupervisedThread.htm", "cl": 0, "ucl": 39, "cal": 39, "tl": 80, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 16, "lch": [], "bch": [], "hc": [] },
+      { "name": "GRYLibrary.Utilities", "rp": "GRYLibrary_Utilities.htm", "cl": 102, "ucl": 257, "cal": 359, "tl": 907, "ct": "LineCoverage", "mc": "-", "cb": 49, "tb": 196, "lch": [], "bch": [], "hc": [] },
     ]},
 ];
 
@@ -257,40 +257,40 @@ var riskHotspots = [
   {
     "assembly": "GRYLibrary", "class": "GRYLibrary.GRYLog", "reportPath": "GRYLibrary_GRYLog.htm", "methodName": "System.Void GRYLibrary.GRYLog::LogIt(System.String,GRYLibrary.GRYLogLogLevel,System.String)", "methodShortName": "LogIt(...)", "fileIndex": 0, "line": 285,
     "metrics": [
-      { "value": 28, "exceeded": false },
-      { "value": 67108864, "exceeded": true },
-      { "value": 62.46, "exceeded": true },
+      { "value": 29, "exceeded": false },
+      { "value": 134217728, "exceeded": true },
+      { "value": 67.75, "exceeded": true },
     ]},
   {
-    "assembly": "GRYLibrary", "class": "GRYLibrary.Utilities", "reportPath": "GRYLibrary_Utilities.htm", "methodName": "System.Boolean GRYLibrary.Utilities::IsAbsolutePath(System.String)", "methodShortName": "IsAbsolutePath(...)", "fileIndex": 0, "line": 634,
+    "assembly": "GRYLibrary", "class": "GRYLibrary.Utilities", "reportPath": "GRYLibrary_Utilities.htm", "methodName": "System.Boolean GRYLibrary.Utilities::IsAbsolutePath(System.String)", "methodShortName": "IsAbsolutePath(...)", "fileIndex": 0, "line": 656,
     "metrics": [
       { "value": 9, "exceeded": false },
       { "value": 256, "exceeded": true },
       { "value": 9, "exceeded": false },
     ]},
   {
-    "assembly": "GRYLibrary", "class": "GRYLibrary.ExternalProgramExecutor", "reportPath": "GRYLibrary_ExternalProgramExecutor.htm", "methodName": "System.String GRYLibrary.ExternalProgramExecutor::Resolve(System.String)", "methodShortName": "Resolve(...)", "fileIndex": 0, "line": 127,
+    "assembly": "GRYLibrary", "class": "GRYLibrary.ExternalProgramExecutor", "reportPath": "GRYLibrary_ExternalProgramExecutor.htm", "methodName": "System.String GRYLibrary.ExternalProgramExecutor::ResolvePathOfProgram(System.String)", "methodShortName": "ResolvePathOfProgram(...)", "fileIndex": 0, "line": 133,
     "metrics": [
       { "value": 7, "exceeded": false },
       { "value": 32, "exceeded": false },
       { "value": 56, "exceeded": true },
     ]},
   {
-    "assembly": "GRYLibrary", "class": "GRYLibrary.ExternalProgramExecutor", "reportPath": "GRYLibrary_ExternalProgramExecutor.htm", "methodName": "System.Void GRYLibrary.ExternalProgramExecutor::LogOutput()", "methodShortName": "LogOutput()", "fileIndex": 0, "line": 167,
+    "assembly": "GRYLibrary", "class": "GRYLibrary.ExternalProgramExecutor", "reportPath": "GRYLibrary_ExternalProgramExecutor.htm", "methodName": "System.Void GRYLibrary.ExternalProgramExecutor::LogOutput()", "methodShortName": "LogOutput()", "fileIndex": 0, "line": 173,
     "metrics": [
       { "value": 7, "exceeded": false },
       { "value": 64, "exceeded": false },
       { "value": 56, "exceeded": true },
     ]},
   {
-    "assembly": "GRYLibrary", "class": "GRYLibrary.GRYLog", "reportPath": "GRYLibrary_GRYLog.htm", "methodName": "System.Diagnostics.EventLogEntryType GRYLibrary.GRYLog::GetEventType(GRYLibrary.GRYLogLogLevel)", "methodShortName": "GetEventType(...)", "fileIndex": 0, "line": 383,
+    "assembly": "GRYLibrary", "class": "GRYLibrary.GRYLog", "reportPath": "GRYLibrary_GRYLog.htm", "methodName": "System.Diagnostics.EventLogEntryType GRYLibrary.GRYLog::GetEventType(GRYLibrary.GRYLogLogLevel)", "methodShortName": "GetEventType(...)", "fileIndex": 0, "line": 387,
     "metrics": [
       { "value": 7, "exceeded": false },
       { "value": 64, "exceeded": false },
       { "value": 56, "exceeded": true },
     ]},
   {
-    "assembly": "GRYLibrary", "class": "GRYLibrary.GRYLog", "reportPath": "GRYLibrary_GRYLog.htm", "methodName": "System.ConsoleColor GRYLibrary.GRYLog::GetColorByType(GRYLibrary.GRYLogLogLevel)", "methodShortName": "GetColorByType(...)", "fileIndex": 0, "line": 477,
+    "assembly": "GRYLibrary", "class": "GRYLibrary.GRYLog", "reportPath": "GRYLibrary_GRYLog.htm", "methodName": "System.ConsoleColor GRYLibrary.GRYLog::GetColorByType(GRYLibrary.GRYLogLogLevel)", "methodShortName": "GetColorByType(...)", "fileIndex": 0, "line": 481,
     "metrics": [
       { "value": 7, "exceeded": false },
       { "value": 64, "exceeded": false },
@@ -311,21 +311,28 @@ var riskHotspots = [
       { "value": 45.03, "exceeded": true },
     ]},
   {
-    "assembly": "GRYLibrary", "class": "GRYLibrary.ExternalProgramExecutor", "reportPath": "GRYLibrary_ExternalProgramExecutor.htm", "methodName": "System.Int32 GRYLibrary.ExternalProgramExecutor::StartConsoleApplicationInCurrentConsoleWindow()", "methodShortName": "StartConsoleApplicationInCurrentConsoleWindow()", "fileIndex": 0, "line": 42,
+    "assembly": "GRYLibrary", "class": "GRYLibrary.ExternalProgramExecutor", "reportPath": "GRYLibrary_ExternalProgramExecutor.htm", "methodName": "System.Int32 GRYLibrary.ExternalProgramExecutor::StartConsoleApplicationInCurrentConsoleWindow()", "methodShortName": "StartConsoleApplicationInCurrentConsoleWindow()", "fileIndex": 0, "line": 50,
     "metrics": [
       { "value": 6, "exceeded": false },
       { "value": 32, "exceeded": false },
       { "value": 42, "exceeded": true },
     ]},
   {
-    "assembly": "GRYLibrary", "class": "GRYLibrary.Utilities", "reportPath": "GRYLibrary_Utilities.htm", "methodName": "System.Boolean GRYLibrary.Utilities::IsHexDigit(System.Char)", "methodShortName": "IsHexDigit(...)", "fileIndex": 0, "line": 247,
+    "assembly": "GRYLibrary", "class": "GRYLibrary.SupervisedThread", "reportPath": "GRYLibrary_SupervisedThread.htm", "methodName": "System.Void GRYLibrary.SupervisedThread::Execute()", "methodShortName": "Execute()", "fileIndex": 0, "line": 38,
     "metrics": [
       { "value": 6, "exceeded": false },
       { "value": 32, "exceeded": false },
       { "value": 42, "exceeded": true },
     ]},
   {
-    "assembly": "GRYLibrary", "class": "GRYLibrary.Utilities", "reportPath": "GRYLibrary_Utilities.htm", "methodName": "System.String GRYLibrary.Utilities::ToOnlyFirstCharOfEveryWordToUpper(System.String,System.Func`2<System.Char,System.Boolean>)", "methodShortName": "ToOnlyFirstCharOfEveryWordToUpper(...)", "fileIndex": 0, "line": 580,
+    "assembly": "GRYLibrary", "class": "GRYLibrary.Utilities", "reportPath": "GRYLibrary_Utilities.htm", "methodName": "System.Boolean GRYLibrary.Utilities::IsHexDigit(System.Char)", "methodShortName": "IsHexDigit(...)", "fileIndex": 0, "line": 269,
+    "metrics": [
+      { "value": 6, "exceeded": false },
+      { "value": 32, "exceeded": false },
+      { "value": 42, "exceeded": true },
+    ]},
+  {
+    "assembly": "GRYLibrary", "class": "GRYLibrary.Utilities", "reportPath": "GRYLibrary_Utilities.htm", "methodName": "System.String GRYLibrary.Utilities::ToOnlyFirstCharOfEveryWordToUpper(System.String,System.Func`2<System.Char,System.Boolean>)", "methodShortName": "ToOnlyFirstCharOfEveryWordToUpper(...)", "fileIndex": 0, "line": 602,
     "metrics": [
       { "value": 6, "exceeded": false },
       { "value": 32, "exceeded": false },
@@ -346,7 +353,7 @@ var riskHotspots = [
       { "value": 20, "exceeded": true },
     ]},
   {
-    "assembly": "GRYLibrary", "class": "GRYLibrary.GRYLog", "reportPath": "GRYLibrary_GRYLog.htm", "methodName": "System.String GRYLibrary.GRYLog::GetExceptionMessage(System.String,System.Exception)", "methodShortName": "GetExceptionMessage(...)", "fileIndex": 0, "line": 416,
+    "assembly": "GRYLibrary", "class": "GRYLibrary.GRYLog", "reportPath": "GRYLibrary_GRYLog.htm", "methodName": "System.String GRYLibrary.GRYLog::GetExceptionMessage(System.String,System.Exception)", "methodShortName": "GetExceptionMessage(...)", "fileIndex": 0, "line": 420,
     "metrics": [
       { "value": 4, "exceeded": false },
       { "value": 8, "exceeded": false },
@@ -367,35 +374,42 @@ var riskHotspots = [
       { "value": 20, "exceeded": true },
     ]},
   {
-    "assembly": "GRYLibrary", "class": "GRYLibrary.Utilities", "reportPath": "GRYLibrary_Utilities.htm", "methodName": "System.Boolean GRYLibrary.Utilities::IsList(System.Object)", "methodShortName": "IsList(...)", "fileIndex": 0, "line": 430,
+    "assembly": "GRYLibrary", "class": "GRYLibrary.Utilities", "reportPath": "GRYLibrary_Utilities.htm", "methodName": "T[0...,0...] GRYLibrary.Utilities::JaggedArrayToTwoDimensionalArray(T[][])", "methodShortName": "JaggedArrayToTwoDimensionalArray(...)", "fileIndex": 0, "line": 80,
     "metrics": [
       { "value": 4, "exceeded": false },
       { "value": 8, "exceeded": false },
       { "value": 20, "exceeded": true },
     ]},
   {
-    "assembly": "GRYLibrary", "class": "GRYLibrary.Utilities", "reportPath": "GRYLibrary_Utilities.htm", "methodName": "System.Boolean GRYLibrary.Utilities::IsDictionary(System.Object)", "methodShortName": "IsDictionary(...)", "fileIndex": 0, "line": 444,
+    "assembly": "GRYLibrary", "class": "GRYLibrary.Utilities", "reportPath": "GRYLibrary_Utilities.htm", "methodName": "System.Boolean GRYLibrary.Utilities::IsList(System.Object)", "methodShortName": "IsList(...)", "fileIndex": 0, "line": 452,
     "metrics": [
       { "value": 4, "exceeded": false },
       { "value": 8, "exceeded": false },
       { "value": 20, "exceeded": true },
     ]},
   {
-    "assembly": "GRYLibrary", "class": "GRYLibrary.Utilities", "reportPath": "GRYLibrary_Utilities.htm", "methodName": "System.Boolean GRYLibrary.Utilities::IsAllUpper(System.String)", "methodShortName": "IsAllUpper(...)", "fileIndex": 0, "line": 524,
+    "assembly": "GRYLibrary", "class": "GRYLibrary.Utilities", "reportPath": "GRYLibrary_Utilities.htm", "methodName": "System.Boolean GRYLibrary.Utilities::IsDictionary(System.Object)", "methodShortName": "IsDictionary(...)", "fileIndex": 0, "line": 466,
     "metrics": [
       { "value": 4, "exceeded": false },
       { "value": 8, "exceeded": false },
       { "value": 20, "exceeded": true },
     ]},
   {
-    "assembly": "GRYLibrary", "class": "GRYLibrary.Utilities", "reportPath": "GRYLibrary_Utilities.htm", "methodName": "System.Boolean GRYLibrary.Utilities::IsAllLower(System.String)", "methodShortName": "IsAllLower(...)", "fileIndex": 0, "line": 535,
+    "assembly": "GRYLibrary", "class": "GRYLibrary.Utilities", "reportPath": "GRYLibrary_Utilities.htm", "methodName": "System.Boolean GRYLibrary.Utilities::IsAllUpper(System.String)", "methodShortName": "IsAllUpper(...)", "fileIndex": 0, "line": 546,
     "metrics": [
       { "value": 4, "exceeded": false },
       { "value": 8, "exceeded": false },
       { "value": 20, "exceeded": true },
     ]},
   {
-    "assembly": "GRYLibrary", "class": "GRYLibrary.Utilities", "reportPath": "GRYLibrary_Utilities.htm", "methodName": "System.Boolean GRYLibrary.Utilities::DirectoryDoesNotContainFiles(System.String)", "methodShortName": "DirectoryDoesNotContainFiles(...)", "fileIndex": 0, "line": 683,
+    "assembly": "GRYLibrary", "class": "GRYLibrary.Utilities", "reportPath": "GRYLibrary_Utilities.htm", "methodName": "System.Boolean GRYLibrary.Utilities::IsAllLower(System.String)", "methodShortName": "IsAllLower(...)", "fileIndex": 0, "line": 557,
+    "metrics": [
+      { "value": 4, "exceeded": false },
+      { "value": 8, "exceeded": false },
+      { "value": 20, "exceeded": true },
+    ]},
+  {
+    "assembly": "GRYLibrary", "class": "GRYLibrary.Utilities", "reportPath": "GRYLibrary_Utilities.htm", "methodName": "System.Boolean GRYLibrary.Utilities::DirectoryDoesNotContainFiles(System.String)", "methodShortName": "DirectoryDoesNotContainFiles(...)", "fileIndex": 0, "line": 705,
     "metrics": [
       { "value": 4, "exceeded": false },
       { "value": 4, "exceeded": false },
