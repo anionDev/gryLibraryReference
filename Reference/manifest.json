@@ -585,10 +585,10 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "Z4s+f6vUxGmdq15DTwPu+g=="
+          "hash": "Dty7xlTO5hgDhkb/A+8mcw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -612,7 +612,7 @@
           "hash": "HH0NnQANHzIvV1qWiWWWNg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -636,7 +636,7 @@
           "hash": "yQx+kRxGjmY2wN8f+kn3FA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -672,7 +672,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 0
+          "skipped_file_count": 3
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
