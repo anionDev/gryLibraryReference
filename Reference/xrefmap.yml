@@ -811,108 +811,92 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.GRYLog.GetAmountOfWarnings
   nameWithType: GRYLog.GetAmountOfWarnings
-- uid: GRYLibrary.GRYLog.LogCritical(System.Exception,System.String)
-  name: LogCritical(Exception, String)
-  href: api/GRYLibrary.GRYLog.html#GRYLibrary_GRYLog_LogCritical_System_Exception_System_String_
-  commentId: M:GRYLibrary.GRYLog.LogCritical(System.Exception,System.String)
-  fullName: GRYLibrary.GRYLog.LogCritical(System.Exception, System.String)
-  nameWithType: GRYLog.LogCritical(Exception, String)
-- uid: GRYLibrary.GRYLog.LogCritical(System.String,System.Exception,System.String)
-  name: LogCritical(String, Exception, String)
-  href: api/GRYLibrary.GRYLog.html#GRYLibrary_GRYLog_LogCritical_System_String_System_Exception_System_String_
-  commentId: M:GRYLibrary.GRYLog.LogCritical(System.String,System.Exception,System.String)
-  fullName: GRYLibrary.GRYLog.LogCritical(System.String, System.Exception, System.String)
-  nameWithType: GRYLog.LogCritical(String, Exception, String)
-- uid: GRYLibrary.GRYLog.LogCritical(System.String,System.String)
-  name: LogCritical(String, String)
-  href: api/GRYLibrary.GRYLog.html#GRYLibrary_GRYLog_LogCritical_System_String_System_String_
-  commentId: M:GRYLibrary.GRYLog.LogCritical(System.String,System.String)
-  fullName: GRYLibrary.GRYLog.LogCritical(System.String, System.String)
-  nameWithType: GRYLog.LogCritical(String, String)
-- uid: GRYLibrary.GRYLog.LogCritical*
-  name: LogCritical
-  href: api/GRYLibrary.GRYLog.html#GRYLibrary_GRYLog_LogCritical_
-  commentId: Overload:GRYLibrary.GRYLog.LogCritical
+- uid: GRYLibrary.GRYLog.Log(GRYLibrary.GRYLogLogLevel,System.Exception)
+  name: Log(GRYLogLogLevel, Exception)
+  href: api/GRYLibrary.GRYLog.html#GRYLibrary_GRYLog_Log_GRYLibrary_GRYLogLogLevel_System_Exception_
+  commentId: M:GRYLibrary.GRYLog.Log(GRYLibrary.GRYLogLogLevel,System.Exception)
+  fullName: GRYLibrary.GRYLog.Log(GRYLibrary.GRYLogLogLevel, System.Exception)
+  nameWithType: GRYLog.Log(GRYLogLogLevel, Exception)
+- uid: GRYLibrary.GRYLog.Log(System.Exception)
+  name: Log(Exception)
+  href: api/GRYLibrary.GRYLog.html#GRYLibrary_GRYLog_Log_System_Exception_
+  commentId: M:GRYLibrary.GRYLog.Log(System.Exception)
+  fullName: GRYLibrary.GRYLog.Log(System.Exception)
+  nameWithType: GRYLog.Log(Exception)
+- uid: GRYLibrary.GRYLog.Log(System.Func{System.String})
+  name: Log(Func<String>)
+  href: api/GRYLibrary.GRYLog.html#GRYLibrary_GRYLog_Log_System_Func_System_String__
+  commentId: M:GRYLibrary.GRYLog.Log(System.Func{System.String})
+  name.vb: Log(Func(Of String))
+  fullName: GRYLibrary.GRYLog.Log(System.Func<System.String>)
+  fullName.vb: GRYLibrary.GRYLog.Log(System.Func(Of System.String))
+  nameWithType: GRYLog.Log(Func<String>)
+  nameWithType.vb: GRYLog.Log(Func(Of String))
+- uid: GRYLibrary.GRYLog.Log(System.Func{System.String},GRYLibrary.GRYLogLogLevel)
+  name: Log(Func<String>, GRYLogLogLevel)
+  href: api/GRYLibrary.GRYLog.html#GRYLibrary_GRYLog_Log_System_Func_System_String__GRYLibrary_GRYLogLogLevel_
+  commentId: M:GRYLibrary.GRYLog.Log(System.Func{System.String},GRYLibrary.GRYLogLogLevel)
+  name.vb: Log(Func(Of String), GRYLogLogLevel)
+  fullName: GRYLibrary.GRYLog.Log(System.Func<System.String>, GRYLibrary.GRYLogLogLevel)
+  fullName.vb: GRYLibrary.GRYLog.Log(System.Func(Of System.String), GRYLibrary.GRYLogLogLevel)
+  nameWithType: GRYLog.Log(Func<String>, GRYLogLogLevel)
+  nameWithType.vb: GRYLog.Log(Func(Of String), GRYLogLogLevel)
+- uid: GRYLibrary.GRYLog.Log(System.Func{System.String},GRYLibrary.GRYLogLogLevel,System.Exception)
+  name: Log(Func<String>, GRYLogLogLevel, Exception)
+  href: api/GRYLibrary.GRYLog.html#GRYLibrary_GRYLog_Log_System_Func_System_String__GRYLibrary_GRYLogLogLevel_System_Exception_
+  commentId: M:GRYLibrary.GRYLog.Log(System.Func{System.String},GRYLibrary.GRYLogLogLevel,System.Exception)
+  name.vb: Log(Func(Of String), GRYLogLogLevel, Exception)
+  fullName: GRYLibrary.GRYLog.Log(System.Func<System.String>, GRYLibrary.GRYLogLogLevel, System.Exception)
+  fullName.vb: GRYLibrary.GRYLog.Log(System.Func(Of System.String), GRYLibrary.GRYLogLogLevel, System.Exception)
+  nameWithType: GRYLog.Log(Func<String>, GRYLogLogLevel, Exception)
+  nameWithType.vb: GRYLog.Log(Func(Of String), GRYLogLogLevel, Exception)
+- uid: GRYLibrary.GRYLog.Log(System.String)
+  name: Log(String)
+  href: api/GRYLibrary.GRYLog.html#GRYLibrary_GRYLog_Log_System_String_
+  commentId: M:GRYLibrary.GRYLog.Log(System.String)
+  fullName: GRYLibrary.GRYLog.Log(System.String)
+  nameWithType: GRYLog.Log(String)
+- uid: GRYLibrary.GRYLog.Log(System.String,GRYLibrary.GRYLogLogLevel)
+  name: Log(String, GRYLogLogLevel)
+  href: api/GRYLibrary.GRYLog.html#GRYLibrary_GRYLog_Log_System_String_GRYLibrary_GRYLogLogLevel_
+  commentId: M:GRYLibrary.GRYLog.Log(System.String,GRYLibrary.GRYLogLogLevel)
+  fullName: GRYLibrary.GRYLog.Log(System.String, GRYLibrary.GRYLogLogLevel)
+  nameWithType: GRYLog.Log(String, GRYLogLogLevel)
+- uid: GRYLibrary.GRYLog.Log(System.String,GRYLibrary.GRYLogLogLevel,System.Exception)
+  name: Log(String, GRYLogLogLevel, Exception)
+  href: api/GRYLibrary.GRYLog.html#GRYLibrary_GRYLog_Log_System_String_GRYLibrary_GRYLogLogLevel_System_Exception_
+  commentId: M:GRYLibrary.GRYLog.Log(System.String,GRYLibrary.GRYLogLogLevel,System.Exception)
+  fullName: GRYLibrary.GRYLog.Log(System.String, GRYLibrary.GRYLogLogLevel, System.Exception)
+  nameWithType: GRYLog.Log(String, GRYLogLogLevel, Exception)
+- uid: GRYLibrary.GRYLog.Log(System.String,System.Exception)
+  name: Log(String, Exception)
+  href: api/GRYLibrary.GRYLog.html#GRYLibrary_GRYLog_Log_System_String_System_Exception_
+  commentId: M:GRYLibrary.GRYLog.Log(System.String,System.Exception)
+  fullName: GRYLibrary.GRYLog.Log(System.String, System.Exception)
+  nameWithType: GRYLog.Log(String, Exception)
+- uid: GRYLibrary.GRYLog.Log*
+  name: Log
+  href: api/GRYLibrary.GRYLog.html#GRYLibrary_GRYLog_Log_
+  commentId: Overload:GRYLibrary.GRYLog.Log
   isSpec: "True"
-  fullName: GRYLibrary.GRYLog.LogCritical
-  nameWithType: GRYLog.LogCritical
-- uid: GRYLibrary.GRYLog.LogDebugInformation(System.String,System.String)
-  name: LogDebugInformation(String, String)
-  href: api/GRYLibrary.GRYLog.html#GRYLibrary_GRYLog_LogDebugInformation_System_String_System_String_
-  commentId: M:GRYLibrary.GRYLog.LogDebugInformation(System.String,System.String)
-  fullName: GRYLibrary.GRYLog.LogDebugInformation(System.String, System.String)
-  nameWithType: GRYLog.LogDebugInformation(String, String)
-- uid: GRYLibrary.GRYLog.LogDebugInformation*
-  name: LogDebugInformation
-  href: api/GRYLibrary.GRYLog.html#GRYLibrary_GRYLog_LogDebugInformation_
-  commentId: Overload:GRYLibrary.GRYLog.LogDebugInformation
+  fullName: GRYLibrary.GRYLog.Log
+  nameWithType: GRYLog.Log
+- uid: GRYLibrary.GRYLog.LogByFunction(System.Func{System.String},System.Exception)
+  name: LogByFunction(Func<String>, Exception)
+  href: api/GRYLibrary.GRYLog.html#GRYLibrary_GRYLog_LogByFunction_System_Func_System_String__System_Exception_
+  commentId: M:GRYLibrary.GRYLog.LogByFunction(System.Func{System.String},System.Exception)
+  name.vb: LogByFunction(Func(Of String), Exception)
+  fullName: GRYLibrary.GRYLog.LogByFunction(System.Func<System.String>, System.Exception)
+  fullName.vb: GRYLibrary.GRYLog.LogByFunction(System.Func(Of System.String), System.Exception)
+  nameWithType: GRYLog.LogByFunction(Func<String>, Exception)
+  nameWithType.vb: GRYLog.LogByFunction(Func(Of String), Exception)
+- uid: GRYLibrary.GRYLog.LogByFunction*
+  name: LogByFunction
+  href: api/GRYLibrary.GRYLog.html#GRYLibrary_GRYLog_LogByFunction_
+  commentId: Overload:GRYLibrary.GRYLog.LogByFunction
   isSpec: "True"
-  fullName: GRYLibrary.GRYLog.LogDebugInformation
-  nameWithType: GRYLog.LogDebugInformation
-- uid: GRYLibrary.GRYLog.LogError(System.Exception,System.String)
-  name: LogError(Exception, String)
-  href: api/GRYLibrary.GRYLog.html#GRYLibrary_GRYLog_LogError_System_Exception_System_String_
-  commentId: M:GRYLibrary.GRYLog.LogError(System.Exception,System.String)
-  fullName: GRYLibrary.GRYLog.LogError(System.Exception, System.String)
-  nameWithType: GRYLog.LogError(Exception, String)
-- uid: GRYLibrary.GRYLog.LogError(System.String,System.Exception,System.String)
-  name: LogError(String, Exception, String)
-  href: api/GRYLibrary.GRYLog.html#GRYLibrary_GRYLog_LogError_System_String_System_Exception_System_String_
-  commentId: M:GRYLibrary.GRYLog.LogError(System.String,System.Exception,System.String)
-  fullName: GRYLibrary.GRYLog.LogError(System.String, System.Exception, System.String)
-  nameWithType: GRYLog.LogError(String, Exception, String)
-- uid: GRYLibrary.GRYLog.LogError(System.String,System.String)
-  name: LogError(String, String)
-  href: api/GRYLibrary.GRYLog.html#GRYLibrary_GRYLog_LogError_System_String_System_String_
-  commentId: M:GRYLibrary.GRYLog.LogError(System.String,System.String)
-  fullName: GRYLibrary.GRYLog.LogError(System.String, System.String)
-  nameWithType: GRYLog.LogError(String, String)
-- uid: GRYLibrary.GRYLog.LogError*
-  name: LogError
-  href: api/GRYLibrary.GRYLog.html#GRYLibrary_GRYLog_LogError_
-  commentId: Overload:GRYLibrary.GRYLog.LogError
-  isSpec: "True"
-  fullName: GRYLibrary.GRYLog.LogError
-  nameWithType: GRYLog.LogError
-- uid: GRYLibrary.GRYLog.LogInformation(System.String,System.String)
-  name: LogInformation(String, String)
-  href: api/GRYLibrary.GRYLog.html#GRYLibrary_GRYLog_LogInformation_System_String_System_String_
-  commentId: M:GRYLibrary.GRYLog.LogInformation(System.String,System.String)
-  fullName: GRYLibrary.GRYLog.LogInformation(System.String, System.String)
-  nameWithType: GRYLog.LogInformation(String, String)
-- uid: GRYLibrary.GRYLog.LogInformation*
-  name: LogInformation
-  href: api/GRYLibrary.GRYLog.html#GRYLibrary_GRYLog_LogInformation_
-  commentId: Overload:GRYLibrary.GRYLog.LogInformation
-  isSpec: "True"
-  fullName: GRYLibrary.GRYLog.LogInformation
-  nameWithType: GRYLog.LogInformation
-- uid: GRYLibrary.GRYLog.LogVerboseMessage(System.String,System.String)
-  name: LogVerboseMessage(String, String)
-  href: api/GRYLibrary.GRYLog.html#GRYLibrary_GRYLog_LogVerboseMessage_System_String_System_String_
-  commentId: M:GRYLibrary.GRYLog.LogVerboseMessage(System.String,System.String)
-  fullName: GRYLibrary.GRYLog.LogVerboseMessage(System.String, System.String)
-  nameWithType: GRYLog.LogVerboseMessage(String, String)
-- uid: GRYLibrary.GRYLog.LogVerboseMessage*
-  name: LogVerboseMessage
-  href: api/GRYLibrary.GRYLog.html#GRYLibrary_GRYLog_LogVerboseMessage_
-  commentId: Overload:GRYLibrary.GRYLog.LogVerboseMessage
-  isSpec: "True"
-  fullName: GRYLibrary.GRYLog.LogVerboseMessage
-  nameWithType: GRYLog.LogVerboseMessage
-- uid: GRYLibrary.GRYLog.LogWarning(System.String,System.String)
-  name: LogWarning(String, String)
-  href: api/GRYLibrary.GRYLog.html#GRYLibrary_GRYLog_LogWarning_System_String_System_String_
-  commentId: M:GRYLibrary.GRYLog.LogWarning(System.String,System.String)
-  fullName: GRYLibrary.GRYLog.LogWarning(System.String, System.String)
-  nameWithType: GRYLog.LogWarning(String, String)
-- uid: GRYLibrary.GRYLog.LogWarning*
-  name: LogWarning
-  href: api/GRYLibrary.GRYLog.html#GRYLibrary_GRYLog_LogWarning_
-  commentId: Overload:GRYLibrary.GRYLog.LogWarning
-  isSpec: "True"
-  fullName: GRYLibrary.GRYLog.LogWarning
-  nameWithType: GRYLog.LogWarning
+  fullName: GRYLibrary.GRYLog.LogByFunction
+  nameWithType: GRYLog.LogByFunction
 - uid: GRYLibrary.GRYLog.NewLogItem
   name: NewLogItem
   href: api/GRYLibrary.GRYLog.html#GRYLibrary_GRYLog_NewLogItem
@@ -925,19 +909,6 @@ references:
   commentId: T:GRYLibrary.GRYLog.NewLogItemEventHandler
   fullName: GRYLibrary.GRYLog.NewLogItemEventHandler
   nameWithType: GRYLog.NewLogItemEventHandler
-- uid: GRYLibrary.GRYLog.PrintErrorQueue
-  name: PrintErrorQueue()
-  href: api/GRYLibrary.GRYLog.html#GRYLibrary_GRYLog_PrintErrorQueue
-  commentId: M:GRYLibrary.GRYLog.PrintErrorQueue
-  fullName: GRYLibrary.GRYLog.PrintErrorQueue()
-  nameWithType: GRYLog.PrintErrorQueue()
-- uid: GRYLibrary.GRYLog.PrintErrorQueue*
-  name: PrintErrorQueue
-  href: api/GRYLibrary.GRYLog.html#GRYLibrary_GRYLog_PrintErrorQueue_
-  commentId: Overload:GRYLibrary.GRYLog.PrintErrorQueue
-  isSpec: "True"
-  fullName: GRYLibrary.GRYLog.PrintErrorQueue
-  nameWithType: GRYLog.PrintErrorQueue
 - uid: GRYLibrary.GRYLog.SummarizeLog
   name: SummarizeLog()
   href: api/GRYLibrary.GRYLog.html#GRYLibrary_GRYLog_SummarizeLog
