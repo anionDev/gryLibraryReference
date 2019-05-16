@@ -633,10 +633,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "uQNqXYg1/9xQ0Em6pfY93Q=="
+          "hash": "90VdAxtjCNjMItQgwSQWkw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -671,7 +671,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 2
+          "skipped_file_count": 3
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
