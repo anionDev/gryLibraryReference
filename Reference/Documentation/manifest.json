@@ -33,10 +33,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/ExternalProgramExecutorWrapper.html",
-          "hash": "42xMf0oFu++osI7r91nBaw=="
+          "hash": "j7gCag7PspPSdiJsA37yhQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -70,6 +70,17 @@
         ".html": {
           "relative_path": "articles/toc.html",
           "hash": "duPnYvbBqAj8IVW/7Q5wbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Submodules/gryLibraryReference/Sources/docfx/additionalcontent/images/Example.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Example.png"
         }
       },
       "is_incremental": false,
@@ -1505,13 +1516,20 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 6,
-          "skipped_file_count": 6
+          "skipped_file_count": 5
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 115,
           "skipped_file_count": 115
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
