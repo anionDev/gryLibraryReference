@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: GRYLibrary.Core.Streams
+  commentId: N:GRYLibrary.Core.Streams
+  id: GRYLibrary.Core.Streams
+  children:
+  - GRYLibrary.Core.Streams.SimpleStreamMultiplier
+  langs:
+  - csharp
+  - vb
+  name: GRYLibrary.Core.Streams
+  nameWithType: GRYLibrary.Core.Streams
+  fullName: GRYLibrary.Core.Streams
+  type: Namespace
+  assemblies:
+  - GRYLibrary
+references:
+- uid: GRYLibrary.Core.Streams.SimpleStreamMultiplier
+  commentId: T:GRYLibrary.Core.Streams.SimpleStreamMultiplier
+  name: SimpleStreamMultiplier
+  nameWithType: SimpleStreamMultiplier
+  fullName: GRYLibrary.Core.Streams.SimpleStreamMultiplier

@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: GRYLibrary.Core.Log.ConcreteLogTargets
+  commentId: N:GRYLibrary.Core.Log.ConcreteLogTargets
+  id: GRYLibrary.Core.Log.ConcreteLogTargets
+  children:
+  - GRYLibrary.Core.Log.ConcreteLogTargets.Console
+  - GRYLibrary.Core.Log.ConcreteLogTargets.LogFile
+  - GRYLibrary.Core.Log.ConcreteLogTargets.Observer
+  - GRYLibrary.Core.Log.ConcreteLogTargets.WindowsEventLog
+  langs:
+  - csharp
+  - vb
+  name: GRYLibrary.Core.Log.ConcreteLogTargets
+  nameWithType: GRYLibrary.Core.Log.ConcreteLogTargets
+  fullName: GRYLibrary.Core.Log.ConcreteLogTargets
+  type: Namespace
+  assemblies:
+  - GRYLibrary
+references:
+- uid: GRYLibrary.Core.Log.ConcreteLogTargets.Console
+  commentId: T:GRYLibrary.Core.Log.ConcreteLogTargets.Console
+  name: Console
+  nameWithType: Console
+  fullName: GRYLibrary.Core.Log.ConcreteLogTargets.Console
+- uid: GRYLibrary.Core.Log.ConcreteLogTargets.LogFile
+  commentId: T:GRYLibrary.Core.Log.ConcreteLogTargets.LogFile
+  name: LogFile
+  nameWithType: LogFile
+  fullName: GRYLibrary.Core.Log.ConcreteLogTargets.LogFile
+- uid: GRYLibrary.Core.Log.ConcreteLogTargets.Observer
+  commentId: T:GRYLibrary.Core.Log.ConcreteLogTargets.Observer
+  name: Observer
+  nameWithType: Observer
+  fullName: GRYLibrary.Core.Log.ConcreteLogTargets.Observer
+- uid: GRYLibrary.Core.Log.ConcreteLogTargets.WindowsEventLog
+  commentId: T:GRYLibrary.Core.Log.ConcreteLogTargets.WindowsEventLog
+  name: WindowsEventLog
+  nameWithType: WindowsEventLog
+  fullName: GRYLibrary.Core.Log.ConcreteLogTargets.WindowsEventLog

@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis
+  commentId: N:GRYLibrary.Core.AdvancedObjectAnalysis
+  id: GRYLibrary.Core.AdvancedObjectAnalysis
+  children:
+  - GRYLibrary.Core.AdvancedObjectAnalysis.KeyValuePairComparer
+  - GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator
+  - GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator`1
+  - GRYLibrary.Core.AdvancedObjectAnalysis.ReferenceEqualsComparer
+  - GRYLibrary.Core.AdvancedObjectAnalysis.TupleComparer
+  langs:
+  - csharp
+  - vb
+  name: GRYLibrary.Core.AdvancedObjectAnalysis
+  nameWithType: GRYLibrary.Core.AdvancedObjectAnalysis
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis
+  type: Namespace
+  assemblies:
+  - GRYLibrary
+references:
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator
+  commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator
+  name: PropertyEqualsCalculator
+  nameWithType: PropertyEqualsCalculator
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.ReferenceEqualsComparer
+  commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.ReferenceEqualsComparer
+  name: ReferenceEqualsComparer
+  nameWithType: ReferenceEqualsComparer
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.ReferenceEqualsComparer
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.KeyValuePairComparer
+  commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.KeyValuePairComparer
+  name: KeyValuePairComparer
+  nameWithType: KeyValuePairComparer
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.KeyValuePairComparer
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.TupleComparer
+  commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.TupleComparer
+  name: TupleComparer
+  nameWithType: TupleComparer
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.TupleComparer
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator`1
+  commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator`1
+  name: PropertyEqualsCalculator<T>
+  nameWithType: PropertyEqualsCalculator<T>
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator<T>
+  nameWithType.vb: PropertyEqualsCalculator(Of T)
+  fullName.vb: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator(Of T)
+  name.vb: PropertyEqualsCalculator(Of T)
+  spec.csharp:
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator`1
+    name: PropertyEqualsCalculator
+    nameWithType: PropertyEqualsCalculator
+    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator`1
+    name: PropertyEqualsCalculator
+    nameWithType: PropertyEqualsCalculator
+    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

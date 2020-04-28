@@ -1,0 +1,35 @@
+### YamlMime:ManagedReference
+items:
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler
+  commentId: N:GRYLibrary.Core.Playlists.ConcretePlaylistHandler
+  id: GRYLibrary.Core.Playlists.ConcretePlaylistHandler
+  children:
+  - GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler
+  - GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler
+  langs:
+  - csharp
+  - vb
+  name: GRYLibrary.Core.Playlists.ConcretePlaylistHandler
+  nameWithType: GRYLibrary.Core.Playlists.ConcretePlaylistHandler
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler
+  type: Namespace
+  assemblies:
+  - GRYLibrary
+references:
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler
+  commentId: T:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler
+  parent: GRYLibrary.Core.Playlists.ConcretePlaylistHandler
+  name: M3UHandler
+  nameWithType: M3UHandler
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler
+  commentId: T:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler
+  parent: GRYLibrary.Core.Playlists.ConcretePlaylistHandler
+  name: PLSHandler
+  nameWithType: PLSHandler
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler
+  commentId: N:GRYLibrary.Core.Playlists.ConcretePlaylistHandler
+  name: GRYLibrary.Core.Playlists.ConcretePlaylistHandler
+  nameWithType: GRYLibrary.Core.Playlists.ConcretePlaylistHandler
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler
