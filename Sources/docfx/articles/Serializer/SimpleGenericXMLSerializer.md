@@ -1,0 +1,3 @@
+# SimpleGenericXMLSerializer
+
+somearticletext

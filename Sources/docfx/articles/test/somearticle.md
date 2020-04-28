@@ -1,3 +1,0 @@
-# somearticle
-
-somearticletext
