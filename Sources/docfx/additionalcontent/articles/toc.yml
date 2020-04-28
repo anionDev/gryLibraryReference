@@ -3,5 +3,5 @@
 - name: Functions
   href: Functions/Functions.md
   items:
-    - name: ExternalProgramExecutionWrapper/ExternalProgramExecutionWrapper.md
-    - name: Serializer/SimpleGenericXMLSerializer.md
+    - name: Functions/ExternalProgramExecutionWrapper/ExternalProgramExecutionWrapper.md
+    - name: Functions/Serializer/SimpleGenericXMLSerializer.md
