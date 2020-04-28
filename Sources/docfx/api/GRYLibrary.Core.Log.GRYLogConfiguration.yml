@@ -13,7 +13,7 @@ items:
   - GRYLibrary.Core.Log.GRYLogConfiguration.Equals(System.Object)
   - GRYLibrary.Core.Log.GRYLogConfiguration.Format
   - GRYLibrary.Core.Log.GRYLogConfiguration.GetHashCode
-  - GRYLibrary.Core.Log.GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel(LogLevel)
+  - GRYLibrary.Core.Log.GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel(Microsoft.Extensions.Logging.LogLevel)
   - GRYLibrary.Core.Log.GRYLogConfiguration.GetLogTarget``1
   - GRYLibrary.Core.Log.GRYLogConfiguration.LoadConfiguration(System.String)
   - GRYLibrary.Core.Log.GRYLogConfiguration.LogEveryLineOfLogEntryInNewLine
@@ -266,16 +266,16 @@ items:
   - set
   modifiers.vb:
   - Public
-- uid: GRYLibrary.Core.Log.GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel(LogLevel)
-  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel(LogLevel)
-  id: GetLoggedMessageTypesConfigurationByLogLevel(LogLevel)
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel(Microsoft.Extensions.Logging.LogLevel)
+  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel(Microsoft.Extensions.Logging.LogLevel)
+  id: GetLoggedMessageTypesConfigurationByLogLevel(Microsoft.Extensions.Logging.LogLevel)
   parent: GRYLibrary.Core.Log.GRYLogConfiguration
   langs:
   - csharp
   - vb
   name: GetLoggedMessageTypesConfigurationByLogLevel(LogLevel)
   nameWithType: GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel(LogLevel)
-  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel(LogLevel)
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel(Microsoft.Extensions.Logging.LogLevel)
   type: Method
   source:
     id: GetLoggedMessageTypesConfigurationByLogLevel
@@ -288,7 +288,7 @@ items:
     content: public LoggedMessageTypeConfiguration GetLoggedMessageTypesConfigurationByLogLevel(LogLevel logLevel)
     parameters:
     - id: logLevel
-      type: LogLevel
+      type: Microsoft.Extensions.Logging.LogLevel
     return:
       type: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration
     content.vb: Public Function GetLoggedMessageTypesConfigurationByLogLevel(logLevel As LogLevel) As LoggedMessageTypeConfiguration
@@ -474,7 +474,7 @@ items:
     content: public List<KeyValuePair<LogLevel, LoggedMessageTypeConfiguration>> LoggedMessageTypesConfiguration { get; set; }
     parameters: []
     return:
-      type: System.Collections.Generic.List{GRYLibrary.Core.XMLSerializer.KeyValuePair{LogLevel,GRYLibrary.Core.Log.LoggedMessageTypeConfiguration}}
+      type: System.Collections.Generic.List{GRYLibrary.Core.XMLSerializer.KeyValuePair{Microsoft.Extensions.Logging.LogLevel,GRYLibrary.Core.Log.LoggedMessageTypeConfiguration}}
     content.vb: Public Property LoggedMessageTypesConfiguration As List(Of KeyValuePair(Of LogLevel, LoggedMessageTypeConfiguration))
   overload: GRYLibrary.Core.Log.GRYLogConfiguration.LoggedMessageTypesConfiguration*
   modifiers.csharp:
@@ -709,7 +709,6 @@ items:
   syntax:
     content: >-
       public Target GetLogTarget<Target>()
-
           where Target : GRYLogTarget
     typeParameters:
     - id: Target
@@ -2347,17 +2346,25 @@ references:
   name: GetLoggedMessageTypesConfigurationByLogLevel
   nameWithType: GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel
   fullName: GRYLibrary.Core.Log.GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel
-- uid: LogLevel
+- uid: Microsoft.Extensions.Logging.LogLevel
+  commentId: T:Microsoft.Extensions.Logging.LogLevel
+  parent: Microsoft.Extensions.Logging
   isExternal: true
   name: LogLevel
   nameWithType: LogLevel
-  fullName: LogLevel
+  fullName: Microsoft.Extensions.Logging.LogLevel
 - uid: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration
   commentId: T:GRYLibrary.Core.Log.LoggedMessageTypeConfiguration
   parent: GRYLibrary.Core.Log
   name: LoggedMessageTypeConfiguration
   nameWithType: LoggedMessageTypeConfiguration
   fullName: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
 - uid: GRYLibrary.Core.Log.GRYLogConfiguration.PrintErrorsAsInformation*
   commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.PrintErrorsAsInformation
   name: PrintErrorsAsInformation
@@ -2388,15 +2395,15 @@ references:
   name: LoggedMessageTypesConfiguration
   nameWithType: GRYLogConfiguration.LoggedMessageTypesConfiguration
   fullName: GRYLibrary.Core.Log.GRYLogConfiguration.LoggedMessageTypesConfiguration
-- uid: System.Collections.Generic.List{GRYLibrary.Core.XMLSerializer.KeyValuePair{LogLevel,GRYLibrary.Core.Log.LoggedMessageTypeConfiguration}}
-  commentId: T:System.Collections.Generic.List{GRYLibrary.Core.XMLSerializer.KeyValuePair{LogLevel,GRYLibrary.Core.Log.LoggedMessageTypeConfiguration}}
+- uid: System.Collections.Generic.List{GRYLibrary.Core.XMLSerializer.KeyValuePair{Microsoft.Extensions.Logging.LogLevel,GRYLibrary.Core.Log.LoggedMessageTypeConfiguration}}
+  commentId: T:System.Collections.Generic.List{GRYLibrary.Core.XMLSerializer.KeyValuePair{Microsoft.Extensions.Logging.LogLevel,GRYLibrary.Core.Log.LoggedMessageTypeConfiguration}}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.List`1
   name: List<KeyValuePair<LogLevel, LoggedMessageTypeConfiguration>>
   nameWithType: List<KeyValuePair<LogLevel, LoggedMessageTypeConfiguration>>
-  fullName: System.Collections.Generic.List<GRYLibrary.Core.XMLSerializer.KeyValuePair<LogLevel, GRYLibrary.Core.Log.LoggedMessageTypeConfiguration>>
+  fullName: System.Collections.Generic.List<GRYLibrary.Core.XMLSerializer.KeyValuePair<Microsoft.Extensions.Logging.LogLevel, GRYLibrary.Core.Log.LoggedMessageTypeConfiguration>>
   nameWithType.vb: List(Of KeyValuePair(Of LogLevel, LoggedMessageTypeConfiguration))
-  fullName.vb: System.Collections.Generic.List(Of GRYLibrary.Core.XMLSerializer.KeyValuePair(Of LogLevel, GRYLibrary.Core.Log.LoggedMessageTypeConfiguration))
+  fullName.vb: System.Collections.Generic.List(Of GRYLibrary.Core.XMLSerializer.KeyValuePair(Of Microsoft.Extensions.Logging.LogLevel, GRYLibrary.Core.Log.LoggedMessageTypeConfiguration))
   name.vb: List(Of KeyValuePair(Of LogLevel, LoggedMessageTypeConfiguration))
   spec.csharp:
   - uid: System.Collections.Generic.List`1
@@ -2414,10 +2421,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: LogLevel
+  - uid: Microsoft.Extensions.Logging.LogLevel
     name: LogLevel
     nameWithType: LogLevel
-    fullName: LogLevel
+    fullName: Microsoft.Extensions.Logging.LogLevel
     isExternal: true
   - name: ', '
     nameWithType: ', '
@@ -2448,10 +2455,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: LogLevel
+  - uid: Microsoft.Extensions.Logging.LogLevel
     name: LogLevel
     nameWithType: LogLevel
-    fullName: LogLevel
+    fullName: Microsoft.Extensions.Logging.LogLevel
     isExternal: true
   - name: ', '
     nameWithType: ', '

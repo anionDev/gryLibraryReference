@@ -25,7 +25,6 @@ items:
     content: 'public class Console : GRYLogTarget'
     content.vb: >-
       Public Class Console
-
           Inherits GRYLogTarget
   inheritance:
   - System.Object

@@ -32,9 +32,7 @@ items:
     content: 'public sealed class Semaphore : Property<long>, IProperty'
     content.vb: >-
       Public NotInheritable Class Semaphore
-
           Inherits
-
            Property  (Of Long)  Implements IProperty
   inheritance:
   - System.Object

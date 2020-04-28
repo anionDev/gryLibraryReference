@@ -14,24 +14,24 @@ items:
   - GRYLibrary.Core.Log.GRYLog.Dispose
   - GRYLibrary.Core.Log.GRYLog.Equals(System.Object)
   - GRYLibrary.Core.Log.GRYLog.ErrorOccurred
-  - GRYLibrary.Core.Log.GRYLog.ExecuteAndLog(System.Action,System.String,System.Boolean,LogLevel,System.String)
-  - GRYLibrary.Core.Log.GRYLog.ExecuteAndLog``1(System.Func{``0},System.String,System.Boolean,LogLevel,``0,System.String)
+  - GRYLibrary.Core.Log.GRYLog.ExecuteAndLog(System.Action,System.String,System.Boolean,Microsoft.Extensions.Logging.LogLevel,System.String)
+  - GRYLibrary.Core.Log.GRYLog.ExecuteAndLog``1(System.Func{``0},System.String,System.Boolean,Microsoft.Extensions.Logging.LogLevel,``0,System.String)
   - GRYLibrary.Core.Log.GRYLog.GetAmountOfErrors
   - GRYLibrary.Core.Log.GRYLog.GetAmountOfWarnings
   - GRYLibrary.Core.Log.GRYLog.GetHashCode
-  - GRYLibrary.Core.Log.GRYLog.IsEnabled(LogLevel)
+  - GRYLibrary.Core.Log.GRYLog.IsEnabled(Microsoft.Extensions.Logging.LogLevel)
   - GRYLibrary.Core.Log.GRYLog.Log(GRYLibrary.Core.Log.LogItem)
-  - GRYLibrary.Core.Log.GRYLog.Log(LogLevel,System.Exception)
+  - GRYLibrary.Core.Log.GRYLog.Log(Microsoft.Extensions.Logging.LogLevel,System.Exception)
   - GRYLibrary.Core.Log.GRYLog.Log(System.Exception)
   - GRYLibrary.Core.Log.GRYLog.Log(System.Func{System.String})
-  - GRYLibrary.Core.Log.GRYLog.Log(System.Func{System.String},LogLevel)
-  - GRYLibrary.Core.Log.GRYLog.Log(System.Func{System.String},LogLevel,System.Exception)
+  - GRYLibrary.Core.Log.GRYLog.Log(System.Func{System.String},Microsoft.Extensions.Logging.LogLevel)
+  - GRYLibrary.Core.Log.GRYLog.Log(System.Func{System.String},Microsoft.Extensions.Logging.LogLevel,System.Exception)
   - GRYLibrary.Core.Log.GRYLog.Log(System.Func{System.String},System.Exception)
   - GRYLibrary.Core.Log.GRYLog.Log(System.String)
-  - GRYLibrary.Core.Log.GRYLog.Log(System.String,LogLevel)
-  - GRYLibrary.Core.Log.GRYLog.Log(System.String,LogLevel,System.Exception)
+  - GRYLibrary.Core.Log.GRYLog.Log(System.String,Microsoft.Extensions.Logging.LogLevel)
+  - GRYLibrary.Core.Log.GRYLog.Log(System.String,Microsoft.Extensions.Logging.LogLevel,System.Exception)
   - GRYLibrary.Core.Log.GRYLog.Log(System.String,System.Exception)
-  - GRYLibrary.Core.Log.GRYLog.Log``1(LogLevel,EventId,``0,System.Exception,System.Func{``0,System.Exception,System.String})
+  - GRYLibrary.Core.Log.GRYLog.Log``1(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,``0,System.Exception,System.Func{``0,System.Exception,System.String})
   - GRYLibrary.Core.Log.GRYLog.LogCurrentSystemStatistics
   - GRYLibrary.Core.Log.GRYLog.LogGeneralProgramInformation
   - GRYLibrary.Core.Log.GRYLog.LogSummary
@@ -55,13 +55,12 @@ items:
     content: 'public class GRYLog : IDisposable, ILogger'
     content.vb: >-
       Public Class GRYLog
-
           Implements IDisposable, ILogger
   inheritance:
   - System.Object
   implements:
   - System.IDisposable
-  - ILogger
+  - Microsoft.Extensions.Logging.ILogger
   inheritedMembers:
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.GetType
@@ -556,16 +555,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: GRYLibrary.Core.Log.GRYLog.Log(System.String,LogLevel,System.Exception)
-  commentId: M:GRYLibrary.Core.Log.GRYLog.Log(System.String,LogLevel,System.Exception)
-  id: Log(System.String,LogLevel,System.Exception)
+- uid: GRYLibrary.Core.Log.GRYLog.Log(System.String,Microsoft.Extensions.Logging.LogLevel,System.Exception)
+  commentId: M:GRYLibrary.Core.Log.GRYLog.Log(System.String,Microsoft.Extensions.Logging.LogLevel,System.Exception)
+  id: Log(System.String,Microsoft.Extensions.Logging.LogLevel,System.Exception)
   parent: GRYLibrary.Core.Log.GRYLog
   langs:
   - csharp
   - vb
   name: Log(String, LogLevel, Exception)
   nameWithType: GRYLog.Log(String, LogLevel, Exception)
-  fullName: GRYLibrary.Core.Log.GRYLog.Log(System.String, LogLevel, System.Exception)
+  fullName: GRYLibrary.Core.Log.GRYLog.Log(System.String, Microsoft.Extensions.Logging.LogLevel, System.Exception)
   type: Method
   source:
     id: Log
@@ -580,7 +579,7 @@ items:
     - id: message
       type: System.String
     - id: logLevel
-      type: LogLevel
+      type: Microsoft.Extensions.Logging.LogLevel
     - id: exception
       type: System.Exception
     content.vb: Public Sub Log(message As String, logLevel As LogLevel, exception As Exception)
@@ -589,16 +588,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: GRYLibrary.Core.Log.GRYLog.Log(System.String,LogLevel)
-  commentId: M:GRYLibrary.Core.Log.GRYLog.Log(System.String,LogLevel)
-  id: Log(System.String,LogLevel)
+- uid: GRYLibrary.Core.Log.GRYLog.Log(System.String,Microsoft.Extensions.Logging.LogLevel)
+  commentId: M:GRYLibrary.Core.Log.GRYLog.Log(System.String,Microsoft.Extensions.Logging.LogLevel)
+  id: Log(System.String,Microsoft.Extensions.Logging.LogLevel)
   parent: GRYLibrary.Core.Log.GRYLog
   langs:
   - csharp
   - vb
   name: Log(String, LogLevel)
   nameWithType: GRYLog.Log(String, LogLevel)
-  fullName: GRYLibrary.Core.Log.GRYLog.Log(System.String, LogLevel)
+  fullName: GRYLibrary.Core.Log.GRYLog.Log(System.String, Microsoft.Extensions.Logging.LogLevel)
   type: Method
   source:
     id: Log
@@ -613,7 +612,7 @@ items:
     - id: message
       type: System.String
     - id: logLevel
-      type: LogLevel
+      type: Microsoft.Extensions.Logging.LogLevel
     content.vb: Public Sub Log(message As String, logLevel As LogLevel)
   overload: GRYLibrary.Core.Log.GRYLog.Log*
   modifiers.csharp:
@@ -715,16 +714,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: GRYLibrary.Core.Log.GRYLog.Log(LogLevel,System.Exception)
-  commentId: M:GRYLibrary.Core.Log.GRYLog.Log(LogLevel,System.Exception)
-  id: Log(LogLevel,System.Exception)
+- uid: GRYLibrary.Core.Log.GRYLog.Log(Microsoft.Extensions.Logging.LogLevel,System.Exception)
+  commentId: M:GRYLibrary.Core.Log.GRYLog.Log(Microsoft.Extensions.Logging.LogLevel,System.Exception)
+  id: Log(Microsoft.Extensions.Logging.LogLevel,System.Exception)
   parent: GRYLibrary.Core.Log.GRYLog
   langs:
   - csharp
   - vb
   name: Log(LogLevel, Exception)
   nameWithType: GRYLog.Log(LogLevel, Exception)
-  fullName: GRYLibrary.Core.Log.GRYLog.Log(LogLevel, System.Exception)
+  fullName: GRYLibrary.Core.Log.GRYLog.Log(Microsoft.Extensions.Logging.LogLevel, System.Exception)
   type: Method
   source:
     id: Log
@@ -737,7 +736,7 @@ items:
     content: public void Log(LogLevel logLevel, Exception exception)
     parameters:
     - id: logLevel
-      type: LogLevel
+      type: Microsoft.Extensions.Logging.LogLevel
     - id: exception
       type: System.Exception
     content.vb: Public Sub Log(logLevel As LogLevel, exception As Exception)
@@ -746,16 +745,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: GRYLibrary.Core.Log.GRYLog.Log(System.Func{System.String},LogLevel,System.Exception)
-  commentId: M:GRYLibrary.Core.Log.GRYLog.Log(System.Func{System.String},LogLevel,System.Exception)
-  id: Log(System.Func{System.String},LogLevel,System.Exception)
+- uid: GRYLibrary.Core.Log.GRYLog.Log(System.Func{System.String},Microsoft.Extensions.Logging.LogLevel,System.Exception)
+  commentId: M:GRYLibrary.Core.Log.GRYLog.Log(System.Func{System.String},Microsoft.Extensions.Logging.LogLevel,System.Exception)
+  id: Log(System.Func{System.String},Microsoft.Extensions.Logging.LogLevel,System.Exception)
   parent: GRYLibrary.Core.Log.GRYLog
   langs:
   - csharp
   - vb
   name: Log(Func<String>, LogLevel, Exception)
   nameWithType: GRYLog.Log(Func<String>, LogLevel, Exception)
-  fullName: GRYLibrary.Core.Log.GRYLog.Log(System.Func<System.String>, LogLevel, System.Exception)
+  fullName: GRYLibrary.Core.Log.GRYLog.Log(System.Func<System.String>, Microsoft.Extensions.Logging.LogLevel, System.Exception)
   type: Method
   source:
     id: Log
@@ -770,7 +769,7 @@ items:
     - id: getMessage
       type: System.Func{System.String}
     - id: logLevel
-      type: LogLevel
+      type: Microsoft.Extensions.Logging.LogLevel
     - id: exception
       type: System.Exception
     content.vb: Public Sub Log(getMessage As Func(Of String), logLevel As LogLevel, exception As Exception)
@@ -780,18 +779,18 @@ items:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: GRYLibrary.Core.Log.GRYLog.Log(System.Func(Of System.String), LogLevel, System.Exception)
+  fullName.vb: GRYLibrary.Core.Log.GRYLog.Log(System.Func(Of System.String), Microsoft.Extensions.Logging.LogLevel, System.Exception)
   name.vb: Log(Func(Of String), LogLevel, Exception)
-- uid: GRYLibrary.Core.Log.GRYLog.Log(System.Func{System.String},LogLevel)
-  commentId: M:GRYLibrary.Core.Log.GRYLog.Log(System.Func{System.String},LogLevel)
-  id: Log(System.Func{System.String},LogLevel)
+- uid: GRYLibrary.Core.Log.GRYLog.Log(System.Func{System.String},Microsoft.Extensions.Logging.LogLevel)
+  commentId: M:GRYLibrary.Core.Log.GRYLog.Log(System.Func{System.String},Microsoft.Extensions.Logging.LogLevel)
+  id: Log(System.Func{System.String},Microsoft.Extensions.Logging.LogLevel)
   parent: GRYLibrary.Core.Log.GRYLog
   langs:
   - csharp
   - vb
   name: Log(Func<String>, LogLevel)
   nameWithType: GRYLog.Log(Func<String>, LogLevel)
-  fullName: GRYLibrary.Core.Log.GRYLog.Log(System.Func<System.String>, LogLevel)
+  fullName: GRYLibrary.Core.Log.GRYLog.Log(System.Func<System.String>, Microsoft.Extensions.Logging.LogLevel)
   type: Method
   source:
     id: Log
@@ -806,7 +805,7 @@ items:
     - id: getMessage
       type: System.Func{System.String}
     - id: logLevel
-      type: LogLevel
+      type: Microsoft.Extensions.Logging.LogLevel
     content.vb: Public Sub Log(getMessage As Func(Of String), logLevel As LogLevel)
   overload: GRYLibrary.Core.Log.GRYLog.Log*
   nameWithType.vb: GRYLog.Log(Func(Of String), LogLevel)
@@ -814,7 +813,7 @@ items:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: GRYLibrary.Core.Log.GRYLog.Log(System.Func(Of System.String), LogLevel)
+  fullName.vb: GRYLibrary.Core.Log.GRYLog.Log(System.Func(Of System.String), Microsoft.Extensions.Logging.LogLevel)
   name.vb: Log(Func(Of String), LogLevel)
 - uid: GRYLibrary.Core.Log.GRYLog.Log(GRYLibrary.Core.Log.LogItem)
   commentId: M:GRYLibrary.Core.Log.GRYLog.Log(GRYLibrary.Core.Log.LogItem)
@@ -845,16 +844,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: GRYLibrary.Core.Log.GRYLog.ExecuteAndLog(System.Action,System.String,System.Boolean,LogLevel,System.String)
-  commentId: M:GRYLibrary.Core.Log.GRYLog.ExecuteAndLog(System.Action,System.String,System.Boolean,LogLevel,System.String)
-  id: ExecuteAndLog(System.Action,System.String,System.Boolean,LogLevel,System.String)
+- uid: GRYLibrary.Core.Log.GRYLog.ExecuteAndLog(System.Action,System.String,System.Boolean,Microsoft.Extensions.Logging.LogLevel,System.String)
+  commentId: M:GRYLibrary.Core.Log.GRYLog.ExecuteAndLog(System.Action,System.String,System.Boolean,Microsoft.Extensions.Logging.LogLevel,System.String)
+  id: ExecuteAndLog(System.Action,System.String,System.Boolean,Microsoft.Extensions.Logging.LogLevel,System.String)
   parent: GRYLibrary.Core.Log.GRYLog
   langs:
   - csharp
   - vb
   name: ExecuteAndLog(Action, String, Boolean, LogLevel, String)
   nameWithType: GRYLog.ExecuteAndLog(Action, String, Boolean, LogLevel, String)
-  fullName: GRYLibrary.Core.Log.GRYLog.ExecuteAndLog(System.Action, System.String, System.Boolean, LogLevel, System.String)
+  fullName: GRYLibrary.Core.Log.GRYLog.ExecuteAndLog(System.Action, System.String, System.Boolean, Microsoft.Extensions.Logging.LogLevel, System.String)
   type: Method
   source:
     id: ExecuteAndLog
@@ -864,7 +863,7 @@ items:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
   syntax:
-    content: public void ExecuteAndLog(Action action, string nameOfAction, bool preventThrowingExceptions = false, LogLevel logLevelForOverhead = null, string subNamespaceForLog = "")
+    content: public void ExecuteAndLog(Action action, string nameOfAction, bool preventThrowingExceptions = false, LogLevel logLevelForOverhead = LogLevel.Debug, string subNamespaceForLog = "")
     parameters:
     - id: action
       type: System.Action
@@ -873,25 +872,25 @@ items:
     - id: preventThrowingExceptions
       type: System.Boolean
     - id: logLevelForOverhead
-      type: LogLevel
+      type: Microsoft.Extensions.Logging.LogLevel
     - id: subNamespaceForLog
       type: System.String
-    content.vb: Public Sub ExecuteAndLog(action As Action, nameOfAction As String, preventThrowingExceptions As Boolean = False, logLevelForOverhead As LogLevel = Nothing, subNamespaceForLog As String = "")
+    content.vb: Public Sub ExecuteAndLog(action As Action, nameOfAction As String, preventThrowingExceptions As Boolean = False, logLevelForOverhead As LogLevel = LogLevel.Debug, subNamespaceForLog As String = "")
   overload: GRYLibrary.Core.Log.GRYLog.ExecuteAndLog*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: GRYLibrary.Core.Log.GRYLog.ExecuteAndLog``1(System.Func{``0},System.String,System.Boolean,LogLevel,``0,System.String)
-  commentId: M:GRYLibrary.Core.Log.GRYLog.ExecuteAndLog``1(System.Func{``0},System.String,System.Boolean,LogLevel,``0,System.String)
-  id: ExecuteAndLog``1(System.Func{``0},System.String,System.Boolean,LogLevel,``0,System.String)
+- uid: GRYLibrary.Core.Log.GRYLog.ExecuteAndLog``1(System.Func{``0},System.String,System.Boolean,Microsoft.Extensions.Logging.LogLevel,``0,System.String)
+  commentId: M:GRYLibrary.Core.Log.GRYLog.ExecuteAndLog``1(System.Func{``0},System.String,System.Boolean,Microsoft.Extensions.Logging.LogLevel,``0,System.String)
+  id: ExecuteAndLog``1(System.Func{``0},System.String,System.Boolean,Microsoft.Extensions.Logging.LogLevel,``0,System.String)
   parent: GRYLibrary.Core.Log.GRYLog
   langs:
   - csharp
   - vb
   name: ExecuteAndLog<TResult>(Func<TResult>, String, Boolean, LogLevel, TResult, String)
   nameWithType: GRYLog.ExecuteAndLog<TResult>(Func<TResult>, String, Boolean, LogLevel, TResult, String)
-  fullName: GRYLibrary.Core.Log.GRYLog.ExecuteAndLog<TResult>(System.Func<TResult>, System.String, System.Boolean, LogLevel, TResult, System.String)
+  fullName: GRYLibrary.Core.Log.GRYLog.ExecuteAndLog<TResult>(System.Func<TResult>, System.String, System.Boolean, Microsoft.Extensions.Logging.LogLevel, TResult, System.String)
   type: Method
   source:
     id: ExecuteAndLog
@@ -901,7 +900,7 @@ items:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
   syntax:
-    content: public TResult ExecuteAndLog<TResult>(Func<TResult> action, string nameOfAction, bool preventThrowingExceptions = false, LogLevel logLevelForOverhead = null, TResult defaultValue = null, string subNamespaceForLog = "")
+    content: public TResult ExecuteAndLog<TResult>(Func<TResult> action, string nameOfAction, bool preventThrowingExceptions = false, LogLevel logLevelForOverhead = LogLevel.Debug, TResult defaultValue = null, string subNamespaceForLog = "")
     parameters:
     - id: action
       type: System.Func{{TResult}}
@@ -910,7 +909,7 @@ items:
     - id: preventThrowingExceptions
       type: System.Boolean
     - id: logLevelForOverhead
-      type: LogLevel
+      type: Microsoft.Extensions.Logging.LogLevel
     - id: defaultValue
       type: '{TResult}'
     - id: subNamespaceForLog
@@ -919,14 +918,14 @@ items:
     - id: TResult
     return:
       type: '{TResult}'
-    content.vb: Public Function ExecuteAndLog(Of TResult)(action As Func(Of TResult), nameOfAction As String, preventThrowingExceptions As Boolean = False, logLevelForOverhead As LogLevel = Nothing, defaultValue As TResult = Nothing, subNamespaceForLog As String = "") As TResult
+    content.vb: Public Function ExecuteAndLog(Of TResult)(action As Func(Of TResult), nameOfAction As String, preventThrowingExceptions As Boolean = False, logLevelForOverhead As LogLevel = LogLevel.Debug, defaultValue As TResult = Nothing, subNamespaceForLog As String = "") As TResult
   overload: GRYLibrary.Core.Log.GRYLog.ExecuteAndLog*
   nameWithType.vb: GRYLog.ExecuteAndLog(Of TResult)(Func(Of TResult), String, Boolean, LogLevel, TResult, String)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: GRYLibrary.Core.Log.GRYLog.ExecuteAndLog(Of TResult)(System.Func(Of TResult), System.String, System.Boolean, LogLevel, TResult, System.String)
+  fullName.vb: GRYLibrary.Core.Log.GRYLog.ExecuteAndLog(Of TResult)(System.Func(Of TResult), System.String, System.Boolean, Microsoft.Extensions.Logging.LogLevel, TResult, System.String)
   name.vb: ExecuteAndLog(Of TResult)(Func(Of TResult), String, Boolean, LogLevel, TResult, String)
 - uid: GRYLibrary.Core.Log.GRYLog.Dispose
   commentId: M:GRYLibrary.Core.Log.GRYLog.Dispose
@@ -987,16 +986,16 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: GRYLibrary.Core.Log.GRYLog.IsEnabled(LogLevel)
-  commentId: M:GRYLibrary.Core.Log.GRYLog.IsEnabled(LogLevel)
-  id: IsEnabled(LogLevel)
+- uid: GRYLibrary.Core.Log.GRYLog.IsEnabled(Microsoft.Extensions.Logging.LogLevel)
+  commentId: M:GRYLibrary.Core.Log.GRYLog.IsEnabled(Microsoft.Extensions.Logging.LogLevel)
+  id: IsEnabled(Microsoft.Extensions.Logging.LogLevel)
   parent: GRYLibrary.Core.Log.GRYLog
   langs:
   - csharp
   - vb
   name: IsEnabled(LogLevel)
   nameWithType: GRYLog.IsEnabled(LogLevel)
-  fullName: GRYLibrary.Core.Log.GRYLog.IsEnabled(LogLevel)
+  fullName: GRYLibrary.Core.Log.GRYLog.IsEnabled(Microsoft.Extensions.Logging.LogLevel)
   type: Method
   source:
     id: IsEnabled
@@ -1009,11 +1008,13 @@ items:
     content: public bool IsEnabled(LogLevel logLevel)
     parameters:
     - id: logLevel
-      type: LogLevel
+      type: Microsoft.Extensions.Logging.LogLevel
     return:
       type: System.Boolean
     content.vb: Public Function IsEnabled(logLevel As LogLevel) As Boolean
   overload: GRYLibrary.Core.Log.GRYLog.IsEnabled*
+  implements:
+  - Microsoft.Extensions.Logging.ILogger.IsEnabled(Microsoft.Extensions.Logging.LogLevel)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -1047,6 +1048,8 @@ items:
       type: System.IDisposable
     content.vb: Public Function BeginScope(Of TState)(state As TState) As IDisposable
   overload: GRYLibrary.Core.Log.GRYLog.BeginScope*
+  implements:
+  - Microsoft.Extensions.Logging.ILogger.BeginScope``1({TState})
   nameWithType.vb: GRYLog.BeginScope(Of TState)(TState)
   modifiers.csharp:
   - public
@@ -1054,16 +1057,16 @@ items:
   - Public
   fullName.vb: GRYLibrary.Core.Log.GRYLog.BeginScope(Of TState)(TState)
   name.vb: BeginScope(Of TState)(TState)
-- uid: GRYLibrary.Core.Log.GRYLog.Log``1(LogLevel,EventId,``0,System.Exception,System.Func{``0,System.Exception,System.String})
-  commentId: M:GRYLibrary.Core.Log.GRYLog.Log``1(LogLevel,EventId,``0,System.Exception,System.Func{``0,System.Exception,System.String})
-  id: Log``1(LogLevel,EventId,``0,System.Exception,System.Func{``0,System.Exception,System.String})
+- uid: GRYLibrary.Core.Log.GRYLog.Log``1(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,``0,System.Exception,System.Func{``0,System.Exception,System.String})
+  commentId: M:GRYLibrary.Core.Log.GRYLog.Log``1(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,``0,System.Exception,System.Func{``0,System.Exception,System.String})
+  id: Log``1(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,``0,System.Exception,System.Func{``0,System.Exception,System.String})
   parent: GRYLibrary.Core.Log.GRYLog
   langs:
   - csharp
   - vb
   name: Log<TState>(LogLevel, EventId, TState, Exception, Func<TState, Exception, String>)
   nameWithType: GRYLog.Log<TState>(LogLevel, EventId, TState, Exception, Func<TState, Exception, String>)
-  fullName: GRYLibrary.Core.Log.GRYLog.Log<TState>(LogLevel, EventId, TState, System.Exception, System.Func<TState, System.Exception, System.String>)
+  fullName: GRYLibrary.Core.Log.GRYLog.Log<TState>(Microsoft.Extensions.Logging.LogLevel, Microsoft.Extensions.Logging.EventId, TState, System.Exception, System.Func<TState, System.Exception, System.String>)
   type: Method
   source:
     id: Log
@@ -1076,9 +1079,9 @@ items:
     content: public void Log<TState>(LogLevel logLevel, EventId eventId, TState state, Exception exception, Func<TState, Exception, string> formatter)
     parameters:
     - id: logLevel
-      type: LogLevel
+      type: Microsoft.Extensions.Logging.LogLevel
     - id: eventId
-      type: EventId
+      type: Microsoft.Extensions.Logging.EventId
     - id: state
       type: '{TState}'
     - id: exception
@@ -1089,12 +1092,14 @@ items:
     - id: TState
     content.vb: Public Sub Log(Of TState)(logLevel As LogLevel, eventId As EventId, state As TState, exception As Exception, formatter As Func(Of TState, Exception, String))
   overload: GRYLibrary.Core.Log.GRYLog.Log*
+  implements:
+  - Microsoft.Extensions.Logging.ILogger.Log``1(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,{TState},System.Exception,System.Func{{TState},System.Exception,System.String})
   nameWithType.vb: GRYLog.Log(Of TState)(LogLevel, EventId, TState, Exception, Func(Of TState, Exception, String))
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: GRYLibrary.Core.Log.GRYLog.Log(Of TState)(LogLevel, EventId, TState, System.Exception, System.Func(Of TState, System.Exception, System.String))
+  fullName.vb: GRYLibrary.Core.Log.GRYLog.Log(Of TState)(Microsoft.Extensions.Logging.LogLevel, Microsoft.Extensions.Logging.EventId, TState, System.Exception, System.Func(Of TState, System.Exception, System.String))
   name.vb: Log(Of TState)(LogLevel, EventId, TState, Exception, Func(Of TState, Exception, String))
 references:
 - uid: GRYLibrary.Core.Log
@@ -1116,12 +1121,13 @@ references:
   name: IDisposable
   nameWithType: IDisposable
   fullName: System.IDisposable
-- uid: ILogger
-  commentId: '!:ILogger'
+- uid: Microsoft.Extensions.Logging.ILogger
+  commentId: T:Microsoft.Extensions.Logging.ILogger
+  parent: Microsoft.Extensions.Logging
   isExternal: true
   name: ILogger
   nameWithType: ILogger
-  fullName: ILogger
+  fullName: Microsoft.Extensions.Logging.ILogger
 - uid: System.Object.Equals(System.Object,System.Object)
   commentId: M:System.Object.Equals(System.Object,System.Object)
   parent: System.Object
@@ -1811,6 +1817,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
 - uid: GRYLibrary.Core.Utilities.ObjectIsEnumerable(System.Object)
   commentId: M:GRYLibrary.Core.Utilities.ObjectIsEnumerable(System.Object)
   isExternal: true
@@ -2620,11 +2632,13 @@ references:
   name: Exception
   nameWithType: Exception
   fullName: System.Exception
-- uid: LogLevel
+- uid: Microsoft.Extensions.Logging.LogLevel
+  commentId: T:Microsoft.Extensions.Logging.LogLevel
+  parent: Microsoft.Extensions.Logging
   isExternal: true
   name: LogLevel
   nameWithType: LogLevel
-  fullName: LogLevel
+  fullName: Microsoft.Extensions.Logging.LogLevel
 - uid: System.Func{System.String}
   commentId: T:System.Func{System.String}
   parent: System
@@ -2822,27 +2836,302 @@ references:
   name: IsEnabled
   nameWithType: GRYLog.IsEnabled
   fullName: GRYLibrary.Core.Log.GRYLog.IsEnabled
+- uid: Microsoft.Extensions.Logging.ILogger.IsEnabled(Microsoft.Extensions.Logging.LogLevel)
+  commentId: M:Microsoft.Extensions.Logging.ILogger.IsEnabled(Microsoft.Extensions.Logging.LogLevel)
+  parent: Microsoft.Extensions.Logging.ILogger
+  isExternal: true
+  name: IsEnabled(LogLevel)
+  nameWithType: ILogger.IsEnabled(LogLevel)
+  fullName: Microsoft.Extensions.Logging.ILogger.IsEnabled(Microsoft.Extensions.Logging.LogLevel)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger.IsEnabled(Microsoft.Extensions.Logging.LogLevel)
+    name: IsEnabled
+    nameWithType: ILogger.IsEnabled
+    fullName: Microsoft.Extensions.Logging.ILogger.IsEnabled
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.Logging.LogLevel
+    name: LogLevel
+    nameWithType: LogLevel
+    fullName: Microsoft.Extensions.Logging.LogLevel
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger.IsEnabled(Microsoft.Extensions.Logging.LogLevel)
+    name: IsEnabled
+    nameWithType: ILogger.IsEnabled
+    fullName: Microsoft.Extensions.Logging.ILogger.IsEnabled
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.Logging.LogLevel
+    name: LogLevel
+    nameWithType: LogLevel
+    fullName: Microsoft.Extensions.Logging.LogLevel
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: GRYLibrary.Core.Log.GRYLog.BeginScope*
   commentId: Overload:GRYLibrary.Core.Log.GRYLog.BeginScope
   name: BeginScope
   nameWithType: GRYLog.BeginScope
   fullName: GRYLibrary.Core.Log.GRYLog.BeginScope
+- uid: Microsoft.Extensions.Logging.ILogger.BeginScope``1({TState})
+  commentId: M:Microsoft.Extensions.Logging.ILogger.BeginScope``1(``0)
+  parent: Microsoft.Extensions.Logging.ILogger
+  definition: Microsoft.Extensions.Logging.ILogger.BeginScope``1(``0)
+  name: BeginScope<TState>(TState)
+  nameWithType: ILogger.BeginScope<TState>(TState)
+  fullName: Microsoft.Extensions.Logging.ILogger.BeginScope<TState>(TState)
+  nameWithType.vb: ILogger.BeginScope(Of TState)(TState)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger.BeginScope(Of TState)(TState)
+  name.vb: BeginScope(Of TState)(TState)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger.BeginScope``1(``0)
+    name: BeginScope<TState>
+    nameWithType: ILogger.BeginScope<TState>
+    fullName: Microsoft.Extensions.Logging.ILogger.BeginScope<TState>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TState
+    nameWithType: TState
+    fullName: TState
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger.BeginScope``1(``0)
+    name: BeginScope(Of TState)
+    nameWithType: ILogger.BeginScope(Of TState)
+    fullName: Microsoft.Extensions.Logging.ILogger.BeginScope(Of TState)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TState
+    nameWithType: TState
+    fullName: TState
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: '{TState}'
   commentId: '!:TState'
   definition: TState
   name: TState
   nameWithType: TState
   fullName: TState
+- uid: Microsoft.Extensions.Logging.ILogger.BeginScope``1(``0)
+  commentId: M:Microsoft.Extensions.Logging.ILogger.BeginScope``1(``0)
+  isExternal: true
+  name: BeginScope<TState>(TState)
+  nameWithType: ILogger.BeginScope<TState>(TState)
+  fullName: Microsoft.Extensions.Logging.ILogger.BeginScope<TState>(TState)
+  nameWithType.vb: ILogger.BeginScope(Of TState)(TState)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger.BeginScope(Of TState)(TState)
+  name.vb: BeginScope(Of TState)(TState)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger.BeginScope``1(``0)
+    name: BeginScope<TState>
+    nameWithType: ILogger.BeginScope<TState>
+    fullName: Microsoft.Extensions.Logging.ILogger.BeginScope<TState>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TState
+    nameWithType: TState
+    fullName: TState
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger.BeginScope``1(``0)
+    name: BeginScope(Of TState)
+    nameWithType: ILogger.BeginScope(Of TState)
+    fullName: Microsoft.Extensions.Logging.ILogger.BeginScope(Of TState)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: TState
+    nameWithType: TState
+    fullName: TState
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: TState
   name: TState
   nameWithType: TState
   fullName: TState
-- uid: EventId
-  commentId: '!:EventId'
+- uid: Microsoft.Extensions.Logging.ILogger.Log``1(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,{TState},System.Exception,System.Func{{TState},System.Exception,System.String})
+  commentId: M:Microsoft.Extensions.Logging.ILogger.Log``1(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,``0,System.Exception,System.Func{``0,System.Exception,System.String})
+  parent: Microsoft.Extensions.Logging.ILogger
+  definition: Microsoft.Extensions.Logging.ILogger.Log``1(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,``0,System.Exception,System.Func{``0,System.Exception,System.String})
+  name: Log<TState>(LogLevel, EventId, TState, Exception, Func<TState, Exception, String>)
+  nameWithType: ILogger.Log<TState>(LogLevel, EventId, TState, Exception, Func<TState, Exception, String>)
+  fullName: Microsoft.Extensions.Logging.ILogger.Log<TState>(Microsoft.Extensions.Logging.LogLevel, Microsoft.Extensions.Logging.EventId, TState, System.Exception, System.Func<TState, System.Exception, System.String>)
+  nameWithType.vb: ILogger.Log(Of TState)(LogLevel, EventId, TState, Exception, Func(Of TState, Exception, String))
+  fullName.vb: Microsoft.Extensions.Logging.ILogger.Log(Of TState)(Microsoft.Extensions.Logging.LogLevel, Microsoft.Extensions.Logging.EventId, TState, System.Exception, System.Func(Of TState, System.Exception, System.String))
+  name.vb: Log(Of TState)(LogLevel, EventId, TState, Exception, Func(Of TState, Exception, String))
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger.Log``1(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,``0,System.Exception,System.Func{``0,System.Exception,System.String})
+    name: Log<TState>
+    nameWithType: ILogger.Log<TState>
+    fullName: Microsoft.Extensions.Logging.ILogger.Log<TState>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.Logging.LogLevel
+    name: LogLevel
+    nameWithType: LogLevel
+    fullName: Microsoft.Extensions.Logging.LogLevel
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.Extensions.Logging.EventId
+    name: EventId
+    nameWithType: EventId
+    fullName: Microsoft.Extensions.Logging.EventId
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TState
+    nameWithType: TState
+    fullName: TState
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`3
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TState
+    nameWithType: TState
+    fullName: TState
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger.Log``1(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,``0,System.Exception,System.Func{``0,System.Exception,System.String})
+    name: Log(Of TState)
+    nameWithType: ILogger.Log(Of TState)
+    fullName: Microsoft.Extensions.Logging.ILogger.Log(Of TState)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.Logging.LogLevel
+    name: LogLevel
+    nameWithType: LogLevel
+    fullName: Microsoft.Extensions.Logging.LogLevel
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.Extensions.Logging.EventId
+    name: EventId
+    nameWithType: EventId
+    fullName: Microsoft.Extensions.Logging.EventId
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TState
+    nameWithType: TState
+    fullName: TState
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`3
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TState
+    nameWithType: TState
+    fullName: TState
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Logging.EventId
+  commentId: T:Microsoft.Extensions.Logging.EventId
+  parent: Microsoft.Extensions.Logging
   isExternal: true
   name: EventId
   nameWithType: EventId
-  fullName: EventId
+  fullName: Microsoft.Extensions.Logging.EventId
 - uid: System.Func{{TState},System.Exception,System.String}
   commentId: T:System.Func{``0,System.Exception,System.String}
   parent: System
@@ -2912,6 +3201,159 @@ references:
     nameWithType: String
     fullName: System.String
     isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Logging.ILogger.Log``1(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,``0,System.Exception,System.Func{``0,System.Exception,System.String})
+  commentId: M:Microsoft.Extensions.Logging.ILogger.Log``1(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,``0,System.Exception,System.Func{``0,System.Exception,System.String})
+  isExternal: true
+  name: Log<TState>(LogLevel, EventId, TState, Exception, Func<TState, Exception, String>)
+  nameWithType: ILogger.Log<TState>(LogLevel, EventId, TState, Exception, Func<TState, Exception, String>)
+  fullName: Microsoft.Extensions.Logging.ILogger.Log<TState>(Microsoft.Extensions.Logging.LogLevel, Microsoft.Extensions.Logging.EventId, TState, System.Exception, System.Func<TState, System.Exception, System.String>)
+  nameWithType.vb: ILogger.Log(Of TState)(LogLevel, EventId, TState, Exception, Func(Of TState, Exception, String))
+  fullName.vb: Microsoft.Extensions.Logging.ILogger.Log(Of TState)(Microsoft.Extensions.Logging.LogLevel, Microsoft.Extensions.Logging.EventId, TState, System.Exception, System.Func(Of TState, System.Exception, System.String))
+  name.vb: Log(Of TState)(LogLevel, EventId, TState, Exception, Func(Of TState, Exception, String))
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger.Log``1(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,``0,System.Exception,System.Func{``0,System.Exception,System.String})
+    name: Log<TState>
+    nameWithType: ILogger.Log<TState>
+    fullName: Microsoft.Extensions.Logging.ILogger.Log<TState>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.Logging.LogLevel
+    name: LogLevel
+    nameWithType: LogLevel
+    fullName: Microsoft.Extensions.Logging.LogLevel
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.Extensions.Logging.EventId
+    name: EventId
+    nameWithType: EventId
+    fullName: Microsoft.Extensions.Logging.EventId
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TState
+    nameWithType: TState
+    fullName: TState
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`3
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TState
+    nameWithType: TState
+    fullName: TState
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger.Log``1(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,``0,System.Exception,System.Func{``0,System.Exception,System.String})
+    name: Log(Of TState)
+    nameWithType: ILogger.Log(Of TState)
+    fullName: Microsoft.Extensions.Logging.ILogger.Log(Of TState)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Microsoft.Extensions.Logging.LogLevel
+    name: LogLevel
+    nameWithType: LogLevel
+    fullName: Microsoft.Extensions.Logging.LogLevel
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Microsoft.Extensions.Logging.EventId
+    name: EventId
+    nameWithType: EventId
+    fullName: Microsoft.Extensions.Logging.EventId
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TState
+    nameWithType: TState
+    fullName: TState
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`3
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TState
+    nameWithType: TState
+    fullName: TState
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
   - name: )
     nameWithType: )
     fullName: )

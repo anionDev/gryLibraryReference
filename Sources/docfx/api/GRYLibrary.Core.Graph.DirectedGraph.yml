@@ -39,7 +39,6 @@ items:
     content: 'public sealed class DirectedGraph : Graph'
     content.vb: >-
       Public NotInheritable Class DirectedGraph
-
           Inherits Graph
   inheritance:
   - System.Object

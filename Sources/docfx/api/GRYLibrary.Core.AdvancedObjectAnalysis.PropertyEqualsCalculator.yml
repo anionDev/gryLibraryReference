@@ -30,7 +30,6 @@ items:
     content: 'public class PropertyEqualsCalculator : IEqualityComparer<object>'
     content.vb: >-
       Public Class PropertyEqualsCalculator
-
           Implements IEqualityComparer(Of Object)
   inheritance:
   - System.Object

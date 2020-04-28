@@ -37,7 +37,6 @@ items:
     content: 'public class DirectedEdge : Edge'
     content.vb: >-
       Public Class DirectedEdge
-
           Inherits Edge
   inheritance:
   - System.Object

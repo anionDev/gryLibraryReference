@@ -30,7 +30,6 @@ items:
     - id: T
     content.vb: >-
       Public Class ReadOnlyProperty(Of T)
-
           Inherits ReadOnlyProperty
   inheritance:
   - System.Object

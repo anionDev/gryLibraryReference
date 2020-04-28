@@ -26,7 +26,6 @@ items:
     content: 'public class KeyValuePairComparer : IEqualityComparer<KeyValuePair<object, object>>'
     content.vb: >-
       Public Class KeyValuePairComparer
-
           Implements IEqualityComparer(Of KeyValuePair(Of Object, Object))
   inheritance:
   - System.Object

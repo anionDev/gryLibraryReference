@@ -33,7 +33,6 @@ items:
     content: 'public sealed class UndirectedGraph : Graph'
     content.vb: >-
       Public NotInheritable Class UndirectedGraph
-
           Inherits Graph
   inheritance:
   - System.Object

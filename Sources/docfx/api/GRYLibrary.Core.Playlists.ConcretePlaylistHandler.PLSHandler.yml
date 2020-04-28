@@ -29,7 +29,6 @@ items:
     content: 'public class PLSHandler : AbstractPlaylistHandler'
     content.vb: >-
       Public Class PLSHandler
-
           Inherits AbstractPlaylistHandler
   inheritance:
   - System.Object

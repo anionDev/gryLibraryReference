@@ -26,7 +26,6 @@ items:
     content: 'public class GRYLogSubNamespaceProvider : IDisposable'
     content.vb: >-
       Public Class GRYLogSubNamespaceProvider
-
           Implements IDisposable
   inheritance:
   - System.Object

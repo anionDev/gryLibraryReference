@@ -26,7 +26,6 @@ items:
     content: 'public class SimplifiedEnumerable : Simplified'
     content.vb: >-
       Public Class SimplifiedEnumerable
-
           Inherits Simplified
   inheritance:
   - System.Object

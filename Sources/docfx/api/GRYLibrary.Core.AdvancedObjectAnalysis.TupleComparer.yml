@@ -26,7 +26,6 @@ items:
     content: 'public class TupleComparer : IEqualityComparer<Tuple<object, object>>'
     content.vb: >-
       Public Class TupleComparer
-
           Implements IEqualityComparer(Of Tuple(Of Object, Object))
   inheritance:
   - System.Object

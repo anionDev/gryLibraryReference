@@ -31,7 +31,6 @@ items:
     - id: ContainedItemType
     content.vb: >-
       Public Class Container(Of ContainedItemType)
-
           Inherits TreeItem(Of ContainedItemType)
   inheritance:
   - System.Object

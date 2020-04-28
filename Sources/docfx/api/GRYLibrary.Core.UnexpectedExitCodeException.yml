@@ -25,9 +25,7 @@ items:
     content: 'public class UnexpectedExitCodeException : Exception, ISerializable'
     content.vb: >-
       Public Class UnexpectedExitCodeException
-
           Inherits Exception
-
           Implements ISerializable
   inheritance:
   - System.Object

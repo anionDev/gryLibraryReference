@@ -86,7 +86,7 @@ items:
     content: public HashSet<LogLevel> LogLevels { get; set; }
     parameters: []
     return:
-      type: System.Collections.Generic.HashSet{LogLevel}
+      type: System.Collections.Generic.HashSet{Microsoft.Extensions.Logging.LogLevel}
     content.vb: Public Property LogLevels As HashSet(Of LogLevel)
   overload: GRYLibrary.Core.Log.GRYLogTarget.LogLevels*
   modifiers.csharp:
@@ -1494,15 +1494,15 @@ references:
   name: LogLevels
   nameWithType: GRYLogTarget.LogLevels
   fullName: GRYLibrary.Core.Log.GRYLogTarget.LogLevels
-- uid: System.Collections.Generic.HashSet{LogLevel}
-  commentId: T:System.Collections.Generic.HashSet{LogLevel}
+- uid: System.Collections.Generic.HashSet{Microsoft.Extensions.Logging.LogLevel}
+  commentId: T:System.Collections.Generic.HashSet{Microsoft.Extensions.Logging.LogLevel}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.HashSet`1
   name: HashSet<LogLevel>
   nameWithType: HashSet<LogLevel>
-  fullName: System.Collections.Generic.HashSet<LogLevel>
+  fullName: System.Collections.Generic.HashSet<Microsoft.Extensions.Logging.LogLevel>
   nameWithType.vb: HashSet(Of LogLevel)
-  fullName.vb: System.Collections.Generic.HashSet(Of LogLevel)
+  fullName.vb: System.Collections.Generic.HashSet(Of Microsoft.Extensions.Logging.LogLevel)
   name.vb: HashSet(Of LogLevel)
   spec.csharp:
   - uid: System.Collections.Generic.HashSet`1
@@ -1513,10 +1513,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: LogLevel
+  - uid: Microsoft.Extensions.Logging.LogLevel
     name: LogLevel
     nameWithType: LogLevel
-    fullName: LogLevel
+    fullName: Microsoft.Extensions.Logging.LogLevel
     isExternal: true
   - name: '>'
     nameWithType: '>'
@@ -1530,10 +1530,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: LogLevel
+  - uid: Microsoft.Extensions.Logging.LogLevel
     name: LogLevel
     nameWithType: LogLevel
-    fullName: LogLevel
+    fullName: Microsoft.Extensions.Logging.LogLevel
     isExternal: true
   - name: )
     nameWithType: )

@@ -26,7 +26,6 @@ items:
     content: 'public class SimplifiedPrimitive : Simplified'
     content.vb: >-
       Public Class SimplifiedPrimitive
-
           Inherits Simplified
   inheritance:
   - System.Object

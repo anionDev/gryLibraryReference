@@ -34,7 +34,6 @@ items:
     content: 'public class OneLineTableCharacter : TableGenerator.ITableCharacter'
     content.vb: >-
       Public Class OneLineTableCharacter
-
           Implements TableGenerator.ITableCharacter
   inheritance:
   - System.Object
