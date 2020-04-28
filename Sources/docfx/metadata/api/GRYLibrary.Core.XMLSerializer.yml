@@ -1,0 +1,151 @@
+### YamlMime:ManagedReference
+items:
+- uid: GRYLibrary.Core.XMLSerializer
+  commentId: N:GRYLibrary.Core.XMLSerializer
+  id: GRYLibrary.Core.XMLSerializer
+  children:
+  - GRYLibrary.Core.XMLSerializer.KeyValuePair`2
+  - GRYLibrary.Core.XMLSerializer.SerializableDictionary`2
+  - GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1
+  langs:
+  - csharp
+  - vb
+  name: GRYLibrary.Core.XMLSerializer
+  nameWithType: GRYLibrary.Core.XMLSerializer
+  fullName: GRYLibrary.Core.XMLSerializer
+  type: Namespace
+  assemblies:
+  - GRYLibrary
+references:
+- uid: GRYLibrary.Core.XMLSerializer.KeyValuePair`2
+  commentId: T:GRYLibrary.Core.XMLSerializer.KeyValuePair`2
+  name: KeyValuePair<TKey, TValue>
+  nameWithType: KeyValuePair<TKey, TValue>
+  fullName: GRYLibrary.Core.XMLSerializer.KeyValuePair<TKey, TValue>
+  nameWithType.vb: KeyValuePair(Of TKey, TValue)
+  fullName.vb: GRYLibrary.Core.XMLSerializer.KeyValuePair(Of TKey, TValue)
+  name.vb: KeyValuePair(Of TKey, TValue)
+  spec.csharp:
+  - uid: GRYLibrary.Core.XMLSerializer.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: GRYLibrary.Core.XMLSerializer.KeyValuePair
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GRYLibrary.Core.XMLSerializer.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: GRYLibrary.Core.XMLSerializer.KeyValuePair
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.XMLSerializer.SerializableDictionary`2
+  commentId: T:GRYLibrary.Core.XMLSerializer.SerializableDictionary`2
+  name: SerializableDictionary<TKey, TValue>
+  nameWithType: SerializableDictionary<TKey, TValue>
+  fullName: GRYLibrary.Core.XMLSerializer.SerializableDictionary<TKey, TValue>
+  nameWithType.vb: SerializableDictionary(Of TKey, TValue)
+  fullName.vb: GRYLibrary.Core.XMLSerializer.SerializableDictionary(Of TKey, TValue)
+  name.vb: SerializableDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: GRYLibrary.Core.XMLSerializer.SerializableDictionary`2
+    name: SerializableDictionary
+    nameWithType: SerializableDictionary
+    fullName: GRYLibrary.Core.XMLSerializer.SerializableDictionary
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GRYLibrary.Core.XMLSerializer.SerializableDictionary`2
+    name: SerializableDictionary
+    nameWithType: SerializableDictionary
+    fullName: GRYLibrary.Core.XMLSerializer.SerializableDictionary
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1
+  commentId: T:GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1
+  name: SimpleGenericXMLSerializer<T>
+  nameWithType: SimpleGenericXMLSerializer<T>
+  fullName: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer<T>
+  nameWithType.vb: SimpleGenericXMLSerializer(Of T)
+  fullName.vb: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer(Of T)
+  name.vb: SimpleGenericXMLSerializer(Of T)
+  spec.csharp:
+  - uid: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1
+    name: SimpleGenericXMLSerializer
+    nameWithType: SimpleGenericXMLSerializer
+    fullName: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1
+    name: SimpleGenericXMLSerializer
+    nameWithType: SimpleGenericXMLSerializer
+    fullName: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

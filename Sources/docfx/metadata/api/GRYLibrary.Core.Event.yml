@@ -1,0 +1,163 @@
+### YamlMime:ManagedReference
+items:
+- uid: GRYLibrary.Core.Event
+  commentId: N:GRYLibrary.Core.Event
+  id: GRYLibrary.Core.Event
+  children:
+  - GRYLibrary.Core.Event.Argument`2
+  - GRYLibrary.Core.Event.EventSender`2
+  - GRYLibrary.Core.Event.IObserver`2
+  langs:
+  - csharp
+  - vb
+  name: GRYLibrary.Core.Event
+  nameWithType: GRYLibrary.Core.Event
+  fullName: GRYLibrary.Core.Event
+  type: Namespace
+  assemblies:
+  - GRYLibrary
+references:
+- uid: GRYLibrary.Core.Event.Argument`2
+  commentId: T:GRYLibrary.Core.Event.Argument`2
+  name: Argument<SenderType, EventArgumentType>
+  nameWithType: Argument<SenderType, EventArgumentType>
+  fullName: GRYLibrary.Core.Event.Argument<SenderType, EventArgumentType>
+  nameWithType.vb: Argument(Of SenderType, EventArgumentType)
+  fullName.vb: GRYLibrary.Core.Event.Argument(Of SenderType, EventArgumentType)
+  name.vb: Argument(Of SenderType, EventArgumentType)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Event.Argument`2
+    name: Argument
+    nameWithType: Argument
+    fullName: GRYLibrary.Core.Event.Argument
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: SenderType
+    nameWithType: SenderType
+    fullName: SenderType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: EventArgumentType
+    nameWithType: EventArgumentType
+    fullName: EventArgumentType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GRYLibrary.Core.Event.Argument`2
+    name: Argument
+    nameWithType: Argument
+    fullName: GRYLibrary.Core.Event.Argument
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: SenderType
+    nameWithType: SenderType
+    fullName: SenderType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: EventArgumentType
+    nameWithType: EventArgumentType
+    fullName: EventArgumentType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Event.EventSender`2
+  commentId: T:GRYLibrary.Core.Event.EventSender`2
+  name: EventSender<SenderType, EventArgumentType>
+  nameWithType: EventSender<SenderType, EventArgumentType>
+  fullName: GRYLibrary.Core.Event.EventSender<SenderType, EventArgumentType>
+  nameWithType.vb: EventSender(Of SenderType, EventArgumentType)
+  fullName.vb: GRYLibrary.Core.Event.EventSender(Of SenderType, EventArgumentType)
+  name.vb: EventSender(Of SenderType, EventArgumentType)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Event.EventSender`2
+    name: EventSender
+    nameWithType: EventSender
+    fullName: GRYLibrary.Core.Event.EventSender
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: SenderType
+    nameWithType: SenderType
+    fullName: SenderType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: EventArgumentType
+    nameWithType: EventArgumentType
+    fullName: EventArgumentType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GRYLibrary.Core.Event.EventSender`2
+    name: EventSender
+    nameWithType: EventSender
+    fullName: GRYLibrary.Core.Event.EventSender
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: SenderType
+    nameWithType: SenderType
+    fullName: SenderType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: EventArgumentType
+    nameWithType: EventArgumentType
+    fullName: EventArgumentType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Event.IObserver`2
+  commentId: T:GRYLibrary.Core.Event.IObserver`2
+  name: IObserver<SenderType, EventArgumentType>
+  nameWithType: IObserver<SenderType, EventArgumentType>
+  fullName: GRYLibrary.Core.Event.IObserver<SenderType, EventArgumentType>
+  nameWithType.vb: IObserver(Of SenderType, EventArgumentType)
+  fullName.vb: GRYLibrary.Core.Event.IObserver(Of SenderType, EventArgumentType)
+  name.vb: IObserver(Of SenderType, EventArgumentType)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Event.IObserver`2
+    name: IObserver
+    nameWithType: IObserver
+    fullName: GRYLibrary.Core.Event.IObserver
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: SenderType
+    nameWithType: SenderType
+    fullName: SenderType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: EventArgumentType
+    nameWithType: EventArgumentType
+    fullName: EventArgumentType
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GRYLibrary.Core.Event.IObserver`2
+    name: IObserver
+    nameWithType: IObserver
+    fullName: GRYLibrary.Core.Event.IObserver
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: SenderType
+    nameWithType: SenderType
+    fullName: SenderType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: EventArgumentType
+    nameWithType: EventArgumentType
+    fullName: EventArgumentType
+  - name: )
+    nameWithType: )
+    fullName: )

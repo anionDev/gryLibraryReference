@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: GRYLibrary.Core.Graph.Exceptions
+  commentId: N:GRYLibrary.Core.Graph.Exceptions
+  id: GRYLibrary.Core.Graph.Exceptions
+  children:
+  - GRYLibrary.Core.Graph.Exceptions.InternalAlgorithmException
+  - GRYLibrary.Core.Graph.Exceptions.InvalidEdgeTypeException
+  - GRYLibrary.Core.Graph.Exceptions.InvalidGraphStructureException
+  - GRYLibrary.Core.Graph.Exceptions.UnallowedOperationException
+  langs:
+  - csharp
+  - vb
+  name: GRYLibrary.Core.Graph.Exceptions
+  nameWithType: GRYLibrary.Core.Graph.Exceptions
+  fullName: GRYLibrary.Core.Graph.Exceptions
+  type: Namespace
+  assemblies:
+  - GRYLibrary
+references:
+- uid: GRYLibrary.Core.Graph.Exceptions.InternalAlgorithmException
+  commentId: T:GRYLibrary.Core.Graph.Exceptions.InternalAlgorithmException
+  name: InternalAlgorithmException
+  nameWithType: InternalAlgorithmException
+  fullName: GRYLibrary.Core.Graph.Exceptions.InternalAlgorithmException
+- uid: GRYLibrary.Core.Graph.Exceptions.InvalidEdgeTypeException
+  commentId: T:GRYLibrary.Core.Graph.Exceptions.InvalidEdgeTypeException
+  name: InvalidEdgeTypeException
+  nameWithType: InvalidEdgeTypeException
+  fullName: GRYLibrary.Core.Graph.Exceptions.InvalidEdgeTypeException
+- uid: GRYLibrary.Core.Graph.Exceptions.InvalidGraphStructureException
+  commentId: T:GRYLibrary.Core.Graph.Exceptions.InvalidGraphStructureException
+  name: InvalidGraphStructureException
+  nameWithType: InvalidGraphStructureException
+  fullName: GRYLibrary.Core.Graph.Exceptions.InvalidGraphStructureException
+- uid: GRYLibrary.Core.Graph.Exceptions.UnallowedOperationException
+  commentId: T:GRYLibrary.Core.Graph.Exceptions.UnallowedOperationException
+  name: UnallowedOperationException
+  nameWithType: UnallowedOperationException
+  fullName: GRYLibrary.Core.Graph.Exceptions.UnallowedOperationException

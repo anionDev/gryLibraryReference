@@ -1,0 +1,1963 @@
+### YamlMime:ManagedReference
+items:
+- uid: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter
+  commentId: T:GRYLibrary.Core.TableGenerator.RoundLineTableCharacter
+  id: TableGenerator.RoundLineTableCharacter
+  parent: GRYLibrary.Core
+  children:
+  - GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.CrossCharacter
+  - GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.HorizontalLineCharacter
+  - GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.LeftLowerCornerCharacter
+  - GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.LeftUpperCornerCharacter
+  - GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.RightLowerCornerCharacter
+  - GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.RightUpperCornerCharacter
+  - GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.TDownCharacter
+  - GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.TLeftCharacter
+  - GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.TRightCharacter
+  - GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.TUpCharacter
+  - GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.VerticalLineCharacter
+  langs:
+  - csharp
+  - vb
+  name: TableGenerator.RoundLineTableCharacter
+  nameWithType: TableGenerator.RoundLineTableCharacter
+  fullName: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter
+  type: Class
+  source:
+    id: RoundLineTableCharacter
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\TableGenerator.cs
+    startLine: 228
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core
+  syntax:
+    content: 'public class RoundLineTableCharacter : TableGenerator.ITableCharacter'
+    content.vb: >-
+      Public Class RoundLineTableCharacter
+
+          Implements TableGenerator.ITableCharacter
+  inheritance:
+  - System.Object
+  implements:
+  - GRYLibrary.Core.TableGenerator.ITableCharacter
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.GRYLibrary.Core.Utilities.ObjectIsEnumerable
+  - System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable
+  - System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric``1
+  - System.Object.GRYLibrary.Core.Utilities.ObjectIsList
+  - System.Object.GRYLibrary.Core.Utilities.ObjectToList``1
+  - System.Object.GRYLibrary.Core.Utilities.ObjectIsSet
+  - System.Object.GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - System.Object.GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2
+  - System.Object.GRYLibrary.Core.Utilities.ObjectToSet``1
+  - System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionary
+  - System.Object.GRYLibrary.Core.Utilities.ObjectToDictionary``2
+  - System.Object.GRYLibrary.Core.Utilities.ToDynamic
+  - GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.GRYLibrary.Core.Utilities.DeepClone``1
+  - GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.GRYLibrary.Core.Utilities.PersistToDisk``1(System.String)
+  - System.Object.GRYLibrary.Core.Utilities.NullSafeEquals(System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.HorizontalLineCharacter
+  commentId: P:GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.HorizontalLineCharacter
+  id: HorizontalLineCharacter
+  parent: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter
+  langs:
+  - csharp
+  - vb
+  name: HorizontalLineCharacter
+  nameWithType: TableGenerator.RoundLineTableCharacter.HorizontalLineCharacter
+  fullName: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.HorizontalLineCharacter
+  type: Property
+  source:
+    id: HorizontalLineCharacter
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\TableGenerator.cs
+    startLine: 230
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core
+  syntax:
+    content: public char HorizontalLineCharacter { get; }
+    parameters: []
+    return:
+      type: System.Char
+    content.vb: Public ReadOnly Property HorizontalLineCharacter As Char
+  overload: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.HorizontalLineCharacter*
+  implements:
+  - GRYLibrary.Core.TableGenerator.ITableCharacter.HorizontalLineCharacter
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.VerticalLineCharacter
+  commentId: P:GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.VerticalLineCharacter
+  id: VerticalLineCharacter
+  parent: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter
+  langs:
+  - csharp
+  - vb
+  name: VerticalLineCharacter
+  nameWithType: TableGenerator.RoundLineTableCharacter.VerticalLineCharacter
+  fullName: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.VerticalLineCharacter
+  type: Property
+  source:
+    id: VerticalLineCharacter
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\TableGenerator.cs
+    startLine: 231
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core
+  syntax:
+    content: public char VerticalLineCharacter { get; }
+    parameters: []
+    return:
+      type: System.Char
+    content.vb: Public ReadOnly Property VerticalLineCharacter As Char
+  overload: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.VerticalLineCharacter*
+  implements:
+  - GRYLibrary.Core.TableGenerator.ITableCharacter.VerticalLineCharacter
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.LeftUpperCornerCharacter
+  commentId: P:GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.LeftUpperCornerCharacter
+  id: LeftUpperCornerCharacter
+  parent: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter
+  langs:
+  - csharp
+  - vb
+  name: LeftUpperCornerCharacter
+  nameWithType: TableGenerator.RoundLineTableCharacter.LeftUpperCornerCharacter
+  fullName: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.LeftUpperCornerCharacter
+  type: Property
+  source:
+    id: LeftUpperCornerCharacter
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\TableGenerator.cs
+    startLine: 232
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core
+  syntax:
+    content: public char LeftUpperCornerCharacter { get; }
+    parameters: []
+    return:
+      type: System.Char
+    content.vb: Public ReadOnly Property LeftUpperCornerCharacter As Char
+  overload: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.LeftUpperCornerCharacter*
+  implements:
+  - GRYLibrary.Core.TableGenerator.ITableCharacter.LeftUpperCornerCharacter
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.RightUpperCornerCharacter
+  commentId: P:GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.RightUpperCornerCharacter
+  id: RightUpperCornerCharacter
+  parent: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter
+  langs:
+  - csharp
+  - vb
+  name: RightUpperCornerCharacter
+  nameWithType: TableGenerator.RoundLineTableCharacter.RightUpperCornerCharacter
+  fullName: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.RightUpperCornerCharacter
+  type: Property
+  source:
+    id: RightUpperCornerCharacter
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\TableGenerator.cs
+    startLine: 233
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core
+  syntax:
+    content: public char RightUpperCornerCharacter { get; }
+    parameters: []
+    return:
+      type: System.Char
+    content.vb: Public ReadOnly Property RightUpperCornerCharacter As Char
+  overload: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.RightUpperCornerCharacter*
+  implements:
+  - GRYLibrary.Core.TableGenerator.ITableCharacter.RightUpperCornerCharacter
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.LeftLowerCornerCharacter
+  commentId: P:GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.LeftLowerCornerCharacter
+  id: LeftLowerCornerCharacter
+  parent: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter
+  langs:
+  - csharp
+  - vb
+  name: LeftLowerCornerCharacter
+  nameWithType: TableGenerator.RoundLineTableCharacter.LeftLowerCornerCharacter
+  fullName: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.LeftLowerCornerCharacter
+  type: Property
+  source:
+    id: LeftLowerCornerCharacter
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\TableGenerator.cs
+    startLine: 234
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core
+  syntax:
+    content: public char LeftLowerCornerCharacter { get; }
+    parameters: []
+    return:
+      type: System.Char
+    content.vb: Public ReadOnly Property LeftLowerCornerCharacter As Char
+  overload: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.LeftLowerCornerCharacter*
+  implements:
+  - GRYLibrary.Core.TableGenerator.ITableCharacter.LeftLowerCornerCharacter
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.RightLowerCornerCharacter
+  commentId: P:GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.RightLowerCornerCharacter
+  id: RightLowerCornerCharacter
+  parent: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter
+  langs:
+  - csharp
+  - vb
+  name: RightLowerCornerCharacter
+  nameWithType: TableGenerator.RoundLineTableCharacter.RightLowerCornerCharacter
+  fullName: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.RightLowerCornerCharacter
+  type: Property
+  source:
+    id: RightLowerCornerCharacter
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\TableGenerator.cs
+    startLine: 235
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core
+  syntax:
+    content: public char RightLowerCornerCharacter { get; }
+    parameters: []
+    return:
+      type: System.Char
+    content.vb: Public ReadOnly Property RightLowerCornerCharacter As Char
+  overload: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.RightLowerCornerCharacter*
+  implements:
+  - GRYLibrary.Core.TableGenerator.ITableCharacter.RightLowerCornerCharacter
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.CrossCharacter
+  commentId: P:GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.CrossCharacter
+  id: CrossCharacter
+  parent: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter
+  langs:
+  - csharp
+  - vb
+  name: CrossCharacter
+  nameWithType: TableGenerator.RoundLineTableCharacter.CrossCharacter
+  fullName: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.CrossCharacter
+  type: Property
+  source:
+    id: CrossCharacter
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\TableGenerator.cs
+    startLine: 236
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core
+  syntax:
+    content: public char CrossCharacter { get; }
+    parameters: []
+    return:
+      type: System.Char
+    content.vb: Public ReadOnly Property CrossCharacter As Char
+  overload: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.CrossCharacter*
+  implements:
+  - GRYLibrary.Core.TableGenerator.ITableCharacter.CrossCharacter
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.TDownCharacter
+  commentId: P:GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.TDownCharacter
+  id: TDownCharacter
+  parent: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter
+  langs:
+  - csharp
+  - vb
+  name: TDownCharacter
+  nameWithType: TableGenerator.RoundLineTableCharacter.TDownCharacter
+  fullName: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.TDownCharacter
+  type: Property
+  source:
+    id: TDownCharacter
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\TableGenerator.cs
+    startLine: 237
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core
+  syntax:
+    content: public char TDownCharacter { get; }
+    parameters: []
+    return:
+      type: System.Char
+    content.vb: Public ReadOnly Property TDownCharacter As Char
+  overload: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.TDownCharacter*
+  implements:
+  - GRYLibrary.Core.TableGenerator.ITableCharacter.TDownCharacter
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.TRightCharacter
+  commentId: P:GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.TRightCharacter
+  id: TRightCharacter
+  parent: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter
+  langs:
+  - csharp
+  - vb
+  name: TRightCharacter
+  nameWithType: TableGenerator.RoundLineTableCharacter.TRightCharacter
+  fullName: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.TRightCharacter
+  type: Property
+  source:
+    id: TRightCharacter
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\TableGenerator.cs
+    startLine: 238
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core
+  syntax:
+    content: public char TRightCharacter { get; }
+    parameters: []
+    return:
+      type: System.Char
+    content.vb: Public ReadOnly Property TRightCharacter As Char
+  overload: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.TRightCharacter*
+  implements:
+  - GRYLibrary.Core.TableGenerator.ITableCharacter.TRightCharacter
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.TLeftCharacter
+  commentId: P:GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.TLeftCharacter
+  id: TLeftCharacter
+  parent: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter
+  langs:
+  - csharp
+  - vb
+  name: TLeftCharacter
+  nameWithType: TableGenerator.RoundLineTableCharacter.TLeftCharacter
+  fullName: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.TLeftCharacter
+  type: Property
+  source:
+    id: TLeftCharacter
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\TableGenerator.cs
+    startLine: 239
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core
+  syntax:
+    content: public char TLeftCharacter { get; }
+    parameters: []
+    return:
+      type: System.Char
+    content.vb: Public ReadOnly Property TLeftCharacter As Char
+  overload: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.TLeftCharacter*
+  implements:
+  - GRYLibrary.Core.TableGenerator.ITableCharacter.TLeftCharacter
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.TUpCharacter
+  commentId: P:GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.TUpCharacter
+  id: TUpCharacter
+  parent: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter
+  langs:
+  - csharp
+  - vb
+  name: TUpCharacter
+  nameWithType: TableGenerator.RoundLineTableCharacter.TUpCharacter
+  fullName: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.TUpCharacter
+  type: Property
+  source:
+    id: TUpCharacter
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\TableGenerator.cs
+    startLine: 240
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core
+  syntax:
+    content: public char TUpCharacter { get; }
+    parameters: []
+    return:
+      type: System.Char
+    content.vb: Public ReadOnly Property TUpCharacter As Char
+  overload: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.TUpCharacter*
+  implements:
+  - GRYLibrary.Core.TableGenerator.ITableCharacter.TUpCharacter
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: GRYLibrary.Core
+  commentId: N:GRYLibrary.Core
+  name: GRYLibrary.Core
+  nameWithType: GRYLibrary.Core
+  fullName: GRYLibrary.Core
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: GRYLibrary.Core.TableGenerator.ITableCharacter
+  commentId: T:GRYLibrary.Core.TableGenerator.ITableCharacter
+  parent: GRYLibrary.Core
+  name: TableGenerator.ITableCharacter
+  nameWithType: TableGenerator.ITableCharacter
+  fullName: GRYLibrary.Core.TableGenerator.ITableCharacter
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectIsEnumerable
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsEnumerable(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectIsEnumerable(System.Object)
+  name: ObjectIsEnumerable()
+  nameWithType: Utilities.ObjectIsEnumerable()
+  fullName: GRYLibrary.Core.Utilities.ObjectIsEnumerable()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsEnumerable
+    name: ObjectIsEnumerable
+    nameWithType: Utilities.ObjectIsEnumerable
+    fullName: GRYLibrary.Core.Utilities.ObjectIsEnumerable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsEnumerable
+    name: ObjectIsEnumerable
+    nameWithType: Utilities.ObjectIsEnumerable
+    fullName: GRYLibrary.Core.Utilities.ObjectIsEnumerable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToEnumerable(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectToEnumerable(System.Object)
+  name: ObjectToEnumerable()
+  nameWithType: Utilities.ObjectToEnumerable()
+  fullName: GRYLibrary.Core.Utilities.ObjectToEnumerable()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToEnumerable
+    name: ObjectToEnumerable
+    nameWithType: Utilities.ObjectToEnumerable
+    fullName: GRYLibrary.Core.Utilities.ObjectToEnumerable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToEnumerable
+    name: ObjectToEnumerable
+    nameWithType: Utilities.ObjectToEnumerable
+    fullName: GRYLibrary.Core.Utilities.ObjectToEnumerable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric``1
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric``1(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric``1(System.Object)
+  name: ObjectToEnumerableGeneric<T>()
+  nameWithType: Utilities.ObjectToEnumerableGeneric<T>()
+  fullName: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric<T>()
+  nameWithType.vb: Utilities.ObjectToEnumerableGeneric(Of T)()
+  fullName.vb: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric(Of T)()
+  name.vb: ObjectToEnumerableGeneric(Of T)()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric``1
+    name: ObjectToEnumerableGeneric<T>
+    nameWithType: Utilities.ObjectToEnumerableGeneric<T>
+    fullName: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric``1
+    name: ObjectToEnumerableGeneric(Of T)
+    nameWithType: Utilities.ObjectToEnumerableGeneric(Of T)
+    fullName: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectIsList
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsList(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectIsList(System.Object)
+  name: ObjectIsList()
+  nameWithType: Utilities.ObjectIsList()
+  fullName: GRYLibrary.Core.Utilities.ObjectIsList()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsList
+    name: ObjectIsList
+    nameWithType: Utilities.ObjectIsList
+    fullName: GRYLibrary.Core.Utilities.ObjectIsList
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsList
+    name: ObjectIsList
+    nameWithType: Utilities.ObjectIsList
+    fullName: GRYLibrary.Core.Utilities.ObjectIsList
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectToList``1
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToList``1(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectToList``1(System.Object)
+  name: ObjectToList<T>()
+  nameWithType: Utilities.ObjectToList<T>()
+  fullName: GRYLibrary.Core.Utilities.ObjectToList<T>()
+  nameWithType.vb: Utilities.ObjectToList(Of T)()
+  fullName.vb: GRYLibrary.Core.Utilities.ObjectToList(Of T)()
+  name.vb: ObjectToList(Of T)()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToList``1
+    name: ObjectToList<T>
+    nameWithType: Utilities.ObjectToList<T>
+    fullName: GRYLibrary.Core.Utilities.ObjectToList<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToList``1
+    name: ObjectToList(Of T)
+    nameWithType: Utilities.ObjectToList(Of T)
+    fullName: GRYLibrary.Core.Utilities.ObjectToList(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectIsSet
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsSet(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectIsSet(System.Object)
+  name: ObjectIsSet()
+  nameWithType: Utilities.ObjectIsSet()
+  fullName: GRYLibrary.Core.Utilities.ObjectIsSet()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsSet
+    name: ObjectIsSet
+    nameWithType: Utilities.ObjectIsSet
+    fullName: GRYLibrary.Core.Utilities.ObjectIsSet
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsSet
+    name: ObjectIsSet
+    nameWithType: Utilities.ObjectIsSet
+    fullName: GRYLibrary.Core.Utilities.ObjectIsSet
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsKeyValuePair(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair(System.Object)
+  name: ObjectIsKeyValuePair()
+  nameWithType: Utilities.ObjectIsKeyValuePair()
+  fullName: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+    name: ObjectIsKeyValuePair
+    nameWithType: Utilities.ObjectIsKeyValuePair
+    fullName: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+    name: ObjectIsKeyValuePair
+    nameWithType: Utilities.ObjectIsKeyValuePair
+    fullName: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2(System.Object)
+  name: ObjectToKeyValuePair<TKey, TValue>()
+  nameWithType: Utilities.ObjectToKeyValuePair<TKey, TValue>()
+  fullName: GRYLibrary.Core.Utilities.ObjectToKeyValuePair<TKey, TValue>()
+  nameWithType.vb: Utilities.ObjectToKeyValuePair(Of TKey, TValue)()
+  fullName.vb: GRYLibrary.Core.Utilities.ObjectToKeyValuePair(Of TKey, TValue)()
+  name.vb: ObjectToKeyValuePair(Of TKey, TValue)()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2
+    name: ObjectToKeyValuePair<TKey, TValue>
+    nameWithType: Utilities.ObjectToKeyValuePair<TKey, TValue>
+    fullName: GRYLibrary.Core.Utilities.ObjectToKeyValuePair<TKey, TValue>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2
+    name: ObjectToKeyValuePair(Of TKey, TValue)
+    nameWithType: Utilities.ObjectToKeyValuePair(Of TKey, TValue)
+    fullName: GRYLibrary.Core.Utilities.ObjectToKeyValuePair(Of TKey, TValue)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectToSet``1
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToSet``1(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectToSet``1(System.Object)
+  name: ObjectToSet<T>()
+  nameWithType: Utilities.ObjectToSet<T>()
+  fullName: GRYLibrary.Core.Utilities.ObjectToSet<T>()
+  nameWithType.vb: Utilities.ObjectToSet(Of T)()
+  fullName.vb: GRYLibrary.Core.Utilities.ObjectToSet(Of T)()
+  name.vb: ObjectToSet(Of T)()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToSet``1
+    name: ObjectToSet<T>
+    nameWithType: Utilities.ObjectToSet<T>
+    fullName: GRYLibrary.Core.Utilities.ObjectToSet<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToSet``1
+    name: ObjectToSet(Of T)
+    nameWithType: Utilities.ObjectToSet(Of T)
+    fullName: GRYLibrary.Core.Utilities.ObjectToSet(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionary
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionary(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectIsDictionary(System.Object)
+  name: ObjectIsDictionary()
+  nameWithType: Utilities.ObjectIsDictionary()
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionary()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionary
+    name: ObjectIsDictionary
+    nameWithType: Utilities.ObjectIsDictionary
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionary
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionary
+    name: ObjectIsDictionary
+    nameWithType: Utilities.ObjectIsDictionary
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionary
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectToDictionary``2
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToDictionary``2(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectToDictionary``2(System.Object)
+  name: ObjectToDictionary<TKey, TValue>()
+  nameWithType: Utilities.ObjectToDictionary<TKey, TValue>()
+  fullName: GRYLibrary.Core.Utilities.ObjectToDictionary<TKey, TValue>()
+  nameWithType.vb: Utilities.ObjectToDictionary(Of TKey, TValue)()
+  fullName.vb: GRYLibrary.Core.Utilities.ObjectToDictionary(Of TKey, TValue)()
+  name.vb: ObjectToDictionary(Of TKey, TValue)()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToDictionary``2
+    name: ObjectToDictionary<TKey, TValue>
+    nameWithType: Utilities.ObjectToDictionary<TKey, TValue>
+    fullName: GRYLibrary.Core.Utilities.ObjectToDictionary<TKey, TValue>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToDictionary``2
+    name: ObjectToDictionary(Of TKey, TValue)
+    nameWithType: Utilities.ObjectToDictionary(Of TKey, TValue)
+    fullName: GRYLibrary.Core.Utilities.ObjectToDictionary(Of TKey, TValue)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ToDynamic
+  commentId: M:GRYLibrary.Core.Utilities.ToDynamic(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ToDynamic(System.Object)
+  name: ToDynamic()
+  nameWithType: Utilities.ToDynamic()
+  fullName: GRYLibrary.Core.Utilities.ToDynamic()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ToDynamic
+    name: ToDynamic
+    nameWithType: Utilities.ToDynamic
+    fullName: GRYLibrary.Core.Utilities.ToDynamic
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ToDynamic
+    name: ToDynamic
+    nameWithType: Utilities.ToDynamic
+    fullName: GRYLibrary.Core.Utilities.ToDynamic
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.GRYLibrary.Core.Utilities.DeepClone``1
+  commentId: M:GRYLibrary.Core.Utilities.DeepClone``1(``0)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.DeepClone``1(``0)
+  name: DeepClone<TableGenerator.RoundLineTableCharacter>()
+  nameWithType: Utilities.DeepClone<TableGenerator.RoundLineTableCharacter>()
+  fullName: GRYLibrary.Core.Utilities.DeepClone<GRYLibrary.Core.TableGenerator.RoundLineTableCharacter>()
+  nameWithType.vb: Utilities.DeepClone(Of TableGenerator.RoundLineTableCharacter)()
+  fullName.vb: GRYLibrary.Core.Utilities.DeepClone(Of GRYLibrary.Core.TableGenerator.RoundLineTableCharacter)()
+  name.vb: DeepClone(Of TableGenerator.RoundLineTableCharacter)()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.DeepClone``1
+    name: DeepClone<TableGenerator.RoundLineTableCharacter>
+    nameWithType: Utilities.DeepClone<TableGenerator.RoundLineTableCharacter>
+    fullName: GRYLibrary.Core.Utilities.DeepClone<GRYLibrary.Core.TableGenerator.RoundLineTableCharacter>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.DeepClone``1
+    name: DeepClone(Of TableGenerator.RoundLineTableCharacter)
+    nameWithType: Utilities.DeepClone(Of TableGenerator.RoundLineTableCharacter)
+    fullName: GRYLibrary.Core.Utilities.DeepClone(Of GRYLibrary.Core.TableGenerator.RoundLineTableCharacter)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.GRYLibrary.Core.Utilities.PersistToDisk``1(System.String)
+  commentId: M:GRYLibrary.Core.Utilities.PersistToDisk``1(``0,System.String)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.PersistToDisk``1(``0,System.String)
+  name: PersistToDisk<TableGenerator.RoundLineTableCharacter>(String)
+  nameWithType: Utilities.PersistToDisk<TableGenerator.RoundLineTableCharacter>(String)
+  fullName: GRYLibrary.Core.Utilities.PersistToDisk<GRYLibrary.Core.TableGenerator.RoundLineTableCharacter>(System.String)
+  nameWithType.vb: Utilities.PersistToDisk(Of TableGenerator.RoundLineTableCharacter)(String)
+  fullName.vb: GRYLibrary.Core.Utilities.PersistToDisk(Of GRYLibrary.Core.TableGenerator.RoundLineTableCharacter)(System.String)
+  name.vb: PersistToDisk(Of TableGenerator.RoundLineTableCharacter)(String)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.PersistToDisk``1(System.String)
+    name: PersistToDisk<TableGenerator.RoundLineTableCharacter>
+    nameWithType: Utilities.PersistToDisk<TableGenerator.RoundLineTableCharacter>
+    fullName: GRYLibrary.Core.Utilities.PersistToDisk<GRYLibrary.Core.TableGenerator.RoundLineTableCharacter>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.PersistToDisk``1(System.String)
+    name: PersistToDisk(Of TableGenerator.RoundLineTableCharacter)
+    nameWithType: Utilities.PersistToDisk(Of TableGenerator.RoundLineTableCharacter)
+    fullName: GRYLibrary.Core.Utilities.PersistToDisk(Of GRYLibrary.Core.TableGenerator.RoundLineTableCharacter)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.NullSafeEquals(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.NullSafeEquals(System.Object,System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.NullSafeEquals(System.Object,System.Object)
+  name: NullSafeEquals(Object)
+  nameWithType: Utilities.NullSafeEquals(Object)
+  fullName: GRYLibrary.Core.Utilities.NullSafeEquals(System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.NullSafeEquals(System.Object)
+    name: NullSafeEquals
+    nameWithType: Utilities.NullSafeEquals
+    fullName: GRYLibrary.Core.Utilities.NullSafeEquals
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.NullSafeEquals(System.Object)
+    name: NullSafeEquals
+    nameWithType: Utilities.NullSafeEquals
+    fullName: GRYLibrary.Core.Utilities.NullSafeEquals
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GRYLibrary.Core.Utilities.ObjectIsEnumerable(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsEnumerable(System.Object)
+  isExternal: true
+  name: ObjectIsEnumerable(Object)
+  nameWithType: Utilities.ObjectIsEnumerable(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectIsEnumerable(System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsEnumerable(System.Object)
+    name: ObjectIsEnumerable
+    nameWithType: Utilities.ObjectIsEnumerable
+    fullName: GRYLibrary.Core.Utilities.ObjectIsEnumerable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsEnumerable(System.Object)
+    name: ObjectIsEnumerable
+    nameWithType: Utilities.ObjectIsEnumerable
+    fullName: GRYLibrary.Core.Utilities.ObjectIsEnumerable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities
+  commentId: T:GRYLibrary.Core.Utilities
+  parent: GRYLibrary.Core
+  name: Utilities
+  nameWithType: Utilities
+  fullName: GRYLibrary.Core.Utilities
+- uid: GRYLibrary.Core.Utilities.ObjectToEnumerable(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToEnumerable(System.Object)
+  isExternal: true
+  name: ObjectToEnumerable(Object)
+  nameWithType: Utilities.ObjectToEnumerable(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectToEnumerable(System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToEnumerable(System.Object)
+    name: ObjectToEnumerable
+    nameWithType: Utilities.ObjectToEnumerable
+    fullName: GRYLibrary.Core.Utilities.ObjectToEnumerable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToEnumerable(System.Object)
+    name: ObjectToEnumerable
+    nameWithType: Utilities.ObjectToEnumerable
+    fullName: GRYLibrary.Core.Utilities.ObjectToEnumerable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric``1(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric``1(System.Object)
+  isExternal: true
+  name: ObjectToEnumerableGeneric<T>(Object)
+  nameWithType: Utilities.ObjectToEnumerableGeneric<T>(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric<T>(System.Object)
+  nameWithType.vb: Utilities.ObjectToEnumerableGeneric(Of T)(Object)
+  fullName.vb: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric(Of T)(System.Object)
+  name.vb: ObjectToEnumerableGeneric(Of T)(Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric``1(System.Object)
+    name: ObjectToEnumerableGeneric<T>
+    nameWithType: Utilities.ObjectToEnumerableGeneric<T>
+    fullName: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric``1(System.Object)
+    name: ObjectToEnumerableGeneric(Of T)
+    nameWithType: Utilities.ObjectToEnumerableGeneric(Of T)
+    fullName: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectIsList(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsList(System.Object)
+  isExternal: true
+  name: ObjectIsList(Object)
+  nameWithType: Utilities.ObjectIsList(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectIsList(System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsList(System.Object)
+    name: ObjectIsList
+    nameWithType: Utilities.ObjectIsList
+    fullName: GRYLibrary.Core.Utilities.ObjectIsList
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsList(System.Object)
+    name: ObjectIsList
+    nameWithType: Utilities.ObjectIsList
+    fullName: GRYLibrary.Core.Utilities.ObjectIsList
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectToList``1(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToList``1(System.Object)
+  isExternal: true
+  name: ObjectToList<T>(Object)
+  nameWithType: Utilities.ObjectToList<T>(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectToList<T>(System.Object)
+  nameWithType.vb: Utilities.ObjectToList(Of T)(Object)
+  fullName.vb: GRYLibrary.Core.Utilities.ObjectToList(Of T)(System.Object)
+  name.vb: ObjectToList(Of T)(Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToList``1(System.Object)
+    name: ObjectToList<T>
+    nameWithType: Utilities.ObjectToList<T>
+    fullName: GRYLibrary.Core.Utilities.ObjectToList<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToList``1(System.Object)
+    name: ObjectToList(Of T)
+    nameWithType: Utilities.ObjectToList(Of T)
+    fullName: GRYLibrary.Core.Utilities.ObjectToList(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectIsSet(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsSet(System.Object)
+  isExternal: true
+  name: ObjectIsSet(Object)
+  nameWithType: Utilities.ObjectIsSet(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectIsSet(System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsSet(System.Object)
+    name: ObjectIsSet
+    nameWithType: Utilities.ObjectIsSet
+    fullName: GRYLibrary.Core.Utilities.ObjectIsSet
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsSet(System.Object)
+    name: ObjectIsSet
+    nameWithType: Utilities.ObjectIsSet
+    fullName: GRYLibrary.Core.Utilities.ObjectIsSet
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsKeyValuePair(System.Object)
+  isExternal: true
+  name: ObjectIsKeyValuePair(Object)
+  nameWithType: Utilities.ObjectIsKeyValuePair(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair(System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair(System.Object)
+    name: ObjectIsKeyValuePair
+    nameWithType: Utilities.ObjectIsKeyValuePair
+    fullName: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair(System.Object)
+    name: ObjectIsKeyValuePair
+    nameWithType: Utilities.ObjectIsKeyValuePair
+    fullName: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2(System.Object)
+  isExternal: true
+  name: ObjectToKeyValuePair<TKey, TValue>(Object)
+  nameWithType: Utilities.ObjectToKeyValuePair<TKey, TValue>(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectToKeyValuePair<TKey, TValue>(System.Object)
+  nameWithType.vb: Utilities.ObjectToKeyValuePair(Of TKey, TValue)(Object)
+  fullName.vb: GRYLibrary.Core.Utilities.ObjectToKeyValuePair(Of TKey, TValue)(System.Object)
+  name.vb: ObjectToKeyValuePair(Of TKey, TValue)(Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2(System.Object)
+    name: ObjectToKeyValuePair<TKey, TValue>
+    nameWithType: Utilities.ObjectToKeyValuePair<TKey, TValue>
+    fullName: GRYLibrary.Core.Utilities.ObjectToKeyValuePair<TKey, TValue>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2(System.Object)
+    name: ObjectToKeyValuePair(Of TKey, TValue)
+    nameWithType: Utilities.ObjectToKeyValuePair(Of TKey, TValue)
+    fullName: GRYLibrary.Core.Utilities.ObjectToKeyValuePair(Of TKey, TValue)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectToSet``1(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToSet``1(System.Object)
+  isExternal: true
+  name: ObjectToSet<T>(Object)
+  nameWithType: Utilities.ObjectToSet<T>(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectToSet<T>(System.Object)
+  nameWithType.vb: Utilities.ObjectToSet(Of T)(Object)
+  fullName.vb: GRYLibrary.Core.Utilities.ObjectToSet(Of T)(System.Object)
+  name.vb: ObjectToSet(Of T)(Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToSet``1(System.Object)
+    name: ObjectToSet<T>
+    nameWithType: Utilities.ObjectToSet<T>
+    fullName: GRYLibrary.Core.Utilities.ObjectToSet<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToSet``1(System.Object)
+    name: ObjectToSet(Of T)
+    nameWithType: Utilities.ObjectToSet(Of T)
+    fullName: GRYLibrary.Core.Utilities.ObjectToSet(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectIsDictionary(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionary(System.Object)
+  isExternal: true
+  name: ObjectIsDictionary(Object)
+  nameWithType: Utilities.ObjectIsDictionary(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionary(System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionary(System.Object)
+    name: ObjectIsDictionary
+    nameWithType: Utilities.ObjectIsDictionary
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionary
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionary(System.Object)
+    name: ObjectIsDictionary
+    nameWithType: Utilities.ObjectIsDictionary
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionary
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectToDictionary``2(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToDictionary``2(System.Object)
+  isExternal: true
+  name: ObjectToDictionary<TKey, TValue>(Object)
+  nameWithType: Utilities.ObjectToDictionary<TKey, TValue>(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectToDictionary<TKey, TValue>(System.Object)
+  nameWithType.vb: Utilities.ObjectToDictionary(Of TKey, TValue)(Object)
+  fullName.vb: GRYLibrary.Core.Utilities.ObjectToDictionary(Of TKey, TValue)(System.Object)
+  name.vb: ObjectToDictionary(Of TKey, TValue)(Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToDictionary``2(System.Object)
+    name: ObjectToDictionary<TKey, TValue>
+    nameWithType: Utilities.ObjectToDictionary<TKey, TValue>
+    fullName: GRYLibrary.Core.Utilities.ObjectToDictionary<TKey, TValue>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToDictionary``2(System.Object)
+    name: ObjectToDictionary(Of TKey, TValue)
+    nameWithType: Utilities.ObjectToDictionary(Of TKey, TValue)
+    fullName: GRYLibrary.Core.Utilities.ObjectToDictionary(Of TKey, TValue)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ToDynamic(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ToDynamic(System.Object)
+  isExternal: true
+  name: ToDynamic(Object)
+  nameWithType: Utilities.ToDynamic(Object)
+  fullName: GRYLibrary.Core.Utilities.ToDynamic(System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ToDynamic(System.Object)
+    name: ToDynamic
+    nameWithType: Utilities.ToDynamic
+    fullName: GRYLibrary.Core.Utilities.ToDynamic
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ToDynamic(System.Object)
+    name: ToDynamic
+    nameWithType: Utilities.ToDynamic
+    fullName: GRYLibrary.Core.Utilities.ToDynamic
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.DeepClone``1(``0)
+  commentId: M:GRYLibrary.Core.Utilities.DeepClone``1(``0)
+  name: DeepClone<T>(T)
+  nameWithType: Utilities.DeepClone<T>(T)
+  fullName: GRYLibrary.Core.Utilities.DeepClone<T>(T)
+  nameWithType.vb: Utilities.DeepClone(Of T)(T)
+  fullName.vb: GRYLibrary.Core.Utilities.DeepClone(Of T)(T)
+  name.vb: DeepClone(Of T)(T)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.DeepClone``1(``0)
+    name: DeepClone<T>
+    nameWithType: Utilities.DeepClone<T>
+    fullName: GRYLibrary.Core.Utilities.DeepClone<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.DeepClone``1(``0)
+    name: DeepClone(Of T)
+    nameWithType: Utilities.DeepClone(Of T)
+    fullName: GRYLibrary.Core.Utilities.DeepClone(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.PersistToDisk``1(``0,System.String)
+  commentId: M:GRYLibrary.Core.Utilities.PersistToDisk``1(``0,System.String)
+  isExternal: true
+  name: PersistToDisk<T>(T, String)
+  nameWithType: Utilities.PersistToDisk<T>(T, String)
+  fullName: GRYLibrary.Core.Utilities.PersistToDisk<T>(T, System.String)
+  nameWithType.vb: Utilities.PersistToDisk(Of T)(T, String)
+  fullName.vb: GRYLibrary.Core.Utilities.PersistToDisk(Of T)(T, System.String)
+  name.vb: PersistToDisk(Of T)(T, String)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.PersistToDisk``1(``0,System.String)
+    name: PersistToDisk<T>
+    nameWithType: Utilities.PersistToDisk<T>
+    fullName: GRYLibrary.Core.Utilities.PersistToDisk<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.PersistToDisk``1(``0,System.String)
+    name: PersistToDisk(Of T)
+    nameWithType: Utilities.PersistToDisk(Of T)
+    fullName: GRYLibrary.Core.Utilities.PersistToDisk(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.NullSafeEquals(System.Object,System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.NullSafeEquals(System.Object,System.Object)
+  isExternal: true
+  name: NullSafeEquals(Object, Object)
+  nameWithType: Utilities.NullSafeEquals(Object, Object)
+  fullName: GRYLibrary.Core.Utilities.NullSafeEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.NullSafeEquals(System.Object,System.Object)
+    name: NullSafeEquals
+    nameWithType: Utilities.NullSafeEquals
+    fullName: GRYLibrary.Core.Utilities.NullSafeEquals
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.NullSafeEquals(System.Object,System.Object)
+    name: NullSafeEquals
+    nameWithType: Utilities.NullSafeEquals
+    fullName: GRYLibrary.Core.Utilities.NullSafeEquals
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.HorizontalLineCharacter*
+  commentId: Overload:GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.HorizontalLineCharacter
+  name: HorizontalLineCharacter
+  nameWithType: TableGenerator.RoundLineTableCharacter.HorizontalLineCharacter
+  fullName: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.HorizontalLineCharacter
+- uid: GRYLibrary.Core.TableGenerator.ITableCharacter.HorizontalLineCharacter
+  commentId: P:GRYLibrary.Core.TableGenerator.ITableCharacter.HorizontalLineCharacter
+  parent: GRYLibrary.Core.TableGenerator.ITableCharacter
+  name: HorizontalLineCharacter
+  nameWithType: TableGenerator.ITableCharacter.HorizontalLineCharacter
+  fullName: GRYLibrary.Core.TableGenerator.ITableCharacter.HorizontalLineCharacter
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  name: Char
+  nameWithType: Char
+  fullName: System.Char
+- uid: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.VerticalLineCharacter*
+  commentId: Overload:GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.VerticalLineCharacter
+  name: VerticalLineCharacter
+  nameWithType: TableGenerator.RoundLineTableCharacter.VerticalLineCharacter
+  fullName: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.VerticalLineCharacter
+- uid: GRYLibrary.Core.TableGenerator.ITableCharacter.VerticalLineCharacter
+  commentId: P:GRYLibrary.Core.TableGenerator.ITableCharacter.VerticalLineCharacter
+  parent: GRYLibrary.Core.TableGenerator.ITableCharacter
+  name: VerticalLineCharacter
+  nameWithType: TableGenerator.ITableCharacter.VerticalLineCharacter
+  fullName: GRYLibrary.Core.TableGenerator.ITableCharacter.VerticalLineCharacter
+- uid: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.LeftUpperCornerCharacter*
+  commentId: Overload:GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.LeftUpperCornerCharacter
+  name: LeftUpperCornerCharacter
+  nameWithType: TableGenerator.RoundLineTableCharacter.LeftUpperCornerCharacter
+  fullName: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.LeftUpperCornerCharacter
+- uid: GRYLibrary.Core.TableGenerator.ITableCharacter.LeftUpperCornerCharacter
+  commentId: P:GRYLibrary.Core.TableGenerator.ITableCharacter.LeftUpperCornerCharacter
+  parent: GRYLibrary.Core.TableGenerator.ITableCharacter
+  name: LeftUpperCornerCharacter
+  nameWithType: TableGenerator.ITableCharacter.LeftUpperCornerCharacter
+  fullName: GRYLibrary.Core.TableGenerator.ITableCharacter.LeftUpperCornerCharacter
+- uid: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.RightUpperCornerCharacter*
+  commentId: Overload:GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.RightUpperCornerCharacter
+  name: RightUpperCornerCharacter
+  nameWithType: TableGenerator.RoundLineTableCharacter.RightUpperCornerCharacter
+  fullName: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.RightUpperCornerCharacter
+- uid: GRYLibrary.Core.TableGenerator.ITableCharacter.RightUpperCornerCharacter
+  commentId: P:GRYLibrary.Core.TableGenerator.ITableCharacter.RightUpperCornerCharacter
+  parent: GRYLibrary.Core.TableGenerator.ITableCharacter
+  name: RightUpperCornerCharacter
+  nameWithType: TableGenerator.ITableCharacter.RightUpperCornerCharacter
+  fullName: GRYLibrary.Core.TableGenerator.ITableCharacter.RightUpperCornerCharacter
+- uid: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.LeftLowerCornerCharacter*
+  commentId: Overload:GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.LeftLowerCornerCharacter
+  name: LeftLowerCornerCharacter
+  nameWithType: TableGenerator.RoundLineTableCharacter.LeftLowerCornerCharacter
+  fullName: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.LeftLowerCornerCharacter
+- uid: GRYLibrary.Core.TableGenerator.ITableCharacter.LeftLowerCornerCharacter
+  commentId: P:GRYLibrary.Core.TableGenerator.ITableCharacter.LeftLowerCornerCharacter
+  parent: GRYLibrary.Core.TableGenerator.ITableCharacter
+  name: LeftLowerCornerCharacter
+  nameWithType: TableGenerator.ITableCharacter.LeftLowerCornerCharacter
+  fullName: GRYLibrary.Core.TableGenerator.ITableCharacter.LeftLowerCornerCharacter
+- uid: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.RightLowerCornerCharacter*
+  commentId: Overload:GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.RightLowerCornerCharacter
+  name: RightLowerCornerCharacter
+  nameWithType: TableGenerator.RoundLineTableCharacter.RightLowerCornerCharacter
+  fullName: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.RightLowerCornerCharacter
+- uid: GRYLibrary.Core.TableGenerator.ITableCharacter.RightLowerCornerCharacter
+  commentId: P:GRYLibrary.Core.TableGenerator.ITableCharacter.RightLowerCornerCharacter
+  parent: GRYLibrary.Core.TableGenerator.ITableCharacter
+  name: RightLowerCornerCharacter
+  nameWithType: TableGenerator.ITableCharacter.RightLowerCornerCharacter
+  fullName: GRYLibrary.Core.TableGenerator.ITableCharacter.RightLowerCornerCharacter
+- uid: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.CrossCharacter*
+  commentId: Overload:GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.CrossCharacter
+  name: CrossCharacter
+  nameWithType: TableGenerator.RoundLineTableCharacter.CrossCharacter
+  fullName: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.CrossCharacter
+- uid: GRYLibrary.Core.TableGenerator.ITableCharacter.CrossCharacter
+  commentId: P:GRYLibrary.Core.TableGenerator.ITableCharacter.CrossCharacter
+  parent: GRYLibrary.Core.TableGenerator.ITableCharacter
+  name: CrossCharacter
+  nameWithType: TableGenerator.ITableCharacter.CrossCharacter
+  fullName: GRYLibrary.Core.TableGenerator.ITableCharacter.CrossCharacter
+- uid: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.TDownCharacter*
+  commentId: Overload:GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.TDownCharacter
+  name: TDownCharacter
+  nameWithType: TableGenerator.RoundLineTableCharacter.TDownCharacter
+  fullName: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.TDownCharacter
+- uid: GRYLibrary.Core.TableGenerator.ITableCharacter.TDownCharacter
+  commentId: P:GRYLibrary.Core.TableGenerator.ITableCharacter.TDownCharacter
+  parent: GRYLibrary.Core.TableGenerator.ITableCharacter
+  name: TDownCharacter
+  nameWithType: TableGenerator.ITableCharacter.TDownCharacter
+  fullName: GRYLibrary.Core.TableGenerator.ITableCharacter.TDownCharacter
+- uid: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.TRightCharacter*
+  commentId: Overload:GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.TRightCharacter
+  name: TRightCharacter
+  nameWithType: TableGenerator.RoundLineTableCharacter.TRightCharacter
+  fullName: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.TRightCharacter
+- uid: GRYLibrary.Core.TableGenerator.ITableCharacter.TRightCharacter
+  commentId: P:GRYLibrary.Core.TableGenerator.ITableCharacter.TRightCharacter
+  parent: GRYLibrary.Core.TableGenerator.ITableCharacter
+  name: TRightCharacter
+  nameWithType: TableGenerator.ITableCharacter.TRightCharacter
+  fullName: GRYLibrary.Core.TableGenerator.ITableCharacter.TRightCharacter
+- uid: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.TLeftCharacter*
+  commentId: Overload:GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.TLeftCharacter
+  name: TLeftCharacter
+  nameWithType: TableGenerator.RoundLineTableCharacter.TLeftCharacter
+  fullName: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.TLeftCharacter
+- uid: GRYLibrary.Core.TableGenerator.ITableCharacter.TLeftCharacter
+  commentId: P:GRYLibrary.Core.TableGenerator.ITableCharacter.TLeftCharacter
+  parent: GRYLibrary.Core.TableGenerator.ITableCharacter
+  name: TLeftCharacter
+  nameWithType: TableGenerator.ITableCharacter.TLeftCharacter
+  fullName: GRYLibrary.Core.TableGenerator.ITableCharacter.TLeftCharacter
+- uid: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.TUpCharacter*
+  commentId: Overload:GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.TUpCharacter
+  name: TUpCharacter
+  nameWithType: TableGenerator.RoundLineTableCharacter.TUpCharacter
+  fullName: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter.TUpCharacter
+- uid: GRYLibrary.Core.TableGenerator.ITableCharacter.TUpCharacter
+  commentId: P:GRYLibrary.Core.TableGenerator.ITableCharacter.TUpCharacter
+  parent: GRYLibrary.Core.TableGenerator.ITableCharacter
+  name: TUpCharacter
+  nameWithType: TableGenerator.ITableCharacter.TUpCharacter
+  fullName: GRYLibrary.Core.TableGenerator.ITableCharacter.TUpCharacter

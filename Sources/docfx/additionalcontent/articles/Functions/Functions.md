@@ -1,3 +1,0 @@
-# Functions
-
-some text

@@ -1,0 +1,266 @@
+### YamlMime:TableOfContent
+- uid: GRYLibrary.Core
+  name: GRYLibrary.Core
+  items:
+  - uid: GRYLibrary.Core.ByteArray
+    name: ByteArray
+  - uid: GRYLibrary.Core.CacheDictionaryStore`2
+    name: CacheDictionaryStore<TKey, TValue>
+    name.vb: CacheDictionaryStore(Of TKey, TValue)
+  - uid: GRYLibrary.Core.ColorGradient
+    name: ColorGradient
+  - uid: GRYLibrary.Core.EarleyParser
+    name: EarleyParser
+  - uid: GRYLibrary.Core.EarleyParser.Grammar
+    name: EarleyParser.Grammar
+  - uid: GRYLibrary.Core.EarleyParser.NonTerminalSymbol
+    name: EarleyParser.NonTerminalSymbol
+  - uid: GRYLibrary.Core.EarleyParser.ProductionRule
+    name: EarleyParser.ProductionRule
+  - uid: GRYLibrary.Core.EarleyParser.ProductionRuleWithExpection
+    name: EarleyParser.ProductionRuleWithExpection
+  - uid: GRYLibrary.Core.EarleyParser.State
+    name: EarleyParser.State
+  - uid: GRYLibrary.Core.EarleyParser.Symbol
+    name: EarleyParser.Symbol
+  - uid: GRYLibrary.Core.EarleyParser.TerminalSymbol
+    name: EarleyParser.TerminalSymbol
+  - uid: GRYLibrary.Core.ExecutionState
+    name: ExecutionState
+  - uid: GRYLibrary.Core.ExtendedColor
+    name: ExtendedColor
+  - uid: GRYLibrary.Core.ExternalProgramExecutor
+    name: ExternalProgramExecutor
+  - uid: GRYLibrary.Core.FileSelector
+    name: FileSelector
+  - uid: GRYLibrary.Core.GitCommandResult
+    name: GitCommandResult
+  - uid: GRYLibrary.Core.IProperty
+    name: IProperty
+  - uid: GRYLibrary.Core.NonPersistentInputHistoryList
+    name: NonPersistentInputHistoryList
+  - uid: GRYLibrary.Core.PercentValue
+    name: PercentValue
+  - uid: GRYLibrary.Core.Property`1
+    name: Property<T>
+    name.vb: Property(Of T)
+  - uid: GRYLibrary.Core.PropertyChangedEvengArgument`1
+    name: PropertyChangedEvengArgument<T>
+    name.vb: PropertyChangedEvengArgument(Of T)
+  - uid: GRYLibrary.Core.ReadOnlyProperty
+    name: ReadOnlyProperty
+  - uid: GRYLibrary.Core.ReadOnlyProperty`1
+    name: ReadOnlyProperty<T>
+    name.vb: ReadOnlyProperty(Of T)
+  - uid: GRYLibrary.Core.RedundantIdler
+    name: RedundantIdler
+  - uid: GRYLibrary.Core.Semaphore
+    name: Semaphore
+  - uid: GRYLibrary.Core.SimpleObjectPersistence`1
+    name: SimpleObjectPersistence<T>
+    name.vb: SimpleObjectPersistence(Of T)
+  - uid: GRYLibrary.Core.SupervisedThread
+    name: SupervisedThread
+  - uid: GRYLibrary.Core.TableGenerator
+    name: TableGenerator
+  - uid: GRYLibrary.Core.TableGenerator.ASCIITable
+    name: TableGenerator.ASCIITable
+  - uid: GRYLibrary.Core.TableGenerator.CSV
+    name: TableGenerator.CSV
+  - uid: GRYLibrary.Core.TableGenerator.DoubleLineTableCharacter
+    name: TableGenerator.DoubleLineTableCharacter
+  - uid: GRYLibrary.Core.TableGenerator.HTMLTable
+    name: TableGenerator.HTMLTable
+  - uid: GRYLibrary.Core.TableGenerator.ITableCharacter
+    name: TableGenerator.ITableCharacter
+  - uid: GRYLibrary.Core.TableGenerator.ITableOutputTypeVisitor
+    name: TableGenerator.ITableOutputTypeVisitor
+  - uid: GRYLibrary.Core.TableGenerator.ITableOutputTypeVisitor`1
+    name: TableGenerator.ITableOutputTypeVisitor<T>
+    name.vb: TableGenerator.ITableOutputTypeVisitor(Of T)
+  - uid: GRYLibrary.Core.TableGenerator.OneLineTableCharacter
+    name: TableGenerator.OneLineTableCharacter
+  - uid: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter
+    name: TableGenerator.RoundLineTableCharacter
+  - uid: GRYLibrary.Core.TableGenerator.TableOutputType
+    name: TableGenerator.TableOutputType
+  - uid: GRYLibrary.Core.TaskQueue
+    name: TaskQueue
+  - uid: GRYLibrary.Core.UnexpectedExitCodeException
+    name: UnexpectedExitCodeException
+  - uid: GRYLibrary.Core.Utilities
+    name: Utilities
+  - uid: GRYLibrary.Core.WriteableTuple`2
+    name: WriteableTuple<T1, T2>
+    name.vb: WriteableTuple(Of T1, T2)
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis
+  name: GRYLibrary.Core.AdvancedObjectAnalysis
+  items:
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.KeyValuePairComparer
+    name: KeyValuePairComparer
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator
+    name: PropertyEqualsCalculator
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator`1
+    name: PropertyEqualsCalculator<T>
+    name.vb: PropertyEqualsCalculator(Of T)
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.ReferenceEqualsComparer
+    name: ReferenceEqualsComparer
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.TupleComparer
+    name: TupleComparer
+- uid: GRYLibrary.Core.AdvancedXMLSerialysis
+  name: GRYLibrary.Core.AdvancedXMLSerialysis
+  items:
+  - uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer
+    name: GenericXMLSerializer
+  - uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1
+    name: GenericXMLSerializer<T>
+    name.vb: GenericXMLSerializer(Of T)
+  - uid: GRYLibrary.Core.AdvancedXMLSerialysis.GRYSerializedObject
+    name: GRYSerializedObject
+  - uid: GRYLibrary.Core.AdvancedXMLSerialysis.SerializationConfiguration
+    name: SerializationConfiguration
+  - uid: GRYLibrary.Core.AdvancedXMLSerialysis.Simplified
+    name: Simplified
+  - uid: GRYLibrary.Core.AdvancedXMLSerialysis.Simplified.ISimplifiedVisitor
+    name: Simplified.ISimplifiedVisitor
+  - uid: GRYLibrary.Core.AdvancedXMLSerialysis.Simplified.ISimplifiedVisitor`1
+    name: Simplified.ISimplifiedVisitor<T>
+    name.vb: Simplified.ISimplifiedVisitor(Of T)
+  - uid: GRYLibrary.Core.AdvancedXMLSerialysis.SimplifiedAttribute
+    name: SimplifiedAttribute
+  - uid: GRYLibrary.Core.AdvancedXMLSerialysis.SimplifiedEnumerable
+    name: SimplifiedEnumerable
+  - uid: GRYLibrary.Core.AdvancedXMLSerialysis.SimplifiedObject
+    name: SimplifiedObject
+  - uid: GRYLibrary.Core.AdvancedXMLSerialysis.SimplifiedPrimitive
+    name: SimplifiedPrimitive
+- uid: GRYLibrary.Core.Event
+  name: GRYLibrary.Core.Event
+  items:
+  - uid: GRYLibrary.Core.Event.Argument`2
+    name: Argument<SenderType, EventArgumentType>
+    name.vb: Argument(Of SenderType, EventArgumentType)
+  - uid: GRYLibrary.Core.Event.EventSender`2
+    name: EventSender<SenderType, EventArgumentType>
+    name.vb: EventSender(Of SenderType, EventArgumentType)
+  - uid: GRYLibrary.Core.Event.IObserver`2
+    name: IObserver<SenderType, EventArgumentType>
+    name.vb: IObserver(Of SenderType, EventArgumentType)
+- uid: GRYLibrary.Core.Graph
+  name: GRYLibrary.Core.Graph
+  items:
+  - uid: GRYLibrary.Core.Graph.Cycle
+    name: Cycle
+  - uid: GRYLibrary.Core.Graph.DirectedEdge
+    name: DirectedEdge
+  - uid: GRYLibrary.Core.Graph.DirectedGraph
+    name: DirectedGraph
+  - uid: GRYLibrary.Core.Graph.Edge
+    name: Edge
+  - uid: GRYLibrary.Core.Graph.Graph
+    name: Graph
+  - uid: GRYLibrary.Core.Graph.IEdgeVisitor
+    name: IEdgeVisitor
+  - uid: GRYLibrary.Core.Graph.IEdgeVisitor`1
+    name: IEdgeVisitor<T>
+    name.vb: IEdgeVisitor(Of T)
+  - uid: GRYLibrary.Core.Graph.IGraphVisitor
+    name: IGraphVisitor
+  - uid: GRYLibrary.Core.Graph.IGraphVisitor`1
+    name: IGraphVisitor<T>
+    name.vb: IGraphVisitor(Of T)
+  - uid: GRYLibrary.Core.Graph.UndirectedEdge
+    name: UndirectedEdge
+  - uid: GRYLibrary.Core.Graph.UndirectedGraph
+    name: UndirectedGraph
+  - uid: GRYLibrary.Core.Graph.Vertex
+    name: Vertex
+- uid: GRYLibrary.Core.Graph.Exceptions
+  name: GRYLibrary.Core.Graph.Exceptions
+  items:
+  - uid: GRYLibrary.Core.Graph.Exceptions.InternalAlgorithmException
+    name: InternalAlgorithmException
+  - uid: GRYLibrary.Core.Graph.Exceptions.InvalidEdgeTypeException
+    name: InvalidEdgeTypeException
+  - uid: GRYLibrary.Core.Graph.Exceptions.InvalidGraphStructureException
+    name: InvalidGraphStructureException
+  - uid: GRYLibrary.Core.Graph.Exceptions.UnallowedOperationException
+    name: UnallowedOperationException
+- uid: GRYLibrary.Core.Log
+  name: GRYLibrary.Core.Log
+  items:
+  - uid: GRYLibrary.Core.Log.GRYLog
+    name: GRYLog
+  - uid: GRYLibrary.Core.Log.GRYLog.ErrorOccurredEventHandler
+    name: GRYLog.ErrorOccurredEventHandler
+  - uid: GRYLibrary.Core.Log.GRYLog.NewLogItemEventHandler
+    name: GRYLog.NewLogItemEventHandler
+  - uid: GRYLibrary.Core.Log.GRYLogConfiguration
+    name: GRYLogConfiguration
+  - uid: GRYLibrary.Core.Log.GRYLogLogFormat
+    name: GRYLogLogFormat
+  - uid: GRYLibrary.Core.Log.GRYLogSubNamespaceProvider
+    name: GRYLogSubNamespaceProvider
+  - uid: GRYLibrary.Core.Log.GRYLogTarget
+    name: GRYLogTarget
+  - uid: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration
+    name: LoggedMessageTypeConfiguration
+  - uid: GRYLibrary.Core.Log.LogItem
+    name: LogItem
+- uid: GRYLibrary.Core.Log.ConcreteLogTargets
+  name: GRYLibrary.Core.Log.ConcreteLogTargets
+  items:
+  - uid: GRYLibrary.Core.Log.ConcreteLogTargets.Console
+    name: Console
+  - uid: GRYLibrary.Core.Log.ConcreteLogTargets.LogFile
+    name: LogFile
+  - uid: GRYLibrary.Core.Log.ConcreteLogTargets.Observer
+    name: Observer
+  - uid: GRYLibrary.Core.Log.ConcreteLogTargets.WindowsEventLog
+    name: WindowsEventLog
+- uid: GRYLibrary.Core.Playlists
+  name: GRYLibrary.Core.Playlists
+  items:
+  - uid: GRYLibrary.Core.Playlists.AbstractPlaylistHandler
+    name: AbstractPlaylistHandler
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler
+  name: GRYLibrary.Core.Playlists.ConcretePlaylistHandler
+  items:
+  - uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler
+    name: M3UHandler
+  - uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler
+    name: PLSHandler
+- uid: GRYLibrary.Core.Streams
+  name: GRYLibrary.Core.Streams
+  items:
+  - uid: GRYLibrary.Core.Streams.SimpleStreamMultiplier
+    name: SimpleStreamMultiplier
+- uid: GRYLibrary.Core.Tree
+  name: GRYLibrary.Core.Tree
+  items:
+  - uid: GRYLibrary.Core.Tree.Containee`1
+    name: Containee<ContainedItemType>
+    name.vb: Containee(Of ContainedItemType)
+  - uid: GRYLibrary.Core.Tree.Container`1
+    name: Container<ContainedItemType>
+    name.vb: Container(Of ContainedItemType)
+  - uid: GRYLibrary.Core.Tree.ITreeItemVisitor
+    name: ITreeItemVisitor
+  - uid: GRYLibrary.Core.Tree.ITreeItemVisitor`1
+    name: ITreeItemVisitor<T>
+    name.vb: ITreeItemVisitor(Of T)
+  - uid: GRYLibrary.Core.Tree.TreeItem`1
+    name: TreeItem<ContainedItemType>
+    name.vb: TreeItem(Of ContainedItemType)
+- uid: GRYLibrary.Core.XMLSerializer
+  name: GRYLibrary.Core.XMLSerializer
+  items:
+  - uid: GRYLibrary.Core.XMLSerializer.KeyValuePair`2
+    name: KeyValuePair<TKey, TValue>
+    name.vb: KeyValuePair(Of TKey, TValue)
+  - uid: GRYLibrary.Core.XMLSerializer.SerializableDictionary`2
+    name: SerializableDictionary<TKey, TValue>
+    name.vb: SerializableDictionary(Of TKey, TValue)
+  - uid: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1
+    name: SimpleGenericXMLSerializer<T>
+    name.vb: SimpleGenericXMLSerializer(Of T)

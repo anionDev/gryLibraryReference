@@ -1,0 +1,2677 @@
+### YamlMime:ManagedReference
+items:
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration
+  commentId: T:GRYLibrary.Core.Log.GRYLogConfiguration
+  id: GRYLogConfiguration
+  parent: GRYLibrary.Core.Log
+  children:
+  - GRYLibrary.Core.Log.GRYLogConfiguration.#ctor
+  - GRYLibrary.Core.Log.GRYLogConfiguration.ConfigurationFile
+  - GRYLibrary.Core.Log.GRYLogConfiguration.ConvertTimeForLogentriesToUTCFormat
+  - GRYLibrary.Core.Log.GRYLogConfiguration.DateFormat
+  - GRYLibrary.Core.Log.GRYLogConfiguration.Enabled
+  - GRYLibrary.Core.Log.GRYLogConfiguration.Equals(System.Object)
+  - GRYLibrary.Core.Log.GRYLogConfiguration.Format
+  - GRYLibrary.Core.Log.GRYLogConfiguration.GetHashCode
+  - GRYLibrary.Core.Log.GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel(Microsoft.Extensions.Logging.LogLevel)
+  - GRYLibrary.Core.Log.GRYLogConfiguration.GetLogTarget``1
+  - GRYLibrary.Core.Log.GRYLogConfiguration.LoadConfiguration(System.String)
+  - GRYLibrary.Core.Log.GRYLogConfiguration.LogEveryLineOfLogEntryInNewLine
+  - GRYLibrary.Core.Log.GRYLogConfiguration.LogFile
+  - GRYLibrary.Core.Log.GRYLogConfiguration.LoggedMessageTypesConfiguration
+  - GRYLibrary.Core.Log.GRYLogConfiguration.LogTargets
+  - GRYLibrary.Core.Log.GRYLogConfiguration.Name
+  - GRYLibrary.Core.Log.GRYLogConfiguration.PrintEmptyLines
+  - GRYLibrary.Core.Log.GRYLogConfiguration.PrintErrorsAsInformation
+  - GRYLibrary.Core.Log.GRYLogConfiguration.ReloadConfigurationWhenConfigurationFileWillBeChanged
+  - GRYLibrary.Core.Log.GRYLogConfiguration.ResetToDefaultValues
+  - GRYLibrary.Core.Log.GRYLogConfiguration.ResetToDefaultValues(System.String)
+  - GRYLibrary.Core.Log.GRYLogConfiguration.SaveConfiguration(System.String,GRYLibrary.Core.Log.GRYLogConfiguration)
+  - GRYLibrary.Core.Log.GRYLogConfiguration.SetEnabledOfAllLogTargets(System.Boolean)
+  - GRYLibrary.Core.Log.GRYLogConfiguration.WriteExceptionMessageOfExceptionInLogEntry
+  - GRYLibrary.Core.Log.GRYLogConfiguration.WriteExceptionStackTraceOfExceptionInLogEntry
+  - GRYLibrary.Core.Log.GRYLogConfiguration.WriteLogEntriesAsynchronous
+  langs:
+  - csharp
+  - vb
+  name: GRYLogConfiguration
+  nameWithType: GRYLogConfiguration
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration
+  type: Class
+  source:
+    id: GRYLogConfiguration
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 11
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public class GRYLogConfiguration
+    content.vb: Public Class GRYLogConfiguration
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.GRYLibrary.Core.Utilities.ObjectIsEnumerable
+  - System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable
+  - System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric``1
+  - System.Object.GRYLibrary.Core.Utilities.ObjectIsList
+  - System.Object.GRYLibrary.Core.Utilities.ObjectToList``1
+  - System.Object.GRYLibrary.Core.Utilities.ObjectIsSet
+  - System.Object.GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - System.Object.GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2
+  - System.Object.GRYLibrary.Core.Utilities.ObjectToSet``1
+  - System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionary
+  - System.Object.GRYLibrary.Core.Utilities.ObjectToDictionary``2
+  - System.Object.GRYLibrary.Core.Utilities.ToDynamic
+  - GRYLibrary.Core.Log.GRYLogConfiguration.GRYLibrary.Core.Utilities.DeepClone``1
+  - GRYLibrary.Core.Log.GRYLogConfiguration.GRYLibrary.Core.Utilities.PersistToDisk``1(System.String)
+  - System.Object.GRYLibrary.Core.Utilities.NullSafeEquals(System.Object)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.ReloadConfigurationWhenConfigurationFileWillBeChanged
+  commentId: P:GRYLibrary.Core.Log.GRYLogConfiguration.ReloadConfigurationWhenConfigurationFileWillBeChanged
+  id: ReloadConfigurationWhenConfigurationFileWillBeChanged
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ReloadConfigurationWhenConfigurationFileWillBeChanged
+  nameWithType: GRYLogConfiguration.ReloadConfigurationWhenConfigurationFileWillBeChanged
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.ReloadConfigurationWhenConfigurationFileWillBeChanged
+  type: Property
+  source:
+    id: ReloadConfigurationWhenConfigurationFileWillBeChanged
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 17
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  summary: "\nIf this value is false then changing this value in the configuration-file has no effect.\n"
+  example: []
+  syntax:
+    content: public bool ReloadConfigurationWhenConfigurationFileWillBeChanged { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ReloadConfigurationWhenConfigurationFileWillBeChanged As Boolean
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.ReloadConfigurationWhenConfigurationFileWillBeChanged*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.LogTargets
+  commentId: P:GRYLibrary.Core.Log.GRYLogConfiguration.LogTargets
+  id: LogTargets
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: LogTargets
+  nameWithType: GRYLogConfiguration.LogTargets
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.LogTargets
+  type: Property
+  source:
+    id: LogTargets
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 18
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public HashSet<GRYLogTarget> LogTargets { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.HashSet{GRYLibrary.Core.Log.GRYLogTarget}
+    content.vb: Public Property LogTargets As HashSet(Of GRYLogTarget)
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.LogTargets*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.WriteLogEntriesAsynchronous
+  commentId: P:GRYLibrary.Core.Log.GRYLogConfiguration.WriteLogEntriesAsynchronous
+  id: WriteLogEntriesAsynchronous
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: WriteLogEntriesAsynchronous
+  nameWithType: GRYLogConfiguration.WriteLogEntriesAsynchronous
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.WriteLogEntriesAsynchronous
+  type: Property
+  source:
+    id: WriteLogEntriesAsynchronous
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 19
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public bool WriteLogEntriesAsynchronous { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property WriteLogEntriesAsynchronous As Boolean
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.WriteLogEntriesAsynchronous*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.Enabled
+  commentId: P:GRYLibrary.Core.Log.GRYLogConfiguration.Enabled
+  id: Enabled
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Enabled
+  nameWithType: GRYLogConfiguration.Enabled
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.Enabled
+  type: Property
+  source:
+    id: Enabled
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 20
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public bool Enabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Enabled As Boolean
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.Enabled*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.ConfigurationFile
+  commentId: P:GRYLibrary.Core.Log.GRYLogConfiguration.ConfigurationFile
+  id: ConfigurationFile
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ConfigurationFile
+  nameWithType: GRYLogConfiguration.ConfigurationFile
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.ConfigurationFile
+  type: Property
+  source:
+    id: ConfigurationFile
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 21
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public string ConfigurationFile { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ConfigurationFile As String
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.ConfigurationFile*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.PrintEmptyLines
+  commentId: P:GRYLibrary.Core.Log.GRYLogConfiguration.PrintEmptyLines
+  id: PrintEmptyLines
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: PrintEmptyLines
+  nameWithType: GRYLogConfiguration.PrintEmptyLines
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.PrintEmptyLines
+  type: Property
+  source:
+    id: PrintEmptyLines
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 22
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public bool PrintEmptyLines { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property PrintEmptyLines As Boolean
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.PrintEmptyLines*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel(Microsoft.Extensions.Logging.LogLevel)
+  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel(Microsoft.Extensions.Logging.LogLevel)
+  id: GetLoggedMessageTypesConfigurationByLogLevel(Microsoft.Extensions.Logging.LogLevel)
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: GetLoggedMessageTypesConfigurationByLogLevel(LogLevel)
+  nameWithType: GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel(LogLevel)
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel(Microsoft.Extensions.Logging.LogLevel)
+  type: Method
+  source:
+    id: GetLoggedMessageTypesConfigurationByLogLevel
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 24
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public LoggedMessageTypeConfiguration GetLoggedMessageTypesConfigurationByLogLevel(LogLevel logLevel)
+    parameters:
+    - id: logLevel
+      type: Microsoft.Extensions.Logging.LogLevel
+    return:
+      type: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration
+    content.vb: Public Function GetLoggedMessageTypesConfigurationByLogLevel(logLevel As LogLevel) As LoggedMessageTypeConfiguration
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.PrintErrorsAsInformation
+  commentId: P:GRYLibrary.Core.Log.GRYLogConfiguration.PrintErrorsAsInformation
+  id: PrintErrorsAsInformation
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: PrintErrorsAsInformation
+  nameWithType: GRYLogConfiguration.PrintErrorsAsInformation
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.PrintErrorsAsInformation
+  type: Property
+  source:
+    id: PrintErrorsAsInformation
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 36
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public bool PrintErrorsAsInformation { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property PrintErrorsAsInformation As Boolean
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.PrintErrorsAsInformation*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.Name
+  commentId: P:GRYLibrary.Core.Log.GRYLogConfiguration.Name
+  id: Name
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: GRYLogConfiguration.Name
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.Name
+  type: Property
+  source:
+    id: Name
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 37
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.WriteExceptionMessageOfExceptionInLogEntry
+  commentId: P:GRYLibrary.Core.Log.GRYLogConfiguration.WriteExceptionMessageOfExceptionInLogEntry
+  id: WriteExceptionMessageOfExceptionInLogEntry
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: WriteExceptionMessageOfExceptionInLogEntry
+  nameWithType: GRYLogConfiguration.WriteExceptionMessageOfExceptionInLogEntry
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.WriteExceptionMessageOfExceptionInLogEntry
+  type: Property
+  source:
+    id: WriteExceptionMessageOfExceptionInLogEntry
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 38
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public bool WriteExceptionMessageOfExceptionInLogEntry { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property WriteExceptionMessageOfExceptionInLogEntry As Boolean
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.WriteExceptionMessageOfExceptionInLogEntry*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.WriteExceptionStackTraceOfExceptionInLogEntry
+  commentId: P:GRYLibrary.Core.Log.GRYLogConfiguration.WriteExceptionStackTraceOfExceptionInLogEntry
+  id: WriteExceptionStackTraceOfExceptionInLogEntry
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: WriteExceptionStackTraceOfExceptionInLogEntry
+  nameWithType: GRYLogConfiguration.WriteExceptionStackTraceOfExceptionInLogEntry
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.WriteExceptionStackTraceOfExceptionInLogEntry
+  type: Property
+  source:
+    id: WriteExceptionStackTraceOfExceptionInLogEntry
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 39
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public bool WriteExceptionStackTraceOfExceptionInLogEntry { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property WriteExceptionStackTraceOfExceptionInLogEntry As Boolean
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.WriteExceptionStackTraceOfExceptionInLogEntry*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.DateFormat
+  commentId: P:GRYLibrary.Core.Log.GRYLogConfiguration.DateFormat
+  id: DateFormat
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: DateFormat
+  nameWithType: GRYLogConfiguration.DateFormat
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.DateFormat
+  type: Property
+  source:
+    id: DateFormat
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 40
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public string DateFormat { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DateFormat As String
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.DateFormat*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.LoggedMessageTypesConfiguration
+  commentId: P:GRYLibrary.Core.Log.GRYLogConfiguration.LoggedMessageTypesConfiguration
+  id: LoggedMessageTypesConfiguration
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: LoggedMessageTypesConfiguration
+  nameWithType: GRYLogConfiguration.LoggedMessageTypesConfiguration
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.LoggedMessageTypesConfiguration
+  type: Property
+  source:
+    id: LoggedMessageTypesConfiguration
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 41
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public List<KeyValuePair<LogLevel, LoggedMessageTypeConfiguration>> LoggedMessageTypesConfiguration { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{GRYLibrary.Core.XMLSerializer.KeyValuePair{Microsoft.Extensions.Logging.LogLevel,GRYLibrary.Core.Log.LoggedMessageTypeConfiguration}}
+    content.vb: Public Property LoggedMessageTypesConfiguration As List(Of KeyValuePair(Of LogLevel, LoggedMessageTypeConfiguration))
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.LoggedMessageTypesConfiguration*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.Format
+  commentId: P:GRYLibrary.Core.Log.GRYLogConfiguration.Format
+  id: Format
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Format
+  nameWithType: GRYLogConfiguration.Format
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.Format
+  type: Property
+  source:
+    id: Format
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 42
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public GRYLogLogFormat Format { get; set; }
+    parameters: []
+    return:
+      type: GRYLibrary.Core.Log.GRYLogLogFormat
+    content.vb: Public Property Format As GRYLogLogFormat
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.Format*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.ConvertTimeForLogentriesToUTCFormat
+  commentId: P:GRYLibrary.Core.Log.GRYLogConfiguration.ConvertTimeForLogentriesToUTCFormat
+  id: ConvertTimeForLogentriesToUTCFormat
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ConvertTimeForLogentriesToUTCFormat
+  nameWithType: GRYLogConfiguration.ConvertTimeForLogentriesToUTCFormat
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.ConvertTimeForLogentriesToUTCFormat
+  type: Property
+  source:
+    id: ConvertTimeForLogentriesToUTCFormat
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 43
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public bool ConvertTimeForLogentriesToUTCFormat { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ConvertTimeForLogentriesToUTCFormat As Boolean
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.ConvertTimeForLogentriesToUTCFormat*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.LogEveryLineOfLogEntryInNewLine
+  commentId: P:GRYLibrary.Core.Log.GRYLogConfiguration.LogEveryLineOfLogEntryInNewLine
+  id: LogEveryLineOfLogEntryInNewLine
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: LogEveryLineOfLogEntryInNewLine
+  nameWithType: GRYLogConfiguration.LogEveryLineOfLogEntryInNewLine
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.LogEveryLineOfLogEntryInNewLine
+  type: Property
+  source:
+    id: LogEveryLineOfLogEntryInNewLine
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 44
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public bool LogEveryLineOfLogEntryInNewLine { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property LogEveryLineOfLogEntryInNewLine As Boolean
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.LogEveryLineOfLogEntryInNewLine*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.LogFile
+  commentId: P:GRYLibrary.Core.Log.GRYLogConfiguration.LogFile
+  id: LogFile
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: LogFile
+  nameWithType: GRYLogConfiguration.LogFile
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.LogFile
+  type: Property
+  source:
+    id: LogFile
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 45
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public string LogFile { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LogFile As String
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.LogFile*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.#ctor
+  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.#ctor
+  id: '#ctor'
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: GRYLogConfiguration()
+  nameWithType: GRYLogConfiguration.GRYLogConfiguration()
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.GRYLogConfiguration()
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 58
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public GRYLogConfiguration()
+    content.vb: Public Sub New
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.ResetToDefaultValues
+  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.ResetToDefaultValues
+  id: ResetToDefaultValues
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ResetToDefaultValues()
+  nameWithType: GRYLogConfiguration.ResetToDefaultValues()
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.ResetToDefaultValues()
+  type: Method
+  source:
+    id: ResetToDefaultValues
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 61
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public void ResetToDefaultValues()
+    content.vb: Public Sub ResetToDefaultValues
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.ResetToDefaultValues*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.ResetToDefaultValues(System.String)
+  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.ResetToDefaultValues(System.String)
+  id: ResetToDefaultValues(System.String)
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ResetToDefaultValues(String)
+  nameWithType: GRYLogConfiguration.ResetToDefaultValues(String)
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.ResetToDefaultValues(System.String)
+  type: Method
+  source:
+    id: ResetToDefaultValues
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 65
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public void ResetToDefaultValues(string logFile)
+    parameters:
+    - id: logFile
+      type: System.String
+    content.vb: Public Sub ResetToDefaultValues(logFile As String)
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.ResetToDefaultValues*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.GetLogTarget``1
+  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.GetLogTarget``1
+  id: GetLogTarget``1
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: GetLogTarget<Target>()
+  nameWithType: GRYLogConfiguration.GetLogTarget<Target>()
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.GetLogTarget<Target>()
+  type: Method
+  source:
+    id: GetLogTarget
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 84
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: >-
+      public Target GetLogTarget<Target>()
+
+          where Target : GRYLogTarget
+    typeParameters:
+    - id: Target
+    return:
+      type: '{Target}'
+    content.vb: Public Function GetLogTarget(Of Target As GRYLogTarget) As Target
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.GetLogTarget*
+  nameWithType.vb: GRYLogConfiguration.GetLogTarget(Of Target)()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: GRYLibrary.Core.Log.GRYLogConfiguration.GetLogTarget(Of Target)()
+  name.vb: GetLogTarget(Of Target)()
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.LoadConfiguration(System.String)
+  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.LoadConfiguration(System.String)
+  id: LoadConfiguration(System.String)
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: LoadConfiguration(String)
+  nameWithType: GRYLogConfiguration.LoadConfiguration(String)
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.LoadConfiguration(System.String)
+  type: Method
+  source:
+    id: LoadConfiguration
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 95
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public static GRYLogConfiguration LoadConfiguration(string configurationFile)
+    parameters:
+    - id: configurationFile
+      type: System.String
+    return:
+      type: GRYLibrary.Core.Log.GRYLogConfiguration
+    content.vb: Public Shared Function LoadConfiguration(configurationFile As String) As GRYLogConfiguration
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.LoadConfiguration*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.SaveConfiguration(System.String,GRYLibrary.Core.Log.GRYLogConfiguration)
+  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.SaveConfiguration(System.String,GRYLibrary.Core.Log.GRYLogConfiguration)
+  id: SaveConfiguration(System.String,GRYLibrary.Core.Log.GRYLogConfiguration)
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: SaveConfiguration(String, GRYLogConfiguration)
+  nameWithType: GRYLogConfiguration.SaveConfiguration(String, GRYLogConfiguration)
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.SaveConfiguration(System.String, GRYLibrary.Core.Log.GRYLogConfiguration)
+  type: Method
+  source:
+    id: SaveConfiguration
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 99
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public static void SaveConfiguration(string configurationFile, GRYLogConfiguration configuration)
+    parameters:
+    - id: configurationFile
+      type: System.String
+    - id: configuration
+      type: GRYLibrary.Core.Log.GRYLogConfiguration
+    content.vb: Public Shared Sub SaveConfiguration(configurationFile As String, configuration As GRYLogConfiguration)
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.SaveConfiguration*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.GetHashCode
+  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.GetHashCode
+  id: GetHashCode
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: GRYLogConfiguration.GetHashCode()
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 104
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overridden: System.Object.GetHashCode
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.Equals(System.Object)
+  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: GRYLogConfiguration.Equals(Object)
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 109
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.SetEnabledOfAllLogTargets(System.Boolean)
+  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.SetEnabledOfAllLogTargets(System.Boolean)
+  id: SetEnabledOfAllLogTargets(System.Boolean)
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: SetEnabledOfAllLogTargets(Boolean)
+  nameWithType: GRYLogConfiguration.SetEnabledOfAllLogTargets(Boolean)
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.SetEnabledOfAllLogTargets(System.Boolean)
+  type: Method
+  source:
+    id: SetEnabledOfAllLogTargets
+    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 184
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public void SetEnabledOfAllLogTargets(bool newEnabledValue)
+    parameters:
+    - id: newEnabledValue
+      type: System.Boolean
+    content.vb: Public Sub SetEnabledOfAllLogTargets(newEnabledValue As Boolean)
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.SetEnabledOfAllLogTargets*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: GRYLibrary.Core.Log
+  commentId: N:GRYLibrary.Core.Log
+  name: GRYLibrary.Core.Log
+  nameWithType: GRYLibrary.Core.Log
+  fullName: GRYLibrary.Core.Log
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectIsEnumerable
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsEnumerable(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectIsEnumerable(System.Object)
+  name: ObjectIsEnumerable()
+  nameWithType: Utilities.ObjectIsEnumerable()
+  fullName: GRYLibrary.Core.Utilities.ObjectIsEnumerable()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsEnumerable
+    name: ObjectIsEnumerable
+    nameWithType: Utilities.ObjectIsEnumerable
+    fullName: GRYLibrary.Core.Utilities.ObjectIsEnumerable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsEnumerable
+    name: ObjectIsEnumerable
+    nameWithType: Utilities.ObjectIsEnumerable
+    fullName: GRYLibrary.Core.Utilities.ObjectIsEnumerable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToEnumerable(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectToEnumerable(System.Object)
+  name: ObjectToEnumerable()
+  nameWithType: Utilities.ObjectToEnumerable()
+  fullName: GRYLibrary.Core.Utilities.ObjectToEnumerable()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToEnumerable
+    name: ObjectToEnumerable
+    nameWithType: Utilities.ObjectToEnumerable
+    fullName: GRYLibrary.Core.Utilities.ObjectToEnumerable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToEnumerable
+    name: ObjectToEnumerable
+    nameWithType: Utilities.ObjectToEnumerable
+    fullName: GRYLibrary.Core.Utilities.ObjectToEnumerable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric``1
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric``1(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric``1(System.Object)
+  name: ObjectToEnumerableGeneric<T>()
+  nameWithType: Utilities.ObjectToEnumerableGeneric<T>()
+  fullName: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric<T>()
+  nameWithType.vb: Utilities.ObjectToEnumerableGeneric(Of T)()
+  fullName.vb: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric(Of T)()
+  name.vb: ObjectToEnumerableGeneric(Of T)()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric``1
+    name: ObjectToEnumerableGeneric<T>
+    nameWithType: Utilities.ObjectToEnumerableGeneric<T>
+    fullName: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric``1
+    name: ObjectToEnumerableGeneric(Of T)
+    nameWithType: Utilities.ObjectToEnumerableGeneric(Of T)
+    fullName: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectIsList
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsList(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectIsList(System.Object)
+  name: ObjectIsList()
+  nameWithType: Utilities.ObjectIsList()
+  fullName: GRYLibrary.Core.Utilities.ObjectIsList()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsList
+    name: ObjectIsList
+    nameWithType: Utilities.ObjectIsList
+    fullName: GRYLibrary.Core.Utilities.ObjectIsList
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsList
+    name: ObjectIsList
+    nameWithType: Utilities.ObjectIsList
+    fullName: GRYLibrary.Core.Utilities.ObjectIsList
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectToList``1
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToList``1(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectToList``1(System.Object)
+  name: ObjectToList<T>()
+  nameWithType: Utilities.ObjectToList<T>()
+  fullName: GRYLibrary.Core.Utilities.ObjectToList<T>()
+  nameWithType.vb: Utilities.ObjectToList(Of T)()
+  fullName.vb: GRYLibrary.Core.Utilities.ObjectToList(Of T)()
+  name.vb: ObjectToList(Of T)()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToList``1
+    name: ObjectToList<T>
+    nameWithType: Utilities.ObjectToList<T>
+    fullName: GRYLibrary.Core.Utilities.ObjectToList<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToList``1
+    name: ObjectToList(Of T)
+    nameWithType: Utilities.ObjectToList(Of T)
+    fullName: GRYLibrary.Core.Utilities.ObjectToList(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectIsSet
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsSet(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectIsSet(System.Object)
+  name: ObjectIsSet()
+  nameWithType: Utilities.ObjectIsSet()
+  fullName: GRYLibrary.Core.Utilities.ObjectIsSet()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsSet
+    name: ObjectIsSet
+    nameWithType: Utilities.ObjectIsSet
+    fullName: GRYLibrary.Core.Utilities.ObjectIsSet
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsSet
+    name: ObjectIsSet
+    nameWithType: Utilities.ObjectIsSet
+    fullName: GRYLibrary.Core.Utilities.ObjectIsSet
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsKeyValuePair(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair(System.Object)
+  name: ObjectIsKeyValuePair()
+  nameWithType: Utilities.ObjectIsKeyValuePair()
+  fullName: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+    name: ObjectIsKeyValuePair
+    nameWithType: Utilities.ObjectIsKeyValuePair
+    fullName: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+    name: ObjectIsKeyValuePair
+    nameWithType: Utilities.ObjectIsKeyValuePair
+    fullName: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2(System.Object)
+  name: ObjectToKeyValuePair<TKey, TValue>()
+  nameWithType: Utilities.ObjectToKeyValuePair<TKey, TValue>()
+  fullName: GRYLibrary.Core.Utilities.ObjectToKeyValuePair<TKey, TValue>()
+  nameWithType.vb: Utilities.ObjectToKeyValuePair(Of TKey, TValue)()
+  fullName.vb: GRYLibrary.Core.Utilities.ObjectToKeyValuePair(Of TKey, TValue)()
+  name.vb: ObjectToKeyValuePair(Of TKey, TValue)()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2
+    name: ObjectToKeyValuePair<TKey, TValue>
+    nameWithType: Utilities.ObjectToKeyValuePair<TKey, TValue>
+    fullName: GRYLibrary.Core.Utilities.ObjectToKeyValuePair<TKey, TValue>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2
+    name: ObjectToKeyValuePair(Of TKey, TValue)
+    nameWithType: Utilities.ObjectToKeyValuePair(Of TKey, TValue)
+    fullName: GRYLibrary.Core.Utilities.ObjectToKeyValuePair(Of TKey, TValue)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectToSet``1
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToSet``1(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectToSet``1(System.Object)
+  name: ObjectToSet<T>()
+  nameWithType: Utilities.ObjectToSet<T>()
+  fullName: GRYLibrary.Core.Utilities.ObjectToSet<T>()
+  nameWithType.vb: Utilities.ObjectToSet(Of T)()
+  fullName.vb: GRYLibrary.Core.Utilities.ObjectToSet(Of T)()
+  name.vb: ObjectToSet(Of T)()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToSet``1
+    name: ObjectToSet<T>
+    nameWithType: Utilities.ObjectToSet<T>
+    fullName: GRYLibrary.Core.Utilities.ObjectToSet<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToSet``1
+    name: ObjectToSet(Of T)
+    nameWithType: Utilities.ObjectToSet(Of T)
+    fullName: GRYLibrary.Core.Utilities.ObjectToSet(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionary
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionary(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectIsDictionary(System.Object)
+  name: ObjectIsDictionary()
+  nameWithType: Utilities.ObjectIsDictionary()
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionary()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionary
+    name: ObjectIsDictionary
+    nameWithType: Utilities.ObjectIsDictionary
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionary
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionary
+    name: ObjectIsDictionary
+    nameWithType: Utilities.ObjectIsDictionary
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionary
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectToDictionary``2
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToDictionary``2(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectToDictionary``2(System.Object)
+  name: ObjectToDictionary<TKey, TValue>()
+  nameWithType: Utilities.ObjectToDictionary<TKey, TValue>()
+  fullName: GRYLibrary.Core.Utilities.ObjectToDictionary<TKey, TValue>()
+  nameWithType.vb: Utilities.ObjectToDictionary(Of TKey, TValue)()
+  fullName.vb: GRYLibrary.Core.Utilities.ObjectToDictionary(Of TKey, TValue)()
+  name.vb: ObjectToDictionary(Of TKey, TValue)()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToDictionary``2
+    name: ObjectToDictionary<TKey, TValue>
+    nameWithType: Utilities.ObjectToDictionary<TKey, TValue>
+    fullName: GRYLibrary.Core.Utilities.ObjectToDictionary<TKey, TValue>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToDictionary``2
+    name: ObjectToDictionary(Of TKey, TValue)
+    nameWithType: Utilities.ObjectToDictionary(Of TKey, TValue)
+    fullName: GRYLibrary.Core.Utilities.ObjectToDictionary(Of TKey, TValue)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ToDynamic
+  commentId: M:GRYLibrary.Core.Utilities.ToDynamic(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ToDynamic(System.Object)
+  name: ToDynamic()
+  nameWithType: Utilities.ToDynamic()
+  fullName: GRYLibrary.Core.Utilities.ToDynamic()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ToDynamic
+    name: ToDynamic
+    nameWithType: Utilities.ToDynamic
+    fullName: GRYLibrary.Core.Utilities.ToDynamic
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ToDynamic
+    name: ToDynamic
+    nameWithType: Utilities.ToDynamic
+    fullName: GRYLibrary.Core.Utilities.ToDynamic
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.GRYLibrary.Core.Utilities.DeepClone``1
+  commentId: M:GRYLibrary.Core.Utilities.DeepClone``1(``0)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.DeepClone``1(``0)
+  name: DeepClone<GRYLogConfiguration>()
+  nameWithType: Utilities.DeepClone<GRYLogConfiguration>()
+  fullName: GRYLibrary.Core.Utilities.DeepClone<GRYLibrary.Core.Log.GRYLogConfiguration>()
+  nameWithType.vb: Utilities.DeepClone(Of GRYLogConfiguration)()
+  fullName.vb: GRYLibrary.Core.Utilities.DeepClone(Of GRYLibrary.Core.Log.GRYLogConfiguration)()
+  name.vb: DeepClone(Of GRYLogConfiguration)()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.DeepClone``1
+    name: DeepClone<GRYLogConfiguration>
+    nameWithType: Utilities.DeepClone<GRYLogConfiguration>
+    fullName: GRYLibrary.Core.Utilities.DeepClone<GRYLibrary.Core.Log.GRYLogConfiguration>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.DeepClone``1
+    name: DeepClone(Of GRYLogConfiguration)
+    nameWithType: Utilities.DeepClone(Of GRYLogConfiguration)
+    fullName: GRYLibrary.Core.Utilities.DeepClone(Of GRYLibrary.Core.Log.GRYLogConfiguration)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.GRYLibrary.Core.Utilities.PersistToDisk``1(System.String)
+  commentId: M:GRYLibrary.Core.Utilities.PersistToDisk``1(``0,System.String)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.PersistToDisk``1(``0,System.String)
+  name: PersistToDisk<GRYLogConfiguration>(String)
+  nameWithType: Utilities.PersistToDisk<GRYLogConfiguration>(String)
+  fullName: GRYLibrary.Core.Utilities.PersistToDisk<GRYLibrary.Core.Log.GRYLogConfiguration>(System.String)
+  nameWithType.vb: Utilities.PersistToDisk(Of GRYLogConfiguration)(String)
+  fullName.vb: GRYLibrary.Core.Utilities.PersistToDisk(Of GRYLibrary.Core.Log.GRYLogConfiguration)(System.String)
+  name.vb: PersistToDisk(Of GRYLogConfiguration)(String)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.PersistToDisk``1(System.String)
+    name: PersistToDisk<GRYLogConfiguration>
+    nameWithType: Utilities.PersistToDisk<GRYLogConfiguration>
+    fullName: GRYLibrary.Core.Utilities.PersistToDisk<GRYLibrary.Core.Log.GRYLogConfiguration>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.PersistToDisk``1(System.String)
+    name: PersistToDisk(Of GRYLogConfiguration)
+    nameWithType: Utilities.PersistToDisk(Of GRYLogConfiguration)
+    fullName: GRYLibrary.Core.Utilities.PersistToDisk(Of GRYLibrary.Core.Log.GRYLogConfiguration)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.NullSafeEquals(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.NullSafeEquals(System.Object,System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.NullSafeEquals(System.Object,System.Object)
+  name: NullSafeEquals(Object)
+  nameWithType: Utilities.NullSafeEquals(Object)
+  fullName: GRYLibrary.Core.Utilities.NullSafeEquals(System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.NullSafeEquals(System.Object)
+    name: NullSafeEquals
+    nameWithType: Utilities.NullSafeEquals
+    fullName: GRYLibrary.Core.Utilities.NullSafeEquals
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.NullSafeEquals(System.Object)
+    name: NullSafeEquals
+    nameWithType: Utilities.NullSafeEquals
+    fullName: GRYLibrary.Core.Utilities.NullSafeEquals
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GRYLibrary.Core.Utilities.ObjectIsEnumerable(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsEnumerable(System.Object)
+  isExternal: true
+  name: ObjectIsEnumerable(Object)
+  nameWithType: Utilities.ObjectIsEnumerable(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectIsEnumerable(System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsEnumerable(System.Object)
+    name: ObjectIsEnumerable
+    nameWithType: Utilities.ObjectIsEnumerable
+    fullName: GRYLibrary.Core.Utilities.ObjectIsEnumerable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsEnumerable(System.Object)
+    name: ObjectIsEnumerable
+    nameWithType: Utilities.ObjectIsEnumerable
+    fullName: GRYLibrary.Core.Utilities.ObjectIsEnumerable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities
+  commentId: T:GRYLibrary.Core.Utilities
+  parent: GRYLibrary.Core
+  name: Utilities
+  nameWithType: Utilities
+  fullName: GRYLibrary.Core.Utilities
+- uid: GRYLibrary.Core.Utilities.ObjectToEnumerable(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToEnumerable(System.Object)
+  isExternal: true
+  name: ObjectToEnumerable(Object)
+  nameWithType: Utilities.ObjectToEnumerable(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectToEnumerable(System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToEnumerable(System.Object)
+    name: ObjectToEnumerable
+    nameWithType: Utilities.ObjectToEnumerable
+    fullName: GRYLibrary.Core.Utilities.ObjectToEnumerable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToEnumerable(System.Object)
+    name: ObjectToEnumerable
+    nameWithType: Utilities.ObjectToEnumerable
+    fullName: GRYLibrary.Core.Utilities.ObjectToEnumerable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric``1(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric``1(System.Object)
+  isExternal: true
+  name: ObjectToEnumerableGeneric<T>(Object)
+  nameWithType: Utilities.ObjectToEnumerableGeneric<T>(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric<T>(System.Object)
+  nameWithType.vb: Utilities.ObjectToEnumerableGeneric(Of T)(Object)
+  fullName.vb: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric(Of T)(System.Object)
+  name.vb: ObjectToEnumerableGeneric(Of T)(Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric``1(System.Object)
+    name: ObjectToEnumerableGeneric<T>
+    nameWithType: Utilities.ObjectToEnumerableGeneric<T>
+    fullName: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric``1(System.Object)
+    name: ObjectToEnumerableGeneric(Of T)
+    nameWithType: Utilities.ObjectToEnumerableGeneric(Of T)
+    fullName: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectIsList(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsList(System.Object)
+  isExternal: true
+  name: ObjectIsList(Object)
+  nameWithType: Utilities.ObjectIsList(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectIsList(System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsList(System.Object)
+    name: ObjectIsList
+    nameWithType: Utilities.ObjectIsList
+    fullName: GRYLibrary.Core.Utilities.ObjectIsList
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsList(System.Object)
+    name: ObjectIsList
+    nameWithType: Utilities.ObjectIsList
+    fullName: GRYLibrary.Core.Utilities.ObjectIsList
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectToList``1(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToList``1(System.Object)
+  isExternal: true
+  name: ObjectToList<T>(Object)
+  nameWithType: Utilities.ObjectToList<T>(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectToList<T>(System.Object)
+  nameWithType.vb: Utilities.ObjectToList(Of T)(Object)
+  fullName.vb: GRYLibrary.Core.Utilities.ObjectToList(Of T)(System.Object)
+  name.vb: ObjectToList(Of T)(Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToList``1(System.Object)
+    name: ObjectToList<T>
+    nameWithType: Utilities.ObjectToList<T>
+    fullName: GRYLibrary.Core.Utilities.ObjectToList<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToList``1(System.Object)
+    name: ObjectToList(Of T)
+    nameWithType: Utilities.ObjectToList(Of T)
+    fullName: GRYLibrary.Core.Utilities.ObjectToList(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectIsSet(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsSet(System.Object)
+  isExternal: true
+  name: ObjectIsSet(Object)
+  nameWithType: Utilities.ObjectIsSet(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectIsSet(System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsSet(System.Object)
+    name: ObjectIsSet
+    nameWithType: Utilities.ObjectIsSet
+    fullName: GRYLibrary.Core.Utilities.ObjectIsSet
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsSet(System.Object)
+    name: ObjectIsSet
+    nameWithType: Utilities.ObjectIsSet
+    fullName: GRYLibrary.Core.Utilities.ObjectIsSet
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsKeyValuePair(System.Object)
+  isExternal: true
+  name: ObjectIsKeyValuePair(Object)
+  nameWithType: Utilities.ObjectIsKeyValuePair(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair(System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair(System.Object)
+    name: ObjectIsKeyValuePair
+    nameWithType: Utilities.ObjectIsKeyValuePair
+    fullName: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair(System.Object)
+    name: ObjectIsKeyValuePair
+    nameWithType: Utilities.ObjectIsKeyValuePair
+    fullName: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2(System.Object)
+  isExternal: true
+  name: ObjectToKeyValuePair<TKey, TValue>(Object)
+  nameWithType: Utilities.ObjectToKeyValuePair<TKey, TValue>(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectToKeyValuePair<TKey, TValue>(System.Object)
+  nameWithType.vb: Utilities.ObjectToKeyValuePair(Of TKey, TValue)(Object)
+  fullName.vb: GRYLibrary.Core.Utilities.ObjectToKeyValuePair(Of TKey, TValue)(System.Object)
+  name.vb: ObjectToKeyValuePair(Of TKey, TValue)(Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2(System.Object)
+    name: ObjectToKeyValuePair<TKey, TValue>
+    nameWithType: Utilities.ObjectToKeyValuePair<TKey, TValue>
+    fullName: GRYLibrary.Core.Utilities.ObjectToKeyValuePair<TKey, TValue>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2(System.Object)
+    name: ObjectToKeyValuePair(Of TKey, TValue)
+    nameWithType: Utilities.ObjectToKeyValuePair(Of TKey, TValue)
+    fullName: GRYLibrary.Core.Utilities.ObjectToKeyValuePair(Of TKey, TValue)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectToSet``1(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToSet``1(System.Object)
+  isExternal: true
+  name: ObjectToSet<T>(Object)
+  nameWithType: Utilities.ObjectToSet<T>(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectToSet<T>(System.Object)
+  nameWithType.vb: Utilities.ObjectToSet(Of T)(Object)
+  fullName.vb: GRYLibrary.Core.Utilities.ObjectToSet(Of T)(System.Object)
+  name.vb: ObjectToSet(Of T)(Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToSet``1(System.Object)
+    name: ObjectToSet<T>
+    nameWithType: Utilities.ObjectToSet<T>
+    fullName: GRYLibrary.Core.Utilities.ObjectToSet<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToSet``1(System.Object)
+    name: ObjectToSet(Of T)
+    nameWithType: Utilities.ObjectToSet(Of T)
+    fullName: GRYLibrary.Core.Utilities.ObjectToSet(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectIsDictionary(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionary(System.Object)
+  isExternal: true
+  name: ObjectIsDictionary(Object)
+  nameWithType: Utilities.ObjectIsDictionary(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionary(System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionary(System.Object)
+    name: ObjectIsDictionary
+    nameWithType: Utilities.ObjectIsDictionary
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionary
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionary(System.Object)
+    name: ObjectIsDictionary
+    nameWithType: Utilities.ObjectIsDictionary
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionary
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectToDictionary``2(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToDictionary``2(System.Object)
+  isExternal: true
+  name: ObjectToDictionary<TKey, TValue>(Object)
+  nameWithType: Utilities.ObjectToDictionary<TKey, TValue>(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectToDictionary<TKey, TValue>(System.Object)
+  nameWithType.vb: Utilities.ObjectToDictionary(Of TKey, TValue)(Object)
+  fullName.vb: GRYLibrary.Core.Utilities.ObjectToDictionary(Of TKey, TValue)(System.Object)
+  name.vb: ObjectToDictionary(Of TKey, TValue)(Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToDictionary``2(System.Object)
+    name: ObjectToDictionary<TKey, TValue>
+    nameWithType: Utilities.ObjectToDictionary<TKey, TValue>
+    fullName: GRYLibrary.Core.Utilities.ObjectToDictionary<TKey, TValue>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToDictionary``2(System.Object)
+    name: ObjectToDictionary(Of TKey, TValue)
+    nameWithType: Utilities.ObjectToDictionary(Of TKey, TValue)
+    fullName: GRYLibrary.Core.Utilities.ObjectToDictionary(Of TKey, TValue)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ToDynamic(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ToDynamic(System.Object)
+  isExternal: true
+  name: ToDynamic(Object)
+  nameWithType: Utilities.ToDynamic(Object)
+  fullName: GRYLibrary.Core.Utilities.ToDynamic(System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ToDynamic(System.Object)
+    name: ToDynamic
+    nameWithType: Utilities.ToDynamic
+    fullName: GRYLibrary.Core.Utilities.ToDynamic
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ToDynamic(System.Object)
+    name: ToDynamic
+    nameWithType: Utilities.ToDynamic
+    fullName: GRYLibrary.Core.Utilities.ToDynamic
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.DeepClone``1(``0)
+  commentId: M:GRYLibrary.Core.Utilities.DeepClone``1(``0)
+  name: DeepClone<T>(T)
+  nameWithType: Utilities.DeepClone<T>(T)
+  fullName: GRYLibrary.Core.Utilities.DeepClone<T>(T)
+  nameWithType.vb: Utilities.DeepClone(Of T)(T)
+  fullName.vb: GRYLibrary.Core.Utilities.DeepClone(Of T)(T)
+  name.vb: DeepClone(Of T)(T)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.DeepClone``1(``0)
+    name: DeepClone<T>
+    nameWithType: Utilities.DeepClone<T>
+    fullName: GRYLibrary.Core.Utilities.DeepClone<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.DeepClone``1(``0)
+    name: DeepClone(Of T)
+    nameWithType: Utilities.DeepClone(Of T)
+    fullName: GRYLibrary.Core.Utilities.DeepClone(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.PersistToDisk``1(``0,System.String)
+  commentId: M:GRYLibrary.Core.Utilities.PersistToDisk``1(``0,System.String)
+  isExternal: true
+  name: PersistToDisk<T>(T, String)
+  nameWithType: Utilities.PersistToDisk<T>(T, String)
+  fullName: GRYLibrary.Core.Utilities.PersistToDisk<T>(T, System.String)
+  nameWithType.vb: Utilities.PersistToDisk(Of T)(T, String)
+  fullName.vb: GRYLibrary.Core.Utilities.PersistToDisk(Of T)(T, System.String)
+  name.vb: PersistToDisk(Of T)(T, String)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.PersistToDisk``1(``0,System.String)
+    name: PersistToDisk<T>
+    nameWithType: Utilities.PersistToDisk<T>
+    fullName: GRYLibrary.Core.Utilities.PersistToDisk<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.PersistToDisk``1(``0,System.String)
+    name: PersistToDisk(Of T)
+    nameWithType: Utilities.PersistToDisk(Of T)
+    fullName: GRYLibrary.Core.Utilities.PersistToDisk(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.NullSafeEquals(System.Object,System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.NullSafeEquals(System.Object,System.Object)
+  isExternal: true
+  name: NullSafeEquals(Object, Object)
+  nameWithType: Utilities.NullSafeEquals(Object, Object)
+  fullName: GRYLibrary.Core.Utilities.NullSafeEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.NullSafeEquals(System.Object,System.Object)
+    name: NullSafeEquals
+    nameWithType: Utilities.NullSafeEquals
+    fullName: GRYLibrary.Core.Utilities.NullSafeEquals
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.NullSafeEquals(System.Object,System.Object)
+    name: NullSafeEquals
+    nameWithType: Utilities.NullSafeEquals
+    fullName: GRYLibrary.Core.Utilities.NullSafeEquals
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core
+  commentId: N:GRYLibrary.Core
+  name: GRYLibrary.Core
+  nameWithType: GRYLibrary.Core
+  fullName: GRYLibrary.Core
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.ReloadConfigurationWhenConfigurationFileWillBeChanged*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.ReloadConfigurationWhenConfigurationFileWillBeChanged
+  name: ReloadConfigurationWhenConfigurationFileWillBeChanged
+  nameWithType: GRYLogConfiguration.ReloadConfigurationWhenConfigurationFileWillBeChanged
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.ReloadConfigurationWhenConfigurationFileWillBeChanged
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.LogTargets*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.LogTargets
+  name: LogTargets
+  nameWithType: GRYLogConfiguration.LogTargets
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.LogTargets
+- uid: System.Collections.Generic.HashSet{GRYLibrary.Core.Log.GRYLogTarget}
+  commentId: T:System.Collections.Generic.HashSet{GRYLibrary.Core.Log.GRYLogTarget}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.HashSet`1
+  name: HashSet<GRYLogTarget>
+  nameWithType: HashSet<GRYLogTarget>
+  fullName: System.Collections.Generic.HashSet<GRYLibrary.Core.Log.GRYLogTarget>
+  nameWithType.vb: HashSet(Of GRYLogTarget)
+  fullName.vb: System.Collections.Generic.HashSet(Of GRYLibrary.Core.Log.GRYLogTarget)
+  name.vb: HashSet(Of GRYLogTarget)
+  spec.csharp:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GRYLibrary.Core.Log.GRYLogTarget
+    name: GRYLogTarget
+    nameWithType: GRYLogTarget
+    fullName: GRYLibrary.Core.Log.GRYLogTarget
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GRYLibrary.Core.Log.GRYLogTarget
+    name: GRYLogTarget
+    nameWithType: GRYLogTarget
+    fullName: GRYLibrary.Core.Log.GRYLogTarget
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.HashSet`1
+  commentId: T:System.Collections.Generic.HashSet`1
+  isExternal: true
+  name: HashSet<T>
+  nameWithType: HashSet<T>
+  fullName: System.Collections.Generic.HashSet<T>
+  nameWithType.vb: HashSet(Of T)
+  fullName.vb: System.Collections.Generic.HashSet(Of T)
+  name.vb: HashSet(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.WriteLogEntriesAsynchronous*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.WriteLogEntriesAsynchronous
+  name: WriteLogEntriesAsynchronous
+  nameWithType: GRYLogConfiguration.WriteLogEntriesAsynchronous
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.WriteLogEntriesAsynchronous
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.Enabled*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.Enabled
+  name: Enabled
+  nameWithType: GRYLogConfiguration.Enabled
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.Enabled
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.ConfigurationFile*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.ConfigurationFile
+  name: ConfigurationFile
+  nameWithType: GRYLogConfiguration.ConfigurationFile
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.ConfigurationFile
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.PrintEmptyLines*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.PrintEmptyLines
+  name: PrintEmptyLines
+  nameWithType: GRYLogConfiguration.PrintEmptyLines
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.PrintEmptyLines
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel
+  name: GetLoggedMessageTypesConfigurationByLogLevel
+  nameWithType: GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel
+- uid: Microsoft.Extensions.Logging.LogLevel
+  commentId: T:Microsoft.Extensions.Logging.LogLevel
+  parent: Microsoft.Extensions.Logging
+  isExternal: true
+  name: LogLevel
+  nameWithType: LogLevel
+  fullName: Microsoft.Extensions.Logging.LogLevel
+- uid: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration
+  commentId: T:GRYLibrary.Core.Log.LoggedMessageTypeConfiguration
+  parent: GRYLibrary.Core.Log
+  name: LoggedMessageTypeConfiguration
+  nameWithType: LoggedMessageTypeConfiguration
+  fullName: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.PrintErrorsAsInformation*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.PrintErrorsAsInformation
+  name: PrintErrorsAsInformation
+  nameWithType: GRYLogConfiguration.PrintErrorsAsInformation
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.PrintErrorsAsInformation
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.Name*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.Name
+  name: Name
+  nameWithType: GRYLogConfiguration.Name
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.Name
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.WriteExceptionMessageOfExceptionInLogEntry*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.WriteExceptionMessageOfExceptionInLogEntry
+  name: WriteExceptionMessageOfExceptionInLogEntry
+  nameWithType: GRYLogConfiguration.WriteExceptionMessageOfExceptionInLogEntry
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.WriteExceptionMessageOfExceptionInLogEntry
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.WriteExceptionStackTraceOfExceptionInLogEntry*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.WriteExceptionStackTraceOfExceptionInLogEntry
+  name: WriteExceptionStackTraceOfExceptionInLogEntry
+  nameWithType: GRYLogConfiguration.WriteExceptionStackTraceOfExceptionInLogEntry
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.WriteExceptionStackTraceOfExceptionInLogEntry
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.DateFormat*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.DateFormat
+  name: DateFormat
+  nameWithType: GRYLogConfiguration.DateFormat
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.DateFormat
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.LoggedMessageTypesConfiguration*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.LoggedMessageTypesConfiguration
+  name: LoggedMessageTypesConfiguration
+  nameWithType: GRYLogConfiguration.LoggedMessageTypesConfiguration
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.LoggedMessageTypesConfiguration
+- uid: System.Collections.Generic.List{GRYLibrary.Core.XMLSerializer.KeyValuePair{Microsoft.Extensions.Logging.LogLevel,GRYLibrary.Core.Log.LoggedMessageTypeConfiguration}}
+  commentId: T:System.Collections.Generic.List{GRYLibrary.Core.XMLSerializer.KeyValuePair{Microsoft.Extensions.Logging.LogLevel,GRYLibrary.Core.Log.LoggedMessageTypeConfiguration}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<KeyValuePair<LogLevel, LoggedMessageTypeConfiguration>>
+  nameWithType: List<KeyValuePair<LogLevel, LoggedMessageTypeConfiguration>>
+  fullName: System.Collections.Generic.List<GRYLibrary.Core.XMLSerializer.KeyValuePair<Microsoft.Extensions.Logging.LogLevel, GRYLibrary.Core.Log.LoggedMessageTypeConfiguration>>
+  nameWithType.vb: List(Of KeyValuePair(Of LogLevel, LoggedMessageTypeConfiguration))
+  fullName.vb: System.Collections.Generic.List(Of GRYLibrary.Core.XMLSerializer.KeyValuePair(Of Microsoft.Extensions.Logging.LogLevel, GRYLibrary.Core.Log.LoggedMessageTypeConfiguration))
+  name.vb: List(Of KeyValuePair(Of LogLevel, LoggedMessageTypeConfiguration))
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GRYLibrary.Core.XMLSerializer.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: GRYLibrary.Core.XMLSerializer.KeyValuePair
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.Extensions.Logging.LogLevel
+    name: LogLevel
+    nameWithType: LogLevel
+    fullName: Microsoft.Extensions.Logging.LogLevel
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration
+    name: LoggedMessageTypeConfiguration
+    nameWithType: LoggedMessageTypeConfiguration
+    fullName: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GRYLibrary.Core.XMLSerializer.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: GRYLibrary.Core.XMLSerializer.KeyValuePair
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.Extensions.Logging.LogLevel
+    name: LogLevel
+    nameWithType: LogLevel
+    fullName: Microsoft.Extensions.Logging.LogLevel
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration
+    name: LoggedMessageTypeConfiguration
+    nameWithType: LoggedMessageTypeConfiguration
+    fullName: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.Format*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.Format
+  name: Format
+  nameWithType: GRYLogConfiguration.Format
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.Format
+- uid: GRYLibrary.Core.Log.GRYLogLogFormat
+  commentId: T:GRYLibrary.Core.Log.GRYLogLogFormat
+  parent: GRYLibrary.Core.Log
+  name: GRYLogLogFormat
+  nameWithType: GRYLogLogFormat
+  fullName: GRYLibrary.Core.Log.GRYLogLogFormat
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.ConvertTimeForLogentriesToUTCFormat*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.ConvertTimeForLogentriesToUTCFormat
+  name: ConvertTimeForLogentriesToUTCFormat
+  nameWithType: GRYLogConfiguration.ConvertTimeForLogentriesToUTCFormat
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.ConvertTimeForLogentriesToUTCFormat
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.LogEveryLineOfLogEntryInNewLine*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.LogEveryLineOfLogEntryInNewLine
+  name: LogEveryLineOfLogEntryInNewLine
+  nameWithType: GRYLogConfiguration.LogEveryLineOfLogEntryInNewLine
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.LogEveryLineOfLogEntryInNewLine
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.LogFile*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.LogFile
+  name: LogFile
+  nameWithType: GRYLogConfiguration.LogFile
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.LogFile
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.#ctor*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.#ctor
+  name: GRYLogConfiguration
+  nameWithType: GRYLogConfiguration.GRYLogConfiguration
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.GRYLogConfiguration
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.ResetToDefaultValues*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.ResetToDefaultValues
+  name: ResetToDefaultValues
+  nameWithType: GRYLogConfiguration.ResetToDefaultValues
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.ResetToDefaultValues
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.GetLogTarget*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.GetLogTarget
+  name: GetLogTarget
+  nameWithType: GRYLogConfiguration.GetLogTarget
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.GetLogTarget
+- uid: '{Target}'
+  commentId: '!:Target'
+  definition: Target
+  name: Target
+  nameWithType: Target
+  fullName: Target
+- uid: Target
+  commentId: '!:Target'
+  name: Target
+  nameWithType: Target
+  fullName: Target
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.LoadConfiguration*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.LoadConfiguration
+  name: LoadConfiguration
+  nameWithType: GRYLogConfiguration.LoadConfiguration
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.LoadConfiguration
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration
+  commentId: T:GRYLibrary.Core.Log.GRYLogConfiguration
+  parent: GRYLibrary.Core.Log
+  name: GRYLogConfiguration
+  nameWithType: GRYLogConfiguration
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.SaveConfiguration*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.SaveConfiguration
+  name: SaveConfiguration
+  nameWithType: GRYLogConfiguration.SaveConfiguration
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.SaveConfiguration
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.GetHashCode*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.GetHashCode
+  name: GetHashCode
+  nameWithType: GRYLogConfiguration.GetHashCode
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.Equals*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.Equals
+  name: Equals
+  nameWithType: GRYLogConfiguration.Equals
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.Equals
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.SetEnabledOfAllLogTargets*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.SetEnabledOfAllLogTargets
+  name: SetEnabledOfAllLogTargets
+  nameWithType: GRYLogConfiguration.SetEnabledOfAllLogTargets
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.SetEnabledOfAllLogTargets

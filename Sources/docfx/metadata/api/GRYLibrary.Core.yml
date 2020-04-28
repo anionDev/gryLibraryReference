@@ -1,0 +1,538 @@
+### YamlMime:ManagedReference
+items:
+- uid: GRYLibrary.Core
+  commentId: N:GRYLibrary.Core
+  id: GRYLibrary.Core
+  children:
+  - GRYLibrary.Core.ByteArray
+  - GRYLibrary.Core.CacheDictionaryStore`2
+  - GRYLibrary.Core.ColorGradient
+  - GRYLibrary.Core.EarleyParser
+  - GRYLibrary.Core.EarleyParser.Grammar
+  - GRYLibrary.Core.EarleyParser.NonTerminalSymbol
+  - GRYLibrary.Core.EarleyParser.ProductionRule
+  - GRYLibrary.Core.EarleyParser.ProductionRuleWithExpection
+  - GRYLibrary.Core.EarleyParser.State
+  - GRYLibrary.Core.EarleyParser.Symbol
+  - GRYLibrary.Core.EarleyParser.TerminalSymbol
+  - GRYLibrary.Core.ExecutionState
+  - GRYLibrary.Core.ExtendedColor
+  - GRYLibrary.Core.ExternalProgramExecutor
+  - GRYLibrary.Core.FileSelector
+  - GRYLibrary.Core.GitCommandResult
+  - GRYLibrary.Core.IProperty
+  - GRYLibrary.Core.NonPersistentInputHistoryList
+  - GRYLibrary.Core.PercentValue
+  - GRYLibrary.Core.Property`1
+  - GRYLibrary.Core.PropertyChangedEvengArgument`1
+  - GRYLibrary.Core.ReadOnlyProperty
+  - GRYLibrary.Core.ReadOnlyProperty`1
+  - GRYLibrary.Core.RedundantIdler
+  - GRYLibrary.Core.Semaphore
+  - GRYLibrary.Core.SimpleObjectPersistence`1
+  - GRYLibrary.Core.SupervisedThread
+  - GRYLibrary.Core.TableGenerator
+  - GRYLibrary.Core.TableGenerator.ASCIITable
+  - GRYLibrary.Core.TableGenerator.CSV
+  - GRYLibrary.Core.TableGenerator.DoubleLineTableCharacter
+  - GRYLibrary.Core.TableGenerator.HTMLTable
+  - GRYLibrary.Core.TableGenerator.ITableCharacter
+  - GRYLibrary.Core.TableGenerator.ITableOutputTypeVisitor
+  - GRYLibrary.Core.TableGenerator.ITableOutputTypeVisitor`1
+  - GRYLibrary.Core.TableGenerator.OneLineTableCharacter
+  - GRYLibrary.Core.TableGenerator.RoundLineTableCharacter
+  - GRYLibrary.Core.TableGenerator.TableOutputType
+  - GRYLibrary.Core.TaskQueue
+  - GRYLibrary.Core.UnexpectedExitCodeException
+  - GRYLibrary.Core.Utilities
+  - GRYLibrary.Core.WriteableTuple`2
+  langs:
+  - csharp
+  - vb
+  name: GRYLibrary.Core
+  nameWithType: GRYLibrary.Core
+  fullName: GRYLibrary.Core
+  type: Namespace
+  assemblies:
+  - GRYLibrary
+references:
+- uid: GRYLibrary.Core.ByteArray
+  commentId: T:GRYLibrary.Core.ByteArray
+  parent: GRYLibrary.Core
+  name: ByteArray
+  nameWithType: ByteArray
+  fullName: GRYLibrary.Core.ByteArray
+- uid: GRYLibrary.Core.CacheDictionaryStore`2
+  commentId: T:GRYLibrary.Core.CacheDictionaryStore`2
+  name: CacheDictionaryStore<TKey, TValue>
+  nameWithType: CacheDictionaryStore<TKey, TValue>
+  fullName: GRYLibrary.Core.CacheDictionaryStore<TKey, TValue>
+  nameWithType.vb: CacheDictionaryStore(Of TKey, TValue)
+  fullName.vb: GRYLibrary.Core.CacheDictionaryStore(Of TKey, TValue)
+  name.vb: CacheDictionaryStore(Of TKey, TValue)
+  spec.csharp:
+  - uid: GRYLibrary.Core.CacheDictionaryStore`2
+    name: CacheDictionaryStore
+    nameWithType: CacheDictionaryStore
+    fullName: GRYLibrary.Core.CacheDictionaryStore
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GRYLibrary.Core.CacheDictionaryStore`2
+    name: CacheDictionaryStore
+    nameWithType: CacheDictionaryStore
+    fullName: GRYLibrary.Core.CacheDictionaryStore
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.ColorGradient
+  commentId: T:GRYLibrary.Core.ColorGradient
+  name: ColorGradient
+  nameWithType: ColorGradient
+  fullName: GRYLibrary.Core.ColorGradient
+- uid: GRYLibrary.Core.EarleyParser
+  commentId: T:GRYLibrary.Core.EarleyParser
+  name: EarleyParser
+  nameWithType: EarleyParser
+  fullName: GRYLibrary.Core.EarleyParser
+- uid: GRYLibrary.Core.EarleyParser.Grammar
+  commentId: T:GRYLibrary.Core.EarleyParser.Grammar
+  parent: GRYLibrary.Core
+  name: EarleyParser.Grammar
+  nameWithType: EarleyParser.Grammar
+  fullName: GRYLibrary.Core.EarleyParser.Grammar
+- uid: GRYLibrary.Core.EarleyParser.Symbol
+  commentId: T:GRYLibrary.Core.EarleyParser.Symbol
+  parent: GRYLibrary.Core
+  name: EarleyParser.Symbol
+  nameWithType: EarleyParser.Symbol
+  fullName: GRYLibrary.Core.EarleyParser.Symbol
+- uid: GRYLibrary.Core.EarleyParser.TerminalSymbol
+  commentId: T:GRYLibrary.Core.EarleyParser.TerminalSymbol
+  name: EarleyParser.TerminalSymbol
+  nameWithType: EarleyParser.TerminalSymbol
+  fullName: GRYLibrary.Core.EarleyParser.TerminalSymbol
+- uid: GRYLibrary.Core.EarleyParser.NonTerminalSymbol
+  commentId: T:GRYLibrary.Core.EarleyParser.NonTerminalSymbol
+  parent: GRYLibrary.Core
+  name: EarleyParser.NonTerminalSymbol
+  nameWithType: EarleyParser.NonTerminalSymbol
+  fullName: GRYLibrary.Core.EarleyParser.NonTerminalSymbol
+- uid: GRYLibrary.Core.EarleyParser.State
+  commentId: T:GRYLibrary.Core.EarleyParser.State
+  name: EarleyParser.State
+  nameWithType: EarleyParser.State
+  fullName: GRYLibrary.Core.EarleyParser.State
+- uid: GRYLibrary.Core.EarleyParser.ProductionRuleWithExpection
+  commentId: T:GRYLibrary.Core.EarleyParser.ProductionRuleWithExpection
+  parent: GRYLibrary.Core
+  name: EarleyParser.ProductionRuleWithExpection
+  nameWithType: EarleyParser.ProductionRuleWithExpection
+  fullName: GRYLibrary.Core.EarleyParser.ProductionRuleWithExpection
+- uid: GRYLibrary.Core.EarleyParser.ProductionRule
+  commentId: T:GRYLibrary.Core.EarleyParser.ProductionRule
+  name: EarleyParser.ProductionRule
+  nameWithType: EarleyParser.ProductionRule
+  fullName: GRYLibrary.Core.EarleyParser.ProductionRule
+- uid: GRYLibrary.Core.ExtendedColor
+  commentId: T:GRYLibrary.Core.ExtendedColor
+  parent: GRYLibrary.Core
+  name: ExtendedColor
+  nameWithType: ExtendedColor
+  fullName: GRYLibrary.Core.ExtendedColor
+- uid: GRYLibrary.Core.ExternalProgramExecutor
+  commentId: T:GRYLibrary.Core.ExternalProgramExecutor
+  parent: GRYLibrary.Core
+  name: ExternalProgramExecutor
+  nameWithType: ExternalProgramExecutor
+  fullName: GRYLibrary.Core.ExternalProgramExecutor
+- uid: GRYLibrary.Core.ExecutionState
+  commentId: T:GRYLibrary.Core.ExecutionState
+  parent: GRYLibrary.Core
+  name: ExecutionState
+  nameWithType: ExecutionState
+  fullName: GRYLibrary.Core.ExecutionState
+- uid: GRYLibrary.Core.UnexpectedExitCodeException
+  commentId: T:GRYLibrary.Core.UnexpectedExitCodeException
+  name: UnexpectedExitCodeException
+  nameWithType: UnexpectedExitCodeException
+  fullName: GRYLibrary.Core.UnexpectedExitCodeException
+- uid: GRYLibrary.Core.FileSelector
+  commentId: T:GRYLibrary.Core.FileSelector
+  parent: GRYLibrary.Core
+  name: FileSelector
+  nameWithType: FileSelector
+  fullName: GRYLibrary.Core.FileSelector
+- uid: GRYLibrary.Core.GitCommandResult
+  commentId: T:GRYLibrary.Core.GitCommandResult
+  parent: GRYLibrary.Core
+  name: GitCommandResult
+  nameWithType: GitCommandResult
+  fullName: GRYLibrary.Core.GitCommandResult
+- uid: GRYLibrary.Core.NonPersistentInputHistoryList
+  commentId: T:GRYLibrary.Core.NonPersistentInputHistoryList
+  name: NonPersistentInputHistoryList
+  nameWithType: NonPersistentInputHistoryList
+  fullName: GRYLibrary.Core.NonPersistentInputHistoryList
+- uid: GRYLibrary.Core.PercentValue
+  commentId: T:GRYLibrary.Core.PercentValue
+  parent: GRYLibrary.Core
+  name: PercentValue
+  nameWithType: PercentValue
+  fullName: GRYLibrary.Core.PercentValue
+- uid: GRYLibrary.Core.IProperty
+  commentId: T:GRYLibrary.Core.IProperty
+  parent: GRYLibrary.Core
+  name: IProperty
+  nameWithType: IProperty
+  fullName: GRYLibrary.Core.IProperty
+- uid: GRYLibrary.Core.Property`1
+  commentId: T:GRYLibrary.Core.Property`1
+  parent: GRYLibrary.Core
+  name: Property<T>
+  nameWithType: Property<T>
+  fullName: GRYLibrary.Core.Property<T>
+  nameWithType.vb: Property(Of T)
+  fullName.vb: GRYLibrary.Core.Property(Of T)
+  name.vb: Property(Of T)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Property`1
+    name: Property
+    nameWithType: Property
+    fullName: GRYLibrary.Core.Property
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GRYLibrary.Core.Property`1
+    name: Property
+    nameWithType: Property
+    fullName: GRYLibrary.Core.Property
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.PropertyChangedEvengArgument`1
+  commentId: T:GRYLibrary.Core.PropertyChangedEvengArgument`1
+  name: PropertyChangedEvengArgument<T>
+  nameWithType: PropertyChangedEvengArgument<T>
+  fullName: GRYLibrary.Core.PropertyChangedEvengArgument<T>
+  nameWithType.vb: PropertyChangedEvengArgument(Of T)
+  fullName.vb: GRYLibrary.Core.PropertyChangedEvengArgument(Of T)
+  name.vb: PropertyChangedEvengArgument(Of T)
+  spec.csharp:
+  - uid: GRYLibrary.Core.PropertyChangedEvengArgument`1
+    name: PropertyChangedEvengArgument
+    nameWithType: PropertyChangedEvengArgument
+    fullName: GRYLibrary.Core.PropertyChangedEvengArgument
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GRYLibrary.Core.PropertyChangedEvengArgument`1
+    name: PropertyChangedEvengArgument
+    nameWithType: PropertyChangedEvengArgument
+    fullName: GRYLibrary.Core.PropertyChangedEvengArgument
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.ReadOnlyProperty
+  commentId: T:GRYLibrary.Core.ReadOnlyProperty
+  parent: GRYLibrary.Core
+  name: ReadOnlyProperty
+  nameWithType: ReadOnlyProperty
+  fullName: GRYLibrary.Core.ReadOnlyProperty
+- uid: GRYLibrary.Core.ReadOnlyProperty`1
+  commentId: T:GRYLibrary.Core.ReadOnlyProperty`1
+  name: ReadOnlyProperty<T>
+  nameWithType: ReadOnlyProperty<T>
+  fullName: GRYLibrary.Core.ReadOnlyProperty<T>
+  nameWithType.vb: ReadOnlyProperty(Of T)
+  fullName.vb: GRYLibrary.Core.ReadOnlyProperty(Of T)
+  name.vb: ReadOnlyProperty(Of T)
+  spec.csharp:
+  - uid: GRYLibrary.Core.ReadOnlyProperty`1
+    name: ReadOnlyProperty
+    nameWithType: ReadOnlyProperty
+    fullName: GRYLibrary.Core.ReadOnlyProperty
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GRYLibrary.Core.ReadOnlyProperty`1
+    name: ReadOnlyProperty
+    nameWithType: ReadOnlyProperty
+    fullName: GRYLibrary.Core.ReadOnlyProperty
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.RedundantIdler
+  commentId: T:GRYLibrary.Core.RedundantIdler
+  name: RedundantIdler
+  nameWithType: RedundantIdler
+  fullName: GRYLibrary.Core.RedundantIdler
+- uid: GRYLibrary.Core.Semaphore
+  commentId: T:GRYLibrary.Core.Semaphore
+  parent: GRYLibrary.Core
+  name: Semaphore
+  nameWithType: Semaphore
+  fullName: GRYLibrary.Core.Semaphore
+- uid: GRYLibrary.Core.SimpleObjectPersistence`1
+  commentId: T:GRYLibrary.Core.SimpleObjectPersistence`1
+  parent: GRYLibrary.Core
+  name: SimpleObjectPersistence<T>
+  nameWithType: SimpleObjectPersistence<T>
+  fullName: GRYLibrary.Core.SimpleObjectPersistence<T>
+  nameWithType.vb: SimpleObjectPersistence(Of T)
+  fullName.vb: GRYLibrary.Core.SimpleObjectPersistence(Of T)
+  name.vb: SimpleObjectPersistence(Of T)
+  spec.csharp:
+  - uid: GRYLibrary.Core.SimpleObjectPersistence`1
+    name: SimpleObjectPersistence
+    nameWithType: SimpleObjectPersistence
+    fullName: GRYLibrary.Core.SimpleObjectPersistence
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GRYLibrary.Core.SimpleObjectPersistence`1
+    name: SimpleObjectPersistence
+    nameWithType: SimpleObjectPersistence
+    fullName: GRYLibrary.Core.SimpleObjectPersistence
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.SupervisedThread
+  commentId: T:GRYLibrary.Core.SupervisedThread
+  parent: GRYLibrary.Core
+  name: SupervisedThread
+  nameWithType: SupervisedThread
+  fullName: GRYLibrary.Core.SupervisedThread
+- uid: GRYLibrary.Core.TableGenerator
+  commentId: T:GRYLibrary.Core.TableGenerator
+  name: TableGenerator
+  nameWithType: TableGenerator
+  fullName: GRYLibrary.Core.TableGenerator
+- uid: GRYLibrary.Core.TableGenerator.ITableCharacter
+  commentId: T:GRYLibrary.Core.TableGenerator.ITableCharacter
+  parent: GRYLibrary.Core
+  name: TableGenerator.ITableCharacter
+  nameWithType: TableGenerator.ITableCharacter
+  fullName: GRYLibrary.Core.TableGenerator.ITableCharacter
+- uid: GRYLibrary.Core.TableGenerator.OneLineTableCharacter
+  commentId: T:GRYLibrary.Core.TableGenerator.OneLineTableCharacter
+  name: TableGenerator.OneLineTableCharacter
+  nameWithType: TableGenerator.OneLineTableCharacter
+  fullName: GRYLibrary.Core.TableGenerator.OneLineTableCharacter
+- uid: GRYLibrary.Core.TableGenerator.DoubleLineTableCharacter
+  commentId: T:GRYLibrary.Core.TableGenerator.DoubleLineTableCharacter
+  name: TableGenerator.DoubleLineTableCharacter
+  nameWithType: TableGenerator.DoubleLineTableCharacter
+  fullName: GRYLibrary.Core.TableGenerator.DoubleLineTableCharacter
+- uid: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter
+  commentId: T:GRYLibrary.Core.TableGenerator.RoundLineTableCharacter
+  name: TableGenerator.RoundLineTableCharacter
+  nameWithType: TableGenerator.RoundLineTableCharacter
+  fullName: GRYLibrary.Core.TableGenerator.RoundLineTableCharacter
+- uid: GRYLibrary.Core.TableGenerator.TableOutputType
+  commentId: T:GRYLibrary.Core.TableGenerator.TableOutputType
+  parent: GRYLibrary.Core
+  name: TableGenerator.TableOutputType
+  nameWithType: TableGenerator.TableOutputType
+  fullName: GRYLibrary.Core.TableGenerator.TableOutputType
+- uid: GRYLibrary.Core.TableGenerator.ITableOutputTypeVisitor
+  commentId: T:GRYLibrary.Core.TableGenerator.ITableOutputTypeVisitor
+  parent: GRYLibrary.Core
+  name: TableGenerator.ITableOutputTypeVisitor
+  nameWithType: TableGenerator.ITableOutputTypeVisitor
+  fullName: GRYLibrary.Core.TableGenerator.ITableOutputTypeVisitor
+- uid: GRYLibrary.Core.TableGenerator.ITableOutputTypeVisitor`1
+  commentId: T:GRYLibrary.Core.TableGenerator.ITableOutputTypeVisitor`1
+  name: TableGenerator.ITableOutputTypeVisitor<T>
+  nameWithType: TableGenerator.ITableOutputTypeVisitor<T>
+  fullName: GRYLibrary.Core.TableGenerator.ITableOutputTypeVisitor<T>
+  nameWithType.vb: TableGenerator.ITableOutputTypeVisitor(Of T)
+  fullName.vb: GRYLibrary.Core.TableGenerator.ITableOutputTypeVisitor(Of T)
+  name.vb: TableGenerator.ITableOutputTypeVisitor(Of T)
+  spec.csharp:
+  - uid: GRYLibrary.Core.TableGenerator.ITableOutputTypeVisitor`1
+    name: TableGenerator.ITableOutputTypeVisitor
+    nameWithType: TableGenerator.ITableOutputTypeVisitor
+    fullName: GRYLibrary.Core.TableGenerator.ITableOutputTypeVisitor
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GRYLibrary.Core.TableGenerator.ITableOutputTypeVisitor`1
+    name: TableGenerator.ITableOutputTypeVisitor
+    nameWithType: TableGenerator.ITableOutputTypeVisitor
+    fullName: GRYLibrary.Core.TableGenerator.ITableOutputTypeVisitor
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.TableGenerator.ASCIITable
+  commentId: T:GRYLibrary.Core.TableGenerator.ASCIITable
+  parent: GRYLibrary.Core
+  name: TableGenerator.ASCIITable
+  nameWithType: TableGenerator.ASCIITable
+  fullName: GRYLibrary.Core.TableGenerator.ASCIITable
+- uid: GRYLibrary.Core.TableGenerator.HTMLTable
+  commentId: T:GRYLibrary.Core.TableGenerator.HTMLTable
+  parent: GRYLibrary.Core
+  name: TableGenerator.HTMLTable
+  nameWithType: TableGenerator.HTMLTable
+  fullName: GRYLibrary.Core.TableGenerator.HTMLTable
+- uid: GRYLibrary.Core.TableGenerator.CSV
+  commentId: T:GRYLibrary.Core.TableGenerator.CSV
+  parent: GRYLibrary.Core
+  name: TableGenerator.CSV
+  nameWithType: TableGenerator.CSV
+  fullName: GRYLibrary.Core.TableGenerator.CSV
+- uid: GRYLibrary.Core.TaskQueue
+  commentId: T:GRYLibrary.Core.TaskQueue
+  name: TaskQueue
+  nameWithType: TaskQueue
+  fullName: GRYLibrary.Core.TaskQueue
+- uid: GRYLibrary.Core.Utilities
+  commentId: T:GRYLibrary.Core.Utilities
+  parent: GRYLibrary.Core
+  name: Utilities
+  nameWithType: Utilities
+  fullName: GRYLibrary.Core.Utilities
+- uid: GRYLibrary.Core.WriteableTuple`2
+  commentId: T:GRYLibrary.Core.WriteableTuple`2
+  name: WriteableTuple<T1, T2>
+  nameWithType: WriteableTuple<T1, T2>
+  fullName: GRYLibrary.Core.WriteableTuple<T1, T2>
+  nameWithType.vb: WriteableTuple(Of T1, T2)
+  fullName.vb: GRYLibrary.Core.WriteableTuple(Of T1, T2)
+  name.vb: WriteableTuple(Of T1, T2)
+  spec.csharp:
+  - uid: GRYLibrary.Core.WriteableTuple`2
+    name: WriteableTuple
+    nameWithType: WriteableTuple
+    fullName: GRYLibrary.Core.WriteableTuple
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GRYLibrary.Core.WriteableTuple`2
+    name: WriteableTuple
+    nameWithType: WriteableTuple
+    fullName: GRYLibrary.Core.WriteableTuple
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core
+  commentId: N:GRYLibrary.Core
+  name: GRYLibrary.Core
+  nameWithType: GRYLibrary.Core
+  fullName: GRYLibrary.Core
