@@ -8133,108 +8133,108 @@ references:
   nameWithType: UnexpectedExitCodeException.ExecutedProgram
 - uid: GRYLibrary.Core.Utilities
   name: Utilities
-  href: api/GRYLibrary.Core.Utilities.html
+  href: articles/api/GRYLibrary.Core.Utilities.html
   commentId: T:GRYLibrary.Core.Utilities
   fullName: GRYLibrary.Core.Utilities
   nameWithType: Utilities
 - uid: GRYLibrary.Core.Utilities.AddMountPointForVolume(System.Guid,System.String)
   name: AddMountPointForVolume(Guid, String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_AddMountPointForVolume_System_Guid_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_AddMountPointForVolume_System_Guid_System_String_
   commentId: M:GRYLibrary.Core.Utilities.AddMountPointForVolume(System.Guid,System.String)
   fullName: GRYLibrary.Core.Utilities.AddMountPointForVolume(System.Guid, System.String)
   nameWithType: Utilities.AddMountPointForVolume(Guid, String)
 - uid: GRYLibrary.Core.Utilities.AddMountPointForVolume*
   name: AddMountPointForVolume
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_AddMountPointForVolume_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_AddMountPointForVolume_
   commentId: Overload:GRYLibrary.Core.Utilities.AddMountPointForVolume
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.AddMountPointForVolume
   nameWithType: Utilities.AddMountPointForVolume
 - uid: GRYLibrary.Core.Utilities.AppendFileDoesNeedNewLineCharacter(System.String)
   name: AppendFileDoesNeedNewLineCharacter(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_AppendFileDoesNeedNewLineCharacter_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_AppendFileDoesNeedNewLineCharacter_System_String_
   commentId: M:GRYLibrary.Core.Utilities.AppendFileDoesNeedNewLineCharacter(System.String)
   fullName: GRYLibrary.Core.Utilities.AppendFileDoesNeedNewLineCharacter(System.String)
   nameWithType: Utilities.AppendFileDoesNeedNewLineCharacter(String)
 - uid: GRYLibrary.Core.Utilities.AppendFileDoesNeedNewLineCharacter*
   name: AppendFileDoesNeedNewLineCharacter
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_AppendFileDoesNeedNewLineCharacter_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_AppendFileDoesNeedNewLineCharacter_
   commentId: Overload:GRYLibrary.Core.Utilities.AppendFileDoesNeedNewLineCharacter
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.AppendFileDoesNeedNewLineCharacter
   nameWithType: Utilities.AppendFileDoesNeedNewLineCharacter
 - uid: GRYLibrary.Core.Utilities.AppendFileDoesNotNeedNewLineCharacter(System.String)
   name: AppendFileDoesNotNeedNewLineCharacter(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_AppendFileDoesNotNeedNewLineCharacter_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_AppendFileDoesNotNeedNewLineCharacter_System_String_
   commentId: M:GRYLibrary.Core.Utilities.AppendFileDoesNotNeedNewLineCharacter(System.String)
   fullName: GRYLibrary.Core.Utilities.AppendFileDoesNotNeedNewLineCharacter(System.String)
   nameWithType: Utilities.AppendFileDoesNotNeedNewLineCharacter(String)
 - uid: GRYLibrary.Core.Utilities.AppendFileDoesNotNeedNewLineCharacter*
   name: AppendFileDoesNotNeedNewLineCharacter
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_AppendFileDoesNotNeedNewLineCharacter_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_AppendFileDoesNotNeedNewLineCharacter_
   commentId: Overload:GRYLibrary.Core.Utilities.AppendFileDoesNotNeedNewLineCharacter
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.AppendFileDoesNotNeedNewLineCharacter
   nameWithType: Utilities.AppendFileDoesNotNeedNewLineCharacter
 - uid: GRYLibrary.Core.Utilities.ApplyXSLTToXML(System.String,System.String)
   name: ApplyXSLTToXML(String, String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ApplyXSLTToXML_System_String_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ApplyXSLTToXML_System_String_System_String_
   commentId: M:GRYLibrary.Core.Utilities.ApplyXSLTToXML(System.String,System.String)
   fullName: GRYLibrary.Core.Utilities.ApplyXSLTToXML(System.String, System.String)
   nameWithType: Utilities.ApplyXSLTToXML(String, String)
 - uid: GRYLibrary.Core.Utilities.ApplyXSLTToXML(System.String,System.String,System.String)
   name: ApplyXSLTToXML(String, String, String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ApplyXSLTToXML_System_String_System_String_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ApplyXSLTToXML_System_String_System_String_System_String_
   commentId: M:GRYLibrary.Core.Utilities.ApplyXSLTToXML(System.String,System.String,System.String)
   fullName: GRYLibrary.Core.Utilities.ApplyXSLTToXML(System.String, System.String, System.String)
   nameWithType: Utilities.ApplyXSLTToXML(String, String, String)
 - uid: GRYLibrary.Core.Utilities.ApplyXSLTToXML(System.String,System.String,System.String,System.Xml.XmlWriterSettings)
   name: ApplyXSLTToXML(String, String, String, XmlWriterSettings)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ApplyXSLTToXML_System_String_System_String_System_String_System_Xml_XmlWriterSettings_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ApplyXSLTToXML_System_String_System_String_System_String_System_Xml_XmlWriterSettings_
   commentId: M:GRYLibrary.Core.Utilities.ApplyXSLTToXML(System.String,System.String,System.String,System.Xml.XmlWriterSettings)
   fullName: GRYLibrary.Core.Utilities.ApplyXSLTToXML(System.String, System.String, System.String, System.Xml.XmlWriterSettings)
   nameWithType: Utilities.ApplyXSLTToXML(String, String, String, XmlWriterSettings)
 - uid: GRYLibrary.Core.Utilities.ApplyXSLTToXML(System.String,System.String,System.Xml.XmlWriterSettings)
   name: ApplyXSLTToXML(String, String, XmlWriterSettings)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ApplyXSLTToXML_System_String_System_String_System_Xml_XmlWriterSettings_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ApplyXSLTToXML_System_String_System_String_System_Xml_XmlWriterSettings_
   commentId: M:GRYLibrary.Core.Utilities.ApplyXSLTToXML(System.String,System.String,System.Xml.XmlWriterSettings)
   fullName: GRYLibrary.Core.Utilities.ApplyXSLTToXML(System.String, System.String, System.Xml.XmlWriterSettings)
   nameWithType: Utilities.ApplyXSLTToXML(String, String, XmlWriterSettings)
 - uid: GRYLibrary.Core.Utilities.ApplyXSLTToXML*
   name: ApplyXSLTToXML
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ApplyXSLTToXML_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ApplyXSLTToXML_
   commentId: Overload:GRYLibrary.Core.Utilities.ApplyXSLTToXML
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ApplyXSLTToXML
   nameWithType: Utilities.ApplyXSLTToXML
 - uid: GRYLibrary.Core.Utilities.ApplyXSLTToXMLXMLWriterDefaultSettings
   name: ApplyXSLTToXMLXMLWriterDefaultSettings
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ApplyXSLTToXMLXMLWriterDefaultSettings
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ApplyXSLTToXMLXMLWriterDefaultSettings
   commentId: F:GRYLibrary.Core.Utilities.ApplyXSLTToXMLXMLWriterDefaultSettings
   fullName: GRYLibrary.Core.Utilities.ApplyXSLTToXMLXMLWriterDefaultSettings
   nameWithType: Utilities.ApplyXSLTToXMLXMLWriterDefaultSettings
 - uid: GRYLibrary.Core.Utilities.ApplyXSLTToXMLXMLWriterDefaultXMLDeclaration
   name: ApplyXSLTToXMLXMLWriterDefaultXMLDeclaration
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ApplyXSLTToXMLXMLWriterDefaultXMLDeclaration
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ApplyXSLTToXMLXMLWriterDefaultXMLDeclaration
   commentId: F:GRYLibrary.Core.Utilities.ApplyXSLTToXMLXMLWriterDefaultXMLDeclaration
   fullName: GRYLibrary.Core.Utilities.ApplyXSLTToXMLXMLWriterDefaultXMLDeclaration
   nameWithType: Utilities.ApplyXSLTToXMLXMLWriterDefaultXMLDeclaration
 - uid: GRYLibrary.Core.Utilities.Assert(System.Boolean,System.String)
   name: Assert(Boolean, String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_Assert_System_Boolean_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_Assert_System_Boolean_System_String_
   commentId: M:GRYLibrary.Core.Utilities.Assert(System.Boolean,System.String)
   fullName: GRYLibrary.Core.Utilities.Assert(System.Boolean, System.String)
   nameWithType: Utilities.Assert(Boolean, String)
 - uid: GRYLibrary.Core.Utilities.Assert*
   name: Assert
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_Assert_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_Assert_
   commentId: Overload:GRYLibrary.Core.Utilities.Assert
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.Assert
   nameWithType: Utilities.Assert
 - uid: GRYLibrary.Core.Utilities.AtLeastOneFileExistsInFolder(System.String,System.Collections.Generic.IEnumerable{System.String},System.String@)
   name: AtLeastOneFileExistsInFolder(String, IEnumerable<String>, out String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_AtLeastOneFileExistsInFolder_System_String_System_Collections_Generic_IEnumerable_System_String__System_String__
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_AtLeastOneFileExistsInFolder_System_String_System_Collections_Generic_IEnumerable_System_String__System_String__
   commentId: M:GRYLibrary.Core.Utilities.AtLeastOneFileExistsInFolder(System.String,System.Collections.Generic.IEnumerable{System.String},System.String@)
   name.vb: AtLeastOneFileExistsInFolder(String, IEnumerable(Of String), ByRef String)
   fullName: GRYLibrary.Core.Utilities.AtLeastOneFileExistsInFolder(System.String, System.Collections.Generic.IEnumerable<System.String>, out System.String)
@@ -8243,14 +8243,14 @@ references:
   nameWithType.vb: Utilities.AtLeastOneFileExistsInFolder(String, IEnumerable(Of String), ByRef String)
 - uid: GRYLibrary.Core.Utilities.AtLeastOneFileExistsInFolder*
   name: AtLeastOneFileExistsInFolder
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_AtLeastOneFileExistsInFolder_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_AtLeastOneFileExistsInFolder_
   commentId: Overload:GRYLibrary.Core.Utilities.AtLeastOneFileExistsInFolder
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.AtLeastOneFileExistsInFolder
   nameWithType: Utilities.AtLeastOneFileExistsInFolder
 - uid: GRYLibrary.Core.Utilities.ByteArrayToHexString(System.Byte[])
   name: ByteArrayToHexString(Byte[])
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ByteArrayToHexString_System_Byte___
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ByteArrayToHexString_System_Byte___
   commentId: M:GRYLibrary.Core.Utilities.ByteArrayToHexString(System.Byte[])
   name.vb: ByteArrayToHexString(Byte())
   fullName: GRYLibrary.Core.Utilities.ByteArrayToHexString(System.Byte[])
@@ -8259,34 +8259,34 @@ references:
   nameWithType.vb: Utilities.ByteArrayToHexString(Byte())
 - uid: GRYLibrary.Core.Utilities.ByteArrayToHexString*
   name: ByteArrayToHexString
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ByteArrayToHexString_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ByteArrayToHexString_
   commentId: Overload:GRYLibrary.Core.Utilities.ByteArrayToHexString
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ByteArrayToHexString
   nameWithType: Utilities.ByteArrayToHexString
 - uid: GRYLibrary.Core.Utilities.ClearFile(System.String)
   name: ClearFile(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ClearFile_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ClearFile_System_String_
   commentId: M:GRYLibrary.Core.Utilities.ClearFile(System.String)
   fullName: GRYLibrary.Core.Utilities.ClearFile(System.String)
   nameWithType: Utilities.ClearFile(String)
 - uid: GRYLibrary.Core.Utilities.ClearFile*
   name: ClearFile
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ClearFile_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ClearFile_
   commentId: Overload:GRYLibrary.Core.Utilities.ClearFile
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ClearFile
   nameWithType: Utilities.ClearFile
 - uid: GRYLibrary.Core.Utilities.Concat*
   name: Concat
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_Concat_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_Concat_
   commentId: Overload:GRYLibrary.Core.Utilities.Concat
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.Concat
   nameWithType: Utilities.Concat
 - uid: GRYLibrary.Core.Utilities.Concat``1(``0[],``0[])
   name: Concat<T>(T[], T[])
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_Concat__1___0_____0___
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_Concat__1___0_____0___
   commentId: M:GRYLibrary.Core.Utilities.Concat``1(``0[],``0[])
   name.vb: Concat(Of T)(T(), T())
   fullName: GRYLibrary.Core.Utilities.Concat<T>(T[], T[])
@@ -8295,27 +8295,27 @@ references:
   nameWithType.vb: Utilities.Concat(Of T)(T(), T())
 - uid: GRYLibrary.Core.Utilities.CopyFolderAcrossVolumes(System.String,System.String)
   name: CopyFolderAcrossVolumes(String, String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_CopyFolderAcrossVolumes_System_String_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_CopyFolderAcrossVolumes_System_String_System_String_
   commentId: M:GRYLibrary.Core.Utilities.CopyFolderAcrossVolumes(System.String,System.String)
   fullName: GRYLibrary.Core.Utilities.CopyFolderAcrossVolumes(System.String, System.String)
   nameWithType: Utilities.CopyFolderAcrossVolumes(String, String)
 - uid: GRYLibrary.Core.Utilities.CopyFolderAcrossVolumes*
   name: CopyFolderAcrossVolumes
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_CopyFolderAcrossVolumes_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_CopyFolderAcrossVolumes_
   commentId: Overload:GRYLibrary.Core.Utilities.CopyFolderAcrossVolumes
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.CopyFolderAcrossVolumes
   nameWithType: Utilities.CopyFolderAcrossVolumes
 - uid: GRYLibrary.Core.Utilities.DeepClone*
   name: DeepClone
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DeepClone_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DeepClone_
   commentId: Overload:GRYLibrary.Core.Utilities.DeepClone
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.DeepClone
   nameWithType: Utilities.DeepClone
 - uid: GRYLibrary.Core.Utilities.DeepClone``1(``0)
   name: DeepClone<T>(T)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DeepClone__1___0_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DeepClone__1___0_
   commentId: M:GRYLibrary.Core.Utilities.DeepClone``1(``0)
   name.vb: DeepClone(Of T)(T)
   fullName: GRYLibrary.Core.Utilities.DeepClone<T>(T)
@@ -8324,53 +8324,53 @@ references:
   nameWithType.vb: Utilities.DeepClone(Of T)(T)
 - uid: GRYLibrary.Core.Utilities.DeleteAllEmptyFolderTransitively(System.String,System.Boolean)
   name: DeleteAllEmptyFolderTransitively(String, Boolean)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DeleteAllEmptyFolderTransitively_System_String_System_Boolean_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DeleteAllEmptyFolderTransitively_System_String_System_Boolean_
   commentId: M:GRYLibrary.Core.Utilities.DeleteAllEmptyFolderTransitively(System.String,System.Boolean)
   fullName: GRYLibrary.Core.Utilities.DeleteAllEmptyFolderTransitively(System.String, System.Boolean)
   nameWithType: Utilities.DeleteAllEmptyFolderTransitively(String, Boolean)
 - uid: GRYLibrary.Core.Utilities.DeleteAllEmptyFolderTransitively*
   name: DeleteAllEmptyFolderTransitively
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DeleteAllEmptyFolderTransitively_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DeleteAllEmptyFolderTransitively_
   commentId: Overload:GRYLibrary.Core.Utilities.DeleteAllEmptyFolderTransitively
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.DeleteAllEmptyFolderTransitively
   nameWithType: Utilities.DeleteAllEmptyFolderTransitively
 - uid: GRYLibrary.Core.Utilities.DeleteContentOfFolder(System.String)
   name: DeleteContentOfFolder(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DeleteContentOfFolder_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DeleteContentOfFolder_System_String_
   commentId: M:GRYLibrary.Core.Utilities.DeleteContentOfFolder(System.String)
   fullName: GRYLibrary.Core.Utilities.DeleteContentOfFolder(System.String)
   nameWithType: Utilities.DeleteContentOfFolder(String)
 - uid: GRYLibrary.Core.Utilities.DeleteContentOfFolder*
   name: DeleteContentOfFolder
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DeleteContentOfFolder_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DeleteContentOfFolder_
   commentId: Overload:GRYLibrary.Core.Utilities.DeleteContentOfFolder
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.DeleteContentOfFolder
   nameWithType: Utilities.DeleteContentOfFolder
 - uid: GRYLibrary.Core.Utilities.DeleteFolder(System.String,System.Boolean)
   name: DeleteFolder(String, Boolean)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DeleteFolder_System_String_System_Boolean_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DeleteFolder_System_String_System_Boolean_
   commentId: M:GRYLibrary.Core.Utilities.DeleteFolder(System.String,System.Boolean)
   fullName: GRYLibrary.Core.Utilities.DeleteFolder(System.String, System.Boolean)
   nameWithType: Utilities.DeleteFolder(String, Boolean)
 - uid: GRYLibrary.Core.Utilities.DeleteFolder*
   name: DeleteFolder
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DeleteFolder_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DeleteFolder_
   commentId: Overload:GRYLibrary.Core.Utilities.DeleteFolder
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.DeleteFolder
   nameWithType: Utilities.DeleteFolder
 - uid: GRYLibrary.Core.Utilities.DictionaryEquals*
   name: DictionaryEquals
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DictionaryEquals_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DictionaryEquals_
   commentId: Overload:GRYLibrary.Core.Utilities.DictionaryEquals
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.DictionaryEquals
   nameWithType: Utilities.DictionaryEquals
 - uid: GRYLibrary.Core.Utilities.DictionaryEquals``2(System.Collections.Generic.IDictionary{``0,``1},System.Collections.Generic.IDictionary{``0,``1})
   name: DictionaryEquals<TKey, TValue>(IDictionary<TKey, TValue>, IDictionary<TKey, TValue>)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DictionaryEquals__2_System_Collections_Generic_IDictionary___0___1__System_Collections_Generic_IDictionary___0___1__
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DictionaryEquals__2_System_Collections_Generic_IDictionary___0___1__System_Collections_Generic_IDictionary___0___1__
   commentId: M:GRYLibrary.Core.Utilities.DictionaryEquals``2(System.Collections.Generic.IDictionary{``0,``1},System.Collections.Generic.IDictionary{``0,``1})
   name.vb: DictionaryEquals(Of TKey, TValue)(IDictionary(Of TKey, TValue), IDictionary(Of TKey, TValue))
   fullName: GRYLibrary.Core.Utilities.DictionaryEquals<TKey, TValue>(System.Collections.Generic.IDictionary<TKey, TValue>, System.Collections.Generic.IDictionary<TKey, TValue>)
@@ -8379,7 +8379,7 @@ references:
   nameWithType.vb: Utilities.DictionaryEquals(Of TKey, TValue)(IDictionary(Of TKey, TValue), IDictionary(Of TKey, TValue))
 - uid: GRYLibrary.Core.Utilities.DictionaryEquals``2(System.Collections.Generic.IDictionary{``0,``1},System.Collections.Generic.IDictionary{``0,``1},System.Collections.Generic.IEqualityComparer{System.Collections.Generic.KeyValuePair{``0,``1}})
   name: DictionaryEquals<TKey, TValue>(IDictionary<TKey, TValue>, IDictionary<TKey, TValue>, IEqualityComparer<KeyValuePair<TKey, TValue>>)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DictionaryEquals__2_System_Collections_Generic_IDictionary___0___1__System_Collections_Generic_IDictionary___0___1__System_Collections_Generic_IEqualityComparer_System_Collections_Generic_KeyValuePair___0___1___
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DictionaryEquals__2_System_Collections_Generic_IDictionary___0___1__System_Collections_Generic_IDictionary___0___1__System_Collections_Generic_IEqualityComparer_System_Collections_Generic_KeyValuePair___0___1___
   commentId: M:GRYLibrary.Core.Utilities.DictionaryEquals``2(System.Collections.Generic.IDictionary{``0,``1},System.Collections.Generic.IDictionary{``0,``1},System.Collections.Generic.IEqualityComparer{System.Collections.Generic.KeyValuePair{``0,``1}})
   name.vb: DictionaryEquals(Of TKey, TValue)(IDictionary(Of TKey, TValue), IDictionary(Of TKey, TValue), IEqualityComparer(Of KeyValuePair(Of TKey, TValue)))
   fullName: GRYLibrary.Core.Utilities.DictionaryEquals<TKey, TValue>(System.Collections.Generic.IDictionary<TKey, TValue>, System.Collections.Generic.IDictionary<TKey, TValue>, System.Collections.Generic.IEqualityComparer<System.Collections.Generic.KeyValuePair<TKey, TValue>>)
@@ -8388,248 +8388,248 @@ references:
   nameWithType.vb: Utilities.DictionaryEquals(Of TKey, TValue)(IDictionary(Of TKey, TValue), IDictionary(Of TKey, TValue), IEqualityComparer(Of KeyValuePair(Of TKey, TValue)))
 - uid: GRYLibrary.Core.Utilities.DirectoryDoesNotContainFiles(System.String)
   name: DirectoryDoesNotContainFiles(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DirectoryDoesNotContainFiles_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DirectoryDoesNotContainFiles_System_String_
   commentId: M:GRYLibrary.Core.Utilities.DirectoryDoesNotContainFiles(System.String)
   fullName: GRYLibrary.Core.Utilities.DirectoryDoesNotContainFiles(System.String)
   nameWithType: Utilities.DirectoryDoesNotContainFiles(String)
 - uid: GRYLibrary.Core.Utilities.DirectoryDoesNotContainFiles*
   name: DirectoryDoesNotContainFiles
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DirectoryDoesNotContainFiles_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DirectoryDoesNotContainFiles_
   commentId: Overload:GRYLibrary.Core.Utilities.DirectoryDoesNotContainFiles
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.DirectoryDoesNotContainFiles
   nameWithType: Utilities.DirectoryDoesNotContainFiles
 - uid: GRYLibrary.Core.Utilities.DirectoryDoesNotContainFolder(System.String)
   name: DirectoryDoesNotContainFolder(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DirectoryDoesNotContainFolder_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DirectoryDoesNotContainFolder_System_String_
   commentId: M:GRYLibrary.Core.Utilities.DirectoryDoesNotContainFolder(System.String)
   fullName: GRYLibrary.Core.Utilities.DirectoryDoesNotContainFolder(System.String)
   nameWithType: Utilities.DirectoryDoesNotContainFolder(String)
 - uid: GRYLibrary.Core.Utilities.DirectoryDoesNotContainFolder*
   name: DirectoryDoesNotContainFolder
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DirectoryDoesNotContainFolder_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DirectoryDoesNotContainFolder_
   commentId: Overload:GRYLibrary.Core.Utilities.DirectoryDoesNotContainFolder
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.DirectoryDoesNotContainFolder
   nameWithType: Utilities.DirectoryDoesNotContainFolder
 - uid: GRYLibrary.Core.Utilities.DirectoryIsEmpty(System.String)
   name: DirectoryIsEmpty(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DirectoryIsEmpty_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DirectoryIsEmpty_System_String_
   commentId: M:GRYLibrary.Core.Utilities.DirectoryIsEmpty(System.String)
   fullName: GRYLibrary.Core.Utilities.DirectoryIsEmpty(System.String)
   nameWithType: Utilities.DirectoryIsEmpty(String)
 - uid: GRYLibrary.Core.Utilities.DirectoryIsEmpty*
   name: DirectoryIsEmpty
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DirectoryIsEmpty_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DirectoryIsEmpty_
   commentId: Overload:GRYLibrary.Core.Utilities.DirectoryIsEmpty
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.DirectoryIsEmpty
   nameWithType: Utilities.DirectoryIsEmpty
 - uid: GRYLibrary.Core.Utilities.DurationToUserFriendlyString(System.TimeSpan)
   name: DurationToUserFriendlyString(TimeSpan)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DurationToUserFriendlyString_System_TimeSpan_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DurationToUserFriendlyString_System_TimeSpan_
   commentId: M:GRYLibrary.Core.Utilities.DurationToUserFriendlyString(System.TimeSpan)
   fullName: GRYLibrary.Core.Utilities.DurationToUserFriendlyString(System.TimeSpan)
   nameWithType: Utilities.DurationToUserFriendlyString(TimeSpan)
 - uid: GRYLibrary.Core.Utilities.DurationToUserFriendlyString*
   name: DurationToUserFriendlyString
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DurationToUserFriendlyString_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DurationToUserFriendlyString_
   commentId: Overload:GRYLibrary.Core.Utilities.DurationToUserFriendlyString
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.DurationToUserFriendlyString
   nameWithType: Utilities.DurationToUserFriendlyString
 - uid: GRYLibrary.Core.Utilities.EnsureDirectoryDoesNotExist(System.String)
   name: EnsureDirectoryDoesNotExist(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsureDirectoryDoesNotExist_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsureDirectoryDoesNotExist_System_String_
   commentId: M:GRYLibrary.Core.Utilities.EnsureDirectoryDoesNotExist(System.String)
   fullName: GRYLibrary.Core.Utilities.EnsureDirectoryDoesNotExist(System.String)
   nameWithType: Utilities.EnsureDirectoryDoesNotExist(String)
 - uid: GRYLibrary.Core.Utilities.EnsureDirectoryDoesNotExist*
   name: EnsureDirectoryDoesNotExist
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsureDirectoryDoesNotExist_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsureDirectoryDoesNotExist_
   commentId: Overload:GRYLibrary.Core.Utilities.EnsureDirectoryDoesNotExist
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.EnsureDirectoryDoesNotExist
   nameWithType: Utilities.EnsureDirectoryDoesNotExist
 - uid: GRYLibrary.Core.Utilities.EnsureDirectoryExists(System.String)
   name: EnsureDirectoryExists(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsureDirectoryExists_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsureDirectoryExists_System_String_
   commentId: M:GRYLibrary.Core.Utilities.EnsureDirectoryExists(System.String)
   fullName: GRYLibrary.Core.Utilities.EnsureDirectoryExists(System.String)
   nameWithType: Utilities.EnsureDirectoryExists(String)
 - uid: GRYLibrary.Core.Utilities.EnsureDirectoryExists*
   name: EnsureDirectoryExists
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsureDirectoryExists_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsureDirectoryExists_
   commentId: Overload:GRYLibrary.Core.Utilities.EnsureDirectoryExists
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.EnsureDirectoryExists
   nameWithType: Utilities.EnsureDirectoryExists
 - uid: GRYLibrary.Core.Utilities.EnsureFileDoesNotExist(System.String)
   name: EnsureFileDoesNotExist(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsureFileDoesNotExist_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsureFileDoesNotExist_System_String_
   commentId: M:GRYLibrary.Core.Utilities.EnsureFileDoesNotExist(System.String)
   fullName: GRYLibrary.Core.Utilities.EnsureFileDoesNotExist(System.String)
   nameWithType: Utilities.EnsureFileDoesNotExist(String)
 - uid: GRYLibrary.Core.Utilities.EnsureFileDoesNotExist*
   name: EnsureFileDoesNotExist
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsureFileDoesNotExist_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsureFileDoesNotExist_
   commentId: Overload:GRYLibrary.Core.Utilities.EnsureFileDoesNotExist
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.EnsureFileDoesNotExist
   nameWithType: Utilities.EnsureFileDoesNotExist
 - uid: GRYLibrary.Core.Utilities.EnsureFileExists(System.String,System.Boolean)
   name: EnsureFileExists(String, Boolean)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsureFileExists_System_String_System_Boolean_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsureFileExists_System_String_System_Boolean_
   commentId: M:GRYLibrary.Core.Utilities.EnsureFileExists(System.String,System.Boolean)
   fullName: GRYLibrary.Core.Utilities.EnsureFileExists(System.String, System.Boolean)
   nameWithType: Utilities.EnsureFileExists(String, Boolean)
 - uid: GRYLibrary.Core.Utilities.EnsureFileExists*
   name: EnsureFileExists
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsureFileExists_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsureFileExists_
   commentId: Overload:GRYLibrary.Core.Utilities.EnsureFileExists
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.EnsureFileExists
   nameWithType: Utilities.EnsureFileExists
 - uid: GRYLibrary.Core.Utilities.EnsurePathEndsWithBackslash(System.String)
   name: EnsurePathEndsWithBackslash(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathEndsWithBackslash_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathEndsWithBackslash_System_String_
   commentId: M:GRYLibrary.Core.Utilities.EnsurePathEndsWithBackslash(System.String)
   fullName: GRYLibrary.Core.Utilities.EnsurePathEndsWithBackslash(System.String)
   nameWithType: Utilities.EnsurePathEndsWithBackslash(String)
 - uid: GRYLibrary.Core.Utilities.EnsurePathEndsWithBackslash*
   name: EnsurePathEndsWithBackslash
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathEndsWithBackslash_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathEndsWithBackslash_
   commentId: Overload:GRYLibrary.Core.Utilities.EnsurePathEndsWithBackslash
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.EnsurePathEndsWithBackslash
   nameWithType: Utilities.EnsurePathEndsWithBackslash
 - uid: GRYLibrary.Core.Utilities.EnsurePathEndsWithoutBackslash(System.String)
   name: EnsurePathEndsWithoutBackslash(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathEndsWithoutBackslash_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathEndsWithoutBackslash_System_String_
   commentId: M:GRYLibrary.Core.Utilities.EnsurePathEndsWithoutBackslash(System.String)
   fullName: GRYLibrary.Core.Utilities.EnsurePathEndsWithoutBackslash(System.String)
   nameWithType: Utilities.EnsurePathEndsWithoutBackslash(String)
 - uid: GRYLibrary.Core.Utilities.EnsurePathEndsWithoutBackslash*
   name: EnsurePathEndsWithoutBackslash
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathEndsWithoutBackslash_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathEndsWithoutBackslash_
   commentId: Overload:GRYLibrary.Core.Utilities.EnsurePathEndsWithoutBackslash
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.EnsurePathEndsWithoutBackslash
   nameWithType: Utilities.EnsurePathEndsWithoutBackslash
 - uid: GRYLibrary.Core.Utilities.EnsurePathEndsWithoutSlash(System.String)
   name: EnsurePathEndsWithoutSlash(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathEndsWithoutSlash_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathEndsWithoutSlash_System_String_
   commentId: M:GRYLibrary.Core.Utilities.EnsurePathEndsWithoutSlash(System.String)
   fullName: GRYLibrary.Core.Utilities.EnsurePathEndsWithoutSlash(System.String)
   nameWithType: Utilities.EnsurePathEndsWithoutSlash(String)
 - uid: GRYLibrary.Core.Utilities.EnsurePathEndsWithoutSlash*
   name: EnsurePathEndsWithoutSlash
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathEndsWithoutSlash_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathEndsWithoutSlash_
   commentId: Overload:GRYLibrary.Core.Utilities.EnsurePathEndsWithoutSlash
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.EnsurePathEndsWithoutSlash
   nameWithType: Utilities.EnsurePathEndsWithoutSlash
 - uid: GRYLibrary.Core.Utilities.EnsurePathEndsWithSlash(System.String)
   name: EnsurePathEndsWithSlash(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathEndsWithSlash_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathEndsWithSlash_System_String_
   commentId: M:GRYLibrary.Core.Utilities.EnsurePathEndsWithSlash(System.String)
   fullName: GRYLibrary.Core.Utilities.EnsurePathEndsWithSlash(System.String)
   nameWithType: Utilities.EnsurePathEndsWithSlash(String)
 - uid: GRYLibrary.Core.Utilities.EnsurePathEndsWithSlash*
   name: EnsurePathEndsWithSlash
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathEndsWithSlash_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathEndsWithSlash_
   commentId: Overload:GRYLibrary.Core.Utilities.EnsurePathEndsWithSlash
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.EnsurePathEndsWithSlash
   nameWithType: Utilities.EnsurePathEndsWithSlash
 - uid: GRYLibrary.Core.Utilities.EnsurePathSEndsWithoutSlashOrBackslash(System.String)
   name: EnsurePathSEndsWithoutSlashOrBackslash(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathSEndsWithoutSlashOrBackslash_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathSEndsWithoutSlashOrBackslash_System_String_
   commentId: M:GRYLibrary.Core.Utilities.EnsurePathSEndsWithoutSlashOrBackslash(System.String)
   fullName: GRYLibrary.Core.Utilities.EnsurePathSEndsWithoutSlashOrBackslash(System.String)
   nameWithType: Utilities.EnsurePathSEndsWithoutSlashOrBackslash(String)
 - uid: GRYLibrary.Core.Utilities.EnsurePathSEndsWithoutSlashOrBackslash*
   name: EnsurePathSEndsWithoutSlashOrBackslash
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathSEndsWithoutSlashOrBackslash_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathSEndsWithoutSlashOrBackslash_
   commentId: Overload:GRYLibrary.Core.Utilities.EnsurePathSEndsWithoutSlashOrBackslash
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.EnsurePathSEndsWithoutSlashOrBackslash
   nameWithType: Utilities.EnsurePathSEndsWithoutSlashOrBackslash
 - uid: GRYLibrary.Core.Utilities.EnsurePathStartsWithBackslash(System.String)
   name: EnsurePathStartsWithBackslash(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathStartsWithBackslash_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathStartsWithBackslash_System_String_
   commentId: M:GRYLibrary.Core.Utilities.EnsurePathStartsWithBackslash(System.String)
   fullName: GRYLibrary.Core.Utilities.EnsurePathStartsWithBackslash(System.String)
   nameWithType: Utilities.EnsurePathStartsWithBackslash(String)
 - uid: GRYLibrary.Core.Utilities.EnsurePathStartsWithBackslash*
   name: EnsurePathStartsWithBackslash
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathStartsWithBackslash_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathStartsWithBackslash_
   commentId: Overload:GRYLibrary.Core.Utilities.EnsurePathStartsWithBackslash
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.EnsurePathStartsWithBackslash
   nameWithType: Utilities.EnsurePathStartsWithBackslash
 - uid: GRYLibrary.Core.Utilities.EnsurePathStartsWithoutBackslash(System.String)
   name: EnsurePathStartsWithoutBackslash(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathStartsWithoutBackslash_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathStartsWithoutBackslash_System_String_
   commentId: M:GRYLibrary.Core.Utilities.EnsurePathStartsWithoutBackslash(System.String)
   fullName: GRYLibrary.Core.Utilities.EnsurePathStartsWithoutBackslash(System.String)
   nameWithType: Utilities.EnsurePathStartsWithoutBackslash(String)
 - uid: GRYLibrary.Core.Utilities.EnsurePathStartsWithoutBackslash*
   name: EnsurePathStartsWithoutBackslash
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathStartsWithoutBackslash_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathStartsWithoutBackslash_
   commentId: Overload:GRYLibrary.Core.Utilities.EnsurePathStartsWithoutBackslash
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.EnsurePathStartsWithoutBackslash
   nameWithType: Utilities.EnsurePathStartsWithoutBackslash
 - uid: GRYLibrary.Core.Utilities.EnsurePathStartsWithoutSlash(System.String)
   name: EnsurePathStartsWithoutSlash(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathStartsWithoutSlash_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathStartsWithoutSlash_System_String_
   commentId: M:GRYLibrary.Core.Utilities.EnsurePathStartsWithoutSlash(System.String)
   fullName: GRYLibrary.Core.Utilities.EnsurePathStartsWithoutSlash(System.String)
   nameWithType: Utilities.EnsurePathStartsWithoutSlash(String)
 - uid: GRYLibrary.Core.Utilities.EnsurePathStartsWithoutSlash*
   name: EnsurePathStartsWithoutSlash
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathStartsWithoutSlash_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathStartsWithoutSlash_
   commentId: Overload:GRYLibrary.Core.Utilities.EnsurePathStartsWithoutSlash
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.EnsurePathStartsWithoutSlash
   nameWithType: Utilities.EnsurePathStartsWithoutSlash
 - uid: GRYLibrary.Core.Utilities.EnsurePathStartsWithoutSlashOrBackslash(System.String)
   name: EnsurePathStartsWithoutSlashOrBackslash(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathStartsWithoutSlashOrBackslash_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathStartsWithoutSlashOrBackslash_System_String_
   commentId: M:GRYLibrary.Core.Utilities.EnsurePathStartsWithoutSlashOrBackslash(System.String)
   fullName: GRYLibrary.Core.Utilities.EnsurePathStartsWithoutSlashOrBackslash(System.String)
   nameWithType: Utilities.EnsurePathStartsWithoutSlashOrBackslash(String)
 - uid: GRYLibrary.Core.Utilities.EnsurePathStartsWithoutSlashOrBackslash*
   name: EnsurePathStartsWithoutSlashOrBackslash
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathStartsWithoutSlashOrBackslash_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathStartsWithoutSlashOrBackslash_
   commentId: Overload:GRYLibrary.Core.Utilities.EnsurePathStartsWithoutSlashOrBackslash
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.EnsurePathStartsWithoutSlashOrBackslash
   nameWithType: Utilities.EnsurePathStartsWithoutSlashOrBackslash
 - uid: GRYLibrary.Core.Utilities.EnsurePathStartsWithSlash(System.String)
   name: EnsurePathStartsWithSlash(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathStartsWithSlash_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathStartsWithSlash_System_String_
   commentId: M:GRYLibrary.Core.Utilities.EnsurePathStartsWithSlash(System.String)
   fullName: GRYLibrary.Core.Utilities.EnsurePathStartsWithSlash(System.String)
   nameWithType: Utilities.EnsurePathStartsWithSlash(String)
 - uid: GRYLibrary.Core.Utilities.EnsurePathStartsWithSlash*
   name: EnsurePathStartsWithSlash
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathStartsWithSlash_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathStartsWithSlash_
   commentId: Overload:GRYLibrary.Core.Utilities.EnsurePathStartsWithSlash
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.EnsurePathStartsWithSlash
   nameWithType: Utilities.EnsurePathStartsWithSlash
 - uid: GRYLibrary.Core.Utilities.EnumerableEquals*
   name: EnumerableEquals
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnumerableEquals_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnumerableEquals_
   commentId: Overload:GRYLibrary.Core.Utilities.EnumerableEquals
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.EnumerableEquals
   nameWithType: Utilities.EnumerableEquals
 - uid: GRYLibrary.Core.Utilities.EnumerableEquals``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
   name: EnumerableEquals<T>(IEnumerable<T>, IEnumerable<T>)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnumerableEquals__1_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___0__
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnumerableEquals__1_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___0__
   commentId: M:GRYLibrary.Core.Utilities.EnumerableEquals``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
   name.vb: EnumerableEquals(Of T)(IEnumerable(Of T), IEnumerable(Of T))
   fullName: GRYLibrary.Core.Utilities.EnumerableEquals<T>(System.Collections.Generic.IEnumerable<T>, System.Collections.Generic.IEnumerable<T>)
@@ -8638,7 +8638,7 @@ references:
   nameWithType.vb: Utilities.EnumerableEquals(Of T)(IEnumerable(Of T), IEnumerable(Of T))
 - uid: GRYLibrary.Core.Utilities.EnumerableEquals``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
   name: EnumerableEquals<T>(IEnumerable<T>, IEnumerable<T>, IEqualityComparer<T>)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnumerableEquals__1_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEqualityComparer___0__
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnumerableEquals__1_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEqualityComparer___0__
   commentId: M:GRYLibrary.Core.Utilities.EnumerableEquals``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
   name.vb: EnumerableEquals(Of T)(IEnumerable(Of T), IEnumerable(Of T), IEqualityComparer(Of T))
   fullName: GRYLibrary.Core.Utilities.EnumerableEquals<T>(System.Collections.Generic.IEnumerable<T>, System.Collections.Generic.IEnumerable<T>, System.Collections.Generic.IEqualityComparer<T>)
@@ -8647,14 +8647,14 @@ references:
   nameWithType.vb: Utilities.EnumerableEquals(Of T)(IEnumerable(Of T), IEnumerable(Of T), IEqualityComparer(Of T))
 - uid: GRYLibrary.Core.Utilities.EnumerableOfEnumerableToJaggedArray*
   name: EnumerableOfEnumerableToJaggedArray
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnumerableOfEnumerableToJaggedArray_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnumerableOfEnumerableToJaggedArray_
   commentId: Overload:GRYLibrary.Core.Utilities.EnumerableOfEnumerableToJaggedArray
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.EnumerableOfEnumerableToJaggedArray
   nameWithType: Utilities.EnumerableOfEnumerableToJaggedArray
 - uid: GRYLibrary.Core.Utilities.EnumerableOfEnumerableToJaggedArray``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{``0}})
   name: EnumerableOfEnumerableToJaggedArray<T>(IEnumerable<IEnumerable<T>>)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnumerableOfEnumerableToJaggedArray__1_System_Collections_Generic_IEnumerable_System_Collections_Generic_IEnumerable___0___
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnumerableOfEnumerableToJaggedArray__1_System_Collections_Generic_IEnumerable_System_Collections_Generic_IEnumerable___0___
   commentId: M:GRYLibrary.Core.Utilities.EnumerableOfEnumerableToJaggedArray``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{``0}})
   name.vb: EnumerableOfEnumerableToJaggedArray(Of T)(IEnumerable(Of IEnumerable(Of T)))
   fullName: GRYLibrary.Core.Utilities.EnumerableOfEnumerableToJaggedArray<T>(System.Collections.Generic.IEnumerable<System.Collections.Generic.IEnumerable<T>>)
@@ -8663,14 +8663,14 @@ references:
   nameWithType.vb: Utilities.EnumerableOfEnumerableToJaggedArray(Of T)(IEnumerable(Of IEnumerable(Of T)))
 - uid: GRYLibrary.Core.Utilities.EqualsIgnoringOrder*
   name: EqualsIgnoringOrder
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EqualsIgnoringOrder_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EqualsIgnoringOrder_
   commentId: Overload:GRYLibrary.Core.Utilities.EqualsIgnoringOrder
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.EqualsIgnoringOrder
   nameWithType: Utilities.EqualsIgnoringOrder
 - uid: GRYLibrary.Core.Utilities.EqualsIgnoringOrder``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
   name: EqualsIgnoringOrder<T>(IEnumerable<T>, IEnumerable<T>)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EqualsIgnoringOrder__1_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___0__
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EqualsIgnoringOrder__1_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___0__
   commentId: M:GRYLibrary.Core.Utilities.EqualsIgnoringOrder``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
   name.vb: EqualsIgnoringOrder(Of T)(IEnumerable(Of T), IEnumerable(Of T))
   fullName: GRYLibrary.Core.Utilities.EqualsIgnoringOrder<T>(System.Collections.Generic.IEnumerable<T>, System.Collections.Generic.IEnumerable<T>)
@@ -8679,7 +8679,7 @@ references:
   nameWithType.vb: Utilities.EqualsIgnoringOrder(Of T)(IEnumerable(Of T), IEnumerable(Of T))
 - uid: GRYLibrary.Core.Utilities.ExecuteGitCommand(System.String,System.String,System.Boolean,System.Nullable{System.Int32},System.Boolean)
   name: ExecuteGitCommand(String, String, Boolean, Nullable<Int32>, Boolean)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ExecuteGitCommand_System_String_System_String_System_Boolean_System_Nullable_System_Int32__System_Boolean_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ExecuteGitCommand_System_String_System_String_System_Boolean_System_Nullable_System_Int32__System_Boolean_
   commentId: M:GRYLibrary.Core.Utilities.ExecuteGitCommand(System.String,System.String,System.Boolean,System.Nullable{System.Int32},System.Boolean)
   name.vb: ExecuteGitCommand(String, String, Boolean, Nullable(Of Int32), Boolean)
   fullName: GRYLibrary.Core.Utilities.ExecuteGitCommand(System.String, System.String, System.Boolean, System.Nullable<System.Int32>, System.Boolean)
@@ -8688,40 +8688,40 @@ references:
   nameWithType.vb: Utilities.ExecuteGitCommand(String, String, Boolean, Nullable(Of Int32), Boolean)
 - uid: GRYLibrary.Core.Utilities.ExecuteGitCommand*
   name: ExecuteGitCommand
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ExecuteGitCommand_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ExecuteGitCommand_
   commentId: Overload:GRYLibrary.Core.Utilities.ExecuteGitCommand
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ExecuteGitCommand
   nameWithType: Utilities.ExecuteGitCommand
 - uid: GRYLibrary.Core.Utilities.FileEndsWithEmptyLine(System.String)
   name: FileEndsWithEmptyLine(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_FileEndsWithEmptyLine_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_FileEndsWithEmptyLine_System_String_
   commentId: M:GRYLibrary.Core.Utilities.FileEndsWithEmptyLine(System.String)
   fullName: GRYLibrary.Core.Utilities.FileEndsWithEmptyLine(System.String)
   nameWithType: Utilities.FileEndsWithEmptyLine(String)
 - uid: GRYLibrary.Core.Utilities.FileEndsWithEmptyLine*
   name: FileEndsWithEmptyLine
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_FileEndsWithEmptyLine_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_FileEndsWithEmptyLine_
   commentId: Overload:GRYLibrary.Core.Utilities.FileEndsWithEmptyLine
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.FileEndsWithEmptyLine
   nameWithType: Utilities.FileEndsWithEmptyLine
 - uid: GRYLibrary.Core.Utilities.FileIsEmpty(System.String)
   name: FileIsEmpty(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_FileIsEmpty_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_FileIsEmpty_System_String_
   commentId: M:GRYLibrary.Core.Utilities.FileIsEmpty(System.String)
   fullName: GRYLibrary.Core.Utilities.FileIsEmpty(System.String)
   nameWithType: Utilities.FileIsEmpty(String)
 - uid: GRYLibrary.Core.Utilities.FileIsEmpty*
   name: FileIsEmpty
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_FileIsEmpty_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_FileIsEmpty_
   commentId: Overload:GRYLibrary.Core.Utilities.FileIsEmpty
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.FileIsEmpty
   nameWithType: Utilities.FileIsEmpty
 - uid: GRYLibrary.Core.Utilities.ForEachFileAndDirectoryTransitively(System.String,System.Action{System.String,System.Object},System.Action{System.String,System.Object},System.Boolean,System.Object,System.Object)
   name: ForEachFileAndDirectoryTransitively(String, Action<String, Object>, Action<String, Object>, Boolean, Object, Object)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ForEachFileAndDirectoryTransitively_System_String_System_Action_System_String_System_Object__System_Action_System_String_System_Object__System_Boolean_System_Object_System_Object_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ForEachFileAndDirectoryTransitively_System_String_System_Action_System_String_System_Object__System_Action_System_String_System_Object__System_Boolean_System_Object_System_Object_
   commentId: M:GRYLibrary.Core.Utilities.ForEachFileAndDirectoryTransitively(System.String,System.Action{System.String,System.Object},System.Action{System.String,System.Object},System.Boolean,System.Object,System.Object)
   name.vb: ForEachFileAndDirectoryTransitively(String, Action(Of String, Object), Action(Of String, Object), Boolean, Object, Object)
   fullName: GRYLibrary.Core.Utilities.ForEachFileAndDirectoryTransitively(System.String, System.Action<System.String, System.Object>, System.Action<System.String, System.Object>, System.Boolean, System.Object, System.Object)
@@ -8730,316 +8730,316 @@ references:
   nameWithType.vb: Utilities.ForEachFileAndDirectoryTransitively(String, Action(Of String, Object), Action(Of String, Object), Boolean, Object, Object)
 - uid: GRYLibrary.Core.Utilities.ForEachFileAndDirectoryTransitively*
   name: ForEachFileAndDirectoryTransitively
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ForEachFileAndDirectoryTransitively_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ForEachFileAndDirectoryTransitively_
   commentId: Overload:GRYLibrary.Core.Utilities.ForEachFileAndDirectoryTransitively
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ForEachFileAndDirectoryTransitively
   nameWithType: Utilities.ForEachFileAndDirectoryTransitively
 - uid: GRYLibrary.Core.Utilities.FormatXMLFile(System.String)
   name: FormatXMLFile(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_FormatXMLFile_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_FormatXMLFile_System_String_
   commentId: M:GRYLibrary.Core.Utilities.FormatXMLFile(System.String)
   fullName: GRYLibrary.Core.Utilities.FormatXMLFile(System.String)
   nameWithType: Utilities.FormatXMLFile(String)
 - uid: GRYLibrary.Core.Utilities.FormatXMLFile(System.String,System.Text.Encoding)
   name: FormatXMLFile(String, Encoding)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_FormatXMLFile_System_String_System_Text_Encoding_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_FormatXMLFile_System_String_System_Text_Encoding_
   commentId: M:GRYLibrary.Core.Utilities.FormatXMLFile(System.String,System.Text.Encoding)
   fullName: GRYLibrary.Core.Utilities.FormatXMLFile(System.String, System.Text.Encoding)
   nameWithType: Utilities.FormatXMLFile(String, Encoding)
 - uid: GRYLibrary.Core.Utilities.FormatXMLFile(System.String,System.Text.Encoding,System.Xml.XmlWriterSettings)
   name: FormatXMLFile(String, Encoding, XmlWriterSettings)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_FormatXMLFile_System_String_System_Text_Encoding_System_Xml_XmlWriterSettings_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_FormatXMLFile_System_String_System_Text_Encoding_System_Xml_XmlWriterSettings_
   commentId: M:GRYLibrary.Core.Utilities.FormatXMLFile(System.String,System.Text.Encoding,System.Xml.XmlWriterSettings)
   fullName: GRYLibrary.Core.Utilities.FormatXMLFile(System.String, System.Text.Encoding, System.Xml.XmlWriterSettings)
   nameWithType: Utilities.FormatXMLFile(String, Encoding, XmlWriterSettings)
 - uid: GRYLibrary.Core.Utilities.FormatXMLFile(System.String,System.Xml.XmlWriterSettings)
   name: FormatXMLFile(String, XmlWriterSettings)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_FormatXMLFile_System_String_System_Xml_XmlWriterSettings_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_FormatXMLFile_System_String_System_Xml_XmlWriterSettings_
   commentId: M:GRYLibrary.Core.Utilities.FormatXMLFile(System.String,System.Xml.XmlWriterSettings)
   fullName: GRYLibrary.Core.Utilities.FormatXMLFile(System.String, System.Xml.XmlWriterSettings)
   nameWithType: Utilities.FormatXMLFile(String, XmlWriterSettings)
 - uid: GRYLibrary.Core.Utilities.FormatXMLFile*
   name: FormatXMLFile
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_FormatXMLFile_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_FormatXMLFile_
   commentId: Overload:GRYLibrary.Core.Utilities.FormatXMLFile
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.FormatXMLFile
   nameWithType: Utilities.FormatXMLFile
 - uid: GRYLibrary.Core.Utilities.FormatXMLFile_DefaultEncoding
   name: FormatXMLFile_DefaultEncoding
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_FormatXMLFile_DefaultEncoding
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_FormatXMLFile_DefaultEncoding
   commentId: F:GRYLibrary.Core.Utilities.FormatXMLFile_DefaultEncoding
   fullName: GRYLibrary.Core.Utilities.FormatXMLFile_DefaultEncoding
   nameWithType: Utilities.FormatXMLFile_DefaultEncoding
 - uid: GRYLibrary.Core.Utilities.FormatXMLFile_DefaultXmlWriterSettings
   name: FormatXMLFile_DefaultXmlWriterSettings
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_FormatXMLFile_DefaultXmlWriterSettings
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_FormatXMLFile_DefaultXmlWriterSettings
   commentId: F:GRYLibrary.Core.Utilities.FormatXMLFile_DefaultXmlWriterSettings
   fullName: GRYLibrary.Core.Utilities.FormatXMLFile_DefaultXmlWriterSettings
   nameWithType: Utilities.FormatXMLFile_DefaultXmlWriterSettings
 - uid: GRYLibrary.Core.Utilities.FormatXMLString(System.String)
   name: FormatXMLString(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_FormatXMLString_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_FormatXMLString_System_String_
   commentId: M:GRYLibrary.Core.Utilities.FormatXMLString(System.String)
   fullName: GRYLibrary.Core.Utilities.FormatXMLString(System.String)
   nameWithType: Utilities.FormatXMLString(String)
 - uid: GRYLibrary.Core.Utilities.FormatXMLString(System.String,System.Xml.XmlWriterSettings)
   name: FormatXMLString(String, XmlWriterSettings)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_FormatXMLString_System_String_System_Xml_XmlWriterSettings_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_FormatXMLString_System_String_System_Xml_XmlWriterSettings_
   commentId: M:GRYLibrary.Core.Utilities.FormatXMLString(System.String,System.Xml.XmlWriterSettings)
   fullName: GRYLibrary.Core.Utilities.FormatXMLString(System.String, System.Xml.XmlWriterSettings)
   nameWithType: Utilities.FormatXMLString(String, XmlWriterSettings)
 - uid: GRYLibrary.Core.Utilities.FormatXMLString*
   name: FormatXMLString
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_FormatXMLString_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_FormatXMLString_
   commentId: Overload:GRYLibrary.Core.Utilities.FormatXMLString
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.FormatXMLString
   nameWithType: Utilities.FormatXMLString
 - uid: GRYLibrary.Core.Utilities.GetAbsolutePath(System.String,System.String)
   name: GetAbsolutePath(String, String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetAbsolutePath_System_String_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetAbsolutePath_System_String_System_String_
   commentId: M:GRYLibrary.Core.Utilities.GetAbsolutePath(System.String,System.String)
   fullName: GRYLibrary.Core.Utilities.GetAbsolutePath(System.String, System.String)
   nameWithType: Utilities.GetAbsolutePath(String, String)
 - uid: GRYLibrary.Core.Utilities.GetAbsolutePath*
   name: GetAbsolutePath
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetAbsolutePath_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetAbsolutePath_
   commentId: Overload:GRYLibrary.Core.Utilities.GetAbsolutePath
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GetAbsolutePath
   nameWithType: Utilities.GetAbsolutePath
 - uid: GRYLibrary.Core.Utilities.GetAllMountPointsOfAllAvailableVolumes
   name: GetAllMountPointsOfAllAvailableVolumes()
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetAllMountPointsOfAllAvailableVolumes
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetAllMountPointsOfAllAvailableVolumes
   commentId: M:GRYLibrary.Core.Utilities.GetAllMountPointsOfAllAvailableVolumes
   fullName: GRYLibrary.Core.Utilities.GetAllMountPointsOfAllAvailableVolumes()
   nameWithType: Utilities.GetAllMountPointsOfAllAvailableVolumes()
 - uid: GRYLibrary.Core.Utilities.GetAllMountPointsOfAllAvailableVolumes*
   name: GetAllMountPointsOfAllAvailableVolumes
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetAllMountPointsOfAllAvailableVolumes_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetAllMountPointsOfAllAvailableVolumes_
   commentId: Overload:GRYLibrary.Core.Utilities.GetAllMountPointsOfAllAvailableVolumes
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GetAllMountPointsOfAllAvailableVolumes
   nameWithType: Utilities.GetAllMountPointsOfAllAvailableVolumes
 - uid: GRYLibrary.Core.Utilities.GetAmountOfCommitsInGitRepository(System.String,System.String)
   name: GetAmountOfCommitsInGitRepository(String, String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetAmountOfCommitsInGitRepository_System_String_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetAmountOfCommitsInGitRepository_System_String_System_String_
   commentId: M:GRYLibrary.Core.Utilities.GetAmountOfCommitsInGitRepository(System.String,System.String)
   fullName: GRYLibrary.Core.Utilities.GetAmountOfCommitsInGitRepository(System.String, System.String)
   nameWithType: Utilities.GetAmountOfCommitsInGitRepository(String, String)
 - uid: GRYLibrary.Core.Utilities.GetAmountOfCommitsInGitRepository*
   name: GetAmountOfCommitsInGitRepository
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetAmountOfCommitsInGitRepository_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetAmountOfCommitsInGitRepository_
   commentId: Overload:GRYLibrary.Core.Utilities.GetAmountOfCommitsInGitRepository
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GetAmountOfCommitsInGitRepository
   nameWithType: Utilities.GetAmountOfCommitsInGitRepository
 - uid: GRYLibrary.Core.Utilities.GetAvailableVolumeIds
   name: GetAvailableVolumeIds()
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetAvailableVolumeIds
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetAvailableVolumeIds
   commentId: M:GRYLibrary.Core.Utilities.GetAvailableVolumeIds
   fullName: GRYLibrary.Core.Utilities.GetAvailableVolumeIds()
   nameWithType: Utilities.GetAvailableVolumeIds()
 - uid: GRYLibrary.Core.Utilities.GetAvailableVolumeIds*
   name: GetAvailableVolumeIds
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetAvailableVolumeIds_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetAvailableVolumeIds_
   commentId: Overload:GRYLibrary.Core.Utilities.GetAvailableVolumeIds
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GetAvailableVolumeIds
   nameWithType: Utilities.GetAvailableVolumeIds
 - uid: GRYLibrary.Core.Utilities.GetCommandLineArguments
   name: GetCommandLineArguments()
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetCommandLineArguments
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetCommandLineArguments
   commentId: M:GRYLibrary.Core.Utilities.GetCommandLineArguments
   fullName: GRYLibrary.Core.Utilities.GetCommandLineArguments()
   nameWithType: Utilities.GetCommandLineArguments()
 - uid: GRYLibrary.Core.Utilities.GetCommandLineArguments*
   name: GetCommandLineArguments
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetCommandLineArguments_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetCommandLineArguments_
   commentId: Overload:GRYLibrary.Core.Utilities.GetCommandLineArguments
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GetCommandLineArguments
   nameWithType: Utilities.GetCommandLineArguments
 - uid: GRYLibrary.Core.Utilities.GetCurrentGitRepositoryBranch(System.String)
   name: GetCurrentGitRepositoryBranch(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetCurrentGitRepositoryBranch_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetCurrentGitRepositoryBranch_System_String_
   commentId: M:GRYLibrary.Core.Utilities.GetCurrentGitRepositoryBranch(System.String)
   fullName: GRYLibrary.Core.Utilities.GetCurrentGitRepositoryBranch(System.String)
   nameWithType: Utilities.GetCurrentGitRepositoryBranch(String)
 - uid: GRYLibrary.Core.Utilities.GetCurrentGitRepositoryBranch*
   name: GetCurrentGitRepositoryBranch
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetCurrentGitRepositoryBranch_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetCurrentGitRepositoryBranch_
   commentId: Overload:GRYLibrary.Core.Utilities.GetCurrentGitRepositoryBranch
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GetCurrentGitRepositoryBranch
   nameWithType: Utilities.GetCurrentGitRepositoryBranch
 - uid: GRYLibrary.Core.Utilities.GetDefault(System.Type)
   name: GetDefault(Type)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetDefault_System_Type_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetDefault_System_Type_
   commentId: M:GRYLibrary.Core.Utilities.GetDefault(System.Type)
   fullName: GRYLibrary.Core.Utilities.GetDefault(System.Type)
   nameWithType: Utilities.GetDefault(Type)
 - uid: GRYLibrary.Core.Utilities.GetDefault*
   name: GetDefault
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetDefault_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetDefault_
   commentId: Overload:GRYLibrary.Core.Utilities.GetDefault
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GetDefault
   nameWithType: Utilities.GetDefault
 - uid: GRYLibrary.Core.Utilities.GetFilesOfFolderRecursively(System.String)
   name: GetFilesOfFolderRecursively(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetFilesOfFolderRecursively_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetFilesOfFolderRecursively_System_String_
   commentId: M:GRYLibrary.Core.Utilities.GetFilesOfFolderRecursively(System.String)
   fullName: GRYLibrary.Core.Utilities.GetFilesOfFolderRecursively(System.String)
   nameWithType: Utilities.GetFilesOfFolderRecursively(String)
 - uid: GRYLibrary.Core.Utilities.GetFilesOfFolderRecursively*
   name: GetFilesOfFolderRecursively
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetFilesOfFolderRecursively_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetFilesOfFolderRecursively_
   commentId: Overload:GRYLibrary.Core.Utilities.GetFilesOfFolderRecursively
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GetFilesOfFolderRecursively
   nameWithType: Utilities.GetFilesOfFolderRecursively
 - uid: GRYLibrary.Core.Utilities.GetGitBaseRepositoryPath(System.String)
   name: GetGitBaseRepositoryPath(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetGitBaseRepositoryPath_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetGitBaseRepositoryPath_System_String_
   commentId: M:GRYLibrary.Core.Utilities.GetGitBaseRepositoryPath(System.String)
   fullName: GRYLibrary.Core.Utilities.GetGitBaseRepositoryPath(System.String)
   nameWithType: Utilities.GetGitBaseRepositoryPath(String)
 - uid: GRYLibrary.Core.Utilities.GetGitBaseRepositoryPath*
   name: GetGitBaseRepositoryPath
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetGitBaseRepositoryPath_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetGitBaseRepositoryPath_
   commentId: Overload:GRYLibrary.Core.Utilities.GetGitBaseRepositoryPath
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GetGitBaseRepositoryPath
   nameWithType: Utilities.GetGitBaseRepositoryPath
 - uid: GRYLibrary.Core.Utilities.GetHexValue(System.Char)
   name: GetHexValue(Char)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetHexValue_System_Char_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetHexValue_System_Char_
   commentId: M:GRYLibrary.Core.Utilities.GetHexValue(System.Char)
   fullName: GRYLibrary.Core.Utilities.GetHexValue(System.Char)
   nameWithType: Utilities.GetHexValue(Char)
 - uid: GRYLibrary.Core.Utilities.GetHexValue*
   name: GetHexValue
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetHexValue_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetHexValue_
   commentId: Overload:GRYLibrary.Core.Utilities.GetHexValue
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GetHexValue
   nameWithType: Utilities.GetHexValue
 - uid: GRYLibrary.Core.Utilities.GetLastGitCommitId(System.String,System.String)
   name: GetLastGitCommitId(String, String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetLastGitCommitId_System_String_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetLastGitCommitId_System_String_System_String_
   commentId: M:GRYLibrary.Core.Utilities.GetLastGitCommitId(System.String,System.String)
   fullName: GRYLibrary.Core.Utilities.GetLastGitCommitId(System.String, System.String)
   nameWithType: Utilities.GetLastGitCommitId(String, String)
 - uid: GRYLibrary.Core.Utilities.GetLastGitCommitId*
   name: GetLastGitCommitId
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetLastGitCommitId_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetLastGitCommitId_
   commentId: Overload:GRYLibrary.Core.Utilities.GetLastGitCommitId
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GetLastGitCommitId
   nameWithType: Utilities.GetLastGitCommitId
 - uid: GRYLibrary.Core.Utilities.GetMountPoints(System.Guid)
   name: GetMountPoints(Guid)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetMountPoints_System_Guid_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetMountPoints_System_Guid_
   commentId: M:GRYLibrary.Core.Utilities.GetMountPoints(System.Guid)
   fullName: GRYLibrary.Core.Utilities.GetMountPoints(System.Guid)
   nameWithType: Utilities.GetMountPoints(Guid)
 - uid: GRYLibrary.Core.Utilities.GetMountPoints*
   name: GetMountPoints
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetMountPoints_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetMountPoints_
   commentId: Overload:GRYLibrary.Core.Utilities.GetMountPoints
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GetMountPoints
   nameWithType: Utilities.GetMountPoints
 - uid: GRYLibrary.Core.Utilities.GetPropertiesWhichHaveGetterAndSetter(System.Type)
   name: GetPropertiesWhichHaveGetterAndSetter(Type)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetPropertiesWhichHaveGetterAndSetter_System_Type_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetPropertiesWhichHaveGetterAndSetter_System_Type_
   commentId: M:GRYLibrary.Core.Utilities.GetPropertiesWhichHaveGetterAndSetter(System.Type)
   fullName: GRYLibrary.Core.Utilities.GetPropertiesWhichHaveGetterAndSetter(System.Type)
   nameWithType: Utilities.GetPropertiesWhichHaveGetterAndSetter(Type)
 - uid: GRYLibrary.Core.Utilities.GetPropertiesWhichHaveGetterAndSetter*
   name: GetPropertiesWhichHaveGetterAndSetter
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetPropertiesWhichHaveGetterAndSetter_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetPropertiesWhichHaveGetterAndSetter_
   commentId: Overload:GRYLibrary.Core.Utilities.GetPropertiesWhichHaveGetterAndSetter
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GetPropertiesWhichHaveGetterAndSetter
   nameWithType: Utilities.GetPropertiesWhichHaveGetterAndSetter
 - uid: GRYLibrary.Core.Utilities.GetTimeFromInternet(System.TimeZoneInfo)
   name: GetTimeFromInternet(TimeZoneInfo)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetTimeFromInternet_System_TimeZoneInfo_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetTimeFromInternet_System_TimeZoneInfo_
   commentId: M:GRYLibrary.Core.Utilities.GetTimeFromInternet(System.TimeZoneInfo)
   fullName: GRYLibrary.Core.Utilities.GetTimeFromInternet(System.TimeZoneInfo)
   nameWithType: Utilities.GetTimeFromInternet(TimeZoneInfo)
 - uid: GRYLibrary.Core.Utilities.GetTimeFromInternet(System.TimeZoneInfo,System.String,System.String,System.Int32,System.Int32,System.Int32)
   name: GetTimeFromInternet(TimeZoneInfo, String, String, Int32, Int32, Int32)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetTimeFromInternet_System_TimeZoneInfo_System_String_System_String_System_Int32_System_Int32_System_Int32_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetTimeFromInternet_System_TimeZoneInfo_System_String_System_String_System_Int32_System_Int32_System_Int32_
   commentId: M:GRYLibrary.Core.Utilities.GetTimeFromInternet(System.TimeZoneInfo,System.String,System.String,System.Int32,System.Int32,System.Int32)
   fullName: GRYLibrary.Core.Utilities.GetTimeFromInternet(System.TimeZoneInfo, System.String, System.String, System.Int32, System.Int32, System.Int32)
   nameWithType: Utilities.GetTimeFromInternet(TimeZoneInfo, String, String, Int32, Int32, Int32)
 - uid: GRYLibrary.Core.Utilities.GetTimeFromInternet*
   name: GetTimeFromInternet
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetTimeFromInternet_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetTimeFromInternet_
   commentId: Overload:GRYLibrary.Core.Utilities.GetTimeFromInternet
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GetTimeFromInternet
   nameWithType: Utilities.GetTimeFromInternet
 - uid: GRYLibrary.Core.Utilities.GetTimeFromInternetCurrentTimeZone
   name: GetTimeFromInternetCurrentTimeZone()
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetTimeFromInternetCurrentTimeZone
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetTimeFromInternetCurrentTimeZone
   commentId: M:GRYLibrary.Core.Utilities.GetTimeFromInternetCurrentTimeZone
   fullName: GRYLibrary.Core.Utilities.GetTimeFromInternetCurrentTimeZone()
   nameWithType: Utilities.GetTimeFromInternetCurrentTimeZone()
 - uid: GRYLibrary.Core.Utilities.GetTimeFromInternetCurrentTimeZone*
   name: GetTimeFromInternetCurrentTimeZone
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetTimeFromInternetCurrentTimeZone_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetTimeFromInternetCurrentTimeZone_
   commentId: Overload:GRYLibrary.Core.Utilities.GetTimeFromInternetCurrentTimeZone
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GetTimeFromInternetCurrentTimeZone
   nameWithType: Utilities.GetTimeFromInternetCurrentTimeZone
 - uid: GRYLibrary.Core.Utilities.GetTimeFromInternetUtC
   name: GetTimeFromInternetUtC()
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetTimeFromInternetUtC
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetTimeFromInternetUtC
   commentId: M:GRYLibrary.Core.Utilities.GetTimeFromInternetUtC
   fullName: GRYLibrary.Core.Utilities.GetTimeFromInternetUtC()
   nameWithType: Utilities.GetTimeFromInternetUtC()
 - uid: GRYLibrary.Core.Utilities.GetTimeFromInternetUtC*
   name: GetTimeFromInternetUtC
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetTimeFromInternetUtC_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetTimeFromInternetUtC_
   commentId: Overload:GRYLibrary.Core.Utilities.GetTimeFromInternetUtC
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GetTimeFromInternetUtC
   nameWithType: Utilities.GetTimeFromInternetUtC
 - uid: GRYLibrary.Core.Utilities.GetTotalFreeSpace(System.String)
   name: GetTotalFreeSpace(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetTotalFreeSpace_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetTotalFreeSpace_System_String_
   commentId: M:GRYLibrary.Core.Utilities.GetTotalFreeSpace(System.String)
   fullName: GRYLibrary.Core.Utilities.GetTotalFreeSpace(System.String)
   nameWithType: Utilities.GetTotalFreeSpace(String)
 - uid: GRYLibrary.Core.Utilities.GetTotalFreeSpace*
   name: GetTotalFreeSpace
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetTotalFreeSpace_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetTotalFreeSpace_
   commentId: Overload:GRYLibrary.Core.Utilities.GetTotalFreeSpace
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GetTotalFreeSpace
   nameWithType: Utilities.GetTotalFreeSpace
 - uid: GRYLibrary.Core.Utilities.GetVolumeIdByMountPoint(System.String)
   name: GetVolumeIdByMountPoint(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetVolumeIdByMountPoint_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetVolumeIdByMountPoint_System_String_
   commentId: M:GRYLibrary.Core.Utilities.GetVolumeIdByMountPoint(System.String)
   fullName: GRYLibrary.Core.Utilities.GetVolumeIdByMountPoint(System.String)
   nameWithType: Utilities.GetVolumeIdByMountPoint(String)
 - uid: GRYLibrary.Core.Utilities.GetVolumeIdByMountPoint*
   name: GetVolumeIdByMountPoint
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetVolumeIdByMountPoint_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetVolumeIdByMountPoint_
   commentId: Overload:GRYLibrary.Core.Utilities.GetVolumeIdByMountPoint
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GetVolumeIdByMountPoint
   nameWithType: Utilities.GetVolumeIdByMountPoint
 - uid: GRYLibrary.Core.Utilities.GitCommit(System.String,System.String,System.Boolean@)
   name: GitCommit(String, String, out Boolean)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitCommit_System_String_System_String_System_Boolean__
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitCommit_System_String_System_String_System_Boolean__
   commentId: M:GRYLibrary.Core.Utilities.GitCommit(System.String,System.String,System.Boolean@)
   name.vb: GitCommit(String, String, ByRef Boolean)
   fullName: GRYLibrary.Core.Utilities.GitCommit(System.String, System.String, out System.Boolean)
@@ -9048,27 +9048,27 @@ references:
   nameWithType.vb: Utilities.GitCommit(String, String, ByRef Boolean)
 - uid: GRYLibrary.Core.Utilities.GitCommit*
   name: GitCommit
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitCommit_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitCommit_
   commentId: Overload:GRYLibrary.Core.Utilities.GitCommit
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GitCommit
   nameWithType: Utilities.GitCommit
 - uid: GRYLibrary.Core.Utilities.GitFetch(System.String,System.String,System.Boolean)
   name: GitFetch(String, String, Boolean)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitFetch_System_String_System_String_System_Boolean_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitFetch_System_String_System_String_System_Boolean_
   commentId: M:GRYLibrary.Core.Utilities.GitFetch(System.String,System.String,System.Boolean)
   fullName: GRYLibrary.Core.Utilities.GitFetch(System.String, System.String, System.Boolean)
   nameWithType: Utilities.GitFetch(String, String, Boolean)
 - uid: GRYLibrary.Core.Utilities.GitFetch*
   name: GitFetch
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitFetch_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitFetch_
   commentId: Overload:GRYLibrary.Core.Utilities.GitFetch
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GitFetch
   nameWithType: Utilities.GitFetch
 - uid: GRYLibrary.Core.Utilities.GitRepositoryContainsObligatoryFiles(System.String,System.Collections.Generic.ISet{System.String}@)
   name: GitRepositoryContainsObligatoryFiles(String, out ISet<String>)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitRepositoryContainsObligatoryFiles_System_String_System_Collections_Generic_ISet_System_String___
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitRepositoryContainsObligatoryFiles_System_String_System_Collections_Generic_ISet_System_String___
   commentId: M:GRYLibrary.Core.Utilities.GitRepositoryContainsObligatoryFiles(System.String,System.Collections.Generic.ISet{System.String}@)
   name.vb: GitRepositoryContainsObligatoryFiles(String, ByRef ISet(Of String))
   fullName: GRYLibrary.Core.Utilities.GitRepositoryContainsObligatoryFiles(System.String, out System.Collections.Generic.ISet<System.String>)
@@ -9077,7 +9077,7 @@ references:
   nameWithType.vb: Utilities.GitRepositoryContainsObligatoryFiles(String, ByRef ISet(Of String))
 - uid: GRYLibrary.Core.Utilities.GitRepositoryContainsObligatoryFiles(System.String,System.Collections.Generic.ISet{System.String}@,System.Collections.Generic.IEnumerable{System.Tuple{System.String,System.Collections.Generic.ISet{System.String}}})
   name: GitRepositoryContainsObligatoryFiles(String, out ISet<String>, IEnumerable<Tuple<String, ISet<String>>>)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitRepositoryContainsObligatoryFiles_System_String_System_Collections_Generic_ISet_System_String___System_Collections_Generic_IEnumerable_System_Tuple_System_String_System_Collections_Generic_ISet_System_String____
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitRepositoryContainsObligatoryFiles_System_String_System_Collections_Generic_ISet_System_String___System_Collections_Generic_IEnumerable_System_Tuple_System_String_System_Collections_Generic_ISet_System_String____
   commentId: M:GRYLibrary.Core.Utilities.GitRepositoryContainsObligatoryFiles(System.String,System.Collections.Generic.ISet{System.String}@,System.Collections.Generic.IEnumerable{System.Tuple{System.String,System.Collections.Generic.ISet{System.String}}})
   name.vb: GitRepositoryContainsObligatoryFiles(String, ByRef ISet(Of String), IEnumerable(Of Tuple(Of String, ISet(Of String))))
   fullName: GRYLibrary.Core.Utilities.GitRepositoryContainsObligatoryFiles(System.String, out System.Collections.Generic.ISet<System.String>, System.Collections.Generic.IEnumerable<System.Tuple<System.String, System.Collections.Generic.ISet<System.String>>>)
@@ -9086,306 +9086,306 @@ references:
   nameWithType.vb: Utilities.GitRepositoryContainsObligatoryFiles(String, ByRef ISet(Of String), IEnumerable(Of Tuple(Of String, ISet(Of String))))
 - uid: GRYLibrary.Core.Utilities.GitRepositoryContainsObligatoryFiles*
   name: GitRepositoryContainsObligatoryFiles
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitRepositoryContainsObligatoryFiles_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitRepositoryContainsObligatoryFiles_
   commentId: Overload:GRYLibrary.Core.Utilities.GitRepositoryContainsObligatoryFiles
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GitRepositoryContainsObligatoryFiles
   nameWithType: Utilities.GitRepositoryContainsObligatoryFiles
 - uid: GRYLibrary.Core.Utilities.GitRepositoryHaNewUntrackedFiles(System.String)
   name: GitRepositoryHaNewUntrackedFiles(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitRepositoryHaNewUntrackedFiles_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitRepositoryHaNewUntrackedFiles_System_String_
   commentId: M:GRYLibrary.Core.Utilities.GitRepositoryHaNewUntrackedFiles(System.String)
   fullName: GRYLibrary.Core.Utilities.GitRepositoryHaNewUntrackedFiles(System.String)
   nameWithType: Utilities.GitRepositoryHaNewUntrackedFiles(String)
 - uid: GRYLibrary.Core.Utilities.GitRepositoryHaNewUntrackedFiles*
   name: GitRepositoryHaNewUntrackedFiles
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitRepositoryHaNewUntrackedFiles_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitRepositoryHaNewUntrackedFiles_
   commentId: Overload:GRYLibrary.Core.Utilities.GitRepositoryHaNewUntrackedFiles
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GitRepositoryHaNewUntrackedFiles
   nameWithType: Utilities.GitRepositoryHaNewUntrackedFiles
 - uid: GRYLibrary.Core.Utilities.GitRepositoryHasStagedChanges(System.String)
   name: GitRepositoryHasStagedChanges(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitRepositoryHasStagedChanges_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitRepositoryHasStagedChanges_System_String_
   commentId: M:GRYLibrary.Core.Utilities.GitRepositoryHasStagedChanges(System.String)
   fullName: GRYLibrary.Core.Utilities.GitRepositoryHasStagedChanges(System.String)
   nameWithType: Utilities.GitRepositoryHasStagedChanges(String)
 - uid: GRYLibrary.Core.Utilities.GitRepositoryHasStagedChanges*
   name: GitRepositoryHasStagedChanges
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitRepositoryHasStagedChanges_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitRepositoryHasStagedChanges_
   commentId: Overload:GRYLibrary.Core.Utilities.GitRepositoryHasStagedChanges
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GitRepositoryHasStagedChanges
   nameWithType: Utilities.GitRepositoryHasStagedChanges
 - uid: GRYLibrary.Core.Utilities.GitRepositoryHasUncommittedChanges(System.String)
   name: GitRepositoryHasUncommittedChanges(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitRepositoryHasUncommittedChanges_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitRepositoryHasUncommittedChanges_System_String_
   commentId: M:GRYLibrary.Core.Utilities.GitRepositoryHasUncommittedChanges(System.String)
   fullName: GRYLibrary.Core.Utilities.GitRepositoryHasUncommittedChanges(System.String)
   nameWithType: Utilities.GitRepositoryHasUncommittedChanges(String)
 - uid: GRYLibrary.Core.Utilities.GitRepositoryHasUncommittedChanges*
   name: GitRepositoryHasUncommittedChanges
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitRepositoryHasUncommittedChanges_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitRepositoryHasUncommittedChanges_
   commentId: Overload:GRYLibrary.Core.Utilities.GitRepositoryHasUncommittedChanges
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GitRepositoryHasUncommittedChanges
   nameWithType: Utilities.GitRepositoryHasUncommittedChanges
 - uid: GRYLibrary.Core.Utilities.GitRepositoryHasUnstagedChanges(System.String)
   name: GitRepositoryHasUnstagedChanges(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitRepositoryHasUnstagedChanges_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitRepositoryHasUnstagedChanges_System_String_
   commentId: M:GRYLibrary.Core.Utilities.GitRepositoryHasUnstagedChanges(System.String)
   fullName: GRYLibrary.Core.Utilities.GitRepositoryHasUnstagedChanges(System.String)
   nameWithType: Utilities.GitRepositoryHasUnstagedChanges(String)
 - uid: GRYLibrary.Core.Utilities.GitRepositoryHasUnstagedChanges*
   name: GitRepositoryHasUnstagedChanges
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitRepositoryHasUnstagedChanges_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitRepositoryHasUnstagedChanges_
   commentId: Overload:GRYLibrary.Core.Utilities.GitRepositoryHasUnstagedChanges
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GitRepositoryHasUnstagedChanges
   nameWithType: Utilities.GitRepositoryHasUnstagedChanges
 - uid: GRYLibrary.Core.Utilities.GitRepositoryHasUnstagedChangesOfTrackedFiles(System.String)
   name: GitRepositoryHasUnstagedChangesOfTrackedFiles(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitRepositoryHasUnstagedChangesOfTrackedFiles_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitRepositoryHasUnstagedChangesOfTrackedFiles_System_String_
   commentId: M:GRYLibrary.Core.Utilities.GitRepositoryHasUnstagedChangesOfTrackedFiles(System.String)
   fullName: GRYLibrary.Core.Utilities.GitRepositoryHasUnstagedChangesOfTrackedFiles(System.String)
   nameWithType: Utilities.GitRepositoryHasUnstagedChangesOfTrackedFiles(String)
 - uid: GRYLibrary.Core.Utilities.GitRepositoryHasUnstagedChangesOfTrackedFiles*
   name: GitRepositoryHasUnstagedChangesOfTrackedFiles
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitRepositoryHasUnstagedChangesOfTrackedFiles_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitRepositoryHasUnstagedChangesOfTrackedFiles_
   commentId: Overload:GRYLibrary.Core.Utilities.GitRepositoryHasUnstagedChangesOfTrackedFiles
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GitRepositoryHasUnstagedChangesOfTrackedFiles
   nameWithType: Utilities.GitRepositoryHasUnstagedChangesOfTrackedFiles
 - uid: GRYLibrary.Core.Utilities.HexStringToByteArray(System.String)
   name: HexStringToByteArray(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_HexStringToByteArray_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_HexStringToByteArray_System_String_
   commentId: M:GRYLibrary.Core.Utilities.HexStringToByteArray(System.String)
   fullName: GRYLibrary.Core.Utilities.HexStringToByteArray(System.String)
   nameWithType: Utilities.HexStringToByteArray(String)
 - uid: GRYLibrary.Core.Utilities.HexStringToByteArray*
   name: HexStringToByteArray
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_HexStringToByteArray_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_HexStringToByteArray_
   commentId: Overload:GRYLibrary.Core.Utilities.HexStringToByteArray
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.HexStringToByteArray
   nameWithType: Utilities.HexStringToByteArray
 - uid: GRYLibrary.Core.Utilities.HexStringToInteger(System.String)
   name: HexStringToInteger(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_HexStringToInteger_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_HexStringToInteger_System_String_
   commentId: M:GRYLibrary.Core.Utilities.HexStringToInteger(System.String)
   fullName: GRYLibrary.Core.Utilities.HexStringToInteger(System.String)
   nameWithType: Utilities.HexStringToInteger(String)
 - uid: GRYLibrary.Core.Utilities.HexStringToInteger*
   name: HexStringToInteger
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_HexStringToInteger_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_HexStringToInteger_
   commentId: Overload:GRYLibrary.Core.Utilities.HexStringToInteger
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.HexStringToInteger
   nameWithType: Utilities.HexStringToInteger
 - uid: GRYLibrary.Core.Utilities.IncrementGuid(System.Guid,System.Int64)
   name: IncrementGuid(Guid, Int64)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IncrementGuid_System_Guid_System_Int64_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IncrementGuid_System_Guid_System_Int64_
   commentId: M:GRYLibrary.Core.Utilities.IncrementGuid(System.Guid,System.Int64)
   fullName: GRYLibrary.Core.Utilities.IncrementGuid(System.Guid, System.Int64)
   nameWithType: Utilities.IncrementGuid(Guid, Int64)
 - uid: GRYLibrary.Core.Utilities.IncrementGuid(System.Guid,System.Numerics.BigInteger)
   name: IncrementGuid(Guid, BigInteger)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IncrementGuid_System_Guid_System_Numerics_BigInteger_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IncrementGuid_System_Guid_System_Numerics_BigInteger_
   commentId: M:GRYLibrary.Core.Utilities.IncrementGuid(System.Guid,System.Numerics.BigInteger)
   fullName: GRYLibrary.Core.Utilities.IncrementGuid(System.Guid, System.Numerics.BigInteger)
   nameWithType: Utilities.IncrementGuid(Guid, BigInteger)
 - uid: GRYLibrary.Core.Utilities.IncrementGuid*
   name: IncrementGuid
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IncrementGuid_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IncrementGuid_
   commentId: Overload:GRYLibrary.Core.Utilities.IncrementGuid
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.IncrementGuid
   nameWithType: Utilities.IncrementGuid
 - uid: GRYLibrary.Core.Utilities.IntegerToHexString(System.Numerics.BigInteger)
   name: IntegerToHexString(BigInteger)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IntegerToHexString_System_Numerics_BigInteger_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IntegerToHexString_System_Numerics_BigInteger_
   commentId: M:GRYLibrary.Core.Utilities.IntegerToHexString(System.Numerics.BigInteger)
   fullName: GRYLibrary.Core.Utilities.IntegerToHexString(System.Numerics.BigInteger)
   nameWithType: Utilities.IntegerToHexString(BigInteger)
 - uid: GRYLibrary.Core.Utilities.IntegerToHexString*
   name: IntegerToHexString
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IntegerToHexString_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IntegerToHexString_
   commentId: Overload:GRYLibrary.Core.Utilities.IntegerToHexString
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.IntegerToHexString
   nameWithType: Utilities.IntegerToHexString
 - uid: GRYLibrary.Core.Utilities.IsAbsolutePath(System.String)
   name: IsAbsolutePath(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsAbsolutePath_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsAbsolutePath_System_String_
   commentId: M:GRYLibrary.Core.Utilities.IsAbsolutePath(System.String)
   fullName: GRYLibrary.Core.Utilities.IsAbsolutePath(System.String)
   nameWithType: Utilities.IsAbsolutePath(String)
 - uid: GRYLibrary.Core.Utilities.IsAbsolutePath*
   name: IsAbsolutePath
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsAbsolutePath_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsAbsolutePath_
   commentId: Overload:GRYLibrary.Core.Utilities.IsAbsolutePath
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.IsAbsolutePath
   nameWithType: Utilities.IsAbsolutePath
 - uid: GRYLibrary.Core.Utilities.IsAllLower(System.String)
   name: IsAllLower(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsAllLower_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsAllLower_System_String_
   commentId: M:GRYLibrary.Core.Utilities.IsAllLower(System.String)
   fullName: GRYLibrary.Core.Utilities.IsAllLower(System.String)
   nameWithType: Utilities.IsAllLower(String)
 - uid: GRYLibrary.Core.Utilities.IsAllLower*
   name: IsAllLower
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsAllLower_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsAllLower_
   commentId: Overload:GRYLibrary.Core.Utilities.IsAllLower
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.IsAllLower
   nameWithType: Utilities.IsAllLower
 - uid: GRYLibrary.Core.Utilities.IsAllUpper(System.String)
   name: IsAllUpper(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsAllUpper_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsAllUpper_System_String_
   commentId: M:GRYLibrary.Core.Utilities.IsAllUpper(System.String)
   fullName: GRYLibrary.Core.Utilities.IsAllUpper(System.String)
   nameWithType: Utilities.IsAllUpper(String)
 - uid: GRYLibrary.Core.Utilities.IsAllUpper*
   name: IsAllUpper
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsAllUpper_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsAllUpper_
   commentId: Overload:GRYLibrary.Core.Utilities.IsAllUpper
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.IsAllUpper
   nameWithType: Utilities.IsAllUpper
 - uid: GRYLibrary.Core.Utilities.IsAssignableFrom(System.Object,System.Type)
   name: IsAssignableFrom(Object, Type)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsAssignableFrom_System_Object_System_Type_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsAssignableFrom_System_Object_System_Type_
   commentId: M:GRYLibrary.Core.Utilities.IsAssignableFrom(System.Object,System.Type)
   fullName: GRYLibrary.Core.Utilities.IsAssignableFrom(System.Object, System.Type)
   nameWithType: Utilities.IsAssignableFrom(Object, Type)
 - uid: GRYLibrary.Core.Utilities.IsAssignableFrom(System.Type,System.Type)
   name: IsAssignableFrom(Type, Type)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsAssignableFrom_System_Type_System_Type_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsAssignableFrom_System_Type_System_Type_
   commentId: M:GRYLibrary.Core.Utilities.IsAssignableFrom(System.Type,System.Type)
   fullName: GRYLibrary.Core.Utilities.IsAssignableFrom(System.Type, System.Type)
   nameWithType: Utilities.IsAssignableFrom(Type, Type)
 - uid: GRYLibrary.Core.Utilities.IsAssignableFrom*
   name: IsAssignableFrom
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsAssignableFrom_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsAssignableFrom_
   commentId: Overload:GRYLibrary.Core.Utilities.IsAssignableFrom
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.IsAssignableFrom
   nameWithType: Utilities.IsAssignableFrom
 - uid: GRYLibrary.Core.Utilities.IsDefault(System.Object)
   name: IsDefault(Object)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsDefault_System_Object_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsDefault_System_Object_
   commentId: M:GRYLibrary.Core.Utilities.IsDefault(System.Object)
   fullName: GRYLibrary.Core.Utilities.IsDefault(System.Object)
   nameWithType: Utilities.IsDefault(Object)
 - uid: GRYLibrary.Core.Utilities.IsDefault*
   name: IsDefault
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsDefault_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsDefault_
   commentId: Overload:GRYLibrary.Core.Utilities.IsDefault
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.IsDefault
   nameWithType: Utilities.IsDefault
 - uid: GRYLibrary.Core.Utilities.IsGitRepository(System.String)
   name: IsGitRepository(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsGitRepository_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsGitRepository_System_String_
   commentId: M:GRYLibrary.Core.Utilities.IsGitRepository(System.String)
   fullName: GRYLibrary.Core.Utilities.IsGitRepository(System.String)
   nameWithType: Utilities.IsGitRepository(String)
 - uid: GRYLibrary.Core.Utilities.IsGitRepository*
   name: IsGitRepository
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsGitRepository_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsGitRepository_
   commentId: Overload:GRYLibrary.Core.Utilities.IsGitRepository
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.IsGitRepository
   nameWithType: Utilities.IsGitRepository
 - uid: GRYLibrary.Core.Utilities.IsHexDigit(System.Char)
   name: IsHexDigit(Char)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsHexDigit_System_Char_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsHexDigit_System_Char_
   commentId: M:GRYLibrary.Core.Utilities.IsHexDigit(System.Char)
   fullName: GRYLibrary.Core.Utilities.IsHexDigit(System.Char)
   nameWithType: Utilities.IsHexDigit(Char)
 - uid: GRYLibrary.Core.Utilities.IsHexDigit*
   name: IsHexDigit
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsHexDigit_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsHexDigit_
   commentId: Overload:GRYLibrary.Core.Utilities.IsHexDigit
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.IsHexDigit
   nameWithType: Utilities.IsHexDigit
 - uid: GRYLibrary.Core.Utilities.IsHexString(System.String)
   name: IsHexString(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsHexString_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsHexString_System_String_
   commentId: M:GRYLibrary.Core.Utilities.IsHexString(System.String)
   fullName: GRYLibrary.Core.Utilities.IsHexString(System.String)
   nameWithType: Utilities.IsHexString(String)
 - uid: GRYLibrary.Core.Utilities.IsHexString*
   name: IsHexString
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsHexString_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsHexString_
   commentId: Overload:GRYLibrary.Core.Utilities.IsHexString
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.IsHexString
   nameWithType: Utilities.IsHexString
 - uid: GRYLibrary.Core.Utilities.IsInGitSubmodule(System.String)
   name: IsInGitSubmodule(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsInGitSubmodule_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsInGitSubmodule_System_String_
   commentId: M:GRYLibrary.Core.Utilities.IsInGitSubmodule(System.String)
   fullName: GRYLibrary.Core.Utilities.IsInGitSubmodule(System.String)
   nameWithType: Utilities.IsInGitSubmodule(String)
 - uid: GRYLibrary.Core.Utilities.IsInGitSubmodule*
   name: IsInGitSubmodule
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsInGitSubmodule_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsInGitSubmodule_
   commentId: Overload:GRYLibrary.Core.Utilities.IsInGitSubmodule
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.IsInGitSubmodule
   nameWithType: Utilities.IsInGitSubmodule
 - uid: GRYLibrary.Core.Utilities.IsNegative(System.TimeSpan)
   name: IsNegative(TimeSpan)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsNegative_System_TimeSpan_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsNegative_System_TimeSpan_
   commentId: M:GRYLibrary.Core.Utilities.IsNegative(System.TimeSpan)
   fullName: GRYLibrary.Core.Utilities.IsNegative(System.TimeSpan)
   nameWithType: Utilities.IsNegative(TimeSpan)
 - uid: GRYLibrary.Core.Utilities.IsNegative*
   name: IsNegative
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsNegative_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsNegative_
   commentId: Overload:GRYLibrary.Core.Utilities.IsNegative
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.IsNegative
   nameWithType: Utilities.IsNegative
 - uid: GRYLibrary.Core.Utilities.IsPositive(System.TimeSpan)
   name: IsPositive(TimeSpan)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsPositive_System_TimeSpan_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsPositive_System_TimeSpan_
   commentId: M:GRYLibrary.Core.Utilities.IsPositive(System.TimeSpan)
   fullName: GRYLibrary.Core.Utilities.IsPositive(System.TimeSpan)
   nameWithType: Utilities.IsPositive(TimeSpan)
 - uid: GRYLibrary.Core.Utilities.IsPositive*
   name: IsPositive
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsPositive_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsPositive_
   commentId: Overload:GRYLibrary.Core.Utilities.IsPositive
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.IsPositive
   nameWithType: Utilities.IsPositive
 - uid: GRYLibrary.Core.Utilities.IsRelativePath(System.String)
   name: IsRelativePath(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsRelativePath_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsRelativePath_System_String_
   commentId: M:GRYLibrary.Core.Utilities.IsRelativePath(System.String)
   fullName: GRYLibrary.Core.Utilities.IsRelativePath(System.String)
   nameWithType: Utilities.IsRelativePath(String)
 - uid: GRYLibrary.Core.Utilities.IsRelativePath*
   name: IsRelativePath
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsRelativePath_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsRelativePath_
   commentId: Overload:GRYLibrary.Core.Utilities.IsRelativePath
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.IsRelativePath
   nameWithType: Utilities.IsRelativePath
 - uid: GRYLibrary.Core.Utilities.JaggedArrayToEnumerableOfEnumerable*
   name: JaggedArrayToEnumerableOfEnumerable
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_JaggedArrayToEnumerableOfEnumerable_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_JaggedArrayToEnumerableOfEnumerable_
   commentId: Overload:GRYLibrary.Core.Utilities.JaggedArrayToEnumerableOfEnumerable
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.JaggedArrayToEnumerableOfEnumerable
   nameWithType: Utilities.JaggedArrayToEnumerableOfEnumerable
 - uid: GRYLibrary.Core.Utilities.JaggedArrayToEnumerableOfEnumerable``1(``0[][])
   name: JaggedArrayToEnumerableOfEnumerable<T>(T[][])
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_JaggedArrayToEnumerableOfEnumerable__1___0_____
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_JaggedArrayToEnumerableOfEnumerable__1___0_____
   commentId: M:GRYLibrary.Core.Utilities.JaggedArrayToEnumerableOfEnumerable``1(``0[][])
   name.vb: JaggedArrayToEnumerableOfEnumerable(Of T)(T()())
   fullName: GRYLibrary.Core.Utilities.JaggedArrayToEnumerableOfEnumerable<T>(T[][])
@@ -9394,14 +9394,14 @@ references:
   nameWithType.vb: Utilities.JaggedArrayToEnumerableOfEnumerable(Of T)(T()())
 - uid: GRYLibrary.Core.Utilities.JaggedArrayToTwoDimensionalArray*
   name: JaggedArrayToTwoDimensionalArray
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_JaggedArrayToTwoDimensionalArray_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_JaggedArrayToTwoDimensionalArray_
   commentId: Overload:GRYLibrary.Core.Utilities.JaggedArrayToTwoDimensionalArray
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.JaggedArrayToTwoDimensionalArray
   nameWithType: Utilities.JaggedArrayToTwoDimensionalArray
 - uid: GRYLibrary.Core.Utilities.JaggedArrayToTwoDimensionalArray``1(``0[][])
   name: JaggedArrayToTwoDimensionalArray<T>(T[][])
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_JaggedArrayToTwoDimensionalArray__1___0_____
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_JaggedArrayToTwoDimensionalArray__1___0_____
   commentId: M:GRYLibrary.Core.Utilities.JaggedArrayToTwoDimensionalArray``1(``0[][])
   name.vb: JaggedArrayToTwoDimensionalArray(Of T)(T()())
   fullName: GRYLibrary.Core.Utilities.JaggedArrayToTwoDimensionalArray<T>(T[][])
@@ -9410,14 +9410,14 @@ references:
   nameWithType.vb: Utilities.JaggedArrayToTwoDimensionalArray(Of T)(T()())
 - uid: GRYLibrary.Core.Utilities.LoadFromDisk*
   name: LoadFromDisk
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_LoadFromDisk_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_LoadFromDisk_
   commentId: Overload:GRYLibrary.Core.Utilities.LoadFromDisk
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.LoadFromDisk
   nameWithType: Utilities.LoadFromDisk
 - uid: GRYLibrary.Core.Utilities.LoadFromDisk``1(System.String)
   name: LoadFromDisk<T>(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_LoadFromDisk__1_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_LoadFromDisk__1_System_String_
   commentId: M:GRYLibrary.Core.Utilities.LoadFromDisk``1(System.String)
   name.vb: LoadFromDisk(Of T)(String)
   fullName: GRYLibrary.Core.Utilities.LoadFromDisk<T>(System.String)
@@ -9426,13 +9426,13 @@ references:
   nameWithType.vb: Utilities.LoadFromDisk(Of T)(String)
 - uid: GRYLibrary.Core.Utilities.MoveContentOfFoldersAcrossVolumes(System.String,System.String)
   name: MoveContentOfFoldersAcrossVolumes(String, String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_MoveContentOfFoldersAcrossVolumes_System_String_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_MoveContentOfFoldersAcrossVolumes_System_String_System_String_
   commentId: M:GRYLibrary.Core.Utilities.MoveContentOfFoldersAcrossVolumes(System.String,System.String)
   fullName: GRYLibrary.Core.Utilities.MoveContentOfFoldersAcrossVolumes(System.String, System.String)
   nameWithType: Utilities.MoveContentOfFoldersAcrossVolumes(String, String)
 - uid: GRYLibrary.Core.Utilities.MoveContentOfFoldersAcrossVolumes(System.String,System.String,GRYLibrary.Core.FileSelector,System.Action{System.Exception},System.Boolean)
   name: MoveContentOfFoldersAcrossVolumes(String, String, FileSelector, Action<Exception>, Boolean)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_MoveContentOfFoldersAcrossVolumes_System_String_System_String_GRYLibrary_Core_FileSelector_System_Action_System_Exception__System_Boolean_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_MoveContentOfFoldersAcrossVolumes_System_String_System_String_GRYLibrary_Core_FileSelector_System_Action_System_Exception__System_Boolean_
   commentId: M:GRYLibrary.Core.Utilities.MoveContentOfFoldersAcrossVolumes(System.String,System.String,GRYLibrary.Core.FileSelector,System.Action{System.Exception},System.Boolean)
   name.vb: MoveContentOfFoldersAcrossVolumes(String, String, FileSelector, Action(Of Exception), Boolean)
   fullName: GRYLibrary.Core.Utilities.MoveContentOfFoldersAcrossVolumes(System.String, System.String, GRYLibrary.Core.FileSelector, System.Action<System.Exception>, System.Boolean)
@@ -9441,13 +9441,13 @@ references:
   nameWithType.vb: Utilities.MoveContentOfFoldersAcrossVolumes(String, String, FileSelector, Action(Of Exception), Boolean)
 - uid: GRYLibrary.Core.Utilities.MoveContentOfFoldersAcrossVolumes(System.String,System.String,GRYLibrary.Core.FileSelector,System.Boolean)
   name: MoveContentOfFoldersAcrossVolumes(String, String, FileSelector, Boolean)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_MoveContentOfFoldersAcrossVolumes_System_String_System_String_GRYLibrary_Core_FileSelector_System_Boolean_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_MoveContentOfFoldersAcrossVolumes_System_String_System_String_GRYLibrary_Core_FileSelector_System_Boolean_
   commentId: M:GRYLibrary.Core.Utilities.MoveContentOfFoldersAcrossVolumes(System.String,System.String,GRYLibrary.Core.FileSelector,System.Boolean)
   fullName: GRYLibrary.Core.Utilities.MoveContentOfFoldersAcrossVolumes(System.String, System.String, GRYLibrary.Core.FileSelector, System.Boolean)
   nameWithType: Utilities.MoveContentOfFoldersAcrossVolumes(String, String, FileSelector, Boolean)
 - uid: GRYLibrary.Core.Utilities.MoveContentOfFoldersAcrossVolumes(System.String,System.String,System.Func{System.String,System.Boolean},System.Action{System.Exception},System.Boolean)
   name: MoveContentOfFoldersAcrossVolumes(String, String, Func<String, Boolean>, Action<Exception>, Boolean)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_MoveContentOfFoldersAcrossVolumes_System_String_System_String_System_Func_System_String_System_Boolean__System_Action_System_Exception__System_Boolean_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_MoveContentOfFoldersAcrossVolumes_System_String_System_String_System_Func_System_String_System_Boolean__System_Action_System_Exception__System_Boolean_
   commentId: M:GRYLibrary.Core.Utilities.MoveContentOfFoldersAcrossVolumes(System.String,System.String,System.Func{System.String,System.Boolean},System.Action{System.Exception},System.Boolean)
   name.vb: MoveContentOfFoldersAcrossVolumes(String, String, Func(Of String, Boolean), Action(Of Exception), Boolean)
   fullName: GRYLibrary.Core.Utilities.MoveContentOfFoldersAcrossVolumes(System.String, System.String, System.Func<System.String, System.Boolean>, System.Action<System.Exception>, System.Boolean)
@@ -9456,7 +9456,7 @@ references:
   nameWithType.vb: Utilities.MoveContentOfFoldersAcrossVolumes(String, String, Func(Of String, Boolean), Action(Of Exception), Boolean)
 - uid: GRYLibrary.Core.Utilities.MoveContentOfFoldersAcrossVolumes(System.String,System.String,System.Func{System.String,System.Boolean},System.Boolean)
   name: MoveContentOfFoldersAcrossVolumes(String, String, Func<String, Boolean>, Boolean)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_MoveContentOfFoldersAcrossVolumes_System_String_System_String_System_Func_System_String_System_Boolean__System_Boolean_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_MoveContentOfFoldersAcrossVolumes_System_String_System_String_System_Func_System_String_System_Boolean__System_Boolean_
   commentId: M:GRYLibrary.Core.Utilities.MoveContentOfFoldersAcrossVolumes(System.String,System.String,System.Func{System.String,System.Boolean},System.Boolean)
   name.vb: MoveContentOfFoldersAcrossVolumes(String, String, Func(Of String, Boolean), Boolean)
   fullName: GRYLibrary.Core.Utilities.MoveContentOfFoldersAcrossVolumes(System.String, System.String, System.Func<System.String, System.Boolean>, System.Boolean)
@@ -9465,47 +9465,47 @@ references:
   nameWithType.vb: Utilities.MoveContentOfFoldersAcrossVolumes(String, String, Func(Of String, Boolean), Boolean)
 - uid: GRYLibrary.Core.Utilities.MoveContentOfFoldersAcrossVolumes*
   name: MoveContentOfFoldersAcrossVolumes
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_MoveContentOfFoldersAcrossVolumes_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_MoveContentOfFoldersAcrossVolumes_
   commentId: Overload:GRYLibrary.Core.Utilities.MoveContentOfFoldersAcrossVolumes
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.MoveContentOfFoldersAcrossVolumes
   nameWithType: Utilities.MoveContentOfFoldersAcrossVolumes
 - uid: GRYLibrary.Core.Utilities.MoveFolderAcrossVolumes(System.String,System.String,System.Boolean)
   name: MoveFolderAcrossVolumes(String, String, Boolean)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_MoveFolderAcrossVolumes_System_String_System_String_System_Boolean_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_MoveFolderAcrossVolumes_System_String_System_String_System_Boolean_
   commentId: M:GRYLibrary.Core.Utilities.MoveFolderAcrossVolumes(System.String,System.String,System.Boolean)
   fullName: GRYLibrary.Core.Utilities.MoveFolderAcrossVolumes(System.String, System.String, System.Boolean)
   nameWithType: Utilities.MoveFolderAcrossVolumes(String, String, Boolean)
 - uid: GRYLibrary.Core.Utilities.MoveFolderAcrossVolumes*
   name: MoveFolderAcrossVolumes
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_MoveFolderAcrossVolumes_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_MoveFolderAcrossVolumes_
   commentId: Overload:GRYLibrary.Core.Utilities.MoveFolderAcrossVolumes
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.MoveFolderAcrossVolumes
   nameWithType: Utilities.MoveFolderAcrossVolumes
 - uid: GRYLibrary.Core.Utilities.NoOperation
   name: NoOperation()
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_NoOperation
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_NoOperation
   commentId: M:GRYLibrary.Core.Utilities.NoOperation
   fullName: GRYLibrary.Core.Utilities.NoOperation()
   nameWithType: Utilities.NoOperation()
 - uid: GRYLibrary.Core.Utilities.NoOperation*
   name: NoOperation
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_NoOperation_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_NoOperation_
   commentId: Overload:GRYLibrary.Core.Utilities.NoOperation
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.NoOperation
   nameWithType: Utilities.NoOperation
 - uid: GRYLibrary.Core.Utilities.NullSafeEnumerableEquals*
   name: NullSafeEnumerableEquals
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_NullSafeEnumerableEquals_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_NullSafeEnumerableEquals_
   commentId: Overload:GRYLibrary.Core.Utilities.NullSafeEnumerableEquals
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.NullSafeEnumerableEquals
   nameWithType: Utilities.NullSafeEnumerableEquals
 - uid: GRYLibrary.Core.Utilities.NullSafeEnumerableEquals``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
   name: NullSafeEnumerableEquals<T>(IEnumerable<T>, IEnumerable<T>)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_NullSafeEnumerableEquals__1_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___0__
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_NullSafeEnumerableEquals__1_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___0__
   commentId: M:GRYLibrary.Core.Utilities.NullSafeEnumerableEquals``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
   name.vb: NullSafeEnumerableEquals(Of T)(IEnumerable(Of T), IEnumerable(Of T))
   fullName: GRYLibrary.Core.Utilities.NullSafeEnumerableEquals<T>(System.Collections.Generic.IEnumerable<T>, System.Collections.Generic.IEnumerable<T>)
@@ -9514,27 +9514,27 @@ references:
   nameWithType.vb: Utilities.NullSafeEnumerableEquals(Of T)(IEnumerable(Of T), IEnumerable(Of T))
 - uid: GRYLibrary.Core.Utilities.NullSafeEquals(System.Object,System.Object)
   name: NullSafeEquals(Object, Object)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_NullSafeEquals_System_Object_System_Object_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_NullSafeEquals_System_Object_System_Object_
   commentId: M:GRYLibrary.Core.Utilities.NullSafeEquals(System.Object,System.Object)
   fullName: GRYLibrary.Core.Utilities.NullSafeEquals(System.Object, System.Object)
   nameWithType: Utilities.NullSafeEquals(Object, Object)
 - uid: GRYLibrary.Core.Utilities.NullSafeEquals*
   name: NullSafeEquals
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_NullSafeEquals_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_NullSafeEquals_
   commentId: Overload:GRYLibrary.Core.Utilities.NullSafeEquals
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.NullSafeEquals
   nameWithType: Utilities.NullSafeEquals
 - uid: GRYLibrary.Core.Utilities.NullSafeListEquals*
   name: NullSafeListEquals
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_NullSafeListEquals_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_NullSafeListEquals_
   commentId: Overload:GRYLibrary.Core.Utilities.NullSafeListEquals
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.NullSafeListEquals
   nameWithType: Utilities.NullSafeListEquals
 - uid: GRYLibrary.Core.Utilities.NullSafeListEquals``1(System.Collections.Generic.IList{``0},System.Collections.Generic.IList{``0})
   name: NullSafeListEquals<T>(IList<T>, IList<T>)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_NullSafeListEquals__1_System_Collections_Generic_IList___0__System_Collections_Generic_IList___0__
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_NullSafeListEquals__1_System_Collections_Generic_IList___0__System_Collections_Generic_IList___0__
   commentId: M:GRYLibrary.Core.Utilities.NullSafeListEquals``1(System.Collections.Generic.IList{``0},System.Collections.Generic.IList{``0})
   name.vb: NullSafeListEquals(Of T)(IList(Of T), IList(Of T))
   fullName: GRYLibrary.Core.Utilities.NullSafeListEquals<T>(System.Collections.Generic.IList<T>, System.Collections.Generic.IList<T>)
@@ -9543,14 +9543,14 @@ references:
   nameWithType.vb: Utilities.NullSafeListEquals(Of T)(IList(Of T), IList(Of T))
 - uid: GRYLibrary.Core.Utilities.NullSafeSetEquals*
   name: NullSafeSetEquals
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_NullSafeSetEquals_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_NullSafeSetEquals_
   commentId: Overload:GRYLibrary.Core.Utilities.NullSafeSetEquals
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.NullSafeSetEquals
   nameWithType: Utilities.NullSafeSetEquals
 - uid: GRYLibrary.Core.Utilities.NullSafeSetEquals``1(System.Collections.Generic.ISet{``0},System.Collections.Generic.ISet{``0})
   name: NullSafeSetEquals<T>(ISet<T>, ISet<T>)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_NullSafeSetEquals__1_System_Collections_Generic_ISet___0__System_Collections_Generic_ISet___0__
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_NullSafeSetEquals__1_System_Collections_Generic_ISet___0__System_Collections_Generic_ISet___0__
   commentId: M:GRYLibrary.Core.Utilities.NullSafeSetEquals``1(System.Collections.Generic.ISet{``0},System.Collections.Generic.ISet{``0})
   name.vb: NullSafeSetEquals(Of T)(ISet(Of T), ISet(Of T))
   fullName: GRYLibrary.Core.Utilities.NullSafeSetEquals<T>(System.Collections.Generic.ISet<T>, System.Collections.Generic.ISet<T>)
@@ -9559,79 +9559,79 @@ references:
   nameWithType.vb: Utilities.NullSafeSetEquals(Of T)(ISet(Of T), ISet(Of T))
 - uid: GRYLibrary.Core.Utilities.ObjectIsDictionary(System.Object)
   name: ObjectIsDictionary(Object)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsDictionary_System_Object_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsDictionary_System_Object_
   commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionary(System.Object)
   fullName: GRYLibrary.Core.Utilities.ObjectIsDictionary(System.Object)
   nameWithType: Utilities.ObjectIsDictionary(Object)
 - uid: GRYLibrary.Core.Utilities.ObjectIsDictionary*
   name: ObjectIsDictionary
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsDictionary_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsDictionary_
   commentId: Overload:GRYLibrary.Core.Utilities.ObjectIsDictionary
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ObjectIsDictionary
   nameWithType: Utilities.ObjectIsDictionary
 - uid: GRYLibrary.Core.Utilities.ObjectIsEnumerable(System.Object)
   name: ObjectIsEnumerable(Object)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsEnumerable_System_Object_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsEnumerable_System_Object_
   commentId: M:GRYLibrary.Core.Utilities.ObjectIsEnumerable(System.Object)
   fullName: GRYLibrary.Core.Utilities.ObjectIsEnumerable(System.Object)
   nameWithType: Utilities.ObjectIsEnumerable(Object)
 - uid: GRYLibrary.Core.Utilities.ObjectIsEnumerable*
   name: ObjectIsEnumerable
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsEnumerable_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsEnumerable_
   commentId: Overload:GRYLibrary.Core.Utilities.ObjectIsEnumerable
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ObjectIsEnumerable
   nameWithType: Utilities.ObjectIsEnumerable
 - uid: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair(System.Object)
   name: ObjectIsKeyValuePair(Object)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsKeyValuePair_System_Object_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsKeyValuePair_System_Object_
   commentId: M:GRYLibrary.Core.Utilities.ObjectIsKeyValuePair(System.Object)
   fullName: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair(System.Object)
   nameWithType: Utilities.ObjectIsKeyValuePair(Object)
 - uid: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair*
   name: ObjectIsKeyValuePair
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsKeyValuePair_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsKeyValuePair_
   commentId: Overload:GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
   nameWithType: Utilities.ObjectIsKeyValuePair
 - uid: GRYLibrary.Core.Utilities.ObjectIsList(System.Object)
   name: ObjectIsList(Object)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsList_System_Object_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsList_System_Object_
   commentId: M:GRYLibrary.Core.Utilities.ObjectIsList(System.Object)
   fullName: GRYLibrary.Core.Utilities.ObjectIsList(System.Object)
   nameWithType: Utilities.ObjectIsList(Object)
 - uid: GRYLibrary.Core.Utilities.ObjectIsList*
   name: ObjectIsList
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsList_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsList_
   commentId: Overload:GRYLibrary.Core.Utilities.ObjectIsList
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ObjectIsList
   nameWithType: Utilities.ObjectIsList
 - uid: GRYLibrary.Core.Utilities.ObjectIsSet(System.Object)
   name: ObjectIsSet(Object)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsSet_System_Object_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsSet_System_Object_
   commentId: M:GRYLibrary.Core.Utilities.ObjectIsSet(System.Object)
   fullName: GRYLibrary.Core.Utilities.ObjectIsSet(System.Object)
   nameWithType: Utilities.ObjectIsSet(Object)
 - uid: GRYLibrary.Core.Utilities.ObjectIsSet*
   name: ObjectIsSet
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsSet_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsSet_
   commentId: Overload:GRYLibrary.Core.Utilities.ObjectIsSet
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ObjectIsSet
   nameWithType: Utilities.ObjectIsSet
 - uid: GRYLibrary.Core.Utilities.ObjectToDictionary*
   name: ObjectToDictionary
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToDictionary_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToDictionary_
   commentId: Overload:GRYLibrary.Core.Utilities.ObjectToDictionary
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ObjectToDictionary
   nameWithType: Utilities.ObjectToDictionary
 - uid: GRYLibrary.Core.Utilities.ObjectToDictionary``2(System.Object)
   name: ObjectToDictionary<TKey, TValue>(Object)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToDictionary__2_System_Object_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToDictionary__2_System_Object_
   commentId: M:GRYLibrary.Core.Utilities.ObjectToDictionary``2(System.Object)
   name.vb: ObjectToDictionary(Of TKey, TValue)(Object)
   fullName: GRYLibrary.Core.Utilities.ObjectToDictionary<TKey, TValue>(System.Object)
@@ -9640,27 +9640,27 @@ references:
   nameWithType.vb: Utilities.ObjectToDictionary(Of TKey, TValue)(Object)
 - uid: GRYLibrary.Core.Utilities.ObjectToEnumerable(System.Object)
   name: ObjectToEnumerable(Object)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToEnumerable_System_Object_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToEnumerable_System_Object_
   commentId: M:GRYLibrary.Core.Utilities.ObjectToEnumerable(System.Object)
   fullName: GRYLibrary.Core.Utilities.ObjectToEnumerable(System.Object)
   nameWithType: Utilities.ObjectToEnumerable(Object)
 - uid: GRYLibrary.Core.Utilities.ObjectToEnumerable*
   name: ObjectToEnumerable
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToEnumerable_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToEnumerable_
   commentId: Overload:GRYLibrary.Core.Utilities.ObjectToEnumerable
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ObjectToEnumerable
   nameWithType: Utilities.ObjectToEnumerable
 - uid: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric*
   name: ObjectToEnumerableGeneric
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToEnumerableGeneric_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToEnumerableGeneric_
   commentId: Overload:GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric
   nameWithType: Utilities.ObjectToEnumerableGeneric
 - uid: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric``1(System.Object)
   name: ObjectToEnumerableGeneric<T>(Object)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToEnumerableGeneric__1_System_Object_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToEnumerableGeneric__1_System_Object_
   commentId: M:GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric``1(System.Object)
   name.vb: ObjectToEnumerableGeneric(Of T)(Object)
   fullName: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric<T>(System.Object)
@@ -9669,14 +9669,14 @@ references:
   nameWithType.vb: Utilities.ObjectToEnumerableGeneric(Of T)(Object)
 - uid: GRYLibrary.Core.Utilities.ObjectToKeyValuePair*
   name: ObjectToKeyValuePair
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToKeyValuePair_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToKeyValuePair_
   commentId: Overload:GRYLibrary.Core.Utilities.ObjectToKeyValuePair
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ObjectToKeyValuePair
   nameWithType: Utilities.ObjectToKeyValuePair
 - uid: GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2(System.Object)
   name: ObjectToKeyValuePair<TKey, TValue>(Object)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToKeyValuePair__2_System_Object_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToKeyValuePair__2_System_Object_
   commentId: M:GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2(System.Object)
   name.vb: ObjectToKeyValuePair(Of TKey, TValue)(Object)
   fullName: GRYLibrary.Core.Utilities.ObjectToKeyValuePair<TKey, TValue>(System.Object)
@@ -9685,14 +9685,14 @@ references:
   nameWithType.vb: Utilities.ObjectToKeyValuePair(Of TKey, TValue)(Object)
 - uid: GRYLibrary.Core.Utilities.ObjectToList*
   name: ObjectToList
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToList_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToList_
   commentId: Overload:GRYLibrary.Core.Utilities.ObjectToList
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ObjectToList
   nameWithType: Utilities.ObjectToList
 - uid: GRYLibrary.Core.Utilities.ObjectToList``1(System.Object)
   name: ObjectToList<T>(Object)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToList__1_System_Object_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToList__1_System_Object_
   commentId: M:GRYLibrary.Core.Utilities.ObjectToList``1(System.Object)
   name.vb: ObjectToList(Of T)(Object)
   fullName: GRYLibrary.Core.Utilities.ObjectToList<T>(System.Object)
@@ -9701,14 +9701,14 @@ references:
   nameWithType.vb: Utilities.ObjectToList(Of T)(Object)
 - uid: GRYLibrary.Core.Utilities.ObjectToSet*
   name: ObjectToSet
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToSet_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToSet_
   commentId: Overload:GRYLibrary.Core.Utilities.ObjectToSet
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ObjectToSet
   nameWithType: Utilities.ObjectToSet
 - uid: GRYLibrary.Core.Utilities.ObjectToSet``1(System.Object)
   name: ObjectToSet<T>(Object)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToSet__1_System_Object_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToSet__1_System_Object_
   commentId: M:GRYLibrary.Core.Utilities.ObjectToSet``1(System.Object)
   name.vb: ObjectToSet(Of T)(Object)
   fullName: GRYLibrary.Core.Utilities.ObjectToSet<T>(System.Object)
@@ -9717,14 +9717,14 @@ references:
   nameWithType.vb: Utilities.ObjectToSet(Of T)(Object)
 - uid: GRYLibrary.Core.Utilities.PersistToDisk*
   name: PersistToDisk
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_PersistToDisk_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_PersistToDisk_
   commentId: Overload:GRYLibrary.Core.Utilities.PersistToDisk
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.PersistToDisk
   nameWithType: Utilities.PersistToDisk
 - uid: GRYLibrary.Core.Utilities.PersistToDisk``1(``0,System.String)
   name: PersistToDisk<T>(T, String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_PersistToDisk__1___0_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_PersistToDisk__1___0_System_String_
   commentId: M:GRYLibrary.Core.Utilities.PersistToDisk``1(``0,System.String)
   name.vb: PersistToDisk(Of T)(T, String)
   fullName: GRYLibrary.Core.Utilities.PersistToDisk<T>(T, System.String)
@@ -9733,59 +9733,59 @@ references:
   nameWithType.vb: Utilities.PersistToDisk(Of T)(T, String)
 - uid: GRYLibrary.Core.Utilities.ReadCSVFile(System.String,System.String,System.Boolean)
   name: ReadCSVFile(String, String, Boolean)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ReadCSVFile_System_String_System_String_System_Boolean_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ReadCSVFile_System_String_System_String_System_Boolean_
   commentId: M:GRYLibrary.Core.Utilities.ReadCSVFile(System.String,System.String,System.Boolean)
   fullName: GRYLibrary.Core.Utilities.ReadCSVFile(System.String, System.String, System.Boolean)
   nameWithType: Utilities.ReadCSVFile(String, String, Boolean)
 - uid: GRYLibrary.Core.Utilities.ReadCSVFile(System.String,System.Text.Encoding,System.String,System.Boolean)
   name: ReadCSVFile(String, Encoding, String, Boolean)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ReadCSVFile_System_String_System_Text_Encoding_System_String_System_Boolean_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ReadCSVFile_System_String_System_Text_Encoding_System_String_System_Boolean_
   commentId: M:GRYLibrary.Core.Utilities.ReadCSVFile(System.String,System.Text.Encoding,System.String,System.Boolean)
   fullName: GRYLibrary.Core.Utilities.ReadCSVFile(System.String, System.Text.Encoding, System.String, System.Boolean)
   nameWithType: Utilities.ReadCSVFile(String, Encoding, String, Boolean)
 - uid: GRYLibrary.Core.Utilities.ReadCSVFile*
   name: ReadCSVFile
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ReadCSVFile_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ReadCSVFile_
   commentId: Overload:GRYLibrary.Core.Utilities.ReadCSVFile
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ReadCSVFile
   nameWithType: Utilities.ReadCSVFile
 - uid: GRYLibrary.Core.Utilities.RemoveAllMountPointsOfVolume(System.Guid)
   name: RemoveAllMountPointsOfVolume(Guid)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_RemoveAllMountPointsOfVolume_System_Guid_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_RemoveAllMountPointsOfVolume_System_Guid_
   commentId: M:GRYLibrary.Core.Utilities.RemoveAllMountPointsOfVolume(System.Guid)
   fullName: GRYLibrary.Core.Utilities.RemoveAllMountPointsOfVolume(System.Guid)
   nameWithType: Utilities.RemoveAllMountPointsOfVolume(Guid)
 - uid: GRYLibrary.Core.Utilities.RemoveAllMountPointsOfVolume*
   name: RemoveAllMountPointsOfVolume
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_RemoveAllMountPointsOfVolume_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_RemoveAllMountPointsOfVolume_
   commentId: Overload:GRYLibrary.Core.Utilities.RemoveAllMountPointsOfVolume
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.RemoveAllMountPointsOfVolume
   nameWithType: Utilities.RemoveAllMountPointsOfVolume
 - uid: GRYLibrary.Core.Utilities.RemoveContentOfFolder(System.String)
   name: RemoveContentOfFolder(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_RemoveContentOfFolder_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_RemoveContentOfFolder_System_String_
   commentId: M:GRYLibrary.Core.Utilities.RemoveContentOfFolder(System.String)
   fullName: GRYLibrary.Core.Utilities.RemoveContentOfFolder(System.String)
   nameWithType: Utilities.RemoveContentOfFolder(String)
 - uid: GRYLibrary.Core.Utilities.RemoveContentOfFolder*
   name: RemoveContentOfFolder
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_RemoveContentOfFolder_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_RemoveContentOfFolder_
   commentId: Overload:GRYLibrary.Core.Utilities.RemoveContentOfFolder
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.RemoveContentOfFolder
   nameWithType: Utilities.RemoveContentOfFolder
 - uid: GRYLibrary.Core.Utilities.RemoveItemOnlyOnce*
   name: RemoveItemOnlyOnce
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_RemoveItemOnlyOnce_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_RemoveItemOnlyOnce_
   commentId: Overload:GRYLibrary.Core.Utilities.RemoveItemOnlyOnce
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.RemoveItemOnlyOnce
   nameWithType: Utilities.RemoveItemOnlyOnce
 - uid: GRYLibrary.Core.Utilities.RemoveItemOnlyOnce``1(System.Collections.Generic.IList{``0},``0)
   name: RemoveItemOnlyOnce<T>(IList<T>, T)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_RemoveItemOnlyOnce__1_System_Collections_Generic_IList___0____0_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_RemoveItemOnlyOnce__1_System_Collections_Generic_IList___0____0_
   commentId: M:GRYLibrary.Core.Utilities.RemoveItemOnlyOnce``1(System.Collections.Generic.IList{``0},``0)
   name.vb: RemoveItemOnlyOnce(Of T)(IList(Of T), T)
   fullName: GRYLibrary.Core.Utilities.RemoveItemOnlyOnce<T>(System.Collections.Generic.IList<T>, T)
@@ -9794,20 +9794,20 @@ references:
   nameWithType.vb: Utilities.RemoveItemOnlyOnce(Of T)(IList(Of T), T)
 - uid: GRYLibrary.Core.Utilities.RemoveMountPointOfVolume(System.String)
   name: RemoveMountPointOfVolume(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_RemoveMountPointOfVolume_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_RemoveMountPointOfVolume_System_String_
   commentId: M:GRYLibrary.Core.Utilities.RemoveMountPointOfVolume(System.String)
   fullName: GRYLibrary.Core.Utilities.RemoveMountPointOfVolume(System.String)
   nameWithType: Utilities.RemoveMountPointOfVolume(String)
 - uid: GRYLibrary.Core.Utilities.RemoveMountPointOfVolume*
   name: RemoveMountPointOfVolume
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_RemoveMountPointOfVolume_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_RemoveMountPointOfVolume_
   commentId: Overload:GRYLibrary.Core.Utilities.RemoveMountPointOfVolume
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.RemoveMountPointOfVolume
   nameWithType: Utilities.RemoveMountPointOfVolume
 - uid: GRYLibrary.Core.Utilities.ReplaceUnderscores(System.String,System.Collections.Generic.IDictionary{System.String,System.String})
   name: ReplaceUnderscores(String, IDictionary<String, String>)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ReplaceUnderscores_System_String_System_Collections_Generic_IDictionary_System_String_System_String__
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ReplaceUnderscores_System_String_System_Collections_Generic_IDictionary_System_String_System_String__
   commentId: M:GRYLibrary.Core.Utilities.ReplaceUnderscores(System.String,System.Collections.Generic.IDictionary{System.String,System.String})
   name.vb: ReplaceUnderscores(String, IDictionary(Of String, String))
   fullName: GRYLibrary.Core.Utilities.ReplaceUnderscores(System.String, System.Collections.Generic.IDictionary<System.String, System.String>)
@@ -9816,14 +9816,14 @@ references:
   nameWithType.vb: Utilities.ReplaceUnderscores(String, IDictionary(Of String, String))
 - uid: GRYLibrary.Core.Utilities.ReplaceUnderscores*
   name: ReplaceUnderscores
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ReplaceUnderscores_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ReplaceUnderscores_
   commentId: Overload:GRYLibrary.Core.Utilities.ReplaceUnderscores
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ReplaceUnderscores
   nameWithType: Utilities.ReplaceUnderscores
 - uid: GRYLibrary.Core.Utilities.ReplaceUnderscoresInFile(System.String,System.Collections.Generic.IDictionary{System.String,System.String})
   name: ReplaceUnderscoresInFile(String, IDictionary<String, String>)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ReplaceUnderscoresInFile_System_String_System_Collections_Generic_IDictionary_System_String_System_String__
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ReplaceUnderscoresInFile_System_String_System_Collections_Generic_IDictionary_System_String_System_String__
   commentId: M:GRYLibrary.Core.Utilities.ReplaceUnderscoresInFile(System.String,System.Collections.Generic.IDictionary{System.String,System.String})
   name.vb: ReplaceUnderscoresInFile(String, IDictionary(Of String, String))
   fullName: GRYLibrary.Core.Utilities.ReplaceUnderscoresInFile(System.String, System.Collections.Generic.IDictionary<System.String, System.String>)
@@ -9832,7 +9832,7 @@ references:
   nameWithType.vb: Utilities.ReplaceUnderscoresInFile(String, IDictionary(Of String, String))
 - uid: GRYLibrary.Core.Utilities.ReplaceUnderscoresInFile(System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Text.Encoding)
   name: ReplaceUnderscoresInFile(String, IDictionary<String, String>, Encoding)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ReplaceUnderscoresInFile_System_String_System_Collections_Generic_IDictionary_System_String_System_String__System_Text_Encoding_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ReplaceUnderscoresInFile_System_String_System_Collections_Generic_IDictionary_System_String_System_String__System_Text_Encoding_
   commentId: M:GRYLibrary.Core.Utilities.ReplaceUnderscoresInFile(System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Text.Encoding)
   name.vb: ReplaceUnderscoresInFile(String, IDictionary(Of String, String), Encoding)
   fullName: GRYLibrary.Core.Utilities.ReplaceUnderscoresInFile(System.String, System.Collections.Generic.IDictionary<System.String, System.String>, System.Text.Encoding)
@@ -9841,14 +9841,14 @@ references:
   nameWithType.vb: Utilities.ReplaceUnderscoresInFile(String, IDictionary(Of String, String), Encoding)
 - uid: GRYLibrary.Core.Utilities.ReplaceUnderscoresInFile*
   name: ReplaceUnderscoresInFile
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ReplaceUnderscoresInFile_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ReplaceUnderscoresInFile_
   commentId: Overload:GRYLibrary.Core.Utilities.ReplaceUnderscoresInFile
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ReplaceUnderscoresInFile
   nameWithType: Utilities.ReplaceUnderscoresInFile
 - uid: GRYLibrary.Core.Utilities.ReplaceUnderscoresInFolderTransitively(System.String,System.Collections.Generic.IDictionary{System.String,System.String})
   name: ReplaceUnderscoresInFolderTransitively(String, IDictionary<String, String>)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ReplaceUnderscoresInFolderTransitively_System_String_System_Collections_Generic_IDictionary_System_String_System_String__
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ReplaceUnderscoresInFolderTransitively_System_String_System_Collections_Generic_IDictionary_System_String_System_String__
   commentId: M:GRYLibrary.Core.Utilities.ReplaceUnderscoresInFolderTransitively(System.String,System.Collections.Generic.IDictionary{System.String,System.String})
   name.vb: ReplaceUnderscoresInFolderTransitively(String, IDictionary(Of String, String))
   fullName: GRYLibrary.Core.Utilities.ReplaceUnderscoresInFolderTransitively(System.String, System.Collections.Generic.IDictionary<System.String, System.String>)
@@ -9857,40 +9857,40 @@ references:
   nameWithType.vb: Utilities.ReplaceUnderscoresInFolderTransitively(String, IDictionary(Of String, String))
 - uid: GRYLibrary.Core.Utilities.ReplaceUnderscoresInFolderTransitively*
   name: ReplaceUnderscoresInFolderTransitively
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ReplaceUnderscoresInFolderTransitively_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ReplaceUnderscoresInFolderTransitively_
   commentId: Overload:GRYLibrary.Core.Utilities.ReplaceUnderscoresInFolderTransitively
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ReplaceUnderscoresInFolderTransitively
   nameWithType: Utilities.ReplaceUnderscoresInFolderTransitively
 - uid: GRYLibrary.Core.Utilities.ResolveToFullPath(System.String)
   name: ResolveToFullPath(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ResolveToFullPath_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ResolveToFullPath_System_String_
   commentId: M:GRYLibrary.Core.Utilities.ResolveToFullPath(System.String)
   fullName: GRYLibrary.Core.Utilities.ResolveToFullPath(System.String)
   nameWithType: Utilities.ResolveToFullPath(String)
 - uid: GRYLibrary.Core.Utilities.ResolveToFullPath(System.String,System.String)
   name: ResolveToFullPath(String, String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ResolveToFullPath_System_String_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ResolveToFullPath_System_String_System_String_
   commentId: M:GRYLibrary.Core.Utilities.ResolveToFullPath(System.String,System.String)
   fullName: GRYLibrary.Core.Utilities.ResolveToFullPath(System.String, System.String)
   nameWithType: Utilities.ResolveToFullPath(String, String)
 - uid: GRYLibrary.Core.Utilities.ResolveToFullPath*
   name: ResolveToFullPath
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ResolveToFullPath_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ResolveToFullPath_
   commentId: Overload:GRYLibrary.Core.Utilities.ResolveToFullPath
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ResolveToFullPath
   nameWithType: Utilities.ResolveToFullPath
 - uid: GRYLibrary.Core.Utilities.RunAllConcurrentAndReturnAllResults*
   name: RunAllConcurrentAndReturnAllResults
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_RunAllConcurrentAndReturnAllResults_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_RunAllConcurrentAndReturnAllResults_
   commentId: Overload:GRYLibrary.Core.Utilities.RunAllConcurrentAndReturnAllResults
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.RunAllConcurrentAndReturnAllResults
   nameWithType: Utilities.RunAllConcurrentAndReturnAllResults
 - uid: GRYLibrary.Core.Utilities.RunAllConcurrentAndReturnAllResults``1(System.Collections.Generic.ISet{System.Func{``0}},System.Int32)
   name: RunAllConcurrentAndReturnAllResults<T>(ISet<Func<T>>, Int32)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_RunAllConcurrentAndReturnAllResults__1_System_Collections_Generic_ISet_System_Func___0___System_Int32_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_RunAllConcurrentAndReturnAllResults__1_System_Collections_Generic_ISet_System_Func___0___System_Int32_
   commentId: M:GRYLibrary.Core.Utilities.RunAllConcurrentAndReturnAllResults``1(System.Collections.Generic.ISet{System.Func{``0}},System.Int32)
   name.vb: RunAllConcurrentAndReturnAllResults(Of T)(ISet(Of Func(Of T)), Int32)
   fullName: GRYLibrary.Core.Utilities.RunAllConcurrentAndReturnAllResults<T>(System.Collections.Generic.ISet<System.Func<T>>, System.Int32)
@@ -9899,14 +9899,14 @@ references:
   nameWithType.vb: Utilities.RunAllConcurrentAndReturnAllResults(Of T)(ISet(Of Func(Of T)), Int32)
 - uid: GRYLibrary.Core.Utilities.RunAllConcurrentAndReturnFirstResult*
   name: RunAllConcurrentAndReturnFirstResult
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_RunAllConcurrentAndReturnFirstResult_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_RunAllConcurrentAndReturnFirstResult_
   commentId: Overload:GRYLibrary.Core.Utilities.RunAllConcurrentAndReturnFirstResult
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.RunAllConcurrentAndReturnFirstResult
   nameWithType: Utilities.RunAllConcurrentAndReturnFirstResult
 - uid: GRYLibrary.Core.Utilities.RunAllConcurrentAndReturnFirstResult``1(System.Collections.Generic.ISet{System.Func{``0}},System.Int32)
   name: RunAllConcurrentAndReturnFirstResult<T>(ISet<Func<T>>, Int32)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_RunAllConcurrentAndReturnFirstResult__1_System_Collections_Generic_ISet_System_Func___0___System_Int32_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_RunAllConcurrentAndReturnFirstResult__1_System_Collections_Generic_ISet_System_Func___0___System_Int32_
   commentId: M:GRYLibrary.Core.Utilities.RunAllConcurrentAndReturnFirstResult``1(System.Collections.Generic.ISet{System.Func{``0}},System.Int32)
   name.vb: RunAllConcurrentAndReturnFirstResult(Of T)(ISet(Of Func(Of T)), Int32)
   fullName: GRYLibrary.Core.Utilities.RunAllConcurrentAndReturnFirstResult<T>(System.Collections.Generic.ISet<System.Func<T>>, System.Int32)
@@ -9915,27 +9915,27 @@ references:
   nameWithType.vb: Utilities.RunAllConcurrentAndReturnFirstResult(Of T)(ISet(Of Func(Of T)), Int32)
 - uid: GRYLibrary.Core.Utilities.RunWithTimeout(System.Threading.ThreadStart,System.TimeSpan)
   name: RunWithTimeout(ThreadStart, TimeSpan)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_RunWithTimeout_System_Threading_ThreadStart_System_TimeSpan_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_RunWithTimeout_System_Threading_ThreadStart_System_TimeSpan_
   commentId: M:GRYLibrary.Core.Utilities.RunWithTimeout(System.Threading.ThreadStart,System.TimeSpan)
   fullName: GRYLibrary.Core.Utilities.RunWithTimeout(System.Threading.ThreadStart, System.TimeSpan)
   nameWithType: Utilities.RunWithTimeout(ThreadStart, TimeSpan)
 - uid: GRYLibrary.Core.Utilities.RunWithTimeout*
   name: RunWithTimeout
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_RunWithTimeout_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_RunWithTimeout_
   commentId: Overload:GRYLibrary.Core.Utilities.RunWithTimeout
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.RunWithTimeout
   nameWithType: Utilities.RunWithTimeout
 - uid: GRYLibrary.Core.Utilities.SequanceEqual*
   name: SequanceEqual
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_SequanceEqual_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_SequanceEqual_
   commentId: Overload:GRYLibrary.Core.Utilities.SequanceEqual
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.SequanceEqual
   nameWithType: Utilities.SequanceEqual
 - uid: GRYLibrary.Core.Utilities.SequanceEqual``1(System.Collections.Generic.IList{``0},System.Collections.Generic.IList{``0})
   name: SequanceEqual<T>(IList<T>, IList<T>)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_SequanceEqual__1_System_Collections_Generic_IList___0__System_Collections_Generic_IList___0__
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_SequanceEqual__1_System_Collections_Generic_IList___0__System_Collections_Generic_IList___0__
   commentId: M:GRYLibrary.Core.Utilities.SequanceEqual``1(System.Collections.Generic.IList{``0},System.Collections.Generic.IList{``0})
   name.vb: SequanceEqual(Of T)(IList(Of T), IList(Of T))
   fullName: GRYLibrary.Core.Utilities.SequanceEqual<T>(System.Collections.Generic.IList<T>, System.Collections.Generic.IList<T>)
@@ -9944,7 +9944,7 @@ references:
   nameWithType.vb: Utilities.SequanceEqual(Of T)(IList(Of T), IList(Of T))
 - uid: GRYLibrary.Core.Utilities.SequanceEqual``1(System.Collections.Generic.IList{``0},System.Collections.Generic.IList{``0},System.Collections.Generic.IEqualityComparer{``0})
   name: SequanceEqual<T>(IList<T>, IList<T>, IEqualityComparer<T>)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_SequanceEqual__1_System_Collections_Generic_IList___0__System_Collections_Generic_IList___0__System_Collections_Generic_IEqualityComparer___0__
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_SequanceEqual__1_System_Collections_Generic_IList___0__System_Collections_Generic_IList___0__System_Collections_Generic_IEqualityComparer___0__
   commentId: M:GRYLibrary.Core.Utilities.SequanceEqual``1(System.Collections.Generic.IList{``0},System.Collections.Generic.IList{``0},System.Collections.Generic.IEqualityComparer{``0})
   name.vb: SequanceEqual(Of T)(IList(Of T), IList(Of T), IEqualityComparer(Of T))
   fullName: GRYLibrary.Core.Utilities.SequanceEqual<T>(System.Collections.Generic.IList<T>, System.Collections.Generic.IList<T>, System.Collections.Generic.IEqualityComparer<T>)
@@ -9953,14 +9953,14 @@ references:
   nameWithType.vb: Utilities.SequanceEqual(Of T)(IList(Of T), IList(Of T), IEqualityComparer(Of T))
 - uid: GRYLibrary.Core.Utilities.SetEquals*
   name: SetEquals
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_SetEquals_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_SetEquals_
   commentId: Overload:GRYLibrary.Core.Utilities.SetEquals
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.SetEquals
   nameWithType: Utilities.SetEquals
 - uid: GRYLibrary.Core.Utilities.SetEquals``1(System.Collections.Generic.ISet{``0},System.Collections.Generic.ISet{``0})
   name: SetEquals<T>(ISet<T>, ISet<T>)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_SetEquals__1_System_Collections_Generic_ISet___0__System_Collections_Generic_ISet___0__
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_SetEquals__1_System_Collections_Generic_ISet___0__System_Collections_Generic_ISet___0__
   commentId: M:GRYLibrary.Core.Utilities.SetEquals``1(System.Collections.Generic.ISet{``0},System.Collections.Generic.ISet{``0})
   name.vb: SetEquals(Of T)(ISet(Of T), ISet(Of T))
   fullName: GRYLibrary.Core.Utilities.SetEquals<T>(System.Collections.Generic.ISet<T>, System.Collections.Generic.ISet<T>)
@@ -9969,7 +9969,7 @@ references:
   nameWithType.vb: Utilities.SetEquals(Of T)(ISet(Of T), ISet(Of T))
 - uid: GRYLibrary.Core.Utilities.SetEquals``1(System.Collections.Generic.ISet{``0},System.Collections.Generic.ISet{``0},System.Collections.Generic.IEqualityComparer{``0})
   name: SetEquals<T>(ISet<T>, ISet<T>, IEqualityComparer<T>)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_SetEquals__1_System_Collections_Generic_ISet___0__System_Collections_Generic_ISet___0__System_Collections_Generic_IEqualityComparer___0__
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_SetEquals__1_System_Collections_Generic_ISet___0__System_Collections_Generic_ISet___0__System_Collections_Generic_IEqualityComparer___0__
   commentId: M:GRYLibrary.Core.Utilities.SetEquals``1(System.Collections.Generic.ISet{``0},System.Collections.Generic.ISet{``0},System.Collections.Generic.IEqualityComparer{``0})
   name.vb: SetEquals(Of T)(ISet(Of T), ISet(Of T), IEqualityComparer(Of T))
   fullName: GRYLibrary.Core.Utilities.SetEquals<T>(System.Collections.Generic.ISet<T>, System.Collections.Generic.ISet<T>, System.Collections.Generic.IEqualityComparer<T>)
@@ -9978,14 +9978,14 @@ references:
   nameWithType.vb: Utilities.SetEquals(Of T)(ISet(Of T), ISet(Of T), IEqualityComparer(Of T))
 - uid: GRYLibrary.Core.Utilities.Shuffle*
   name: Shuffle
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_Shuffle_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_Shuffle_
   commentId: Overload:GRYLibrary.Core.Utilities.Shuffle
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.Shuffle
   nameWithType: Utilities.Shuffle
 - uid: GRYLibrary.Core.Utilities.Shuffle``1(System.Collections.Generic.IList{``0})
   name: Shuffle<T>(IList<T>)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_Shuffle__1_System_Collections_Generic_IList___0__
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_Shuffle__1_System_Collections_Generic_IList___0__
   commentId: M:GRYLibrary.Core.Utilities.Shuffle``1(System.Collections.Generic.IList{``0})
   name.vb: Shuffle(Of T)(IList(Of T))
   fullName: GRYLibrary.Core.Utilities.Shuffle<T>(System.Collections.Generic.IList<T>)
@@ -9994,14 +9994,14 @@ references:
   nameWithType.vb: Utilities.Shuffle(Of T)(IList(Of T))
 - uid: GRYLibrary.Core.Utilities.StartsWith*
   name: StartsWith
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_StartsWith_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_StartsWith_
   commentId: Overload:GRYLibrary.Core.Utilities.StartsWith
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.StartsWith
   nameWithType: Utilities.StartsWith
 - uid: GRYLibrary.Core.Utilities.StartsWith``1(``0[],``0[])
   name: StartsWith<T>(T[], T[])
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_StartsWith__1___0_____0___
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_StartsWith__1___0_____0___
   commentId: M:GRYLibrary.Core.Utilities.StartsWith``1(``0[],``0[])
   name.vb: StartsWith(Of T)(T(), T())
   fullName: GRYLibrary.Core.Utilities.StartsWith<T>(T[], T[])
@@ -10010,46 +10010,46 @@ references:
   nameWithType.vb: Utilities.StartsWith(Of T)(T(), T())
 - uid: GRYLibrary.Core.Utilities.StringToBoolean(System.String)
   name: StringToBoolean(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_StringToBoolean_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_StringToBoolean_System_String_
   commentId: M:GRYLibrary.Core.Utilities.StringToBoolean(System.String)
   fullName: GRYLibrary.Core.Utilities.StringToBoolean(System.String)
   nameWithType: Utilities.StringToBoolean(String)
 - uid: GRYLibrary.Core.Utilities.StringToBoolean*
   name: StringToBoolean
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_StringToBoolean_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_StringToBoolean_
   commentId: Overload:GRYLibrary.Core.Utilities.StringToBoolean
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.StringToBoolean
   nameWithType: Utilities.StringToBoolean
 - uid: GRYLibrary.Core.Utilities.StringToByteArray(System.String)
   name: StringToByteArray(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_StringToByteArray_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_StringToByteArray_System_String_
   commentId: M:GRYLibrary.Core.Utilities.StringToByteArray(System.String)
   fullName: GRYLibrary.Core.Utilities.StringToByteArray(System.String)
   nameWithType: Utilities.StringToByteArray(String)
 - uid: GRYLibrary.Core.Utilities.StringToByteArray*
   name: StringToByteArray
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_StringToByteArray_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_StringToByteArray_
   commentId: Overload:GRYLibrary.Core.Utilities.StringToByteArray
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.StringToByteArray
   nameWithType: Utilities.StringToByteArray
 - uid: GRYLibrary.Core.Utilities.ToCamelCase(System.String)
   name: ToCamelCase(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToCamelCase_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToCamelCase_System_String_
   commentId: M:GRYLibrary.Core.Utilities.ToCamelCase(System.String)
   fullName: GRYLibrary.Core.Utilities.ToCamelCase(System.String)
   nameWithType: Utilities.ToCamelCase(String)
 - uid: GRYLibrary.Core.Utilities.ToCamelCase*
   name: ToCamelCase
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToCamelCase_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToCamelCase_
   commentId: Overload:GRYLibrary.Core.Utilities.ToCamelCase
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ToCamelCase
   nameWithType: Utilities.ToCamelCase
 - uid: GRYLibrary.Core.Utilities.ToCaseInsensitiveSet(System.Collections.Generic.ISet{System.String})
   name: ToCaseInsensitiveSet(ISet<String>)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToCaseInsensitiveSet_System_Collections_Generic_ISet_System_String__
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToCaseInsensitiveSet_System_Collections_Generic_ISet_System_String__
   commentId: M:GRYLibrary.Core.Utilities.ToCaseInsensitiveSet(System.Collections.Generic.ISet{System.String})
   name.vb: ToCaseInsensitiveSet(ISet(Of String))
   fullName: GRYLibrary.Core.Utilities.ToCaseInsensitiveSet(System.Collections.Generic.ISet<System.String>)
@@ -10058,59 +10058,59 @@ references:
   nameWithType.vb: Utilities.ToCaseInsensitiveSet(ISet(Of String))
 - uid: GRYLibrary.Core.Utilities.ToCaseInsensitiveSet*
   name: ToCaseInsensitiveSet
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToCaseInsensitiveSet_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToCaseInsensitiveSet_
   commentId: Overload:GRYLibrary.Core.Utilities.ToCaseInsensitiveSet
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ToCaseInsensitiveSet
   nameWithType: Utilities.ToCaseInsensitiveSet
 - uid: GRYLibrary.Core.Utilities.ToDynamic(System.Object)
   name: ToDynamic(Object)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToDynamic_System_Object_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToDynamic_System_Object_
   commentId: M:GRYLibrary.Core.Utilities.ToDynamic(System.Object)
   fullName: GRYLibrary.Core.Utilities.ToDynamic(System.Object)
   nameWithType: Utilities.ToDynamic(Object)
 - uid: GRYLibrary.Core.Utilities.ToDynamic*
   name: ToDynamic
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToDynamic_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToDynamic_
   commentId: Overload:GRYLibrary.Core.Utilities.ToDynamic
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ToDynamic
   nameWithType: Utilities.ToDynamic
 - uid: GRYLibrary.Core.Utilities.ToOnlyFirstCharOfEveryNewLetterSequenceToUpper(System.String)
   name: ToOnlyFirstCharOfEveryNewLetterSequenceToUpper(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToOnlyFirstCharOfEveryNewLetterSequenceToUpper_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToOnlyFirstCharOfEveryNewLetterSequenceToUpper_System_String_
   commentId: M:GRYLibrary.Core.Utilities.ToOnlyFirstCharOfEveryNewLetterSequenceToUpper(System.String)
   fullName: GRYLibrary.Core.Utilities.ToOnlyFirstCharOfEveryNewLetterSequenceToUpper(System.String)
   nameWithType: Utilities.ToOnlyFirstCharOfEveryNewLetterSequenceToUpper(String)
 - uid: GRYLibrary.Core.Utilities.ToOnlyFirstCharOfEveryNewLetterSequenceToUpper*
   name: ToOnlyFirstCharOfEveryNewLetterSequenceToUpper
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToOnlyFirstCharOfEveryNewLetterSequenceToUpper_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToOnlyFirstCharOfEveryNewLetterSequenceToUpper_
   commentId: Overload:GRYLibrary.Core.Utilities.ToOnlyFirstCharOfEveryNewLetterSequenceToUpper
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ToOnlyFirstCharOfEveryNewLetterSequenceToUpper
   nameWithType: Utilities.ToOnlyFirstCharOfEveryNewLetterSequenceToUpper
 - uid: GRYLibrary.Core.Utilities.ToOnlyFirstCharOfEveryWordOrPartialWordToUpper(System.String)
   name: ToOnlyFirstCharOfEveryWordOrPartialWordToUpper(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToOnlyFirstCharOfEveryWordOrPartialWordToUpper_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToOnlyFirstCharOfEveryWordOrPartialWordToUpper_System_String_
   commentId: M:GRYLibrary.Core.Utilities.ToOnlyFirstCharOfEveryWordOrPartialWordToUpper(System.String)
   fullName: GRYLibrary.Core.Utilities.ToOnlyFirstCharOfEveryWordOrPartialWordToUpper(System.String)
   nameWithType: Utilities.ToOnlyFirstCharOfEveryWordOrPartialWordToUpper(String)
 - uid: GRYLibrary.Core.Utilities.ToOnlyFirstCharOfEveryWordOrPartialWordToUpper*
   name: ToOnlyFirstCharOfEveryWordOrPartialWordToUpper
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToOnlyFirstCharOfEveryWordOrPartialWordToUpper_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToOnlyFirstCharOfEveryWordOrPartialWordToUpper_
   commentId: Overload:GRYLibrary.Core.Utilities.ToOnlyFirstCharOfEveryWordOrPartialWordToUpper
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ToOnlyFirstCharOfEveryWordOrPartialWordToUpper
   nameWithType: Utilities.ToOnlyFirstCharOfEveryWordOrPartialWordToUpper
 - uid: GRYLibrary.Core.Utilities.ToOnlyFirstCharOfEveryWordToUpper(System.String)
   name: ToOnlyFirstCharOfEveryWordToUpper(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToOnlyFirstCharOfEveryWordToUpper_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToOnlyFirstCharOfEveryWordToUpper_System_String_
   commentId: M:GRYLibrary.Core.Utilities.ToOnlyFirstCharOfEveryWordToUpper(System.String)
   fullName: GRYLibrary.Core.Utilities.ToOnlyFirstCharOfEveryWordToUpper(System.String)
   nameWithType: Utilities.ToOnlyFirstCharOfEveryWordToUpper(String)
 - uid: GRYLibrary.Core.Utilities.ToOnlyFirstCharOfEveryWordToUpper(System.String,System.Func{System.Char,System.Boolean})
   name: ToOnlyFirstCharOfEveryWordToUpper(String, Func<Char, Boolean>)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToOnlyFirstCharOfEveryWordToUpper_System_String_System_Func_System_Char_System_Boolean__
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToOnlyFirstCharOfEveryWordToUpper_System_String_System_Func_System_Char_System_Boolean__
   commentId: M:GRYLibrary.Core.Utilities.ToOnlyFirstCharOfEveryWordToUpper(System.String,System.Func{System.Char,System.Boolean})
   name.vb: ToOnlyFirstCharOfEveryWordToUpper(String, Func(Of Char, Boolean))
   fullName: GRYLibrary.Core.Utilities.ToOnlyFirstCharOfEveryWordToUpper(System.String, System.Func<System.Char, System.Boolean>)
@@ -10119,47 +10119,47 @@ references:
   nameWithType.vb: Utilities.ToOnlyFirstCharOfEveryWordToUpper(String, Func(Of Char, Boolean))
 - uid: GRYLibrary.Core.Utilities.ToOnlyFirstCharOfEveryWordToUpper*
   name: ToOnlyFirstCharOfEveryWordToUpper
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToOnlyFirstCharOfEveryWordToUpper_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToOnlyFirstCharOfEveryWordToUpper_
   commentId: Overload:GRYLibrary.Core.Utilities.ToOnlyFirstCharOfEveryWordToUpper
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ToOnlyFirstCharOfEveryWordToUpper
   nameWithType: Utilities.ToOnlyFirstCharOfEveryWordToUpper
 - uid: GRYLibrary.Core.Utilities.ToOnlyFirstCharToUpper(System.String)
   name: ToOnlyFirstCharToUpper(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToOnlyFirstCharToUpper_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToOnlyFirstCharToUpper_System_String_
   commentId: M:GRYLibrary.Core.Utilities.ToOnlyFirstCharToUpper(System.String)
   fullName: GRYLibrary.Core.Utilities.ToOnlyFirstCharToUpper(System.String)
   nameWithType: Utilities.ToOnlyFirstCharToUpper(String)
 - uid: GRYLibrary.Core.Utilities.ToOnlyFirstCharToUpper*
   name: ToOnlyFirstCharToUpper
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToOnlyFirstCharToUpper_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToOnlyFirstCharToUpper_
   commentId: Overload:GRYLibrary.Core.Utilities.ToOnlyFirstCharToUpper
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ToOnlyFirstCharToUpper
   nameWithType: Utilities.ToOnlyFirstCharToUpper
 - uid: GRYLibrary.Core.Utilities.ToPascalCase(System.String)
   name: ToPascalCase(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToPascalCase_System_String_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToPascalCase_System_String_
   commentId: M:GRYLibrary.Core.Utilities.ToPascalCase(System.String)
   fullName: GRYLibrary.Core.Utilities.ToPascalCase(System.String)
   nameWithType: Utilities.ToPascalCase(String)
 - uid: GRYLibrary.Core.Utilities.ToPascalCase*
   name: ToPascalCase
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToPascalCase_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToPascalCase_
   commentId: Overload:GRYLibrary.Core.Utilities.ToPascalCase
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ToPascalCase
   nameWithType: Utilities.ToPascalCase
 - uid: GRYLibrary.Core.Utilities.ToSerializableDictionary*
   name: ToSerializableDictionary
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToSerializableDictionary_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToSerializableDictionary_
   commentId: Overload:GRYLibrary.Core.Utilities.ToSerializableDictionary
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ToSerializableDictionary
   nameWithType: Utilities.ToSerializableDictionary
 - uid: GRYLibrary.Core.Utilities.ToSerializableDictionary``2(System.Collections.Generic.IDictionary{``0,``1})
   name: ToSerializableDictionary<TKey, TValue>(IDictionary<TKey, TValue>)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToSerializableDictionary__2_System_Collections_Generic_IDictionary___0___1__
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToSerializableDictionary__2_System_Collections_Generic_IDictionary___0___1__
   commentId: M:GRYLibrary.Core.Utilities.ToSerializableDictionary``2(System.Collections.Generic.IDictionary{``0,``1})
   name.vb: ToSerializableDictionary(Of TKey, TValue)(IDictionary(Of TKey, TValue))
   fullName: GRYLibrary.Core.Utilities.ToSerializableDictionary<TKey, TValue>(System.Collections.Generic.IDictionary<TKey, TValue>)
@@ -10168,14 +10168,14 @@ references:
   nameWithType.vb: Utilities.ToSerializableDictionary(Of TKey, TValue)(IDictionary(Of TKey, TValue))
 - uid: GRYLibrary.Core.Utilities.TwoDimensionalArrayEquals*
   name: TwoDimensionalArrayEquals
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TwoDimensionalArrayEquals_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TwoDimensionalArrayEquals_
   commentId: Overload:GRYLibrary.Core.Utilities.TwoDimensionalArrayEquals
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.TwoDimensionalArrayEquals
   nameWithType: Utilities.TwoDimensionalArrayEquals
 - uid: GRYLibrary.Core.Utilities.TwoDimensionalArrayEquals``1(``0[0:,0:],``0[0:,0:])
   name: TwoDimensionalArrayEquals<T>(T[,], T[,])
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TwoDimensionalArrayEquals__1___0_0__0_____0_0__0___
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TwoDimensionalArrayEquals__1___0_0__0_____0_0__0___
   commentId: M:GRYLibrary.Core.Utilities.TwoDimensionalArrayEquals``1(``0[0:,0:],``0[0:,0:])
   name.vb: TwoDimensionalArrayEquals(Of T)(T(,), T(,))
   fullName: GRYLibrary.Core.Utilities.TwoDimensionalArrayEquals<T>(T[,], T[,])
@@ -10184,14 +10184,14 @@ references:
   nameWithType.vb: Utilities.TwoDimensionalArrayEquals(Of T)(T(,), T(,))
 - uid: GRYLibrary.Core.Utilities.TwoDimensionalArrayToJaggedArray*
   name: TwoDimensionalArrayToJaggedArray
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TwoDimensionalArrayToJaggedArray_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TwoDimensionalArrayToJaggedArray_
   commentId: Overload:GRYLibrary.Core.Utilities.TwoDimensionalArrayToJaggedArray
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.TwoDimensionalArrayToJaggedArray
   nameWithType: Utilities.TwoDimensionalArrayToJaggedArray
 - uid: GRYLibrary.Core.Utilities.TwoDimensionalArrayToJaggedArray``1(``0[0:,0:])
   name: TwoDimensionalArrayToJaggedArray<T>(T[,])
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TwoDimensionalArrayToJaggedArray__1___0_0__0___
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TwoDimensionalArrayToJaggedArray__1___0_0__0___
   commentId: M:GRYLibrary.Core.Utilities.TwoDimensionalArrayToJaggedArray``1(``0[0:,0:])
   name.vb: TwoDimensionalArrayToJaggedArray(Of T)(T(,))
   fullName: GRYLibrary.Core.Utilities.TwoDimensionalArrayToJaggedArray<T>(T[,])
@@ -10200,14 +10200,14 @@ references:
   nameWithType.vb: Utilities.TwoDimensionalArrayToJaggedArray(Of T)(T(,))
 - uid: GRYLibrary.Core.Utilities.TwoDimensionalArrayToString*
   name: TwoDimensionalArrayToString
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TwoDimensionalArrayToString_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TwoDimensionalArrayToString_
   commentId: Overload:GRYLibrary.Core.Utilities.TwoDimensionalArrayToString
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.TwoDimensionalArrayToString
   nameWithType: Utilities.TwoDimensionalArrayToString
 - uid: GRYLibrary.Core.Utilities.TwoDimensionalArrayToString``1(``0[0:,0:])
   name: TwoDimensionalArrayToString<T>(T[,])
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TwoDimensionalArrayToString__1___0_0__0___
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TwoDimensionalArrayToString__1___0_0__0___
   commentId: M:GRYLibrary.Core.Utilities.TwoDimensionalArrayToString``1(``0[0:,0:])
   name.vb: TwoDimensionalArrayToString(Of T)(T(,))
   fullName: GRYLibrary.Core.Utilities.TwoDimensionalArrayToString<T>(T[,])
@@ -10216,7 +10216,7 @@ references:
   nameWithType.vb: Utilities.TwoDimensionalArrayToString(Of T)(T(,))
 - uid: GRYLibrary.Core.Utilities.TypeArrayToString(System.Type[])
   name: TypeArrayToString(Type[])
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeArrayToString_System_Type___
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeArrayToString_System_Type___
   commentId: M:GRYLibrary.Core.Utilities.TypeArrayToString(System.Type[])
   name.vb: TypeArrayToString(Type())
   fullName: GRYLibrary.Core.Utilities.TypeArrayToString(System.Type[])
@@ -10225,92 +10225,92 @@ references:
   nameWithType.vb: Utilities.TypeArrayToString(Type())
 - uid: GRYLibrary.Core.Utilities.TypeArrayToString*
   name: TypeArrayToString
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeArrayToString_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeArrayToString_
   commentId: Overload:GRYLibrary.Core.Utilities.TypeArrayToString
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.TypeArrayToString
   nameWithType: Utilities.TypeArrayToString
 - uid: GRYLibrary.Core.Utilities.TypeComparerIgnoringGenerics
   name: TypeComparerIgnoringGenerics
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeComparerIgnoringGenerics
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeComparerIgnoringGenerics
   commentId: P:GRYLibrary.Core.Utilities.TypeComparerIgnoringGenerics
   fullName: GRYLibrary.Core.Utilities.TypeComparerIgnoringGenerics
   nameWithType: Utilities.TypeComparerIgnoringGenerics
 - uid: GRYLibrary.Core.Utilities.TypeComparerIgnoringGenerics*
   name: TypeComparerIgnoringGenerics
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeComparerIgnoringGenerics_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeComparerIgnoringGenerics_
   commentId: Overload:GRYLibrary.Core.Utilities.TypeComparerIgnoringGenerics
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.TypeComparerIgnoringGenerics
   nameWithType: Utilities.TypeComparerIgnoringGenerics
 - uid: GRYLibrary.Core.Utilities.TypeIsDictionary(System.Type)
   name: TypeIsDictionary(Type)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeIsDictionary_System_Type_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeIsDictionary_System_Type_
   commentId: M:GRYLibrary.Core.Utilities.TypeIsDictionary(System.Type)
   fullName: GRYLibrary.Core.Utilities.TypeIsDictionary(System.Type)
   nameWithType: Utilities.TypeIsDictionary(Type)
 - uid: GRYLibrary.Core.Utilities.TypeIsDictionary*
   name: TypeIsDictionary
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeIsDictionary_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeIsDictionary_
   commentId: Overload:GRYLibrary.Core.Utilities.TypeIsDictionary
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.TypeIsDictionary
   nameWithType: Utilities.TypeIsDictionary
 - uid: GRYLibrary.Core.Utilities.TypeIsEnumerable(System.Type)
   name: TypeIsEnumerable(Type)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeIsEnumerable_System_Type_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeIsEnumerable_System_Type_
   commentId: M:GRYLibrary.Core.Utilities.TypeIsEnumerable(System.Type)
   fullName: GRYLibrary.Core.Utilities.TypeIsEnumerable(System.Type)
   nameWithType: Utilities.TypeIsEnumerable(Type)
 - uid: GRYLibrary.Core.Utilities.TypeIsEnumerable*
   name: TypeIsEnumerable
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeIsEnumerable_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeIsEnumerable_
   commentId: Overload:GRYLibrary.Core.Utilities.TypeIsEnumerable
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.TypeIsEnumerable
   nameWithType: Utilities.TypeIsEnumerable
 - uid: GRYLibrary.Core.Utilities.TypeIsKeyValuePair(System.Type)
   name: TypeIsKeyValuePair(Type)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeIsKeyValuePair_System_Type_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeIsKeyValuePair_System_Type_
   commentId: M:GRYLibrary.Core.Utilities.TypeIsKeyValuePair(System.Type)
   fullName: GRYLibrary.Core.Utilities.TypeIsKeyValuePair(System.Type)
   nameWithType: Utilities.TypeIsKeyValuePair(Type)
 - uid: GRYLibrary.Core.Utilities.TypeIsKeyValuePair*
   name: TypeIsKeyValuePair
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeIsKeyValuePair_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeIsKeyValuePair_
   commentId: Overload:GRYLibrary.Core.Utilities.TypeIsKeyValuePair
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.TypeIsKeyValuePair
   nameWithType: Utilities.TypeIsKeyValuePair
 - uid: GRYLibrary.Core.Utilities.TypeIsList(System.Type)
   name: TypeIsList(Type)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeIsList_System_Type_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeIsList_System_Type_
   commentId: M:GRYLibrary.Core.Utilities.TypeIsList(System.Type)
   fullName: GRYLibrary.Core.Utilities.TypeIsList(System.Type)
   nameWithType: Utilities.TypeIsList(Type)
 - uid: GRYLibrary.Core.Utilities.TypeIsList*
   name: TypeIsList
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeIsList_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeIsList_
   commentId: Overload:GRYLibrary.Core.Utilities.TypeIsList
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.TypeIsList
   nameWithType: Utilities.TypeIsList
 - uid: GRYLibrary.Core.Utilities.TypeIsSet(System.Type)
   name: TypeIsSet(Type)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeIsSet_System_Type_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeIsSet_System_Type_
   commentId: M:GRYLibrary.Core.Utilities.TypeIsSet(System.Type)
   fullName: GRYLibrary.Core.Utilities.TypeIsSet(System.Type)
   nameWithType: Utilities.TypeIsSet(Type)
 - uid: GRYLibrary.Core.Utilities.TypeIsSet*
   name: TypeIsSet
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeIsSet_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeIsSet_
   commentId: Overload:GRYLibrary.Core.Utilities.TypeIsSet
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.TypeIsSet
   nameWithType: Utilities.TypeIsSet
 - uid: GRYLibrary.Core.Utilities.ValidateXMLAgainstXSD(System.String,System.String,System.Collections.Generic.IList{System.Object}@)
   name: ValidateXMLAgainstXSD(String, String, out IList<Object>)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ValidateXMLAgainstXSD_System_String_System_String_System_Collections_Generic_IList_System_Object___
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ValidateXMLAgainstXSD_System_String_System_String_System_Collections_Generic_IList_System_Object___
   commentId: M:GRYLibrary.Core.Utilities.ValidateXMLAgainstXSD(System.String,System.String,System.Collections.Generic.IList{System.Object}@)
   name.vb: ValidateXMLAgainstXSD(String, String, ByRef IList(Of Object))
   fullName: GRYLibrary.Core.Utilities.ValidateXMLAgainstXSD(System.String, System.String, out System.Collections.Generic.IList<System.Object>)
@@ -10319,14 +10319,14 @@ references:
   nameWithType.vb: Utilities.ValidateXMLAgainstXSD(String, String, ByRef IList(Of Object))
 - uid: GRYLibrary.Core.Utilities.ValidateXMLAgainstXSD*
   name: ValidateXMLAgainstXSD
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ValidateXMLAgainstXSD_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ValidateXMLAgainstXSD_
   commentId: Overload:GRYLibrary.Core.Utilities.ValidateXMLAgainstXSD
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ValidateXMLAgainstXSD
   nameWithType: Utilities.ValidateXMLAgainstXSD
 - uid: GRYLibrary.Core.Utilities.WriteToConsoleAsASCIITable(System.Collections.Generic.IList{System.Collections.Generic.IList{System.String}})
   name: WriteToConsoleAsASCIITable(IList<IList<String>>)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_WriteToConsoleAsASCIITable_System_Collections_Generic_IList_System_Collections_Generic_IList_System_String___
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_WriteToConsoleAsASCIITable_System_Collections_Generic_IList_System_Collections_Generic_IList_System_String___
   commentId: M:GRYLibrary.Core.Utilities.WriteToConsoleAsASCIITable(System.Collections.Generic.IList{System.Collections.Generic.IList{System.String}})
   name.vb: WriteToConsoleAsASCIITable(IList(Of IList(Of String)))
   fullName: GRYLibrary.Core.Utilities.WriteToConsoleAsASCIITable(System.Collections.Generic.IList<System.Collections.Generic.IList<System.String>>)
@@ -10335,7 +10335,7 @@ references:
   nameWithType.vb: Utilities.WriteToConsoleAsASCIITable(IList(Of IList(Of String)))
 - uid: GRYLibrary.Core.Utilities.WriteToConsoleAsASCIITable*
   name: WriteToConsoleAsASCIITable
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_WriteToConsoleAsASCIITable_
+  href: articles/api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_WriteToConsoleAsASCIITable_
   commentId: Overload:GRYLibrary.Core.Utilities.WriteToConsoleAsASCIITable
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.WriteToConsoleAsASCIITable
