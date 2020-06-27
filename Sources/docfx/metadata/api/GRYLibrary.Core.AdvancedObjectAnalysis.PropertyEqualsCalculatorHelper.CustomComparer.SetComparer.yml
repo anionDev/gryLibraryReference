@@ -24,9 +24,7 @@ items:
     content: 'public class SetComparer : AbstractCustomComparer, IEqualityComparer<object>'
     content.vb: >-
       Public Class SetComparer
-
           Inherits AbstractCustomComparer
-
           Implements IEqualityComparer(Of Object)
   inheritance:
   - System.Object

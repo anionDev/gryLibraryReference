@@ -32,9 +32,7 @@ items:
     - id: T2
     content.vb: >-
       Public Class WriteableTuple(Of T1, T2)
-
           Inherits Tuple(Of T1, T2)
-
           Implements IStructuralComparable, IStructuralEquatable, IComparable, ITuple
   inheritance:
   - System.Object

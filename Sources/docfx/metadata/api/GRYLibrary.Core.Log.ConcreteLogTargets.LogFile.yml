@@ -27,7 +27,6 @@ items:
     content: 'public class LogFile : GRYLogTarget'
     content.vb: >-
       Public Class LogFile
-
           Inherits GRYLogTarget
   inheritance:
   - System.Object

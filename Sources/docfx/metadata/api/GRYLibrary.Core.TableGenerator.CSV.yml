@@ -25,7 +25,6 @@ items:
     content: 'public sealed class CSV : TableGenerator.TableOutputType'
     content.vb: >-
       Public NotInheritable Class CSV
-
           Inherits TableGenerator.TableOutputType
   inheritance:
   - System.Object

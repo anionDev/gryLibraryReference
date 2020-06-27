@@ -28,7 +28,6 @@ items:
     content: 'public class SObject : Simplified'
     content.vb: >-
       Public Class SObject
-
           Inherits Simplified
   inheritance:
   - System.Object

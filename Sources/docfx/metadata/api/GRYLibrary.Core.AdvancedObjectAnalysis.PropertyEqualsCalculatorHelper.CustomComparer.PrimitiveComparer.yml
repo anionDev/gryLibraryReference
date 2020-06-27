@@ -25,9 +25,7 @@ items:
     content: 'public class PrimitiveComparer : AbstractCustomComparer, IEqualityComparer<object>'
     content.vb: >-
       Public Class PrimitiveComparer
-
           Inherits AbstractCustomComparer
-
           Implements IEqualityComparer(Of Object)
   inheritance:
   - System.Object

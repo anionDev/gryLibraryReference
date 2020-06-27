@@ -29,7 +29,6 @@ items:
     - id: T
     content.vb: >-
       Public MustInherit Class GRYEqualityComparer(Of T)
-
           Implements IEqualityComparer(Of T)
   inheritance:
   - System.Object

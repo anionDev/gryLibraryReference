@@ -25,7 +25,6 @@ items:
     content: 'public sealed class HTMLTable : TableGenerator.TableOutputType'
     content.vb: >-
       Public NotInheritable Class HTMLTable
-
           Inherits TableGenerator.TableOutputType
   inheritance:
   - System.Object

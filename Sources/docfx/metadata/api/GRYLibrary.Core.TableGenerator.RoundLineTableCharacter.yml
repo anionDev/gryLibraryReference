@@ -34,7 +34,6 @@ items:
     content: 'public class RoundLineTableCharacter : TableGenerator.ITableCharacter'
     content.vb: >-
       Public Class RoundLineTableCharacter
-
           Implements TableGenerator.ITableCharacter
   inheritance:
   - System.Object

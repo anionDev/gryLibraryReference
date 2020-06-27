@@ -30,9 +30,7 @@ items:
     - id: TValue
     content.vb: >-
       Public Class SerializableDictionary(Of TKey, TValue)
-
           Inherits Dictionary(Of TKey, TValue)
-
           Implements IDictionary(Of TKey, TValue), ICollection(Of KeyValuePair(Of TKey, TValue)), IReadOnlyDictionary(Of TKey, TValue), IReadOnlyCollection(Of KeyValuePair(Of TKey, TValue)), IEnumerable(Of KeyValuePair(Of TKey, TValue)), IDictionary, ICollection, IEnumerable, IDeserializationCallback, ISerializable, IXmlSerializable
   inheritance:
   - System.Object

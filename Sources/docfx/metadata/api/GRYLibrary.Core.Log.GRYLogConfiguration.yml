@@ -715,7 +715,6 @@ items:
   syntax:
     content: >-
       public Target GetLogTarget<Target>()
-
           where Target : GRYLogTarget
     typeParameters:
     - id: Target

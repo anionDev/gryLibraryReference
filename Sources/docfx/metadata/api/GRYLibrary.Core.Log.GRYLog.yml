@@ -55,7 +55,6 @@ items:
     content: 'public class GRYLog : IDisposable, ILogger'
     content.vb: >-
       Public Class GRYLog
-
           Implements IDisposable, ILogger
   inheritance:
   - System.Object

@@ -24,9 +24,7 @@ items:
     content: 'public class DictionaryComparer : AbstractCustomComparer, IEqualityComparer<object>'
     content.vb: >-
       Public Class DictionaryComparer
-
           Inherits AbstractCustomComparer
-
           Implements IEqualityComparer(Of Object)
   inheritance:
   - System.Object

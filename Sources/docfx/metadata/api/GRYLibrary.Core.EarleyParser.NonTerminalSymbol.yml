@@ -23,7 +23,6 @@ items:
     content: 'public class NonTerminalSymbol : EarleyParser.Symbol'
     content.vb: >-
       Public Class NonTerminalSymbol
-
           Inherits EarleyParser.Symbol
   inheritance:
   - System.Object

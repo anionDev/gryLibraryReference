@@ -24,9 +24,7 @@ items:
     content: 'public class PropertyEqualsCalculator : GRYEqualityComparer<object>, IEqualityComparer<object>'
     content.vb: >-
       Public Class PropertyEqualsCalculator
-
           Inherits GRYEqualityComparer(Of Object)
-
           Implements IEqualityComparer(Of Object)
   inheritance:
   - System.Object

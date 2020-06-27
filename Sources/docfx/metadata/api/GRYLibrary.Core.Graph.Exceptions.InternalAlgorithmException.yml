@@ -24,9 +24,7 @@ items:
     content: 'public class InternalAlgorithmException : Exception, ISerializable'
     content.vb: >-
       Public Class InternalAlgorithmException
-
           Inherits Exception
-
           Implements ISerializable
   inheritance:
   - System.Object

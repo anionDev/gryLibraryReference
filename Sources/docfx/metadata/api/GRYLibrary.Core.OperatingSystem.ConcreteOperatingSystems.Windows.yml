@@ -26,7 +26,6 @@ items:
     content: 'public class Windows : OperatingSystem'
     content.vb: >-
       Public Class Windows
-
           Inherits OperatingSystem
   inheritance:
   - System.Object

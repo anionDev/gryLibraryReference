@@ -3391,7 +3391,6 @@ items:
   syntax:
     content: >-
       public static SimpleObjectPersistence<T> PersistToDisk<T>(this T object, string file)
-
           where T : new()
     parameters:
     - id: object
@@ -3438,7 +3437,6 @@ items:
   syntax:
     content: >-
       public static SimpleObjectPersistence<T> LoadFromDisk<T>(this string file)
-
           where T : new()
     parameters:
     - id: file

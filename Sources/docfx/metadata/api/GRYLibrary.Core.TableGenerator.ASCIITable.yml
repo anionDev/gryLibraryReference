@@ -28,7 +28,6 @@ items:
     content: 'public sealed class ASCIITable : TableGenerator.TableOutputType'
     content.vb: >-
       Public NotInheritable Class ASCIITable
-
           Inherits TableGenerator.TableOutputType
   inheritance:
   - System.Object

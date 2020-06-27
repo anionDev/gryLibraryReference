@@ -24,9 +24,7 @@ items:
     content: 'public class KeyValuePairComparer : AbstractCustomComparer, IEqualityComparer<object>'
     content.vb: >-
       Public Class KeyValuePairComparer
-
           Inherits AbstractCustomComparer
-
           Implements IEqualityComparer(Of Object)
   inheritance:
   - System.Object

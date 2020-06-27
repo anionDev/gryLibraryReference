@@ -28,7 +28,6 @@ items:
     content: 'public class SEnumerable : Simplified'
     content.vb: >-
       Public Class SEnumerable
-
           Inherits Simplified
   inheritance:
   - System.Object

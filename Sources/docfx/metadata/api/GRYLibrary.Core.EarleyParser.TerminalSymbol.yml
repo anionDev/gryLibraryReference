@@ -23,7 +23,6 @@ items:
     content: 'public class TerminalSymbol : EarleyParser.Symbol'
     content.vb: >-
       Public Class TerminalSymbol
-
           Inherits EarleyParser.Symbol
   inheritance:
   - System.Object

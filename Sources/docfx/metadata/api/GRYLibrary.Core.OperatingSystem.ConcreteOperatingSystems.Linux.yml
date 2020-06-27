@@ -26,7 +26,6 @@ items:
     content: 'public class Linux : OperatingSystem'
     content.vb: >-
       Public Class Linux
-
           Inherits OperatingSystem
   inheritance:
   - System.Object

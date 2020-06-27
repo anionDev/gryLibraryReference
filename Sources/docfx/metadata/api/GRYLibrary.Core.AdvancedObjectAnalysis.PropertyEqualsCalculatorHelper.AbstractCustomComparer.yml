@@ -25,9 +25,7 @@ items:
     content: 'public abstract class AbstractCustomComparer : GRYEqualityComparer<object>, IEqualityComparer<object>'
     content.vb: >-
       Public MustInherit Class AbstractCustomComparer
-
           Inherits GRYEqualityComparer(Of Object)
-
           Implements IEqualityComparer(Of Object)
   inheritance:
   - System.Object

@@ -24,9 +24,7 @@ items:
     content: 'public class InvalidEdgeTypeException : Exception, ISerializable'
     content.vb: >-
       Public Class InvalidEdgeTypeException
-
           Inherits Exception
-
           Implements ISerializable
   inheritance:
   - System.Object

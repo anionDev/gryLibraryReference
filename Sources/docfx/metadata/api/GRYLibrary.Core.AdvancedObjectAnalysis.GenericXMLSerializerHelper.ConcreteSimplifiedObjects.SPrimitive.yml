@@ -28,7 +28,6 @@ items:
     content: 'public class SPrimitive : Simplified'
     content.vb: >-
       Public Class SPrimitive
-
           Inherits Simplified
   inheritance:
   - System.Object

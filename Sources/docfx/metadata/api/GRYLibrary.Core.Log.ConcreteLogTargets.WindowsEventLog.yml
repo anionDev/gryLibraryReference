@@ -25,7 +25,6 @@ items:
     content: 'public class WindowsEventLog : GRYLogTarget'
     content.vb: >-
       Public Class WindowsEventLog
-
           Inherits GRYLogTarget
   inheritance:
   - System.Object
