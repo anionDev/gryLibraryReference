@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: GRYLibrary.Core.Exceptions
+  commentId: N:GRYLibrary.Core.Exceptions
+  id: GRYLibrary.Core.Exceptions
+  children:
+  - GRYLibrary.Core.Exceptions.ProcessStartException
+  langs:
+  - csharp
+  - vb
+  name: GRYLibrary.Core.Exceptions
+  nameWithType: GRYLibrary.Core.Exceptions
+  fullName: GRYLibrary.Core.Exceptions
+  type: Namespace
+  assemblies:
+  - GRYLibrary
+references:
+- uid: GRYLibrary.Core.Exceptions.ProcessStartException
+  commentId: T:GRYLibrary.Core.Exceptions.ProcessStartException
+  name: ProcessStartException
+  nameWithType: ProcessStartException
+  fullName: GRYLibrary.Core.Exceptions.ProcessStartException

@@ -10,13 +10,13 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ExternalProgramExecutor
    ">
-    <meta name="generator" content="docfx 2.52.0.0">
+    <meta name="generator" content="docfx 2.55.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="">
+    <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     
@@ -137,6 +137,22 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>If the process is not terminated yet.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="GRYLibrary_Core_ExternalProgramExecutor_AllStdOutLines_" data-uid="GRYLibrary.Core.ExternalProgramExecutor.AllStdOutLines*"></a>
@@ -159,6 +175,22 @@
       <tr>
         <td><span class="xref">System.String</span>[]</td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>If the process is not terminated yet.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -287,6 +319,22 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>If the process is not terminated yet.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="GRYLibrary_Core_ExternalProgramExecutor_LogObject_" data-uid="GRYLibrary.Core.ExternalProgramExecutor.LogObject*"></a>
@@ -308,6 +356,31 @@
     <tbody>
       <tr>
         <td><a class="xref" href="GRYLibrary.Core.Log.GRYLog.html">GRYLog</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_ExternalProgramExecutor_LogOutput_" data-uid="GRYLibrary.Core.ExternalProgramExecutor.LogOutput*"></a>
+  <h4 id="GRYLibrary_Core_ExternalProgramExecutor_LogOutput" data-uid="GRYLibrary.Core.ExternalProgramExecutor.LogOutput">LogOutput</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool LogOutput { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -384,6 +457,22 @@
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>If the process is not terminated yet.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -547,7 +636,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ExternalProgramExecutor Create(string programPathAndFile, string arguments, string workingDirectory = &quot;&quot;, string title = &quot;&quot;, bool printErrorsAsInformation = false, int? timeoutInMilliseconds = default(int? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public static ExternalProgramExecutor Create(string programPathAndFile, string arguments = &quot;&quot;, string workingDirectory = &quot;&quot;, string title = &quot;&quot;, bool printErrorsAsInformation = false, int? timeoutInMilliseconds = default(int? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -779,6 +868,22 @@
   <h5 id="GRYLibrary_Core_ExternalProgramExecutor_GetResult_remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>This summary is designed for readability and not for a further program-controlled processing of the data. For that purpose please read out the properties of this object.</p>
 </div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>If the process is not terminated yet.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="GRYLibrary_Core_ExternalProgramExecutor_Running_" data-uid="GRYLibrary.Core.ExternalProgramExecutor.Running*"></a>
@@ -831,39 +936,82 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GRYLibrary.Core.UnexpectedExitCodeException.html">UnexpectedExitCodeException</a></td>
+        <td><p>Will be thrown if <a class="xref" href="GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_ThrowErrorIfExitCodeIsNotZero">ThrowErrorIfExitCodeIsNotZero</a> and the exitcode of the executed program is not 0.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Will be thrown if <a class="xref" href="GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_StartConsoleApplicationInCurrentConsoleWindow">StartConsoleApplicationInCurrentConsoleWindow()</a> was already called.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Will be thrown if the given working-directory does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GRYLibrary.Core.Exceptions.ProcessStartException.html">ProcessStartException</a></td>
+        <td><p>Will be thrown if the process could not be started.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsEnumerable_System_Object_">Utilities.ObjectIsEnumerable(Object)</a>
   </div>
   <div>
-      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToEnumerable_System_Object_">Utilities.ObjectToEnumerable(Object)</a>
-  </div>
-  <div>
-      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToEnumerableGeneric__1_System_Object_">Utilities.ObjectToEnumerableGeneric&lt;T&gt;(Object)</a>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsSet_System_Object_">Utilities.ObjectIsSet(Object)</a>
   </div>
   <div>
       <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsList_System_Object_">Utilities.ObjectIsList(Object)</a>
   </div>
   <div>
-      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToList__1_System_Object_">Utilities.ObjectToList&lt;T&gt;(Object)</a>
-  </div>
-  <div>
-      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsSet_System_Object_">Utilities.ObjectIsSet(Object)</a>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsDictionary_System_Object_">Utilities.ObjectIsDictionary(Object)</a>
   </div>
   <div>
       <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsKeyValuePair_System_Object_">Utilities.ObjectIsKeyValuePair(Object)</a>
   </div>
   <div>
-      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToKeyValuePair__2_System_Object_">Utilities.ObjectToKeyValuePair&lt;TKey, TValue&gt;(Object)</a>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsTuple_System_Object_">Utilities.ObjectIsTuple(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToEnumerable_System_Object_">Utilities.ObjectToEnumerable(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToEnumerable__1_System_Object_">Utilities.ObjectToEnumerable&lt;T&gt;(Object)</a>
   </div>
   <div>
       <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToSet__1_System_Object_">Utilities.ObjectToSet&lt;T&gt;(Object)</a>
   </div>
   <div>
-      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsDictionary_System_Object_">Utilities.ObjectIsDictionary(Object)</a>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToList_System_Object_">Utilities.ObjectToList(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToList__1_System_Object_">Utilities.ObjectToList&lt;T&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToDictionary_System_Object_">Utilities.ObjectToDictionary(Object)</a>
   </div>
   <div>
       <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToDictionary__2_System_Object_">Utilities.ObjectToDictionary&lt;TKey, TValue&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToKeyValuePair__2_System_Object_">Utilities.ObjectToKeyValuePair&lt;TKey, TValue&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToTuple__2_System_Object_">Utilities.ObjectToTuple&lt;T1, T2&gt;(Object)</a>
   </div>
   <div>
       <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToDynamic_System_Object_">Utilities.ToDynamic(Object)</a>

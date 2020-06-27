@@ -1,0 +1,86 @@
+### YamlMime:ManagedReference
+items:
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
+  commentId: N:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
+  id: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
+  children:
+  - GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.GRYSObject
+  - GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.SerializationConfiguration
+  - GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified
+  - GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor
+  - GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor`1
+  langs:
+  - csharp
+  - vb
+  name: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
+  nameWithType: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
+  type: Namespace
+  assemblies:
+  - GRYLibrary
+references:
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.GRYSObject
+  commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.GRYSObject
+  parent: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
+  name: GRYSObject
+  nameWithType: GRYSObject
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.GRYSObject
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.SerializationConfiguration
+  commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.SerializationConfiguration
+  parent: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
+  name: SerializationConfiguration
+  nameWithType: SerializationConfiguration
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.SerializationConfiguration
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified
+  commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified
+  parent: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
+  name: Simplified
+  nameWithType: Simplified
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor
+  commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor
+  parent: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
+  name: Simplified.ISimplifiedVisitor
+  nameWithType: Simplified.ISimplifiedVisitor
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor`1
+  commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor`1
+  name: Simplified.ISimplifiedVisitor<T>
+  nameWithType: Simplified.ISimplifiedVisitor<T>
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor<T>
+  nameWithType.vb: Simplified.ISimplifiedVisitor(Of T)
+  fullName.vb: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor(Of T)
+  name.vb: Simplified.ISimplifiedVisitor(Of T)
+  spec.csharp:
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor`1
+    name: Simplified.ISimplifiedVisitor
+    nameWithType: Simplified.ISimplifiedVisitor
+    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor`1
+    name: Simplified.ISimplifiedVisitor
+    nameWithType: Simplified.ISimplifiedVisitor
+    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
+  commentId: N:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
+  name: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
+  nameWithType: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper

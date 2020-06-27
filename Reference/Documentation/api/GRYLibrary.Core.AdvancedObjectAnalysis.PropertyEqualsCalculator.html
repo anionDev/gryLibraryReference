@@ -10,13 +10,13 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class PropertyEqualsCalculator
    ">
-    <meta name="generator" content="docfx 2.52.0.0">
+    <meta name="generator" content="docfx 2.55.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="">
+    <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     
@@ -78,7 +78,8 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">PropertyEqualsCalculator</span></div>
+    <div class="level1"><a class="xref" href="GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer-1.html">GRYEqualityComparer</a>&lt;<span class="xref">System.Object</span>&gt;</div>
+    <div class="level2"><span class="xref">PropertyEqualsCalculator</span></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -86,6 +87,15 @@
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer-1.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_GRYEqualityComparer_1__PropertyEqualsCalculator">GRYEqualityComparer&lt;Object&gt;._PropertyEqualsCalculator</a>
+    </div>
+    <div>
+      <a class="xref" href="GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer-1.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_GRYEqualityComparer_1_GetHashCode__0_">GRYEqualityComparer&lt;Object&gt;.GetHashCode(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer-1.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_GRYEqualityComparer_1_Equals__0__0_">GRYEqualityComparer&lt;Object&gt;.Equals(Object, Object)</a>
+    </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
@@ -109,7 +119,7 @@
   <h6><strong>Assembly</strong>: GRYLibrary.dll</h6>
   <h5 id="GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculator_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PropertyEqualsCalculator : IEqualityComparer&lt;object&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class PropertyEqualsCalculator : GRYEqualityComparer&lt;object&gt;, IEqualityComparer&lt;object&gt;</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -123,214 +133,6 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public PropertyEqualsCalculator()</code></pre>
   </div>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculator_DefaultInstance_" data-uid="GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator.DefaultInstance*"></a>
-  <h4 id="GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculator_DefaultInstance" data-uid="GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator.DefaultInstance">DefaultInstance</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEqualityComparer&lt;object&gt; DefaultInstance { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IEqualityComparer</span>&lt;<span class="xref">System.Object</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculator_FieldSelector_" data-uid="GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator.FieldSelector*"></a>
-  <h4 id="GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculator_FieldSelector" data-uid="GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator.FieldSelector">FieldSelector</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Func&lt;FieldInfo, bool&gt; FieldSelector { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Reflection.FieldInfo</span>, <span class="xref">System.Boolean</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculator_PropertySelector_" data-uid="GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator.PropertySelector*"></a>
-  <h4 id="GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculator_PropertySelector" data-uid="GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator.PropertySelector">PropertySelector</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Func&lt;PropertyInfo, bool&gt; PropertySelector { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Reflection.PropertyInfo</span>, <span class="xref">System.Boolean</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  
-  
-  <a id="GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculator_Equals_" data-uid="GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator.Equals*"></a>
-  <h4 id="GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculator_Equals_System_Object_System_Object_" data-uid="GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator.Equals(System.Object,System.Object)">Equals(Object, Object)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Equals(object object1, object object2)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">object1</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">object2</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculator_GetDefaultInstance_" data-uid="GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator.GetDefaultInstance*"></a>
-  <h4 id="GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculator_GetDefaultInstance__1" data-uid="GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator.GetDefaultInstance``1">GetDefaultInstance&lt;T&gt;()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEqualityComparer&lt;T&gt; GetDefaultInstance&lt;T&gt;()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IEqualityComparer</span>&lt;T&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculator_GetHashCode_" data-uid="GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator.GetHashCode*"></a>
-  <h4 id="GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculator_GetHashCode_System_Object_" data-uid="GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator.GetHashCode(System.Object)">GetHashCode(Object)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int GetHashCode(object object)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">object</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">System.Collections.Generic.IEqualityComparer&lt;T&gt;</span>
@@ -340,34 +142,46 @@
       <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsEnumerable_System_Object_">Utilities.ObjectIsEnumerable(Object)</a>
   </div>
   <div>
-      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToEnumerable_System_Object_">Utilities.ObjectToEnumerable(Object)</a>
-  </div>
-  <div>
-      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToEnumerableGeneric__1_System_Object_">Utilities.ObjectToEnumerableGeneric&lt;T&gt;(Object)</a>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsSet_System_Object_">Utilities.ObjectIsSet(Object)</a>
   </div>
   <div>
       <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsList_System_Object_">Utilities.ObjectIsList(Object)</a>
   </div>
   <div>
-      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToList__1_System_Object_">Utilities.ObjectToList&lt;T&gt;(Object)</a>
-  </div>
-  <div>
-      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsSet_System_Object_">Utilities.ObjectIsSet(Object)</a>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsDictionary_System_Object_">Utilities.ObjectIsDictionary(Object)</a>
   </div>
   <div>
       <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsKeyValuePair_System_Object_">Utilities.ObjectIsKeyValuePair(Object)</a>
   </div>
   <div>
-      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToKeyValuePair__2_System_Object_">Utilities.ObjectToKeyValuePair&lt;TKey, TValue&gt;(Object)</a>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsTuple_System_Object_">Utilities.ObjectIsTuple(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToEnumerable_System_Object_">Utilities.ObjectToEnumerable(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToEnumerable__1_System_Object_">Utilities.ObjectToEnumerable&lt;T&gt;(Object)</a>
   </div>
   <div>
       <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToSet__1_System_Object_">Utilities.ObjectToSet&lt;T&gt;(Object)</a>
   </div>
   <div>
-      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsDictionary_System_Object_">Utilities.ObjectIsDictionary(Object)</a>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToList_System_Object_">Utilities.ObjectToList(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToList__1_System_Object_">Utilities.ObjectToList&lt;T&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToDictionary_System_Object_">Utilities.ObjectToDictionary(Object)</a>
   </div>
   <div>
       <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToDictionary__2_System_Object_">Utilities.ObjectToDictionary&lt;TKey, TValue&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToKeyValuePair__2_System_Object_">Utilities.ObjectToKeyValuePair&lt;TKey, TValue&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToTuple__2_System_Object_">Utilities.ObjectToTuple&lt;T1, T2&gt;(Object)</a>
   </div>
   <div>
       <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToDynamic_System_Object_">Utilities.ToDynamic(Object)</a>

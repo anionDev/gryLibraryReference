@@ -35,6 +35,11 @@
     name: FileSelector
   - uid: GRYLibrary.Core.GitCommandResult
     name: GitCommandResult
+  - uid: GRYLibrary.Core.IdGenerator
+    name: IdGenerator
+  - uid: GRYLibrary.Core.IdGenerator`1
+    name: IdGenerator<T>
+    name.vb: IdGenerator(Of T)
   - uid: GRYLibrary.Core.IProperty
     name: IProperty
   - uid: GRYLibrary.Core.NonPersistentInputHistoryList
@@ -96,16 +101,67 @@
 - uid: GRYLibrary.Core.AdvancedObjectAnalysis
   name: GRYLibrary.Core.AdvancedObjectAnalysis
   items:
-  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.KeyValuePairComparer
-    name: KeyValuePairComparer
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.Generic
+    name: Generic
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericToString
+    name: GenericToString
   - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator
     name: PropertyEqualsCalculator
-  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator`1
-    name: PropertyEqualsCalculator<T>
-    name.vb: PropertyEqualsCalculator(Of T)
-  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.ReferenceEqualsComparer
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
+  name: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
+  items:
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.GRYSObject
+    name: GRYSObject
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.SerializationConfiguration
+    name: SerializationConfiguration
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified
+    name: Simplified
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor
+    name: Simplified.ISimplifiedVisitor
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor`1
+    name: Simplified.ISimplifiedVisitor<T>
+    name.vb: Simplified.ISimplifiedVisitor(Of T)
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects
+  name: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects
+  items:
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SAttribute
+    name: SAttribute
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SEnumerable
+    name: SEnumerable
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SObject
+    name: SObject
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive
+    name: SPrimitive
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper
+  name: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper
+  items:
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.AbstractCustomComparer
+    name: AbstractCustomComparer
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer`1
+    name: GRYEqualityComparer<T>
+    name.vb: GRYEqualityComparer(Of T)
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.PropertyEqualsCalculatorConfiguration
+    name: PropertyEqualsCalculatorConfiguration
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.ReferenceEqualsComparer
     name: ReferenceEqualsComparer
-  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.TupleComparer
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer
+  name: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer
+  items:
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.AttributeValueComparer
+    name: AttributeValueComparer
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.DictionaryComparer
+    name: DictionaryComparer
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.EnumerableComparer
+    name: EnumerableComparer
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.KeyValuePairComparer
+    name: KeyValuePairComparer
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.ListComparer
+    name: ListComparer
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.PrimitiveComparer
+    name: PrimitiveComparer
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.SetComparer
+    name: SetComparer
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.TupleComparer
     name: TupleComparer
 - uid: GRYLibrary.Core.AdvancedXMLSerialysis
   name: GRYLibrary.Core.AdvancedXMLSerialysis
@@ -115,25 +171,6 @@
   - uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1
     name: GenericXMLSerializer<T>
     name.vb: GenericXMLSerializer(Of T)
-  - uid: GRYLibrary.Core.AdvancedXMLSerialysis.GRYSerializedObject
-    name: GRYSerializedObject
-  - uid: GRYLibrary.Core.AdvancedXMLSerialysis.SerializationConfiguration
-    name: SerializationConfiguration
-  - uid: GRYLibrary.Core.AdvancedXMLSerialysis.Simplified
-    name: Simplified
-  - uid: GRYLibrary.Core.AdvancedXMLSerialysis.Simplified.ISimplifiedVisitor
-    name: Simplified.ISimplifiedVisitor
-  - uid: GRYLibrary.Core.AdvancedXMLSerialysis.Simplified.ISimplifiedVisitor`1
-    name: Simplified.ISimplifiedVisitor<T>
-    name.vb: Simplified.ISimplifiedVisitor(Of T)
-  - uid: GRYLibrary.Core.AdvancedXMLSerialysis.SimplifiedAttribute
-    name: SimplifiedAttribute
-  - uid: GRYLibrary.Core.AdvancedXMLSerialysis.SimplifiedEnumerable
-    name: SimplifiedEnumerable
-  - uid: GRYLibrary.Core.AdvancedXMLSerialysis.SimplifiedObject
-    name: SimplifiedObject
-  - uid: GRYLibrary.Core.AdvancedXMLSerialysis.SimplifiedPrimitive
-    name: SimplifiedPrimitive
 - uid: GRYLibrary.Core.Event
   name: GRYLibrary.Core.Event
   items:
@@ -146,6 +183,11 @@
   - uid: GRYLibrary.Core.Event.IObserver`2
     name: IObserver<SenderType, EventArgumentType>
     name.vb: IObserver(Of SenderType, EventArgumentType)
+- uid: GRYLibrary.Core.Exceptions
+  name: GRYLibrary.Core.Exceptions
+  items:
+  - uid: GRYLibrary.Core.Exceptions.ProcessStartException
+    name: ProcessStartException
 - uid: GRYLibrary.Core.Graph
   name: GRYLibrary.Core.Graph
   items:
@@ -218,6 +260,25 @@
     name: Observer
   - uid: GRYLibrary.Core.Log.ConcreteLogTargets.WindowsEventLog
     name: WindowsEventLog
+- uid: GRYLibrary.Core.OperatingSystem
+  name: GRYLibrary.Core.OperatingSystem
+  items:
+  - uid: GRYLibrary.Core.OperatingSystem.IOperatingSystemVisitor
+    name: IOperatingSystemVisitor
+  - uid: GRYLibrary.Core.OperatingSystem.IOperatingSystemVisitor`1
+    name: IOperatingSystemVisitor<T>
+    name.vb: IOperatingSystemVisitor(Of T)
+  - uid: GRYLibrary.Core.OperatingSystem.OperatingSystem
+    name: OperatingSystem
+- uid: GRYLibrary.Core.OperatingSystem.ConcreteOperatingSystems
+  name: GRYLibrary.Core.OperatingSystem.ConcreteOperatingSystems
+  items:
+  - uid: GRYLibrary.Core.OperatingSystem.ConcreteOperatingSystems.Linux
+    name: Linux
+  - uid: GRYLibrary.Core.OperatingSystem.ConcreteOperatingSystems.OSX
+    name: OSX
+  - uid: GRYLibrary.Core.OperatingSystem.ConcreteOperatingSystems.Windows
+    name: Windows
 - uid: GRYLibrary.Core.Playlists
   name: GRYLibrary.Core.Playlists
   items:

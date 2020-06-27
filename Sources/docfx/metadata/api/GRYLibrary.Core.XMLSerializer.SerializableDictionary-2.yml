@@ -18,7 +18,7 @@ items:
   type: Class
   source:
     id: SerializableDictionary
-    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SerializableDictionary.cs
+    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SerializableDictionary.cs
     startLine: 5
   assemblies:
   - GRYLibrary
@@ -103,27 +103,32 @@ items:
   - System.Object.ToString
   extensionMethods:
   - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}}.GRYLibrary.Core.Utilities.EqualsIgnoringOrder``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{{TKey},{TValue}}})
+  - System.Collections.IEnumerable.GRYLibrary.Core.Utilities.Count
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsEnumerable
-  - System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable
-  - System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric``1
-  - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}}.GRYLibrary.Core.Utilities.EnumerableEquals``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{{TKey},{TValue}}})
-  - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}}.GRYLibrary.Core.Utilities.EnumerableEquals``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{{TKey},{TValue}}},System.Collections.Generic.IEqualityComparer{System.Collections.Generic.KeyValuePair{{TKey},{TValue}}})
-  - System.Object.GRYLibrary.Core.Utilities.ObjectIsList
-  - System.Object.GRYLibrary.Core.Utilities.ObjectToList``1
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsSet
-  - System.Object.GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
-  - System.Object.GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2
-  - System.Object.GRYLibrary.Core.Utilities.ObjectToSet``1
+  - System.Object.GRYLibrary.Core.Utilities.ObjectIsList
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionary
+  - System.Object.GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - System.Object.GRYLibrary.Core.Utilities.ObjectIsTuple
+  - System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable
+  - System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable``1
+  - System.Object.GRYLibrary.Core.Utilities.ObjectToSet``1
+  - System.Object.GRYLibrary.Core.Utilities.ObjectToList
+  - System.Object.GRYLibrary.Core.Utilities.ObjectToList``1
+  - System.Object.GRYLibrary.Core.Utilities.ObjectToDictionary
   - System.Object.GRYLibrary.Core.Utilities.ObjectToDictionary``2
+  - System.Object.GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2
+  - System.Object.GRYLibrary.Core.Utilities.ObjectToTuple``2
+  - System.Collections.IEnumerable.GRYLibrary.Core.Utilities.EnumerableEquals(System.Collections.IEnumerable)
+  - System.Collections.IDictionary.GRYLibrary.Core.Utilities.DictionaryEquals(System.Collections.IDictionary)
   - System.Collections.Generic.IDictionary{`0,`1}.GRYLibrary.Core.Utilities.DictionaryEquals``2(System.Collections.Generic.IDictionary{{TKey},{TValue}})
-  - System.Collections.Generic.IDictionary{`0,`1}.GRYLibrary.Core.Utilities.DictionaryEquals``2(System.Collections.Generic.IDictionary{{TKey},{TValue}},System.Collections.Generic.IEqualityComparer{System.Collections.Generic.KeyValuePair{{TKey},{TValue}}})
   - System.Object.GRYLibrary.Core.Utilities.ToDynamic
   - GRYLibrary.Core.XMLSerializer.SerializableDictionary`2.GRYLibrary.Core.Utilities.DeepClone``1
   - GRYLibrary.Core.XMLSerializer.SerializableDictionary`2.GRYLibrary.Core.Utilities.PersistToDisk``1(System.String)
   - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}}.GRYLibrary.Core.Utilities.NullSafeEnumerableEquals``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{{TKey},{TValue}}})
   - System.Object.GRYLibrary.Core.Utilities.NullSafeEquals(System.Object)
   - System.Collections.Generic.IDictionary{`0,`1}.GRYLibrary.Core.Utilities.ToSerializableDictionary``2
+  - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}}.GRYLibrary.Core.Utilities.ForEach``1(System.Action{System.Collections.Generic.KeyValuePair{{TKey},{TValue}}})
   nameWithType.vb: SerializableDictionary(Of TKey, TValue)
   modifiers.csharp:
   - public
@@ -146,7 +151,7 @@ items:
   type: Constructor
   source:
     id: .ctor
-    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SerializableDictionary.cs
+    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SerializableDictionary.cs
     startLine: 10
   assemblies:
   - GRYLibrary
@@ -174,7 +179,7 @@ items:
   type: Method
   source:
     id: ReadXml
-    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SerializableDictionary.cs
+    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SerializableDictionary.cs
     startLine: 16
   assemblies:
   - GRYLibrary
@@ -207,7 +212,7 @@ items:
   type: Method
   source:
     id: WriteXml
-    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SerializableDictionary.cs
+    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SerializableDictionary.cs
     startLine: 43
   assemblies:
   - GRYLibrary
@@ -240,7 +245,7 @@ items:
   type: Method
   source:
     id: GetSchema
-    path: C:\Dev\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SerializableDictionary.cs
+    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SerializableDictionary.cs
     startLine: 61
   assemblies:
   - GRYLibrary
@@ -2633,6 +2638,35 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.Collections.IEnumerable.GRYLibrary.Core.Utilities.Count
+  commentId: M:GRYLibrary.Core.Utilities.Count(System.Collections.IEnumerable)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.Count(System.Collections.IEnumerable)
+  name: Count()
+  nameWithType: Utilities.Count()
+  fullName: GRYLibrary.Core.Utilities.Count()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.Count
+    name: Count
+    nameWithType: Utilities.Count
+    fullName: GRYLibrary.Core.Utilities.Count
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.Count
+    name: Count
+    nameWithType: Utilities.Count
+    fullName: GRYLibrary.Core.Utilities.Count
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Object.GRYLibrary.Core.Utilities.ObjectIsEnumerable
   commentId: M:GRYLibrary.Core.Utilities.ObjectIsEnumerable(System.Object)
   parent: GRYLibrary.Core.Utilities
@@ -2656,384 +2690,6 @@ references:
     name: ObjectIsEnumerable
     nameWithType: Utilities.ObjectIsEnumerable
     fullName: GRYLibrary.Core.Utilities.ObjectIsEnumerable
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable
-  commentId: M:GRYLibrary.Core.Utilities.ObjectToEnumerable(System.Object)
-  parent: GRYLibrary.Core.Utilities
-  definition: GRYLibrary.Core.Utilities.ObjectToEnumerable(System.Object)
-  name: ObjectToEnumerable()
-  nameWithType: Utilities.ObjectToEnumerable()
-  fullName: GRYLibrary.Core.Utilities.ObjectToEnumerable()
-  spec.csharp:
-  - uid: GRYLibrary.Core.Utilities.ObjectToEnumerable
-    name: ObjectToEnumerable
-    nameWithType: Utilities.ObjectToEnumerable
-    fullName: GRYLibrary.Core.Utilities.ObjectToEnumerable
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: GRYLibrary.Core.Utilities.ObjectToEnumerable
-    name: ObjectToEnumerable
-    nameWithType: Utilities.ObjectToEnumerable
-    fullName: GRYLibrary.Core.Utilities.ObjectToEnumerable
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric``1
-  commentId: M:GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric``1(System.Object)
-  parent: GRYLibrary.Core.Utilities
-  definition: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric``1(System.Object)
-  name: ObjectToEnumerableGeneric<T>()
-  nameWithType: Utilities.ObjectToEnumerableGeneric<T>()
-  fullName: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric<T>()
-  nameWithType.vb: Utilities.ObjectToEnumerableGeneric(Of T)()
-  fullName.vb: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric(Of T)()
-  name.vb: ObjectToEnumerableGeneric(Of T)()
-  spec.csharp:
-  - uid: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric``1
-    name: ObjectToEnumerableGeneric<T>
-    nameWithType: Utilities.ObjectToEnumerableGeneric<T>
-    fullName: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric<T>
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric``1
-    name: ObjectToEnumerableGeneric(Of T)
-    nameWithType: Utilities.ObjectToEnumerableGeneric(Of T)
-    fullName: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric(Of T)
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}}.GRYLibrary.Core.Utilities.EnumerableEquals``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{{TKey},{TValue}}})
-  commentId: M:GRYLibrary.Core.Utilities.EnumerableEquals``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
-  parent: GRYLibrary.Core.Utilities
-  definition: GRYLibrary.Core.Utilities.EnumerableEquals``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
-  name: EnumerableEquals<KeyValuePair<TKey, TValue>>(IEnumerable<KeyValuePair<TKey, TValue>>)
-  nameWithType: Utilities.EnumerableEquals<KeyValuePair<TKey, TValue>>(IEnumerable<KeyValuePair<TKey, TValue>>)
-  fullName: GRYLibrary.Core.Utilities.EnumerableEquals<System.Collections.Generic.KeyValuePair<TKey, TValue>>(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey, TValue>>)
-  nameWithType.vb: Utilities.EnumerableEquals(Of KeyValuePair(Of TKey, TValue))(IEnumerable(Of KeyValuePair(Of TKey, TValue)))
-  fullName.vb: GRYLibrary.Core.Utilities.EnumerableEquals(Of System.Collections.Generic.KeyValuePair(Of TKey, TValue))(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of TKey, TValue)))
-  name.vb: EnumerableEquals(Of KeyValuePair(Of TKey, TValue))(IEnumerable(Of KeyValuePair(Of TKey, TValue)))
-  spec.csharp:
-  - uid: GRYLibrary.Core.Utilities.EnumerableEquals``1(System.Collections.Generic.IEnumerable{``0})
-    name: EnumerableEquals<KeyValuePair<TKey, TValue>>
-    nameWithType: Utilities.EnumerableEquals<KeyValuePair<TKey, TValue>>
-    fullName: GRYLibrary.Core.Utilities.EnumerableEquals<System.Collections.Generic.KeyValuePair<TKey, TValue>>
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.Collections.Generic.KeyValuePair`2
-    name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: GRYLibrary.Core.Utilities.EnumerableEquals``1(System.Collections.Generic.IEnumerable{``0})
-    name: EnumerableEquals(Of KeyValuePair(Of TKey, TValue))
-    nameWithType: Utilities.EnumerableEquals(Of KeyValuePair(Of TKey, TValue))
-    fullName: GRYLibrary.Core.Utilities.EnumerableEquals(Of System.Collections.Generic.KeyValuePair(Of TKey, TValue))
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.Collections.Generic.KeyValuePair`2
-    name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}}.GRYLibrary.Core.Utilities.EnumerableEquals``1(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{{TKey},{TValue}}},System.Collections.Generic.IEqualityComparer{System.Collections.Generic.KeyValuePair{{TKey},{TValue}}})
-  commentId: M:GRYLibrary.Core.Utilities.EnumerableEquals``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
-  parent: GRYLibrary.Core.Utilities
-  definition: GRYLibrary.Core.Utilities.EnumerableEquals``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
-  name: EnumerableEquals<KeyValuePair<TKey, TValue>>(IEnumerable<KeyValuePair<TKey, TValue>>, IEqualityComparer<KeyValuePair<TKey, TValue>>)
-  nameWithType: Utilities.EnumerableEquals<KeyValuePair<TKey, TValue>>(IEnumerable<KeyValuePair<TKey, TValue>>, IEqualityComparer<KeyValuePair<TKey, TValue>>)
-  fullName: GRYLibrary.Core.Utilities.EnumerableEquals<System.Collections.Generic.KeyValuePair<TKey, TValue>>(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey, TValue>>, System.Collections.Generic.IEqualityComparer<System.Collections.Generic.KeyValuePair<TKey, TValue>>)
-  nameWithType.vb: Utilities.EnumerableEquals(Of KeyValuePair(Of TKey, TValue))(IEnumerable(Of KeyValuePair(Of TKey, TValue)), IEqualityComparer(Of KeyValuePair(Of TKey, TValue)))
-  fullName.vb: GRYLibrary.Core.Utilities.EnumerableEquals(Of System.Collections.Generic.KeyValuePair(Of TKey, TValue))(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of TKey, TValue)), System.Collections.Generic.IEqualityComparer(Of System.Collections.Generic.KeyValuePair(Of TKey, TValue)))
-  name.vb: EnumerableEquals(Of KeyValuePair(Of TKey, TValue))(IEnumerable(Of KeyValuePair(Of TKey, TValue)), IEqualityComparer(Of KeyValuePair(Of TKey, TValue)))
-  spec.csharp:
-  - uid: GRYLibrary.Core.Utilities.EnumerableEquals``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
-    name: EnumerableEquals<KeyValuePair<TKey, TValue>>
-    nameWithType: Utilities.EnumerableEquals<KeyValuePair<TKey, TValue>>
-    fullName: GRYLibrary.Core.Utilities.EnumerableEquals<System.Collections.Generic.KeyValuePair<TKey, TValue>>
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.Collections.Generic.KeyValuePair`2
-    name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Collections.Generic.IEqualityComparer`1
-    name: IEqualityComparer
-    nameWithType: IEqualityComparer
-    fullName: System.Collections.Generic.IEqualityComparer
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.Collections.Generic.KeyValuePair`2
-    name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: GRYLibrary.Core.Utilities.EnumerableEquals``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
-    name: EnumerableEquals(Of KeyValuePair(Of TKey, TValue))
-    nameWithType: Utilities.EnumerableEquals(Of KeyValuePair(Of TKey, TValue))
-    fullName: GRYLibrary.Core.Utilities.EnumerableEquals(Of System.Collections.Generic.KeyValuePair(Of TKey, TValue))
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.Collections.Generic.KeyValuePair`2
-    name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Collections.Generic.IEqualityComparer`1
-    name: IEqualityComparer
-    nameWithType: IEqualityComparer
-    fullName: System.Collections.Generic.IEqualityComparer
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.Collections.Generic.KeyValuePair`2
-    name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GRYLibrary.Core.Utilities.ObjectIsList
-  commentId: M:GRYLibrary.Core.Utilities.ObjectIsList(System.Object)
-  parent: GRYLibrary.Core.Utilities
-  definition: GRYLibrary.Core.Utilities.ObjectIsList(System.Object)
-  name: ObjectIsList()
-  nameWithType: Utilities.ObjectIsList()
-  fullName: GRYLibrary.Core.Utilities.ObjectIsList()
-  spec.csharp:
-  - uid: GRYLibrary.Core.Utilities.ObjectIsList
-    name: ObjectIsList
-    nameWithType: Utilities.ObjectIsList
-    fullName: GRYLibrary.Core.Utilities.ObjectIsList
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: GRYLibrary.Core.Utilities.ObjectIsList
-    name: ObjectIsList
-    nameWithType: Utilities.ObjectIsList
-    fullName: GRYLibrary.Core.Utilities.ObjectIsList
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GRYLibrary.Core.Utilities.ObjectToList``1
-  commentId: M:GRYLibrary.Core.Utilities.ObjectToList``1(System.Object)
-  parent: GRYLibrary.Core.Utilities
-  definition: GRYLibrary.Core.Utilities.ObjectToList``1(System.Object)
-  name: ObjectToList<T>()
-  nameWithType: Utilities.ObjectToList<T>()
-  fullName: GRYLibrary.Core.Utilities.ObjectToList<T>()
-  nameWithType.vb: Utilities.ObjectToList(Of T)()
-  fullName.vb: GRYLibrary.Core.Utilities.ObjectToList(Of T)()
-  name.vb: ObjectToList(Of T)()
-  spec.csharp:
-  - uid: GRYLibrary.Core.Utilities.ObjectToList``1
-    name: ObjectToList<T>
-    nameWithType: Utilities.ObjectToList<T>
-    fullName: GRYLibrary.Core.Utilities.ObjectToList<T>
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: GRYLibrary.Core.Utilities.ObjectToList``1
-    name: ObjectToList(Of T)
-    nameWithType: Utilities.ObjectToList(Of T)
-    fullName: GRYLibrary.Core.Utilities.ObjectToList(Of T)
   - name: (
     nameWithType: (
     fullName: (
@@ -3069,6 +2725,64 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectIsList
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsList(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectIsList(System.Object)
+  name: ObjectIsList()
+  nameWithType: Utilities.ObjectIsList()
+  fullName: GRYLibrary.Core.Utilities.ObjectIsList()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsList
+    name: ObjectIsList
+    nameWithType: Utilities.ObjectIsList
+    fullName: GRYLibrary.Core.Utilities.ObjectIsList
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsList
+    name: ObjectIsList
+    nameWithType: Utilities.ObjectIsList
+    fullName: GRYLibrary.Core.Utilities.ObjectIsList
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionary
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionary(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectIsDictionary(System.Object)
+  name: ObjectIsDictionary()
+  nameWithType: Utilities.ObjectIsDictionary()
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionary()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionary
+    name: ObjectIsDictionary
+    nameWithType: Utilities.ObjectIsDictionary
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionary
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionary
+    name: ObjectIsDictionary
+    nameWithType: Utilities.ObjectIsDictionary
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionary
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Object.GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
   commentId: M:GRYLibrary.Core.Utilities.ObjectIsKeyValuePair(System.Object)
   parent: GRYLibrary.Core.Utilities
@@ -3098,21 +2812,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Object.GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2
-  commentId: M:GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2(System.Object)
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectIsTuple
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsTuple(System.Object)
   parent: GRYLibrary.Core.Utilities
-  definition: GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2(System.Object)
-  name: ObjectToKeyValuePair<TKey, TValue>()
-  nameWithType: Utilities.ObjectToKeyValuePair<TKey, TValue>()
-  fullName: GRYLibrary.Core.Utilities.ObjectToKeyValuePair<TKey, TValue>()
-  nameWithType.vb: Utilities.ObjectToKeyValuePair(Of TKey, TValue)()
-  fullName.vb: GRYLibrary.Core.Utilities.ObjectToKeyValuePair(Of TKey, TValue)()
-  name.vb: ObjectToKeyValuePair(Of TKey, TValue)()
+  definition: GRYLibrary.Core.Utilities.ObjectIsTuple(System.Object)
+  name: ObjectIsTuple()
+  nameWithType: Utilities.ObjectIsTuple()
+  fullName: GRYLibrary.Core.Utilities.ObjectIsTuple()
   spec.csharp:
-  - uid: GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2
-    name: ObjectToKeyValuePair<TKey, TValue>
-    nameWithType: Utilities.ObjectToKeyValuePair<TKey, TValue>
-    fullName: GRYLibrary.Core.Utilities.ObjectToKeyValuePair<TKey, TValue>
+  - uid: GRYLibrary.Core.Utilities.ObjectIsTuple
+    name: ObjectIsTuple
+    nameWithType: Utilities.ObjectIsTuple
+    fullName: GRYLibrary.Core.Utilities.ObjectIsTuple
   - name: (
     nameWithType: (
     fullName: (
@@ -3120,10 +2831,71 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2
-    name: ObjectToKeyValuePair(Of TKey, TValue)
-    nameWithType: Utilities.ObjectToKeyValuePair(Of TKey, TValue)
-    fullName: GRYLibrary.Core.Utilities.ObjectToKeyValuePair(Of TKey, TValue)
+  - uid: GRYLibrary.Core.Utilities.ObjectIsTuple
+    name: ObjectIsTuple
+    nameWithType: Utilities.ObjectIsTuple
+    fullName: GRYLibrary.Core.Utilities.ObjectIsTuple
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToEnumerable(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectToEnumerable(System.Object)
+  name: ObjectToEnumerable()
+  nameWithType: Utilities.ObjectToEnumerable()
+  fullName: GRYLibrary.Core.Utilities.ObjectToEnumerable()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToEnumerable
+    name: ObjectToEnumerable
+    nameWithType: Utilities.ObjectToEnumerable
+    fullName: GRYLibrary.Core.Utilities.ObjectToEnumerable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToEnumerable
+    name: ObjectToEnumerable
+    nameWithType: Utilities.ObjectToEnumerable
+    fullName: GRYLibrary.Core.Utilities.ObjectToEnumerable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable``1
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToEnumerable``1(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectToEnumerable``1(System.Object)
+  name: ObjectToEnumerable<T>()
+  nameWithType: Utilities.ObjectToEnumerable<T>()
+  fullName: GRYLibrary.Core.Utilities.ObjectToEnumerable<T>()
+  nameWithType.vb: Utilities.ObjectToEnumerable(Of T)()
+  fullName.vb: GRYLibrary.Core.Utilities.ObjectToEnumerable(Of T)()
+  name.vb: ObjectToEnumerable(Of T)()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToEnumerable``1
+    name: ObjectToEnumerable<T>
+    nameWithType: Utilities.ObjectToEnumerable<T>
+    fullName: GRYLibrary.Core.Utilities.ObjectToEnumerable<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToEnumerable``1
+    name: ObjectToEnumerable(Of T)
+    nameWithType: Utilities.ObjectToEnumerable(Of T)
+    fullName: GRYLibrary.Core.Utilities.ObjectToEnumerable(Of T)
   - name: (
     nameWithType: (
     fullName: (
@@ -3162,18 +2934,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionary
-  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionary(System.Object)
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectToList
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToList(System.Object)
   parent: GRYLibrary.Core.Utilities
-  definition: GRYLibrary.Core.Utilities.ObjectIsDictionary(System.Object)
-  name: ObjectIsDictionary()
-  nameWithType: Utilities.ObjectIsDictionary()
-  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionary()
+  definition: GRYLibrary.Core.Utilities.ObjectToList(System.Object)
+  name: ObjectToList()
+  nameWithType: Utilities.ObjectToList()
+  fullName: GRYLibrary.Core.Utilities.ObjectToList()
   spec.csharp:
-  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionary
-    name: ObjectIsDictionary
-    nameWithType: Utilities.ObjectIsDictionary
-    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionary
+  - uid: GRYLibrary.Core.Utilities.ObjectToList
+    name: ObjectToList
+    nameWithType: Utilities.ObjectToList
+    fullName: GRYLibrary.Core.Utilities.ObjectToList
   - name: (
     nameWithType: (
     fullName: (
@@ -3181,10 +2953,71 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionary
-    name: ObjectIsDictionary
-    nameWithType: Utilities.ObjectIsDictionary
-    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionary
+  - uid: GRYLibrary.Core.Utilities.ObjectToList
+    name: ObjectToList
+    nameWithType: Utilities.ObjectToList
+    fullName: GRYLibrary.Core.Utilities.ObjectToList
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectToList``1
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToList``1(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectToList``1(System.Object)
+  name: ObjectToList<T>()
+  nameWithType: Utilities.ObjectToList<T>()
+  fullName: GRYLibrary.Core.Utilities.ObjectToList<T>()
+  nameWithType.vb: Utilities.ObjectToList(Of T)()
+  fullName.vb: GRYLibrary.Core.Utilities.ObjectToList(Of T)()
+  name.vb: ObjectToList(Of T)()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToList``1
+    name: ObjectToList<T>
+    nameWithType: Utilities.ObjectToList<T>
+    fullName: GRYLibrary.Core.Utilities.ObjectToList<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToList``1
+    name: ObjectToList(Of T)
+    nameWithType: Utilities.ObjectToList(Of T)
+    fullName: GRYLibrary.Core.Utilities.ObjectToList(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectToDictionary
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToDictionary(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectToDictionary(System.Object)
+  name: ObjectToDictionary()
+  nameWithType: Utilities.ObjectToDictionary()
+  fullName: GRYLibrary.Core.Utilities.ObjectToDictionary()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToDictionary
+    name: ObjectToDictionary
+    nameWithType: Utilities.ObjectToDictionary
+    fullName: GRYLibrary.Core.Utilities.ObjectToDictionary
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToDictionary
+    name: ObjectToDictionary
+    nameWithType: Utilities.ObjectToDictionary
+    fullName: GRYLibrary.Core.Utilities.ObjectToDictionary
   - name: (
     nameWithType: (
     fullName: (
@@ -3220,6 +3053,148 @@ references:
   - name: (
     nameWithType: (
     fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2(System.Object)
+  name: ObjectToKeyValuePair<TKey, TValue>()
+  nameWithType: Utilities.ObjectToKeyValuePair<TKey, TValue>()
+  fullName: GRYLibrary.Core.Utilities.ObjectToKeyValuePair<TKey, TValue>()
+  nameWithType.vb: Utilities.ObjectToKeyValuePair(Of TKey, TValue)()
+  fullName.vb: GRYLibrary.Core.Utilities.ObjectToKeyValuePair(Of TKey, TValue)()
+  name.vb: ObjectToKeyValuePair(Of TKey, TValue)()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2
+    name: ObjectToKeyValuePair<TKey, TValue>
+    nameWithType: Utilities.ObjectToKeyValuePair<TKey, TValue>
+    fullName: GRYLibrary.Core.Utilities.ObjectToKeyValuePair<TKey, TValue>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2
+    name: ObjectToKeyValuePair(Of TKey, TValue)
+    nameWithType: Utilities.ObjectToKeyValuePair(Of TKey, TValue)
+    fullName: GRYLibrary.Core.Utilities.ObjectToKeyValuePair(Of TKey, TValue)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectToTuple``2
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToTuple``2(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectToTuple``2(System.Object)
+  name: ObjectToTuple<T1, T2>()
+  nameWithType: Utilities.ObjectToTuple<T1, T2>()
+  fullName: GRYLibrary.Core.Utilities.ObjectToTuple<T1, T2>()
+  nameWithType.vb: Utilities.ObjectToTuple(Of T1, T2)()
+  fullName.vb: GRYLibrary.Core.Utilities.ObjectToTuple(Of T1, T2)()
+  name.vb: ObjectToTuple(Of T1, T2)()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToTuple``2
+    name: ObjectToTuple<T1, T2>
+    nameWithType: Utilities.ObjectToTuple<T1, T2>
+    fullName: GRYLibrary.Core.Utilities.ObjectToTuple<T1, T2>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToTuple``2
+    name: ObjectToTuple(Of T1, T2)
+    nameWithType: Utilities.ObjectToTuple(Of T1, T2)
+    fullName: GRYLibrary.Core.Utilities.ObjectToTuple(Of T1, T2)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.IEnumerable.GRYLibrary.Core.Utilities.EnumerableEquals(System.Collections.IEnumerable)
+  commentId: M:GRYLibrary.Core.Utilities.EnumerableEquals(System.Collections.IEnumerable,System.Collections.IEnumerable)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.EnumerableEquals(System.Collections.IEnumerable,System.Collections.IEnumerable)
+  name: EnumerableEquals(IEnumerable)
+  nameWithType: Utilities.EnumerableEquals(IEnumerable)
+  fullName: GRYLibrary.Core.Utilities.EnumerableEquals(System.Collections.IEnumerable)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.EnumerableEquals(System.Collections.IEnumerable)
+    name: EnumerableEquals
+    nameWithType: Utilities.EnumerableEquals
+    fullName: GRYLibrary.Core.Utilities.EnumerableEquals
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IEnumerable
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.IEnumerable
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.EnumerableEquals(System.Collections.IEnumerable)
+    name: EnumerableEquals
+    nameWithType: Utilities.EnumerableEquals
+    fullName: GRYLibrary.Core.Utilities.EnumerableEquals
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IEnumerable
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.IEnumerable
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.IDictionary.GRYLibrary.Core.Utilities.DictionaryEquals(System.Collections.IDictionary)
+  commentId: M:GRYLibrary.Core.Utilities.DictionaryEquals(System.Collections.IDictionary,System.Collections.IDictionary)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.DictionaryEquals(System.Collections.IDictionary,System.Collections.IDictionary)
+  name: DictionaryEquals(IDictionary)
+  nameWithType: Utilities.DictionaryEquals(IDictionary)
+  fullName: GRYLibrary.Core.Utilities.DictionaryEquals(System.Collections.IDictionary)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.DictionaryEquals(System.Collections.IDictionary)
+    name: DictionaryEquals
+    nameWithType: Utilities.DictionaryEquals
+    fullName: GRYLibrary.Core.Utilities.DictionaryEquals
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IDictionary
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.IDictionary
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.DictionaryEquals(System.Collections.IDictionary)
+    name: DictionaryEquals
+    nameWithType: Utilities.DictionaryEquals
+    fullName: GRYLibrary.Core.Utilities.DictionaryEquals
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IDictionary
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.IDictionary
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -3289,146 +3264,6 @@ references:
   - name: TValue
     nameWithType: TValue
     fullName: TValue
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Collections.Generic.IDictionary{`0,`1}.GRYLibrary.Core.Utilities.DictionaryEquals``2(System.Collections.Generic.IDictionary{{TKey},{TValue}},System.Collections.Generic.IEqualityComparer{System.Collections.Generic.KeyValuePair{{TKey},{TValue}}})
-  commentId: M:GRYLibrary.Core.Utilities.DictionaryEquals``2(System.Collections.Generic.IDictionary{``0,``1},System.Collections.Generic.IDictionary{``0,``1},System.Collections.Generic.IEqualityComparer{System.Collections.Generic.KeyValuePair{``0,``1}})
-  parent: GRYLibrary.Core.Utilities
-  definition: GRYLibrary.Core.Utilities.DictionaryEquals``2(System.Collections.Generic.IDictionary{``0,``1},System.Collections.Generic.IDictionary{``0,``1},System.Collections.Generic.IEqualityComparer{System.Collections.Generic.KeyValuePair{``0,``1}})
-  name: DictionaryEquals<TKey, TValue>(IDictionary<TKey, TValue>, IEqualityComparer<KeyValuePair<TKey, TValue>>)
-  nameWithType: Utilities.DictionaryEquals<TKey, TValue>(IDictionary<TKey, TValue>, IEqualityComparer<KeyValuePair<TKey, TValue>>)
-  fullName: GRYLibrary.Core.Utilities.DictionaryEquals<TKey, TValue>(System.Collections.Generic.IDictionary<TKey, TValue>, System.Collections.Generic.IEqualityComparer<System.Collections.Generic.KeyValuePair<TKey, TValue>>)
-  nameWithType.vb: Utilities.DictionaryEquals(Of TKey, TValue)(IDictionary(Of TKey, TValue), IEqualityComparer(Of KeyValuePair(Of TKey, TValue)))
-  fullName.vb: GRYLibrary.Core.Utilities.DictionaryEquals(Of TKey, TValue)(System.Collections.Generic.IDictionary(Of TKey, TValue), System.Collections.Generic.IEqualityComparer(Of System.Collections.Generic.KeyValuePair(Of TKey, TValue)))
-  name.vb: DictionaryEquals(Of TKey, TValue)(IDictionary(Of TKey, TValue), IEqualityComparer(Of KeyValuePair(Of TKey, TValue)))
-  spec.csharp:
-  - uid: GRYLibrary.Core.Utilities.DictionaryEquals``2(System.Collections.Generic.IDictionary{``0,``1},System.Collections.Generic.IEqualityComparer{System.Collections.Generic.KeyValuePair{``0,``1}})
-    name: DictionaryEquals<TKey, TValue>
-    nameWithType: Utilities.DictionaryEquals<TKey, TValue>
-    fullName: GRYLibrary.Core.Utilities.DictionaryEquals<TKey, TValue>
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IDictionary`2
-    name: IDictionary
-    nameWithType: IDictionary
-    fullName: System.Collections.Generic.IDictionary
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Collections.Generic.IEqualityComparer`1
-    name: IEqualityComparer
-    nameWithType: IEqualityComparer
-    fullName: System.Collections.Generic.IEqualityComparer
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.Collections.Generic.KeyValuePair`2
-    name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: GRYLibrary.Core.Utilities.DictionaryEquals``2(System.Collections.Generic.IDictionary{``0,``1},System.Collections.Generic.IEqualityComparer{System.Collections.Generic.KeyValuePair{``0,``1}})
-    name: DictionaryEquals(Of TKey, TValue)
-    nameWithType: Utilities.DictionaryEquals(Of TKey, TValue)
-    fullName: GRYLibrary.Core.Utilities.DictionaryEquals(Of TKey, TValue)
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IDictionary`2
-    name: IDictionary
-    nameWithType: IDictionary
-    fullName: System.Collections.Generic.IDictionary
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Collections.Generic.IEqualityComparer`1
-    name: IEqualityComparer
-    nameWithType: IEqualityComparer
-    fullName: System.Collections.Generic.IEqualityComparer
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.Collections.Generic.KeyValuePair`2
-    name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
-  - name: )
-    nameWithType: )
-    fullName: )
   - name: )
     nameWithType: )
     fullName: )
@@ -3700,6 +3535,100 @@ references:
   - name: (
     nameWithType: (
     fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}}.GRYLibrary.Core.Utilities.ForEach``1(System.Action{System.Collections.Generic.KeyValuePair{{TKey},{TValue}}})
+  commentId: M:GRYLibrary.Core.Utilities.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  name: ForEach<KeyValuePair<TKey, TValue>>(Action<KeyValuePair<TKey, TValue>>)
+  nameWithType: Utilities.ForEach<KeyValuePair<TKey, TValue>>(Action<KeyValuePair<TKey, TValue>>)
+  fullName: GRYLibrary.Core.Utilities.ForEach<System.Collections.Generic.KeyValuePair<TKey, TValue>>(System.Action<System.Collections.Generic.KeyValuePair<TKey, TValue>>)
+  nameWithType.vb: Utilities.ForEach(Of KeyValuePair(Of TKey, TValue))(Action(Of KeyValuePair(Of TKey, TValue)))
+  fullName.vb: GRYLibrary.Core.Utilities.ForEach(Of System.Collections.Generic.KeyValuePair(Of TKey, TValue))(System.Action(Of System.Collections.Generic.KeyValuePair(Of TKey, TValue)))
+  name.vb: ForEach(Of KeyValuePair(Of TKey, TValue))(Action(Of KeyValuePair(Of TKey, TValue)))
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ForEach``1(System.Action{``0})
+    name: ForEach<KeyValuePair<TKey, TValue>>
+    nameWithType: Utilities.ForEach<KeyValuePair<TKey, TValue>>
+    fullName: GRYLibrary.Core.Utilities.ForEach<System.Collections.Generic.KeyValuePair<TKey, TValue>>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ForEach``1(System.Action{``0})
+    name: ForEach(Of KeyValuePair(Of TKey, TValue))
+    nameWithType: Utilities.ForEach(Of KeyValuePair(Of TKey, TValue))
+    fullName: GRYLibrary.Core.Utilities.ForEach(Of System.Collections.Generic.KeyValuePair(Of TKey, TValue))
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
   - name: )
     nameWithType: )
     fullName: )
@@ -5628,6 +5557,44 @@ references:
   name: Utilities
   nameWithType: Utilities
   fullName: GRYLibrary.Core.Utilities
+- uid: GRYLibrary.Core.Utilities.Count(System.Collections.IEnumerable)
+  commentId: M:GRYLibrary.Core.Utilities.Count(System.Collections.IEnumerable)
+  isExternal: true
+  name: Count(IEnumerable)
+  nameWithType: Utilities.Count(IEnumerable)
+  fullName: GRYLibrary.Core.Utilities.Count(System.Collections.IEnumerable)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.Count(System.Collections.IEnumerable)
+    name: Count
+    nameWithType: Utilities.Count
+    fullName: GRYLibrary.Core.Utilities.Count
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IEnumerable
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.IEnumerable
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.Count(System.Collections.IEnumerable)
+    name: Count
+    nameWithType: Utilities.Count
+    fullName: GRYLibrary.Core.Utilities.Count
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IEnumerable
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.IEnumerable
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: GRYLibrary.Core.Utilities.ObjectIsEnumerable(System.Object)
   commentId: M:GRYLibrary.Core.Utilities.ObjectIsEnumerable(System.Object)
   isExternal: true
@@ -5655,384 +5622,6 @@ references:
     name: ObjectIsEnumerable
     nameWithType: Utilities.ObjectIsEnumerable
     fullName: GRYLibrary.Core.Utilities.ObjectIsEnumerable
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: GRYLibrary.Core.Utilities.ObjectToEnumerable(System.Object)
-  commentId: M:GRYLibrary.Core.Utilities.ObjectToEnumerable(System.Object)
-  isExternal: true
-  name: ObjectToEnumerable(Object)
-  nameWithType: Utilities.ObjectToEnumerable(Object)
-  fullName: GRYLibrary.Core.Utilities.ObjectToEnumerable(System.Object)
-  spec.csharp:
-  - uid: GRYLibrary.Core.Utilities.ObjectToEnumerable(System.Object)
-    name: ObjectToEnumerable
-    nameWithType: Utilities.ObjectToEnumerable
-    fullName: GRYLibrary.Core.Utilities.ObjectToEnumerable
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: GRYLibrary.Core.Utilities.ObjectToEnumerable(System.Object)
-    name: ObjectToEnumerable
-    nameWithType: Utilities.ObjectToEnumerable
-    fullName: GRYLibrary.Core.Utilities.ObjectToEnumerable
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric``1(System.Object)
-  commentId: M:GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric``1(System.Object)
-  isExternal: true
-  name: ObjectToEnumerableGeneric<T>(Object)
-  nameWithType: Utilities.ObjectToEnumerableGeneric<T>(Object)
-  fullName: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric<T>(System.Object)
-  nameWithType.vb: Utilities.ObjectToEnumerableGeneric(Of T)(Object)
-  fullName.vb: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric(Of T)(System.Object)
-  name.vb: ObjectToEnumerableGeneric(Of T)(Object)
-  spec.csharp:
-  - uid: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric``1(System.Object)
-    name: ObjectToEnumerableGeneric<T>
-    nameWithType: Utilities.ObjectToEnumerableGeneric<T>
-    fullName: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric<T>
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric``1(System.Object)
-    name: ObjectToEnumerableGeneric(Of T)
-    nameWithType: Utilities.ObjectToEnumerableGeneric(Of T)
-    fullName: GRYLibrary.Core.Utilities.ObjectToEnumerableGeneric(Of T)
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: GRYLibrary.Core.Utilities.EnumerableEquals``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
-  commentId: M:GRYLibrary.Core.Utilities.EnumerableEquals``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
-  isExternal: true
-  name: EnumerableEquals<T>(IEnumerable<T>, IEnumerable<T>)
-  nameWithType: Utilities.EnumerableEquals<T>(IEnumerable<T>, IEnumerable<T>)
-  fullName: GRYLibrary.Core.Utilities.EnumerableEquals<T>(System.Collections.Generic.IEnumerable<T>, System.Collections.Generic.IEnumerable<T>)
-  nameWithType.vb: Utilities.EnumerableEquals(Of T)(IEnumerable(Of T), IEnumerable(Of T))
-  fullName.vb: GRYLibrary.Core.Utilities.EnumerableEquals(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Collections.Generic.IEnumerable(Of T))
-  name.vb: EnumerableEquals(Of T)(IEnumerable(Of T), IEnumerable(Of T))
-  spec.csharp:
-  - uid: GRYLibrary.Core.Utilities.EnumerableEquals``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
-    name: EnumerableEquals<T>
-    nameWithType: Utilities.EnumerableEquals<T>
-    fullName: GRYLibrary.Core.Utilities.EnumerableEquals<T>
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: GRYLibrary.Core.Utilities.EnumerableEquals``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
-    name: EnumerableEquals(Of T)
-    nameWithType: Utilities.EnumerableEquals(Of T)
-    fullName: GRYLibrary.Core.Utilities.EnumerableEquals(Of T)
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: GRYLibrary.Core.Utilities.EnumerableEquals``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
-  commentId: M:GRYLibrary.Core.Utilities.EnumerableEquals``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
-  isExternal: true
-  name: EnumerableEquals<T>(IEnumerable<T>, IEnumerable<T>, IEqualityComparer<T>)
-  nameWithType: Utilities.EnumerableEquals<T>(IEnumerable<T>, IEnumerable<T>, IEqualityComparer<T>)
-  fullName: GRYLibrary.Core.Utilities.EnumerableEquals<T>(System.Collections.Generic.IEnumerable<T>, System.Collections.Generic.IEnumerable<T>, System.Collections.Generic.IEqualityComparer<T>)
-  nameWithType.vb: Utilities.EnumerableEquals(Of T)(IEnumerable(Of T), IEnumerable(Of T), IEqualityComparer(Of T))
-  fullName.vb: GRYLibrary.Core.Utilities.EnumerableEquals(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Collections.Generic.IEnumerable(Of T), System.Collections.Generic.IEqualityComparer(Of T))
-  name.vb: EnumerableEquals(Of T)(IEnumerable(Of T), IEnumerable(Of T), IEqualityComparer(Of T))
-  spec.csharp:
-  - uid: GRYLibrary.Core.Utilities.EnumerableEquals``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
-    name: EnumerableEquals<T>
-    nameWithType: Utilities.EnumerableEquals<T>
-    fullName: GRYLibrary.Core.Utilities.EnumerableEquals<T>
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Collections.Generic.IEqualityComparer`1
-    name: IEqualityComparer
-    nameWithType: IEqualityComparer
-    fullName: System.Collections.Generic.IEqualityComparer
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: GRYLibrary.Core.Utilities.EnumerableEquals``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``0})
-    name: EnumerableEquals(Of T)
-    nameWithType: Utilities.EnumerableEquals(Of T)
-    fullName: GRYLibrary.Core.Utilities.EnumerableEquals(Of T)
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Collections.Generic.IEnumerable`1
-    name: IEnumerable
-    nameWithType: IEnumerable
-    fullName: System.Collections.Generic.IEnumerable
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Collections.Generic.IEqualityComparer`1
-    name: IEqualityComparer
-    nameWithType: IEqualityComparer
-    fullName: System.Collections.Generic.IEqualityComparer
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: T
-    nameWithType: T
-    fullName: T
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: GRYLibrary.Core.Utilities.ObjectIsList(System.Object)
-  commentId: M:GRYLibrary.Core.Utilities.ObjectIsList(System.Object)
-  isExternal: true
-  name: ObjectIsList(Object)
-  nameWithType: Utilities.ObjectIsList(Object)
-  fullName: GRYLibrary.Core.Utilities.ObjectIsList(System.Object)
-  spec.csharp:
-  - uid: GRYLibrary.Core.Utilities.ObjectIsList(System.Object)
-    name: ObjectIsList
-    nameWithType: Utilities.ObjectIsList
-    fullName: GRYLibrary.Core.Utilities.ObjectIsList
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: GRYLibrary.Core.Utilities.ObjectIsList(System.Object)
-    name: ObjectIsList
-    nameWithType: Utilities.ObjectIsList
-    fullName: GRYLibrary.Core.Utilities.ObjectIsList
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: GRYLibrary.Core.Utilities.ObjectToList``1(System.Object)
-  commentId: M:GRYLibrary.Core.Utilities.ObjectToList``1(System.Object)
-  isExternal: true
-  name: ObjectToList<T>(Object)
-  nameWithType: Utilities.ObjectToList<T>(Object)
-  fullName: GRYLibrary.Core.Utilities.ObjectToList<T>(System.Object)
-  nameWithType.vb: Utilities.ObjectToList(Of T)(Object)
-  fullName.vb: GRYLibrary.Core.Utilities.ObjectToList(Of T)(System.Object)
-  name.vb: ObjectToList(Of T)(Object)
-  spec.csharp:
-  - uid: GRYLibrary.Core.Utilities.ObjectToList``1(System.Object)
-    name: ObjectToList<T>
-    nameWithType: Utilities.ObjectToList<T>
-    fullName: GRYLibrary.Core.Utilities.ObjectToList<T>
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: GRYLibrary.Core.Utilities.ObjectToList``1(System.Object)
-    name: ObjectToList(Of T)
-    nameWithType: Utilities.ObjectToList(Of T)
-    fullName: GRYLibrary.Core.Utilities.ObjectToList(Of T)
   - name: (
     nameWithType: (
     fullName: (
@@ -6082,6 +5671,82 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectIsList(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsList(System.Object)
+  isExternal: true
+  name: ObjectIsList(Object)
+  nameWithType: Utilities.ObjectIsList(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectIsList(System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsList(System.Object)
+    name: ObjectIsList
+    nameWithType: Utilities.ObjectIsList
+    fullName: GRYLibrary.Core.Utilities.ObjectIsList
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsList(System.Object)
+    name: ObjectIsList
+    nameWithType: Utilities.ObjectIsList
+    fullName: GRYLibrary.Core.Utilities.ObjectIsList
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectIsDictionary(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionary(System.Object)
+  isExternal: true
+  name: ObjectIsDictionary(Object)
+  nameWithType: Utilities.ObjectIsDictionary(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionary(System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionary(System.Object)
+    name: ObjectIsDictionary
+    nameWithType: Utilities.ObjectIsDictionary
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionary
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionary(System.Object)
+    name: ObjectIsDictionary
+    nameWithType: Utilities.ObjectIsDictionary
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionary
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair(System.Object)
   commentId: M:GRYLibrary.Core.Utilities.ObjectIsKeyValuePair(System.Object)
   isExternal: true
@@ -6120,20 +5785,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2(System.Object)
-  commentId: M:GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2(System.Object)
+- uid: GRYLibrary.Core.Utilities.ObjectIsTuple(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsTuple(System.Object)
   isExternal: true
-  name: ObjectToKeyValuePair<TKey, TValue>(Object)
-  nameWithType: Utilities.ObjectToKeyValuePair<TKey, TValue>(Object)
-  fullName: GRYLibrary.Core.Utilities.ObjectToKeyValuePair<TKey, TValue>(System.Object)
-  nameWithType.vb: Utilities.ObjectToKeyValuePair(Of TKey, TValue)(Object)
-  fullName.vb: GRYLibrary.Core.Utilities.ObjectToKeyValuePair(Of TKey, TValue)(System.Object)
-  name.vb: ObjectToKeyValuePair(Of TKey, TValue)(Object)
+  name: ObjectIsTuple(Object)
+  nameWithType: Utilities.ObjectIsTuple(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectIsTuple(System.Object)
   spec.csharp:
-  - uid: GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2(System.Object)
-    name: ObjectToKeyValuePair<TKey, TValue>
-    nameWithType: Utilities.ObjectToKeyValuePair<TKey, TValue>
-    fullName: GRYLibrary.Core.Utilities.ObjectToKeyValuePair<TKey, TValue>
+  - uid: GRYLibrary.Core.Utilities.ObjectIsTuple(System.Object)
+    name: ObjectIsTuple
+    nameWithType: Utilities.ObjectIsTuple
+    fullName: GRYLibrary.Core.Utilities.ObjectIsTuple
   - name: (
     nameWithType: (
     fullName: (
@@ -6146,10 +5808,89 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2(System.Object)
-    name: ObjectToKeyValuePair(Of TKey, TValue)
-    nameWithType: Utilities.ObjectToKeyValuePair(Of TKey, TValue)
-    fullName: GRYLibrary.Core.Utilities.ObjectToKeyValuePair(Of TKey, TValue)
+  - uid: GRYLibrary.Core.Utilities.ObjectIsTuple(System.Object)
+    name: ObjectIsTuple
+    nameWithType: Utilities.ObjectIsTuple
+    fullName: GRYLibrary.Core.Utilities.ObjectIsTuple
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectToEnumerable(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToEnumerable(System.Object)
+  isExternal: true
+  name: ObjectToEnumerable(Object)
+  nameWithType: Utilities.ObjectToEnumerable(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectToEnumerable(System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToEnumerable(System.Object)
+    name: ObjectToEnumerable
+    nameWithType: Utilities.ObjectToEnumerable
+    fullName: GRYLibrary.Core.Utilities.ObjectToEnumerable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToEnumerable(System.Object)
+    name: ObjectToEnumerable
+    nameWithType: Utilities.ObjectToEnumerable
+    fullName: GRYLibrary.Core.Utilities.ObjectToEnumerable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectToEnumerable``1(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToEnumerable``1(System.Object)
+  isExternal: true
+  name: ObjectToEnumerable<T>(Object)
+  nameWithType: Utilities.ObjectToEnumerable<T>(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectToEnumerable<T>(System.Object)
+  nameWithType.vb: Utilities.ObjectToEnumerable(Of T)(Object)
+  fullName.vb: GRYLibrary.Core.Utilities.ObjectToEnumerable(Of T)(System.Object)
+  name.vb: ObjectToEnumerable(Of T)(Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToEnumerable``1(System.Object)
+    name: ObjectToEnumerable<T>
+    nameWithType: Utilities.ObjectToEnumerable<T>
+    fullName: GRYLibrary.Core.Utilities.ObjectToEnumerable<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToEnumerable``1(System.Object)
+    name: ObjectToEnumerable(Of T)
+    nameWithType: Utilities.ObjectToEnumerable(Of T)
+    fullName: GRYLibrary.Core.Utilities.ObjectToEnumerable(Of T)
   - name: (
     nameWithType: (
     fullName: (
@@ -6202,17 +5943,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: GRYLibrary.Core.Utilities.ObjectIsDictionary(System.Object)
-  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionary(System.Object)
+- uid: GRYLibrary.Core.Utilities.ObjectToList(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToList(System.Object)
   isExternal: true
-  name: ObjectIsDictionary(Object)
-  nameWithType: Utilities.ObjectIsDictionary(Object)
-  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionary(System.Object)
+  name: ObjectToList(Object)
+  nameWithType: Utilities.ObjectToList(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectToList(System.Object)
   spec.csharp:
-  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionary(System.Object)
-    name: ObjectIsDictionary
-    nameWithType: Utilities.ObjectIsDictionary
-    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionary
+  - uid: GRYLibrary.Core.Utilities.ObjectToList(System.Object)
+    name: ObjectToList
+    nameWithType: Utilities.ObjectToList
+    fullName: GRYLibrary.Core.Utilities.ObjectToList
   - name: (
     nameWithType: (
     fullName: (
@@ -6225,10 +5966,89 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionary(System.Object)
-    name: ObjectIsDictionary
-    nameWithType: Utilities.ObjectIsDictionary
-    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionary
+  - uid: GRYLibrary.Core.Utilities.ObjectToList(System.Object)
+    name: ObjectToList
+    nameWithType: Utilities.ObjectToList
+    fullName: GRYLibrary.Core.Utilities.ObjectToList
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectToList``1(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToList``1(System.Object)
+  isExternal: true
+  name: ObjectToList<T>(Object)
+  nameWithType: Utilities.ObjectToList<T>(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectToList<T>(System.Object)
+  nameWithType.vb: Utilities.ObjectToList(Of T)(Object)
+  fullName.vb: GRYLibrary.Core.Utilities.ObjectToList(Of T)(System.Object)
+  name.vb: ObjectToList(Of T)(Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToList``1(System.Object)
+    name: ObjectToList<T>
+    nameWithType: Utilities.ObjectToList<T>
+    fullName: GRYLibrary.Core.Utilities.ObjectToList<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToList``1(System.Object)
+    name: ObjectToList(Of T)
+    nameWithType: Utilities.ObjectToList(Of T)
+    fullName: GRYLibrary.Core.Utilities.ObjectToList(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectToDictionary(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToDictionary(System.Object)
+  isExternal: true
+  name: ObjectToDictionary(Object)
+  nameWithType: Utilities.ObjectToDictionary(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectToDictionary(System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToDictionary(System.Object)
+    name: ObjectToDictionary
+    nameWithType: Utilities.ObjectToDictionary
+    fullName: GRYLibrary.Core.Utilities.ObjectToDictionary
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToDictionary(System.Object)
+    name: ObjectToDictionary
+    nameWithType: Utilities.ObjectToDictionary
+    fullName: GRYLibrary.Core.Utilities.ObjectToDictionary
   - name: (
     nameWithType: (
     fullName: (
@@ -6277,6 +6097,196 @@ references:
     name: Object
     nameWithType: Object
     fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2(System.Object)
+  isExternal: true
+  name: ObjectToKeyValuePair<TKey, TValue>(Object)
+  nameWithType: Utilities.ObjectToKeyValuePair<TKey, TValue>(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectToKeyValuePair<TKey, TValue>(System.Object)
+  nameWithType.vb: Utilities.ObjectToKeyValuePair(Of TKey, TValue)(Object)
+  fullName.vb: GRYLibrary.Core.Utilities.ObjectToKeyValuePair(Of TKey, TValue)(System.Object)
+  name.vb: ObjectToKeyValuePair(Of TKey, TValue)(Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2(System.Object)
+    name: ObjectToKeyValuePair<TKey, TValue>
+    nameWithType: Utilities.ObjectToKeyValuePair<TKey, TValue>
+    fullName: GRYLibrary.Core.Utilities.ObjectToKeyValuePair<TKey, TValue>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2(System.Object)
+    name: ObjectToKeyValuePair(Of TKey, TValue)
+    nameWithType: Utilities.ObjectToKeyValuePair(Of TKey, TValue)
+    fullName: GRYLibrary.Core.Utilities.ObjectToKeyValuePair(Of TKey, TValue)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectToTuple``2(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToTuple``2(System.Object)
+  isExternal: true
+  name: ObjectToTuple<T1, T2>(Object)
+  nameWithType: Utilities.ObjectToTuple<T1, T2>(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectToTuple<T1, T2>(System.Object)
+  nameWithType.vb: Utilities.ObjectToTuple(Of T1, T2)(Object)
+  fullName.vb: GRYLibrary.Core.Utilities.ObjectToTuple(Of T1, T2)(System.Object)
+  name.vb: ObjectToTuple(Of T1, T2)(Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectToTuple``2(System.Object)
+    name: ObjectToTuple<T1, T2>
+    nameWithType: Utilities.ObjectToTuple<T1, T2>
+    fullName: GRYLibrary.Core.Utilities.ObjectToTuple<T1, T2>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectToTuple``2(System.Object)
+    name: ObjectToTuple(Of T1, T2)
+    nameWithType: Utilities.ObjectToTuple(Of T1, T2)
+    fullName: GRYLibrary.Core.Utilities.ObjectToTuple(Of T1, T2)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.EnumerableEquals(System.Collections.IEnumerable,System.Collections.IEnumerable)
+  commentId: M:GRYLibrary.Core.Utilities.EnumerableEquals(System.Collections.IEnumerable,System.Collections.IEnumerable)
+  isExternal: true
+  name: EnumerableEquals(IEnumerable, IEnumerable)
+  nameWithType: Utilities.EnumerableEquals(IEnumerable, IEnumerable)
+  fullName: GRYLibrary.Core.Utilities.EnumerableEquals(System.Collections.IEnumerable, System.Collections.IEnumerable)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.EnumerableEquals(System.Collections.IEnumerable,System.Collections.IEnumerable)
+    name: EnumerableEquals
+    nameWithType: Utilities.EnumerableEquals
+    fullName: GRYLibrary.Core.Utilities.EnumerableEquals
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IEnumerable
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.IEnumerable
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.IEnumerable
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.IEnumerable
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.EnumerableEquals(System.Collections.IEnumerable,System.Collections.IEnumerable)
+    name: EnumerableEquals
+    nameWithType: Utilities.EnumerableEquals
+    fullName: GRYLibrary.Core.Utilities.EnumerableEquals
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IEnumerable
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.IEnumerable
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.IEnumerable
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.IEnumerable
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.DictionaryEquals(System.Collections.IDictionary,System.Collections.IDictionary)
+  commentId: M:GRYLibrary.Core.Utilities.DictionaryEquals(System.Collections.IDictionary,System.Collections.IDictionary)
+  isExternal: true
+  name: DictionaryEquals(IDictionary, IDictionary)
+  nameWithType: Utilities.DictionaryEquals(IDictionary, IDictionary)
+  fullName: GRYLibrary.Core.Utilities.DictionaryEquals(System.Collections.IDictionary, System.Collections.IDictionary)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.DictionaryEquals(System.Collections.IDictionary,System.Collections.IDictionary)
+    name: DictionaryEquals
+    nameWithType: Utilities.DictionaryEquals
+    fullName: GRYLibrary.Core.Utilities.DictionaryEquals
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IDictionary
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.IDictionary
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.IDictionary
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.IDictionary
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.DictionaryEquals(System.Collections.IDictionary,System.Collections.IDictionary)
+    name: DictionaryEquals
+    nameWithType: Utilities.DictionaryEquals
+    fullName: GRYLibrary.Core.Utilities.DictionaryEquals
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IDictionary
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.IDictionary
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.IDictionary
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: System.Collections.IDictionary
     isExternal: true
   - name: )
     nameWithType: )
@@ -6392,191 +6402,6 @@ references:
   - name: TValue
     nameWithType: TValue
     fullName: TValue
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: GRYLibrary.Core.Utilities.DictionaryEquals``2(System.Collections.Generic.IDictionary{``0,``1},System.Collections.Generic.IDictionary{``0,``1},System.Collections.Generic.IEqualityComparer{System.Collections.Generic.KeyValuePair{``0,``1}})
-  commentId: M:GRYLibrary.Core.Utilities.DictionaryEquals``2(System.Collections.Generic.IDictionary{``0,``1},System.Collections.Generic.IDictionary{``0,``1},System.Collections.Generic.IEqualityComparer{System.Collections.Generic.KeyValuePair{``0,``1}})
-  isExternal: true
-  name: DictionaryEquals<TKey, TValue>(IDictionary<TKey, TValue>, IDictionary<TKey, TValue>, IEqualityComparer<KeyValuePair<TKey, TValue>>)
-  nameWithType: Utilities.DictionaryEquals<TKey, TValue>(IDictionary<TKey, TValue>, IDictionary<TKey, TValue>, IEqualityComparer<KeyValuePair<TKey, TValue>>)
-  fullName: GRYLibrary.Core.Utilities.DictionaryEquals<TKey, TValue>(System.Collections.Generic.IDictionary<TKey, TValue>, System.Collections.Generic.IDictionary<TKey, TValue>, System.Collections.Generic.IEqualityComparer<System.Collections.Generic.KeyValuePair<TKey, TValue>>)
-  nameWithType.vb: Utilities.DictionaryEquals(Of TKey, TValue)(IDictionary(Of TKey, TValue), IDictionary(Of TKey, TValue), IEqualityComparer(Of KeyValuePair(Of TKey, TValue)))
-  fullName.vb: GRYLibrary.Core.Utilities.DictionaryEquals(Of TKey, TValue)(System.Collections.Generic.IDictionary(Of TKey, TValue), System.Collections.Generic.IDictionary(Of TKey, TValue), System.Collections.Generic.IEqualityComparer(Of System.Collections.Generic.KeyValuePair(Of TKey, TValue)))
-  name.vb: DictionaryEquals(Of TKey, TValue)(IDictionary(Of TKey, TValue), IDictionary(Of TKey, TValue), IEqualityComparer(Of KeyValuePair(Of TKey, TValue)))
-  spec.csharp:
-  - uid: GRYLibrary.Core.Utilities.DictionaryEquals``2(System.Collections.Generic.IDictionary{``0,``1},System.Collections.Generic.IDictionary{``0,``1},System.Collections.Generic.IEqualityComparer{System.Collections.Generic.KeyValuePair{``0,``1}})
-    name: DictionaryEquals<TKey, TValue>
-    nameWithType: Utilities.DictionaryEquals<TKey, TValue>
-    fullName: GRYLibrary.Core.Utilities.DictionaryEquals<TKey, TValue>
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IDictionary`2
-    name: IDictionary
-    nameWithType: IDictionary
-    fullName: System.Collections.Generic.IDictionary
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Collections.Generic.IDictionary`2
-    name: IDictionary
-    nameWithType: IDictionary
-    fullName: System.Collections.Generic.IDictionary
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Collections.Generic.IEqualityComparer`1
-    name: IEqualityComparer
-    nameWithType: IEqualityComparer
-    fullName: System.Collections.Generic.IEqualityComparer
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - uid: System.Collections.Generic.KeyValuePair`2
-    name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
-    isExternal: true
-  - name: <
-    nameWithType: <
-    fullName: <
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: '>'
-    nameWithType: '>'
-    fullName: '>'
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: GRYLibrary.Core.Utilities.DictionaryEquals``2(System.Collections.Generic.IDictionary{``0,``1},System.Collections.Generic.IDictionary{``0,``1},System.Collections.Generic.IEqualityComparer{System.Collections.Generic.KeyValuePair{``0,``1}})
-    name: DictionaryEquals(Of TKey, TValue)
-    nameWithType: Utilities.DictionaryEquals(Of TKey, TValue)
-    fullName: GRYLibrary.Core.Utilities.DictionaryEquals(Of TKey, TValue)
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Collections.Generic.IDictionary`2
-    name: IDictionary
-    nameWithType: IDictionary
-    fullName: System.Collections.Generic.IDictionary
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Collections.Generic.IDictionary`2
-    name: IDictionary
-    nameWithType: IDictionary
-    fullName: System.Collections.Generic.IDictionary
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
-  - name: )
-    nameWithType: )
-    fullName: )
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Collections.Generic.IEqualityComparer`1
-    name: IEqualityComparer
-    nameWithType: IEqualityComparer
-    fullName: System.Collections.Generic.IEqualityComparer
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - uid: System.Collections.Generic.KeyValuePair`2
-    name: KeyValuePair
-    nameWithType: KeyValuePair
-    fullName: System.Collections.Generic.KeyValuePair
-    isExternal: true
-  - name: '(Of '
-    nameWithType: '(Of '
-    fullName: '(Of '
-  - name: TKey
-    nameWithType: TKey
-    fullName: TKey
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - name: TValue
-    nameWithType: TValue
-    fullName: TValue
-  - name: )
-    nameWithType: )
-    fullName: )
   - name: )
     nameWithType: )
     fullName: )
@@ -6922,6 +6747,99 @@ references:
   - name: TValue
     nameWithType: TValue
     fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  commentId: M:GRYLibrary.Core.Utilities.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  isExternal: true
+  name: ForEach<T>(IEnumerable<T>, Action<T>)
+  nameWithType: Utilities.ForEach<T>(IEnumerable<T>, Action<T>)
+  fullName: GRYLibrary.Core.Utilities.ForEach<T>(System.Collections.Generic.IEnumerable<T>, System.Action<T>)
+  nameWithType.vb: Utilities.ForEach(Of T)(IEnumerable(Of T), Action(Of T))
+  fullName.vb: GRYLibrary.Core.Utilities.ForEach(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Action(Of T))
+  name.vb: ForEach(Of T)(IEnumerable(Of T), Action(Of T))
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+    name: ForEach<T>
+    nameWithType: Utilities.ForEach<T>
+    fullName: GRYLibrary.Core.Utilities.ForEach<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+    name: ForEach(Of T)
+    nameWithType: Utilities.ForEach(Of T)
+    fullName: GRYLibrary.Core.Utilities.ForEach(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
   - name: )
     nameWithType: )
     fullName: )

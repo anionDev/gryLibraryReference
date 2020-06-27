@@ -1,0 +1,42 @@
+### YamlMime:ManagedReference
+items:
+- uid: GRYLibrary.Core.OperatingSystem.ConcreteOperatingSystems
+  commentId: N:GRYLibrary.Core.OperatingSystem.ConcreteOperatingSystems
+  id: GRYLibrary.Core.OperatingSystem.ConcreteOperatingSystems
+  children:
+  - GRYLibrary.Core.OperatingSystem.ConcreteOperatingSystems.Linux
+  - GRYLibrary.Core.OperatingSystem.ConcreteOperatingSystems.OSX
+  - GRYLibrary.Core.OperatingSystem.ConcreteOperatingSystems.Windows
+  langs:
+  - csharp
+  - vb
+  name: GRYLibrary.Core.OperatingSystem.ConcreteOperatingSystems
+  nameWithType: GRYLibrary.Core.OperatingSystem.ConcreteOperatingSystems
+  fullName: GRYLibrary.Core.OperatingSystem.ConcreteOperatingSystems
+  type: Namespace
+  assemblies:
+  - GRYLibrary
+references:
+- uid: GRYLibrary.Core.OperatingSystem.ConcreteOperatingSystems.Linux
+  commentId: T:GRYLibrary.Core.OperatingSystem.ConcreteOperatingSystems.Linux
+  parent: GRYLibrary.Core.OperatingSystem.ConcreteOperatingSystems
+  name: Linux
+  nameWithType: Linux
+  fullName: GRYLibrary.Core.OperatingSystem.ConcreteOperatingSystems.Linux
+- uid: GRYLibrary.Core.OperatingSystem.ConcreteOperatingSystems.OSX
+  commentId: T:GRYLibrary.Core.OperatingSystem.ConcreteOperatingSystems.OSX
+  parent: GRYLibrary.Core.OperatingSystem.ConcreteOperatingSystems
+  name: OSX
+  nameWithType: OSX
+  fullName: GRYLibrary.Core.OperatingSystem.ConcreteOperatingSystems.OSX
+- uid: GRYLibrary.Core.OperatingSystem.ConcreteOperatingSystems.Windows
+  commentId: T:GRYLibrary.Core.OperatingSystem.ConcreteOperatingSystems.Windows
+  parent: GRYLibrary.Core.OperatingSystem.ConcreteOperatingSystems
+  name: Windows
+  nameWithType: Windows
+  fullName: GRYLibrary.Core.OperatingSystem.ConcreteOperatingSystems.Windows
+- uid: GRYLibrary.Core.OperatingSystem.ConcreteOperatingSystems
+  commentId: N:GRYLibrary.Core.OperatingSystem.ConcreteOperatingSystems
+  name: GRYLibrary.Core.OperatingSystem.ConcreteOperatingSystems
+  nameWithType: GRYLibrary.Core.OperatingSystem.ConcreteOperatingSystems
+  fullName: GRYLibrary.Core.OperatingSystem.ConcreteOperatingSystems
