@@ -74,6 +74,7 @@ items:
   - GRYLibrary.Core.Utilities.GetCurrentGitRepositoryBranch(System.String)
   - GRYLibrary.Core.Utilities.GetDefault(System.Type)
   - GRYLibrary.Core.Utilities.GetFilesOfFolderRecursively(System.String)
+  - GRYLibrary.Core.Utilities.GetFilesOfGitRepository(System.String,System.String)
   - GRYLibrary.Core.Utilities.GetGitRemoteAddress(System.String,System.String)
   - GRYLibrary.Core.Utilities.GetGitRemotes(System.String)
   - GRYLibrary.Core.Utilities.GetHexValue(System.Char)
@@ -92,7 +93,6 @@ items:
   - GRYLibrary.Core.Utilities.GetVolumeIdByMountPoint(System.String)
   - GRYLibrary.Core.Utilities.GitCommit(System.String,System.String,System.Boolean@,System.Boolean)
   - GRYLibrary.Core.Utilities.GitFetch(System.String,System.String,System.Boolean,System.Boolean)
-  - GRYLibrary.Core.Utilities.GitListFiles(System.String,System.String)
   - GRYLibrary.Core.Utilities.GitRepositoryContainsFiles(System.String,System.Collections.Generic.ISet{System.String}@,System.Collections.Generic.IEnumerable{System.Tuple{System.String,System.Collections.Generic.ISet{System.String}}})
   - GRYLibrary.Core.Utilities.GitRepositoryContainsObligatoryFiles(System.String,System.Collections.Generic.ISet{System.String}@)
   - GRYLibrary.Core.Utilities.GitRepositoryHasNewUntrackedFiles(System.String)
@@ -159,9 +159,9 @@ items:
   - GRYLibrary.Core.Utilities.ReadCSVFile(System.String,System.Text.Encoding,System.String,System.Boolean)
   - GRYLibrary.Core.Utilities.RemoveAllMountPointsOfVolume(System.Guid)
   - GRYLibrary.Core.Utilities.RemoveContentOfFolder(System.String)
+  - GRYLibrary.Core.Utilities.RemoveGitRemote(System.String,System.String)
   - GRYLibrary.Core.Utilities.RemoveItemOnlyOnce``1(System.Collections.Generic.IList{``0},``0)
   - GRYLibrary.Core.Utilities.RemoveMountPointOfVolume(System.String)
-  - GRYLibrary.Core.Utilities.RemoveRemote(System.String,System.String)
   - GRYLibrary.Core.Utilities.ReplaceUnderscores(System.String,System.Collections.Generic.IDictionary{System.String,System.String})
   - GRYLibrary.Core.Utilities.ReplaceUnderscoresInFile(System.String,System.Collections.Generic.IDictionary{System.String,System.String})
   - GRYLibrary.Core.Utilities.ReplaceUnderscoresInFile(System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Text.Encoding)
@@ -173,7 +173,7 @@ items:
   - GRYLibrary.Core.Utilities.RunAllConcurrentAndReturnFirstResult``1(System.Collections.Generic.ISet{System.Func{``0}},System.Int32)
   - GRYLibrary.Core.Utilities.RunWithTimeout(System.Threading.ThreadStart,System.TimeSpan)
   - GRYLibrary.Core.Utilities.SetEquals``1(System.Collections.Generic.ISet{``0},System.Collections.Generic.ISet{``0})
-  - GRYLibrary.Core.Utilities.SetRemoteAddress(System.String,System.String,System.String)
+  - GRYLibrary.Core.Utilities.SetGitRemoteAddress(System.String,System.String,System.String)
   - GRYLibrary.Core.Utilities.Shuffle``1(System.Collections.Generic.IList{``0})
   - GRYLibrary.Core.Utilities.StartsWith``1(``0[],``0[])
   - GRYLibrary.Core.Utilities.StringToBoolean(System.String)
@@ -6462,10 +6462,11 @@ items:
   source:
     id: GetGitRemoteAddress
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1830
+    startLine: 1831
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
+  example: []
   syntax:
     content: public static string GetGitRemoteAddress(string repository, string remoteName)
     parameters:
@@ -6475,6 +6476,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: Returns the address of the remote with the given <code data-dev-comment-type="paramref" class="paramref">remoteName</code>.
     content.vb: Public Shared Function GetGitRemoteAddress(repository As String, remoteName As String) As String
   overload: GRYLibrary.Core.Utilities.GetGitRemoteAddress*
   modifiers.csharp:
@@ -6483,26 +6485,26 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: GRYLibrary.Core.Utilities.SetRemoteAddress(System.String,System.String,System.String)
-  commentId: M:GRYLibrary.Core.Utilities.SetRemoteAddress(System.String,System.String,System.String)
-  id: SetRemoteAddress(System.String,System.String,System.String)
+- uid: GRYLibrary.Core.Utilities.SetGitRemoteAddress(System.String,System.String,System.String)
+  commentId: M:GRYLibrary.Core.Utilities.SetGitRemoteAddress(System.String,System.String,System.String)
+  id: SetGitRemoteAddress(System.String,System.String,System.String)
   parent: GRYLibrary.Core.Utilities
   langs:
   - csharp
   - vb
-  name: SetRemoteAddress(String, String, String)
-  nameWithType: Utilities.SetRemoteAddress(String, String, String)
-  fullName: GRYLibrary.Core.Utilities.SetRemoteAddress(System.String, System.String, System.String)
+  name: SetGitRemoteAddress(String, String, String)
+  nameWithType: Utilities.SetGitRemoteAddress(String, String, String)
+  fullName: GRYLibrary.Core.Utilities.SetGitRemoteAddress(System.String, System.String, System.String)
   type: Method
   source:
-    id: SetRemoteAddress
+    id: SetGitRemoteAddress
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1834
+    startLine: 1835
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
   syntax:
-    content: public static void SetRemoteAddress(string repositoryFolder, string remoteName, string newRemoteAddress)
+    content: public static void SetGitRemoteAddress(string repositoryFolder, string remoteName, string newRemoteAddress)
     parameters:
     - id: repositoryFolder
       type: System.String
@@ -6510,8 +6512,8 @@ items:
       type: System.String
     - id: newRemoteAddress
       type: System.String
-    content.vb: Public Shared Sub SetRemoteAddress(repositoryFolder As String, remoteName As String, newRemoteAddress As String)
-  overload: GRYLibrary.Core.Utilities.SetRemoteAddress*
+    content.vb: Public Shared Sub SetGitRemoteAddress(repositoryFolder As String, remoteName As String, newRemoteAddress As String)
+  overload: GRYLibrary.Core.Utilities.SetGitRemoteAddress*
   modifiers.csharp:
   - public
   - static
@@ -6532,10 +6534,13 @@ items:
   source:
     id: GitTidyUp
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1838
+    startLine: 1841
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
+  summary: Removes unused internal files in the .git-folder of the given <code data-dev-comment-type="paramref" class="paramref">repositoryFolder</code>.
+  remarks: 'Warning: After executing this function deleted commits can not be restored because then they are really deleted.'
+  example: []
   syntax:
     content: public static void GitTidyUp(string repositoryFolder)
     parameters:
@@ -6563,7 +6568,7 @@ items:
   source:
     id: GitRepositoryContainsFiles
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1843
+    startLine: 1846
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6603,7 +6608,7 @@ items:
   source:
     id: GetAllGitRemotes
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1856
+    startLine: 1859
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6638,7 +6643,7 @@ items:
   source:
     id: AtLeastOneFileExistsInFolder
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1860
+    startLine: 1863
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6678,7 +6683,7 @@ items:
   source:
     id: GetAllGitRemoteBranches
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1873
+    startLine: 1876
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6711,10 +6716,11 @@ items:
   source:
     id: GetGitRemotes
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1888
+    startLine: 1892
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
+  example: []
   syntax:
     content: public static IEnumerable<string> GetGitRemotes(string repositoryFolder)
     parameters:
@@ -6722,6 +6728,7 @@ items:
       type: System.String
     return:
       type: System.Collections.Generic.IEnumerable{System.String}
+      description: Returns the names of the remotes of the given <code data-dev-comment-type="paramref" class="paramref">repositoryFolder</code>.
     content.vb: Public Shared Function GetGitRemotes(repositoryFolder As String) As IEnumerable(Of String)
   overload: GRYLibrary.Core.Utilities.GetGitRemotes*
   modifiers.csharp:
@@ -6730,33 +6737,33 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: GRYLibrary.Core.Utilities.RemoveRemote(System.String,System.String)
-  commentId: M:GRYLibrary.Core.Utilities.RemoveRemote(System.String,System.String)
-  id: RemoveRemote(System.String,System.String)
+- uid: GRYLibrary.Core.Utilities.RemoveGitRemote(System.String,System.String)
+  commentId: M:GRYLibrary.Core.Utilities.RemoveGitRemote(System.String,System.String)
+  id: RemoveGitRemote(System.String,System.String)
   parent: GRYLibrary.Core.Utilities
   langs:
   - csharp
   - vb
-  name: RemoveRemote(String, String)
-  nameWithType: Utilities.RemoveRemote(String, String)
-  fullName: GRYLibrary.Core.Utilities.RemoveRemote(System.String, System.String)
+  name: RemoveGitRemote(String, String)
+  nameWithType: Utilities.RemoveGitRemote(String, String)
+  fullName: GRYLibrary.Core.Utilities.RemoveGitRemote(System.String, System.String)
   type: Method
   source:
-    id: RemoveRemote
+    id: RemoveGitRemote
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1892
+    startLine: 1896
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
   syntax:
-    content: public static void RemoveRemote(string repositoryFolder, string remote)
+    content: public static void RemoveGitRemote(string repositoryFolder, string remote)
     parameters:
     - id: repositoryFolder
       type: System.String
     - id: remote
       type: System.String
-    content.vb: Public Shared Sub RemoveRemote(repositoryFolder As String, remote As String)
-  overload: GRYLibrary.Core.Utilities.RemoveRemote*
+    content.vb: Public Shared Sub RemoveGitRemote(repositoryFolder As String, remote As String)
+  overload: GRYLibrary.Core.Utilities.RemoveGitRemote*
   modifiers.csharp:
   - public
   - static
@@ -6777,7 +6784,7 @@ items:
   source:
     id: GetLocalGitBranchNames
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1896
+    startLine: 1900
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6810,11 +6817,10 @@ items:
   source:
     id: GetTopLevelOfGitRepositoryPath
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1903
+    startLine: 1905
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
-  summary: "\nReturns the toplevel of the <code data-dev-comment-type=\"paramref\" class=\"paramref\">repositoryFolder</code>.\n"
   example: []
   syntax:
     content: public static string GetTopLevelOfGitRepositoryPath(string repositoryFolder)
@@ -6823,6 +6829,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: Returns the toplevel of the <code data-dev-comment-type="paramref" class="paramref">repositoryFolder</code>.
     content.vb: Public Shared Function GetTopLevelOfGitRepositoryPath(repositoryFolder As String) As String
   overload: GRYLibrary.Core.Utilities.GetTopLevelOfGitRepositoryPath*
   modifiers.csharp:
@@ -6857,7 +6864,7 @@ items:
       type: System.String
     return:
       type: System.Boolean
-      description: "\nReturns true if and only if <code data-dev-comment-type=\"paramref\" class=\"paramref\">repositoryFolder</code> is in a repository which is used as submodule.\n"
+      description: Returns true if and only if <code data-dev-comment-type="paramref" class="paramref">repositoryFolder</code> is in a repository which is used as submodule.
     content.vb: Public Shared Function IsInGitSubmodule(repositoryFolder As String) As Boolean
   overload: GRYLibrary.Core.Utilities.IsInGitSubmodule*
   modifiers.csharp:
@@ -7128,26 +7135,26 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: GRYLibrary.Core.Utilities.GitListFiles(System.String,System.String)
-  commentId: M:GRYLibrary.Core.Utilities.GitListFiles(System.String,System.String)
-  id: GitListFiles(System.String,System.String)
+- uid: GRYLibrary.Core.Utilities.GetFilesOfGitRepository(System.String,System.String)
+  commentId: M:GRYLibrary.Core.Utilities.GetFilesOfGitRepository(System.String,System.String)
+  id: GetFilesOfGitRepository(System.String,System.String)
   parent: GRYLibrary.Core.Utilities
   langs:
   - csharp
   - vb
-  name: GitListFiles(String, String)
-  nameWithType: Utilities.GitListFiles(String, String)
-  fullName: GRYLibrary.Core.Utilities.GitListFiles(System.String, System.String)
+  name: GetFilesOfGitRepository(String, String)
+  nameWithType: Utilities.GetFilesOfGitRepository(String, String)
+  fullName: GRYLibrary.Core.Utilities.GetFilesOfGitRepository(System.String, System.String)
   type: Method
   source:
-    id: GitListFiles
+    id: GetFilesOfGitRepository
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
     startLine: 2031
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
   syntax:
-    content: public static IEnumerable<string> GitListFiles(string repositoryFolder, string revision)
+    content: public static IEnumerable<string> GetFilesOfGitRepository(string repositoryFolder, string revision)
     parameters:
     - id: repositoryFolder
       type: System.String
@@ -7155,8 +7162,8 @@ items:
       type: System.String
     return:
       type: System.Collections.Generic.IEnumerable{System.String}
-    content.vb: Public Shared Function GitListFiles(repositoryFolder As String, revision As String) As IEnumerable(Of String)
-  overload: GRYLibrary.Core.Utilities.GitListFiles*
+    content.vb: Public Shared Function GetFilesOfGitRepository(repositoryFolder As String, revision As String) As IEnumerable(Of String)
+  overload: GRYLibrary.Core.Utilities.GetFilesOfGitRepository*
   modifiers.csharp:
   - public
   - static
@@ -10816,11 +10823,11 @@ references:
   name: GetGitRemoteAddress
   nameWithType: Utilities.GetGitRemoteAddress
   fullName: GRYLibrary.Core.Utilities.GetGitRemoteAddress
-- uid: GRYLibrary.Core.Utilities.SetRemoteAddress*
-  commentId: Overload:GRYLibrary.Core.Utilities.SetRemoteAddress
-  name: SetRemoteAddress
-  nameWithType: Utilities.SetRemoteAddress
-  fullName: GRYLibrary.Core.Utilities.SetRemoteAddress
+- uid: GRYLibrary.Core.Utilities.SetGitRemoteAddress*
+  commentId: Overload:GRYLibrary.Core.Utilities.SetGitRemoteAddress
+  name: SetGitRemoteAddress
+  nameWithType: Utilities.SetGitRemoteAddress
+  fullName: GRYLibrary.Core.Utilities.SetGitRemoteAddress
 - uid: GRYLibrary.Core.Utilities.GitTidyUp*
   commentId: Overload:GRYLibrary.Core.Utilities.GitTidyUp
   name: GitTidyUp
@@ -11037,11 +11044,11 @@ references:
   name: GetGitRemotes
   nameWithType: Utilities.GetGitRemotes
   fullName: GRYLibrary.Core.Utilities.GetGitRemotes
-- uid: GRYLibrary.Core.Utilities.RemoveRemote*
-  commentId: Overload:GRYLibrary.Core.Utilities.RemoveRemote
-  name: RemoveRemote
-  nameWithType: Utilities.RemoveRemote
-  fullName: GRYLibrary.Core.Utilities.RemoveRemote
+- uid: GRYLibrary.Core.Utilities.RemoveGitRemote*
+  commentId: Overload:GRYLibrary.Core.Utilities.RemoveGitRemote
+  name: RemoveGitRemote
+  nameWithType: Utilities.RemoveGitRemote
+  fullName: GRYLibrary.Core.Utilities.RemoveGitRemote
 - uid: GRYLibrary.Core.Utilities.GetLocalGitBranchNames*
   commentId: Overload:GRYLibrary.Core.Utilities.GetLocalGitBranchNames
   name: GetLocalGitBranchNames
@@ -11092,11 +11099,11 @@ references:
   name: GitRepositoryHasUnstagedChanges
   nameWithType: Utilities.GitRepositoryHasUnstagedChanges
   fullName: GRYLibrary.Core.Utilities.GitRepositoryHasUnstagedChanges
-- uid: GRYLibrary.Core.Utilities.GitListFiles*
-  commentId: Overload:GRYLibrary.Core.Utilities.GitListFiles
-  name: GitListFiles
-  nameWithType: Utilities.GitListFiles
-  fullName: GRYLibrary.Core.Utilities.GitListFiles
+- uid: GRYLibrary.Core.Utilities.GetFilesOfGitRepository*
+  commentId: Overload:GRYLibrary.Core.Utilities.GetFilesOfGitRepository
+  name: GetFilesOfGitRepository
+  nameWithType: Utilities.GetFilesOfGitRepository
+  fullName: GRYLibrary.Core.Utilities.GetFilesOfGitRepository
 - uid: GRYLibrary.Core.Utilities.GitRepositoryHasNewUntrackedFiles*
   commentId: Overload:GRYLibrary.Core.Utilities.GitRepositoryHasNewUntrackedFiles
   name: GitRepositoryHasNewUntrackedFiles

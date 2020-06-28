@@ -2955,6 +2955,53 @@
   </table>
   
   
+  <a id="GRYLibrary_Core_Utilities_GetFilesOfGitRepository_" data-uid="GRYLibrary.Core.Utilities.GetFilesOfGitRepository*"></a>
+  <h4 id="GRYLibrary_Core_Utilities_GetFilesOfGitRepository_System_String_System_String_" data-uid="GRYLibrary.Core.Utilities.GetFilesOfGitRepository(System.String,System.String)">GetFilesOfGitRepository(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;string&gt; GetFilesOfGitRepository(string repositoryFolder, string revision)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">repositoryFolder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">revision</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="GRYLibrary_Core_Utilities_GetGitRemoteAddress_" data-uid="GRYLibrary.Core.Utilities.GetGitRemoteAddress*"></a>
   <h4 id="GRYLibrary_Core_Utilities_GetGitRemoteAddress_System_String_System_String_" data-uid="GRYLibrary.Core.Utilities.GetGitRemoteAddress(System.String,System.String)">GetGitRemoteAddress(String, String)</h4>
   <div class="markdown level1 summary"></div>
@@ -2996,7 +3043,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>Returns the address of the remote with the given <code data-dev-comment-type="paramref" class="paramref">remoteName</code>.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -3038,7 +3086,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
-        <td></td>
+        <td><p>Returns the names of the remotes of the given <code data-dev-comment-type="paramref" class="paramref">repositoryFolder</code>.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -3464,8 +3513,7 @@
   
   <a id="GRYLibrary_Core_Utilities_GetTopLevelOfGitRepositoryPath_" data-uid="GRYLibrary.Core.Utilities.GetTopLevelOfGitRepositoryPath*"></a>
   <h4 id="GRYLibrary_Core_Utilities_GetTopLevelOfGitRepositoryPath_System_String_" data-uid="GRYLibrary.Core.Utilities.GetTopLevelOfGitRepositoryPath(System.String)">GetTopLevelOfGitRepositoryPath(String)</h4>
-  <div class="markdown level1 summary"><p>Returns the toplevel of the <code data-dev-comment-type="paramref" class="paramref">repositoryFolder</code>.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -3499,7 +3547,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>Returns the toplevel of the <code data-dev-comment-type="paramref" class="paramref">repositoryFolder</code>.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -3732,53 +3781,6 @@ If really an error occures (=the exit-code of git is not 0) then this function t
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">logEnabled</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="GRYLibrary_Core_Utilities_GitListFiles_" data-uid="GRYLibrary.Core.Utilities.GitListFiles*"></a>
-  <h4 id="GRYLibrary_Core_Utilities_GitListFiles_System_String_System_String_" data-uid="GRYLibrary.Core.Utilities.GitListFiles(System.String,System.String)">GitListFiles(String, String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;string&gt; GitListFiles(string repositoryFolder, string revision)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">repositoryFolder</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">revision</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -4096,7 +4098,8 @@ If really an error occures (=the exit-code of git is not 0) then this function t
   
   <a id="GRYLibrary_Core_Utilities_GitTidyUp_" data-uid="GRYLibrary.Core.Utilities.GitTidyUp*"></a>
   <h4 id="GRYLibrary_Core_Utilities_GitTidyUp_System_String_" data-uid="GRYLibrary.Core.Utilities.GitTidyUp(System.String)">GitTidyUp(String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Removes unused internal files in the .git-folder of the given <code data-dev-comment-type="paramref" class="paramref">repositoryFolder</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -4119,6 +4122,9 @@ If really an error occures (=the exit-code of git is not 0) then this function t
       </tr>
     </tbody>
   </table>
+  <h5 id="GRYLibrary_Core_Utilities_GitTidyUp_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Warning: After executing this function deleted commits can not be restored because then they are really deleted.</p>
+</div>
   
   
   <a id="GRYLibrary_Core_Utilities_HexStringToByteArray_" data-uid="GRYLibrary.Core.Utilities.HexStringToByteArray*"></a>
@@ -6833,6 +6839,38 @@ The purpose of this function is to say explicitly that nothing should be done at
   </table>
   
   
+  <a id="GRYLibrary_Core_Utilities_RemoveGitRemote_" data-uid="GRYLibrary.Core.Utilities.RemoveGitRemote*"></a>
+  <h4 id="GRYLibrary_Core_Utilities_RemoveGitRemote_System_String_System_String_" data-uid="GRYLibrary.Core.Utilities.RemoveGitRemote(System.String,System.String)">RemoveGitRemote(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveGitRemote(string repositoryFolder, string remote)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">repositoryFolder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">remote</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="GRYLibrary_Core_Utilities_RemoveItemOnlyOnce_" data-uid="GRYLibrary.Core.Utilities.RemoveItemOnlyOnce*"></a>
   <h4 id="GRYLibrary_Core_Utilities_RemoveItemOnlyOnce__1_System_Collections_Generic_IList___0____0_" data-uid="GRYLibrary.Core.Utilities.RemoveItemOnlyOnce``1(System.Collections.Generic.IList{``0},``0)">RemoveItemOnlyOnce&lt;T&gt;(IList&lt;T&gt;, T)</h4>
   <div class="markdown level1 summary"></div>
@@ -6916,38 +6954,6 @@ The purpose of this function is to say explicitly that nothing should be done at
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">mountPoint</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="GRYLibrary_Core_Utilities_RemoveRemote_" data-uid="GRYLibrary.Core.Utilities.RemoveRemote*"></a>
-  <h4 id="GRYLibrary_Core_Utilities_RemoveRemote_System_String_System_String_" data-uid="GRYLibrary.Core.Utilities.RemoveRemote(System.String,System.String)">RemoveRemote(String, String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void RemoveRemote(string repositoryFolder, string remote)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">repositoryFolder</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">remote</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -7483,13 +7489,13 @@ Warning: This function is not implemented yet.</p>
   </table>
   
   
-  <a id="GRYLibrary_Core_Utilities_SetRemoteAddress_" data-uid="GRYLibrary.Core.Utilities.SetRemoteAddress*"></a>
-  <h4 id="GRYLibrary_Core_Utilities_SetRemoteAddress_System_String_System_String_System_String_" data-uid="GRYLibrary.Core.Utilities.SetRemoteAddress(System.String,System.String,System.String)">SetRemoteAddress(String, String, String)</h4>
+  <a id="GRYLibrary_Core_Utilities_SetGitRemoteAddress_" data-uid="GRYLibrary.Core.Utilities.SetGitRemoteAddress*"></a>
+  <h4 id="GRYLibrary_Core_Utilities_SetGitRemoteAddress_System_String_System_String_System_String_" data-uid="GRYLibrary.Core.Utilities.SetGitRemoteAddress(System.String,System.String,System.String)">SetGitRemoteAddress(String, String, String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SetRemoteAddress(string repositoryFolder, string remoteName, string newRemoteAddress)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void SetGitRemoteAddress(string repositoryFolder, string remoteName, string newRemoteAddress)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

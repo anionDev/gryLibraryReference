@@ -57,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/index.html",
-          "hash": "nV7J1c47yX6J1Sb3LaZ2Ag=="
+          "hash": "5iHYwfMvEias6BbL7vUuJA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -95,10 +95,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "EVvLRbQnAT5MtKdSzUz0vA=="
+          "hash": "tPPiI+LwBdOR1oROlEMY/w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -506,7 +506,7 @@
           "hash": "dG+IRYI4fpshCMRvZgG5bw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1727,10 +1727,10 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.Utilities.html",
-          "hash": "hTlInZJ1u6TRDfgWKYbPJg=="
+          "hash": "kGQZFa5DShbuG19gcritog=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1831,7 +1831,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 6,
-          "skipped_file_count": 6
+          "skipped_file_count": 4
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,

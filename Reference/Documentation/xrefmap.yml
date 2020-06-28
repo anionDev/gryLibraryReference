@@ -9697,6 +9697,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GetFilesOfFolderRecursively
   nameWithType: Utilities.GetFilesOfFolderRecursively
+- uid: GRYLibrary.Core.Utilities.GetFilesOfGitRepository(System.String,System.String)
+  name: GetFilesOfGitRepository(String, String)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetFilesOfGitRepository_System_String_System_String_
+  commentId: M:GRYLibrary.Core.Utilities.GetFilesOfGitRepository(System.String,System.String)
+  fullName: GRYLibrary.Core.Utilities.GetFilesOfGitRepository(System.String, System.String)
+  nameWithType: Utilities.GetFilesOfGitRepository(String, String)
+- uid: GRYLibrary.Core.Utilities.GetFilesOfGitRepository*
+  name: GetFilesOfGitRepository
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetFilesOfGitRepository_
+  commentId: Overload:GRYLibrary.Core.Utilities.GetFilesOfGitRepository
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.GetFilesOfGitRepository
+  nameWithType: Utilities.GetFilesOfGitRepository
 - uid: GRYLibrary.Core.Utilities.GetGitRemoteAddress(System.String,System.String)
   name: GetGitRemoteAddress(String, String)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetGitRemoteAddress_System_String_System_String_
@@ -9927,19 +9940,6 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GitFetch
   nameWithType: Utilities.GitFetch
-- uid: GRYLibrary.Core.Utilities.GitListFiles(System.String,System.String)
-  name: GitListFiles(String, String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitListFiles_System_String_System_String_
-  commentId: M:GRYLibrary.Core.Utilities.GitListFiles(System.String,System.String)
-  fullName: GRYLibrary.Core.Utilities.GitListFiles(System.String, System.String)
-  nameWithType: Utilities.GitListFiles(String, String)
-- uid: GRYLibrary.Core.Utilities.GitListFiles*
-  name: GitListFiles
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitListFiles_
-  commentId: Overload:GRYLibrary.Core.Utilities.GitListFiles
-  isSpec: "True"
-  fullName: GRYLibrary.Core.Utilities.GitListFiles
-  nameWithType: Utilities.GitListFiles
 - uid: GRYLibrary.Core.Utilities.GitRepositoryContainsFiles(System.String,System.Collections.Generic.ISet{System.String}@,System.Collections.Generic.IEnumerable{System.Tuple{System.String,System.Collections.Generic.ISet{System.String}}})
   name: GitRepositoryContainsFiles(String, out ISet<String>, IEnumerable<Tuple<String, ISet<String>>>)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitRepositoryContainsFiles_System_String_System_Collections_Generic_ISet_System_String___System_Collections_Generic_IEnumerable_System_Tuple_System_String_System_Collections_Generic_ISet_System_String____
@@ -10781,6 +10781,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.RemoveContentOfFolder
   nameWithType: Utilities.RemoveContentOfFolder
+- uid: GRYLibrary.Core.Utilities.RemoveGitRemote(System.String,System.String)
+  name: RemoveGitRemote(String, String)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_RemoveGitRemote_System_String_System_String_
+  commentId: M:GRYLibrary.Core.Utilities.RemoveGitRemote(System.String,System.String)
+  fullName: GRYLibrary.Core.Utilities.RemoveGitRemote(System.String, System.String)
+  nameWithType: Utilities.RemoveGitRemote(String, String)
+- uid: GRYLibrary.Core.Utilities.RemoveGitRemote*
+  name: RemoveGitRemote
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_RemoveGitRemote_
+  commentId: Overload:GRYLibrary.Core.Utilities.RemoveGitRemote
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.RemoveGitRemote
+  nameWithType: Utilities.RemoveGitRemote
 - uid: GRYLibrary.Core.Utilities.RemoveItemOnlyOnce*
   name: RemoveItemOnlyOnce
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_RemoveItemOnlyOnce_
@@ -10810,19 +10823,6 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.RemoveMountPointOfVolume
   nameWithType: Utilities.RemoveMountPointOfVolume
-- uid: GRYLibrary.Core.Utilities.RemoveRemote(System.String,System.String)
-  name: RemoveRemote(String, String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_RemoveRemote_System_String_System_String_
-  commentId: M:GRYLibrary.Core.Utilities.RemoveRemote(System.String,System.String)
-  fullName: GRYLibrary.Core.Utilities.RemoveRemote(System.String, System.String)
-  nameWithType: Utilities.RemoveRemote(String, String)
-- uid: GRYLibrary.Core.Utilities.RemoveRemote*
-  name: RemoveRemote
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_RemoveRemote_
-  commentId: Overload:GRYLibrary.Core.Utilities.RemoveRemote
-  isSpec: "True"
-  fullName: GRYLibrary.Core.Utilities.RemoveRemote
-  nameWithType: Utilities.RemoveRemote
 - uid: GRYLibrary.Core.Utilities.ReplaceUnderscores(System.String,System.Collections.Generic.IDictionary{System.String,System.String})
   name: ReplaceUnderscores(String, IDictionary<String, String>)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ReplaceUnderscores_System_String_System_Collections_Generic_IDictionary_System_String_System_String__
@@ -10976,19 +10976,19 @@ references:
   fullName.vb: GRYLibrary.Core.Utilities.SetEquals(Of T)(System.Collections.Generic.ISet(Of T), System.Collections.Generic.ISet(Of T))
   nameWithType: Utilities.SetEquals<T>(ISet<T>, ISet<T>)
   nameWithType.vb: Utilities.SetEquals(Of T)(ISet(Of T), ISet(Of T))
-- uid: GRYLibrary.Core.Utilities.SetRemoteAddress(System.String,System.String,System.String)
-  name: SetRemoteAddress(String, String, String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_SetRemoteAddress_System_String_System_String_System_String_
-  commentId: M:GRYLibrary.Core.Utilities.SetRemoteAddress(System.String,System.String,System.String)
-  fullName: GRYLibrary.Core.Utilities.SetRemoteAddress(System.String, System.String, System.String)
-  nameWithType: Utilities.SetRemoteAddress(String, String, String)
-- uid: GRYLibrary.Core.Utilities.SetRemoteAddress*
-  name: SetRemoteAddress
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_SetRemoteAddress_
-  commentId: Overload:GRYLibrary.Core.Utilities.SetRemoteAddress
+- uid: GRYLibrary.Core.Utilities.SetGitRemoteAddress(System.String,System.String,System.String)
+  name: SetGitRemoteAddress(String, String, String)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_SetGitRemoteAddress_System_String_System_String_System_String_
+  commentId: M:GRYLibrary.Core.Utilities.SetGitRemoteAddress(System.String,System.String,System.String)
+  fullName: GRYLibrary.Core.Utilities.SetGitRemoteAddress(System.String, System.String, System.String)
+  nameWithType: Utilities.SetGitRemoteAddress(String, String, String)
+- uid: GRYLibrary.Core.Utilities.SetGitRemoteAddress*
+  name: SetGitRemoteAddress
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_SetGitRemoteAddress_
+  commentId: Overload:GRYLibrary.Core.Utilities.SetGitRemoteAddress
   isSpec: "True"
-  fullName: GRYLibrary.Core.Utilities.SetRemoteAddress
-  nameWithType: Utilities.SetRemoteAddress
+  fullName: GRYLibrary.Core.Utilities.SetGitRemoteAddress
+  nameWithType: Utilities.SetGitRemoteAddress
 - uid: GRYLibrary.Core.Utilities.Shuffle*
   name: Shuffle
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_Shuffle_
