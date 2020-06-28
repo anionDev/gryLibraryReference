@@ -1,6 +1,6 @@
 # This is the Homepage of the GRYLibrary-reference.
 
-This reference refers to 0.7.0.
+This reference refers to the latest nuget-release of the GRYLibrary.
 
 ## Links
 
@@ -8,4 +8,4 @@ This reference refers to 0.7.0.
 - [GRYLibraryReference-repository](https://github.com/anionDev/gryLibraryReference)
 - [Class-Reference](TODO)
 - [Test-Coverage](TODO)
-- [Nuget](https://www.nuget.org/packages/GRYLibrary/0.3.0)
+- [Nuget](https://www.nuget.org/packages/GRYLibrary)
