@@ -32,10 +32,12 @@ items:
   source:
     id: ByteArray
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
-    startLine: 7
+    startLine: 10
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
+  summary: "\nRepresents a byte-array which can easily used in some common formats (e. g. hex-string).\n"
+  example: []
   syntax:
     content: public class ByteArray
     content.vb: Public Class ByteArray
@@ -86,7 +88,7 @@ items:
   source:
     id: DefaultEncoding
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
-    startLine: 9
+    startLine: 12
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -119,7 +121,7 @@ items:
   source:
     id: Data
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
-    startLine: 10
+    startLine: 13
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -150,7 +152,7 @@ items:
   source:
     id: DataAsHexString
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
-    startLine: 11
+    startLine: 14
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -181,7 +183,7 @@ items:
   source:
     id: .ctor
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
-    startLine: 12
+    startLine: 15
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -213,7 +215,7 @@ items:
   source:
     id: CreateByHexString
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
-    startLine: 17
+    startLine: 20
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -244,7 +246,7 @@ items:
   source:
     id: CreateByInteger
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
-    startLine: 21
+    startLine: 24
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -275,7 +277,7 @@ items:
   source:
     id: CreateByString
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
-    startLine: 25
+    startLine: 28
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -306,7 +308,7 @@ items:
   source:
     id: CreateByString
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
-    startLine: 29
+    startLine: 32
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -339,7 +341,7 @@ items:
   source:
     id: DecodeToString
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
-    startLine: 33
+    startLine: 36
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -367,7 +369,7 @@ items:
   source:
     id: DecodeToString
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
-    startLine: 37
+    startLine: 40
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -398,7 +400,7 @@ items:
   source:
     id: op_Addition
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
-    startLine: 41
+    startLine: 44
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -433,7 +435,7 @@ items:
   source:
     id: op_Equality
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
-    startLine: 45
+    startLine: 48
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -468,7 +470,7 @@ items:
   source:
     id: op_Inequality
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
-    startLine: 49
+    startLine: 52
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -503,7 +505,7 @@ items:
   source:
     id: Equals
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
-    startLine: 53
+    startLine: 56
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -537,7 +539,7 @@ items:
   source:
     id: GetHashCode
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
-    startLine: 58
+    startLine: 61
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -568,7 +570,7 @@ items:
   source:
     id: StartsWith
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
-    startLine: 63
+    startLine: 66
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -599,7 +601,7 @@ items:
   source:
     id: Contains
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
-    startLine: 78
+    startLine: 81
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
