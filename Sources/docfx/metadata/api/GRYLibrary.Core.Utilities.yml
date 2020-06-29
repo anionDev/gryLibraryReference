@@ -18,6 +18,9 @@ items:
   - GRYLibrary.Core.Utilities.Assert(System.Boolean,System.String)
   - GRYLibrary.Core.Utilities.AtLeastOneFileExistsInFolder(System.String,System.Collections.Generic.IEnumerable{System.String},System.String@)
   - GRYLibrary.Core.Utilities.ByteArrayToHexString(System.Byte[])
+  - GRYLibrary.Core.Utilities.CalculateCosineSimilarity(System.String,System.String)
+  - GRYLibrary.Core.Utilities.CalculateJaccardIndexSimilarity(System.String,System.String)
+  - GRYLibrary.Core.Utilities.CalculateLevenshteinDistance(System.String,System.String)
   - GRYLibrary.Core.Utilities.ClearFile(System.String)
   - GRYLibrary.Core.Utilities.Concat``1(``0[],``0[])
   - GRYLibrary.Core.Utilities.CopyFolderAcrossVolumes(System.String,System.String)
@@ -7598,6 +7601,111 @@ items:
   - Shared
   fullName.vb: GRYLibrary.Core.Utilities.ForEach(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Action(Of T))
   name.vb: ForEach(Of T)(IEnumerable(Of T), Action(Of T))
+- uid: GRYLibrary.Core.Utilities.CalculateLevenshteinDistance(System.String,System.String)
+  commentId: M:GRYLibrary.Core.Utilities.CalculateLevenshteinDistance(System.String,System.String)
+  id: CalculateLevenshteinDistance(System.String,System.String)
+  parent: GRYLibrary.Core.Utilities
+  langs:
+  - csharp
+  - vb
+  name: CalculateLevenshteinDistance(String, String)
+  nameWithType: Utilities.CalculateLevenshteinDistance(String, String)
+  fullName: GRYLibrary.Core.Utilities.CalculateLevenshteinDistance(System.String, System.String)
+  type: Method
+  source:
+    id: CalculateLevenshteinDistance
+    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2172
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core
+  syntax:
+    content: public static double CalculateLevenshteinDistance(string string1, string string12)
+    parameters:
+    - id: string1
+      type: System.String
+    - id: string12
+      type: System.String
+    return:
+      type: System.Double
+    content.vb: Public Shared Function CalculateLevenshteinDistance(string1 As String, string12 As String) As Double
+  overload: GRYLibrary.Core.Utilities.CalculateLevenshteinDistance*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GRYLibrary.Core.Utilities.CalculateCosineSimilarity(System.String,System.String)
+  commentId: M:GRYLibrary.Core.Utilities.CalculateCosineSimilarity(System.String,System.String)
+  id: CalculateCosineSimilarity(System.String,System.String)
+  parent: GRYLibrary.Core.Utilities
+  langs:
+  - csharp
+  - vb
+  name: CalculateCosineSimilarity(String, String)
+  nameWithType: Utilities.CalculateCosineSimilarity(String, String)
+  fullName: GRYLibrary.Core.Utilities.CalculateCosineSimilarity(System.String, System.String)
+  type: Method
+  source:
+    id: CalculateCosineSimilarity
+    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2202
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core
+  syntax:
+    content: public static double CalculateCosineSimilarity(string string1, string string2)
+    parameters:
+    - id: string1
+      type: System.String
+    - id: string2
+      type: System.String
+    return:
+      type: System.Double
+    content.vb: Public Shared Function CalculateCosineSimilarity(string1 As String, string2 As String) As Double
+  overload: GRYLibrary.Core.Utilities.CalculateCosineSimilarity*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GRYLibrary.Core.Utilities.CalculateJaccardIndexSimilarity(System.String,System.String)
+  commentId: M:GRYLibrary.Core.Utilities.CalculateJaccardIndexSimilarity(System.String,System.String)
+  id: CalculateJaccardIndexSimilarity(System.String,System.String)
+  parent: GRYLibrary.Core.Utilities
+  langs:
+  - csharp
+  - vb
+  name: CalculateJaccardIndexSimilarity(String, String)
+  nameWithType: Utilities.CalculateJaccardIndexSimilarity(String, String)
+  fullName: GRYLibrary.Core.Utilities.CalculateJaccardIndexSimilarity(System.String, System.String)
+  type: Method
+  source:
+    id: CalculateJaccardIndexSimilarity
+    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2222
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core
+  syntax:
+    content: public static double CalculateJaccardIndexSimilarity(string string1, string string2)
+    parameters:
+    - id: string1
+      type: System.String
+    - id: string2
+      type: System.String
+    return:
+      type: System.Double
+    content.vb: Public Shared Function CalculateJaccardIndexSimilarity(string1 As String, string2 As String) As Double
+  overload: GRYLibrary.Core.Utilities.CalculateJaccardIndexSimilarity*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 references:
 - uid: GRYLibrary.Core
   commentId: N:GRYLibrary.Core
@@ -11307,3 +11415,25 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: GRYLibrary.Core.Utilities.CalculateLevenshteinDistance*
+  commentId: Overload:GRYLibrary.Core.Utilities.CalculateLevenshteinDistance
+  name: CalculateLevenshteinDistance
+  nameWithType: Utilities.CalculateLevenshteinDistance
+  fullName: GRYLibrary.Core.Utilities.CalculateLevenshteinDistance
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: GRYLibrary.Core.Utilities.CalculateCosineSimilarity*
+  commentId: Overload:GRYLibrary.Core.Utilities.CalculateCosineSimilarity
+  name: CalculateCosineSimilarity
+  nameWithType: Utilities.CalculateCosineSimilarity
+  fullName: GRYLibrary.Core.Utilities.CalculateCosineSimilarity
+- uid: GRYLibrary.Core.Utilities.CalculateJaccardIndexSimilarity*
+  commentId: Overload:GRYLibrary.Core.Utilities.CalculateJaccardIndexSimilarity
+  name: CalculateJaccardIndexSimilarity
+  nameWithType: Utilities.CalculateJaccardIndexSimilarity
+  fullName: GRYLibrary.Core.Utilities.CalculateJaccardIndexSimilarity

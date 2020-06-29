@@ -8994,6 +8994,45 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ByteArrayToHexString
   nameWithType: Utilities.ByteArrayToHexString
+- uid: GRYLibrary.Core.Utilities.CalculateCosineSimilarity(System.String,System.String)
+  name: CalculateCosineSimilarity(String, String)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_CalculateCosineSimilarity_System_String_System_String_
+  commentId: M:GRYLibrary.Core.Utilities.CalculateCosineSimilarity(System.String,System.String)
+  fullName: GRYLibrary.Core.Utilities.CalculateCosineSimilarity(System.String, System.String)
+  nameWithType: Utilities.CalculateCosineSimilarity(String, String)
+- uid: GRYLibrary.Core.Utilities.CalculateCosineSimilarity*
+  name: CalculateCosineSimilarity
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_CalculateCosineSimilarity_
+  commentId: Overload:GRYLibrary.Core.Utilities.CalculateCosineSimilarity
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.CalculateCosineSimilarity
+  nameWithType: Utilities.CalculateCosineSimilarity
+- uid: GRYLibrary.Core.Utilities.CalculateJaccardIndexSimilarity(System.String,System.String)
+  name: CalculateJaccardIndexSimilarity(String, String)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_CalculateJaccardIndexSimilarity_System_String_System_String_
+  commentId: M:GRYLibrary.Core.Utilities.CalculateJaccardIndexSimilarity(System.String,System.String)
+  fullName: GRYLibrary.Core.Utilities.CalculateJaccardIndexSimilarity(System.String, System.String)
+  nameWithType: Utilities.CalculateJaccardIndexSimilarity(String, String)
+- uid: GRYLibrary.Core.Utilities.CalculateJaccardIndexSimilarity*
+  name: CalculateJaccardIndexSimilarity
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_CalculateJaccardIndexSimilarity_
+  commentId: Overload:GRYLibrary.Core.Utilities.CalculateJaccardIndexSimilarity
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.CalculateJaccardIndexSimilarity
+  nameWithType: Utilities.CalculateJaccardIndexSimilarity
+- uid: GRYLibrary.Core.Utilities.CalculateLevenshteinDistance(System.String,System.String)
+  name: CalculateLevenshteinDistance(String, String)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_CalculateLevenshteinDistance_System_String_System_String_
+  commentId: M:GRYLibrary.Core.Utilities.CalculateLevenshteinDistance(System.String,System.String)
+  fullName: GRYLibrary.Core.Utilities.CalculateLevenshteinDistance(System.String, System.String)
+  nameWithType: Utilities.CalculateLevenshteinDistance(String, String)
+- uid: GRYLibrary.Core.Utilities.CalculateLevenshteinDistance*
+  name: CalculateLevenshteinDistance
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_CalculateLevenshteinDistance_
+  commentId: Overload:GRYLibrary.Core.Utilities.CalculateLevenshteinDistance
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.CalculateLevenshteinDistance
+  nameWithType: Utilities.CalculateLevenshteinDistance
 - uid: GRYLibrary.Core.Utilities.ClearFile(System.String)
   name: ClearFile(String)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ClearFile_System_String_
