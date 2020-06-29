@@ -790,6 +790,7 @@
   "GRYLibrary.Core.Utilities.CalculateCosineSimilarity(System.String,System.String)": "GRYLibrary.Core.Utilities.yml",
   "GRYLibrary.Core.Utilities.CalculateJaccardIndexSimilarity(System.String,System.String)": "GRYLibrary.Core.Utilities.yml",
   "GRYLibrary.Core.Utilities.CalculateLevenshteinDistance(System.String,System.String)": "GRYLibrary.Core.Utilities.yml",
+  "GRYLibrary.Core.Utilities.CalculateLevenshteinSimilarity(System.String,System.String)": "GRYLibrary.Core.Utilities.yml",
   "GRYLibrary.Core.Utilities.ClearFile(System.String)": "GRYLibrary.Core.Utilities.yml",
   "GRYLibrary.Core.Utilities.Concat``1(``0[],``0[])": "GRYLibrary.Core.Utilities.yml",
   "GRYLibrary.Core.Utilities.CopyFolderAcrossVolumes(System.String,System.String)": "GRYLibrary.Core.Utilities.yml",

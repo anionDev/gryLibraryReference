@@ -9033,6 +9033,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.CalculateLevenshteinDistance
   nameWithType: Utilities.CalculateLevenshteinDistance
+- uid: GRYLibrary.Core.Utilities.CalculateLevenshteinSimilarity(System.String,System.String)
+  name: CalculateLevenshteinSimilarity(String, String)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_CalculateLevenshteinSimilarity_System_String_System_String_
+  commentId: M:GRYLibrary.Core.Utilities.CalculateLevenshteinSimilarity(System.String,System.String)
+  fullName: GRYLibrary.Core.Utilities.CalculateLevenshteinSimilarity(System.String, System.String)
+  nameWithType: Utilities.CalculateLevenshteinSimilarity(String, String)
+- uid: GRYLibrary.Core.Utilities.CalculateLevenshteinSimilarity*
+  name: CalculateLevenshteinSimilarity
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_CalculateLevenshteinSimilarity_
+  commentId: Overload:GRYLibrary.Core.Utilities.CalculateLevenshteinSimilarity
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.CalculateLevenshteinSimilarity
+  nameWithType: Utilities.CalculateLevenshteinSimilarity
 - uid: GRYLibrary.Core.Utilities.ClearFile(System.String)
   name: ClearFile(String)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ClearFile_System_String_
