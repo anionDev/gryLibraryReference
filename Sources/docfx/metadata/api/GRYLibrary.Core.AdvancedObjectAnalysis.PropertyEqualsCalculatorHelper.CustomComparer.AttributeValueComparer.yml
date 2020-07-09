@@ -16,7 +16,7 @@ items:
   source:
     id: AttributeValueComparer
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\PropertyEqualsCalculatorHelper\CustomComparer\AttributeValueComparer.cs
-    startLine: 8
+    startLine: 6
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer
@@ -81,7 +81,7 @@ items:
   source:
     id: IsApplicable
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\PropertyEqualsCalculatorHelper\CustomComparer\AttributeValueComparer.cs
-    startLine: 14
+    startLine: 12
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer

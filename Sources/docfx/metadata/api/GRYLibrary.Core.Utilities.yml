@@ -5150,10 +5150,11 @@ items:
   source:
     id: GetSubmodulePaths
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1492
+    startLine: 1495
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
+  example: []
   syntax:
     content: public static IEnumerable<string> GetSubmodulePaths(string repositoryFolder, bool recursive = true)
     parameters:
@@ -5163,6 +5164,7 @@ items:
       type: System.Boolean
     return:
       type: System.Collections.Generic.IEnumerable{System.String}
+      description: "\nReturns a enumeration of the submodule-paths of <code data-dev-comment-type=\"paramref\" class=\"paramref\">repositoryFolder</code>.\n"
     content.vb: Public Shared Function GetSubmodulePaths(repositoryFolder As String, recursive As Boolean = True) As IEnumerable(Of String)
   overload: GRYLibrary.Core.Utilities.GetSubmodulePaths*
   modifiers.csharp:
@@ -5186,14 +5188,16 @@ items:
   source:
     id: RunWithTimeout
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1516
+    startLine: 1520
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
+  summary: "\nExecutes <code data-dev-comment-type=\"paramref\" class=\"paramref\">action</code>. When <code data-dev-comment-type=\"paramref\" class=\"paramref\">action</code> longer takes than <code data-dev-comment-type=\"paramref\" class=\"paramref\">timeout</code> then <code data-dev-comment-type=\"paramref\" class=\"paramref\">action</code> will be aborted.\n"
+  example: []
   syntax:
-    content: public static bool RunWithTimeout(this ThreadStart threadStart, TimeSpan timeout)
+    content: public static bool RunWithTimeout(this ThreadStart action, TimeSpan timeout)
     parameters:
-    - id: threadStart
+    - id: action
       type: System.Threading.ThreadStart
     - id: timeout
       type: System.TimeSpan
@@ -5202,7 +5206,7 @@ items:
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function RunWithTimeout(threadStart As ThreadStart, timeout As TimeSpan) As Boolean
+      Public Shared Function RunWithTimeout(action As ThreadStart, timeout As TimeSpan) As Boolean
   overload: GRYLibrary.Core.Utilities.RunWithTimeout*
   modifiers.csharp:
   - public
@@ -5225,7 +5229,7 @@ items:
   source:
     id: ResolveToFullPath
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1527
+    startLine: 1532
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5262,10 +5266,12 @@ items:
   source:
     id: ResolveToFullPath
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1531
+    startLine: 1543
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
+  summary: "\nThis function transforms <code data-dev-comment-type=\"paramref\" class=\"paramref\">path</code> into an absolute path.\nIt does not matter if you pass a relative or absolute path: This function checks that.\n"
+  example: []
   syntax:
     content: public static string ResolveToFullPath(this string path, string baseDirectory)
     parameters:
@@ -5275,6 +5281,7 @@ items:
       type: System.String
     return:
       type: System.String
+      description: "\nReturns an absolute path.\n"
     content.vb: >-
       <ExtensionAttribute>
 
@@ -5300,10 +5307,12 @@ items:
   source:
     id: ValidateXMLAgainstXSD
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1544
+    startLine: 1562
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
+  summary: "\nThis function takes a given <code data-dev-comment-type=\"paramref\" class=\"paramref\">xml</code>-string and validates it against a given <code data-dev-comment-type=\"paramref\" class=\"paramref\">xsd</code>-string.\n"
+  example: []
   syntax:
     content: public static bool ValidateXMLAgainstXSD(string xml, string xsd, out IList<object> errorMessages)
     parameters:
@@ -5315,6 +5324,7 @@ items:
       type: System.Collections.Generic.IList{System.Object}
     return:
       type: System.Boolean
+      description: "\nThis function returns true if and only if <code data-dev-comment-type=\"paramref\" class=\"paramref\">errorMessages</code> is empty.\nIf this function returns true it means, that <code data-dev-comment-type=\"paramref\" class=\"paramref\">xml</code> is structured according to <code data-dev-comment-type=\"paramref\" class=\"paramref\">xsd</code>.\n"
     content.vb: Public Shared Function ValidateXMLAgainstXSD(xml As String, xsd As String, ByRef errorMessages As IList(Of Object)) As Boolean
   overload: GRYLibrary.Core.Utilities.ValidateXMLAgainstXSD*
   nameWithType.vb: Utilities.ValidateXMLAgainstXSD(String, String, ByRef IList(Of Object))
@@ -5340,7 +5350,7 @@ items:
   source:
     id: ApplyXSLTToXMLXMLWriterDefaultSettings
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1567
+    startLine: 1588
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5371,7 +5381,7 @@ items:
   source:
     id: ApplyXSLTToXMLXMLWriterDefaultXMLDeclaration
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1568
+    startLine: 1589
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5402,7 +5412,7 @@ items:
   source:
     id: ApplyXSLTToXML
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1569
+    startLine: 1590
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5437,7 +5447,7 @@ items:
   source:
     id: ApplyXSLTToXML
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1573
+    startLine: 1594
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5474,7 +5484,7 @@ items:
   source:
     id: ApplyXSLTToXML
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1577
+    startLine: 1598
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5511,7 +5521,7 @@ items:
   source:
     id: ApplyXSLTToXML
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1581
+    startLine: 1602
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5550,7 +5560,7 @@ items:
   source:
     id: FormatXMLFile_DefaultEncoding
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1593
+    startLine: 1614
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5581,7 +5591,7 @@ items:
   source:
     id: FormatXMLFile_DefaultXmlWriterSettings
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1594
+    startLine: 1615
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5612,7 +5622,7 @@ items:
   source:
     id: FormatXMLFile
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1595
+    startLine: 1616
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5643,7 +5653,7 @@ items:
   source:
     id: FormatXMLFile
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1599
+    startLine: 1620
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5676,7 +5686,7 @@ items:
   source:
     id: FormatXMLFile
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1603
+    startLine: 1624
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5709,7 +5719,7 @@ items:
   source:
     id: FormatXMLFile
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1607
+    startLine: 1628
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5744,7 +5754,7 @@ items:
   source:
     id: FormatXMLString
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1611
+    startLine: 1632
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5777,7 +5787,7 @@ items:
   source:
     id: FormatXMLString
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1615
+    startLine: 1636
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5812,7 +5822,7 @@ items:
   source:
     id: AddMountPointForVolume
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1627
+    startLine: 1648
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5845,7 +5855,7 @@ items:
   source:
     id: GetAvailableVolumeIds
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1639
+    startLine: 1660
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5875,7 +5885,7 @@ items:
   source:
     id: GetAllMountPointsOfAllAvailableVolumes
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1672
+    startLine: 1693
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5905,7 +5915,7 @@ items:
   source:
     id: GetMountPoints
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1681
+    startLine: 1702
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5938,7 +5948,7 @@ items:
   source:
     id: RemoveAllMountPointsOfVolume
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1709
+    startLine: 1730
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5969,7 +5979,7 @@ items:
   source:
     id: RemoveMountPointOfVolume
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1716
+    startLine: 1737
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6000,7 +6010,7 @@ items:
   source:
     id: GetVolumeIdByMountPoint
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1728
+    startLine: 1749
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6034,7 +6044,7 @@ items:
   source:
     id: NullSafeSetEquals
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1746
+    startLine: 1767
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6078,7 +6088,7 @@ items:
   source:
     id: NullSafeListEquals
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1750
+    startLine: 1771
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6122,7 +6132,7 @@ items:
   source:
     id: NullSafeEnumerableEquals
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1754
+    startLine: 1775
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6166,7 +6176,7 @@ items:
   source:
     id: NullSafeEquals
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1774
+    startLine: 1795
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6205,7 +6215,7 @@ items:
   source:
     id: RemoveItemOnlyOnce
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1798
+    startLine: 1819
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6248,7 +6258,7 @@ items:
   source:
     id: GetTimeFromInternetUtC
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1811
+    startLine: 1832
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6278,7 +6288,7 @@ items:
   source:
     id: GetTimeFromInternetCurrentTimeZone
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1815
+    startLine: 1836
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6308,7 +6318,7 @@ items:
   source:
     id: GetTimeFromInternet
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1819
+    startLine: 1840
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6341,7 +6351,7 @@ items:
   source:
     id: GetTimeFromInternet
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1823
+    startLine: 1844
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6384,7 +6394,7 @@ items:
   source:
     id: ExecuteGitCommand
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1829
+    startLine: 1850
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6430,7 +6440,7 @@ items:
   source:
     id: GitRepositoryContainsObligatoryFiles
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1840
+    startLine: 1861
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6468,7 +6478,7 @@ items:
   source:
     id: AddGitRemote
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1850
+    startLine: 1871
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6503,7 +6513,7 @@ items:
   source:
     id: GetGitRemoteAddress
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1855
+    startLine: 1876
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6540,7 +6550,7 @@ items:
   source:
     id: SetGitRemoteAddress
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1859
+    startLine: 1880
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6575,7 +6585,7 @@ items:
   source:
     id: GitTidyUp
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1865
+    startLine: 1886
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6609,7 +6619,7 @@ items:
   source:
     id: GitRepositoryContainsFiles
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1870
+    startLine: 1891
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6649,7 +6659,7 @@ items:
   source:
     id: GetAllGitRemotes
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1883
+    startLine: 1904
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6684,7 +6694,7 @@ items:
   source:
     id: AtLeastOneFileExistsInFolder
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1887
+    startLine: 1908
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6724,7 +6734,7 @@ items:
   source:
     id: GetAllGitRemoteBranches
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1900
+    startLine: 1921
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6757,7 +6767,7 @@ items:
   source:
     id: GetGitRemotes
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1916
+    startLine: 1937
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6792,7 +6802,7 @@ items:
   source:
     id: RemoveGitRemote
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1920
+    startLine: 1941
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6825,7 +6835,7 @@ items:
   source:
     id: GetLocalGitBranchNames
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1924
+    startLine: 1945
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6858,7 +6868,7 @@ items:
   source:
     id: GetTopLevelOfGitRepositoryPath
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1929
+    startLine: 1950
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6893,7 +6903,7 @@ items:
   source:
     id: IsInGitSubmodule
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1945
+    startLine: 1966
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6928,7 +6938,7 @@ items:
   source:
     id: GetParentGitRepositoryPath
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1960
+    startLine: 1981
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6963,7 +6973,7 @@ items:
   source:
     id: IsGitRepository
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1986
+    startLine: 2007
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6998,7 +7008,7 @@ items:
   source:
     id: IsInGitRepository
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1994
+    startLine: 2015
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7033,7 +7043,7 @@ items:
   source:
     id: GitCommit
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2017
+    startLine: 2038
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7081,7 +7091,7 @@ items:
   source:
     id: GetLastGitCommitId
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2029
+    startLine: 2050
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7118,7 +7128,7 @@ items:
   source:
     id: GitFetch
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2038
+    startLine: 2059
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7157,7 +7167,7 @@ items:
   source:
     id: GitRepositoryHasUnstagedChanges
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2042
+    startLine: 2063
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7190,7 +7200,7 @@ items:
   source:
     id: GetFilesOfGitRepository
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2055
+    startLine: 2076
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7225,7 +7235,7 @@ items:
   source:
     id: GitRepositoryHasNewUntrackedFiles
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2060
+    startLine: 2081
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7258,7 +7268,7 @@ items:
   source:
     id: GitRepositoryHasUnstagedChangesOfTrackedFiles
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2065
+    startLine: 2086
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7291,7 +7301,7 @@ items:
   source:
     id: GitRepositoryHasStagedChanges
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2070
+    startLine: 2091
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7324,7 +7334,7 @@ items:
   source:
     id: GitRepositoryHasUncommittedChanges
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2088
+    startLine: 2109
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7357,7 +7367,7 @@ items:
   source:
     id: GetAmountOfCommitsInGitRepository
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2103
+    startLine: 2124
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7394,7 +7404,7 @@ items:
   source:
     id: GetCurrentGitRepositoryBranch
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2107
+    startLine: 2128
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7427,7 +7437,7 @@ items:
   source:
     id: IsGitCommitAncestor
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2114
+    startLine: 2135
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7467,7 +7477,7 @@ items:
   source:
     id: ToSerializableDictionary
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2118
+    startLine: 2139
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7509,7 +7519,7 @@ items:
   source:
     id: IsDefault
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2128
+    startLine: 2149
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7542,7 +7552,7 @@ items:
   source:
     id: GetDefault
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2139
+    startLine: 2160
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7575,7 +7585,7 @@ items:
   source:
     id: ResolvePathOfProgram
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2150
+    startLine: 2171
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7612,7 +7622,7 @@ items:
   source:
     id: ForEach
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2188
+    startLine: 2209
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7653,7 +7663,7 @@ items:
   source:
     id: CalculateLevenshteinDistance
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2196
+    startLine: 2217
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7688,7 +7698,7 @@ items:
   source:
     id: CalculateLevenshteinSimilarity
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2227
+    startLine: 2248
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7723,7 +7733,7 @@ items:
   source:
     id: CalculateCosineSimilarity
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2244
+    startLine: 2265
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7758,7 +7768,7 @@ items:
   source:
     id: CalculateJaccardIndex
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2270
+    startLine: 2291
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7793,7 +7803,7 @@ items:
   source:
     id: CalculateJaccardSimilarity
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2274
+    startLine: 2295
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core

@@ -19,7 +19,7 @@ items:
   source:
     id: GRYEqualityComparer
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\PropertyEqualsCalculatorHelper\GRYEqualityComparer.cs
-    startLine: 5
+    startLine: 4
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper
@@ -89,7 +89,7 @@ items:
   source:
     id: _PropertyEqualsCalculator
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\PropertyEqualsCalculatorHelper\GRYEqualityComparer.cs
-    startLine: 7
+    startLine: 6
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper
@@ -120,7 +120,7 @@ items:
   source:
     id: .ctor
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\PropertyEqualsCalculatorHelper\GRYEqualityComparer.cs
-    startLine: 13
+    startLine: 12
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper
@@ -151,7 +151,7 @@ items:
   source:
     id: GetHashCode
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\PropertyEqualsCalculatorHelper\GRYEqualityComparer.cs
-    startLine: 26
+    startLine: 25
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper
@@ -186,7 +186,7 @@ items:
   source:
     id: Equals
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\PropertyEqualsCalculatorHelper\GRYEqualityComparer.cs
-    startLine: 30
+    startLine: 29
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper

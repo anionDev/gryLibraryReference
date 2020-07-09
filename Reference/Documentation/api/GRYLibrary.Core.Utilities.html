@@ -3628,7 +3628,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
-        <td></td>
+        <td><p>Returns a enumeration of the submodule-paths of <code data-dev-comment-type="paramref" class="paramref">repositoryFolder</code>.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -7466,7 +7467,9 @@ The purpose of this function is to say explicitly that nothing should be done at
   
   <a id="GRYLibrary_Core_Utilities_ResolveToFullPath_" data-uid="GRYLibrary.Core.Utilities.ResolveToFullPath*"></a>
   <h4 id="GRYLibrary_Core_Utilities_ResolveToFullPath_System_String_System_String_" data-uid="GRYLibrary.Core.Utilities.ResolveToFullPath(System.String,System.String)">ResolveToFullPath(String, String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>This function transforms <code data-dev-comment-type="paramref" class="paramref">path</code> into an absolute path.
+It does not matter if you pass a relative or absolute path: This function checks that.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -7505,7 +7508,8 @@ The purpose of this function is to say explicitly that nothing should be done at
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td><p>Returns an absolute path.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -7663,11 +7667,12 @@ Warning: This function is not implemented yet.</p>
   
   <a id="GRYLibrary_Core_Utilities_RunWithTimeout_" data-uid="GRYLibrary.Core.Utilities.RunWithTimeout*"></a>
   <h4 id="GRYLibrary_Core_Utilities_RunWithTimeout_System_Threading_ThreadStart_System_TimeSpan_" data-uid="GRYLibrary.Core.Utilities.RunWithTimeout(System.Threading.ThreadStart,System.TimeSpan)">RunWithTimeout(ThreadStart, TimeSpan)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Executes <code data-dev-comment-type="paramref" class="paramref">action</code>. When <code data-dev-comment-type="paramref" class="paramref">action</code> longer takes than <code data-dev-comment-type="paramref" class="paramref">timeout</code> then <code data-dev-comment-type="paramref" class="paramref">action</code> will be aborted.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool RunWithTimeout(this ThreadStart threadStart, TimeSpan timeout)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool RunWithTimeout(this ThreadStart action, TimeSpan timeout)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -7681,7 +7686,7 @@ Warning: This function is not implemented yet.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Threading.ThreadStart</span></td>
-        <td><span class="parametername">threadStart</span></td>
+        <td><span class="parametername">action</span></td>
         <td></td>
       </tr>
       <tr>
@@ -9146,7 +9151,8 @@ Warning: This function is not implemented yet.</p>
   
   <a id="GRYLibrary_Core_Utilities_ValidateXMLAgainstXSD_" data-uid="GRYLibrary.Core.Utilities.ValidateXMLAgainstXSD*"></a>
   <h4 id="GRYLibrary_Core_Utilities_ValidateXMLAgainstXSD_System_String_System_String_System_Collections_Generic_IList_System_Object___" data-uid="GRYLibrary.Core.Utilities.ValidateXMLAgainstXSD(System.String,System.String,System.Collections.Generic.IList{System.Object}@)">ValidateXMLAgainstXSD(String, String, out IList&lt;Object&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>This function takes a given <code data-dev-comment-type="paramref" class="paramref">xml</code>-string and validates it against a given <code data-dev-comment-type="paramref" class="paramref">xsd</code>-string.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -9190,7 +9196,9 @@ Warning: This function is not implemented yet.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>This function returns true if and only if <code data-dev-comment-type="paramref" class="paramref">errorMessages</code> is empty.
+If this function returns true it means, that <code data-dev-comment-type="paramref" class="paramref">xml</code> is structured according to <code data-dev-comment-type="paramref" class="paramref">xsd</code>.</p>
+</td>
       </tr>
     </tbody>
   </table>

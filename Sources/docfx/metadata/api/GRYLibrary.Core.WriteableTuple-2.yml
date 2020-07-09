@@ -21,7 +21,7 @@ items:
   source:
     id: WriteableTuple
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\WriteableTuple.cs
-    startLine: 6
+    startLine: 5
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -104,7 +104,7 @@ items:
   source:
     id: .ctor
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\WriteableTuple.cs
-    startLine: 8
+    startLine: 7
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -132,7 +132,7 @@ items:
   source:
     id: .ctor
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\WriteableTuple.cs
-    startLine: 11
+    startLine: 10
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -165,7 +165,7 @@ items:
   source:
     id: Item1
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\WriteableTuple.cs
-    startLine: 16
+    startLine: 15
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -198,7 +198,7 @@ items:
   source:
     id: Item2
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\WriteableTuple.cs
-    startLine: 17
+    startLine: 16
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -231,7 +231,7 @@ items:
   source:
     id: GetHashCode
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\WriteableTuple.cs
-    startLine: 18
+    startLine: 17
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -264,7 +264,7 @@ items:
   source:
     id: Equals
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\WriteableTuple.cs
-    startLine: 23
+    startLine: 22
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core

@@ -16,7 +16,7 @@ items:
   source:
     id: ProcessStartException
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Exceptions\ProcessStartException.cs
-    startLine: 6
+    startLine: 4
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Exceptions
@@ -89,7 +89,7 @@ items:
   source:
     id: .ctor
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Exceptions\ProcessStartException.cs
-    startLine: 8
+    startLine: 6
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Exceptions
