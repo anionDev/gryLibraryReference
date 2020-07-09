@@ -860,6 +860,7 @@
   "GRYLibrary.Core.Utilities.GetMountPoints(System.Guid)": "GRYLibrary.Core.Utilities.yml",
   "GRYLibrary.Core.Utilities.GetParentGitRepositoryPath(System.String)": "GRYLibrary.Core.Utilities.yml",
   "GRYLibrary.Core.Utilities.GetPropertiesWhichHaveGetterAndSetter(System.Type)": "GRYLibrary.Core.Utilities.yml",
+  "GRYLibrary.Core.Utilities.GetSubmodulePaths(System.String,System.Boolean)": "GRYLibrary.Core.Utilities.yml",
   "GRYLibrary.Core.Utilities.GetTimeFromInternet(System.TimeZoneInfo)": "GRYLibrary.Core.Utilities.yml",
   "GRYLibrary.Core.Utilities.GetTimeFromInternet(System.TimeZoneInfo,System.String,System.String,System.Int32,System.Int32,System.Int32)": "GRYLibrary.Core.Utilities.yml",
   "GRYLibrary.Core.Utilities.GetTimeFromInternetCurrentTimeZone": "GRYLibrary.Core.Utilities.yml",

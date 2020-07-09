@@ -9918,6 +9918,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GetPropertiesWhichHaveGetterAndSetter
   nameWithType: Utilities.GetPropertiesWhichHaveGetterAndSetter
+- uid: GRYLibrary.Core.Utilities.GetSubmodulePaths(System.String,System.Boolean)
+  name: GetSubmodulePaths(String, Boolean)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetSubmodulePaths_System_String_System_Boolean_
+  commentId: M:GRYLibrary.Core.Utilities.GetSubmodulePaths(System.String,System.Boolean)
+  fullName: GRYLibrary.Core.Utilities.GetSubmodulePaths(System.String, System.Boolean)
+  nameWithType: Utilities.GetSubmodulePaths(String, Boolean)
+- uid: GRYLibrary.Core.Utilities.GetSubmodulePaths*
+  name: GetSubmodulePaths
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetSubmodulePaths_
+  commentId: Overload:GRYLibrary.Core.Utilities.GetSubmodulePaths
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.GetSubmodulePaths
+  nameWithType: Utilities.GetSubmodulePaths
 - uid: GRYLibrary.Core.Utilities.GetTimeFromInternet(System.TimeZoneInfo)
   name: GetTimeFromInternet(TimeZoneInfo)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetTimeFromInternet_System_TimeZoneInfo_
