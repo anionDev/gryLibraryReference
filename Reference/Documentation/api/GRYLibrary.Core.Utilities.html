@@ -773,13 +773,60 @@
   </table>
   
   
-  <a id="GRYLibrary_Core_Utilities_CalculateJaccardIndexSimilarity_" data-uid="GRYLibrary.Core.Utilities.CalculateJaccardIndexSimilarity*"></a>
-  <h4 id="GRYLibrary_Core_Utilities_CalculateJaccardIndexSimilarity_System_String_System_String_" data-uid="GRYLibrary.Core.Utilities.CalculateJaccardIndexSimilarity(System.String,System.String)">CalculateJaccardIndexSimilarity(String, String)</h4>
+  <a id="GRYLibrary_Core_Utilities_CalculateJaccardIndex_" data-uid="GRYLibrary.Core.Utilities.CalculateJaccardIndex*"></a>
+  <h4 id="GRYLibrary_Core_Utilities_CalculateJaccardIndex_System_String_System_String_" data-uid="GRYLibrary.Core.Utilities.CalculateJaccardIndex(System.String,System.String)">CalculateJaccardIndex(String, String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static double CalculateJaccardIndexSimilarity(string string1, string string2)</code></pre>
+    <pre><code class="lang-csharp hljs">public static double CalculateJaccardIndex(string string1, string string2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">string1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">string2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Utilities_CalculateJaccardSimilarity_" data-uid="GRYLibrary.Core.Utilities.CalculateJaccardSimilarity*"></a>
+  <h4 id="GRYLibrary_Core_Utilities_CalculateJaccardSimilarity_System_String_System_String_" data-uid="GRYLibrary.Core.Utilities.CalculateJaccardSimilarity(System.String,System.String)">CalculateJaccardSimilarity(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double CalculateJaccardSimilarity(string string1, string string2)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -826,7 +873,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static double CalculateLevenshteinDistance(string string1, string string12)</code></pre>
+    <pre><code class="lang-csharp hljs">public static int CalculateLevenshteinDistance(string string1, string string2)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -845,7 +892,7 @@
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">string12</span></td>
+        <td><span class="parametername">string2</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -860,7 +907,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Double</span></td>
+        <td><span class="xref">System.Int32</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -6870,7 +6917,7 @@ The purpose of this function is to say explicitly that nothing should be done at
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string[, ] ReadCSVFile(string file, string separator = &quot;;&quot;, bool ignoreFirstLine = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public static List&lt;string[]&gt; ReadCSVFile(string file, string separator = &quot;;&quot;, bool ignoreFirstLine = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -6909,7 +6956,7 @@ The purpose of this function is to say explicitly that nothing should be done at
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span>[,]</td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>[]&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -6922,7 +6969,7 @@ The purpose of this function is to say explicitly that nothing should be done at
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string[, ] ReadCSVFile(string file, Encoding encoding, string separator = &quot;;&quot;, bool ignoreFirstLine = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public static List&lt;string[]&gt; ReadCSVFile(string file, Encoding encoding, string separator = &quot;;&quot;, bool ignoreFirstLine = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -6966,7 +7013,7 @@ The purpose of this function is to say explicitly that nothing should be done at
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span>[,]</td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>[]&gt;</td>
         <td></td>
       </tr>
     </tbody>

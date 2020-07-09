@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class PercentValue
+    <title>Struct PercentValue
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class PercentValue
+    <meta name="title" content="Struct PercentValue
    ">
     <meta name="generator" content="docfx 2.55.0.0">
     
@@ -71,18 +71,16 @@
             <article class="content wrap" id="_content" data-uid="GRYLibrary.Core.PercentValue">
   
   
-  <h1 id="GRYLibrary_Core_PercentValue" data-uid="GRYLibrary.Core.PercentValue" class="text-break">Class PercentValue
+  <h1 id="GRYLibrary_Core_PercentValue" data-uid="GRYLibrary.Core.PercentValue" class="text-break">Struct PercentValue
   </h1>
-  <div class="markdown level0 summary"><p>Represents a number between 0 and 1.</p>
+  <div class="markdown level0 summary"><p>Represents a <span class="xref">System.Decimal</span>-number between 0 and 1.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">PercentValue</span></div>
-  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.ValueType.ToString()</span>
+    </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
     </div>
@@ -90,20 +88,14 @@
       <span class="xref">System.Object.GetType()</span>
     </div>
     <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="GRYLibrary.Core.html">GRYLibrary.Core</a></h6>
   <h6><strong>Assembly</strong>: GRYLibrary.dll</h6>
   <h5 id="GRYLibrary_Core_PercentValue_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PercentValue</code></pre>
+    <pre><code class="lang-csharp hljs">public struct PercentValue</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -137,12 +129,12 @@
   
   
   <a id="GRYLibrary_Core_PercentValue__ctor_" data-uid="GRYLibrary.Core.PercentValue.#ctor*"></a>
-  <h4 id="GRYLibrary_Core_PercentValue__ctor_System_Int32_" data-uid="GRYLibrary.Core.PercentValue.#ctor(System.Int32)">PercentValue(Int32)</h4>
+  <h4 id="GRYLibrary_Core_PercentValue__ctor_System_Double_" data-uid="GRYLibrary.Core.PercentValue.#ctor(System.Double)">PercentValue(Double)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PercentValue(int percentValue)</code></pre>
+    <pre><code class="lang-csharp hljs">public PercentValue(double value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -155,14 +147,39 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">percentValue</span></td>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">value</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
   </h3>
+  
+  
+  <a id="GRYLibrary_Core_PercentValue_HundredPercent_" data-uid="GRYLibrary.Core.PercentValue.HundredPercent*"></a>
+  <h4 id="GRYLibrary_Core_PercentValue_HundredPercent" data-uid="GRYLibrary.Core.PercentValue.HundredPercent">HundredPercent</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PercentValue HundredPercent { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GRYLibrary.Core.PercentValue.html">PercentValue</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="GRYLibrary_Core_PercentValue_Value_" data-uid="GRYLibrary.Core.PercentValue.Value*"></a>
@@ -213,8 +230,75 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="GRYLibrary_Core_PercentValue_ZeroPercent_" data-uid="GRYLibrary.Core.PercentValue.ZeroPercent*"></a>
+  <h4 id="GRYLibrary_Core_PercentValue_ZeroPercent" data-uid="GRYLibrary.Core.PercentValue.ZeroPercent">ZeroPercent</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PercentValue ZeroPercent { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GRYLibrary.Core.PercentValue.html">PercentValue</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
+  
+  
+  <a id="GRYLibrary_Core_PercentValue_CreateByPercentValue_" data-uid="GRYLibrary.Core.PercentValue.CreateByPercentValue*"></a>
+  <h4 id="GRYLibrary_Core_PercentValue_CreateByPercentValue_System_Int32_" data-uid="GRYLibrary.Core.PercentValue.CreateByPercentValue(System.Int32)">CreateByPercentValue(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PercentValue CreateByPercentValue(int percentValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">percentValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GRYLibrary.Core.PercentValue.html">PercentValue</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="GRYLibrary_Core_PercentValue_Equals_" data-uid="GRYLibrary.Core.PercentValue.Equals*"></a>
@@ -258,7 +342,7 @@
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Object.Equals(System.Object)</span></div>
+  <div><span class="xref">System.ValueType.Equals(System.Object)</span></div>
   
   
   <a id="GRYLibrary_Core_PercentValue_GetHashCode_" data-uid="GRYLibrary.Core.PercentValue.GetHashCode*"></a>
@@ -285,7 +369,7 @@
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Object.GetHashCode()</span></div>
+  <div><span class="xref">System.ValueType.GetHashCode()</span></div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsEnumerable_System_Object_">Utilities.ObjectIsEnumerable(Object)</a>
@@ -337,6 +421,9 @@
   </div>
   <div>
       <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DeepClone__1___0_">Utilities.DeepClone&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_PersistToDisk__1___0_System_String_">Utilities.PersistToDisk&lt;T&gt;(T, String)</a>
   </div>
   <div>
       <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_NullSafeEquals_System_Object_System_Object_">Utilities.NullSafeEquals(Object, Object)</a>

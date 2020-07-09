@@ -6124,12 +6124,12 @@ references:
   commentId: M:GRYLibrary.Core.PercentValue.#ctor(System.Decimal)
   fullName: GRYLibrary.Core.PercentValue.PercentValue(System.Decimal)
   nameWithType: PercentValue.PercentValue(Decimal)
-- uid: GRYLibrary.Core.PercentValue.#ctor(System.Int32)
-  name: PercentValue(Int32)
-  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue__ctor_System_Int32_
-  commentId: M:GRYLibrary.Core.PercentValue.#ctor(System.Int32)
-  fullName: GRYLibrary.Core.PercentValue.PercentValue(System.Int32)
-  nameWithType: PercentValue.PercentValue(Int32)
+- uid: GRYLibrary.Core.PercentValue.#ctor(System.Double)
+  name: PercentValue(Double)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue__ctor_System_Double_
+  commentId: M:GRYLibrary.Core.PercentValue.#ctor(System.Double)
+  fullName: GRYLibrary.Core.PercentValue.PercentValue(System.Double)
+  nameWithType: PercentValue.PercentValue(Double)
 - uid: GRYLibrary.Core.PercentValue.#ctor*
   name: PercentValue
   href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue__ctor_
@@ -6137,6 +6137,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.PercentValue.PercentValue
   nameWithType: PercentValue.PercentValue
+- uid: GRYLibrary.Core.PercentValue.CreateByPercentValue(System.Int32)
+  name: CreateByPercentValue(Int32)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_CreateByPercentValue_System_Int32_
+  commentId: M:GRYLibrary.Core.PercentValue.CreateByPercentValue(System.Int32)
+  fullName: GRYLibrary.Core.PercentValue.CreateByPercentValue(System.Int32)
+  nameWithType: PercentValue.CreateByPercentValue(Int32)
+- uid: GRYLibrary.Core.PercentValue.CreateByPercentValue*
+  name: CreateByPercentValue
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_CreateByPercentValue_
+  commentId: Overload:GRYLibrary.Core.PercentValue.CreateByPercentValue
+  isSpec: "True"
+  fullName: GRYLibrary.Core.PercentValue.CreateByPercentValue
+  nameWithType: PercentValue.CreateByPercentValue
 - uid: GRYLibrary.Core.PercentValue.Equals(System.Object)
   name: Equals(Object)
   href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_Equals_System_Object_
@@ -6163,6 +6176,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.PercentValue.GetHashCode
   nameWithType: PercentValue.GetHashCode
+- uid: GRYLibrary.Core.PercentValue.HundredPercent
+  name: HundredPercent
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_HundredPercent
+  commentId: P:GRYLibrary.Core.PercentValue.HundredPercent
+  fullName: GRYLibrary.Core.PercentValue.HundredPercent
+  nameWithType: PercentValue.HundredPercent
+- uid: GRYLibrary.Core.PercentValue.HundredPercent*
+  name: HundredPercent
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_HundredPercent_
+  commentId: Overload:GRYLibrary.Core.PercentValue.HundredPercent
+  isSpec: "True"
+  fullName: GRYLibrary.Core.PercentValue.HundredPercent
+  nameWithType: PercentValue.HundredPercent
 - uid: GRYLibrary.Core.PercentValue.Value
   name: Value
   href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_Value
@@ -6189,6 +6215,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.PercentValue.ValueInPercent
   nameWithType: PercentValue.ValueInPercent
+- uid: GRYLibrary.Core.PercentValue.ZeroPercent
+  name: ZeroPercent
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_ZeroPercent
+  commentId: P:GRYLibrary.Core.PercentValue.ZeroPercent
+  fullName: GRYLibrary.Core.PercentValue.ZeroPercent
+  nameWithType: PercentValue.ZeroPercent
+- uid: GRYLibrary.Core.PercentValue.ZeroPercent*
+  name: ZeroPercent
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_ZeroPercent_
+  commentId: Overload:GRYLibrary.Core.PercentValue.ZeroPercent
+  isSpec: "True"
+  fullName: GRYLibrary.Core.PercentValue.ZeroPercent
+  nameWithType: PercentValue.ZeroPercent
 - uid: GRYLibrary.Core.Playlists
   name: GRYLibrary.Core.Playlists
   href: api/GRYLibrary.Core.Playlists.html
@@ -9007,19 +9046,32 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.CalculateCosineSimilarity
   nameWithType: Utilities.CalculateCosineSimilarity
-- uid: GRYLibrary.Core.Utilities.CalculateJaccardIndexSimilarity(System.String,System.String)
-  name: CalculateJaccardIndexSimilarity(String, String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_CalculateJaccardIndexSimilarity_System_String_System_String_
-  commentId: M:GRYLibrary.Core.Utilities.CalculateJaccardIndexSimilarity(System.String,System.String)
-  fullName: GRYLibrary.Core.Utilities.CalculateJaccardIndexSimilarity(System.String, System.String)
-  nameWithType: Utilities.CalculateJaccardIndexSimilarity(String, String)
-- uid: GRYLibrary.Core.Utilities.CalculateJaccardIndexSimilarity*
-  name: CalculateJaccardIndexSimilarity
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_CalculateJaccardIndexSimilarity_
-  commentId: Overload:GRYLibrary.Core.Utilities.CalculateJaccardIndexSimilarity
+- uid: GRYLibrary.Core.Utilities.CalculateJaccardIndex(System.String,System.String)
+  name: CalculateJaccardIndex(String, String)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_CalculateJaccardIndex_System_String_System_String_
+  commentId: M:GRYLibrary.Core.Utilities.CalculateJaccardIndex(System.String,System.String)
+  fullName: GRYLibrary.Core.Utilities.CalculateJaccardIndex(System.String, System.String)
+  nameWithType: Utilities.CalculateJaccardIndex(String, String)
+- uid: GRYLibrary.Core.Utilities.CalculateJaccardIndex*
+  name: CalculateJaccardIndex
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_CalculateJaccardIndex_
+  commentId: Overload:GRYLibrary.Core.Utilities.CalculateJaccardIndex
   isSpec: "True"
-  fullName: GRYLibrary.Core.Utilities.CalculateJaccardIndexSimilarity
-  nameWithType: Utilities.CalculateJaccardIndexSimilarity
+  fullName: GRYLibrary.Core.Utilities.CalculateJaccardIndex
+  nameWithType: Utilities.CalculateJaccardIndex
+- uid: GRYLibrary.Core.Utilities.CalculateJaccardSimilarity(System.String,System.String)
+  name: CalculateJaccardSimilarity(String, String)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_CalculateJaccardSimilarity_System_String_System_String_
+  commentId: M:GRYLibrary.Core.Utilities.CalculateJaccardSimilarity(System.String,System.String)
+  fullName: GRYLibrary.Core.Utilities.CalculateJaccardSimilarity(System.String, System.String)
+  nameWithType: Utilities.CalculateJaccardSimilarity(String, String)
+- uid: GRYLibrary.Core.Utilities.CalculateJaccardSimilarity*
+  name: CalculateJaccardSimilarity
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_CalculateJaccardSimilarity_
+  commentId: Overload:GRYLibrary.Core.Utilities.CalculateJaccardSimilarity
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.CalculateJaccardSimilarity
+  nameWithType: Utilities.CalculateJaccardSimilarity
 - uid: GRYLibrary.Core.Utilities.CalculateLevenshteinDistance(System.String,System.String)
   name: CalculateLevenshteinDistance(String, String)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_CalculateLevenshteinDistance_System_String_System_String_
