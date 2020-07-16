@@ -144,7 +144,7 @@ items:
   source:
     id: ValueInPercent
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\PercentValue.cs
-    startLine: 12
+    startLine: 11
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -175,7 +175,7 @@ items:
   source:
     id: Value
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\PercentValue.cs
-    startLine: 19
+    startLine: 18
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -206,7 +206,7 @@ items:
   source:
     id: .ctor
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\PercentValue.cs
-    startLine: 21
+    startLine: 20
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -235,7 +235,7 @@ items:
   source:
     id: .ctor
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\PercentValue.cs
-    startLine: 24
+    startLine: 23
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -264,7 +264,7 @@ items:
   source:
     id: CreateByPercentValue
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\PercentValue.cs
-    startLine: 39
+    startLine: 38
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -297,7 +297,7 @@ items:
   source:
     id: Equals
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\PercentValue.cs
-    startLine: 55
+    startLine: 54
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -331,7 +331,7 @@ items:
   source:
     id: GetHashCode
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\PercentValue.cs
-    startLine: 60
+    startLine: 59
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core

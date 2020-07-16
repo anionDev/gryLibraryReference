@@ -18,14 +18,17 @@ items:
   source:
     id: IdGenerator
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\IdGenerator.cs
-    startLine: 6
+    startLine: 10
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
+  summary: "\nSimple generic generator for ids.\n"
+  example: []
   syntax:
     content: public class IdGenerator<T>
     typeParameters:
     - id: T
+      description: Represents the type of an id
     content.vb: Public Class IdGenerator(Of T)
   inheritance:
   - System.Object
@@ -79,7 +82,7 @@ items:
   source:
     id: .ctor
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\IdGenerator.cs
-    startLine: 11
+    startLine: 15
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -111,7 +114,7 @@ items:
   source:
     id: GenerateNewId
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\IdGenerator.cs
-    startLine: 15
+    startLine: 19
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -141,7 +144,7 @@ items:
   source:
     id: GeneratedIds
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\IdGenerator.cs
-    startLine: 20
+    startLine: 24
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
