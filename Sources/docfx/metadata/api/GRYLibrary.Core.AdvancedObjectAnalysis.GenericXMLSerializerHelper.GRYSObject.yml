@@ -18,11 +18,11 @@ items:
   source:
     id: GRYSObject
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\GenericXMLSerializerHelper\GRYSObject.cs
-    startLine: 14
+    startLine: 15
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
-  summary: "\nRepresents a GRYSerializedObject\n"
+  summary: "\nRepresents a GRYSerializedObject.\n"
   example: []
   syntax:
     content: public class GRYSObject
@@ -77,7 +77,7 @@ items:
   source:
     id: RootObjectId
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\GenericXMLSerializerHelper\GRYSObject.cs
-    startLine: 16
+    startLine: 17
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
@@ -108,16 +108,16 @@ items:
   source:
     id: Objects
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\GenericXMLSerializerHelper\GRYSObject.cs
-    startLine: 17
+    startLine: 18
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
   syntax:
-    content: public HashSet<Simplified> Objects { get; set; }
+    content: public HashSet<FlatObject> Objects { get; set; }
     parameters: []
     return:
-      type: System.Collections.Generic.HashSet{GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified}
-    content.vb: Public Property Objects As HashSet(Of Simplified)
+      type: System.Collections.Generic.HashSet{GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject}
+    content.vb: Public Property Objects As HashSet(Of FlatObject)
   overload: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.GRYSObject.Objects*
   modifiers.csharp:
   - public
@@ -139,7 +139,7 @@ items:
   source:
     id: Create
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\GenericXMLSerializerHelper\GRYSObject.cs
-    startLine: 18
+    startLine: 19
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
@@ -1850,16 +1850,16 @@ references:
   name: Objects
   nameWithType: GRYSObject.Objects
   fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.GRYSObject.Objects
-- uid: System.Collections.Generic.HashSet{GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified}
-  commentId: T:System.Collections.Generic.HashSet{GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified}
+- uid: System.Collections.Generic.HashSet{GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject}
+  commentId: T:System.Collections.Generic.HashSet{GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.HashSet`1
-  name: HashSet<Simplified>
-  nameWithType: HashSet<Simplified>
-  fullName: System.Collections.Generic.HashSet<GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified>
-  nameWithType.vb: HashSet(Of Simplified)
-  fullName.vb: System.Collections.Generic.HashSet(Of GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified)
-  name.vb: HashSet(Of Simplified)
+  name: HashSet<FlatObject>
+  nameWithType: HashSet<FlatObject>
+  fullName: System.Collections.Generic.HashSet<GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject>
+  nameWithType.vb: HashSet(Of FlatObject)
+  fullName.vb: System.Collections.Generic.HashSet(Of GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject)
+  name.vb: HashSet(Of FlatObject)
   spec.csharp:
   - uid: System.Collections.Generic.HashSet`1
     name: HashSet
@@ -1869,10 +1869,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified
-    name: Simplified
-    nameWithType: Simplified
-    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject
+    name: FlatObject
+    nameWithType: FlatObject
+    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -1885,10 +1885,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified
-    name: Simplified
-    nameWithType: Simplified
-    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject
+    name: FlatObject
+    nameWithType: FlatObject
+    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject
   - name: )
     nameWithType: )
     fullName: )

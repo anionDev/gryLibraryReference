@@ -21,7 +21,7 @@ items:
   source:
     id: Generic
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\Generic.cs
-    startLine: 10
+    startLine: 11
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedObjectAnalysis
@@ -78,7 +78,7 @@ items:
   source:
     id: GenericGetHashCode
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\Generic.cs
-    startLine: 14
+    startLine: 15
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedObjectAnalysis
@@ -111,7 +111,7 @@ items:
   source:
     id: GenericEquals
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\Generic.cs
-    startLine: 52
+    startLine: 53
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedObjectAnalysis
@@ -146,7 +146,7 @@ items:
   source:
     id: GenericToString
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\Generic.cs
-    startLine: 57
+    startLine: 58
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedObjectAnalysis
@@ -179,7 +179,7 @@ items:
   source:
     id: GenericGetSchema
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\Generic.cs
-    startLine: 63
+    startLine: 64
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedObjectAnalysis
@@ -212,7 +212,7 @@ items:
   source:
     id: GenericWriteXml
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\Generic.cs
-    startLine: 69
+    startLine: 70
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedObjectAnalysis
@@ -245,7 +245,7 @@ items:
   source:
     id: GenericReadXml
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\Generic.cs
-    startLine: 74
+    startLine: 75
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedObjectAnalysis

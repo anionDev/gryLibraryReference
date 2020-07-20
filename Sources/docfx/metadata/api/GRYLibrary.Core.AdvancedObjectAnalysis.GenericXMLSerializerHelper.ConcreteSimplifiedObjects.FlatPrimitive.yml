@@ -1,23 +1,23 @@
 ### YamlMime:ManagedReference
 items:
-- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive
-  commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive
-  id: SPrimitive
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive
+  commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive
+  id: FlatPrimitive
   parent: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects
   children:
-  - GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive.Accept(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor)
-  - GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive.Accept``1(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor{``0})
-  - GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive.Value
+  - GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.Accept(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor)
+  - GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.Accept``1(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor{``0})
+  - GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.Value
   langs:
   - csharp
   - vb
-  name: SPrimitive
-  nameWithType: SPrimitive
-  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive
+  name: FlatPrimitive
+  nameWithType: FlatPrimitive
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive
   type: Class
   source:
-    id: SPrimitive
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\GenericXMLSerializerHelper\ConcreteSimplifiedObjects\SPrimitive.cs
+    id: FlatPrimitive
+    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\GenericXMLSerializerHelper\ConcreteSimplifiedObjects\FlatPrimitive.cs
     startLine: 7
   assemblies:
   - GRYLibrary
@@ -25,18 +25,18 @@ items:
   summary: "\nRepresents a SimplifiedPrimitive for <xref href=\"GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.GRYSObject\" data-throw-if-not-resolved=\"false\"></xref>\n"
   example: []
   syntax:
-    content: 'public class SPrimitive : Simplified'
+    content: 'public class FlatPrimitive : FlatObject'
     content.vb: >-
-      Public Class SPrimitive
-          Inherits Simplified
+      Public Class FlatPrimitive
+          Inherits FlatObject
   inheritance:
   - System.Object
-  - GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified
+  - GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject
   inheritedMembers:
-  - GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ObjectId
-  - GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.TypeName
-  - GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.Equals(System.Object)
-  - GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.GetHashCode
+  - GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.ObjectId
+  - GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.TypeName
+  - GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.Equals(System.Object)
+  - GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.GetHashCode
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.GetType
   - System.Object.MemberwiseClone
@@ -59,8 +59,8 @@ items:
   - System.Object.GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2
   - System.Object.GRYLibrary.Core.Utilities.ObjectToTuple``2
   - System.Object.GRYLibrary.Core.Utilities.ToDynamic
-  - GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive.GRYLibrary.Core.Utilities.DeepClone``1
-  - GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive.GRYLibrary.Core.Utilities.PersistToDisk``1(System.String)
+  - GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.GRYLibrary.Core.Utilities.DeepClone``1
+  - GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.GRYLibrary.Core.Utilities.PersistToDisk``1(System.String)
   - System.Object.GRYLibrary.Core.Utilities.NullSafeEquals(System.Object)
   modifiers.csharp:
   - public
@@ -68,20 +68,20 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive.Value
-  commentId: P:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive.Value
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.Value
+  commentId: P:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.Value
   id: Value
-  parent: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive
+  parent: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive
   langs:
   - csharp
   - vb
   name: Value
-  nameWithType: SPrimitive.Value
-  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive.Value
+  nameWithType: FlatPrimitive.Value
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.Value
   type: Property
   source:
     id: Value
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\GenericXMLSerializerHelper\ConcreteSimplifiedObjects\SPrimitive.cs
+    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\GenericXMLSerializerHelper\ConcreteSimplifiedObjects\FlatPrimitive.cs
     startLine: 10
   assemblies:
   - GRYLibrary
@@ -92,84 +92,84 @@ items:
     return:
       type: System.Object
     content.vb: Public Property Value As Object
-  overload: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive.Value*
+  overload: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.Value*
   modifiers.csharp:
   - public
   - get
   - set
   modifiers.vb:
   - Public
-- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive.Accept(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor)
-  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive.Accept(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor)
-  id: Accept(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor)
-  parent: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.Accept(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor)
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.Accept(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor)
+  id: Accept(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor)
+  parent: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive
   langs:
   - csharp
   - vb
-  name: Accept(Simplified.ISimplifiedVisitor)
-  nameWithType: SPrimitive.Accept(Simplified.ISimplifiedVisitor)
-  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive.Accept(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor)
+  name: Accept(FlatObject.IFlatObjectVisitor)
+  nameWithType: FlatPrimitive.Accept(FlatObject.IFlatObjectVisitor)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.Accept(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor)
   type: Method
   source:
     id: Accept
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\GenericXMLSerializerHelper\ConcreteSimplifiedObjects\SPrimitive.cs
+    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\GenericXMLSerializerHelper\ConcreteSimplifiedObjects\FlatPrimitive.cs
     startLine: 11
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects
   syntax:
-    content: public override void Accept(Simplified.ISimplifiedVisitor visitor)
+    content: public override void Accept(FlatObject.IFlatObjectVisitor visitor)
     parameters:
     - id: visitor
-      type: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor
-    content.vb: Public Overrides Sub Accept(visitor As Simplified.ISimplifiedVisitor)
-  overridden: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.Accept(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor)
-  overload: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive.Accept*
+      type: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor
+    content.vb: Public Overrides Sub Accept(visitor As FlatObject.IFlatObjectVisitor)
+  overridden: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.Accept(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor)
+  overload: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.Accept*
   modifiers.csharp:
   - public
   - override
   modifiers.vb:
   - Public
   - Overrides
-- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive.Accept``1(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor{``0})
-  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive.Accept``1(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor{``0})
-  id: Accept``1(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor{``0})
-  parent: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.Accept``1(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor{``0})
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.Accept``1(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor{``0})
+  id: Accept``1(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor{``0})
+  parent: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive
   langs:
   - csharp
   - vb
-  name: Accept<T>(Simplified.ISimplifiedVisitor<T>)
-  nameWithType: SPrimitive.Accept<T>(Simplified.ISimplifiedVisitor<T>)
-  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive.Accept<T>(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor<T>)
+  name: Accept<T>(FlatObject.IFlatObjectVisitor<T>)
+  nameWithType: FlatPrimitive.Accept<T>(FlatObject.IFlatObjectVisitor<T>)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.Accept<T>(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor<T>)
   type: Method
   source:
     id: Accept
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\GenericXMLSerializerHelper\ConcreteSimplifiedObjects\SPrimitive.cs
+    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\GenericXMLSerializerHelper\ConcreteSimplifiedObjects\FlatPrimitive.cs
     startLine: 16
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects
   syntax:
-    content: public override T Accept<T>(Simplified.ISimplifiedVisitor<T> visitor)
+    content: public override T Accept<T>(FlatObject.IFlatObjectVisitor<T> visitor)
     parameters:
     - id: visitor
-      type: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor{{T}}
+      type: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor{{T}}
     typeParameters:
     - id: T
     return:
       type: '{T}'
-    content.vb: Public Overrides Function Accept(Of T)(visitor As Simplified.ISimplifiedVisitor(Of T)) As T
-  overridden: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.Accept``1(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor{{T}})
-  overload: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive.Accept*
-  nameWithType.vb: SPrimitive.Accept(Of T)(Simplified.ISimplifiedVisitor(Of T))
+    content.vb: Public Overrides Function Accept(Of T)(visitor As FlatObject.IFlatObjectVisitor(Of T)) As T
+  overridden: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.Accept``1(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor{{T}})
+  overload: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.Accept*
+  nameWithType.vb: FlatPrimitive.Accept(Of T)(FlatObject.IFlatObjectVisitor(Of T))
   modifiers.csharp:
   - public
   - override
   modifiers.vb:
   - Public
   - Overrides
-  fullName.vb: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive.Accept(Of T)(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor(Of T))
-  name.vb: Accept(Of T)(Simplified.ISimplifiedVisitor(Of T))
+  fullName.vb: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.Accept(Of T)(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor(Of T))
+  name.vb: Accept(Of T)(FlatObject.IFlatObjectVisitor(Of T))
 references:
 - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.GRYSObject
   commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.GRYSObject
@@ -189,36 +189,36 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified
-  commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject
+  commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject
   parent: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
-  name: Simplified
-  nameWithType: Simplified
-  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified
-- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ObjectId
-  commentId: P:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ObjectId
-  parent: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified
+  name: FlatObject
+  nameWithType: FlatObject
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.ObjectId
+  commentId: P:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.ObjectId
+  parent: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject
   name: ObjectId
-  nameWithType: Simplified.ObjectId
-  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ObjectId
-- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.TypeName
-  commentId: P:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.TypeName
-  parent: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified
+  nameWithType: FlatObject.ObjectId
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.ObjectId
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.TypeName
+  commentId: P:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.TypeName
+  parent: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject
   name: TypeName
-  nameWithType: Simplified.TypeName
-  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.TypeName
-- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.Equals(System.Object)
-  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.Equals(System.Object)
-  parent: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified
+  nameWithType: FlatObject.TypeName
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.TypeName
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.Equals(System.Object)
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.Equals(System.Object)
+  parent: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject
   isExternal: true
   name: Equals(Object)
-  nameWithType: Simplified.Equals(Object)
-  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.Equals(System.Object)
+  nameWithType: FlatObject.Equals(Object)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.Equals(System.Object)
   spec.csharp:
-  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.Equals(System.Object)
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.Equals(System.Object)
     name: Equals
-    nameWithType: Simplified.Equals
-    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.Equals
+    nameWithType: FlatObject.Equals
+    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.Equals
   - name: (
     nameWithType: (
     fullName: (
@@ -231,10 +231,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.Equals(System.Object)
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.Equals(System.Object)
     name: Equals
-    nameWithType: Simplified.Equals
-    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.Equals
+    nameWithType: FlatObject.Equals
+    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.Equals
   - name: (
     nameWithType: (
     fullName: (
@@ -246,17 +246,17 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.GetHashCode
-  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.GetHashCode
-  parent: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.GetHashCode
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.GetHashCode
+  parent: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject
   name: GetHashCode()
-  nameWithType: Simplified.GetHashCode()
-  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.GetHashCode()
+  nameWithType: FlatObject.GetHashCode()
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.GetHashCode()
   spec.csharp:
-  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.GetHashCode
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.GetHashCode
     name: GetHashCode
-    nameWithType: Simplified.GetHashCode
-    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.GetHashCode
+    nameWithType: FlatObject.GetHashCode
+    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.GetHashCode
   - name: (
     nameWithType: (
     fullName: (
@@ -264,10 +264,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.GetHashCode
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.GetHashCode
     name: GetHashCode
-    nameWithType: Simplified.GetHashCode
-    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.GetHashCode
+    nameWithType: FlatObject.GetHashCode
+    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.GetHashCode
   - name: (
     nameWithType: (
     fullName: (
@@ -963,21 +963,21 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive.GRYLibrary.Core.Utilities.DeepClone``1
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.GRYLibrary.Core.Utilities.DeepClone``1
   commentId: M:GRYLibrary.Core.Utilities.DeepClone``1(``0)
   parent: GRYLibrary.Core.Utilities
   definition: GRYLibrary.Core.Utilities.DeepClone``1(``0)
-  name: DeepClone<SPrimitive>()
-  nameWithType: Utilities.DeepClone<SPrimitive>()
-  fullName: GRYLibrary.Core.Utilities.DeepClone<GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive>()
-  nameWithType.vb: Utilities.DeepClone(Of SPrimitive)()
-  fullName.vb: GRYLibrary.Core.Utilities.DeepClone(Of GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive)()
-  name.vb: DeepClone(Of SPrimitive)()
+  name: DeepClone<FlatPrimitive>()
+  nameWithType: Utilities.DeepClone<FlatPrimitive>()
+  fullName: GRYLibrary.Core.Utilities.DeepClone<GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive>()
+  nameWithType.vb: Utilities.DeepClone(Of FlatPrimitive)()
+  fullName.vb: GRYLibrary.Core.Utilities.DeepClone(Of GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive)()
+  name.vb: DeepClone(Of FlatPrimitive)()
   spec.csharp:
   - uid: GRYLibrary.Core.Utilities.DeepClone``1
-    name: DeepClone<SPrimitive>
-    nameWithType: Utilities.DeepClone<SPrimitive>
-    fullName: GRYLibrary.Core.Utilities.DeepClone<GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive>
+    name: DeepClone<FlatPrimitive>
+    nameWithType: Utilities.DeepClone<FlatPrimitive>
+    fullName: GRYLibrary.Core.Utilities.DeepClone<GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive>
   - name: (
     nameWithType: (
     fullName: (
@@ -986,30 +986,30 @@ references:
     fullName: )
   spec.vb:
   - uid: GRYLibrary.Core.Utilities.DeepClone``1
-    name: DeepClone(Of SPrimitive)
-    nameWithType: Utilities.DeepClone(Of SPrimitive)
-    fullName: GRYLibrary.Core.Utilities.DeepClone(Of GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive)
+    name: DeepClone(Of FlatPrimitive)
+    nameWithType: Utilities.DeepClone(Of FlatPrimitive)
+    fullName: GRYLibrary.Core.Utilities.DeepClone(Of GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive)
   - name: (
     nameWithType: (
     fullName: (
   - name: )
     nameWithType: )
     fullName: )
-- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive.GRYLibrary.Core.Utilities.PersistToDisk``1(System.String)
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.GRYLibrary.Core.Utilities.PersistToDisk``1(System.String)
   commentId: M:GRYLibrary.Core.Utilities.PersistToDisk``1(``0,System.String)
   parent: GRYLibrary.Core.Utilities
   definition: GRYLibrary.Core.Utilities.PersistToDisk``1(``0,System.String)
-  name: PersistToDisk<SPrimitive>(String)
-  nameWithType: Utilities.PersistToDisk<SPrimitive>(String)
-  fullName: GRYLibrary.Core.Utilities.PersistToDisk<GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive>(System.String)
-  nameWithType.vb: Utilities.PersistToDisk(Of SPrimitive)(String)
-  fullName.vb: GRYLibrary.Core.Utilities.PersistToDisk(Of GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive)(System.String)
-  name.vb: PersistToDisk(Of SPrimitive)(String)
+  name: PersistToDisk<FlatPrimitive>(String)
+  nameWithType: Utilities.PersistToDisk<FlatPrimitive>(String)
+  fullName: GRYLibrary.Core.Utilities.PersistToDisk<GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive>(System.String)
+  nameWithType.vb: Utilities.PersistToDisk(Of FlatPrimitive)(String)
+  fullName.vb: GRYLibrary.Core.Utilities.PersistToDisk(Of GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive)(System.String)
+  name.vb: PersistToDisk(Of FlatPrimitive)(String)
   spec.csharp:
   - uid: GRYLibrary.Core.Utilities.PersistToDisk``1(System.String)
-    name: PersistToDisk<SPrimitive>
-    nameWithType: Utilities.PersistToDisk<SPrimitive>
-    fullName: GRYLibrary.Core.Utilities.PersistToDisk<GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive>
+    name: PersistToDisk<FlatPrimitive>
+    nameWithType: Utilities.PersistToDisk<FlatPrimitive>
+    fullName: GRYLibrary.Core.Utilities.PersistToDisk<GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive>
   - name: (
     nameWithType: (
     fullName: (
@@ -1023,9 +1023,9 @@ references:
     fullName: )
   spec.vb:
   - uid: GRYLibrary.Core.Utilities.PersistToDisk``1(System.String)
-    name: PersistToDisk(Of SPrimitive)
-    nameWithType: Utilities.PersistToDisk(Of SPrimitive)
-    fullName: GRYLibrary.Core.Utilities.PersistToDisk(Of GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive)
+    name: PersistToDisk(Of FlatPrimitive)
+    nameWithType: Utilities.PersistToDisk(Of FlatPrimitive)
+    fullName: GRYLibrary.Core.Utilities.PersistToDisk(Of GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive)
   - name: (
     nameWithType: (
     fullName: (
@@ -1867,80 +1867,80 @@ references:
   name: GRYLibrary.Core
   nameWithType: GRYLibrary.Core
   fullName: GRYLibrary.Core
-- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive.Value*
-  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive.Value
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.Value*
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.Value
   name: Value
-  nameWithType: SPrimitive.Value
-  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive.Value
-- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.Accept(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor)
-  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.Accept(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor)
-  parent: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified
-  name: Accept(Simplified.ISimplifiedVisitor)
-  nameWithType: Simplified.Accept(Simplified.ISimplifiedVisitor)
-  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.Accept(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor)
+  nameWithType: FlatPrimitive.Value
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.Value
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.Accept(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor)
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.Accept(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor)
+  parent: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject
+  name: Accept(FlatObject.IFlatObjectVisitor)
+  nameWithType: FlatObject.Accept(FlatObject.IFlatObjectVisitor)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.Accept(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor)
   spec.csharp:
-  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.Accept(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor)
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.Accept(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor)
     name: Accept
-    nameWithType: Simplified.Accept
-    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.Accept
+    nameWithType: FlatObject.Accept
+    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.Accept
   - name: (
     nameWithType: (
     fullName: (
-  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor
-    name: Simplified.ISimplifiedVisitor
-    nameWithType: Simplified.ISimplifiedVisitor
-    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor
+    name: FlatObject.IFlatObjectVisitor
+    nameWithType: FlatObject.IFlatObjectVisitor
+    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor
   - name: )
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.Accept(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor)
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.Accept(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor)
     name: Accept
-    nameWithType: Simplified.Accept
-    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.Accept
+    nameWithType: FlatObject.Accept
+    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.Accept
   - name: (
     nameWithType: (
     fullName: (
-  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor
-    name: Simplified.ISimplifiedVisitor
-    nameWithType: Simplified.ISimplifiedVisitor
-    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor
+    name: FlatObject.IFlatObjectVisitor
+    nameWithType: FlatObject.IFlatObjectVisitor
+    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor
   - name: )
     nameWithType: )
     fullName: )
-- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive.Accept*
-  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive.Accept
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.Accept*
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.Accept
   name: Accept
-  nameWithType: SPrimitive.Accept
-  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive.Accept
-- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor
-  commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor
+  nameWithType: FlatPrimitive.Accept
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.Accept
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor
+  commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor
   parent: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
-  name: Simplified.ISimplifiedVisitor
-  nameWithType: Simplified.ISimplifiedVisitor
-  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor
-- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.Accept``1(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor{{T}})
-  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.Accept``1(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor{``0})
-  parent: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified
-  definition: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.Accept``1(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor{``0})
-  name: Accept<T>(Simplified.ISimplifiedVisitor<T>)
-  nameWithType: Simplified.Accept<T>(Simplified.ISimplifiedVisitor<T>)
-  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.Accept<T>(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor<T>)
-  nameWithType.vb: Simplified.Accept(Of T)(Simplified.ISimplifiedVisitor(Of T))
-  fullName.vb: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.Accept(Of T)(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor(Of T))
-  name.vb: Accept(Of T)(Simplified.ISimplifiedVisitor(Of T))
+  name: FlatObject.IFlatObjectVisitor
+  nameWithType: FlatObject.IFlatObjectVisitor
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.Accept``1(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor{{T}})
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.Accept``1(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor{``0})
+  parent: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject
+  definition: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.Accept``1(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor{``0})
+  name: Accept<T>(FlatObject.IFlatObjectVisitor<T>)
+  nameWithType: FlatObject.Accept<T>(FlatObject.IFlatObjectVisitor<T>)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.Accept<T>(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor<T>)
+  nameWithType.vb: FlatObject.Accept(Of T)(FlatObject.IFlatObjectVisitor(Of T))
+  fullName.vb: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.Accept(Of T)(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor(Of T))
+  name.vb: Accept(Of T)(FlatObject.IFlatObjectVisitor(Of T))
   spec.csharp:
-  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.Accept``1(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor{``0})
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.Accept``1(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor{``0})
     name: Accept<T>
-    nameWithType: Simplified.Accept<T>
-    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.Accept<T>
+    nameWithType: FlatObject.Accept<T>
+    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.Accept<T>
   - name: (
     nameWithType: (
     fullName: (
-  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor`1
-    name: Simplified.ISimplifiedVisitor
-    nameWithType: Simplified.ISimplifiedVisitor
-    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor`1
+    name: FlatObject.IFlatObjectVisitor
+    nameWithType: FlatObject.IFlatObjectVisitor
+    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor
   - name: <
     nameWithType: <
     fullName: <
@@ -1954,17 +1954,17 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.Accept``1(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor{``0})
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.Accept``1(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor{``0})
     name: Accept(Of T)
-    nameWithType: Simplified.Accept(Of T)
-    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.Accept(Of T)
+    nameWithType: FlatObject.Accept(Of T)
+    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.Accept(Of T)
   - name: (
     nameWithType: (
     fullName: (
-  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor`1
-    name: Simplified.ISimplifiedVisitor
-    nameWithType: Simplified.ISimplifiedVisitor
-    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor`1
+    name: FlatObject.IFlatObjectVisitor
+    nameWithType: FlatObject.IFlatObjectVisitor
+    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
@@ -1977,21 +1977,21 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor{{T}}
-  commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor{``0}
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor{{T}}
+  commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor{``0}
   parent: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
-  definition: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor`1
-  name: Simplified.ISimplifiedVisitor<T>
-  nameWithType: Simplified.ISimplifiedVisitor<T>
-  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor<T>
-  nameWithType.vb: Simplified.ISimplifiedVisitor(Of T)
-  fullName.vb: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor(Of T)
-  name.vb: Simplified.ISimplifiedVisitor(Of T)
+  definition: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor`1
+  name: FlatObject.IFlatObjectVisitor<T>
+  nameWithType: FlatObject.IFlatObjectVisitor<T>
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor<T>
+  nameWithType.vb: FlatObject.IFlatObjectVisitor(Of T)
+  fullName.vb: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor(Of T)
+  name.vb: FlatObject.IFlatObjectVisitor(Of T)
   spec.csharp:
-  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor`1
-    name: Simplified.ISimplifiedVisitor
-    nameWithType: Simplified.ISimplifiedVisitor
-    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor`1
+    name: FlatObject.IFlatObjectVisitor
+    nameWithType: FlatObject.IFlatObjectVisitor
+    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor
   - name: <
     nameWithType: <
     fullName: <
@@ -2002,10 +2002,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor`1
-    name: Simplified.ISimplifiedVisitor
-    nameWithType: Simplified.ISimplifiedVisitor
-    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor`1
+    name: FlatObject.IFlatObjectVisitor
+    nameWithType: FlatObject.IFlatObjectVisitor
+    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
@@ -2021,26 +2021,26 @@ references:
   name: T
   nameWithType: T
   fullName: T
-- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.Accept``1(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor{``0})
-  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.Accept``1(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor{``0})
-  name: Accept<T>(Simplified.ISimplifiedVisitor<T>)
-  nameWithType: Simplified.Accept<T>(Simplified.ISimplifiedVisitor<T>)
-  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.Accept<T>(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor<T>)
-  nameWithType.vb: Simplified.Accept(Of T)(Simplified.ISimplifiedVisitor(Of T))
-  fullName.vb: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.Accept(Of T)(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor(Of T))
-  name.vb: Accept(Of T)(Simplified.ISimplifiedVisitor(Of T))
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.Accept``1(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor{``0})
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.Accept``1(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor{``0})
+  name: Accept<T>(FlatObject.IFlatObjectVisitor<T>)
+  nameWithType: FlatObject.Accept<T>(FlatObject.IFlatObjectVisitor<T>)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.Accept<T>(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor<T>)
+  nameWithType.vb: FlatObject.Accept(Of T)(FlatObject.IFlatObjectVisitor(Of T))
+  fullName.vb: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.Accept(Of T)(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor(Of T))
+  name.vb: Accept(Of T)(FlatObject.IFlatObjectVisitor(Of T))
   spec.csharp:
-  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.Accept``1(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor{``0})
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.Accept``1(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor{``0})
     name: Accept<T>
-    nameWithType: Simplified.Accept<T>
-    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.Accept<T>
+    nameWithType: FlatObject.Accept<T>
+    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.Accept<T>
   - name: (
     nameWithType: (
     fullName: (
-  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor`1
-    name: Simplified.ISimplifiedVisitor
-    nameWithType: Simplified.ISimplifiedVisitor
-    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor`1
+    name: FlatObject.IFlatObjectVisitor
+    nameWithType: FlatObject.IFlatObjectVisitor
+    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor
   - name: <
     nameWithType: <
     fullName: <
@@ -2054,17 +2054,17 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.Accept``1(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor{``0})
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.Accept``1(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor{``0})
     name: Accept(Of T)
-    nameWithType: Simplified.Accept(Of T)
-    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.Accept(Of T)
+    nameWithType: FlatObject.Accept(Of T)
+    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.Accept(Of T)
   - name: (
     nameWithType: (
     fullName: (
-  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor`1
-    name: Simplified.ISimplifiedVisitor
-    nameWithType: Simplified.ISimplifiedVisitor
-    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor`1
+    name: FlatObject.IFlatObjectVisitor
+    nameWithType: FlatObject.IFlatObjectVisitor
+    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
@@ -2077,19 +2077,19 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor`1
-  commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor`1
-  name: Simplified.ISimplifiedVisitor<T>
-  nameWithType: Simplified.ISimplifiedVisitor<T>
-  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor<T>
-  nameWithType.vb: Simplified.ISimplifiedVisitor(Of T)
-  fullName.vb: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor(Of T)
-  name.vb: Simplified.ISimplifiedVisitor(Of T)
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor`1
+  commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor`1
+  name: FlatObject.IFlatObjectVisitor<T>
+  nameWithType: FlatObject.IFlatObjectVisitor<T>
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor<T>
+  nameWithType.vb: FlatObject.IFlatObjectVisitor(Of T)
+  fullName.vb: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor(Of T)
+  name.vb: FlatObject.IFlatObjectVisitor(Of T)
   spec.csharp:
-  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor`1
-    name: Simplified.ISimplifiedVisitor
-    nameWithType: Simplified.ISimplifiedVisitor
-    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor`1
+    name: FlatObject.IFlatObjectVisitor
+    nameWithType: FlatObject.IFlatObjectVisitor
+    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor
   - name: <
     nameWithType: <
     fullName: <
@@ -2100,10 +2100,10 @@ references:
     nameWithType: '>'
     fullName: '>'
   spec.vb:
-  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor`1
-    name: Simplified.ISimplifiedVisitor
-    nameWithType: Simplified.ISimplifiedVisitor
-    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor`1
+    name: FlatObject.IFlatObjectVisitor
+    nameWithType: FlatObject.IFlatObjectVisitor
+    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '

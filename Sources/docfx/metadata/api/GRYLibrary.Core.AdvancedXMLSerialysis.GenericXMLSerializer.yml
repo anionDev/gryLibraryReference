@@ -5,7 +5,7 @@ items:
   id: GenericXMLSerializer
   parent: GRYLibrary.Core.AdvancedXMLSerialysis
   children:
-  - GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.GetDefaultInstance
+  - GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.DefaultInstance
   langs:
   - csharp
   - vb
@@ -16,7 +16,7 @@ items:
   source:
     id: GenericXMLSerializer
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\GenericXMLSerializer.cs
-    startLine: 59
+    startLine: 81
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedXMLSerialysis
@@ -40,36 +40,39 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.GetDefaultInstance
-  commentId: M:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.GetDefaultInstance
-  id: GetDefaultInstance
+- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.DefaultInstance
+  commentId: P:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.DefaultInstance
+  id: DefaultInstance
   parent: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer
   langs:
   - csharp
   - vb
-  name: GetDefaultInstance()
-  nameWithType: GenericXMLSerializer.GetDefaultInstance()
-  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.GetDefaultInstance()
-  type: Method
+  name: DefaultInstance
+  nameWithType: GenericXMLSerializer.DefaultInstance
+  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.DefaultInstance
+  type: Property
   source:
-    id: GetDefaultInstance
+    id: DefaultInstance
     path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\GenericXMLSerializer.cs
-    startLine: 61
+    startLine: 83
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedXMLSerialysis
   syntax:
-    content: public static GenericXMLSerializer<object> GetDefaultInstance()
+    content: public static GenericXMLSerializer<object> DefaultInstance { get; }
+    parameters: []
     return:
       type: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer{System.Object}
-    content.vb: Public Shared Function GetDefaultInstance As GenericXMLSerializer(Of Object)
-  overload: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.GetDefaultInstance*
+    content.vb: Public Shared ReadOnly Property DefaultInstance As GenericXMLSerializer(Of Object)
+  overload: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.DefaultInstance*
   modifiers.csharp:
   - public
   - static
+  - get
   modifiers.vb:
   - Public
   - Shared
+  - ReadOnly
 references:
 - uid: GRYLibrary.Core.AdvancedXMLSerialysis
   commentId: N:GRYLibrary.Core.AdvancedXMLSerialysis
@@ -368,11 +371,11 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.GetDefaultInstance*
-  commentId: Overload:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.GetDefaultInstance
-  name: GetDefaultInstance
-  nameWithType: GenericXMLSerializer.GetDefaultInstance
-  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.GetDefaultInstance
+- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.DefaultInstance*
+  commentId: Overload:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.DefaultInstance
+  name: DefaultInstance
+  nameWithType: GenericXMLSerializer.DefaultInstance
+  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.DefaultInstance
 - uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer{System.Object}
   commentId: T:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer{System.Object}
   parent: GRYLibrary.Core.AdvancedXMLSerialysis

@@ -110,28 +110,28 @@
 - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
   name: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
   items:
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject
+    name: FlatObject
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor
+    name: FlatObject.IFlatObjectVisitor
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor`1
+    name: FlatObject.IFlatObjectVisitor<T>
+    name.vb: FlatObject.IFlatObjectVisitor(Of T)
   - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.GRYSObject
     name: GRYSObject
   - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.SerializationConfiguration
     name: SerializationConfiguration
-  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified
-    name: Simplified
-  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor
-    name: Simplified.ISimplifiedVisitor
-  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.Simplified.ISimplifiedVisitor`1
-    name: Simplified.ISimplifiedVisitor<T>
-    name.vb: Simplified.ISimplifiedVisitor(Of T)
 - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects
   name: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects
   items:
-  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SAttribute
-    name: SAttribute
-  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SEnumerable
-    name: SEnumerable
-  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SObject
-    name: SObject
-  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.SPrimitive
-    name: SPrimitive
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatAttribute
+    name: FlatAttribute
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatComplexObject
+    name: FlatComplexObject
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatEnumerable
+    name: FlatEnumerable
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive
+    name: FlatPrimitive
 - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper
   name: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper
   items:
