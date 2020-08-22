@@ -5,6 +5,7 @@ items:
   id: FlatPrimitive
   parent: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects
   children:
+  - GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.#ctor
   - GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.Accept(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor)
   - GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.Accept``1(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor{``0})
   - GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.Value
@@ -17,7 +18,7 @@ items:
   type: Class
   source:
     id: FlatPrimitive
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\GenericXMLSerializerHelper\ConcreteSimplifiedObjects\FlatPrimitive.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\GenericXMLSerializerHelper\ConcreteSimplifiedObjects\FlatPrimitive.cs
     startLine: 7
   assemblies:
   - GRYLibrary
@@ -48,6 +49,7 @@ items:
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsList
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionary
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsTuple
   - System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable
   - System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable``1
@@ -68,6 +70,32 @@ items:
   modifiers.vb:
   - Public
   - Class
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.#ctor
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.#ctor
+  id: '#ctor'
+  parent: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive
+  langs:
+  - csharp
+  - vb
+  name: FlatPrimitive()
+  nameWithType: FlatPrimitive.FlatPrimitive()
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.FlatPrimitive()
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\GenericXMLSerializerHelper\ConcreteSimplifiedObjects\FlatPrimitive.cs
+    startLine: 10
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects
+  syntax:
+    content: public FlatPrimitive()
+    content.vb: Public Sub New
+  overload: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.Value
   commentId: P:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.Value
   id: Value
@@ -81,8 +109,8 @@ items:
   type: Property
   source:
     id: Value
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\GenericXMLSerializerHelper\ConcreteSimplifiedObjects\FlatPrimitive.cs
-    startLine: 10
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\GenericXMLSerializerHelper\ConcreteSimplifiedObjects\FlatPrimitive.cs
+    startLine: 13
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects
@@ -112,8 +140,8 @@ items:
   type: Method
   source:
     id: Accept
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\GenericXMLSerializerHelper\ConcreteSimplifiedObjects\FlatPrimitive.cs
-    startLine: 11
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\GenericXMLSerializerHelper\ConcreteSimplifiedObjects\FlatPrimitive.cs
+    startLine: 14
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects
@@ -144,8 +172,8 @@ items:
   type: Method
   source:
     id: Accept
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\GenericXMLSerializerHelper\ConcreteSimplifiedObjects\FlatPrimitive.cs
-    startLine: 16
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\GenericXMLSerializerHelper\ConcreteSimplifiedObjects\FlatPrimitive.cs
+    startLine: 19
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects
@@ -620,6 +648,35 @@ references:
     name: ObjectIsKeyValuePair
     nameWithType: Utilities.ObjectIsKeyValuePair
     fullName: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  name: ObjectIsDictionaryEntry()
+  nameWithType: Utilities.ObjectIsDictionaryEntry()
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
   - name: (
     nameWithType: (
     fullName: (
@@ -1283,6 +1340,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  isExternal: true
+  name: ObjectIsDictionaryEntry(Object)
+  nameWithType: Utilities.ObjectIsDictionaryEntry(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: GRYLibrary.Core.Utilities.ObjectIsTuple(System.Object)
   commentId: M:GRYLibrary.Core.Utilities.ObjectIsTuple(System.Object)
   isExternal: true
@@ -1867,6 +1962,11 @@ references:
   name: GRYLibrary.Core
   nameWithType: GRYLibrary.Core
   fullName: GRYLibrary.Core
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.#ctor*
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.#ctor
+  name: FlatPrimitive
+  nameWithType: FlatPrimitive.FlatPrimitive
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.FlatPrimitive
 - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.Value*
   commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.Value
   name: Value

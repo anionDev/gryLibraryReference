@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper
+  commentId: N:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper
+  id: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper
+  children:
+  - GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper.PropertyIteratorConfiguration
+  langs:
+  - csharp
+  - vb
+  name: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper
+  nameWithType: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper
+  type: Namespace
+  assemblies:
+  - GRYLibrary
+references:
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper.PropertyIteratorConfiguration
+  commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper.PropertyIteratorConfiguration
+  parent: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper
+  name: PropertyIteratorConfiguration
+  nameWithType: PropertyIteratorConfiguration
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper.PropertyIteratorConfiguration
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper
+  commentId: N:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper
+  name: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper
+  nameWithType: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper

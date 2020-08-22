@@ -30,6 +30,7 @@ items:
   - GRYLibrary.Core.ReadOnlyProperty
   - GRYLibrary.Core.ReadOnlyProperty`1
   - GRYLibrary.Core.RedundantIdler
+  - GRYLibrary.Core.ReferenceTuple
   - GRYLibrary.Core.Semaphore
   - GRYLibrary.Core.SimpleObjectPersistence`1
   - GRYLibrary.Core.SupervisedThread
@@ -374,6 +375,12 @@ references:
   name: RedundantIdler
   nameWithType: RedundantIdler
   fullName: GRYLibrary.Core.RedundantIdler
+- uid: GRYLibrary.Core.ReferenceTuple
+  commentId: T:GRYLibrary.Core.ReferenceTuple
+  parent: GRYLibrary.Core
+  name: ReferenceTuple
+  nameWithType: ReferenceTuple
+  fullName: GRYLibrary.Core.ReferenceTuple
 - uid: GRYLibrary.Core.Semaphore
   commentId: T:GRYLibrary.Core.Semaphore
   parent: GRYLibrary.Core

@@ -5,12 +5,15 @@ items:
   id: Generic
   parent: GRYLibrary.Core.AdvancedObjectAnalysis
   children:
+  - GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericDeserialize``1(System.String)
   - GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericEquals(System.Object,System.Object)
   - GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericGetHashCode(System.Object)
   - GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericGetSchema(System.Object)
   - GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericReadXml(System.Object,System.Xml.XmlReader)
-  - GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericToString(System.Object)
+  - GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericSerialize(System.Object)
+  - GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericToString(System.Object,System.Int32)
   - GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericWriteXml(System.Object,System.Xml.XmlWriter)
+  - GRYLibrary.Core.AdvancedObjectAnalysis.Generic.IterateOverObjectTransitively(System.Object)
   langs:
   - csharp
   - vb
@@ -20,8 +23,8 @@ items:
   type: Class
   source:
     id: Generic
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\Generic.cs
-    startLine: 11
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\Generic.cs
+    startLine: 12
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedObjectAnalysis
@@ -44,6 +47,7 @@ items:
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsList
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionary
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsTuple
   - System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable
   - System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable``1
@@ -77,8 +81,8 @@ items:
   type: Method
   source:
     id: GenericGetHashCode
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\Generic.cs
-    startLine: 15
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\Generic.cs
+    startLine: 16
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedObjectAnalysis
@@ -110,8 +114,8 @@ items:
   type: Method
   source:
     id: GenericEquals
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\Generic.cs
-    startLine: 53
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\Generic.cs
+    startLine: 54
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedObjectAnalysis
@@ -132,32 +136,34 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericToString(System.Object)
-  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericToString(System.Object)
-  id: GenericToString(System.Object)
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericToString(System.Object,System.Int32)
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericToString(System.Object,System.Int32)
+  id: GenericToString(System.Object,System.Int32)
   parent: GRYLibrary.Core.AdvancedObjectAnalysis.Generic
   langs:
   - csharp
   - vb
-  name: GenericToString(Object)
-  nameWithType: Generic.GenericToString(Object)
-  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericToString(System.Object)
+  name: GenericToString(Object, Int32)
+  nameWithType: Generic.GenericToString(Object, Int32)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericToString(System.Object, System.Int32)
   type: Method
   source:
     id: GenericToString
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\Generic.cs
-    startLine: 58
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\Generic.cs
+    startLine: 59
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedObjectAnalysis
   syntax:
-    content: public static string GenericToString(object object)
+    content: public static string GenericToString(object object, int maxOutputLength = 2147483647)
     parameters:
     - id: object
       type: System.Object
+    - id: maxOutputLength
+      type: System.Int32
     return:
       type: System.String
-    content.vb: Public Shared Function GenericToString(object As Object) As String
+    content.vb: Public Shared Function GenericToString(object As Object, maxOutputLength As Integer = 2147483647) As String
   overload: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericToString*
   modifiers.csharp:
   - public
@@ -178,8 +184,8 @@ items:
   type: Method
   source:
     id: GenericGetSchema
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\Generic.cs
-    startLine: 64
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\Generic.cs
+    startLine: 65
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedObjectAnalysis
@@ -211,8 +217,8 @@ items:
   type: Method
   source:
     id: GenericWriteXml
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\Generic.cs
-    startLine: 70
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\Generic.cs
+    startLine: 71
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedObjectAnalysis
@@ -244,8 +250,8 @@ items:
   type: Method
   source:
     id: GenericReadXml
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\Generic.cs
-    startLine: 75
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\Generic.cs
+    startLine: 76
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedObjectAnalysis
@@ -264,6 +270,110 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.IterateOverObjectTransitively(System.Object)
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.Generic.IterateOverObjectTransitively(System.Object)
+  id: IterateOverObjectTransitively(System.Object)
+  parent: GRYLibrary.Core.AdvancedObjectAnalysis.Generic
+  langs:
+  - csharp
+  - vb
+  name: IterateOverObjectTransitively(Object)
+  nameWithType: Generic.IterateOverObjectTransitively(Object)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.IterateOverObjectTransitively(System.Object)
+  type: Method
+  source:
+    id: IterateOverObjectTransitively
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\Generic.cs
+    startLine: 81
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.AdvancedObjectAnalysis
+  syntax:
+    content: public static IEnumerable<(object, Type)> IterateOverObjectTransitively(object object)
+    parameters:
+    - id: object
+      type: System.Object
+    return:
+      type: System.Collections.Generic.IEnumerable{System.ValueTuple{System.Object,System.Type}}
+    content.vb: Public Shared Function IterateOverObjectTransitively(object As Object) As IEnumerable(Of(Object, Type))
+  overload: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.IterateOverObjectTransitively*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericSerialize(System.Object)
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericSerialize(System.Object)
+  id: GenericSerialize(System.Object)
+  parent: GRYLibrary.Core.AdvancedObjectAnalysis.Generic
+  langs:
+  - csharp
+  - vb
+  name: GenericSerialize(Object)
+  nameWithType: Generic.GenericSerialize(Object)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericSerialize(System.Object)
+  type: Method
+  source:
+    id: GenericSerialize
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\Generic.cs
+    startLine: 86
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.AdvancedObjectAnalysis
+  syntax:
+    content: public static string GenericSerialize(object object)
+    parameters:
+    - id: object
+      type: System.Object
+    return:
+      type: System.String
+    content.vb: Public Shared Function GenericSerialize(object As Object) As String
+  overload: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericSerialize*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericDeserialize``1(System.String)
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericDeserialize``1(System.String)
+  id: GenericDeserialize``1(System.String)
+  parent: GRYLibrary.Core.AdvancedObjectAnalysis.Generic
+  langs:
+  - csharp
+  - vb
+  name: GenericDeserialize<T>(String)
+  nameWithType: Generic.GenericDeserialize<T>(String)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericDeserialize<T>(System.String)
+  type: Method
+  source:
+    id: GenericDeserialize
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\Generic.cs
+    startLine: 95
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.AdvancedObjectAnalysis
+  syntax:
+    content: public static T GenericDeserialize<T>(string serializedObject)
+    parameters:
+    - id: serializedObject
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function GenericDeserialize(Of T)(serializedObject As String) As T
+  overload: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericDeserialize*
+  nameWithType.vb: Generic.GenericDeserialize(Of T)(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericDeserialize(Of T)(System.String)
+  name.vb: GenericDeserialize(Of T)(String)
 references:
 - uid: GRYLibrary.Core.AdvancedObjectAnalysis
   commentId: N:GRYLibrary.Core.AdvancedObjectAnalysis
@@ -695,6 +805,35 @@ references:
     name: ObjectIsKeyValuePair
     nameWithType: Utilities.ObjectIsKeyValuePair
     fullName: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  name: ObjectIsDictionaryEntry()
+  nameWithType: Utilities.ObjectIsDictionaryEntry()
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
   - name: (
     nameWithType: (
     fullName: (
@@ -1342,6 +1481,44 @@ references:
     name: ObjectIsKeyValuePair
     nameWithType: Utilities.ObjectIsKeyValuePair
     fullName: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  isExternal: true
+  name: ObjectIsDictionaryEntry(Object)
+  nameWithType: Utilities.ObjectIsDictionaryEntry(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
   - name: (
     nameWithType: (
     fullName: (
@@ -2021,3 +2198,155 @@ references:
   name: XmlReader
   nameWithType: XmlReader
   fullName: System.Xml.XmlReader
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.IterateOverObjectTransitively*
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.Generic.IterateOverObjectTransitively
+  name: IterateOverObjectTransitively
+  nameWithType: Generic.IterateOverObjectTransitively
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.IterateOverObjectTransitively
+- uid: System.Collections.Generic.IEnumerable{System.ValueTuple{System.Object,System.Type}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.ValueTuple{System.Object,System.Type}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<ValueTuple<Object, Type>>
+  nameWithType: IEnumerable<ValueTuple<Object, Type>>
+  fullName: System.Collections.Generic.IEnumerable<System.ValueTuple<System.Object, System.Type>>
+  nameWithType.vb: IEnumerable(Of ValueTuple(Of Object, Type))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.ValueTuple(Of System.Object, System.Type))
+  name.vb: IEnumerable(Of ValueTuple(Of Object, Type))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericSerialize*
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericSerialize
+  name: GenericSerialize
+  nameWithType: Generic.GenericSerialize
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericSerialize
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericDeserialize*
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericDeserialize
+  name: GenericDeserialize
+  nameWithType: Generic.GenericDeserialize
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericDeserialize
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

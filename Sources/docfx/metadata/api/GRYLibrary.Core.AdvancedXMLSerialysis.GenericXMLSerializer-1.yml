@@ -5,13 +5,8 @@ items:
   id: GenericXMLSerializer`1
   parent: GRYLibrary.Core.AdvancedXMLSerialysis
   children:
-  - GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.#ctor
-  - GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Deserialize(System.String)
-  - GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Deserialize(System.Xml.XmlReader)
-  - GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Deserialize``1(System.String)
-  - GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.SerializationConfiguration
-  - GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Serialize(`0)
-  - GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Serialize(`0,System.Xml.XmlWriter)
+  - GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.DeserializeTyped(System.String)
+  - GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.DeserializeTyped(System.Xml.XmlReader)
   langs:
   - csharp
   - vb
@@ -21,19 +16,29 @@ items:
   type: Class
   source:
     id: GenericXMLSerializer
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\GenericXMLSerializer.cs
-    startLine: 11
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\GenericXMLSerializer.cs
+    startLine: 153
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedXMLSerialysis
   syntax:
-    content: public class GenericXMLSerializer<T>
+    content: 'public class GenericXMLSerializer<T> : GenericXMLSerializer'
     typeParameters:
     - id: T
-    content.vb: Public Class GenericXMLSerializer(Of T)
+    content.vb: >-
+      Public Class GenericXMLSerializer(Of T)
+          Inherits GenericXMLSerializer
   inheritance:
   - System.Object
+  - GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer
   inheritedMembers:
+  - GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.SerializationConfiguration
+  - GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.DefaultInstance
+  - GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Serialize(System.Object)
+  - GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Serialize(System.Object,System.Xml.XmlWriter)
+  - GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize``1(System.String)
+  - GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize(System.String)
+  - GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize(System.Xml.XmlReader)
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.GetHashCode
@@ -47,6 +52,7 @@ items:
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsList
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionary
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsTuple
   - System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable
   - System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable``1
@@ -70,235 +76,72 @@ items:
   - Class
   fullName.vb: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer(Of T)
   name.vb: GenericXMLSerializer(Of T)
-- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.SerializationConfiguration
-  commentId: P:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.SerializationConfiguration
-  id: SerializationConfiguration
+- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.DeserializeTyped(System.String)
+  commentId: M:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.DeserializeTyped(System.String)
+  id: DeserializeTyped(System.String)
   parent: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1
   langs:
   - csharp
   - vb
-  name: SerializationConfiguration
-  nameWithType: GenericXMLSerializer<T>.SerializationConfiguration
-  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer<T>.SerializationConfiguration
-  type: Property
-  source:
-    id: SerializationConfiguration
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\GenericXMLSerializer.cs
-    startLine: 13
-  assemblies:
-  - GRYLibrary
-  namespace: GRYLibrary.Core.AdvancedXMLSerialysis
-  syntax:
-    content: public SerializationConfiguration SerializationConfiguration { get; set; }
-    parameters: []
-    return:
-      type: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.SerializationConfiguration
-    content.vb: Public Property SerializationConfiguration As SerializationConfiguration
-  overload: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.SerializationConfiguration*
-  nameWithType.vb: GenericXMLSerializer(Of T).SerializationConfiguration
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  fullName.vb: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer(Of T).SerializationConfiguration
-- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.#ctor
-  commentId: M:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.#ctor
-  id: '#ctor'
-  parent: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1
-  langs:
-  - csharp
-  - vb
-  name: GenericXMLSerializer()
-  nameWithType: GenericXMLSerializer<T>.GenericXMLSerializer()
-  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer<T>.GenericXMLSerializer()
-  type: Constructor
-  source:
-    id: .ctor
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\GenericXMLSerializer.cs
-    startLine: 14
-  assemblies:
-  - GRYLibrary
-  namespace: GRYLibrary.Core.AdvancedXMLSerialysis
-  syntax:
-    content: public GenericXMLSerializer()
-    content.vb: Public Sub New
-  overload: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.#ctor*
-  nameWithType.vb: GenericXMLSerializer(Of T).GenericXMLSerializer()
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer(Of T).GenericXMLSerializer()
-- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Serialize(`0)
-  commentId: M:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Serialize(`0)
-  id: Serialize(`0)
-  parent: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1
-  langs:
-  - csharp
-  - vb
-  name: Serialize(T)
-  nameWithType: GenericXMLSerializer<T>.Serialize(T)
-  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer<T>.Serialize(T)
+  name: DeserializeTyped(String)
+  nameWithType: GenericXMLSerializer<T>.DeserializeTyped(String)
+  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer<T>.DeserializeTyped(System.String)
   type: Method
   source:
-    id: Serialize
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\GenericXMLSerializer.cs
-    startLine: 35
+    id: DeserializeTyped
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\GenericXMLSerializer.cs
+    startLine: 156
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedXMLSerialysis
   syntax:
-    content: public string Serialize(T object)
-    parameters:
-    - id: object
-      type: '{T}'
-    return:
-      type: System.String
-    content.vb: Public Function Serialize(object As T) As String
-  overload: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Serialize*
-  nameWithType.vb: GenericXMLSerializer(Of T).Serialize(T)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer(Of T).Serialize(T)
-- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Serialize(`0,System.Xml.XmlWriter)
-  commentId: M:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Serialize(`0,System.Xml.XmlWriter)
-  id: Serialize(`0,System.Xml.XmlWriter)
-  parent: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1
-  langs:
-  - csharp
-  - vb
-  name: Serialize(T, XmlWriter)
-  nameWithType: GenericXMLSerializer<T>.Serialize(T, XmlWriter)
-  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer<T>.Serialize(T, System.Xml.XmlWriter)
-  type: Method
-  source:
-    id: Serialize
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\GenericXMLSerializer.cs
-    startLine: 44
-  assemblies:
-  - GRYLibrary
-  namespace: GRYLibrary.Core.AdvancedXMLSerialysis
-  syntax:
-    content: public void Serialize(T object, XmlWriter writer)
-    parameters:
-    - id: object
-      type: '{T}'
-    - id: writer
-      type: System.Xml.XmlWriter
-    content.vb: Public Sub Serialize(object As T, writer As XmlWriter)
-  overload: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Serialize*
-  nameWithType.vb: GenericXMLSerializer(Of T).Serialize(T, XmlWriter)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer(Of T).Serialize(T, System.Xml.XmlWriter)
-- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Deserialize``1(System.String)
-  commentId: M:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Deserialize``1(System.String)
-  id: Deserialize``1(System.String)
-  parent: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1
-  langs:
-  - csharp
-  - vb
-  name: Deserialize<U>(String)
-  nameWithType: GenericXMLSerializer<T>.Deserialize<U>(String)
-  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer<T>.Deserialize<U>(System.String)
-  type: Method
-  source:
-    id: Deserialize
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\GenericXMLSerializer.cs
-    startLine: 49
-  assemblies:
-  - GRYLibrary
-  namespace: GRYLibrary.Core.AdvancedXMLSerialysis
-  syntax:
-    content: public U Deserialize<U>(string serializedObject)
-    parameters:
-    - id: serializedObject
-      type: System.String
-    typeParameters:
-    - id: U
-    return:
-      type: '{U}'
-    content.vb: Public Function Deserialize(Of U)(serializedObject As String) As U
-  overload: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Deserialize*
-  nameWithType.vb: GenericXMLSerializer(Of T).Deserialize(Of U)(String)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer(Of T).Deserialize(Of U)(System.String)
-  name.vb: Deserialize(Of U)(String)
-- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Deserialize(System.String)
-  commentId: M:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Deserialize(System.String)
-  id: Deserialize(System.String)
-  parent: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1
-  langs:
-  - csharp
-  - vb
-  name: Deserialize(String)
-  nameWithType: GenericXMLSerializer<T>.Deserialize(String)
-  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer<T>.Deserialize(System.String)
-  type: Method
-  source:
-    id: Deserialize
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\GenericXMLSerializer.cs
-    startLine: 53
-  assemblies:
-  - GRYLibrary
-  namespace: GRYLibrary.Core.AdvancedXMLSerialysis
-  syntax:
-    content: public T Deserialize(string serializedObject)
+    content: public T DeserializeTyped(string serializedObject)
     parameters:
     - id: serializedObject
       type: System.String
     return:
       type: '{T}'
-    content.vb: Public Function Deserialize(serializedObject As String) As T
-  overload: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Deserialize*
-  nameWithType.vb: GenericXMLSerializer(Of T).Deserialize(String)
+    content.vb: Public Function DeserializeTyped(serializedObject As String) As T
+  overload: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.DeserializeTyped*
+  nameWithType.vb: GenericXMLSerializer(Of T).DeserializeTyped(String)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer(Of T).Deserialize(System.String)
-- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Deserialize(System.Xml.XmlReader)
-  commentId: M:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Deserialize(System.Xml.XmlReader)
-  id: Deserialize(System.Xml.XmlReader)
+  fullName.vb: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer(Of T).DeserializeTyped(System.String)
+- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.DeserializeTyped(System.Xml.XmlReader)
+  commentId: M:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.DeserializeTyped(System.Xml.XmlReader)
+  id: DeserializeTyped(System.Xml.XmlReader)
   parent: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1
   langs:
   - csharp
   - vb
-  name: Deserialize(XmlReader)
-  nameWithType: GenericXMLSerializer<T>.Deserialize(XmlReader)
-  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer<T>.Deserialize(System.Xml.XmlReader)
+  name: DeserializeTyped(XmlReader)
+  nameWithType: GenericXMLSerializer<T>.DeserializeTyped(XmlReader)
+  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer<T>.DeserializeTyped(System.Xml.XmlReader)
   type: Method
   source:
-    id: Deserialize
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\GenericXMLSerializer.cs
-    startLine: 59
+    id: DeserializeTyped
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\GenericXMLSerializer.cs
+    startLine: 160
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedXMLSerialysis
   syntax:
-    content: public T Deserialize(XmlReader reader)
+    content: public T DeserializeTyped(XmlReader reader)
     parameters:
     - id: reader
       type: System.Xml.XmlReader
     return:
       type: '{T}'
-    content.vb: Public Function Deserialize(reader As XmlReader) As T
-  overload: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Deserialize*
-  nameWithType.vb: GenericXMLSerializer(Of T).Deserialize(XmlReader)
+    content.vb: Public Function DeserializeTyped(reader As XmlReader) As T
+  overload: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.DeserializeTyped*
+  nameWithType.vb: GenericXMLSerializer(Of T).DeserializeTyped(XmlReader)
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer(Of T).Deserialize(System.Xml.XmlReader)
+  fullName.vb: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer(Of T).DeserializeTyped(System.Xml.XmlReader)
 references:
 - uid: GRYLibrary.Core.AdvancedXMLSerialysis
   commentId: N:GRYLibrary.Core.AdvancedXMLSerialysis
@@ -312,6 +155,260 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer
+  commentId: T:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer
+  parent: GRYLibrary.Core.AdvancedXMLSerialysis
+  name: GenericXMLSerializer
+  nameWithType: GenericXMLSerializer
+  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer
+- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.SerializationConfiguration
+  commentId: P:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.SerializationConfiguration
+  parent: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer
+  name: SerializationConfiguration
+  nameWithType: GenericXMLSerializer.SerializationConfiguration
+  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.SerializationConfiguration
+- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.DefaultInstance
+  commentId: M:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.DefaultInstance
+  parent: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer
+  name: DefaultInstance()
+  nameWithType: GenericXMLSerializer.DefaultInstance()
+  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.DefaultInstance()
+  spec.csharp:
+  - uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.DefaultInstance
+    name: DefaultInstance
+    nameWithType: GenericXMLSerializer.DefaultInstance
+    fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.DefaultInstance
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.DefaultInstance
+    name: DefaultInstance
+    nameWithType: GenericXMLSerializer.DefaultInstance
+    fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.DefaultInstance
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Serialize(System.Object)
+  commentId: M:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Serialize(System.Object)
+  parent: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer
+  isExternal: true
+  name: Serialize(Object)
+  nameWithType: GenericXMLSerializer.Serialize(Object)
+  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Serialize(System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Serialize(System.Object)
+    name: Serialize
+    nameWithType: GenericXMLSerializer.Serialize
+    fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Serialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Serialize(System.Object)
+    name: Serialize
+    nameWithType: GenericXMLSerializer.Serialize
+    fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Serialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Serialize(System.Object,System.Xml.XmlWriter)
+  commentId: M:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Serialize(System.Object,System.Xml.XmlWriter)
+  parent: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer
+  isExternal: true
+  name: Serialize(Object, XmlWriter)
+  nameWithType: GenericXMLSerializer.Serialize(Object, XmlWriter)
+  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Serialize(System.Object, System.Xml.XmlWriter)
+  spec.csharp:
+  - uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Serialize(System.Object,System.Xml.XmlWriter)
+    name: Serialize
+    nameWithType: GenericXMLSerializer.Serialize
+    fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Serialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Xml.XmlWriter
+    name: XmlWriter
+    nameWithType: XmlWriter
+    fullName: System.Xml.XmlWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Serialize(System.Object,System.Xml.XmlWriter)
+    name: Serialize
+    nameWithType: GenericXMLSerializer.Serialize
+    fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Serialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Xml.XmlWriter
+    name: XmlWriter
+    nameWithType: XmlWriter
+    fullName: System.Xml.XmlWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize``1(System.String)
+  commentId: M:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize``1(System.String)
+  parent: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer
+  isExternal: true
+  name: Deserialize<U>(String)
+  nameWithType: GenericXMLSerializer.Deserialize<U>(String)
+  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize<U>(System.String)
+  nameWithType.vb: GenericXMLSerializer.Deserialize(Of U)(String)
+  fullName.vb: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize(Of U)(System.String)
+  name.vb: Deserialize(Of U)(String)
+  spec.csharp:
+  - uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize``1(System.String)
+    name: Deserialize<U>
+    nameWithType: GenericXMLSerializer.Deserialize<U>
+    fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize<U>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize``1(System.String)
+    name: Deserialize(Of U)
+    nameWithType: GenericXMLSerializer.Deserialize(Of U)
+    fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize(Of U)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize(System.String)
+  commentId: M:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize(System.String)
+  parent: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer
+  isExternal: true
+  name: Deserialize(String)
+  nameWithType: GenericXMLSerializer.Deserialize(String)
+  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize(System.String)
+  spec.csharp:
+  - uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize(System.String)
+    name: Deserialize
+    nameWithType: GenericXMLSerializer.Deserialize
+    fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize(System.String)
+    name: Deserialize
+    nameWithType: GenericXMLSerializer.Deserialize
+    fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize(System.Xml.XmlReader)
+  commentId: M:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize(System.Xml.XmlReader)
+  parent: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer
+  isExternal: true
+  name: Deserialize(XmlReader)
+  nameWithType: GenericXMLSerializer.Deserialize(XmlReader)
+  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize(System.Xml.XmlReader)
+  spec.csharp:
+  - uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize(System.Xml.XmlReader)
+    name: Deserialize
+    nameWithType: GenericXMLSerializer.Deserialize
+    fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlReader
+    name: XmlReader
+    nameWithType: XmlReader
+    fullName: System.Xml.XmlReader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize(System.Xml.XmlReader)
+    name: Deserialize
+    nameWithType: GenericXMLSerializer.Deserialize
+    fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlReader
+    name: XmlReader
+    nameWithType: XmlReader
+    fullName: System.Xml.XmlReader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
@@ -730,6 +827,35 @@ references:
     name: ObjectIsKeyValuePair
     nameWithType: Utilities.ObjectIsKeyValuePair
     fullName: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  name: ObjectIsDictionaryEntry()
+  nameWithType: Utilities.ObjectIsDictionaryEntry()
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
   - name: (
     nameWithType: (
     fullName: (
@@ -1388,6 +1514,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  isExternal: true
+  name: ObjectIsDictionaryEntry(Object)
+  nameWithType: Utilities.ObjectIsDictionaryEntry(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: GRYLibrary.Core.Utilities.ObjectIsTuple(System.Object)
   commentId: M:GRYLibrary.Core.Utilities.ObjectIsTuple(System.Object)
   isExternal: true
@@ -1972,44 +2136,13 @@ references:
   name: GRYLibrary.Core
   nameWithType: GRYLibrary.Core
   fullName: GRYLibrary.Core
-- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.SerializationConfiguration*
-  commentId: Overload:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.SerializationConfiguration
-  name: SerializationConfiguration
-  nameWithType: GenericXMLSerializer<T>.SerializationConfiguration
-  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer<T>.SerializationConfiguration
-  nameWithType.vb: GenericXMLSerializer(Of T).SerializationConfiguration
-  fullName.vb: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer(Of T).SerializationConfiguration
-- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.SerializationConfiguration
-  commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.SerializationConfiguration
-  parent: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
-  name: SerializationConfiguration
-  nameWithType: SerializationConfiguration
-  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.SerializationConfiguration
-- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
-  commentId: N:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
-  name: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
-  nameWithType: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
-  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
-- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.#ctor*
-  commentId: Overload:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.#ctor
-  name: GenericXMLSerializer
-  nameWithType: GenericXMLSerializer<T>.GenericXMLSerializer
-  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer<T>.GenericXMLSerializer
-  nameWithType.vb: GenericXMLSerializer(Of T).GenericXMLSerializer
-  fullName.vb: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer(Of T).GenericXMLSerializer
-- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Serialize*
-  commentId: Overload:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Serialize
-  name: Serialize
-  nameWithType: GenericXMLSerializer<T>.Serialize
-  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer<T>.Serialize
-  nameWithType.vb: GenericXMLSerializer(Of T).Serialize
-  fullName.vb: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer(Of T).Serialize
-- uid: '{T}'
-  commentId: '!:T'
-  definition: T
-  name: T
-  nameWithType: T
-  fullName: T
+- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.DeserializeTyped*
+  commentId: Overload:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.DeserializeTyped
+  name: DeserializeTyped
+  nameWithType: GenericXMLSerializer<T>.DeserializeTyped
+  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer<T>.DeserializeTyped
+  nameWithType.vb: GenericXMLSerializer(Of T).DeserializeTyped
+  fullName.vb: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer(Of T).DeserializeTyped
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -2017,41 +2150,16 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
 - uid: T
   name: T
   nameWithType: T
   fullName: T
-- uid: System.Xml.XmlWriter
-  commentId: T:System.Xml.XmlWriter
-  parent: System.Xml
-  isExternal: true
-  name: XmlWriter
-  nameWithType: XmlWriter
-  fullName: System.Xml.XmlWriter
-- uid: System.Xml
-  commentId: N:System.Xml
-  isExternal: true
-  name: System.Xml
-  nameWithType: System.Xml
-  fullName: System.Xml
-- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Deserialize*
-  commentId: Overload:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Deserialize
-  name: Deserialize
-  nameWithType: GenericXMLSerializer<T>.Deserialize
-  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer<T>.Deserialize
-  nameWithType.vb: GenericXMLSerializer(Of T).Deserialize
-  fullName.vb: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer(Of T).Deserialize
-- uid: '{U}'
-  commentId: '!:U'
-  definition: U
-  name: U
-  nameWithType: U
-  fullName: U
-- uid: U
-  commentId: '!:U'
-  name: U
-  nameWithType: U
-  fullName: U
 - uid: System.Xml.XmlReader
   commentId: T:System.Xml.XmlReader
   parent: System.Xml
@@ -2059,3 +2167,9 @@ references:
   name: XmlReader
   nameWithType: XmlReader
   fullName: System.Xml.XmlReader
+- uid: System.Xml
+  commentId: N:System.Xml
+  isExternal: true
+  name: System.Xml
+  nameWithType: System.Xml
+  fullName: System.Xml

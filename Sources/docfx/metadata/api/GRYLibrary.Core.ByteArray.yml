@@ -31,7 +31,7 @@ items:
   type: Class
   source:
     id: ByteArray
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
     startLine: 10
   assemblies:
   - GRYLibrary
@@ -55,6 +55,7 @@ items:
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsList
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionary
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsTuple
   - System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable
   - System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable``1
@@ -87,7 +88,7 @@ items:
   type: Property
   source:
     id: DefaultEncoding
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
     startLine: 12
   assemblies:
   - GRYLibrary
@@ -120,7 +121,7 @@ items:
   type: Property
   source:
     id: Data
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
     startLine: 13
   assemblies:
   - GRYLibrary
@@ -151,7 +152,7 @@ items:
   type: Property
   source:
     id: DataAsHexString
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
     startLine: 14
   assemblies:
   - GRYLibrary
@@ -182,7 +183,7 @@ items:
   type: Constructor
   source:
     id: .ctor
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
     startLine: 15
   assemblies:
   - GRYLibrary
@@ -214,7 +215,7 @@ items:
   type: Method
   source:
     id: CreateByHexString
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
     startLine: 20
   assemblies:
   - GRYLibrary
@@ -245,7 +246,7 @@ items:
   type: Method
   source:
     id: CreateByInteger
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
     startLine: 24
   assemblies:
   - GRYLibrary
@@ -276,7 +277,7 @@ items:
   type: Method
   source:
     id: CreateByString
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
     startLine: 28
   assemblies:
   - GRYLibrary
@@ -307,7 +308,7 @@ items:
   type: Method
   source:
     id: CreateByString
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
     startLine: 32
   assemblies:
   - GRYLibrary
@@ -340,7 +341,7 @@ items:
   type: Method
   source:
     id: DecodeToString
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
     startLine: 36
   assemblies:
   - GRYLibrary
@@ -368,7 +369,7 @@ items:
   type: Method
   source:
     id: DecodeToString
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
     startLine: 40
   assemblies:
   - GRYLibrary
@@ -399,7 +400,7 @@ items:
   type: Operator
   source:
     id: op_Addition
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
     startLine: 44
   assemblies:
   - GRYLibrary
@@ -434,7 +435,7 @@ items:
   type: Operator
   source:
     id: op_Equality
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
     startLine: 48
   assemblies:
   - GRYLibrary
@@ -469,7 +470,7 @@ items:
   type: Operator
   source:
     id: op_Inequality
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
     startLine: 52
   assemblies:
   - GRYLibrary
@@ -504,7 +505,7 @@ items:
   type: Method
   source:
     id: Equals
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
     startLine: 56
   assemblies:
   - GRYLibrary
@@ -538,7 +539,7 @@ items:
   type: Method
   source:
     id: GetHashCode
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
     startLine: 61
   assemblies:
   - GRYLibrary
@@ -569,7 +570,7 @@ items:
   type: Method
   source:
     id: StartsWith
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
     startLine: 66
   assemblies:
   - GRYLibrary
@@ -600,7 +601,7 @@ items:
   type: Method
   source:
     id: Contains
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\ByteArray.cs
     startLine: 81
   assemblies:
   - GRYLibrary
@@ -977,6 +978,35 @@ references:
     name: ObjectIsKeyValuePair
     nameWithType: Utilities.ObjectIsKeyValuePair
     fullName: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  name: ObjectIsDictionaryEntry()
+  nameWithType: Utilities.ObjectIsDictionaryEntry()
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
   - name: (
     nameWithType: (
     fullName: (
@@ -1582,6 +1612,44 @@ references:
     name: ObjectIsKeyValuePair
     nameWithType: Utilities.ObjectIsKeyValuePair
     fullName: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  isExternal: true
+  name: ObjectIsDictionaryEntry(Object)
+  nameWithType: Utilities.ObjectIsDictionaryEntry(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
   - name: (
     nameWithType: (
     fullName: (

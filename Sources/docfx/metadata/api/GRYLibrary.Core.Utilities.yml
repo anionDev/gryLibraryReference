@@ -6,6 +6,7 @@ items:
   parent: GRYLibrary.Core
   children:
   - GRYLibrary.Core.Utilities.AddGitRemote(System.String,System.String,System.String)
+  - GRYLibrary.Core.Utilities.AddItemToEnumerable(System.Object,System.Object[])
   - GRYLibrary.Core.Utilities.AddMountPointForVolume(System.Guid,System.String)
   - GRYLibrary.Core.Utilities.AppendFileDoesNeedNewLineCharacter(System.String)
   - GRYLibrary.Core.Utilities.AppendFileDoesNotNeedNewLineCharacter(System.String)
@@ -59,6 +60,7 @@ items:
   - GRYLibrary.Core.Utilities.FileEndsWithEmptyLine(System.String)
   - GRYLibrary.Core.Utilities.FileIsEmpty(System.String)
   - GRYLibrary.Core.Utilities.FileIsExecutable(System.String)
+  - GRYLibrary.Core.Utilities.ForEach(System.Collections.IEnumerable,System.Action{System.Object})
   - GRYLibrary.Core.Utilities.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
   - GRYLibrary.Core.Utilities.ForEachFileAndDirectoryTransitively(System.String,System.Action{System.String,System.Object},System.Action{System.String,System.Object},System.Boolean,System.Object,System.Object)
   - GRYLibrary.Core.Utilities.FormatXMLFile(System.String)
@@ -74,6 +76,7 @@ items:
   - GRYLibrary.Core.Utilities.GetAllGitRemotes(System.String)
   - GRYLibrary.Core.Utilities.GetAllMountPointsOfAllAvailableVolumes
   - GRYLibrary.Core.Utilities.GetAmountOfCommitsInGitRepository(System.String,System.String)
+  - GRYLibrary.Core.Utilities.GetAssertionFailMessage(System.Object,System.Object,System.Int32)
   - GRYLibrary.Core.Utilities.GetAvailableVolumeIds
   - GRYLibrary.Core.Utilities.GetCommandLineArguments
   - GRYLibrary.Core.Utilities.GetCurrentGitRepositoryBranch(System.String)
@@ -86,6 +89,7 @@ items:
   - GRYLibrary.Core.Utilities.GetLastGitCommitId(System.String,System.String)
   - GRYLibrary.Core.Utilities.GetLocalGitBranchNames(System.String)
   - GRYLibrary.Core.Utilities.GetMountPoints(System.Guid)
+  - GRYLibrary.Core.Utilities.GetNameOfCurrentExecutable
   - GRYLibrary.Core.Utilities.GetParentGitRepositoryPath(System.String)
   - GRYLibrary.Core.Utilities.GetPropertiesWhichHaveGetterAndSetter(System.Type)
   - GRYLibrary.Core.Utilities.GetSubmodulePaths(System.String,System.Boolean)
@@ -107,8 +111,10 @@ items:
   - GRYLibrary.Core.Utilities.GitRepositoryHasUnstagedChanges(System.String)
   - GRYLibrary.Core.Utilities.GitRepositoryHasUnstagedChangesOfTrackedFiles(System.String)
   - GRYLibrary.Core.Utilities.GitTidyUp(System.String)
+  - GRYLibrary.Core.Utilities.HasValueType(System.Object)
   - GRYLibrary.Core.Utilities.HexStringToByteArray(System.String)
   - GRYLibrary.Core.Utilities.HexStringToInteger(System.String)
+  - GRYLibrary.Core.Utilities.ImprovedReferenceEquals(System.Object,System.Object)
   - GRYLibrary.Core.Utilities.IncrementGuid(System.Guid,System.Int64)
   - GRYLibrary.Core.Utilities.IncrementGuid(System.Guid,System.Numerics.BigInteger)
   - GRYLibrary.Core.Utilities.IntegerToHexString(System.Numerics.BigInteger)
@@ -116,7 +122,6 @@ items:
   - GRYLibrary.Core.Utilities.IsAllLower(System.String)
   - GRYLibrary.Core.Utilities.IsAllUpper(System.String)
   - GRYLibrary.Core.Utilities.IsAssignableFrom(System.Object,System.Type)
-  - GRYLibrary.Core.Utilities.IsAssignableFrom(System.Type,System.Type)
   - GRYLibrary.Core.Utilities.IsDefault(System.Object)
   - GRYLibrary.Core.Utilities.IsGitCommitAncestor(System.String,System.String,System.String)
   - GRYLibrary.Core.Utilities.IsGitRepository(System.String)
@@ -127,6 +132,7 @@ items:
   - GRYLibrary.Core.Utilities.IsNegative(System.TimeSpan)
   - GRYLibrary.Core.Utilities.IsPositive(System.TimeSpan)
   - GRYLibrary.Core.Utilities.IsRelativePath(System.String)
+  - GRYLibrary.Core.Utilities.IsValidXML(System.String)
   - GRYLibrary.Core.Utilities.JaggedArrayToEnumerableOfEnumerable``1(``0[][])
   - GRYLibrary.Core.Utilities.JaggedArrayToTwoDimensionalArray``1(``0[][])
   - GRYLibrary.Core.Utilities.KeyValuePairEquals``2(System.Collections.Generic.KeyValuePair{``0,``1},System.Collections.Generic.KeyValuePair{``0,``1})
@@ -145,13 +151,16 @@ items:
   - GRYLibrary.Core.Utilities.NullSafeListEquals``1(System.Collections.Generic.IList{``0},System.Collections.Generic.IList{``0})
   - GRYLibrary.Core.Utilities.NullSafeSetEquals``1(System.Collections.Generic.ISet{``0},System.Collections.Generic.ISet{``0})
   - GRYLibrary.Core.Utilities.ObjectIsDictionary(System.Object)
+  - GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
   - GRYLibrary.Core.Utilities.ObjectIsEnumerable(System.Object)
   - GRYLibrary.Core.Utilities.ObjectIsKeyValuePair(System.Object)
   - GRYLibrary.Core.Utilities.ObjectIsList(System.Object)
+  - GRYLibrary.Core.Utilities.ObjectIsPrimitive(System.Object)
   - GRYLibrary.Core.Utilities.ObjectIsSet(System.Object)
   - GRYLibrary.Core.Utilities.ObjectIsTuple(System.Object)
   - GRYLibrary.Core.Utilities.ObjectToDictionary(System.Object)
   - GRYLibrary.Core.Utilities.ObjectToDictionary``2(System.Object)
+  - GRYLibrary.Core.Utilities.ObjectToDictionaryEntry(System.Object)
   - GRYLibrary.Core.Utilities.ObjectToEnumerable(System.Object)
   - GRYLibrary.Core.Utilities.ObjectToEnumerable``1(System.Object)
   - GRYLibrary.Core.Utilities.ObjectToKeyValuePair``2(System.Object)
@@ -200,7 +209,9 @@ items:
   - GRYLibrary.Core.Utilities.TwoDimensionalArrayToString``1(``0[0:,0:])
   - GRYLibrary.Core.Utilities.TypeArrayToString(System.Type[])
   - GRYLibrary.Core.Utilities.TypeComparerIgnoringGenerics
+  - GRYLibrary.Core.Utilities.TypeIsAssignableFrom(System.Type,System.Type)
   - GRYLibrary.Core.Utilities.TypeIsDictionary(System.Type)
+  - GRYLibrary.Core.Utilities.TypeIsDictionaryEntry(System.Type)
   - GRYLibrary.Core.Utilities.TypeIsDictionaryGeneric(System.Type)
   - GRYLibrary.Core.Utilities.TypeIsDictionaryNotGeneric(System.Type)
   - GRYLibrary.Core.Utilities.TypeIsEnumerable(System.Type)
@@ -208,6 +219,7 @@ items:
   - GRYLibrary.Core.Utilities.TypeIsList(System.Type)
   - GRYLibrary.Core.Utilities.TypeIsListGeneric(System.Type)
   - GRYLibrary.Core.Utilities.TypeIsListNotGeneric(System.Type)
+  - GRYLibrary.Core.Utilities.TypeIsPrimitive(System.Type)
   - GRYLibrary.Core.Utilities.TypeIsSet(System.Type)
   - GRYLibrary.Core.Utilities.TypeIsTuple(System.Type)
   - GRYLibrary.Core.Utilities.ValidateXMLAgainstXSD(System.String,System.String,System.Collections.Generic.IList{System.Object}@)
@@ -221,8 +233,8 @@ items:
   type: Class
   source:
     id: Utilities
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 32
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 35
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -260,8 +272,8 @@ items:
   type: Method
   source:
     id: Shuffle
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 34
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 37
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -300,8 +312,8 @@ items:
   type: Method
   source:
     id: EqualsIgnoringOrder
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 47
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 50
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -343,8 +355,8 @@ items:
   type: Method
   source:
     id: GetPropertiesWhichHaveGetterAndSetter
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 52
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 55
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -376,8 +388,8 @@ items:
   type: Method
   source:
     id: GetFilesOfFolderRecursively
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 65
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 68
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -390,6 +402,39 @@ items:
       type: System.Collections.Generic.IEnumerable{System.String}
     content.vb: Public Shared Function GetFilesOfFolderRecursively(folder As String) As IEnumerable(Of String)
   overload: GRYLibrary.Core.Utilities.GetFilesOfFolderRecursively*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GRYLibrary.Core.Utilities.IsValidXML(System.String)
+  commentId: M:GRYLibrary.Core.Utilities.IsValidXML(System.String)
+  id: IsValidXML(System.String)
+  parent: GRYLibrary.Core.Utilities
+  langs:
+  - csharp
+  - vb
+  name: IsValidXML(String)
+  nameWithType: Utilities.IsValidXML(String)
+  fullName: GRYLibrary.Core.Utilities.IsValidXML(System.String)
+  type: Method
+  source:
+    id: IsValidXML
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 82
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core
+  syntax:
+    content: public static bool IsValidXML(string xmlString)
+    parameters:
+    - id: xmlString
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsValidXML(xmlString As String) As Boolean
+  overload: GRYLibrary.Core.Utilities.IsValidXML*
   modifiers.csharp:
   - public
   - static
@@ -410,8 +455,8 @@ items:
   type: Method
   source:
     id: Count
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 79
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 99
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -446,8 +491,8 @@ items:
   type: Method
   source:
     id: NoOperation
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 93
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 113
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -476,8 +521,8 @@ items:
   type: Method
   source:
     id: ReplaceUnderscoresInFolderTransitively
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 97
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 117
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -512,8 +557,8 @@ items:
   type: Method
   source:
     id: ReplaceUnderscores
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 136
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 156
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -550,8 +595,8 @@ items:
   type: Method
   source:
     id: FileIsExecutable
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 146
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 166
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -583,8 +628,8 @@ items:
   type: Method
   source:
     id: ExecuteFile
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 150
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 170
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -616,8 +661,8 @@ items:
   type: Method
   source:
     id: OpenFileWithDefaultProgram
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 163
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 185
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -648,8 +693,8 @@ items:
   type: Method
   source:
     id: ObjectIsEnumerable
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 201
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 225
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -687,8 +732,8 @@ items:
   type: Method
   source:
     id: TypeIsEnumerable
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 205
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 229
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -724,8 +769,8 @@ items:
   type: Method
   source:
     id: ObjectIsSet
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 210
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 234
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -763,8 +808,8 @@ items:
   type: Method
   source:
     id: TypeIsSet
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 214
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 238
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -800,8 +845,8 @@ items:
   type: Method
   source:
     id: ObjectIsList
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 218
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 242
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -837,8 +882,8 @@ items:
   type: Method
   source:
     id: TypeIsList
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 222
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 246
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -874,8 +919,8 @@ items:
   type: Method
   source:
     id: TypeIsListNotGeneric
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 226
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 250
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -911,8 +956,8 @@ items:
   type: Method
   source:
     id: TypeIsListGeneric
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 230
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 254
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -948,8 +993,8 @@ items:
   type: Method
   source:
     id: ObjectIsDictionary
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 235
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 259
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -973,6 +1018,42 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: GRYLibrary.Core.Utilities.AddItemToEnumerable(System.Object,System.Object[])
+  commentId: M:GRYLibrary.Core.Utilities.AddItemToEnumerable(System.Object,System.Object[])
+  id: AddItemToEnumerable(System.Object,System.Object[])
+  parent: GRYLibrary.Core.Utilities
+  langs:
+  - csharp
+  - vb
+  name: AddItemToEnumerable(Object, Object[])
+  nameWithType: Utilities.AddItemToEnumerable(Object, Object[])
+  fullName: GRYLibrary.Core.Utilities.AddItemToEnumerable(System.Object, System.Object[])
+  type: Method
+  source:
+    id: AddItemToEnumerable
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 263
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core
+  syntax:
+    content: public static void AddItemToEnumerable(object enumerable, object[] addMethodArgument)
+    parameters:
+    - id: enumerable
+      type: System.Object
+    - id: addMethodArgument
+      type: System.Object[]
+    content.vb: Public Shared Sub AddItemToEnumerable(enumerable As Object, addMethodArgument As Object())
+  overload: GRYLibrary.Core.Utilities.AddItemToEnumerable*
+  nameWithType.vb: Utilities.AddItemToEnumerable(Object, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GRYLibrary.Core.Utilities.AddItemToEnumerable(System.Object, System.Object())
+  name.vb: AddItemToEnumerable(Object, Object())
 - uid: GRYLibrary.Core.Utilities.TypeIsDictionary(System.Type)
   commentId: M:GRYLibrary.Core.Utilities.TypeIsDictionary(System.Type)
   id: TypeIsDictionary(System.Type)
@@ -987,8 +1068,8 @@ items:
   type: Method
   source:
     id: TypeIsDictionary
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 239
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 267
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -1024,8 +1105,8 @@ items:
   type: Method
   source:
     id: TypeIsDictionaryNotGeneric
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 243
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 271
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -1061,8 +1142,8 @@ items:
   type: Method
   source:
     id: TypeIsDictionaryGeneric
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 247
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 275
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -1098,8 +1179,8 @@ items:
   type: Method
   source:
     id: ObjectIsKeyValuePair
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 251
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 279
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -1135,8 +1216,8 @@ items:
   type: Method
   source:
     id: TypeIsKeyValuePair
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 255
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 283
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -1158,6 +1239,80 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  id: ObjectIsDictionaryEntry(System.Object)
+  isExtensionMethod: true
+  parent: GRYLibrary.Core.Utilities
+  langs:
+  - csharp
+  - vb
+  name: ObjectIsDictionaryEntry(Object)
+  nameWithType: Utilities.ObjectIsDictionaryEntry(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  type: Method
+  source:
+    id: ObjectIsDictionaryEntry
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 287
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core
+  syntax:
+    content: public static bool ObjectIsDictionaryEntry(this object object)
+    parameters:
+    - id: object
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ObjectIsDictionaryEntry(object As Object) As Boolean
+  overload: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GRYLibrary.Core.Utilities.TypeIsDictionaryEntry(System.Type)
+  commentId: M:GRYLibrary.Core.Utilities.TypeIsDictionaryEntry(System.Type)
+  id: TypeIsDictionaryEntry(System.Type)
+  isExtensionMethod: true
+  parent: GRYLibrary.Core.Utilities
+  langs:
+  - csharp
+  - vb
+  name: TypeIsDictionaryEntry(Type)
+  nameWithType: Utilities.TypeIsDictionaryEntry(Type)
+  fullName: GRYLibrary.Core.Utilities.TypeIsDictionaryEntry(System.Type)
+  type: Method
+  source:
+    id: TypeIsDictionaryEntry
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 291
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core
+  syntax:
+    content: public static bool TypeIsDictionaryEntry(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function TypeIsDictionaryEntry(type As Type) As Boolean
+  overload: GRYLibrary.Core.Utilities.TypeIsDictionaryEntry*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: GRYLibrary.Core.Utilities.ObjectIsTuple(System.Object)
   commentId: M:GRYLibrary.Core.Utilities.ObjectIsTuple(System.Object)
   id: ObjectIsTuple(System.Object)
@@ -1172,8 +1327,8 @@ items:
   type: Method
   source:
     id: ObjectIsTuple
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 259
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 295
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -1209,8 +1364,8 @@ items:
   type: Method
   source:
     id: TypeIsTuple
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 263
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 299
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -1246,8 +1401,8 @@ items:
   type: Method
   source:
     id: ObjectToEnumerable
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 270
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 306
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -1283,8 +1438,8 @@ items:
   type: Method
   source:
     id: ObjectToEnumerable
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 278
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 314
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -1325,8 +1480,8 @@ items:
   type: Method
   source:
     id: ObjectToSet
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 299
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 339
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -1367,8 +1522,8 @@ items:
   type: Method
   source:
     id: ObjectToList
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 321
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 365
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -1406,8 +1561,8 @@ items:
   type: Method
   source:
     id: ObjectToList
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 325
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 369
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -1448,8 +1603,8 @@ items:
   type: Method
   source:
     id: ObjectToDictionary
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 346
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 394
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -1485,8 +1640,8 @@ items:
   type: Method
   source:
     id: ObjectToDictionary
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 355
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 403
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -1528,8 +1683,8 @@ items:
   type: Method
   source:
     id: ObjectToKeyValuePair
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 370
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 418
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -1557,6 +1712,39 @@ items:
   - Shared
   fullName.vb: GRYLibrary.Core.Utilities.ObjectToKeyValuePair(Of TKey, TValue)(System.Object)
   name.vb: ObjectToKeyValuePair(Of TKey, TValue)(Object)
+- uid: GRYLibrary.Core.Utilities.ObjectToDictionaryEntry(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToDictionaryEntry(System.Object)
+  id: ObjectToDictionaryEntry(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  langs:
+  - csharp
+  - vb
+  name: ObjectToDictionaryEntry(Object)
+  nameWithType: Utilities.ObjectToDictionaryEntry(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectToDictionaryEntry(System.Object)
+  type: Method
+  source:
+    id: ObjectToDictionaryEntry
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 461
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core
+  syntax:
+    content: public static DictionaryEntry ObjectToDictionaryEntry(object object)
+    parameters:
+    - id: object
+      type: System.Object
+    return:
+      type: System.Collections.DictionaryEntry
+    content.vb: Public Shared Function ObjectToDictionaryEntry(object As Object) As DictionaryEntry
+  overload: GRYLibrary.Core.Utilities.ObjectToDictionaryEntry*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: GRYLibrary.Core.Utilities.ObjectToTuple``2(System.Object)
   commentId: M:GRYLibrary.Core.Utilities.ObjectToTuple``2(System.Object)
   id: ObjectToTuple``2(System.Object)
@@ -1571,8 +1759,8 @@ items:
   type: Method
   source:
     id: ObjectToTuple
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 387
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 471
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -1614,8 +1802,8 @@ items:
   type: Method
   source:
     id: EnumerableEquals
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 407
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 491
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -1653,8 +1841,8 @@ items:
   type: Method
   source:
     id: SetEquals
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 412
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 496
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -1699,8 +1887,8 @@ items:
   type: Method
   source:
     id: ListEquals
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 416
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 500
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -1738,8 +1926,8 @@ items:
   type: Method
   source:
     id: ListEquals
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 421
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 505
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -1784,8 +1972,8 @@ items:
   type: Method
   source:
     id: DictionaryEquals
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 425
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 509
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -1823,8 +2011,8 @@ items:
   type: Method
   source:
     id: DictionaryEquals
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 429
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 513
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -1868,8 +2056,8 @@ items:
   type: Method
   source:
     id: KeyValuePairEquals
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 433
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 517
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -1913,8 +2101,8 @@ items:
   type: Method
   source:
     id: TupleEquals
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 437
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 521
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -1944,6 +2132,72 @@ items:
   - Shared
   fullName.vb: GRYLibrary.Core.Utilities.TupleEquals(Of TKey, TValue)(System.Tuple(Of TKey, TValue), System.Tuple(Of TKey, TValue))
   name.vb: TupleEquals(Of TKey, TValue)(Tuple(Of TKey, TValue), Tuple(Of TKey, TValue))
+- uid: GRYLibrary.Core.Utilities.ObjectIsPrimitive(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsPrimitive(System.Object)
+  id: ObjectIsPrimitive(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  langs:
+  - csharp
+  - vb
+  name: ObjectIsPrimitive(Object)
+  nameWithType: Utilities.ObjectIsPrimitive(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectIsPrimitive(System.Object)
+  type: Method
+  source:
+    id: ObjectIsPrimitive
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 530
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core
+  syntax:
+    content: public static bool ObjectIsPrimitive(object object)
+    parameters:
+    - id: object
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function ObjectIsPrimitive(object As Object) As Boolean
+  overload: GRYLibrary.Core.Utilities.ObjectIsPrimitive*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GRYLibrary.Core.Utilities.TypeIsPrimitive(System.Type)
+  commentId: M:GRYLibrary.Core.Utilities.TypeIsPrimitive(System.Type)
+  id: TypeIsPrimitive(System.Type)
+  parent: GRYLibrary.Core.Utilities
+  langs:
+  - csharp
+  - vb
+  name: TypeIsPrimitive(Type)
+  nameWithType: Utilities.TypeIsPrimitive(Type)
+  fullName: GRYLibrary.Core.Utilities.TypeIsPrimitive(System.Type)
+  type: Method
+  source:
+    id: TypeIsPrimitive
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 534
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core
+  syntax:
+    content: public static bool TypeIsPrimitive(Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function TypeIsPrimitive(type As Type) As Boolean
+  overload: GRYLibrary.Core.Utilities.TypeIsPrimitive*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: GRYLibrary.Core.Utilities.IsAssignableFrom(System.Object,System.Type)
   commentId: M:GRYLibrary.Core.Utilities.IsAssignableFrom(System.Object,System.Type)
   id: IsAssignableFrom(System.Object,System.Type)
@@ -1957,8 +2211,8 @@ items:
   type: Method
   source:
     id: IsAssignableFrom
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 446
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 545
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -1979,26 +2233,26 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: GRYLibrary.Core.Utilities.IsAssignableFrom(System.Type,System.Type)
-  commentId: M:GRYLibrary.Core.Utilities.IsAssignableFrom(System.Type,System.Type)
-  id: IsAssignableFrom(System.Type,System.Type)
+- uid: GRYLibrary.Core.Utilities.TypeIsAssignableFrom(System.Type,System.Type)
+  commentId: M:GRYLibrary.Core.Utilities.TypeIsAssignableFrom(System.Type,System.Type)
+  id: TypeIsAssignableFrom(System.Type,System.Type)
   parent: GRYLibrary.Core.Utilities
   langs:
   - csharp
   - vb
-  name: IsAssignableFrom(Type, Type)
-  nameWithType: Utilities.IsAssignableFrom(Type, Type)
-  fullName: GRYLibrary.Core.Utilities.IsAssignableFrom(System.Type, System.Type)
+  name: TypeIsAssignableFrom(Type, Type)
+  nameWithType: Utilities.TypeIsAssignableFrom(Type, Type)
+  fullName: GRYLibrary.Core.Utilities.TypeIsAssignableFrom(System.Type, System.Type)
   type: Method
   source:
-    id: IsAssignableFrom
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 450
+    id: TypeIsAssignableFrom
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 549
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
   syntax:
-    content: public static bool IsAssignableFrom(Type typeForCheck, Type parentType)
+    content: public static bool TypeIsAssignableFrom(Type typeForCheck, Type parentType)
     parameters:
     - id: typeForCheck
       type: System.Type
@@ -2006,8 +2260,8 @@ items:
       type: System.Type
     return:
       type: System.Boolean
-    content.vb: Public Shared Function IsAssignableFrom(typeForCheck As Type, parentType As Type) As Boolean
-  overload: GRYLibrary.Core.Utilities.IsAssignableFrom*
+    content.vb: Public Shared Function TypeIsAssignableFrom(typeForCheck As Type, parentType As Type) As Boolean
+  overload: GRYLibrary.Core.Utilities.TypeIsAssignableFrom*
   modifiers.csharp:
   - public
   - static
@@ -2027,8 +2281,8 @@ items:
   type: Method
   source:
     id: GetTypeWithParentTypesAndInterfaces
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 455
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 554
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -2060,8 +2314,8 @@ items:
   type: Property
   source:
     id: TypeComparerIgnoringGenerics
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 468
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 564
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -2093,8 +2347,8 @@ items:
   type: Method
   source:
     id: ReplaceUnderscoresInFile
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 493
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 589
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -2129,8 +2383,8 @@ items:
   type: Method
   source:
     id: ReplaceUnderscoresInFile
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 498
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 594
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -2167,8 +2421,8 @@ items:
   type: Method
   source:
     id: WriteToConsoleAsASCIITable
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 507
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 603
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -2201,8 +2455,8 @@ items:
   type: Method
   source:
     id: EnumerableOfEnumerableToJaggedArray
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 516
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 612
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -2239,8 +2493,8 @@ items:
   type: Method
   source:
     id: JaggedArrayToTwoDimensionalArray
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 520
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 616
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -2277,8 +2531,8 @@ items:
   type: Method
   source:
     id: IncrementGuid
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 539
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 635
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -2314,8 +2568,8 @@ items:
   type: Method
   source:
     id: IncrementGuid
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 543
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 639
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -2349,8 +2603,8 @@ items:
   type: Method
   source:
     id: JaggedArrayToEnumerableOfEnumerable
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 549
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 645
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -2387,8 +2641,8 @@ items:
   type: Method
   source:
     id: TwoDimensionalArrayToJaggedArray
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 563
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 659
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -2425,8 +2679,8 @@ items:
   type: Method
   source:
     id: EnsureFileExists
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 582
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 678
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -2458,8 +2712,8 @@ items:
   type: Method
   source:
     id: EnsureDirectoryExists
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 595
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 691
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -2489,8 +2743,8 @@ items:
   type: Method
   source:
     id: DurationToUserFriendlyString
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 603
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 699
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -2522,8 +2776,8 @@ items:
   type: Method
   source:
     id: EnsureDirectoryDoesNotExist
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 608
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 704
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -2553,8 +2807,8 @@ items:
   type: Method
   source:
     id: EnsureFileDoesNotExist
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 616
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 712
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -2584,8 +2838,8 @@ items:
   type: Method
   source:
     id: TypeArrayToString
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 623
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 719
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -2620,8 +2874,8 @@ items:
   type: Method
   source:
     id: CopyFolderAcrossVolumes
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 627
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 723
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -2653,8 +2907,8 @@ items:
   type: Method
   source:
     id: DeleteAllEmptyFolderTransitively
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 646
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 742
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -2686,8 +2940,8 @@ items:
   type: Method
   source:
     id: MoveFolderAcrossVolumes
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 655
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 751
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -2721,8 +2975,8 @@ items:
   type: Method
   source:
     id: DeleteFolder
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 661
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 757
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -2754,8 +3008,8 @@ items:
   type: Method
   source:
     id: TwoDimensionalArrayToString
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 672
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 768
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -2792,8 +3046,8 @@ items:
   type: Method
   source:
     id: TwoDimensionalArrayEquals
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 677
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 773
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -2832,8 +3086,8 @@ items:
   type: Method
   source:
     id: DeleteContentOfFolder
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 682
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 778
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -2863,8 +3117,8 @@ items:
   type: Method
   source:
     id: MoveContentOfFoldersAcrossVolumes
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 764
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 860
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -2896,8 +3150,8 @@ items:
   type: Method
   source:
     id: MoveContentOfFoldersAcrossVolumes
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 768
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 864
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -2933,8 +3187,8 @@ items:
   type: Method
   source:
     id: MoveContentOfFoldersAcrossVolumes
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 772
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 868
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -2973,8 +3227,8 @@ items:
   type: Method
   source:
     id: MoveContentOfFoldersAcrossVolumes
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 777
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 873
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -3015,8 +3269,8 @@ items:
   type: Method
   source:
     id: MoveContentOfFoldersAcrossVolumes
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 789
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 885
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -3060,8 +3314,8 @@ items:
   type: Method
   source:
     id: ForEachFileAndDirectoryTransitively
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 824
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 920
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -3104,8 +3358,8 @@ items:
   type: Method
   source:
     id: RemoveContentOfFolder
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 857
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 953
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -3136,8 +3390,8 @@ items:
   type: Method
   source:
     id: RunAllConcurrentAndReturnAllResults
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 874
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 970
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -3183,8 +3437,8 @@ items:
   type: Method
   source:
     id: RunAllConcurrentAndReturnFirstResult
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 898
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 994
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -3237,8 +3491,8 @@ items:
   type: Method
   source:
     id: ToCaseInsensitiveSet
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 984
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1080
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -3277,8 +3531,8 @@ items:
   type: Method
   source:
     id: ToDynamic
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 989
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1085
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -3314,8 +3568,8 @@ items:
   type: Method
   source:
     id: DeepClone
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1000
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1096
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -3355,8 +3609,8 @@ items:
   type: Method
   source:
     id: GetTotalFreeSpace
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1007
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1103
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -3389,8 +3643,8 @@ items:
   type: Method
   source:
     id: PersistToDisk
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1018
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1114
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -3435,8 +3689,8 @@ items:
   type: Method
   source:
     id: LoadFromDisk
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1024
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1120
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -3478,8 +3732,8 @@ items:
   type: Method
   source:
     id: GetCommandLineArguments
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1032
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1128
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -3512,8 +3766,8 @@ items:
   type: Method
   source:
     id: ToPascalCase
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1053
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1149
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -3549,8 +3803,8 @@ items:
   type: Method
   source:
     id: ToCamelCase
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1065
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1161
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -3585,8 +3839,8 @@ items:
   type: Method
   source:
     id: IsHexString
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1072
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1168
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -3619,8 +3873,8 @@ items:
   type: Method
   source:
     id: IsHexDigit
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1076
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1172
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -3656,8 +3910,8 @@ items:
   type: Method
   source:
     id: IsAllUpper
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1081
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1177
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -3693,8 +3947,8 @@ items:
   type: Method
   source:
     id: IsAllLower
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1094
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1190
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -3730,8 +3984,8 @@ items:
   type: Method
   source:
     id: IsNegative
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1106
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1202
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -3767,8 +4021,8 @@ items:
   type: Method
   source:
     id: IsPositive
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1110
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1206
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -3804,8 +4058,8 @@ items:
   type: Method
   source:
     id: ToOnlyFirstCharToUpper
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1114
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1210
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -3841,8 +4095,8 @@ items:
   type: Method
   source:
     id: ToOnlyFirstCharOfEveryWordToUpper
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1128
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1224
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -3878,8 +4132,8 @@ items:
   type: Method
   source:
     id: ToOnlyFirstCharOfEveryWordOrPartialWordToUpper
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1132
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1228
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -3915,8 +4169,8 @@ items:
   type: Method
   source:
     id: ToOnlyFirstCharOfEveryNewLetterSequenceToUpper
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1136
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1232
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -3952,8 +4206,8 @@ items:
   type: Method
   source:
     id: ToOnlyFirstCharOfEveryWordToUpper
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1140
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1236
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -3993,8 +4247,8 @@ items:
   type: Method
   source:
     id: FileEndsWithEmptyLine
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1170
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1266
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -4026,8 +4280,8 @@ items:
   type: Method
   source:
     id: FileIsEmpty
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1174
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1270
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -4059,8 +4313,8 @@ items:
   type: Method
   source:
     id: AppendFileDoesNotNeedNewLineCharacter
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1178
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1274
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -4092,8 +4346,8 @@ items:
   type: Method
   source:
     id: AppendFileDoesNeedNewLineCharacter
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1182
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1278
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -4125,8 +4379,8 @@ items:
   type: Method
   source:
     id: IsRelativePath
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1186
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1282
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -4158,8 +4412,8 @@ items:
   type: Method
   source:
     id: IsAbsolutePath
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1194
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1290
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -4191,8 +4445,8 @@ items:
   type: Method
   source:
     id: GetAbsolutePath
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1203
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1299
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -4226,8 +4480,8 @@ items:
   type: Method
   source:
     id: DirectoryIsEmpty
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1237
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1333
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -4259,8 +4513,8 @@ items:
   type: Method
   source:
     id: DirectoryDoesNotContainFiles
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1241
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1337
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -4292,8 +4546,8 @@ items:
   type: Method
   source:
     id: DirectoryDoesNotContainFolder
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1256
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1352
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -4325,8 +4579,8 @@ items:
   type: Method
   source:
     id: StringToByteArray
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1260
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1356
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -4358,8 +4612,8 @@ items:
   type: Method
   source:
     id: GetHexValue
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1274
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1370
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -4391,8 +4645,8 @@ items:
   type: Method
   source:
     id: ClearFile
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1280
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1376
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -4423,8 +4677,8 @@ items:
   type: Method
   source:
     id: EnsurePathStartsWithSlash
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1287
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1383
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -4460,8 +4714,8 @@ items:
   type: Method
   source:
     id: EnsurePathStartsWithBackslash
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1298
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1394
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -4497,8 +4751,8 @@ items:
   type: Method
   source:
     id: EnsurePathStartsWithoutSlash
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1309
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1405
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -4534,8 +4788,8 @@ items:
   type: Method
   source:
     id: EnsurePathStartsWithoutBackslash
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1320
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1416
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -4571,8 +4825,8 @@ items:
   type: Method
   source:
     id: EnsurePathEndsWithSlash
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1331
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1427
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -4608,8 +4862,8 @@ items:
   type: Method
   source:
     id: EnsurePathEndsWithBackslash
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1342
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1438
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -4645,8 +4899,8 @@ items:
   type: Method
   source:
     id: EnsurePathEndsWithoutSlash
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1353
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1449
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -4682,8 +4936,8 @@ items:
   type: Method
   source:
     id: EnsurePathEndsWithoutBackslash
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1364
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1460
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -4719,8 +4973,8 @@ items:
   type: Method
   source:
     id: EnsurePathStartsWithoutSlashOrBackslash
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1375
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1471
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -4756,8 +5010,8 @@ items:
   type: Method
   source:
     id: EnsurePathSEndsWithoutSlashOrBackslash
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1379
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1475
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -4792,8 +5046,8 @@ items:
   type: Method
   source:
     id: StartsWith
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1384
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1480
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -4832,8 +5086,8 @@ items:
   type: Method
   source:
     id: ByteArrayToHexString
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1400
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1496
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -4868,8 +5122,8 @@ items:
   type: Method
   source:
     id: HexStringToByteArray
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1405
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1501
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -4901,8 +5155,8 @@ items:
   type: Method
   source:
     id: IntegerToHexString
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1419
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1515
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -4934,8 +5188,8 @@ items:
   type: Method
   source:
     id: HexStringToInteger
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1431
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1527
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -4967,8 +5221,8 @@ items:
   type: Method
   source:
     id: Concat
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1435
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1531
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5007,8 +5261,8 @@ items:
   type: Method
   source:
     id: StringToBoolean
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1442
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1538
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5040,8 +5294,8 @@ items:
   type: Method
   source:
     id: Assert
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1455
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1551
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5073,8 +5327,8 @@ items:
   type: Method
   source:
     id: ReadCSVFile
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1462
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1558
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5110,8 +5364,8 @@ items:
   type: Method
   source:
     id: ReadCSVFile
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1466
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1562
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5149,8 +5403,8 @@ items:
   type: Method
   source:
     id: GetSubmodulePaths
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1495
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1591
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5187,8 +5441,8 @@ items:
   type: Method
   source:
     id: RunWithTimeout
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1520
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1616
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5228,8 +5482,8 @@ items:
   type: Method
   source:
     id: ResolveToFullPath
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1532
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1628
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5265,8 +5519,8 @@ items:
   type: Method
   source:
     id: ResolveToFullPath
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1543
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1639
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5306,8 +5560,8 @@ items:
   type: Method
   source:
     id: ValidateXMLAgainstXSD
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1562
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1658
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5349,8 +5603,8 @@ items:
   type: Field
   source:
     id: ApplyXSLTToXMLXMLWriterDefaultSettings
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1588
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1684
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5380,8 +5634,8 @@ items:
   type: Field
   source:
     id: ApplyXSLTToXMLXMLWriterDefaultXMLDeclaration
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1589
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1685
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5411,8 +5665,8 @@ items:
   type: Method
   source:
     id: ApplyXSLTToXML
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1590
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1686
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5446,8 +5700,8 @@ items:
   type: Method
   source:
     id: ApplyXSLTToXML
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1594
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1690
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5483,8 +5737,8 @@ items:
   type: Method
   source:
     id: ApplyXSLTToXML
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1598
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1694
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5520,8 +5774,8 @@ items:
   type: Method
   source:
     id: ApplyXSLTToXML
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1602
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1698
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5559,8 +5813,8 @@ items:
   type: Field
   source:
     id: FormatXMLFile_DefaultEncoding
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1614
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1710
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5590,8 +5844,8 @@ items:
   type: Field
   source:
     id: FormatXMLFile_DefaultXmlWriterSettings
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1615
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1711
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5621,8 +5875,8 @@ items:
   type: Method
   source:
     id: FormatXMLFile
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1616
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1712
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5652,8 +5906,8 @@ items:
   type: Method
   source:
     id: FormatXMLFile
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1620
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1716
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5685,8 +5939,8 @@ items:
   type: Method
   source:
     id: FormatXMLFile
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1624
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1720
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5718,8 +5972,8 @@ items:
   type: Method
   source:
     id: FormatXMLFile
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1628
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1724
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5753,8 +6007,8 @@ items:
   type: Method
   source:
     id: FormatXMLString
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1632
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1728
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5786,8 +6040,8 @@ items:
   type: Method
   source:
     id: FormatXMLString
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1636
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1732
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5821,8 +6075,8 @@ items:
   type: Method
   source:
     id: AddMountPointForVolume
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1648
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1744
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5854,8 +6108,8 @@ items:
   type: Method
   source:
     id: GetAvailableVolumeIds
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1660
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1756
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5884,8 +6138,8 @@ items:
   type: Method
   source:
     id: GetAllMountPointsOfAllAvailableVolumes
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1693
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1789
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5914,8 +6168,8 @@ items:
   type: Method
   source:
     id: GetMountPoints
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1702
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1798
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5947,8 +6201,8 @@ items:
   type: Method
   source:
     id: RemoveAllMountPointsOfVolume
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1730
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1826
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -5978,8 +6232,8 @@ items:
   type: Method
   source:
     id: RemoveMountPointOfVolume
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1737
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1833
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6009,8 +6263,8 @@ items:
   type: Method
   source:
     id: GetVolumeIdByMountPoint
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1749
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1845
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6043,8 +6297,8 @@ items:
   type: Method
   source:
     id: NullSafeSetEquals
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1767
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1863
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6087,8 +6341,8 @@ items:
   type: Method
   source:
     id: NullSafeListEquals
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1771
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1867
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6131,8 +6385,8 @@ items:
   type: Method
   source:
     id: NullSafeEnumerableEquals
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1775
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1871
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6175,8 +6429,8 @@ items:
   type: Method
   source:
     id: NullSafeEquals
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1795
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1891
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6214,8 +6468,8 @@ items:
   type: Method
   source:
     id: RemoveItemOnlyOnce
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1819
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1915
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6257,8 +6511,8 @@ items:
   type: Method
   source:
     id: GetTimeFromInternetUtC
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1832
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1928
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6287,8 +6541,8 @@ items:
   type: Method
   source:
     id: GetTimeFromInternetCurrentTimeZone
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1836
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1932
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6317,8 +6571,8 @@ items:
   type: Method
   source:
     id: GetTimeFromInternet
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1840
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1936
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6350,8 +6604,8 @@ items:
   type: Method
   source:
     id: GetTimeFromInternet
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1844
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1940
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6393,8 +6647,8 @@ items:
   type: Method
   source:
     id: ExecuteGitCommand
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1850
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1946
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6439,8 +6693,8 @@ items:
   type: Method
   source:
     id: GitRepositoryContainsObligatoryFiles
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1861
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1957
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6477,8 +6731,8 @@ items:
   type: Method
   source:
     id: AddGitRemote
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1871
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1967
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6512,8 +6766,8 @@ items:
   type: Method
   source:
     id: GetGitRemoteAddress
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1876
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1972
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6549,8 +6803,8 @@ items:
   type: Method
   source:
     id: SetGitRemoteAddress
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1880
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1976
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6584,8 +6838,8 @@ items:
   type: Method
   source:
     id: GitTidyUp
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1886
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1982
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6618,8 +6872,8 @@ items:
   type: Method
   source:
     id: GitRepositoryContainsFiles
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1891
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 1987
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6658,8 +6912,8 @@ items:
   type: Method
   source:
     id: GetAllGitRemotes
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1904
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2000
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6693,8 +6947,8 @@ items:
   type: Method
   source:
     id: AtLeastOneFileExistsInFolder
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1908
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2004
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6733,8 +6987,8 @@ items:
   type: Method
   source:
     id: GetAllGitRemoteBranches
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1921
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2017
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6766,8 +7020,8 @@ items:
   type: Method
   source:
     id: GetGitRemotes
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1937
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2033
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6801,8 +7055,8 @@ items:
   type: Method
   source:
     id: RemoveGitRemote
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1941
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2037
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6834,8 +7088,8 @@ items:
   type: Method
   source:
     id: GetLocalGitBranchNames
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1945
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2041
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6867,8 +7121,8 @@ items:
   type: Method
   source:
     id: GetTopLevelOfGitRepositoryPath
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1950
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2046
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6902,8 +7156,8 @@ items:
   type: Method
   source:
     id: IsInGitSubmodule
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1966
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2062
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6937,8 +7191,8 @@ items:
   type: Method
   source:
     id: GetParentGitRepositoryPath
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 1981
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2077
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -6972,8 +7226,8 @@ items:
   type: Method
   source:
     id: IsGitRepository
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2007
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2103
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7007,8 +7261,8 @@ items:
   type: Method
   source:
     id: IsInGitRepository
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2015
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2111
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7042,8 +7296,8 @@ items:
   type: Method
   source:
     id: GitCommit
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2038
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2134
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7090,8 +7344,8 @@ items:
   type: Method
   source:
     id: GetLastGitCommitId
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2050
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2146
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7127,8 +7381,8 @@ items:
   type: Method
   source:
     id: GitFetch
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2059
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2155
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7166,8 +7420,8 @@ items:
   type: Method
   source:
     id: GitRepositoryHasUnstagedChanges
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2063
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2159
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7199,8 +7453,8 @@ items:
   type: Method
   source:
     id: GetFilesOfGitRepository
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2076
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2172
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7234,8 +7488,8 @@ items:
   type: Method
   source:
     id: GitRepositoryHasNewUntrackedFiles
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2081
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2177
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7267,8 +7521,8 @@ items:
   type: Method
   source:
     id: GitRepositoryHasUnstagedChangesOfTrackedFiles
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2086
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2182
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7300,8 +7554,8 @@ items:
   type: Method
   source:
     id: GitRepositoryHasStagedChanges
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2091
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2187
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7333,8 +7587,8 @@ items:
   type: Method
   source:
     id: GitRepositoryHasUncommittedChanges
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2109
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2205
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7366,8 +7620,8 @@ items:
   type: Method
   source:
     id: GetAmountOfCommitsInGitRepository
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2124
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2220
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7403,8 +7657,8 @@ items:
   type: Method
   source:
     id: GetCurrentGitRepositoryBranch
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2128
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2224
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7436,8 +7690,8 @@ items:
   type: Method
   source:
     id: IsGitCommitAncestor
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2135
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2231
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7476,8 +7730,8 @@ items:
   type: Method
   source:
     id: ToSerializableDictionary
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2139
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2235
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7518,8 +7772,8 @@ items:
   type: Method
   source:
     id: IsDefault
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2149
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2245
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7551,8 +7805,8 @@ items:
   type: Method
   source:
     id: GetDefault
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2160
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2256
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7584,8 +7838,8 @@ items:
   type: Method
   source:
     id: ResolvePathOfProgram
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2171
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2267
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7607,6 +7861,43 @@ items:
   - Shared
   fullName.vb: GRYLibrary.Core.Utilities.ResolvePathOfProgram(ByRef System.String, ByRef System.String)
   name.vb: ResolvePathOfProgram(ByRef String, ByRef String)
+- uid: GRYLibrary.Core.Utilities.GetAssertionFailMessage(System.Object,System.Object,System.Int32)
+  commentId: M:GRYLibrary.Core.Utilities.GetAssertionFailMessage(System.Object,System.Object,System.Int32)
+  id: GetAssertionFailMessage(System.Object,System.Object,System.Int32)
+  parent: GRYLibrary.Core.Utilities
+  langs:
+  - csharp
+  - vb
+  name: GetAssertionFailMessage(Object, Object, Int32)
+  nameWithType: Utilities.GetAssertionFailMessage(Object, Object, Int32)
+  fullName: GRYLibrary.Core.Utilities.GetAssertionFailMessage(System.Object, System.Object, System.Int32)
+  type: Method
+  source:
+    id: GetAssertionFailMessage
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2306
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core
+  syntax:
+    content: public static string GetAssertionFailMessage(object expectedObject, object actualObject, int maxLengthPerObject = 1000)
+    parameters:
+    - id: expectedObject
+      type: System.Object
+    - id: actualObject
+      type: System.Object
+    - id: maxLengthPerObject
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetAssertionFailMessage(expectedObject As Object, actualObject As Object, maxLengthPerObject As Integer = 1000) As String
+  overload: GRYLibrary.Core.Utilities.GetAssertionFailMessage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: GRYLibrary.Core.Utilities.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
   commentId: M:GRYLibrary.Core.Utilities.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
   id: ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
@@ -7621,8 +7912,8 @@ items:
   type: Method
   source:
     id: ForEach
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2209
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2310
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7649,6 +7940,46 @@ items:
   - Shared
   fullName.vb: GRYLibrary.Core.Utilities.ForEach(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Action(Of T))
   name.vb: ForEach(Of T)(IEnumerable(Of T), Action(Of T))
+- uid: GRYLibrary.Core.Utilities.ForEach(System.Collections.IEnumerable,System.Action{System.Object})
+  commentId: M:GRYLibrary.Core.Utilities.ForEach(System.Collections.IEnumerable,System.Action{System.Object})
+  id: ForEach(System.Collections.IEnumerable,System.Action{System.Object})
+  isExtensionMethod: true
+  parent: GRYLibrary.Core.Utilities
+  langs:
+  - csharp
+  - vb
+  name: ForEach(IEnumerable, Action<Object>)
+  nameWithType: Utilities.ForEach(IEnumerable, Action<Object>)
+  fullName: GRYLibrary.Core.Utilities.ForEach(System.Collections.IEnumerable, System.Action<System.Object>)
+  type: Method
+  source:
+    id: ForEach
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2317
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core
+  syntax:
+    content: public static void ForEach(this IEnumerable source, Action<object> action)
+    parameters:
+    - id: source
+      type: System.Collections.IEnumerable
+    - id: action
+      type: System.Action{System.Object}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ForEach(source As IEnumerable, action As Action(Of Object))
+  overload: GRYLibrary.Core.Utilities.ForEach*
+  nameWithType.vb: Utilities.ForEach(IEnumerable, Action(Of Object))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GRYLibrary.Core.Utilities.ForEach(System.Collections.IEnumerable, System.Action(Of System.Object))
+  name.vb: ForEach(IEnumerable, Action(Of Object))
 - uid: GRYLibrary.Core.Utilities.CalculateLevenshteinDistance(System.String,System.String)
   commentId: M:GRYLibrary.Core.Utilities.CalculateLevenshteinDistance(System.String,System.String)
   id: CalculateLevenshteinDistance(System.String,System.String)
@@ -7662,8 +7993,8 @@ items:
   type: Method
   source:
     id: CalculateLevenshteinDistance
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2217
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2325
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7697,8 +8028,8 @@ items:
   type: Method
   source:
     id: CalculateLevenshteinSimilarity
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2248
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2356
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7732,8 +8063,8 @@ items:
   type: Method
   source:
     id: CalculateCosineSimilarity
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2265
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2373
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7767,8 +8098,8 @@ items:
   type: Method
   source:
     id: CalculateJaccardIndex
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2291
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2399
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7802,8 +8133,8 @@ items:
   type: Method
   source:
     id: CalculateJaccardSimilarity
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
-    startLine: 2295
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2403
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core
@@ -7818,6 +8149,104 @@ items:
       type: System.Double
     content.vb: Public Shared Function CalculateJaccardSimilarity(string1 As String, string2 As String) As Double
   overload: GRYLibrary.Core.Utilities.CalculateJaccardSimilarity*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GRYLibrary.Core.Utilities.ImprovedReferenceEquals(System.Object,System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ImprovedReferenceEquals(System.Object,System.Object)
+  id: ImprovedReferenceEquals(System.Object,System.Object)
+  parent: GRYLibrary.Core.Utilities
+  langs:
+  - csharp
+  - vb
+  name: ImprovedReferenceEquals(Object, Object)
+  nameWithType: Utilities.ImprovedReferenceEquals(Object, Object)
+  fullName: GRYLibrary.Core.Utilities.ImprovedReferenceEquals(System.Object, System.Object)
+  type: Method
+  source:
+    id: ImprovedReferenceEquals
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2506
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core
+  syntax:
+    content: public static bool ImprovedReferenceEquals(object item1, object item2)
+    parameters:
+    - id: item1
+      type: System.Object
+    - id: item2
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function ImprovedReferenceEquals(item1 As Object, item2 As Object) As Boolean
+  overload: GRYLibrary.Core.Utilities.ImprovedReferenceEquals*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GRYLibrary.Core.Utilities.HasValueType(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.HasValueType(System.Object)
+  id: HasValueType(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  langs:
+  - csharp
+  - vb
+  name: HasValueType(Object)
+  nameWithType: Utilities.HasValueType(Object)
+  fullName: GRYLibrary.Core.Utilities.HasValueType(System.Object)
+  type: Method
+  source:
+    id: HasValueType
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2558
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core
+  syntax:
+    content: public static bool HasValueType(object object)
+    parameters:
+    - id: object
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function HasValueType(object As Object) As Boolean
+  overload: GRYLibrary.Core.Utilities.HasValueType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GRYLibrary.Core.Utilities.GetNameOfCurrentExecutable
+  commentId: M:GRYLibrary.Core.Utilities.GetNameOfCurrentExecutable
+  id: GetNameOfCurrentExecutable
+  parent: GRYLibrary.Core.Utilities
+  langs:
+  - csharp
+  - vb
+  name: GetNameOfCurrentExecutable()
+  nameWithType: Utilities.GetNameOfCurrentExecutable()
+  fullName: GRYLibrary.Core.Utilities.GetNameOfCurrentExecutable()
+  type: Method
+  source:
+    id: GetNameOfCurrentExecutable
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Utilities.cs
+    startLine: 2570
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core
+  syntax:
+    content: public static string GetNameOfCurrentExecutable()
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetNameOfCurrentExecutable As String
+  overload: GRYLibrary.Core.Utilities.GetNameOfCurrentExecutable*
   modifiers.csharp:
   - public
   - static
@@ -8415,6 +8844,11 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: GRYLibrary.Core.Utilities.IsValidXML*
+  commentId: Overload:GRYLibrary.Core.Utilities.IsValidXML
+  name: IsValidXML
+  nameWithType: Utilities.IsValidXML
+  fullName: GRYLibrary.Core.Utilities.IsValidXML
 - uid: GRYLibrary.Core.Utilities.Count*
   commentId: Overload:GRYLibrary.Core.Utilities.Count
   name: Count
@@ -8678,6 +9112,37 @@ references:
   name: ObjectIsDictionary
   nameWithType: Utilities.ObjectIsDictionary
   fullName: GRYLibrary.Core.Utilities.ObjectIsDictionary
+- uid: GRYLibrary.Core.Utilities.AddItemToEnumerable*
+  commentId: Overload:GRYLibrary.Core.Utilities.AddItemToEnumerable
+  name: AddItemToEnumerable
+  nameWithType: Utilities.AddItemToEnumerable
+  fullName: GRYLibrary.Core.Utilities.AddItemToEnumerable
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: GRYLibrary.Core.Utilities.TypeIsDictionary*
   commentId: Overload:GRYLibrary.Core.Utilities.TypeIsDictionary
   name: TypeIsDictionary
@@ -8703,6 +9168,16 @@ references:
   name: TypeIsKeyValuePair
   nameWithType: Utilities.TypeIsKeyValuePair
   fullName: GRYLibrary.Core.Utilities.TypeIsKeyValuePair
+- uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry*
+  commentId: Overload:GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  name: ObjectIsDictionaryEntry
+  nameWithType: Utilities.ObjectIsDictionaryEntry
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+- uid: GRYLibrary.Core.Utilities.TypeIsDictionaryEntry*
+  commentId: Overload:GRYLibrary.Core.Utilities.TypeIsDictionaryEntry
+  name: TypeIsDictionaryEntry
+  nameWithType: Utilities.TypeIsDictionaryEntry
+  fullName: GRYLibrary.Core.Utilities.TypeIsDictionaryEntry
 - uid: GRYLibrary.Core.Utilities.ObjectIsTuple*
   commentId: Overload:GRYLibrary.Core.Utilities.ObjectIsTuple
   name: ObjectIsTuple
@@ -8940,6 +9415,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectToDictionaryEntry*
+  commentId: Overload:GRYLibrary.Core.Utilities.ObjectToDictionaryEntry
+  name: ObjectToDictionaryEntry
+  nameWithType: Utilities.ObjectToDictionaryEntry
+  fullName: GRYLibrary.Core.Utilities.ObjectToDictionaryEntry
+- uid: System.Collections.DictionaryEntry
+  commentId: T:System.Collections.DictionaryEntry
+  parent: System.Collections
+  isExternal: true
+  name: DictionaryEntry
+  nameWithType: DictionaryEntry
+  fullName: System.Collections.DictionaryEntry
 - uid: GRYLibrary.Core.Utilities.ObjectToTuple*
   commentId: Overload:GRYLibrary.Core.Utilities.ObjectToTuple
   name: ObjectToTuple
@@ -9130,11 +9617,26 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectIsPrimitive*
+  commentId: Overload:GRYLibrary.Core.Utilities.ObjectIsPrimitive
+  name: ObjectIsPrimitive
+  nameWithType: Utilities.ObjectIsPrimitive
+  fullName: GRYLibrary.Core.Utilities.ObjectIsPrimitive
+- uid: GRYLibrary.Core.Utilities.TypeIsPrimitive*
+  commentId: Overload:GRYLibrary.Core.Utilities.TypeIsPrimitive
+  name: TypeIsPrimitive
+  nameWithType: Utilities.TypeIsPrimitive
+  fullName: GRYLibrary.Core.Utilities.TypeIsPrimitive
 - uid: GRYLibrary.Core.Utilities.IsAssignableFrom*
   commentId: Overload:GRYLibrary.Core.Utilities.IsAssignableFrom
   name: IsAssignableFrom
   nameWithType: Utilities.IsAssignableFrom
   fullName: GRYLibrary.Core.Utilities.IsAssignableFrom
+- uid: GRYLibrary.Core.Utilities.TypeIsAssignableFrom*
+  commentId: Overload:GRYLibrary.Core.Utilities.TypeIsAssignableFrom
+  name: TypeIsAssignableFrom
+  nameWithType: Utilities.TypeIsAssignableFrom
+  fullName: GRYLibrary.Core.Utilities.TypeIsAssignableFrom
 - uid: GRYLibrary.Core.Utilities.GetTypeWithParentTypesAndInterfaces*
   commentId: Overload:GRYLibrary.Core.Utilities.GetTypeWithParentTypesAndInterfaces
   name: GetTypeWithParentTypesAndInterfaces
@@ -11556,6 +12058,11 @@ references:
   name: ResolvePathOfProgram
   nameWithType: Utilities.ResolvePathOfProgram
   fullName: GRYLibrary.Core.Utilities.ResolvePathOfProgram
+- uid: GRYLibrary.Core.Utilities.GetAssertionFailMessage*
+  commentId: Overload:GRYLibrary.Core.Utilities.GetAssertionFailMessage
+  name: GetAssertionFailMessage
+  nameWithType: Utilities.GetAssertionFailMessage
+  fullName: GRYLibrary.Core.Utilities.GetAssertionFailMessage
 - uid: GRYLibrary.Core.Utilities.ForEach*
   commentId: Overload:GRYLibrary.Core.Utilities.ForEach
   name: ForEach
@@ -11601,6 +12108,50 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.Action{System.Object}
+  commentId: T:System.Action{System.Object}
+  parent: System
+  definition: System.Action`1
+  name: Action<Object>
+  nameWithType: Action<Object>
+  fullName: System.Action<System.Object>
+  nameWithType.vb: Action(Of Object)
+  fullName.vb: System.Action(Of System.Object)
+  name.vb: Action(Of Object)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: GRYLibrary.Core.Utilities.CalculateLevenshteinDistance*
   commentId: Overload:GRYLibrary.Core.Utilities.CalculateLevenshteinDistance
   name: CalculateLevenshteinDistance
@@ -11633,3 +12184,18 @@ references:
   name: CalculateJaccardSimilarity
   nameWithType: Utilities.CalculateJaccardSimilarity
   fullName: GRYLibrary.Core.Utilities.CalculateJaccardSimilarity
+- uid: GRYLibrary.Core.Utilities.ImprovedReferenceEquals*
+  commentId: Overload:GRYLibrary.Core.Utilities.ImprovedReferenceEquals
+  name: ImprovedReferenceEquals
+  nameWithType: Utilities.ImprovedReferenceEquals
+  fullName: GRYLibrary.Core.Utilities.ImprovedReferenceEquals
+- uid: GRYLibrary.Core.Utilities.HasValueType*
+  commentId: Overload:GRYLibrary.Core.Utilities.HasValueType
+  name: HasValueType
+  nameWithType: Utilities.HasValueType
+  fullName: GRYLibrary.Core.Utilities.HasValueType
+- uid: GRYLibrary.Core.Utilities.GetNameOfCurrentExecutable*
+  commentId: Overload:GRYLibrary.Core.Utilities.GetNameOfCurrentExecutable
+  name: GetNameOfCurrentExecutable
+  nameWithType: Utilities.GetNameOfCurrentExecutable
+  fullName: GRYLibrary.Core.Utilities.GetNameOfCurrentExecutable

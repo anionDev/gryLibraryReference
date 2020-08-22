@@ -276,6 +276,38 @@
   </table>
   
   
+  <a id="GRYLibrary_Core_Utilities_AddItemToEnumerable_" data-uid="GRYLibrary.Core.Utilities.AddItemToEnumerable*"></a>
+  <h4 id="GRYLibrary_Core_Utilities_AddItemToEnumerable_System_Object_System_Object___" data-uid="GRYLibrary.Core.Utilities.AddItemToEnumerable(System.Object,System.Object[])">AddItemToEnumerable(Object, Object[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddItemToEnumerable(object enumerable, object[] addMethodArgument)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">enumerable</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">addMethodArgument</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="GRYLibrary_Core_Utilities_AddMountPointForVolume_" data-uid="GRYLibrary.Core.Utilities.AddMountPointForVolume*"></a>
   <h4 id="GRYLibrary_Core_Utilities_AddMountPointForVolume_System_Guid_System_String_" data-uid="GRYLibrary.Core.Utilities.AddMountPointForVolume(System.Guid,System.String)">AddMountPointForVolume(Guid, String)</h4>
   <div class="markdown level1 summary"></div>
@@ -2488,6 +2520,38 @@
   
   
   <a id="GRYLibrary_Core_Utilities_ForEach_" data-uid="GRYLibrary.Core.Utilities.ForEach*"></a>
+  <h4 id="GRYLibrary_Core_Utilities_ForEach_System_Collections_IEnumerable_System_Action_System_Object__" data-uid="GRYLibrary.Core.Utilities.ForEach(System.Collections.IEnumerable,System.Action{System.Object})">ForEach(IEnumerable, Action&lt;Object&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ForEach(this IEnumerable source, Action&lt;object&gt; action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.IEnumerable</span></td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Utilities_ForEach_" data-uid="GRYLibrary.Core.Utilities.ForEach*"></a>
   <h4 id="GRYLibrary_Core_Utilities_ForEach__1_System_Collections_Generic_IEnumerable___0__System_Action___0__" data-uid="GRYLibrary.Core.Utilities.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})">ForEach&lt;T&gt;(IEnumerable&lt;T&gt;, Action&lt;T&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -3010,6 +3074,58 @@
 </div>
   
   
+  <a id="GRYLibrary_Core_Utilities_GetAssertionFailMessage_" data-uid="GRYLibrary.Core.Utilities.GetAssertionFailMessage*"></a>
+  <h4 id="GRYLibrary_Core_Utilities_GetAssertionFailMessage_System_Object_System_Object_System_Int32_" data-uid="GRYLibrary.Core.Utilities.GetAssertionFailMessage(System.Object,System.Object,System.Int32)">GetAssertionFailMessage(Object, Object, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetAssertionFailMessage(object expectedObject, object actualObject, int maxLengthPerObject = 1000)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">expectedObject</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">actualObject</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">maxLengthPerObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="GRYLibrary_Core_Utilities_GetAvailableVolumeIds_" data-uid="GRYLibrary.Core.Utilities.GetAvailableVolumeIds*"></a>
   <h4 id="GRYLibrary_Core_Utilities_GetAvailableVolumeIds" data-uid="GRYLibrary.Core.Utilities.GetAvailableVolumeIds">GetAvailableVolumeIds()</h4>
   <div class="markdown level1 summary"></div>
@@ -3496,6 +3612,31 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Collections.Generic.ISet</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Utilities_GetNameOfCurrentExecutable_" data-uid="GRYLibrary.Core.Utilities.GetNameOfCurrentExecutable*"></a>
+  <h4 id="GRYLibrary_Core_Utilities_GetNameOfCurrentExecutable" data-uid="GRYLibrary.Core.Utilities.GetNameOfCurrentExecutable">GetNameOfCurrentExecutable()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetNameOfCurrentExecutable()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -4410,6 +4551,48 @@ If really an error occures (=the exit-code of git is not 0) then this function t
 </div>
   
   
+  <a id="GRYLibrary_Core_Utilities_HasValueType_" data-uid="GRYLibrary.Core.Utilities.HasValueType*"></a>
+  <h4 id="GRYLibrary_Core_Utilities_HasValueType_System_Object_" data-uid="GRYLibrary.Core.Utilities.HasValueType(System.Object)">HasValueType(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool HasValueType(object object)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="GRYLibrary_Core_Utilities_HexStringToByteArray_" data-uid="GRYLibrary.Core.Utilities.HexStringToByteArray*"></a>
   <h4 id="GRYLibrary_Core_Utilities_HexStringToByteArray_System_String_" data-uid="GRYLibrary.Core.Utilities.HexStringToByteArray(System.String)">HexStringToByteArray(String)</h4>
   <div class="markdown level1 summary"></div>
@@ -4488,6 +4671,53 @@ If really an error occures (=the exit-code of git is not 0) then this function t
     <tbody>
       <tr>
         <td><span class="xref">System.Numerics.BigInteger</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Utilities_ImprovedReferenceEquals_" data-uid="GRYLibrary.Core.Utilities.ImprovedReferenceEquals*"></a>
+  <h4 id="GRYLibrary_Core_Utilities_ImprovedReferenceEquals_System_Object_System_Object_" data-uid="GRYLibrary.Core.Utilities.ImprovedReferenceEquals(System.Object,System.Object)">ImprovedReferenceEquals(Object, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ImprovedReferenceEquals(object item1, object item2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">item1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">item2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -4783,53 +5013,6 @@ If really an error occures (=the exit-code of git is not 0) then this function t
       <tr>
         <td><span class="xref">System.Type</span></td>
         <td><span class="parametername">genericTypeToCompare</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="GRYLibrary_Core_Utilities_IsAssignableFrom_" data-uid="GRYLibrary.Core.Utilities.IsAssignableFrom*"></a>
-  <h4 id="GRYLibrary_Core_Utilities_IsAssignableFrom_System_Type_System_Type_" data-uid="GRYLibrary.Core.Utilities.IsAssignableFrom(System.Type,System.Type)">IsAssignableFrom(Type, Type)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsAssignableFrom(Type typeForCheck, Type parentType)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Type</span></td>
-        <td><span class="parametername">typeForCheck</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Type</span></td>
-        <td><span class="parametername">parentType</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -5266,6 +5449,48 @@ If really an error occures (=the exit-code of git is not 0) then this function t
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">path</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Utilities_IsValidXML_" data-uid="GRYLibrary.Core.Utilities.IsValidXML*"></a>
+  <h4 id="GRYLibrary_Core_Utilities_IsValidXML_System_String_" data-uid="GRYLibrary.Core.Utilities.IsValidXML(System.String)">IsValidXML(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsValidXML(string xmlString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">xmlString</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -6176,6 +6401,48 @@ The purpose of this function is to say explicitly that nothing should be done at
   </table>
   
   
+  <a id="GRYLibrary_Core_Utilities_ObjectIsDictionaryEntry_" data-uid="GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry*"></a>
+  <h4 id="GRYLibrary_Core_Utilities_ObjectIsDictionaryEntry_System_Object_" data-uid="GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)">ObjectIsDictionaryEntry(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ObjectIsDictionaryEntry(this object object)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="GRYLibrary_Core_Utilities_ObjectIsEnumerable_" data-uid="GRYLibrary.Core.Utilities.ObjectIsEnumerable*"></a>
   <h4 id="GRYLibrary_Core_Utilities_ObjectIsEnumerable_System_Object_" data-uid="GRYLibrary.Core.Utilities.ObjectIsEnumerable(System.Object)">ObjectIsEnumerable(Object)</h4>
   <div class="markdown level1 summary"></div>
@@ -6268,6 +6535,48 @@ The purpose of this function is to say explicitly that nothing should be done at
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool ObjectIsList(this object object)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Utilities_ObjectIsPrimitive_" data-uid="GRYLibrary.Core.Utilities.ObjectIsPrimitive*"></a>
+  <h4 id="GRYLibrary_Core_Utilities_ObjectIsPrimitive_System_Object_" data-uid="GRYLibrary.Core.Utilities.ObjectIsPrimitive(System.Object)">ObjectIsPrimitive(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ObjectIsPrimitive(object object)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -6485,6 +6794,48 @@ The purpose of this function is to say explicitly that nothing should be done at
       </tr>
       <tr>
         <td><span class="parametername">TValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Utilities_ObjectToDictionaryEntry_" data-uid="GRYLibrary.Core.Utilities.ObjectToDictionaryEntry*"></a>
+  <h4 id="GRYLibrary_Core_Utilities_ObjectToDictionaryEntry_System_Object_" data-uid="GRYLibrary.Core.Utilities.ObjectToDictionaryEntry(System.Object)">ObjectToDictionaryEntry(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DictionaryEntry ObjectToDictionaryEntry(object object)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.DictionaryEntry</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -8729,6 +9080,53 @@ Warning: This function is not implemented yet.</p>
   </table>
   
   
+  <a id="GRYLibrary_Core_Utilities_TypeIsAssignableFrom_" data-uid="GRYLibrary.Core.Utilities.TypeIsAssignableFrom*"></a>
+  <h4 id="GRYLibrary_Core_Utilities_TypeIsAssignableFrom_System_Type_System_Type_" data-uid="GRYLibrary.Core.Utilities.TypeIsAssignableFrom(System.Type,System.Type)">TypeIsAssignableFrom(Type, Type)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TypeIsAssignableFrom(Type typeForCheck, Type parentType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">typeForCheck</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">parentType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="GRYLibrary_Core_Utilities_TypeIsDictionary_" data-uid="GRYLibrary.Core.Utilities.TypeIsDictionary*"></a>
   <h4 id="GRYLibrary_Core_Utilities_TypeIsDictionary_System_Type_" data-uid="GRYLibrary.Core.Utilities.TypeIsDictionary(System.Type)">TypeIsDictionary(Type)</h4>
   <div class="markdown level1 summary"></div>
@@ -8736,6 +9134,48 @@ Warning: This function is not implemented yet.</p>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool TypeIsDictionary(this Type type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Utilities_TypeIsDictionaryEntry_" data-uid="GRYLibrary.Core.Utilities.TypeIsDictionaryEntry*"></a>
+  <h4 id="GRYLibrary_Core_Utilities_TypeIsDictionaryEntry_System_Type_" data-uid="GRYLibrary.Core.Utilities.TypeIsDictionaryEntry(System.Type)">TypeIsDictionaryEntry(Type)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TypeIsDictionaryEntry(this Type type)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -9030,6 +9470,48 @@ Warning: This function is not implemented yet.</p>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool TypeIsListNotGeneric(this Type type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Utilities_TypeIsPrimitive_" data-uid="GRYLibrary.Core.Utilities.TypeIsPrimitive*"></a>
+  <h4 id="GRYLibrary_Core_Utilities_TypeIsPrimitive_System_Type_" data-uid="GRYLibrary.Core.Utilities.TypeIsPrimitive(System.Type)">TypeIsPrimitive(Type)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TypeIsPrimitive(Type type)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

@@ -7,12 +7,14 @@ items:
   children:
   - GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.#ctor
   - GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.AddAllTypesInCurrentDomainAssembliesToKnownTypes
+  - GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.DefaultNamespace
   - GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.Deserialize(System.String)
   - GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.DeserializeFromReader(System.Xml.XmlReader)
   - GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.Encoding
   - GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.KnownTypes
   - GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.Serialize(`0)
   - GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.SerializeToWriter(`0,System.Xml.XmlWriter)
+  - GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.XmlAttributeOverrides
   - GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.XMLWriterSettings
   langs:
   - csharp
@@ -23,8 +25,8 @@ items:
   type: Class
   source:
     id: SimpleGenericXMLSerializer
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SimpleGenericXMLSerializer.cs
-    startLine: 14
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SimpleGenericXMLSerializer.cs
+    startLine: 15
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.XMLSerializer
@@ -54,6 +56,7 @@ items:
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsList
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionary
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsTuple
   - System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable
   - System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable``1
@@ -90,8 +93,8 @@ items:
   type: Property
   source:
     id: Encoding
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SimpleGenericXMLSerializer.cs
-    startLine: 16
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SimpleGenericXMLSerializer.cs
+    startLine: 18
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.XMLSerializer
@@ -123,8 +126,8 @@ items:
   type: Property
   source:
     id: XMLWriterSettings
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SimpleGenericXMLSerializer.cs
-    startLine: 17
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SimpleGenericXMLSerializer.cs
+    startLine: 19
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.XMLSerializer
@@ -156,8 +159,8 @@ items:
   type: Property
   source:
     id: KnownTypes
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SimpleGenericXMLSerializer.cs
-    startLine: 18
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SimpleGenericXMLSerializer.cs
+    startLine: 20
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.XMLSerializer
@@ -176,6 +179,72 @@ items:
   modifiers.vb:
   - Public
   fullName.vb: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer(Of T).KnownTypes
+- uid: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.XmlAttributeOverrides
+  commentId: P:GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.XmlAttributeOverrides
+  id: XmlAttributeOverrides
+  parent: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1
+  langs:
+  - csharp
+  - vb
+  name: XmlAttributeOverrides
+  nameWithType: SimpleGenericXMLSerializer<T>.XmlAttributeOverrides
+  fullName: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer<T>.XmlAttributeOverrides
+  type: Property
+  source:
+    id: XmlAttributeOverrides
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SimpleGenericXMLSerializer.cs
+    startLine: 21
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.XMLSerializer
+  syntax:
+    content: public XmlAttributeOverrides XmlAttributeOverrides { get; set; }
+    parameters: []
+    return:
+      type: System.Xml.Serialization.XmlAttributeOverrides
+    content.vb: Public Property XmlAttributeOverrides As XmlAttributeOverrides
+  overload: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.XmlAttributeOverrides*
+  nameWithType.vb: SimpleGenericXMLSerializer(Of T).XmlAttributeOverrides
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer(Of T).XmlAttributeOverrides
+- uid: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.DefaultNamespace
+  commentId: P:GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.DefaultNamespace
+  id: DefaultNamespace
+  parent: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1
+  langs:
+  - csharp
+  - vb
+  name: DefaultNamespace
+  nameWithType: SimpleGenericXMLSerializer<T>.DefaultNamespace
+  fullName: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer<T>.DefaultNamespace
+  type: Property
+  source:
+    id: DefaultNamespace
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SimpleGenericXMLSerializer.cs
+    startLine: 22
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.XMLSerializer
+  syntax:
+    content: public string DefaultNamespace { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DefaultNamespace As String
+  overload: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.DefaultNamespace*
+  nameWithType.vb: SimpleGenericXMLSerializer(Of T).DefaultNamespace
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer(Of T).DefaultNamespace
 - uid: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.#ctor
   commentId: M:GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.#ctor
   id: '#ctor'
@@ -189,8 +258,8 @@ items:
   type: Constructor
   source:
     id: .ctor
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SimpleGenericXMLSerializer.cs
-    startLine: 19
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SimpleGenericXMLSerializer.cs
+    startLine: 24
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.XMLSerializer
@@ -217,8 +286,8 @@ items:
   type: Method
   source:
     id: SerializeToWriter
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SimpleGenericXMLSerializer.cs
-    startLine: 25
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SimpleGenericXMLSerializer.cs
+    startLine: 33
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.XMLSerializer
@@ -250,8 +319,8 @@ items:
   type: Method
   source:
     id: Serialize
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SimpleGenericXMLSerializer.cs
-    startLine: 30
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SimpleGenericXMLSerializer.cs
+    startLine: 38
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.XMLSerializer
@@ -283,8 +352,8 @@ items:
   type: Method
   source:
     id: DeserializeFromReader
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SimpleGenericXMLSerializer.cs
-    startLine: 42
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SimpleGenericXMLSerializer.cs
+    startLine: 51
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.XMLSerializer
@@ -316,8 +385,8 @@ items:
   type: Method
   source:
     id: Deserialize
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SimpleGenericXMLSerializer.cs
-    startLine: 46
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SimpleGenericXMLSerializer.cs
+    startLine: 55
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.XMLSerializer
@@ -349,8 +418,8 @@ items:
   type: Method
   source:
     id: AddAllTypesInCurrentDomainAssembliesToKnownTypes
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SimpleGenericXMLSerializer.cs
-    startLine: 54
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SimpleGenericXMLSerializer.cs
+    startLine: 63
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.XMLSerializer
@@ -795,6 +864,35 @@ references:
     name: ObjectIsKeyValuePair
     nameWithType: Utilities.ObjectIsKeyValuePair
     fullName: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  name: ObjectIsDictionaryEntry()
+  nameWithType: Utilities.ObjectIsDictionaryEntry()
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
   - name: (
     nameWithType: (
     fullName: (
@@ -1442,6 +1540,44 @@ references:
     name: ObjectIsKeyValuePair
     nameWithType: Utilities.ObjectIsKeyValuePair
     fullName: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  isExternal: true
+  name: ObjectIsDictionaryEntry(Object)
+  nameWithType: Utilities.ObjectIsDictionaryEntry(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
   - name: (
     nameWithType: (
     fullName: (
@@ -2173,6 +2309,40 @@ references:
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
+- uid: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.XmlAttributeOverrides*
+  commentId: Overload:GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.XmlAttributeOverrides
+  name: XmlAttributeOverrides
+  nameWithType: SimpleGenericXMLSerializer<T>.XmlAttributeOverrides
+  fullName: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer<T>.XmlAttributeOverrides
+  nameWithType.vb: SimpleGenericXMLSerializer(Of T).XmlAttributeOverrides
+  fullName.vb: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer(Of T).XmlAttributeOverrides
+- uid: System.Xml.Serialization.XmlAttributeOverrides
+  commentId: T:System.Xml.Serialization.XmlAttributeOverrides
+  parent: System.Xml.Serialization
+  isExternal: true
+  name: XmlAttributeOverrides
+  nameWithType: XmlAttributeOverrides
+  fullName: System.Xml.Serialization.XmlAttributeOverrides
+- uid: System.Xml.Serialization
+  commentId: N:System.Xml.Serialization
+  isExternal: true
+  name: System.Xml.Serialization
+  nameWithType: System.Xml.Serialization
+  fullName: System.Xml.Serialization
+- uid: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.DefaultNamespace*
+  commentId: Overload:GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.DefaultNamespace
+  name: DefaultNamespace
+  nameWithType: SimpleGenericXMLSerializer<T>.DefaultNamespace
+  fullName: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer<T>.DefaultNamespace
+  nameWithType.vb: SimpleGenericXMLSerializer(Of T).DefaultNamespace
+  fullName.vb: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer(Of T).DefaultNamespace
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
 - uid: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.#ctor*
   commentId: Overload:GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.#ctor
   name: SimpleGenericXMLSerializer
@@ -2211,13 +2381,6 @@ references:
   fullName: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer<T>.Serialize
   nameWithType.vb: SimpleGenericXMLSerializer(Of T).Serialize
   fullName.vb: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer(Of T).Serialize
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
 - uid: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.DeserializeFromReader*
   commentId: Overload:GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.DeserializeFromReader
   name: DeserializeFromReader

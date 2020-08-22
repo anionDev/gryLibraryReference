@@ -18,7 +18,7 @@ items:
   type: Class
   source:
     id: SerializableDictionary
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SerializableDictionary.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SerializableDictionary.cs
     startLine: 5
   assemblies:
   - GRYLibrary
@@ -107,6 +107,7 @@ items:
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsList
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionary
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsTuple
   - System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable
   - System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable``1
@@ -127,6 +128,7 @@ items:
   - System.Object.GRYLibrary.Core.Utilities.NullSafeEquals(System.Object)
   - System.Collections.Generic.IDictionary{`0,`1}.GRYLibrary.Core.Utilities.ToSerializableDictionary``2
   - System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}}.GRYLibrary.Core.Utilities.ForEach``1(System.Action{System.Collections.Generic.KeyValuePair{{TKey},{TValue}}})
+  - System.Collections.IEnumerable.GRYLibrary.Core.Utilities.ForEach(System.Action{System.Object})
   nameWithType.vb: SerializableDictionary(Of TKey, TValue)
   modifiers.csharp:
   - public
@@ -149,7 +151,7 @@ items:
   type: Constructor
   source:
     id: .ctor
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SerializableDictionary.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SerializableDictionary.cs
     startLine: 10
   assemblies:
   - GRYLibrary
@@ -177,7 +179,7 @@ items:
   type: Method
   source:
     id: ReadXml
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SerializableDictionary.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SerializableDictionary.cs
     startLine: 16
   assemblies:
   - GRYLibrary
@@ -210,7 +212,7 @@ items:
   type: Method
   source:
     id: WriteXml
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SerializableDictionary.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SerializableDictionary.cs
     startLine: 43
   assemblies:
   - GRYLibrary
@@ -243,7 +245,7 @@ items:
   type: Method
   source:
     id: GetSchema
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SerializableDictionary.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\SerializableDictionary.cs
     startLine: 61
   assemblies:
   - GRYLibrary
@@ -2810,6 +2812,35 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  name: ObjectIsDictionaryEntry()
+  nameWithType: Utilities.ObjectIsDictionaryEntry()
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Object.GRYLibrary.Core.Utilities.ObjectIsTuple
   commentId: M:GRYLibrary.Core.Utilities.ObjectIsTuple(System.Object)
   parent: GRYLibrary.Core.Utilities
@@ -3624,6 +3655,70 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.IEnumerable.GRYLibrary.Core.Utilities.ForEach(System.Action{System.Object})
+  commentId: M:GRYLibrary.Core.Utilities.ForEach(System.Collections.IEnumerable,System.Action{System.Object})
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ForEach(System.Collections.IEnumerable,System.Action{System.Object})
+  name: ForEach(Action<Object>)
+  nameWithType: Utilities.ForEach(Action<Object>)
+  fullName: GRYLibrary.Core.Utilities.ForEach(System.Action<System.Object>)
+  nameWithType.vb: Utilities.ForEach(Action(Of Object))
+  fullName.vb: GRYLibrary.Core.Utilities.ForEach(System.Action(Of System.Object))
+  name.vb: ForEach(Action(Of Object))
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ForEach(System.Action{System.Object})
+    name: ForEach
+    nameWithType: Utilities.ForEach
+    fullName: GRYLibrary.Core.Utilities.ForEach
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ForEach(System.Action{System.Object})
+    name: ForEach
+    nameWithType: Utilities.ForEach
+    fullName: GRYLibrary.Core.Utilities.ForEach
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )
@@ -5783,6 +5878,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  isExternal: true
+  name: ObjectIsDictionaryEntry(Object)
+  nameWithType: Utilities.ObjectIsDictionaryEntry(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: GRYLibrary.Core.Utilities.ObjectIsTuple(System.Object)
   commentId: M:GRYLibrary.Core.Utilities.ObjectIsTuple(System.Object)
   isExternal: true
@@ -6838,6 +6971,85 @@ references:
   - name: T
     nameWithType: T
     fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ForEach(System.Collections.IEnumerable,System.Action{System.Object})
+  commentId: M:GRYLibrary.Core.Utilities.ForEach(System.Collections.IEnumerable,System.Action{System.Object})
+  isExternal: true
+  name: ForEach(IEnumerable, Action<Object>)
+  nameWithType: Utilities.ForEach(IEnumerable, Action<Object>)
+  fullName: GRYLibrary.Core.Utilities.ForEach(System.Collections.IEnumerable, System.Action<System.Object>)
+  nameWithType.vb: Utilities.ForEach(IEnumerable, Action(Of Object))
+  fullName.vb: GRYLibrary.Core.Utilities.ForEach(System.Collections.IEnumerable, System.Action(Of System.Object))
+  name.vb: ForEach(IEnumerable, Action(Of Object))
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ForEach(System.Collections.IEnumerable,System.Action{System.Object})
+    name: ForEach
+    nameWithType: Utilities.ForEach
+    fullName: GRYLibrary.Core.Utilities.ForEach
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IEnumerable
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.IEnumerable
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ForEach(System.Collections.IEnumerable,System.Action{System.Object})
+    name: ForEach
+    nameWithType: Utilities.ForEach
+    fullName: GRYLibrary.Core.Utilities.ForEach
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.IEnumerable
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.IEnumerable
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )

@@ -19,6 +19,22 @@ references:
   commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.Generic
   fullName: GRYLibrary.Core.AdvancedObjectAnalysis.Generic
   nameWithType: Generic
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericDeserialize*
+  name: GenericDeserialize
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.Generic.html#GRYLibrary_Core_AdvancedObjectAnalysis_Generic_GenericDeserialize_
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericDeserialize
+  isSpec: "True"
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericDeserialize
+  nameWithType: Generic.GenericDeserialize
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericDeserialize``1(System.String)
+  name: GenericDeserialize<T>(String)
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.Generic.html#GRYLibrary_Core_AdvancedObjectAnalysis_Generic_GenericDeserialize__1_System_String_
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericDeserialize``1(System.String)
+  name.vb: GenericDeserialize(Of T)(String)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericDeserialize<T>(System.String)
+  fullName.vb: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericDeserialize(Of T)(System.String)
+  nameWithType: Generic.GenericDeserialize<T>(String)
+  nameWithType.vb: Generic.GenericDeserialize(Of T)(String)
 - uid: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericEquals(System.Object,System.Object)
   name: GenericEquals(Object, Object)
   href: api/GRYLibrary.Core.AdvancedObjectAnalysis.Generic.html#GRYLibrary_Core_AdvancedObjectAnalysis_Generic_GenericEquals_System_Object_System_Object_
@@ -71,12 +87,25 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericReadXml
   nameWithType: Generic.GenericReadXml
-- uid: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericToString(System.Object)
-  name: GenericToString(Object)
-  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.Generic.html#GRYLibrary_Core_AdvancedObjectAnalysis_Generic_GenericToString_System_Object_
-  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericToString(System.Object)
-  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericToString(System.Object)
-  nameWithType: Generic.GenericToString(Object)
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericSerialize(System.Object)
+  name: GenericSerialize(Object)
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.Generic.html#GRYLibrary_Core_AdvancedObjectAnalysis_Generic_GenericSerialize_System_Object_
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericSerialize(System.Object)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericSerialize(System.Object)
+  nameWithType: Generic.GenericSerialize(Object)
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericSerialize*
+  name: GenericSerialize
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.Generic.html#GRYLibrary_Core_AdvancedObjectAnalysis_Generic_GenericSerialize_
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericSerialize
+  isSpec: "True"
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericSerialize
+  nameWithType: Generic.GenericSerialize
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericToString(System.Object,System.Int32)
+  name: GenericToString(Object, Int32)
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.Generic.html#GRYLibrary_Core_AdvancedObjectAnalysis_Generic_GenericToString_System_Object_System_Int32_
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericToString(System.Object,System.Int32)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericToString(System.Object, System.Int32)
+  nameWithType: Generic.GenericToString(Object, Int32)
 - uid: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericToString*
   name: GenericToString
   href: api/GRYLibrary.Core.AdvancedObjectAnalysis.Generic.html#GRYLibrary_Core_AdvancedObjectAnalysis_Generic_GenericToString_
@@ -97,6 +126,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericWriteXml
   nameWithType: Generic.GenericWriteXml
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.IterateOverObjectTransitively(System.Object)
+  name: IterateOverObjectTransitively(Object)
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.Generic.html#GRYLibrary_Core_AdvancedObjectAnalysis_Generic_IterateOverObjectTransitively_System_Object_
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.Generic.IterateOverObjectTransitively(System.Object)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.IterateOverObjectTransitively(System.Object)
+  nameWithType: Generic.IterateOverObjectTransitively(Object)
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.IterateOverObjectTransitively*
+  name: IterateOverObjectTransitively
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.Generic.html#GRYLibrary_Core_AdvancedObjectAnalysis_Generic_IterateOverObjectTransitively_
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.Generic.IterateOverObjectTransitively
+  isSpec: "True"
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.Generic.IterateOverObjectTransitively
+  nameWithType: Generic.IterateOverObjectTransitively
 - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericToString
   name: GenericToString
   href: api/GRYLibrary.Core.AdvancedObjectAnalysis.GenericToString.html
@@ -313,6 +355,19 @@ references:
   commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive
   fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive
   nameWithType: FlatPrimitive
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.#ctor
+  name: FlatPrimitive()
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.html#GRYLibrary_Core_AdvancedObjectAnalysis_GenericXMLSerializerHelper_ConcreteSimplifiedObjects_FlatPrimitive__ctor
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.#ctor
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.FlatPrimitive()
+  nameWithType: FlatPrimitive.FlatPrimitive()
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.#ctor*
+  name: FlatPrimitive
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.html#GRYLibrary_Core_AdvancedObjectAnalysis_GenericXMLSerializerHelper_ConcreteSimplifiedObjects_FlatPrimitive__ctor_
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.#ctor
+  isSpec: "True"
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.FlatPrimitive
+  nameWithType: FlatPrimitive.FlatPrimitive
 - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.Accept(GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.FlatObject.IFlatObjectVisitor)
   name: Accept(FlatObject.IFlatObjectVisitor)
   href: api/GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects.FlatPrimitive.html#GRYLibrary_Core_AdvancedObjectAnalysis_GenericXMLSerializerHelper_ConcreteSimplifiedObjects_FlatPrimitive_Accept_GRYLibrary_Core_AdvancedObjectAnalysis_GenericXMLSerializerHelper_FlatObject_IFlatObjectVisitor_
@@ -546,6 +601,25 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.GRYSObject.RootObjectId
   nameWithType: GRYSObject.RootObjectId
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.IGRYSerializable
+  name: IGRYSerializable
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.IGRYSerializable.html
+  commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.IGRYSerializable
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.IGRYSerializable
+  nameWithType: IGRYSerializable
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.IGRYSerializable.GetExtraTypesWhichAreRequiredForSerialization
+  name: GetExtraTypesWhichAreRequiredForSerialization()
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.IGRYSerializable.html#GRYLibrary_Core_AdvancedObjectAnalysis_GenericXMLSerializerHelper_IGRYSerializable_GetExtraTypesWhichAreRequiredForSerialization
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.IGRYSerializable.GetExtraTypesWhichAreRequiredForSerialization
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.IGRYSerializable.GetExtraTypesWhichAreRequiredForSerialization()
+  nameWithType: IGRYSerializable.GetExtraTypesWhichAreRequiredForSerialization()
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.IGRYSerializable.GetExtraTypesWhichAreRequiredForSerialization*
+  name: GetExtraTypesWhichAreRequiredForSerialization
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.IGRYSerializable.html#GRYLibrary_Core_AdvancedObjectAnalysis_GenericXMLSerializerHelper_IGRYSerializable_GetExtraTypesWhichAreRequiredForSerialization_
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.IGRYSerializable.GetExtraTypesWhichAreRequiredForSerialization
+  isSpec: "True"
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.IGRYSerializable.GetExtraTypesWhichAreRequiredForSerialization
+  nameWithType: IGRYSerializable.GetExtraTypesWhichAreRequiredForSerialization
 - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.SerializationConfiguration
   name: SerializationConfiguration
   href: api/GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.SerializationConfiguration.html
@@ -604,19 +678,6 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.SerializationConfiguration.PropertySelector
   nameWithType: SerializationConfiguration.PropertySelector
-- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.SerializationConfiguration.XmlSerializer
-  name: XmlSerializer
-  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.SerializationConfiguration.html#GRYLibrary_Core_AdvancedObjectAnalysis_GenericXMLSerializerHelper_SerializationConfiguration_XmlSerializer
-  commentId: P:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.SerializationConfiguration.XmlSerializer
-  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.SerializationConfiguration.XmlSerializer
-  nameWithType: SerializationConfiguration.XmlSerializer
-- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.SerializationConfiguration.XmlSerializer*
-  name: XmlSerializer
-  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.SerializationConfiguration.html#GRYLibrary_Core_AdvancedObjectAnalysis_GenericXMLSerializerHelper_SerializationConfiguration_XmlSerializer_
-  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.SerializationConfiguration.XmlSerializer
-  isSpec: "True"
-  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.SerializationConfiguration.XmlSerializer
-  nameWithType: SerializationConfiguration.XmlSerializer
 - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator
   name: PropertyEqualsCalculator
   href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator.html
@@ -636,6 +697,32 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator.PropertyEqualsCalculator
   nameWithType: PropertyEqualsCalculator.PropertyEqualsCalculator
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator.DefaultEquals(System.Object,System.Object)
+  name: DefaultEquals(Object, Object)
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculator_DefaultEquals_System_Object_System_Object_
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator.DefaultEquals(System.Object,System.Object)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator.DefaultEquals(System.Object, System.Object)
+  nameWithType: PropertyEqualsCalculator.DefaultEquals(Object, Object)
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator.DefaultEquals*
+  name: DefaultEquals
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculator_DefaultEquals_
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator.DefaultEquals
+  isSpec: "True"
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator.DefaultEquals
+  nameWithType: PropertyEqualsCalculator.DefaultEquals
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator.DefaultGetHashCode(System.Object)
+  name: DefaultGetHashCode(Object)
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculator_DefaultGetHashCode_System_Object_
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator.DefaultGetHashCode(System.Object)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator.DefaultGetHashCode(System.Object)
+  nameWithType: PropertyEqualsCalculator.DefaultGetHashCode(Object)
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator.DefaultGetHashCode*
+  name: DefaultGetHashCode
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculator_DefaultGetHashCode_
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator.DefaultGetHashCode
+  isSpec: "True"
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator.DefaultGetHashCode
+  nameWithType: PropertyEqualsCalculator.DefaultGetHashCode
 - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper
   name: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper
   href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.html
@@ -686,6 +773,32 @@ references:
   commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.AttributeValueComparer
   fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.AttributeValueComparer
   nameWithType: AttributeValueComparer
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.AttributeValueComparer.DefaultEquals(System.Object,System.Object)
+  name: DefaultEquals(Object, Object)
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.AttributeValueComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_AttributeValueComparer_DefaultEquals_System_Object_System_Object_
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.AttributeValueComparer.DefaultEquals(System.Object,System.Object)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.AttributeValueComparer.DefaultEquals(System.Object, System.Object)
+  nameWithType: AttributeValueComparer.DefaultEquals(Object, Object)
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.AttributeValueComparer.DefaultEquals*
+  name: DefaultEquals
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.AttributeValueComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_AttributeValueComparer_DefaultEquals_
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.AttributeValueComparer.DefaultEquals
+  isSpec: "True"
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.AttributeValueComparer.DefaultEquals
+  nameWithType: AttributeValueComparer.DefaultEquals
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.AttributeValueComparer.DefaultGetHashCode(System.Object)
+  name: DefaultGetHashCode(Object)
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.AttributeValueComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_AttributeValueComparer_DefaultGetHashCode_System_Object_
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.AttributeValueComparer.DefaultGetHashCode(System.Object)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.AttributeValueComparer.DefaultGetHashCode(System.Object)
+  nameWithType: AttributeValueComparer.DefaultGetHashCode(Object)
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.AttributeValueComparer.DefaultGetHashCode*
+  name: DefaultGetHashCode
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.AttributeValueComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_AttributeValueComparer_DefaultGetHashCode_
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.AttributeValueComparer.DefaultGetHashCode
+  isSpec: "True"
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.AttributeValueComparer.DefaultGetHashCode
+  nameWithType: AttributeValueComparer.DefaultGetHashCode
 - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.AttributeValueComparer.IsApplicable(System.Type,System.Type)
   name: IsApplicable(Type, Type)
   href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.AttributeValueComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_AttributeValueComparer_IsApplicable_System_Type_System_Type_
@@ -705,6 +818,32 @@ references:
   commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.DictionaryComparer
   fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.DictionaryComparer
   nameWithType: DictionaryComparer
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.DictionaryComparer.DefaultEquals(System.Object,System.Object)
+  name: DefaultEquals(Object, Object)
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.DictionaryComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_DictionaryComparer_DefaultEquals_System_Object_System_Object_
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.DictionaryComparer.DefaultEquals(System.Object,System.Object)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.DictionaryComparer.DefaultEquals(System.Object, System.Object)
+  nameWithType: DictionaryComparer.DefaultEquals(Object, Object)
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.DictionaryComparer.DefaultEquals*
+  name: DefaultEquals
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.DictionaryComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_DictionaryComparer_DefaultEquals_
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.DictionaryComparer.DefaultEquals
+  isSpec: "True"
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.DictionaryComparer.DefaultEquals
+  nameWithType: DictionaryComparer.DefaultEquals
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.DictionaryComparer.DefaultGetHashCode(System.Object)
+  name: DefaultGetHashCode(Object)
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.DictionaryComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_DictionaryComparer_DefaultGetHashCode_System_Object_
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.DictionaryComparer.DefaultGetHashCode(System.Object)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.DictionaryComparer.DefaultGetHashCode(System.Object)
+  nameWithType: DictionaryComparer.DefaultGetHashCode(Object)
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.DictionaryComparer.DefaultGetHashCode*
+  name: DefaultGetHashCode
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.DictionaryComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_DictionaryComparer_DefaultGetHashCode_
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.DictionaryComparer.DefaultGetHashCode
+  isSpec: "True"
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.DictionaryComparer.DefaultGetHashCode
+  nameWithType: DictionaryComparer.DefaultGetHashCode
 - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.DictionaryComparer.IsApplicable(System.Type,System.Type)
   name: IsApplicable(Type, Type)
   href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.DictionaryComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_DictionaryComparer_IsApplicable_System_Type_System_Type_
@@ -724,6 +863,32 @@ references:
   commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.EnumerableComparer
   fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.EnumerableComparer
   nameWithType: EnumerableComparer
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.EnumerableComparer.DefaultEquals(System.Object,System.Object)
+  name: DefaultEquals(Object, Object)
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.EnumerableComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_EnumerableComparer_DefaultEquals_System_Object_System_Object_
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.EnumerableComparer.DefaultEquals(System.Object,System.Object)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.EnumerableComparer.DefaultEquals(System.Object, System.Object)
+  nameWithType: EnumerableComparer.DefaultEquals(Object, Object)
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.EnumerableComparer.DefaultEquals*
+  name: DefaultEquals
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.EnumerableComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_EnumerableComparer_DefaultEquals_
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.EnumerableComparer.DefaultEquals
+  isSpec: "True"
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.EnumerableComparer.DefaultEquals
+  nameWithType: EnumerableComparer.DefaultEquals
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.EnumerableComparer.DefaultGetHashCode(System.Object)
+  name: DefaultGetHashCode(Object)
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.EnumerableComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_EnumerableComparer_DefaultGetHashCode_System_Object_
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.EnumerableComparer.DefaultGetHashCode(System.Object)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.EnumerableComparer.DefaultGetHashCode(System.Object)
+  nameWithType: EnumerableComparer.DefaultGetHashCode(Object)
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.EnumerableComparer.DefaultGetHashCode*
+  name: DefaultGetHashCode
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.EnumerableComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_EnumerableComparer_DefaultGetHashCode_
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.EnumerableComparer.DefaultGetHashCode
+  isSpec: "True"
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.EnumerableComparer.DefaultGetHashCode
+  nameWithType: EnumerableComparer.DefaultGetHashCode
 - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.EnumerableComparer.IsApplicable(System.Type,System.Type)
   name: IsApplicable(Type, Type)
   href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.EnumerableComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_EnumerableComparer_IsApplicable_System_Type_System_Type_
@@ -743,6 +908,32 @@ references:
   commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.KeyValuePairComparer
   fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.KeyValuePairComparer
   nameWithType: KeyValuePairComparer
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.KeyValuePairComparer.DefaultEquals(System.Object,System.Object)
+  name: DefaultEquals(Object, Object)
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.KeyValuePairComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_KeyValuePairComparer_DefaultEquals_System_Object_System_Object_
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.KeyValuePairComparer.DefaultEquals(System.Object,System.Object)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.KeyValuePairComparer.DefaultEquals(System.Object, System.Object)
+  nameWithType: KeyValuePairComparer.DefaultEquals(Object, Object)
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.KeyValuePairComparer.DefaultEquals*
+  name: DefaultEquals
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.KeyValuePairComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_KeyValuePairComparer_DefaultEquals_
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.KeyValuePairComparer.DefaultEquals
+  isSpec: "True"
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.KeyValuePairComparer.DefaultEquals
+  nameWithType: KeyValuePairComparer.DefaultEquals
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.KeyValuePairComparer.DefaultGetHashCode(System.Object)
+  name: DefaultGetHashCode(Object)
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.KeyValuePairComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_KeyValuePairComparer_DefaultGetHashCode_System_Object_
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.KeyValuePairComparer.DefaultGetHashCode(System.Object)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.KeyValuePairComparer.DefaultGetHashCode(System.Object)
+  nameWithType: KeyValuePairComparer.DefaultGetHashCode(Object)
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.KeyValuePairComparer.DefaultGetHashCode*
+  name: DefaultGetHashCode
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.KeyValuePairComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_KeyValuePairComparer_DefaultGetHashCode_
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.KeyValuePairComparer.DefaultGetHashCode
+  isSpec: "True"
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.KeyValuePairComparer.DefaultGetHashCode
+  nameWithType: KeyValuePairComparer.DefaultGetHashCode
 - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.KeyValuePairComparer.IsApplicable(System.Type,System.Type)
   name: IsApplicable(Type, Type)
   href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.KeyValuePairComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_KeyValuePairComparer_IsApplicable_System_Type_System_Type_
@@ -762,6 +953,32 @@ references:
   commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.ListComparer
   fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.ListComparer
   nameWithType: ListComparer
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.ListComparer.DefaultEquals(System.Object,System.Object)
+  name: DefaultEquals(Object, Object)
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.ListComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_ListComparer_DefaultEquals_System_Object_System_Object_
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.ListComparer.DefaultEquals(System.Object,System.Object)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.ListComparer.DefaultEquals(System.Object, System.Object)
+  nameWithType: ListComparer.DefaultEquals(Object, Object)
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.ListComparer.DefaultEquals*
+  name: DefaultEquals
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.ListComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_ListComparer_DefaultEquals_
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.ListComparer.DefaultEquals
+  isSpec: "True"
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.ListComparer.DefaultEquals
+  nameWithType: ListComparer.DefaultEquals
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.ListComparer.DefaultGetHashCode(System.Object)
+  name: DefaultGetHashCode(Object)
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.ListComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_ListComparer_DefaultGetHashCode_System_Object_
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.ListComparer.DefaultGetHashCode(System.Object)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.ListComparer.DefaultGetHashCode(System.Object)
+  nameWithType: ListComparer.DefaultGetHashCode(Object)
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.ListComparer.DefaultGetHashCode*
+  name: DefaultGetHashCode
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.ListComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_ListComparer_DefaultGetHashCode_
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.ListComparer.DefaultGetHashCode
+  isSpec: "True"
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.ListComparer.DefaultGetHashCode
+  nameWithType: ListComparer.DefaultGetHashCode
 - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.ListComparer.IsApplicable(System.Type,System.Type)
   name: IsApplicable(Type, Type)
   href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.ListComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_ListComparer_IsApplicable_System_Type_System_Type_
@@ -781,6 +998,32 @@ references:
   commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.PrimitiveComparer
   fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.PrimitiveComparer
   nameWithType: PrimitiveComparer
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.PrimitiveComparer.DefaultEquals(System.Object,System.Object)
+  name: DefaultEquals(Object, Object)
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.PrimitiveComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_PrimitiveComparer_DefaultEquals_System_Object_System_Object_
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.PrimitiveComparer.DefaultEquals(System.Object,System.Object)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.PrimitiveComparer.DefaultEquals(System.Object, System.Object)
+  nameWithType: PrimitiveComparer.DefaultEquals(Object, Object)
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.PrimitiveComparer.DefaultEquals*
+  name: DefaultEquals
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.PrimitiveComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_PrimitiveComparer_DefaultEquals_
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.PrimitiveComparer.DefaultEquals
+  isSpec: "True"
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.PrimitiveComparer.DefaultEquals
+  nameWithType: PrimitiveComparer.DefaultEquals
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.PrimitiveComparer.DefaultGetHashCode(System.Object)
+  name: DefaultGetHashCode(Object)
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.PrimitiveComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_PrimitiveComparer_DefaultGetHashCode_System_Object_
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.PrimitiveComparer.DefaultGetHashCode(System.Object)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.PrimitiveComparer.DefaultGetHashCode(System.Object)
+  nameWithType: PrimitiveComparer.DefaultGetHashCode(Object)
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.PrimitiveComparer.DefaultGetHashCode*
+  name: DefaultGetHashCode
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.PrimitiveComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_PrimitiveComparer_DefaultGetHashCode_
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.PrimitiveComparer.DefaultGetHashCode
+  isSpec: "True"
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.PrimitiveComparer.DefaultGetHashCode
+  nameWithType: PrimitiveComparer.DefaultGetHashCode
 - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.PrimitiveComparer.IsApplicable(System.Type,System.Type)
   name: IsApplicable(Type, Type)
   href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.PrimitiveComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_PrimitiveComparer_IsApplicable_System_Type_System_Type_
@@ -813,6 +1056,32 @@ references:
   commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.SetComparer
   fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.SetComparer
   nameWithType: SetComparer
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.SetComparer.DefaultEquals(System.Object,System.Object)
+  name: DefaultEquals(Object, Object)
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.SetComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_SetComparer_DefaultEquals_System_Object_System_Object_
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.SetComparer.DefaultEquals(System.Object,System.Object)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.SetComparer.DefaultEquals(System.Object, System.Object)
+  nameWithType: SetComparer.DefaultEquals(Object, Object)
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.SetComparer.DefaultEquals*
+  name: DefaultEquals
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.SetComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_SetComparer_DefaultEquals_
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.SetComparer.DefaultEquals
+  isSpec: "True"
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.SetComparer.DefaultEquals
+  nameWithType: SetComparer.DefaultEquals
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.SetComparer.DefaultGetHashCode(System.Object)
+  name: DefaultGetHashCode(Object)
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.SetComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_SetComparer_DefaultGetHashCode_System_Object_
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.SetComparer.DefaultGetHashCode(System.Object)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.SetComparer.DefaultGetHashCode(System.Object)
+  nameWithType: SetComparer.DefaultGetHashCode(Object)
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.SetComparer.DefaultGetHashCode*
+  name: DefaultGetHashCode
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.SetComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_SetComparer_DefaultGetHashCode_
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.SetComparer.DefaultGetHashCode
+  isSpec: "True"
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.SetComparer.DefaultGetHashCode
+  nameWithType: SetComparer.DefaultGetHashCode
 - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.SetComparer.IsApplicable(System.Type,System.Type)
   name: IsApplicable(Type, Type)
   href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.SetComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_SetComparer_IsApplicable_System_Type_System_Type_
@@ -832,6 +1101,32 @@ references:
   commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.TupleComparer
   fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.TupleComparer
   nameWithType: TupleComparer
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.TupleComparer.DefaultEquals(System.Object,System.Object)
+  name: DefaultEquals(Object, Object)
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.TupleComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_TupleComparer_DefaultEquals_System_Object_System_Object_
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.TupleComparer.DefaultEquals(System.Object,System.Object)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.TupleComparer.DefaultEquals(System.Object, System.Object)
+  nameWithType: TupleComparer.DefaultEquals(Object, Object)
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.TupleComparer.DefaultEquals*
+  name: DefaultEquals
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.TupleComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_TupleComparer_DefaultEquals_
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.TupleComparer.DefaultEquals
+  isSpec: "True"
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.TupleComparer.DefaultEquals
+  nameWithType: TupleComparer.DefaultEquals
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.TupleComparer.DefaultGetHashCode(System.Object)
+  name: DefaultGetHashCode(Object)
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.TupleComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_TupleComparer_DefaultGetHashCode_System_Object_
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.TupleComparer.DefaultGetHashCode(System.Object)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.TupleComparer.DefaultGetHashCode(System.Object)
+  nameWithType: TupleComparer.DefaultGetHashCode(Object)
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.TupleComparer.DefaultGetHashCode*
+  name: DefaultGetHashCode
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.TupleComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_TupleComparer_DefaultGetHashCode_
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.TupleComparer.DefaultGetHashCode
+  isSpec: "True"
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.TupleComparer.DefaultGetHashCode
+  nameWithType: TupleComparer.DefaultGetHashCode
 - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.TupleComparer.IsApplicable(System.Type,System.Type)
   name: IsApplicable(Type, Type)
   href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.TupleComparer.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_CustomComparer_TupleComparer_IsApplicable_System_Type_System_Type_
@@ -879,6 +1174,40 @@ references:
   fullName.vb: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer(Of T)._PropertyEqualsCalculator
   nameWithType: GRYEqualityComparer<T>._PropertyEqualsCalculator
   nameWithType.vb: GRYEqualityComparer(Of T)._PropertyEqualsCalculator
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer`1.DefaultEquals(`0,`0)
+  name: DefaultEquals(T, T)
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer-1.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_GRYEqualityComparer_1_DefaultEquals__0__0_
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer`1.DefaultEquals(`0,`0)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer<T>.DefaultEquals(T, T)
+  fullName.vb: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer(Of T).DefaultEquals(T, T)
+  nameWithType: GRYEqualityComparer<T>.DefaultEquals(T, T)
+  nameWithType.vb: GRYEqualityComparer(Of T).DefaultEquals(T, T)
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer`1.DefaultEquals*
+  name: DefaultEquals
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer-1.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_GRYEqualityComparer_1_DefaultEquals_
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer`1.DefaultEquals
+  isSpec: "True"
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer<T>.DefaultEquals
+  fullName.vb: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer(Of T).DefaultEquals
+  nameWithType: GRYEqualityComparer<T>.DefaultEquals
+  nameWithType.vb: GRYEqualityComparer(Of T).DefaultEquals
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer`1.DefaultGetHashCode(`0)
+  name: DefaultGetHashCode(T)
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer-1.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_GRYEqualityComparer_1_DefaultGetHashCode__0_
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer`1.DefaultGetHashCode(`0)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer<T>.DefaultGetHashCode(T)
+  fullName.vb: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer(Of T).DefaultGetHashCode(T)
+  nameWithType: GRYEqualityComparer<T>.DefaultGetHashCode(T)
+  nameWithType.vb: GRYEqualityComparer(Of T).DefaultGetHashCode(T)
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer`1.DefaultGetHashCode*
+  name: DefaultGetHashCode
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer-1.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_GRYEqualityComparer_1_DefaultGetHashCode_
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer`1.DefaultGetHashCode
+  isSpec: "True"
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer<T>.DefaultGetHashCode
+  fullName.vb: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer(Of T).DefaultGetHashCode
+  nameWithType: GRYEqualityComparer<T>.DefaultGetHashCode
+  nameWithType.vb: GRYEqualityComparer(Of T).DefaultGetHashCode
 - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer`1.Equals(`0,`0)
   name: Equals(T, T)
   href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer-1.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculatorHelper_GRYEqualityComparer_1_Equals__0__0_
@@ -1029,6 +1358,95 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.ReferenceEqualsComparer.GetHashCode
   nameWithType: ReferenceEqualsComparer.GetHashCode
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator
+  name: PropertyIterator
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator.html
+  commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator
+  nameWithType: PropertyIterator
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator.#ctor
+  name: PropertyIterator()
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyIterator__ctor
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator.#ctor
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator.PropertyIterator()
+  nameWithType: PropertyIterator.PropertyIterator()
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator.#ctor(GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper.PropertyIteratorConfiguration)
+  name: PropertyIterator(PropertyIteratorConfiguration)
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyIterator__ctor_GRYLibrary_Core_AdvancedObjectAnalysis_PropertyIteratorHelper_PropertyIteratorConfiguration_
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator.#ctor(GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper.PropertyIteratorConfiguration)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator.PropertyIterator(GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper.PropertyIteratorConfiguration)
+  nameWithType: PropertyIterator.PropertyIterator(PropertyIteratorConfiguration)
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator.#ctor*
+  name: PropertyIterator
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyIterator__ctor_
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator.#ctor
+  isSpec: "True"
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator.PropertyIterator
+  nameWithType: PropertyIterator.PropertyIterator
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator.Configuration
+  name: Configuration
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyIterator_Configuration
+  commentId: P:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator.Configuration
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator.Configuration
+  nameWithType: PropertyIterator.Configuration
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator.Configuration*
+  name: Configuration
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyIterator_Configuration_
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator.Configuration
+  isSpec: "True"
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator.Configuration
+  nameWithType: PropertyIterator.Configuration
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator.IterateOverObjectTransitively(System.Object)
+  name: IterateOverObjectTransitively(Object)
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyIterator_IterateOverObjectTransitively_System_Object_
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator.IterateOverObjectTransitively(System.Object)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator.IterateOverObjectTransitively(System.Object)
+  nameWithType: PropertyIterator.IterateOverObjectTransitively(Object)
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator.IterateOverObjectTransitively*
+  name: IterateOverObjectTransitively
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyIterator_IterateOverObjectTransitively_
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator.IterateOverObjectTransitively
+  isSpec: "True"
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator.IterateOverObjectTransitively
+  nameWithType: PropertyIterator.IterateOverObjectTransitively
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper
+  name: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper.html
+  commentId: N:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper
+  nameWithType: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper.PropertyIteratorConfiguration
+  name: PropertyIteratorConfiguration
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper.PropertyIteratorConfiguration.html
+  commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper.PropertyIteratorConfiguration
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper.PropertyIteratorConfiguration
+  nameWithType: PropertyIteratorConfiguration
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper.PropertyIteratorConfiguration.FieldSelector
+  name: FieldSelector
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper.PropertyIteratorConfiguration.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyIteratorHelper_PropertyIteratorConfiguration_FieldSelector
+  commentId: P:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper.PropertyIteratorConfiguration.FieldSelector
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper.PropertyIteratorConfiguration.FieldSelector
+  nameWithType: PropertyIteratorConfiguration.FieldSelector
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper.PropertyIteratorConfiguration.FieldSelector*
+  name: FieldSelector
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper.PropertyIteratorConfiguration.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyIteratorHelper_PropertyIteratorConfiguration_FieldSelector_
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper.PropertyIteratorConfiguration.FieldSelector
+  isSpec: "True"
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper.PropertyIteratorConfiguration.FieldSelector
+  nameWithType: PropertyIteratorConfiguration.FieldSelector
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper.PropertyIteratorConfiguration.PropertySelector
+  name: PropertySelector
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper.PropertyIteratorConfiguration.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyIteratorHelper_PropertyIteratorConfiguration_PropertySelector
+  commentId: P:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper.PropertyIteratorConfiguration.PropertySelector
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper.PropertyIteratorConfiguration.PropertySelector
+  nameWithType: PropertyIteratorConfiguration.PropertySelector
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper.PropertyIteratorConfiguration.PropertySelector*
+  name: PropertySelector
+  href: api/GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper.PropertyIteratorConfiguration.html#GRYLibrary_Core_AdvancedObjectAnalysis_PropertyIteratorHelper_PropertyIteratorConfiguration_PropertySelector_
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper.PropertyIteratorConfiguration.PropertySelector
+  isSpec: "True"
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper.PropertyIteratorConfiguration.PropertySelector
+  nameWithType: PropertyIteratorConfiguration.PropertySelector
 - uid: GRYLibrary.Core.AdvancedXMLSerialysis
   name: GRYLibrary.Core.AdvancedXMLSerialysis
   href: api/GRYLibrary.Core.AdvancedXMLSerialysis.html
@@ -1041,12 +1459,31 @@ references:
   commentId: T:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer
   fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer
   nameWithType: GenericXMLSerializer
+- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.#ctor
+  name: GenericXMLSerializer()
+  href: api/GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.html#GRYLibrary_Core_AdvancedXMLSerialysis_GenericXMLSerializer__ctor
+  commentId: M:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.#ctor
+  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.GenericXMLSerializer()
+  nameWithType: GenericXMLSerializer.GenericXMLSerializer()
+- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.#ctor(System.Type)
+  name: GenericXMLSerializer(Type)
+  href: api/GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.html#GRYLibrary_Core_AdvancedXMLSerialysis_GenericXMLSerializer__ctor_System_Type_
+  commentId: M:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.#ctor(System.Type)
+  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.GenericXMLSerializer(System.Type)
+  nameWithType: GenericXMLSerializer.GenericXMLSerializer(Type)
+- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.#ctor*
+  name: GenericXMLSerializer
+  href: api/GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.html#GRYLibrary_Core_AdvancedXMLSerialysis_GenericXMLSerializer__ctor_
+  commentId: Overload:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.#ctor
+  isSpec: "True"
+  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.GenericXMLSerializer
+  nameWithType: GenericXMLSerializer.GenericXMLSerializer
 - uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.DefaultInstance
-  name: DefaultInstance
+  name: DefaultInstance()
   href: api/GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.html#GRYLibrary_Core_AdvancedXMLSerialysis_GenericXMLSerializer_DefaultInstance
-  commentId: P:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.DefaultInstance
-  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.DefaultInstance
-  nameWithType: GenericXMLSerializer.DefaultInstance
+  commentId: M:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.DefaultInstance
+  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.DefaultInstance()
+  nameWithType: GenericXMLSerializer.DefaultInstance()
 - uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.DefaultInstance*
   name: DefaultInstance
   href: api/GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.html#GRYLibrary_Core_AdvancedXMLSerialysis_GenericXMLSerializer_DefaultInstance_
@@ -1054,6 +1491,66 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.DefaultInstance
   nameWithType: GenericXMLSerializer.DefaultInstance
+- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize(System.String)
+  name: Deserialize(String)
+  href: api/GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.html#GRYLibrary_Core_AdvancedXMLSerialysis_GenericXMLSerializer_Deserialize_System_String_
+  commentId: M:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize(System.String)
+  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize(System.String)
+  nameWithType: GenericXMLSerializer.Deserialize(String)
+- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize(System.Xml.XmlReader)
+  name: Deserialize(XmlReader)
+  href: api/GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.html#GRYLibrary_Core_AdvancedXMLSerialysis_GenericXMLSerializer_Deserialize_System_Xml_XmlReader_
+  commentId: M:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize(System.Xml.XmlReader)
+  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize(System.Xml.XmlReader)
+  nameWithType: GenericXMLSerializer.Deserialize(XmlReader)
+- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize*
+  name: Deserialize
+  href: api/GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.html#GRYLibrary_Core_AdvancedXMLSerialysis_GenericXMLSerializer_Deserialize_
+  commentId: Overload:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize
+  isSpec: "True"
+  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize
+  nameWithType: GenericXMLSerializer.Deserialize
+- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize``1(System.String)
+  name: Deserialize<U>(String)
+  href: api/GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.html#GRYLibrary_Core_AdvancedXMLSerialysis_GenericXMLSerializer_Deserialize__1_System_String_
+  commentId: M:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize``1(System.String)
+  name.vb: Deserialize(Of U)(String)
+  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize<U>(System.String)
+  fullName.vb: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Deserialize(Of U)(System.String)
+  nameWithType: GenericXMLSerializer.Deserialize<U>(String)
+  nameWithType.vb: GenericXMLSerializer.Deserialize(Of U)(String)
+- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.SerializationConfiguration
+  name: SerializationConfiguration
+  href: api/GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.html#GRYLibrary_Core_AdvancedXMLSerialysis_GenericXMLSerializer_SerializationConfiguration
+  commentId: P:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.SerializationConfiguration
+  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.SerializationConfiguration
+  nameWithType: GenericXMLSerializer.SerializationConfiguration
+- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.SerializationConfiguration*
+  name: SerializationConfiguration
+  href: api/GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.html#GRYLibrary_Core_AdvancedXMLSerialysis_GenericXMLSerializer_SerializationConfiguration_
+  commentId: Overload:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.SerializationConfiguration
+  isSpec: "True"
+  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.SerializationConfiguration
+  nameWithType: GenericXMLSerializer.SerializationConfiguration
+- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Serialize(System.Object)
+  name: Serialize(Object)
+  href: api/GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.html#GRYLibrary_Core_AdvancedXMLSerialysis_GenericXMLSerializer_Serialize_System_Object_
+  commentId: M:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Serialize(System.Object)
+  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Serialize(System.Object)
+  nameWithType: GenericXMLSerializer.Serialize(Object)
+- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Serialize(System.Object,System.Xml.XmlWriter)
+  name: Serialize(Object, XmlWriter)
+  href: api/GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.html#GRYLibrary_Core_AdvancedXMLSerialysis_GenericXMLSerializer_Serialize_System_Object_System_Xml_XmlWriter_
+  commentId: M:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Serialize(System.Object,System.Xml.XmlWriter)
+  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Serialize(System.Object, System.Xml.XmlWriter)
+  nameWithType: GenericXMLSerializer.Serialize(Object, XmlWriter)
+- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Serialize*
+  name: Serialize
+  href: api/GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.html#GRYLibrary_Core_AdvancedXMLSerialysis_GenericXMLSerializer_Serialize_
+  commentId: Overload:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Serialize
+  isSpec: "True"
+  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer.Serialize
+  nameWithType: GenericXMLSerializer.Serialize
 - uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1
   name: GenericXMLSerializer<T>
   href: api/GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer-1.html
@@ -1063,99 +1560,31 @@ references:
   fullName.vb: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer(Of T)
   nameWithType: GenericXMLSerializer<T>
   nameWithType.vb: GenericXMLSerializer(Of T)
-- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.#ctor
-  name: GenericXMLSerializer()
-  href: api/GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer-1.html#GRYLibrary_Core_AdvancedXMLSerialysis_GenericXMLSerializer_1__ctor
-  commentId: M:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.#ctor
-  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer<T>.GenericXMLSerializer()
-  fullName.vb: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer(Of T).GenericXMLSerializer()
-  nameWithType: GenericXMLSerializer<T>.GenericXMLSerializer()
-  nameWithType.vb: GenericXMLSerializer(Of T).GenericXMLSerializer()
-- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.#ctor*
-  name: GenericXMLSerializer
-  href: api/GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer-1.html#GRYLibrary_Core_AdvancedXMLSerialysis_GenericXMLSerializer_1__ctor_
-  commentId: Overload:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.#ctor
+- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.DeserializeTyped(System.String)
+  name: DeserializeTyped(String)
+  href: api/GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer-1.html#GRYLibrary_Core_AdvancedXMLSerialysis_GenericXMLSerializer_1_DeserializeTyped_System_String_
+  commentId: M:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.DeserializeTyped(System.String)
+  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer<T>.DeserializeTyped(System.String)
+  fullName.vb: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer(Of T).DeserializeTyped(System.String)
+  nameWithType: GenericXMLSerializer<T>.DeserializeTyped(String)
+  nameWithType.vb: GenericXMLSerializer(Of T).DeserializeTyped(String)
+- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.DeserializeTyped(System.Xml.XmlReader)
+  name: DeserializeTyped(XmlReader)
+  href: api/GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer-1.html#GRYLibrary_Core_AdvancedXMLSerialysis_GenericXMLSerializer_1_DeserializeTyped_System_Xml_XmlReader_
+  commentId: M:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.DeserializeTyped(System.Xml.XmlReader)
+  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer<T>.DeserializeTyped(System.Xml.XmlReader)
+  fullName.vb: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer(Of T).DeserializeTyped(System.Xml.XmlReader)
+  nameWithType: GenericXMLSerializer<T>.DeserializeTyped(XmlReader)
+  nameWithType.vb: GenericXMLSerializer(Of T).DeserializeTyped(XmlReader)
+- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.DeserializeTyped*
+  name: DeserializeTyped
+  href: api/GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer-1.html#GRYLibrary_Core_AdvancedXMLSerialysis_GenericXMLSerializer_1_DeserializeTyped_
+  commentId: Overload:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.DeserializeTyped
   isSpec: "True"
-  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer<T>.GenericXMLSerializer
-  fullName.vb: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer(Of T).GenericXMLSerializer
-  nameWithType: GenericXMLSerializer<T>.GenericXMLSerializer
-  nameWithType.vb: GenericXMLSerializer(Of T).GenericXMLSerializer
-- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Deserialize(System.String)
-  name: Deserialize(String)
-  href: api/GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer-1.html#GRYLibrary_Core_AdvancedXMLSerialysis_GenericXMLSerializer_1_Deserialize_System_String_
-  commentId: M:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Deserialize(System.String)
-  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer<T>.Deserialize(System.String)
-  fullName.vb: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer(Of T).Deserialize(System.String)
-  nameWithType: GenericXMLSerializer<T>.Deserialize(String)
-  nameWithType.vb: GenericXMLSerializer(Of T).Deserialize(String)
-- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Deserialize(System.Xml.XmlReader)
-  name: Deserialize(XmlReader)
-  href: api/GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer-1.html#GRYLibrary_Core_AdvancedXMLSerialysis_GenericXMLSerializer_1_Deserialize_System_Xml_XmlReader_
-  commentId: M:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Deserialize(System.Xml.XmlReader)
-  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer<T>.Deserialize(System.Xml.XmlReader)
-  fullName.vb: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer(Of T).Deserialize(System.Xml.XmlReader)
-  nameWithType: GenericXMLSerializer<T>.Deserialize(XmlReader)
-  nameWithType.vb: GenericXMLSerializer(Of T).Deserialize(XmlReader)
-- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Deserialize*
-  name: Deserialize
-  href: api/GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer-1.html#GRYLibrary_Core_AdvancedXMLSerialysis_GenericXMLSerializer_1_Deserialize_
-  commentId: Overload:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Deserialize
-  isSpec: "True"
-  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer<T>.Deserialize
-  fullName.vb: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer(Of T).Deserialize
-  nameWithType: GenericXMLSerializer<T>.Deserialize
-  nameWithType.vb: GenericXMLSerializer(Of T).Deserialize
-- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Deserialize``1(System.String)
-  name: Deserialize<U>(String)
-  href: api/GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer-1.html#GRYLibrary_Core_AdvancedXMLSerialysis_GenericXMLSerializer_1_Deserialize__1_System_String_
-  commentId: M:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Deserialize``1(System.String)
-  name.vb: Deserialize(Of U)(String)
-  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer<T>.Deserialize<U>(System.String)
-  fullName.vb: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer(Of T).Deserialize(Of U)(System.String)
-  nameWithType: GenericXMLSerializer<T>.Deserialize<U>(String)
-  nameWithType.vb: GenericXMLSerializer(Of T).Deserialize(Of U)(String)
-- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.SerializationConfiguration
-  name: SerializationConfiguration
-  href: api/GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer-1.html#GRYLibrary_Core_AdvancedXMLSerialysis_GenericXMLSerializer_1_SerializationConfiguration
-  commentId: P:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.SerializationConfiguration
-  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer<T>.SerializationConfiguration
-  fullName.vb: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer(Of T).SerializationConfiguration
-  nameWithType: GenericXMLSerializer<T>.SerializationConfiguration
-  nameWithType.vb: GenericXMLSerializer(Of T).SerializationConfiguration
-- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.SerializationConfiguration*
-  name: SerializationConfiguration
-  href: api/GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer-1.html#GRYLibrary_Core_AdvancedXMLSerialysis_GenericXMLSerializer_1_SerializationConfiguration_
-  commentId: Overload:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.SerializationConfiguration
-  isSpec: "True"
-  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer<T>.SerializationConfiguration
-  fullName.vb: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer(Of T).SerializationConfiguration
-  nameWithType: GenericXMLSerializer<T>.SerializationConfiguration
-  nameWithType.vb: GenericXMLSerializer(Of T).SerializationConfiguration
-- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Serialize(`0)
-  name: Serialize(T)
-  href: api/GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer-1.html#GRYLibrary_Core_AdvancedXMLSerialysis_GenericXMLSerializer_1_Serialize__0_
-  commentId: M:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Serialize(`0)
-  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer<T>.Serialize(T)
-  fullName.vb: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer(Of T).Serialize(T)
-  nameWithType: GenericXMLSerializer<T>.Serialize(T)
-  nameWithType.vb: GenericXMLSerializer(Of T).Serialize(T)
-- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Serialize(`0,System.Xml.XmlWriter)
-  name: Serialize(T, XmlWriter)
-  href: api/GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer-1.html#GRYLibrary_Core_AdvancedXMLSerialysis_GenericXMLSerializer_1_Serialize__0_System_Xml_XmlWriter_
-  commentId: M:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Serialize(`0,System.Xml.XmlWriter)
-  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer<T>.Serialize(T, System.Xml.XmlWriter)
-  fullName.vb: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer(Of T).Serialize(T, System.Xml.XmlWriter)
-  nameWithType: GenericXMLSerializer<T>.Serialize(T, XmlWriter)
-  nameWithType.vb: GenericXMLSerializer(Of T).Serialize(T, XmlWriter)
-- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Serialize*
-  name: Serialize
-  href: api/GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer-1.html#GRYLibrary_Core_AdvancedXMLSerialysis_GenericXMLSerializer_1_Serialize_
-  commentId: Overload:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1.Serialize
-  isSpec: "True"
-  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer<T>.Serialize
-  fullName.vb: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer(Of T).Serialize
-  nameWithType: GenericXMLSerializer<T>.Serialize
-  nameWithType.vb: GenericXMLSerializer(Of T).Serialize
+  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer<T>.DeserializeTyped
+  fullName.vb: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer(Of T).DeserializeTyped
+  nameWithType: GenericXMLSerializer<T>.DeserializeTyped
+  nameWithType.vb: GenericXMLSerializer(Of T).DeserializeTyped
 - uid: GRYLibrary.Core.ByteArray
   name: ByteArray
   href: api/GRYLibrary.Core.ByteArray.html
@@ -4591,6 +5020,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Log.ConcreteLogTargets.Console.ExecuteImplementation
   nameWithType: Console.ExecuteImplementation
+- uid: GRYLibrary.Core.Log.ConcreteLogTargets.Console.FurtherGetExtraTypesWhichAreRequiredForSerialization
+  name: FurtherGetExtraTypesWhichAreRequiredForSerialization()
+  href: api/GRYLibrary.Core.Log.ConcreteLogTargets.Console.html#GRYLibrary_Core_Log_ConcreteLogTargets_Console_FurtherGetExtraTypesWhichAreRequiredForSerialization
+  commentId: M:GRYLibrary.Core.Log.ConcreteLogTargets.Console.FurtherGetExtraTypesWhichAreRequiredForSerialization
+  fullName: GRYLibrary.Core.Log.ConcreteLogTargets.Console.FurtherGetExtraTypesWhichAreRequiredForSerialization()
+  nameWithType: Console.FurtherGetExtraTypesWhichAreRequiredForSerialization()
+- uid: GRYLibrary.Core.Log.ConcreteLogTargets.Console.FurtherGetExtraTypesWhichAreRequiredForSerialization*
+  name: FurtherGetExtraTypesWhichAreRequiredForSerialization
+  href: api/GRYLibrary.Core.Log.ConcreteLogTargets.Console.html#GRYLibrary_Core_Log_ConcreteLogTargets_Console_FurtherGetExtraTypesWhichAreRequiredForSerialization_
+  commentId: Overload:GRYLibrary.Core.Log.ConcreteLogTargets.Console.FurtherGetExtraTypesWhichAreRequiredForSerialization
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.ConcreteLogTargets.Console.FurtherGetExtraTypesWhichAreRequiredForSerialization
+  nameWithType: Console.FurtherGetExtraTypesWhichAreRequiredForSerialization
 - uid: GRYLibrary.Core.Log.ConcreteLogTargets.LogFile
   name: LogFile
   href: api/GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.html
@@ -4649,6 +5091,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.File
   nameWithType: LogFile.File
+- uid: GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.FurtherGetExtraTypesWhichAreRequiredForSerialization
+  name: FurtherGetExtraTypesWhichAreRequiredForSerialization()
+  href: api/GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.html#GRYLibrary_Core_Log_ConcreteLogTargets_LogFile_FurtherGetExtraTypesWhichAreRequiredForSerialization
+  commentId: M:GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.FurtherGetExtraTypesWhichAreRequiredForSerialization
+  fullName: GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.FurtherGetExtraTypesWhichAreRequiredForSerialization()
+  nameWithType: LogFile.FurtherGetExtraTypesWhichAreRequiredForSerialization()
+- uid: GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.FurtherGetExtraTypesWhichAreRequiredForSerialization*
+  name: FurtherGetExtraTypesWhichAreRequiredForSerialization
+  href: api/GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.html#GRYLibrary_Core_Log_ConcreteLogTargets_LogFile_FurtherGetExtraTypesWhichAreRequiredForSerialization_
+  commentId: Overload:GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.FurtherGetExtraTypesWhichAreRequiredForSerialization
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.FurtherGetExtraTypesWhichAreRequiredForSerialization
+  nameWithType: LogFile.FurtherGetExtraTypesWhichAreRequiredForSerialization
 - uid: GRYLibrary.Core.Log.ConcreteLogTargets.Observer
   name: Observer
   href: api/GRYLibrary.Core.Log.ConcreteLogTargets.Observer.html
@@ -4681,6 +5136,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Log.ConcreteLogTargets.Observer.ExecuteImplementation
   nameWithType: Observer.ExecuteImplementation
+- uid: GRYLibrary.Core.Log.ConcreteLogTargets.Observer.FurtherGetExtraTypesWhichAreRequiredForSerialization
+  name: FurtherGetExtraTypesWhichAreRequiredForSerialization()
+  href: api/GRYLibrary.Core.Log.ConcreteLogTargets.Observer.html#GRYLibrary_Core_Log_ConcreteLogTargets_Observer_FurtherGetExtraTypesWhichAreRequiredForSerialization
+  commentId: M:GRYLibrary.Core.Log.ConcreteLogTargets.Observer.FurtherGetExtraTypesWhichAreRequiredForSerialization
+  fullName: GRYLibrary.Core.Log.ConcreteLogTargets.Observer.FurtherGetExtraTypesWhichAreRequiredForSerialization()
+  nameWithType: Observer.FurtherGetExtraTypesWhichAreRequiredForSerialization()
+- uid: GRYLibrary.Core.Log.ConcreteLogTargets.Observer.FurtherGetExtraTypesWhichAreRequiredForSerialization*
+  name: FurtherGetExtraTypesWhichAreRequiredForSerialization
+  href: api/GRYLibrary.Core.Log.ConcreteLogTargets.Observer.html#GRYLibrary_Core_Log_ConcreteLogTargets_Observer_FurtherGetExtraTypesWhichAreRequiredForSerialization_
+  commentId: Overload:GRYLibrary.Core.Log.ConcreteLogTargets.Observer.FurtherGetExtraTypesWhichAreRequiredForSerialization
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.ConcreteLogTargets.Observer.FurtherGetExtraTypesWhichAreRequiredForSerialization
+  nameWithType: Observer.FurtherGetExtraTypesWhichAreRequiredForSerialization
 - uid: GRYLibrary.Core.Log.ConcreteLogTargets.WindowsEventLog
   name: WindowsEventLog
   href: api/GRYLibrary.Core.Log.ConcreteLogTargets.WindowsEventLog.html
@@ -4713,6 +5181,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Log.ConcreteLogTargets.WindowsEventLog.ExecuteImplementation
   nameWithType: WindowsEventLog.ExecuteImplementation
+- uid: GRYLibrary.Core.Log.ConcreteLogTargets.WindowsEventLog.FurtherGetExtraTypesWhichAreRequiredForSerialization
+  name: FurtherGetExtraTypesWhichAreRequiredForSerialization()
+  href: api/GRYLibrary.Core.Log.ConcreteLogTargets.WindowsEventLog.html#GRYLibrary_Core_Log_ConcreteLogTargets_WindowsEventLog_FurtherGetExtraTypesWhichAreRequiredForSerialization
+  commentId: M:GRYLibrary.Core.Log.ConcreteLogTargets.WindowsEventLog.FurtherGetExtraTypesWhichAreRequiredForSerialization
+  fullName: GRYLibrary.Core.Log.ConcreteLogTargets.WindowsEventLog.FurtherGetExtraTypesWhichAreRequiredForSerialization()
+  nameWithType: WindowsEventLog.FurtherGetExtraTypesWhichAreRequiredForSerialization()
+- uid: GRYLibrary.Core.Log.ConcreteLogTargets.WindowsEventLog.FurtherGetExtraTypesWhichAreRequiredForSerialization*
+  name: FurtherGetExtraTypesWhichAreRequiredForSerialization
+  href: api/GRYLibrary.Core.Log.ConcreteLogTargets.WindowsEventLog.html#GRYLibrary_Core_Log_ConcreteLogTargets_WindowsEventLog_FurtherGetExtraTypesWhichAreRequiredForSerialization_
+  commentId: Overload:GRYLibrary.Core.Log.ConcreteLogTargets.WindowsEventLog.FurtherGetExtraTypesWhichAreRequiredForSerialization
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.ConcreteLogTargets.WindowsEventLog.FurtherGetExtraTypesWhichAreRequiredForSerialization
+  nameWithType: WindowsEventLog.FurtherGetExtraTypesWhichAreRequiredForSerialization
 - uid: GRYLibrary.Core.Log.GRYLog
   name: GRYLog
   href: api/GRYLibrary.Core.Log.GRYLog.html
@@ -5147,19 +5628,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Log.GRYLogConfiguration.Equals
   nameWithType: GRYLogConfiguration.Equals
-- uid: GRYLibrary.Core.Log.GRYLogConfiguration.Format
-  name: Format
-  href: api/GRYLibrary.Core.Log.GRYLogConfiguration.html#GRYLibrary_Core_Log_GRYLogConfiguration_Format
-  commentId: P:GRYLibrary.Core.Log.GRYLogConfiguration.Format
-  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.Format
-  nameWithType: GRYLogConfiguration.Format
-- uid: GRYLibrary.Core.Log.GRYLogConfiguration.Format*
-  name: Format
-  href: api/GRYLibrary.Core.Log.GRYLogConfiguration.html#GRYLibrary_Core_Log_GRYLogConfiguration_Format_
-  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.Format
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.GetExtraTypesWhichAreRequiredForSerialization
+  name: GetExtraTypesWhichAreRequiredForSerialization()
+  href: api/GRYLibrary.Core.Log.GRYLogConfiguration.html#GRYLibrary_Core_Log_GRYLogConfiguration_GetExtraTypesWhichAreRequiredForSerialization
+  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.GetExtraTypesWhichAreRequiredForSerialization
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.GetExtraTypesWhichAreRequiredForSerialization()
+  nameWithType: GRYLogConfiguration.GetExtraTypesWhichAreRequiredForSerialization()
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.GetExtraTypesWhichAreRequiredForSerialization*
+  name: GetExtraTypesWhichAreRequiredForSerialization
+  href: api/GRYLibrary.Core.Log.GRYLogConfiguration.html#GRYLibrary_Core_Log_GRYLogConfiguration_GetExtraTypesWhichAreRequiredForSerialization_
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.GetExtraTypesWhichAreRequiredForSerialization
   isSpec: "True"
-  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.Format
-  nameWithType: GRYLogConfiguration.Format
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.GetExtraTypesWhichAreRequiredForSerialization
+  nameWithType: GRYLogConfiguration.GetExtraTypesWhichAreRequiredForSerialization
 - uid: GRYLibrary.Core.Log.GRYLogConfiguration.GetHashCode
   name: GetHashCode()
   href: api/GRYLibrary.Core.Log.GRYLogConfiguration.html#GRYLibrary_Core_Log_GRYLogConfiguration_GetHashCode
@@ -5173,6 +5654,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Log.GRYLogConfiguration.GetHashCode
   nameWithType: GRYLogConfiguration.GetHashCode
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.GetLogFile
+  name: GetLogFile()
+  href: api/GRYLibrary.Core.Log.GRYLogConfiguration.html#GRYLibrary_Core_Log_GRYLogConfiguration_GetLogFile
+  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.GetLogFile
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.GetLogFile()
+  nameWithType: GRYLogConfiguration.GetLogFile()
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.GetLogFile*
+  name: GetLogFile
+  href: api/GRYLibrary.Core.Log.GRYLogConfiguration.html#GRYLibrary_Core_Log_GRYLogConfiguration_GetLogFile_
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.GetLogFile
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.GetLogFile
+  nameWithType: GRYLogConfiguration.GetLogFile
 - uid: GRYLibrary.Core.Log.GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel(Microsoft.Extensions.Logging.LogLevel)
   name: GetLoggedMessageTypesConfigurationByLogLevel(LogLevel)
   href: api/GRYLibrary.Core.Log.GRYLogConfiguration.html#GRYLibrary_Core_Log_GRYLogConfiguration_GetLoggedMessageTypesConfigurationByLogLevel_Microsoft_Extensions_Logging_LogLevel_
@@ -5202,6 +5696,19 @@ references:
   fullName.vb: GRYLibrary.Core.Log.GRYLogConfiguration.GetLogTarget(Of Target)()
   nameWithType: GRYLogConfiguration.GetLogTarget<Target>()
   nameWithType.vb: GRYLogConfiguration.GetLogTarget(Of Target)()
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.GetSchema
+  name: GetSchema()
+  href: api/GRYLibrary.Core.Log.GRYLogConfiguration.html#GRYLibrary_Core_Log_GRYLogConfiguration_GetSchema
+  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.GetSchema
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.GetSchema()
+  nameWithType: GRYLogConfiguration.GetSchema()
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.GetSchema*
+  name: GetSchema
+  href: api/GRYLibrary.Core.Log.GRYLogConfiguration.html#GRYLibrary_Core_Log_GRYLogConfiguration_GetSchema_
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.GetSchema
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.GetSchema
+  nameWithType: GRYLogConfiguration.GetSchema
 - uid: GRYLibrary.Core.Log.GRYLogConfiguration.LoadConfiguration(System.String)
   name: LoadConfiguration(String)
   href: api/GRYLibrary.Core.Log.GRYLogConfiguration.html#GRYLibrary_Core_Log_GRYLogConfiguration_LoadConfiguration_System_String_
@@ -5228,19 +5735,6 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Log.GRYLogConfiguration.LogEveryLineOfLogEntryInNewLine
   nameWithType: GRYLogConfiguration.LogEveryLineOfLogEntryInNewLine
-- uid: GRYLibrary.Core.Log.GRYLogConfiguration.LogFile
-  name: LogFile
-  href: api/GRYLibrary.Core.Log.GRYLogConfiguration.html#GRYLibrary_Core_Log_GRYLogConfiguration_LogFile
-  commentId: P:GRYLibrary.Core.Log.GRYLogConfiguration.LogFile
-  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.LogFile
-  nameWithType: GRYLogConfiguration.LogFile
-- uid: GRYLibrary.Core.Log.GRYLogConfiguration.LogFile*
-  name: LogFile
-  href: api/GRYLibrary.Core.Log.GRYLogConfiguration.html#GRYLibrary_Core_Log_GRYLogConfiguration_LogFile_
-  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.LogFile
-  isSpec: "True"
-  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.LogFile
-  nameWithType: GRYLogConfiguration.LogFile
 - uid: GRYLibrary.Core.Log.GRYLogConfiguration.LoggedMessageTypesConfiguration
   name: LoggedMessageTypesConfiguration
   href: api/GRYLibrary.Core.Log.GRYLogConfiguration.html#GRYLibrary_Core_Log_GRYLogConfiguration_LoggedMessageTypesConfiguration
@@ -5306,6 +5800,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Log.GRYLogConfiguration.PrintErrorsAsInformation
   nameWithType: GRYLogConfiguration.PrintErrorsAsInformation
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.ReadXml(System.Xml.XmlReader)
+  name: ReadXml(XmlReader)
+  href: api/GRYLibrary.Core.Log.GRYLogConfiguration.html#GRYLibrary_Core_Log_GRYLogConfiguration_ReadXml_System_Xml_XmlReader_
+  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.ReadXml(System.Xml.XmlReader)
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.ReadXml(System.Xml.XmlReader)
+  nameWithType: GRYLogConfiguration.ReadXml(XmlReader)
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.ReadXml*
+  name: ReadXml
+  href: api/GRYLibrary.Core.Log.GRYLogConfiguration.html#GRYLibrary_Core_Log_GRYLogConfiguration_ReadXml_
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.ReadXml
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.ReadXml
+  nameWithType: GRYLogConfiguration.ReadXml
 - uid: GRYLibrary.Core.Log.GRYLogConfiguration.ReloadConfigurationWhenConfigurationFileWillBeChanged
   name: ReloadConfigurationWhenConfigurationFileWillBeChanged
   href: api/GRYLibrary.Core.Log.GRYLogConfiguration.html#GRYLibrary_Core_Log_GRYLogConfiguration_ReloadConfigurationWhenConfigurationFileWillBeChanged
@@ -5364,6 +5871,45 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Log.GRYLogConfiguration.SetEnabledOfAllLogTargets
   nameWithType: GRYLogConfiguration.SetEnabledOfAllLogTargets
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.SetFormat(GRYLibrary.Core.Log.GRYLogLogFormat)
+  name: SetFormat(GRYLogLogFormat)
+  href: api/GRYLibrary.Core.Log.GRYLogConfiguration.html#GRYLibrary_Core_Log_GRYLogConfiguration_SetFormat_GRYLibrary_Core_Log_GRYLogLogFormat_
+  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.SetFormat(GRYLibrary.Core.Log.GRYLogLogFormat)
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.SetFormat(GRYLibrary.Core.Log.GRYLogLogFormat)
+  nameWithType: GRYLogConfiguration.SetFormat(GRYLogLogFormat)
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.SetFormat*
+  name: SetFormat
+  href: api/GRYLibrary.Core.Log.GRYLogConfiguration.html#GRYLibrary_Core_Log_GRYLogConfiguration_SetFormat_
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.SetFormat
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.SetFormat
+  nameWithType: GRYLogConfiguration.SetFormat
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.SetLogFile(System.String)
+  name: SetLogFile(String)
+  href: api/GRYLibrary.Core.Log.GRYLogConfiguration.html#GRYLibrary_Core_Log_GRYLogConfiguration_SetLogFile_System_String_
+  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.SetLogFile(System.String)
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.SetLogFile(System.String)
+  nameWithType: GRYLogConfiguration.SetLogFile(String)
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.SetLogFile*
+  name: SetLogFile
+  href: api/GRYLibrary.Core.Log.GRYLogConfiguration.html#GRYLibrary_Core_Log_GRYLogConfiguration_SetLogFile_
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.SetLogFile
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.SetLogFile
+  nameWithType: GRYLogConfiguration.SetLogFile
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.ToString
+  name: ToString()
+  href: api/GRYLibrary.Core.Log.GRYLogConfiguration.html#GRYLibrary_Core_Log_GRYLogConfiguration_ToString
+  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.ToString
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.ToString()
+  nameWithType: GRYLogConfiguration.ToString()
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.ToString*
+  name: ToString
+  href: api/GRYLibrary.Core.Log.GRYLogConfiguration.html#GRYLibrary_Core_Log_GRYLogConfiguration_ToString_
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.ToString
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.ToString
+  nameWithType: GRYLogConfiguration.ToString
 - uid: GRYLibrary.Core.Log.GRYLogConfiguration.WriteExceptionMessageOfExceptionInLogEntry
   name: WriteExceptionMessageOfExceptionInLogEntry
   href: api/GRYLibrary.Core.Log.GRYLogConfiguration.html#GRYLibrary_Core_Log_GRYLogConfiguration_WriteExceptionMessageOfExceptionInLogEntry
@@ -5403,6 +5949,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Log.GRYLogConfiguration.WriteLogEntriesAsynchronous
   nameWithType: GRYLogConfiguration.WriteLogEntriesAsynchronous
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.WriteXml(System.Xml.XmlWriter)
+  name: WriteXml(XmlWriter)
+  href: api/GRYLibrary.Core.Log.GRYLogConfiguration.html#GRYLibrary_Core_Log_GRYLogConfiguration_WriteXml_System_Xml_XmlWriter_
+  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.WriteXml(System.Xml.XmlWriter)
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.WriteXml(System.Xml.XmlWriter)
+  nameWithType: GRYLogConfiguration.WriteXml(XmlWriter)
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.WriteXml*
+  name: WriteXml
+  href: api/GRYLibrary.Core.Log.GRYLogConfiguration.html#GRYLibrary_Core_Log_GRYLogConfiguration_WriteXml_
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.WriteXml
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.WriteXml
+  nameWithType: GRYLogConfiguration.WriteXml
 - uid: GRYLibrary.Core.Log.GRYLogLogFormat
   name: GRYLogLogFormat
   href: api/GRYLibrary.Core.Log.GRYLogLogFormat.html
@@ -5497,6 +6056,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Log.GRYLogTarget.Enabled
   nameWithType: GRYLogTarget.Enabled
+- uid: GRYLibrary.Core.Log.GRYLogTarget.Equals(System.Object)
+  name: Equals(Object)
+  href: api/GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_Equals_System_Object_
+  commentId: M:GRYLibrary.Core.Log.GRYLogTarget.Equals(System.Object)
+  fullName: GRYLibrary.Core.Log.GRYLogTarget.Equals(System.Object)
+  nameWithType: GRYLogTarget.Equals(Object)
+- uid: GRYLibrary.Core.Log.GRYLogTarget.Equals*
+  name: Equals
+  href: api/GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_Equals_
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogTarget.Equals
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.GRYLogTarget.Equals
+  nameWithType: GRYLogTarget.Equals
 - uid: GRYLibrary.Core.Log.GRYLogTarget.ExecuteImplementation(GRYLibrary.Core.Log.LogItem,GRYLibrary.Core.Log.GRYLog)
   name: ExecuteImplementation(LogItem, GRYLog)
   href: api/GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_ExecuteImplementation_GRYLibrary_Core_Log_LogItem_GRYLibrary_Core_Log_GRYLog_
@@ -5510,6 +6082,84 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Log.GRYLogTarget.ExecuteImplementation
   nameWithType: GRYLogTarget.ExecuteImplementation
+- uid: GRYLibrary.Core.Log.GRYLogTarget.Format
+  name: Format
+  href: api/GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_Format
+  commentId: P:GRYLibrary.Core.Log.GRYLogTarget.Format
+  fullName: GRYLibrary.Core.Log.GRYLogTarget.Format
+  nameWithType: GRYLogTarget.Format
+- uid: GRYLibrary.Core.Log.GRYLogTarget.Format*
+  name: Format
+  href: api/GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_Format_
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogTarget.Format
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.GRYLogTarget.Format
+  nameWithType: GRYLogTarget.Format
+- uid: GRYLibrary.Core.Log.GRYLogTarget.FurtherGetExtraTypesWhichAreRequiredForSerialization
+  name: FurtherGetExtraTypesWhichAreRequiredForSerialization()
+  href: api/GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_FurtherGetExtraTypesWhichAreRequiredForSerialization
+  commentId: M:GRYLibrary.Core.Log.GRYLogTarget.FurtherGetExtraTypesWhichAreRequiredForSerialization
+  fullName: GRYLibrary.Core.Log.GRYLogTarget.FurtherGetExtraTypesWhichAreRequiredForSerialization()
+  nameWithType: GRYLogTarget.FurtherGetExtraTypesWhichAreRequiredForSerialization()
+- uid: GRYLibrary.Core.Log.GRYLogTarget.FurtherGetExtraTypesWhichAreRequiredForSerialization*
+  name: FurtherGetExtraTypesWhichAreRequiredForSerialization
+  href: api/GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_FurtherGetExtraTypesWhichAreRequiredForSerialization_
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogTarget.FurtherGetExtraTypesWhichAreRequiredForSerialization
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.GRYLogTarget.FurtherGetExtraTypesWhichAreRequiredForSerialization
+  nameWithType: GRYLogTarget.FurtherGetExtraTypesWhichAreRequiredForSerialization
+- uid: GRYLibrary.Core.Log.GRYLogTarget.GetExtraTypesWhichAreRequiredForSerialization
+  name: GetExtraTypesWhichAreRequiredForSerialization()
+  href: api/GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_GetExtraTypesWhichAreRequiredForSerialization
+  commentId: M:GRYLibrary.Core.Log.GRYLogTarget.GetExtraTypesWhichAreRequiredForSerialization
+  fullName: GRYLibrary.Core.Log.GRYLogTarget.GetExtraTypesWhichAreRequiredForSerialization()
+  nameWithType: GRYLogTarget.GetExtraTypesWhichAreRequiredForSerialization()
+- uid: GRYLibrary.Core.Log.GRYLogTarget.GetExtraTypesWhichAreRequiredForSerialization*
+  name: GetExtraTypesWhichAreRequiredForSerialization
+  href: api/GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_GetExtraTypesWhichAreRequiredForSerialization_
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogTarget.GetExtraTypesWhichAreRequiredForSerialization
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.GRYLogTarget.GetExtraTypesWhichAreRequiredForSerialization
+  nameWithType: GRYLogTarget.GetExtraTypesWhichAreRequiredForSerialization
+- uid: GRYLibrary.Core.Log.GRYLogTarget.GetHashCode
+  name: GetHashCode()
+  href: api/GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_GetHashCode
+  commentId: M:GRYLibrary.Core.Log.GRYLogTarget.GetHashCode
+  fullName: GRYLibrary.Core.Log.GRYLogTarget.GetHashCode()
+  nameWithType: GRYLogTarget.GetHashCode()
+- uid: GRYLibrary.Core.Log.GRYLogTarget.GetHashCode*
+  name: GetHashCode
+  href: api/GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_GetHashCode_
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogTarget.GetHashCode
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.GRYLogTarget.GetHashCode
+  nameWithType: GRYLogTarget.GetHashCode
+- uid: GRYLibrary.Core.Log.GRYLogTarget.GetSchema
+  name: GetSchema()
+  href: api/GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_GetSchema
+  commentId: M:GRYLibrary.Core.Log.GRYLogTarget.GetSchema
+  fullName: GRYLibrary.Core.Log.GRYLogTarget.GetSchema()
+  nameWithType: GRYLogTarget.GetSchema()
+- uid: GRYLibrary.Core.Log.GRYLogTarget.GetSchema*
+  name: GetSchema
+  href: api/GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_GetSchema_
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogTarget.GetSchema
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.GRYLogTarget.GetSchema
+  nameWithType: GRYLogTarget.GetSchema
+- uid: GRYLibrary.Core.Log.GRYLogTarget.Initialize
+  name: Initialize()
+  href: api/GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_Initialize
+  commentId: M:GRYLibrary.Core.Log.GRYLogTarget.Initialize
+  fullName: GRYLibrary.Core.Log.GRYLogTarget.Initialize()
+  nameWithType: GRYLogTarget.Initialize()
+- uid: GRYLibrary.Core.Log.GRYLogTarget.Initialize*
+  name: Initialize
+  href: api/GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_Initialize_
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogTarget.Initialize
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.GRYLogTarget.Initialize
+  nameWithType: GRYLogTarget.Initialize
 - uid: GRYLibrary.Core.Log.GRYLogTarget.LogLevels
   name: LogLevels
   href: api/GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_LogLevels
@@ -5523,12 +6173,64 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Log.GRYLogTarget.LogLevels
   nameWithType: GRYLogTarget.LogLevels
+- uid: GRYLibrary.Core.Log.GRYLogTarget.ReadXml(System.Xml.XmlReader)
+  name: ReadXml(XmlReader)
+  href: api/GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_ReadXml_System_Xml_XmlReader_
+  commentId: M:GRYLibrary.Core.Log.GRYLogTarget.ReadXml(System.Xml.XmlReader)
+  fullName: GRYLibrary.Core.Log.GRYLogTarget.ReadXml(System.Xml.XmlReader)
+  nameWithType: GRYLogTarget.ReadXml(XmlReader)
+- uid: GRYLibrary.Core.Log.GRYLogTarget.ReadXml*
+  name: ReadXml
+  href: api/GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_ReadXml_
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogTarget.ReadXml
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.GRYLogTarget.ReadXml
+  nameWithType: GRYLogTarget.ReadXml
+- uid: GRYLibrary.Core.Log.GRYLogTarget.ToString
+  name: ToString()
+  href: api/GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_ToString
+  commentId: M:GRYLibrary.Core.Log.GRYLogTarget.ToString
+  fullName: GRYLibrary.Core.Log.GRYLogTarget.ToString()
+  nameWithType: GRYLogTarget.ToString()
+- uid: GRYLibrary.Core.Log.GRYLogTarget.ToString*
+  name: ToString
+  href: api/GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_ToString_
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogTarget.ToString
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.GRYLogTarget.ToString
+  nameWithType: GRYLogTarget.ToString
+- uid: GRYLibrary.Core.Log.GRYLogTarget.WriteXml(System.Xml.XmlWriter)
+  name: WriteXml(XmlWriter)
+  href: api/GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_WriteXml_System_Xml_XmlWriter_
+  commentId: M:GRYLibrary.Core.Log.GRYLogTarget.WriteXml(System.Xml.XmlWriter)
+  fullName: GRYLibrary.Core.Log.GRYLogTarget.WriteXml(System.Xml.XmlWriter)
+  nameWithType: GRYLogTarget.WriteXml(XmlWriter)
+- uid: GRYLibrary.Core.Log.GRYLogTarget.WriteXml*
+  name: WriteXml
+  href: api/GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_WriteXml_
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogTarget.WriteXml
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.GRYLogTarget.WriteXml
+  nameWithType: GRYLogTarget.WriteXml
 - uid: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration
   name: LoggedMessageTypeConfiguration
   href: api/GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.html
   commentId: T:GRYLibrary.Core.Log.LoggedMessageTypeConfiguration
   fullName: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration
   nameWithType: LoggedMessageTypeConfiguration
+- uid: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.#ctor
+  name: LoggedMessageTypeConfiguration()
+  href: api/GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.html#GRYLibrary_Core_Log_LoggedMessageTypeConfiguration__ctor
+  commentId: M:GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.#ctor
+  fullName: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.LoggedMessageTypeConfiguration()
+  nameWithType: LoggedMessageTypeConfiguration.LoggedMessageTypeConfiguration()
+- uid: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.#ctor*
+  name: LoggedMessageTypeConfiguration
+  href: api/GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.html#GRYLibrary_Core_Log_LoggedMessageTypeConfiguration__ctor_
+  commentId: Overload:GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.#ctor
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.LoggedMessageTypeConfiguration
+  nameWithType: LoggedMessageTypeConfiguration.LoggedMessageTypeConfiguration
 - uid: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.ConsoleColor
   name: ConsoleColor
   href: api/GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.html#GRYLibrary_Core_Log_LoggedMessageTypeConfiguration_ConsoleColor
@@ -5581,6 +6283,58 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.GetHashCode
   nameWithType: LoggedMessageTypeConfiguration.GetHashCode
+- uid: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.GetSchema
+  name: GetSchema()
+  href: api/GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.html#GRYLibrary_Core_Log_LoggedMessageTypeConfiguration_GetSchema
+  commentId: M:GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.GetSchema
+  fullName: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.GetSchema()
+  nameWithType: LoggedMessageTypeConfiguration.GetSchema()
+- uid: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.GetSchema*
+  name: GetSchema
+  href: api/GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.html#GRYLibrary_Core_Log_LoggedMessageTypeConfiguration_GetSchema_
+  commentId: Overload:GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.GetSchema
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.GetSchema
+  nameWithType: LoggedMessageTypeConfiguration.GetSchema
+- uid: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.ReadXml(System.Xml.XmlReader)
+  name: ReadXml(XmlReader)
+  href: api/GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.html#GRYLibrary_Core_Log_LoggedMessageTypeConfiguration_ReadXml_System_Xml_XmlReader_
+  commentId: M:GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.ReadXml(System.Xml.XmlReader)
+  fullName: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.ReadXml(System.Xml.XmlReader)
+  nameWithType: LoggedMessageTypeConfiguration.ReadXml(XmlReader)
+- uid: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.ReadXml*
+  name: ReadXml
+  href: api/GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.html#GRYLibrary_Core_Log_LoggedMessageTypeConfiguration_ReadXml_
+  commentId: Overload:GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.ReadXml
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.ReadXml
+  nameWithType: LoggedMessageTypeConfiguration.ReadXml
+- uid: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.ToString
+  name: ToString()
+  href: api/GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.html#GRYLibrary_Core_Log_LoggedMessageTypeConfiguration_ToString
+  commentId: M:GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.ToString
+  fullName: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.ToString()
+  nameWithType: LoggedMessageTypeConfiguration.ToString()
+- uid: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.ToString*
+  name: ToString
+  href: api/GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.html#GRYLibrary_Core_Log_LoggedMessageTypeConfiguration_ToString_
+  commentId: Overload:GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.ToString
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.ToString
+  nameWithType: LoggedMessageTypeConfiguration.ToString
+- uid: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.WriteXml(System.Xml.XmlWriter)
+  name: WriteXml(XmlWriter)
+  href: api/GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.html#GRYLibrary_Core_Log_LoggedMessageTypeConfiguration_WriteXml_System_Xml_XmlWriter_
+  commentId: M:GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.WriteXml(System.Xml.XmlWriter)
+  fullName: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.WriteXml(System.Xml.XmlWriter)
+  nameWithType: LoggedMessageTypeConfiguration.WriteXml(XmlWriter)
+- uid: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.WriteXml*
+  name: WriteXml
+  href: api/GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.html#GRYLibrary_Core_Log_LoggedMessageTypeConfiguration_WriteXml_
+  commentId: Overload:GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.WriteXml
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.WriteXml
+  nameWithType: LoggedMessageTypeConfiguration.WriteXml
 - uid: GRYLibrary.Core.Log.LogItem
   name: LogItem
   href: api/GRYLibrary.Core.Log.LogItem.html
@@ -7118,6 +7872,83 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.RedundantIdler.WaitUntilExecutionIsRequired
   nameWithType: RedundantIdler.WaitUntilExecutionIsRequired
+- uid: GRYLibrary.Core.ReferenceTuple
+  name: ReferenceTuple
+  href: api/GRYLibrary.Core.ReferenceTuple.html
+  commentId: T:GRYLibrary.Core.ReferenceTuple
+  fullName: GRYLibrary.Core.ReferenceTuple
+  nameWithType: ReferenceTuple
+- uid: GRYLibrary.Core.ReferenceTuple.#ctor(System.Object,System.Object)
+  name: ReferenceTuple(Object, Object)
+  href: api/GRYLibrary.Core.ReferenceTuple.html#GRYLibrary_Core_ReferenceTuple__ctor_System_Object_System_Object_
+  commentId: M:GRYLibrary.Core.ReferenceTuple.#ctor(System.Object,System.Object)
+  fullName: GRYLibrary.Core.ReferenceTuple.ReferenceTuple(System.Object, System.Object)
+  nameWithType: ReferenceTuple.ReferenceTuple(Object, Object)
+- uid: GRYLibrary.Core.ReferenceTuple.#ctor*
+  name: ReferenceTuple
+  href: api/GRYLibrary.Core.ReferenceTuple.html#GRYLibrary_Core_ReferenceTuple__ctor_
+  commentId: Overload:GRYLibrary.Core.ReferenceTuple.#ctor
+  isSpec: "True"
+  fullName: GRYLibrary.Core.ReferenceTuple.ReferenceTuple
+  nameWithType: ReferenceTuple.ReferenceTuple
+- uid: GRYLibrary.Core.ReferenceTuple.Equals(GRYLibrary.Core.ReferenceTuple)
+  name: Equals(ReferenceTuple)
+  href: api/GRYLibrary.Core.ReferenceTuple.html#GRYLibrary_Core_ReferenceTuple_Equals_GRYLibrary_Core_ReferenceTuple_
+  commentId: M:GRYLibrary.Core.ReferenceTuple.Equals(GRYLibrary.Core.ReferenceTuple)
+  fullName: GRYLibrary.Core.ReferenceTuple.Equals(GRYLibrary.Core.ReferenceTuple)
+  nameWithType: ReferenceTuple.Equals(ReferenceTuple)
+- uid: GRYLibrary.Core.ReferenceTuple.Equals(System.Object)
+  name: Equals(Object)
+  href: api/GRYLibrary.Core.ReferenceTuple.html#GRYLibrary_Core_ReferenceTuple_Equals_System_Object_
+  commentId: M:GRYLibrary.Core.ReferenceTuple.Equals(System.Object)
+  fullName: GRYLibrary.Core.ReferenceTuple.Equals(System.Object)
+  nameWithType: ReferenceTuple.Equals(Object)
+- uid: GRYLibrary.Core.ReferenceTuple.Equals*
+  name: Equals
+  href: api/GRYLibrary.Core.ReferenceTuple.html#GRYLibrary_Core_ReferenceTuple_Equals_
+  commentId: Overload:GRYLibrary.Core.ReferenceTuple.Equals
+  isSpec: "True"
+  fullName: GRYLibrary.Core.ReferenceTuple.Equals
+  nameWithType: ReferenceTuple.Equals
+- uid: GRYLibrary.Core.ReferenceTuple.GetHashCode
+  name: GetHashCode()
+  href: api/GRYLibrary.Core.ReferenceTuple.html#GRYLibrary_Core_ReferenceTuple_GetHashCode
+  commentId: M:GRYLibrary.Core.ReferenceTuple.GetHashCode
+  fullName: GRYLibrary.Core.ReferenceTuple.GetHashCode()
+  nameWithType: ReferenceTuple.GetHashCode()
+- uid: GRYLibrary.Core.ReferenceTuple.GetHashCode*
+  name: GetHashCode
+  href: api/GRYLibrary.Core.ReferenceTuple.html#GRYLibrary_Core_ReferenceTuple_GetHashCode_
+  commentId: Overload:GRYLibrary.Core.ReferenceTuple.GetHashCode
+  isSpec: "True"
+  fullName: GRYLibrary.Core.ReferenceTuple.GetHashCode
+  nameWithType: ReferenceTuple.GetHashCode
+- uid: GRYLibrary.Core.ReferenceTuple.Item1
+  name: Item1
+  href: api/GRYLibrary.Core.ReferenceTuple.html#GRYLibrary_Core_ReferenceTuple_Item1
+  commentId: P:GRYLibrary.Core.ReferenceTuple.Item1
+  fullName: GRYLibrary.Core.ReferenceTuple.Item1
+  nameWithType: ReferenceTuple.Item1
+- uid: GRYLibrary.Core.ReferenceTuple.Item1*
+  name: Item1
+  href: api/GRYLibrary.Core.ReferenceTuple.html#GRYLibrary_Core_ReferenceTuple_Item1_
+  commentId: Overload:GRYLibrary.Core.ReferenceTuple.Item1
+  isSpec: "True"
+  fullName: GRYLibrary.Core.ReferenceTuple.Item1
+  nameWithType: ReferenceTuple.Item1
+- uid: GRYLibrary.Core.ReferenceTuple.Item2
+  name: Item2
+  href: api/GRYLibrary.Core.ReferenceTuple.html#GRYLibrary_Core_ReferenceTuple_Item2
+  commentId: P:GRYLibrary.Core.ReferenceTuple.Item2
+  fullName: GRYLibrary.Core.ReferenceTuple.Item2
+  nameWithType: ReferenceTuple.Item2
+- uid: GRYLibrary.Core.ReferenceTuple.Item2*
+  name: Item2
+  href: api/GRYLibrary.Core.ReferenceTuple.html#GRYLibrary_Core_ReferenceTuple_Item2_
+  commentId: Overload:GRYLibrary.Core.ReferenceTuple.Item2
+  isSpec: "True"
+  fullName: GRYLibrary.Core.ReferenceTuple.Item2
+  nameWithType: ReferenceTuple.Item2
 - uid: GRYLibrary.Core.Semaphore
   name: Semaphore
   href: api/GRYLibrary.Core.Semaphore.html
@@ -8906,6 +9737,22 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.AddGitRemote
   nameWithType: Utilities.AddGitRemote
+- uid: GRYLibrary.Core.Utilities.AddItemToEnumerable(System.Object,System.Object[])
+  name: AddItemToEnumerable(Object, Object[])
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_AddItemToEnumerable_System_Object_System_Object___
+  commentId: M:GRYLibrary.Core.Utilities.AddItemToEnumerable(System.Object,System.Object[])
+  name.vb: AddItemToEnumerable(Object, Object())
+  fullName: GRYLibrary.Core.Utilities.AddItemToEnumerable(System.Object, System.Object[])
+  fullName.vb: GRYLibrary.Core.Utilities.AddItemToEnumerable(System.Object, System.Object())
+  nameWithType: Utilities.AddItemToEnumerable(Object, Object[])
+  nameWithType.vb: Utilities.AddItemToEnumerable(Object, Object())
+- uid: GRYLibrary.Core.Utilities.AddItemToEnumerable*
+  name: AddItemToEnumerable
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_AddItemToEnumerable_
+  commentId: Overload:GRYLibrary.Core.Utilities.AddItemToEnumerable
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.AddItemToEnumerable
+  nameWithType: Utilities.AddItemToEnumerable
 - uid: GRYLibrary.Core.Utilities.AddMountPointForVolume(System.Guid,System.String)
   name: AddMountPointForVolume(Guid, String)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_AddMountPointForVolume_System_Guid_System_String_
@@ -9577,6 +10424,15 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.FileIsExecutable
   nameWithType: Utilities.FileIsExecutable
+- uid: GRYLibrary.Core.Utilities.ForEach(System.Collections.IEnumerable,System.Action{System.Object})
+  name: ForEach(IEnumerable, Action<Object>)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ForEach_System_Collections_IEnumerable_System_Action_System_Object__
+  commentId: M:GRYLibrary.Core.Utilities.ForEach(System.Collections.IEnumerable,System.Action{System.Object})
+  name.vb: ForEach(IEnumerable, Action(Of Object))
+  fullName: GRYLibrary.Core.Utilities.ForEach(System.Collections.IEnumerable, System.Action<System.Object>)
+  fullName.vb: GRYLibrary.Core.Utilities.ForEach(System.Collections.IEnumerable, System.Action(Of System.Object))
+  nameWithType: Utilities.ForEach(IEnumerable, Action<Object>)
+  nameWithType.vb: Utilities.ForEach(IEnumerable, Action(Of Object))
 - uid: GRYLibrary.Core.Utilities.ForEach*
   name: ForEach
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ForEach_
@@ -9736,6 +10592,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GetAmountOfCommitsInGitRepository
   nameWithType: Utilities.GetAmountOfCommitsInGitRepository
+- uid: GRYLibrary.Core.Utilities.GetAssertionFailMessage(System.Object,System.Object,System.Int32)
+  name: GetAssertionFailMessage(Object, Object, Int32)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetAssertionFailMessage_System_Object_System_Object_System_Int32_
+  commentId: M:GRYLibrary.Core.Utilities.GetAssertionFailMessage(System.Object,System.Object,System.Int32)
+  fullName: GRYLibrary.Core.Utilities.GetAssertionFailMessage(System.Object, System.Object, System.Int32)
+  nameWithType: Utilities.GetAssertionFailMessage(Object, Object, Int32)
+- uid: GRYLibrary.Core.Utilities.GetAssertionFailMessage*
+  name: GetAssertionFailMessage
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetAssertionFailMessage_
+  commentId: Overload:GRYLibrary.Core.Utilities.GetAssertionFailMessage
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.GetAssertionFailMessage
+  nameWithType: Utilities.GetAssertionFailMessage
 - uid: GRYLibrary.Core.Utilities.GetAvailableVolumeIds
   name: GetAvailableVolumeIds()
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetAvailableVolumeIds
@@ -9892,6 +10761,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GetMountPoints
   nameWithType: Utilities.GetMountPoints
+- uid: GRYLibrary.Core.Utilities.GetNameOfCurrentExecutable
+  name: GetNameOfCurrentExecutable()
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetNameOfCurrentExecutable
+  commentId: M:GRYLibrary.Core.Utilities.GetNameOfCurrentExecutable
+  fullName: GRYLibrary.Core.Utilities.GetNameOfCurrentExecutable()
+  nameWithType: Utilities.GetNameOfCurrentExecutable()
+- uid: GRYLibrary.Core.Utilities.GetNameOfCurrentExecutable*
+  name: GetNameOfCurrentExecutable
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetNameOfCurrentExecutable_
+  commentId: Overload:GRYLibrary.Core.Utilities.GetNameOfCurrentExecutable
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.GetNameOfCurrentExecutable
+  nameWithType: Utilities.GetNameOfCurrentExecutable
 - uid: GRYLibrary.Core.Utilities.GetParentGitRepositoryPath(System.String)
   name: GetParentGitRepositoryPath(String)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetParentGitRepositoryPath_System_String_
@@ -10167,6 +11049,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GitTidyUp
   nameWithType: Utilities.GitTidyUp
+- uid: GRYLibrary.Core.Utilities.HasValueType(System.Object)
+  name: HasValueType(Object)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_HasValueType_System_Object_
+  commentId: M:GRYLibrary.Core.Utilities.HasValueType(System.Object)
+  fullName: GRYLibrary.Core.Utilities.HasValueType(System.Object)
+  nameWithType: Utilities.HasValueType(Object)
+- uid: GRYLibrary.Core.Utilities.HasValueType*
+  name: HasValueType
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_HasValueType_
+  commentId: Overload:GRYLibrary.Core.Utilities.HasValueType
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.HasValueType
+  nameWithType: Utilities.HasValueType
 - uid: GRYLibrary.Core.Utilities.HexStringToByteArray(System.String)
   name: HexStringToByteArray(String)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_HexStringToByteArray_System_String_
@@ -10193,6 +11088,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.HexStringToInteger
   nameWithType: Utilities.HexStringToInteger
+- uid: GRYLibrary.Core.Utilities.ImprovedReferenceEquals(System.Object,System.Object)
+  name: ImprovedReferenceEquals(Object, Object)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ImprovedReferenceEquals_System_Object_System_Object_
+  commentId: M:GRYLibrary.Core.Utilities.ImprovedReferenceEquals(System.Object,System.Object)
+  fullName: GRYLibrary.Core.Utilities.ImprovedReferenceEquals(System.Object, System.Object)
+  nameWithType: Utilities.ImprovedReferenceEquals(Object, Object)
+- uid: GRYLibrary.Core.Utilities.ImprovedReferenceEquals*
+  name: ImprovedReferenceEquals
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ImprovedReferenceEquals_
+  commentId: Overload:GRYLibrary.Core.Utilities.ImprovedReferenceEquals
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.ImprovedReferenceEquals
+  nameWithType: Utilities.ImprovedReferenceEquals
 - uid: GRYLibrary.Core.Utilities.IncrementGuid(System.Guid,System.Int64)
   name: IncrementGuid(Guid, Int64)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IncrementGuid_System_Guid_System_Int64_
@@ -10270,12 +11178,6 @@ references:
   commentId: M:GRYLibrary.Core.Utilities.IsAssignableFrom(System.Object,System.Type)
   fullName: GRYLibrary.Core.Utilities.IsAssignableFrom(System.Object, System.Type)
   nameWithType: Utilities.IsAssignableFrom(Object, Type)
-- uid: GRYLibrary.Core.Utilities.IsAssignableFrom(System.Type,System.Type)
-  name: IsAssignableFrom(Type, Type)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsAssignableFrom_System_Type_System_Type_
-  commentId: M:GRYLibrary.Core.Utilities.IsAssignableFrom(System.Type,System.Type)
-  fullName: GRYLibrary.Core.Utilities.IsAssignableFrom(System.Type, System.Type)
-  nameWithType: Utilities.IsAssignableFrom(Type, Type)
 - uid: GRYLibrary.Core.Utilities.IsAssignableFrom*
   name: IsAssignableFrom
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsAssignableFrom_
@@ -10413,6 +11315,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.IsRelativePath
   nameWithType: Utilities.IsRelativePath
+- uid: GRYLibrary.Core.Utilities.IsValidXML(System.String)
+  name: IsValidXML(String)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsValidXML_System_String_
+  commentId: M:GRYLibrary.Core.Utilities.IsValidXML(System.String)
+  fullName: GRYLibrary.Core.Utilities.IsValidXML(System.String)
+  nameWithType: Utilities.IsValidXML(String)
+- uid: GRYLibrary.Core.Utilities.IsValidXML*
+  name: IsValidXML
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsValidXML_
+  commentId: Overload:GRYLibrary.Core.Utilities.IsValidXML
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.IsValidXML
+  nameWithType: Utilities.IsValidXML
 - uid: GRYLibrary.Core.Utilities.JaggedArrayToEnumerableOfEnumerable*
   name: JaggedArrayToEnumerableOfEnumerable
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_JaggedArrayToEnumerableOfEnumerable_
@@ -10645,6 +11560,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ObjectIsDictionary
   nameWithType: Utilities.ObjectIsDictionary
+- uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  name: ObjectIsDictionaryEntry(Object)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsDictionaryEntry_System_Object_
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  nameWithType: Utilities.ObjectIsDictionaryEntry(Object)
+- uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry*
+  name: ObjectIsDictionaryEntry
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsDictionaryEntry_
+  commentId: Overload:GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  nameWithType: Utilities.ObjectIsDictionaryEntry
 - uid: GRYLibrary.Core.Utilities.ObjectIsEnumerable(System.Object)
   name: ObjectIsEnumerable(Object)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsEnumerable_System_Object_
@@ -10684,6 +11612,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ObjectIsList
   nameWithType: Utilities.ObjectIsList
+- uid: GRYLibrary.Core.Utilities.ObjectIsPrimitive(System.Object)
+  name: ObjectIsPrimitive(Object)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsPrimitive_System_Object_
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsPrimitive(System.Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectIsPrimitive(System.Object)
+  nameWithType: Utilities.ObjectIsPrimitive(Object)
+- uid: GRYLibrary.Core.Utilities.ObjectIsPrimitive*
+  name: ObjectIsPrimitive
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsPrimitive_
+  commentId: Overload:GRYLibrary.Core.Utilities.ObjectIsPrimitive
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.ObjectIsPrimitive
+  nameWithType: Utilities.ObjectIsPrimitive
 - uid: GRYLibrary.Core.Utilities.ObjectIsSet(System.Object)
   name: ObjectIsSet(Object)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsSet_System_Object_
@@ -10732,6 +11673,19 @@ references:
   fullName.vb: GRYLibrary.Core.Utilities.ObjectToDictionary(Of TKey, TValue)(System.Object)
   nameWithType: Utilities.ObjectToDictionary<TKey, TValue>(Object)
   nameWithType.vb: Utilities.ObjectToDictionary(Of TKey, TValue)(Object)
+- uid: GRYLibrary.Core.Utilities.ObjectToDictionaryEntry(System.Object)
+  name: ObjectToDictionaryEntry(Object)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToDictionaryEntry_System_Object_
+  commentId: M:GRYLibrary.Core.Utilities.ObjectToDictionaryEntry(System.Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectToDictionaryEntry(System.Object)
+  nameWithType: Utilities.ObjectToDictionaryEntry(Object)
+- uid: GRYLibrary.Core.Utilities.ObjectToDictionaryEntry*
+  name: ObjectToDictionaryEntry
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToDictionaryEntry_
+  commentId: Overload:GRYLibrary.Core.Utilities.ObjectToDictionaryEntry
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.ObjectToDictionaryEntry
+  nameWithType: Utilities.ObjectToDictionaryEntry
 - uid: GRYLibrary.Core.Utilities.ObjectToEnumerable(System.Object)
   name: ObjectToEnumerable(Object)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToEnumerable_System_Object_
@@ -11389,6 +12343,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.TypeComparerIgnoringGenerics
   nameWithType: Utilities.TypeComparerIgnoringGenerics
+- uid: GRYLibrary.Core.Utilities.TypeIsAssignableFrom(System.Type,System.Type)
+  name: TypeIsAssignableFrom(Type, Type)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeIsAssignableFrom_System_Type_System_Type_
+  commentId: M:GRYLibrary.Core.Utilities.TypeIsAssignableFrom(System.Type,System.Type)
+  fullName: GRYLibrary.Core.Utilities.TypeIsAssignableFrom(System.Type, System.Type)
+  nameWithType: Utilities.TypeIsAssignableFrom(Type, Type)
+- uid: GRYLibrary.Core.Utilities.TypeIsAssignableFrom*
+  name: TypeIsAssignableFrom
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeIsAssignableFrom_
+  commentId: Overload:GRYLibrary.Core.Utilities.TypeIsAssignableFrom
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.TypeIsAssignableFrom
+  nameWithType: Utilities.TypeIsAssignableFrom
 - uid: GRYLibrary.Core.Utilities.TypeIsDictionary(System.Type)
   name: TypeIsDictionary(Type)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeIsDictionary_System_Type_
@@ -11402,6 +12369,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.TypeIsDictionary
   nameWithType: Utilities.TypeIsDictionary
+- uid: GRYLibrary.Core.Utilities.TypeIsDictionaryEntry(System.Type)
+  name: TypeIsDictionaryEntry(Type)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeIsDictionaryEntry_System_Type_
+  commentId: M:GRYLibrary.Core.Utilities.TypeIsDictionaryEntry(System.Type)
+  fullName: GRYLibrary.Core.Utilities.TypeIsDictionaryEntry(System.Type)
+  nameWithType: Utilities.TypeIsDictionaryEntry(Type)
+- uid: GRYLibrary.Core.Utilities.TypeIsDictionaryEntry*
+  name: TypeIsDictionaryEntry
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeIsDictionaryEntry_
+  commentId: Overload:GRYLibrary.Core.Utilities.TypeIsDictionaryEntry
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.TypeIsDictionaryEntry
+  nameWithType: Utilities.TypeIsDictionaryEntry
 - uid: GRYLibrary.Core.Utilities.TypeIsDictionaryGeneric(System.Type)
   name: TypeIsDictionaryGeneric(Type)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeIsDictionaryGeneric_System_Type_
@@ -11493,6 +12473,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.TypeIsListNotGeneric
   nameWithType: Utilities.TypeIsListNotGeneric
+- uid: GRYLibrary.Core.Utilities.TypeIsPrimitive(System.Type)
+  name: TypeIsPrimitive(Type)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeIsPrimitive_System_Type_
+  commentId: M:GRYLibrary.Core.Utilities.TypeIsPrimitive(System.Type)
+  fullName: GRYLibrary.Core.Utilities.TypeIsPrimitive(System.Type)
+  nameWithType: Utilities.TypeIsPrimitive(Type)
+- uid: GRYLibrary.Core.Utilities.TypeIsPrimitive*
+  name: TypeIsPrimitive
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeIsPrimitive_
+  commentId: Overload:GRYLibrary.Core.Utilities.TypeIsPrimitive
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.TypeIsPrimitive
+  nameWithType: Utilities.TypeIsPrimitive
 - uid: GRYLibrary.Core.Utilities.TypeIsSet(System.Type)
   name: TypeIsSet(Type)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_TypeIsSet_System_Type_
@@ -11668,6 +12661,14 @@ references:
   fullName.vb: GRYLibrary.Core.XMLSerializer.KeyValuePair(Of TKey, TValue)
   nameWithType: KeyValuePair<TKey, TValue>
   nameWithType.vb: KeyValuePair(Of TKey, TValue)
+- uid: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.#ctor
+  name: KeyValuePair()
+  href: api/GRYLibrary.Core.XMLSerializer.KeyValuePair-2.html#GRYLibrary_Core_XMLSerializer_KeyValuePair_2__ctor
+  commentId: M:GRYLibrary.Core.XMLSerializer.KeyValuePair`2.#ctor
+  fullName: GRYLibrary.Core.XMLSerializer.KeyValuePair<TKey, TValue>.KeyValuePair()
+  fullName.vb: GRYLibrary.Core.XMLSerializer.KeyValuePair(Of TKey, TValue).KeyValuePair()
+  nameWithType: KeyValuePair<TKey, TValue>.KeyValuePair()
+  nameWithType.vb: KeyValuePair(Of TKey, TValue).KeyValuePair()
 - uid: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.#ctor(`0,`1)
   name: KeyValuePair(TKey, TValue)
   href: api/GRYLibrary.Core.XMLSerializer.KeyValuePair-2.html#GRYLibrary_Core_XMLSerializer_KeyValuePair_2__ctor__0__1_
@@ -11719,6 +12720,23 @@ references:
   fullName.vb: GRYLibrary.Core.XMLSerializer.KeyValuePair(Of TKey, TValue).GetHashCode
   nameWithType: KeyValuePair<TKey, TValue>.GetHashCode
   nameWithType.vb: KeyValuePair(Of TKey, TValue).GetHashCode
+- uid: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.GetSchema
+  name: GetSchema()
+  href: api/GRYLibrary.Core.XMLSerializer.KeyValuePair-2.html#GRYLibrary_Core_XMLSerializer_KeyValuePair_2_GetSchema
+  commentId: M:GRYLibrary.Core.XMLSerializer.KeyValuePair`2.GetSchema
+  fullName: GRYLibrary.Core.XMLSerializer.KeyValuePair<TKey, TValue>.GetSchema()
+  fullName.vb: GRYLibrary.Core.XMLSerializer.KeyValuePair(Of TKey, TValue).GetSchema()
+  nameWithType: KeyValuePair<TKey, TValue>.GetSchema()
+  nameWithType.vb: KeyValuePair(Of TKey, TValue).GetSchema()
+- uid: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.GetSchema*
+  name: GetSchema
+  href: api/GRYLibrary.Core.XMLSerializer.KeyValuePair-2.html#GRYLibrary_Core_XMLSerializer_KeyValuePair_2_GetSchema_
+  commentId: Overload:GRYLibrary.Core.XMLSerializer.KeyValuePair`2.GetSchema
+  isSpec: "True"
+  fullName: GRYLibrary.Core.XMLSerializer.KeyValuePair<TKey, TValue>.GetSchema
+  fullName.vb: GRYLibrary.Core.XMLSerializer.KeyValuePair(Of TKey, TValue).GetSchema
+  nameWithType: KeyValuePair<TKey, TValue>.GetSchema
+  nameWithType.vb: KeyValuePair(Of TKey, TValue).GetSchema
 - uid: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.Key
   name: Key
   href: api/GRYLibrary.Core.XMLSerializer.KeyValuePair-2.html#GRYLibrary_Core_XMLSerializer_KeyValuePair_2_Key
@@ -11736,6 +12754,57 @@ references:
   fullName.vb: GRYLibrary.Core.XMLSerializer.KeyValuePair(Of TKey, TValue).Key
   nameWithType: KeyValuePair<TKey, TValue>.Key
   nameWithType.vb: KeyValuePair(Of TKey, TValue).Key
+- uid: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ReadXml(System.Xml.XmlReader)
+  name: ReadXml(XmlReader)
+  href: api/GRYLibrary.Core.XMLSerializer.KeyValuePair-2.html#GRYLibrary_Core_XMLSerializer_KeyValuePair_2_ReadXml_System_Xml_XmlReader_
+  commentId: M:GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ReadXml(System.Xml.XmlReader)
+  fullName: GRYLibrary.Core.XMLSerializer.KeyValuePair<TKey, TValue>.ReadXml(System.Xml.XmlReader)
+  fullName.vb: GRYLibrary.Core.XMLSerializer.KeyValuePair(Of TKey, TValue).ReadXml(System.Xml.XmlReader)
+  nameWithType: KeyValuePair<TKey, TValue>.ReadXml(XmlReader)
+  nameWithType.vb: KeyValuePair(Of TKey, TValue).ReadXml(XmlReader)
+- uid: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ReadXml*
+  name: ReadXml
+  href: api/GRYLibrary.Core.XMLSerializer.KeyValuePair-2.html#GRYLibrary_Core_XMLSerializer_KeyValuePair_2_ReadXml_
+  commentId: Overload:GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ReadXml
+  isSpec: "True"
+  fullName: GRYLibrary.Core.XMLSerializer.KeyValuePair<TKey, TValue>.ReadXml
+  fullName.vb: GRYLibrary.Core.XMLSerializer.KeyValuePair(Of TKey, TValue).ReadXml
+  nameWithType: KeyValuePair<TKey, TValue>.ReadXml
+  nameWithType.vb: KeyValuePair(Of TKey, TValue).ReadXml
+- uid: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ToDotNetKeyValuePair
+  name: ToDotNetKeyValuePair()
+  href: api/GRYLibrary.Core.XMLSerializer.KeyValuePair-2.html#GRYLibrary_Core_XMLSerializer_KeyValuePair_2_ToDotNetKeyValuePair
+  commentId: M:GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ToDotNetKeyValuePair
+  fullName: GRYLibrary.Core.XMLSerializer.KeyValuePair<TKey, TValue>.ToDotNetKeyValuePair()
+  fullName.vb: GRYLibrary.Core.XMLSerializer.KeyValuePair(Of TKey, TValue).ToDotNetKeyValuePair()
+  nameWithType: KeyValuePair<TKey, TValue>.ToDotNetKeyValuePair()
+  nameWithType.vb: KeyValuePair(Of TKey, TValue).ToDotNetKeyValuePair()
+- uid: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ToDotNetKeyValuePair*
+  name: ToDotNetKeyValuePair
+  href: api/GRYLibrary.Core.XMLSerializer.KeyValuePair-2.html#GRYLibrary_Core_XMLSerializer_KeyValuePair_2_ToDotNetKeyValuePair_
+  commentId: Overload:GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ToDotNetKeyValuePair
+  isSpec: "True"
+  fullName: GRYLibrary.Core.XMLSerializer.KeyValuePair<TKey, TValue>.ToDotNetKeyValuePair
+  fullName.vb: GRYLibrary.Core.XMLSerializer.KeyValuePair(Of TKey, TValue).ToDotNetKeyValuePair
+  nameWithType: KeyValuePair<TKey, TValue>.ToDotNetKeyValuePair
+  nameWithType.vb: KeyValuePair(Of TKey, TValue).ToDotNetKeyValuePair
+- uid: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ToString
+  name: ToString()
+  href: api/GRYLibrary.Core.XMLSerializer.KeyValuePair-2.html#GRYLibrary_Core_XMLSerializer_KeyValuePair_2_ToString
+  commentId: M:GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ToString
+  fullName: GRYLibrary.Core.XMLSerializer.KeyValuePair<TKey, TValue>.ToString()
+  fullName.vb: GRYLibrary.Core.XMLSerializer.KeyValuePair(Of TKey, TValue).ToString()
+  nameWithType: KeyValuePair<TKey, TValue>.ToString()
+  nameWithType.vb: KeyValuePair(Of TKey, TValue).ToString()
+- uid: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ToString*
+  name: ToString
+  href: api/GRYLibrary.Core.XMLSerializer.KeyValuePair-2.html#GRYLibrary_Core_XMLSerializer_KeyValuePair_2_ToString_
+  commentId: Overload:GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ToString
+  isSpec: "True"
+  fullName: GRYLibrary.Core.XMLSerializer.KeyValuePair<TKey, TValue>.ToString
+  fullName.vb: GRYLibrary.Core.XMLSerializer.KeyValuePair(Of TKey, TValue).ToString
+  nameWithType: KeyValuePair<TKey, TValue>.ToString
+  nameWithType.vb: KeyValuePair(Of TKey, TValue).ToString
 - uid: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.Value
   name: Value
   href: api/GRYLibrary.Core.XMLSerializer.KeyValuePair-2.html#GRYLibrary_Core_XMLSerializer_KeyValuePair_2_Value
@@ -11753,6 +12822,23 @@ references:
   fullName.vb: GRYLibrary.Core.XMLSerializer.KeyValuePair(Of TKey, TValue).Value
   nameWithType: KeyValuePair<TKey, TValue>.Value
   nameWithType.vb: KeyValuePair(Of TKey, TValue).Value
+- uid: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.WriteXml(System.Xml.XmlWriter)
+  name: WriteXml(XmlWriter)
+  href: api/GRYLibrary.Core.XMLSerializer.KeyValuePair-2.html#GRYLibrary_Core_XMLSerializer_KeyValuePair_2_WriteXml_System_Xml_XmlWriter_
+  commentId: M:GRYLibrary.Core.XMLSerializer.KeyValuePair`2.WriteXml(System.Xml.XmlWriter)
+  fullName: GRYLibrary.Core.XMLSerializer.KeyValuePair<TKey, TValue>.WriteXml(System.Xml.XmlWriter)
+  fullName.vb: GRYLibrary.Core.XMLSerializer.KeyValuePair(Of TKey, TValue).WriteXml(System.Xml.XmlWriter)
+  nameWithType: KeyValuePair<TKey, TValue>.WriteXml(XmlWriter)
+  nameWithType.vb: KeyValuePair(Of TKey, TValue).WriteXml(XmlWriter)
+- uid: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.WriteXml*
+  name: WriteXml
+  href: api/GRYLibrary.Core.XMLSerializer.KeyValuePair-2.html#GRYLibrary_Core_XMLSerializer_KeyValuePair_2_WriteXml_
+  commentId: Overload:GRYLibrary.Core.XMLSerializer.KeyValuePair`2.WriteXml
+  isSpec: "True"
+  fullName: GRYLibrary.Core.XMLSerializer.KeyValuePair<TKey, TValue>.WriteXml
+  fullName.vb: GRYLibrary.Core.XMLSerializer.KeyValuePair(Of TKey, TValue).WriteXml
+  nameWithType: KeyValuePair<TKey, TValue>.WriteXml
+  nameWithType.vb: KeyValuePair(Of TKey, TValue).WriteXml
 - uid: GRYLibrary.Core.XMLSerializer.SerializableDictionary`2
   name: SerializableDictionary<TKey, TValue>
   href: api/GRYLibrary.Core.XMLSerializer.SerializableDictionary-2.html
@@ -11873,6 +12959,23 @@ references:
   fullName.vb: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer(Of T).AddAllTypesInCurrentDomainAssembliesToKnownTypes
   nameWithType: SimpleGenericXMLSerializer<T>.AddAllTypesInCurrentDomainAssembliesToKnownTypes
   nameWithType.vb: SimpleGenericXMLSerializer(Of T).AddAllTypesInCurrentDomainAssembliesToKnownTypes
+- uid: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.DefaultNamespace
+  name: DefaultNamespace
+  href: api/GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer-1.html#GRYLibrary_Core_XMLSerializer_SimpleGenericXMLSerializer_1_DefaultNamespace
+  commentId: P:GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.DefaultNamespace
+  fullName: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer<T>.DefaultNamespace
+  fullName.vb: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer(Of T).DefaultNamespace
+  nameWithType: SimpleGenericXMLSerializer<T>.DefaultNamespace
+  nameWithType.vb: SimpleGenericXMLSerializer(Of T).DefaultNamespace
+- uid: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.DefaultNamespace*
+  name: DefaultNamespace
+  href: api/GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer-1.html#GRYLibrary_Core_XMLSerializer_SimpleGenericXMLSerializer_1_DefaultNamespace_
+  commentId: Overload:GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.DefaultNamespace
+  isSpec: "True"
+  fullName: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer<T>.DefaultNamespace
+  fullName.vb: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer(Of T).DefaultNamespace
+  nameWithType: SimpleGenericXMLSerializer<T>.DefaultNamespace
+  nameWithType.vb: SimpleGenericXMLSerializer(Of T).DefaultNamespace
 - uid: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.Deserialize(System.String)
   name: Deserialize(String)
   href: api/GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer-1.html#GRYLibrary_Core_XMLSerializer_SimpleGenericXMLSerializer_1_Deserialize_System_String_
@@ -11975,6 +13078,23 @@ references:
   fullName.vb: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer(Of T).SerializeToWriter
   nameWithType: SimpleGenericXMLSerializer<T>.SerializeToWriter
   nameWithType.vb: SimpleGenericXMLSerializer(Of T).SerializeToWriter
+- uid: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.XmlAttributeOverrides
+  name: XmlAttributeOverrides
+  href: api/GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer-1.html#GRYLibrary_Core_XMLSerializer_SimpleGenericXMLSerializer_1_XmlAttributeOverrides
+  commentId: P:GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.XmlAttributeOverrides
+  fullName: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer<T>.XmlAttributeOverrides
+  fullName.vb: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer(Of T).XmlAttributeOverrides
+  nameWithType: SimpleGenericXMLSerializer<T>.XmlAttributeOverrides
+  nameWithType.vb: SimpleGenericXMLSerializer(Of T).XmlAttributeOverrides
+- uid: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.XmlAttributeOverrides*
+  name: XmlAttributeOverrides
+  href: api/GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer-1.html#GRYLibrary_Core_XMLSerializer_SimpleGenericXMLSerializer_1_XmlAttributeOverrides_
+  commentId: Overload:GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.XmlAttributeOverrides
+  isSpec: "True"
+  fullName: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer<T>.XmlAttributeOverrides
+  fullName.vb: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer(Of T).XmlAttributeOverrides
+  nameWithType: SimpleGenericXMLSerializer<T>.XmlAttributeOverrides
+  nameWithType.vb: SimpleGenericXMLSerializer(Of T).XmlAttributeOverrides
 - uid: GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1.XMLWriterSettings
   name: XMLWriterSettings
   href: api/GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer-1.html#GRYLibrary_Core_XMLSerializer_SimpleGenericXMLSerializer_1_XMLWriterSettings

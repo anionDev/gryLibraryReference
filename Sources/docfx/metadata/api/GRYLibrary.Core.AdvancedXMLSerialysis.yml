@@ -16,6 +16,12 @@ items:
   assemblies:
   - GRYLibrary
 references:
+- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer
+  commentId: T:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer
+  parent: GRYLibrary.Core.AdvancedXMLSerialysis
+  name: GenericXMLSerializer
+  nameWithType: GenericXMLSerializer
+  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer
 - uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1
   commentId: T:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer`1
   name: GenericXMLSerializer<T>
@@ -52,8 +58,8 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer
-  commentId: T:GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer
-  name: GenericXMLSerializer
-  nameWithType: GenericXMLSerializer
-  fullName: GRYLibrary.Core.AdvancedXMLSerialysis.GenericXMLSerializer
+- uid: GRYLibrary.Core.AdvancedXMLSerialysis
+  commentId: N:GRYLibrary.Core.AdvancedXMLSerialysis
+  name: GRYLibrary.Core.AdvancedXMLSerialysis
+  nameWithType: GRYLibrary.Core.AdvancedXMLSerialysis
+  fullName: GRYLibrary.Core.AdvancedXMLSerialysis

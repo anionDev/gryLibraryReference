@@ -7,6 +7,7 @@ items:
   - GRYLibrary.Core.AdvancedObjectAnalysis.Generic
   - GRYLibrary.Core.AdvancedObjectAnalysis.GenericToString
   - GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator
+  - GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator
   langs:
   - csharp
   - vb
@@ -34,6 +35,11 @@ references:
   name: PropertyEqualsCalculator
   nameWithType: PropertyEqualsCalculator
   fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator
+  commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator
+  name: PropertyIterator
+  nameWithType: PropertyIterator
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator
 - uid: GRYLibrary.Core.AdvancedObjectAnalysis
   commentId: N:GRYLibrary.Core.AdvancedObjectAnalysis
   name: GRYLibrary.Core.AdvancedObjectAnalysis

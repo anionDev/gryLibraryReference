@@ -81,8 +81,16 @@
     <div class="level1"><a class="xref" href="GRYLibrary.Core.Log.GRYLogTarget.html">GRYLogTarget</a></div>
     <div class="level2"><span class="xref">LogFile</span></div>
   </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.IGRYSerializable.html">IGRYSerializable</a></div>
+    <div><span class="xref">System.Xml.Serialization.IXmlSerializable</span></div>
+  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_Format">GRYLogTarget.Format</a>
+    </div>
     <div>
       <a class="xref" href="GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_LogLevels">GRYLogTarget.LogLevels</a>
     </div>
@@ -90,13 +98,31 @@
       <a class="xref" href="GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_Enabled">GRYLogTarget.Enabled</a>
     </div>
     <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
+      <a class="xref" href="GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_Initialize">GRYLogTarget.Initialize()</a>
+    </div>
+    <div>
+      <a class="xref" href="GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_Equals_System_Object_">GRYLogTarget.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_GetHashCode">GRYLogTarget.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_ToString">GRYLogTarget.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_GetSchema">GRYLogTarget.GetSchema()</a>
+    </div>
+    <div>
+      <a class="xref" href="GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_ReadXml_System_Xml_XmlReader_">GRYLogTarget.ReadXml(XmlReader)</a>
+    </div>
+    <div>
+      <a class="xref" href="GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_WriteXml_System_Xml_XmlWriter_">GRYLogTarget.WriteXml(XmlWriter)</a>
+    </div>
+    <div>
+      <a class="xref" href="GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_GetExtraTypesWhichAreRequiredForSerialization">GRYLogTarget.GetExtraTypesWhichAreRequiredForSerialization()</a>
     </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
     </div>
     <div>
       <span class="xref">System.Object.GetType()</span>
@@ -107,15 +133,12 @@
     <div>
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="GRYLibrary.Core.Log.ConcreteLogTargets.html">GRYLibrary.Core.Log.ConcreteLogTargets</a></h6>
   <h6><strong>Assembly</strong>: GRYLibrary.dll</h6>
   <h5 id="GRYLibrary_Core_Log_ConcreteLogTargets_LogFile_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class LogFile : GRYLogTarget</code></pre>
+    <pre><code class="lang-csharp hljs">public class LogFile : GRYLogTarget, IGRYSerializable, IXmlSerializable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -217,6 +240,40 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_ExecuteImplementation_GRYLibrary_Core_Log_LogItem_GRYLibrary_Core_Log_GRYLog_">GRYLogTarget.ExecuteImplementation(LogItem, GRYLog)</a></div>
+  
+  
+  <a id="GRYLibrary_Core_Log_ConcreteLogTargets_LogFile_FurtherGetExtraTypesWhichAreRequiredForSerialization_" data-uid="GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.FurtherGetExtraTypesWhichAreRequiredForSerialization*"></a>
+  <h4 id="GRYLibrary_Core_Log_ConcreteLogTargets_LogFile_FurtherGetExtraTypesWhichAreRequiredForSerialization" data-uid="GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.FurtherGetExtraTypesWhichAreRequiredForSerialization">FurtherGetExtraTypesWhichAreRequiredForSerialization()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override ISet&lt;Type&gt; FurtherGetExtraTypesWhichAreRequiredForSerialization()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.ISet</span>&lt;<span class="xref">System.Type</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_FurtherGetExtraTypesWhichAreRequiredForSerialization">GRYLogTarget.FurtherGetExtraTypesWhichAreRequiredForSerialization()</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.IGRYSerializable.html">IGRYSerializable</a>
+  </div>
+  <div>
+      <span class="xref">System.Xml.Serialization.IXmlSerializable</span>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsEnumerable_System_Object_">Utilities.ObjectIsEnumerable(Object)</a>
@@ -232,6 +289,9 @@
   </div>
   <div>
       <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsKeyValuePair_System_Object_">Utilities.ObjectIsKeyValuePair(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsDictionaryEntry_System_Object_">Utilities.ObjectIsDictionaryEntry(Object)</a>
   </div>
   <div>
       <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsTuple_System_Object_">Utilities.ObjectIsTuple(Object)</a>

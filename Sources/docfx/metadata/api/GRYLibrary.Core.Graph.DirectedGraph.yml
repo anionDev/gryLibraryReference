@@ -30,7 +30,7 @@ items:
   type: Class
   source:
     id: DirectedGraph
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\DirectedGraph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\DirectedGraph.cs
     startLine: 7
   assemblies:
   - GRYLibrary
@@ -84,6 +84,7 @@ items:
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsList
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionary
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsTuple
   - System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable
   - System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable``1
@@ -119,7 +120,7 @@ items:
   type: Property
   source:
     id: Edges
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\DirectedGraph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\DirectedGraph.cs
     startLine: 9
   assemblies:
   - GRYLibrary
@@ -153,7 +154,7 @@ items:
   type: Property
   source:
     id: DirectedEdges
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\DirectedGraph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\DirectedGraph.cs
     startLine: 10
   assemblies:
   - GRYLibrary
@@ -184,7 +185,7 @@ items:
   type: Constructor
   source:
     id: .ctor
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\DirectedGraph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\DirectedGraph.cs
     startLine: 12
   assemblies:
   - GRYLibrary
@@ -210,7 +211,7 @@ items:
   type: Method
   source:
     id: Accept
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\DirectedGraph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\DirectedGraph.cs
     startLine: 14
   assemblies:
   - GRYLibrary
@@ -242,7 +243,7 @@ items:
   type: Method
   source:
     id: Accept
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\DirectedGraph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\DirectedGraph.cs
     startLine: 19
   assemblies:
   - GRYLibrary
@@ -281,7 +282,7 @@ items:
   type: Method
   source:
     id: ToUndirectedGraph
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\DirectedGraph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\DirectedGraph.cs
     startLine: 24
   assemblies:
   - GRYLibrary
@@ -309,7 +310,7 @@ items:
   type: Method
   source:
     id: GetDirectSuccessors
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\DirectedGraph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\DirectedGraph.cs
     startLine: 43
   assemblies:
   - GRYLibrary
@@ -351,7 +352,7 @@ items:
   type: Method
   source:
     id: GetDirectPredecessors
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\DirectedGraph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\DirectedGraph.cs
     startLine: 65
   assemblies:
   - GRYLibrary
@@ -385,7 +386,7 @@ items:
   type: Method
   source:
     id: HasIncomingEdge
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\DirectedGraph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\DirectedGraph.cs
     startLine: 77
   assemblies:
   - GRYLibrary
@@ -416,7 +417,7 @@ items:
   type: Method
   source:
     id: GetDirectSuccessorEdges
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\DirectedGraph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\DirectedGraph.cs
     startLine: 88
   assemblies:
   - GRYLibrary
@@ -450,7 +451,7 @@ items:
   type: Method
   source:
     id: GetIncomingEdges
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\DirectedGraph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\DirectedGraph.cs
     startLine: 93
   assemblies:
   - GRYLibrary
@@ -481,7 +482,7 @@ items:
   type: Method
   source:
     id: GetOutgoingEdges
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\DirectedGraph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\DirectedGraph.cs
     startLine: 105
   assemblies:
   - GRYLibrary
@@ -512,7 +513,7 @@ items:
   type: Method
   source:
     id: CreateByAdjacencyMatrix
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\DirectedGraph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\DirectedGraph.cs
     startLine: 118
   assemblies:
   - GRYLibrary
@@ -548,7 +549,7 @@ items:
   type: Method
   source:
     id: AddEdge
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\DirectedGraph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\DirectedGraph.cs
     startLine: 157
   assemblies:
   - GRYLibrary
@@ -580,7 +581,7 @@ items:
   type: Method
   source:
     id: RemoveEdge
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\DirectedGraph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\DirectedGraph.cs
     startLine: 168
   assemblies:
   - GRYLibrary
@@ -612,7 +613,7 @@ items:
   type: Method
   source:
     id: ToString
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\DirectedGraph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\DirectedGraph.cs
     startLine: 177
   assemblies:
   - GRYLibrary
@@ -2498,6 +2499,35 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  name: ObjectIsDictionaryEntry()
+  nameWithType: Utilities.ObjectIsDictionaryEntry()
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: System.Object.GRYLibrary.Core.Utilities.ObjectIsTuple
   commentId: M:GRYLibrary.Core.Utilities.ObjectIsTuple(System.Object)
   parent: GRYLibrary.Core.Utilities
@@ -3139,6 +3169,44 @@ references:
     name: ObjectIsKeyValuePair
     nameWithType: Utilities.ObjectIsKeyValuePair
     fullName: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  isExternal: true
+  name: ObjectIsDictionaryEntry(Object)
+  nameWithType: Utilities.ObjectIsDictionaryEntry(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
   - name: (
     nameWithType: (
     fullName: (

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Struct KeyValuePair&lt;TKey, TValue&gt;
+    <title>Class KeyValuePair&lt;TKey, TValue&gt;
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Struct KeyValuePair&lt;TKey, TValue&gt;
+    <meta name="title" content="Class KeyValuePair&lt;TKey, TValue&gt;
    ">
     <meta name="generator" content="docfx 2.55.0.0">
     
@@ -71,20 +71,29 @@
             <article class="content wrap" id="_content" data-uid="GRYLibrary.Core.XMLSerializer.KeyValuePair`2">
   
   
-  <h1 id="GRYLibrary_Core_XMLSerializer_KeyValuePair_2" data-uid="GRYLibrary.Core.XMLSerializer.KeyValuePair`2" class="text-break">Struct KeyValuePair&lt;TKey, TValue&gt;
+  <h1 id="GRYLibrary_Core_XMLSerializer_KeyValuePair_2" data-uid="GRYLibrary.Core.XMLSerializer.KeyValuePair`2" class="text-break">Class KeyValuePair&lt;TKey, TValue&gt;
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">KeyValuePair&lt;TKey, TValue&gt;</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.Xml.Serialization.IXmlSerializable</span></div>
+  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
-    <div>
-      <span class="xref">System.ValueType.ToString()</span>
-    </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
     </div>
     <div>
       <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
     <div>
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
@@ -94,8 +103,7 @@
   <h6><strong>Assembly</strong>: GRYLibrary.dll</h6>
   <h5 id="GRYLibrary_Core_XMLSerializer_KeyValuePair_2_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public struct KeyValuePair&lt;TKey, TValue&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class KeyValuePair&lt;TKey, TValue&gt; : IXmlSerializable</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -118,6 +126,16 @@ public struct KeyValuePair&lt;TKey, TValue&gt;</code></pre>
   </table>
   <h3 id="constructors">Constructors
   </h3>
+  
+  
+  <a id="GRYLibrary_Core_XMLSerializer_KeyValuePair_2__ctor_" data-uid="GRYLibrary.Core.XMLSerializer.KeyValuePair`2.#ctor*"></a>
+  <h4 id="GRYLibrary_Core_XMLSerializer_KeyValuePair_2__ctor" data-uid="GRYLibrary.Core.XMLSerializer.KeyValuePair`2.#ctor">KeyValuePair()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public KeyValuePair()</code></pre>
+  </div>
   
   
   <a id="GRYLibrary_Core_XMLSerializer_KeyValuePair_2__ctor_" data-uid="GRYLibrary.Core.XMLSerializer.KeyValuePair`2.#ctor*"></a>
@@ -212,7 +230,7 @@ public struct KeyValuePair&lt;TKey, TValue&gt;</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+    <pre><code class="lang-csharp hljs">public override bool Equals(object object)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -226,7 +244,7 @@ public struct KeyValuePair&lt;TKey, TValue&gt;</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">obj</span></td>
+        <td><span class="parametername">object</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -247,7 +265,7 @@ public struct KeyValuePair&lt;TKey, TValue&gt;</code></pre>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.ValueType.Equals(System.Object)</span></div>
+  <div><span class="xref">System.Object.Equals(System.Object)</span></div>
   
   
   <a id="GRYLibrary_Core_XMLSerializer_KeyValuePair_2_GetHashCode_" data-uid="GRYLibrary.Core.XMLSerializer.KeyValuePair`2.GetHashCode*"></a>
@@ -274,7 +292,142 @@ public struct KeyValuePair&lt;TKey, TValue&gt;</code></pre>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.ValueType.GetHashCode()</span></div>
+  <div><span class="xref">System.Object.GetHashCode()</span></div>
+  
+  
+  <a id="GRYLibrary_Core_XMLSerializer_KeyValuePair_2_GetSchema_" data-uid="GRYLibrary.Core.XMLSerializer.KeyValuePair`2.GetSchema*"></a>
+  <h4 id="GRYLibrary_Core_XMLSerializer_KeyValuePair_2_GetSchema" data-uid="GRYLibrary.Core.XMLSerializer.KeyValuePair`2.GetSchema">GetSchema()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public XmlSchema GetSchema()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Xml.Schema.XmlSchema</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_XMLSerializer_KeyValuePair_2_ReadXml_" data-uid="GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ReadXml*"></a>
+  <h4 id="GRYLibrary_Core_XMLSerializer_KeyValuePair_2_ReadXml_System_Xml_XmlReader_" data-uid="GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ReadXml(System.Xml.XmlReader)">ReadXml(XmlReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReadXml(XmlReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Xml.XmlReader</span></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_XMLSerializer_KeyValuePair_2_ToDotNetKeyValuePair_" data-uid="GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ToDotNetKeyValuePair*"></a>
+  <h4 id="GRYLibrary_Core_XMLSerializer_KeyValuePair_2_ToDotNetKeyValuePair" data-uid="GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ToDotNetKeyValuePair">ToDotNetKeyValuePair()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public KeyValuePair&lt;object, object&gt; ToDotNetKeyValuePair()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.Object</span>, <span class="xref">System.Object</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_XMLSerializer_KeyValuePair_2_ToString_" data-uid="GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ToString*"></a>
+  <h4 id="GRYLibrary_Core_XMLSerializer_KeyValuePair_2_ToString" data-uid="GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ToString">ToString()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.ToString()</span></div>
+  
+  
+  <a id="GRYLibrary_Core_XMLSerializer_KeyValuePair_2_WriteXml_" data-uid="GRYLibrary.Core.XMLSerializer.KeyValuePair`2.WriteXml*"></a>
+  <h4 id="GRYLibrary_Core_XMLSerializer_KeyValuePair_2_WriteXml_System_Xml_XmlWriter_" data-uid="GRYLibrary.Core.XMLSerializer.KeyValuePair`2.WriteXml(System.Xml.XmlWriter)">WriteXml(XmlWriter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteXml(XmlWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Xml.XmlWriter</span></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.Xml.Serialization.IXmlSerializable</span>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsEnumerable_System_Object_">Utilities.ObjectIsEnumerable(Object)</a>
@@ -290,6 +443,9 @@ public struct KeyValuePair&lt;TKey, TValue&gt;</code></pre>
   </div>
   <div>
       <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsKeyValuePair_System_Object_">Utilities.ObjectIsKeyValuePair(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsDictionaryEntry_System_Object_">Utilities.ObjectIsDictionaryEntry(Object)</a>
   </div>
   <div>
       <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsTuple_System_Object_">Utilities.ObjectIsTuple(Object)</a>

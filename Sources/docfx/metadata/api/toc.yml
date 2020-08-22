@@ -59,6 +59,8 @@
     name.vb: ReadOnlyProperty(Of T)
   - uid: GRYLibrary.Core.RedundantIdler
     name: RedundantIdler
+  - uid: GRYLibrary.Core.ReferenceTuple
+    name: ReferenceTuple
   - uid: GRYLibrary.Core.Semaphore
     name: Semaphore
   - uid: GRYLibrary.Core.SimpleObjectPersistence`1
@@ -107,6 +109,8 @@
     name: GenericToString
   - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator
     name: PropertyEqualsCalculator
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIterator
+    name: PropertyIterator
 - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
   name: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
   items:
@@ -119,6 +123,8 @@
     name.vb: FlatObject.IFlatObjectVisitor(Of T)
   - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.GRYSObject
     name: GRYSObject
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.IGRYSerializable
+    name: IGRYSerializable
   - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.SerializationConfiguration
     name: SerializationConfiguration
 - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.ConcreteSimplifiedObjects
@@ -163,6 +169,11 @@
     name: SetComparer
   - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.CustomComparer.TupleComparer
     name: TupleComparer
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper
+  name: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper
+  items:
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyIteratorHelper.PropertyIteratorConfiguration
+    name: PropertyIteratorConfiguration
 - uid: GRYLibrary.Core.AdvancedXMLSerialysis
   name: GRYLibrary.Core.AdvancedXMLSerialysis
   items:

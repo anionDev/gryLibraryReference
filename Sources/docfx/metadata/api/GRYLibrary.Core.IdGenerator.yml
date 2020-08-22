@@ -18,7 +18,7 @@ items:
   type: Class
   source:
     id: IdGenerator
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\IdGenerator.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\IdGenerator.cs
     startLine: 29
   assemblies:
   - GRYLibrary
@@ -56,7 +56,7 @@ items:
   type: Method
   source:
     id: GetDefaultIntIdGenerator
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\IdGenerator.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\IdGenerator.cs
     startLine: 34
   assemblies:
   - GRYLibrary
@@ -88,7 +88,7 @@ items:
   type: Method
   source:
     id: GetDefaultLongIdGenerator
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\IdGenerator.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\IdGenerator.cs
     startLine: 41
   assemblies:
   - GRYLibrary
@@ -120,7 +120,7 @@ items:
   type: Method
   source:
     id: GetDefaultBigIntegerIdGenerator
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\IdGenerator.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\IdGenerator.cs
     startLine: 48
   assemblies:
   - GRYLibrary
@@ -152,7 +152,7 @@ items:
   type: Method
   source:
     id: GetDefaultGuidIdGenerator
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\IdGenerator.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\IdGenerator.cs
     startLine: 55
   assemblies:
   - GRYLibrary

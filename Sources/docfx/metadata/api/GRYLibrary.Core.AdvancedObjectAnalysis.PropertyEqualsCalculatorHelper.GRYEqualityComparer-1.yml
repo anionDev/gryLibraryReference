@@ -7,6 +7,8 @@ items:
   children:
   - GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer`1.#ctor(GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.PropertyEqualsCalculatorConfiguration)
   - GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer`1._PropertyEqualsCalculator
+  - GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer`1.DefaultEquals(`0,`0)
+  - GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer`1.DefaultGetHashCode(`0)
   - GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer`1.Equals(`0,`0)
   - GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer`1.GetHashCode(`0)
   langs:
@@ -18,7 +20,7 @@ items:
   type: Class
   source:
     id: GRYEqualityComparer
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\PropertyEqualsCalculatorHelper\GRYEqualityComparer.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\PropertyEqualsCalculatorHelper\GRYEqualityComparer.cs
     startLine: 4
   assemblies:
   - GRYLibrary
@@ -51,6 +53,7 @@ items:
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsList
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionary
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsTuple
   - System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable
   - System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable``1
@@ -88,7 +91,7 @@ items:
   type: Field
   source:
     id: _PropertyEqualsCalculator
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\PropertyEqualsCalculatorHelper\GRYEqualityComparer.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\PropertyEqualsCalculatorHelper\GRYEqualityComparer.cs
     startLine: 6
   assemblies:
   - GRYLibrary
@@ -106,6 +109,78 @@ items:
   - Protected
   - ReadOnly
   fullName.vb: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer(Of T)._PropertyEqualsCalculator
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer`1.DefaultEquals(`0,`0)
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer`1.DefaultEquals(`0,`0)
+  id: DefaultEquals(`0,`0)
+  parent: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer`1
+  langs:
+  - csharp
+  - vb
+  name: DefaultEquals(T, T)
+  nameWithType: GRYEqualityComparer<T>.DefaultEquals(T, T)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer<T>.DefaultEquals(T, T)
+  type: Method
+  source:
+    id: DefaultEquals
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\PropertyEqualsCalculatorHelper\GRYEqualityComparer.cs
+    startLine: 8
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper
+  syntax:
+    content: public abstract bool DefaultEquals(T item1, T item2)
+    parameters:
+    - id: item1
+      type: '{T}'
+    - id: item2
+      type: '{T}'
+    return:
+      type: System.Boolean
+    content.vb: Public MustOverride Function DefaultEquals(item1 As T, item2 As T) As Boolean
+  overload: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer`1.DefaultEquals*
+  nameWithType.vb: GRYEqualityComparer(Of T).DefaultEquals(T, T)
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+  fullName.vb: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer(Of T).DefaultEquals(T, T)
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer`1.DefaultGetHashCode(`0)
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer`1.DefaultGetHashCode(`0)
+  id: DefaultGetHashCode(`0)
+  parent: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer`1
+  langs:
+  - csharp
+  - vb
+  name: DefaultGetHashCode(T)
+  nameWithType: GRYEqualityComparer<T>.DefaultGetHashCode(T)
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer<T>.DefaultGetHashCode(T)
+  type: Method
+  source:
+    id: DefaultGetHashCode
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\PropertyEqualsCalculatorHelper\GRYEqualityComparer.cs
+    startLine: 9
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper
+  syntax:
+    content: public abstract int DefaultGetHashCode(T object)
+    parameters:
+    - id: object
+      type: '{T}'
+    return:
+      type: System.Int32
+    content.vb: Public MustOverride Function DefaultGetHashCode(object As T) As Integer
+  overload: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer`1.DefaultGetHashCode*
+  nameWithType.vb: GRYEqualityComparer(Of T).DefaultGetHashCode(T)
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+  fullName.vb: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer(Of T).DefaultGetHashCode(T)
 - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer`1.#ctor(GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.PropertyEqualsCalculatorConfiguration)
   commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer`1.#ctor(GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.PropertyEqualsCalculatorConfiguration)
   id: '#ctor(GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.PropertyEqualsCalculatorConfiguration)'
@@ -119,8 +194,8 @@ items:
   type: Constructor
   source:
     id: .ctor
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\PropertyEqualsCalculatorHelper\GRYEqualityComparer.cs
-    startLine: 12
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\PropertyEqualsCalculatorHelper\GRYEqualityComparer.cs
+    startLine: 10
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper
@@ -150,8 +225,8 @@ items:
   type: Method
   source:
     id: GetHashCode
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\PropertyEqualsCalculatorHelper\GRYEqualityComparer.cs
-    startLine: 25
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\PropertyEqualsCalculatorHelper\GRYEqualityComparer.cs
+    startLine: 23
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper
@@ -185,8 +260,8 @@ items:
   type: Method
   source:
     id: Equals
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\PropertyEqualsCalculatorHelper\GRYEqualityComparer.cs
-    startLine: 29
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\AdvancedObjectAnalysis\PropertyEqualsCalculatorHelper\GRYEqualityComparer.cs
+    startLine: 27
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper
@@ -680,6 +755,35 @@ references:
     name: ObjectIsKeyValuePair
     nameWithType: Utilities.ObjectIsKeyValuePair
     fullName: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  name: ObjectIsDictionaryEntry()
+  nameWithType: Utilities.ObjectIsDictionaryEntry()
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
   - name: (
     nameWithType: (
     fullName: (
@@ -1341,6 +1445,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  isExternal: true
+  name: ObjectIsDictionaryEntry(Object)
+  nameWithType: Utilities.ObjectIsDictionaryEntry(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: GRYLibrary.Core.Utilities.ObjectIsTuple(System.Object)
   commentId: M:GRYLibrary.Core.Utilities.ObjectIsTuple(System.Object)
   isExternal: true
@@ -1950,6 +2092,44 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer`1.DefaultEquals*
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer`1.DefaultEquals
+  name: DefaultEquals
+  nameWithType: GRYEqualityComparer<T>.DefaultEquals
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer<T>.DefaultEquals
+  nameWithType.vb: GRYEqualityComparer(Of T).DefaultEquals
+  fullName.vb: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer(Of T).DefaultEquals
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer`1.DefaultGetHashCode*
+  commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer`1.DefaultGetHashCode
+  name: DefaultGetHashCode
+  nameWithType: GRYEqualityComparer<T>.DefaultGetHashCode
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer<T>.DefaultGetHashCode
+  nameWithType.vb: GRYEqualityComparer(Of T).DefaultGetHashCode
+  fullName.vb: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer(Of T).DefaultGetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
 - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer`1.#ctor*
   commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer`1.#ctor
   name: GRYEqualityComparer
@@ -2009,19 +2189,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: '{T}'
-  commentId: '!:T'
-  definition: T
-  name: T
-  nameWithType: T
-  fullName: T
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
 - uid: System.Collections.Generic.IEqualityComparer`1.GetHashCode(`0)
   commentId: M:System.Collections.Generic.IEqualityComparer`1.GetHashCode(`0)
   isExternal: true
@@ -2060,10 +2227,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: T
-  name: T
-  nameWithType: T
-  fullName: T
 - uid: GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer`1.Equals*
   commentId: Overload:GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer`1.Equals
   name: Equals
@@ -2122,13 +2285,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
 - uid: System.Collections.Generic.IEqualityComparer`1.Equals(`0,`0)
   commentId: M:System.Collections.Generic.IEqualityComparer`1.Equals(`0,`0)
   isExternal: true

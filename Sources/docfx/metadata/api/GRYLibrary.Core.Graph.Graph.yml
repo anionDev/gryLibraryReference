@@ -53,7 +53,7 @@ items:
   type: Class
   source:
     id: Graph
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 14
   assemblies:
   - GRYLibrary
@@ -80,6 +80,7 @@ items:
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsList
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionary
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsTuple
   - System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable
   - System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable``1
@@ -114,7 +115,7 @@ items:
   type: Property
   source:
     id: Vertices
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 18
   assemblies:
   - GRYLibrary
@@ -145,7 +146,7 @@ items:
   type: Field
   source:
     id: _Vertices
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 19
   assemblies:
   - GRYLibrary
@@ -172,7 +173,7 @@ items:
   type: Property
   source:
     id: Edges
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 20
   assemblies:
   - GRYLibrary
@@ -205,7 +206,7 @@ items:
   type: Method
   source:
     id: Accept
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 22
   assemblies:
   - GRYLibrary
@@ -236,7 +237,7 @@ items:
   type: Method
   source:
     id: Accept
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 23
   assemblies:
   - GRYLibrary
@@ -274,7 +275,7 @@ items:
   type: Constructor
   source:
     id: .ctor
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 24
   assemblies:
   - GRYLibrary
@@ -300,7 +301,7 @@ items:
   type: Method
   source:
     id: GetDirectSuccessors
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 27
   assemblies:
   - GRYLibrary
@@ -335,7 +336,7 @@ items:
   type: Property
   source:
     id: SelfLoopIsAllowed
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 28
   assemblies:
   - GRYLibrary
@@ -366,7 +367,7 @@ items:
   type: Method
   source:
     id: GetVertex
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 44
   assemblies:
   - GRYLibrary
@@ -397,7 +398,7 @@ items:
   type: Method
   source:
     id: AddEdge
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 58
   assemblies:
   - GRYLibrary
@@ -430,7 +431,7 @@ items:
   type: Method
   source:
     id: RemoveEdge
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 59
   assemblies:
   - GRYLibrary
@@ -461,7 +462,7 @@ items:
   type: Method
   source:
     id: AddVertex
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 60
   assemblies:
   - GRYLibrary
@@ -490,7 +491,7 @@ items:
   type: Method
   source:
     id: RemoveAllEdgesWithoutWeight
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 68
   assemblies:
   - GRYLibrary
@@ -516,7 +517,7 @@ items:
   type: Method
   source:
     id: RemoveVertex
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 81
   assemblies:
   - GRYLibrary
@@ -547,7 +548,7 @@ items:
   type: Method
   source:
     id: OnEdgeAdded
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 89
   assemblies:
   - GRYLibrary
@@ -576,7 +577,7 @@ items:
   type: Method
   source:
     id: OnEdgeRemoved
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 97
   assemblies:
   - GRYLibrary
@@ -605,7 +606,7 @@ items:
   type: Method
   source:
     id: AddCheck
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 104
   assemblies:
   - GRYLibrary
@@ -638,7 +639,7 @@ items:
   type: Method
   source:
     id: ContainsOneOrMoreSelfLoops
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 119
   assemblies:
   - GRYLibrary
@@ -666,7 +667,7 @@ items:
   type: Method
   source:
     id: ContainsOneOrMoreCycles
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 131
   assemblies:
   - GRYLibrary
@@ -694,7 +695,7 @@ items:
   type: Method
   source:
     id: IsConnected
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 155
   assemblies:
   - GRYLibrary
@@ -722,7 +723,7 @@ items:
   type: Method
   source:
     id: ToAdjacencyMatrix
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 178
   assemblies:
   - GRYLibrary
@@ -750,7 +751,7 @@ items:
   type: Method
   source:
     id: GetAllCycles
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 206
   assemblies:
   - GRYLibrary
@@ -780,7 +781,7 @@ items:
   type: Method
   source:
     id: GetAllCyclesThroughASpecificVertex
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 216
   assemblies:
   - GRYLibrary
@@ -813,7 +814,7 @@ items:
   type: Method
   source:
     id: GetShortestPath
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 221
   assemblies:
   - GRYLibrary
@@ -848,7 +849,7 @@ items:
   type: Method
   source:
     id: ToString
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 225
   assemblies:
   - GRYLibrary
@@ -879,7 +880,7 @@ items:
   type: Method
   source:
     id: GetDirectSuccessorEdges
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 231
   assemblies:
   - GRYLibrary
@@ -912,7 +913,7 @@ items:
   type: Method
   source:
     id: BreadthFirstSearch
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 232
   assemblies:
   - GRYLibrary
@@ -944,7 +945,7 @@ items:
   type: Method
   source:
     id: BreadthFirstSearch
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 236
   assemblies:
   - GRYLibrary
@@ -978,7 +979,7 @@ items:
   type: Method
   source:
     id: DepthFirstSearch
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 275
   assemblies:
   - GRYLibrary
@@ -1012,7 +1013,7 @@ items:
   type: Method
   source:
     id: DepthFirstSearch
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 279
   assemblies:
   - GRYLibrary
@@ -1048,7 +1049,7 @@ items:
   type: Method
   source:
     id: TryGetEdge
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 326
   assemblies:
   - GRYLibrary
@@ -1086,7 +1087,7 @@ items:
   type: Method
   source:
     id: Equals
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 346
   assemblies:
   - GRYLibrary
@@ -1123,7 +1124,7 @@ items:
   type: Method
   source:
     id: GetHashCode
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 359
   assemblies:
   - GRYLibrary
@@ -1154,7 +1155,7 @@ items:
   type: Method
   source:
     id: IsSubgraph
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 364
   assemblies:
   - GRYLibrary
@@ -1192,7 +1193,7 @@ items:
   type: Method
   source:
     id: IsSubgraphOf
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
     startLine: 369
   assemblies:
   - GRYLibrary
@@ -1230,8 +1231,8 @@ items:
   type: Method
   source:
     id: IsIsomorphic
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
-    startLine: 384
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    startLine: 383
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Graph
@@ -1268,8 +1269,8 @@ items:
   type: Method
   source:
     id: HasHamiltonianCycle
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
-    startLine: 407
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    startLine: 406
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Graph
@@ -1304,8 +1305,8 @@ items:
   type: Method
   source:
     id: GetMinimumDegree
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
-    startLine: 420
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    startLine: 419
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Graph
@@ -1332,8 +1333,8 @@ items:
   type: Method
   source:
     id: GetMaximumDegree
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
-    startLine: 424
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Graph\Graph.cs
+    startLine: 423
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Graph
@@ -1675,6 +1676,35 @@ references:
     name: ObjectIsKeyValuePair
     nameWithType: Utilities.ObjectIsKeyValuePair
     fullName: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  name: ObjectIsDictionaryEntry()
+  nameWithType: Utilities.ObjectIsDictionaryEntry()
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
   - name: (
     nameWithType: (
     fullName: (
@@ -2280,6 +2310,44 @@ references:
     name: ObjectIsKeyValuePair
     nameWithType: Utilities.ObjectIsKeyValuePair
     fullName: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  isExternal: true
+  name: ObjectIsDictionaryEntry(Object)
+  nameWithType: Utilities.ObjectIsDictionaryEntry(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
   - name: (
     nameWithType: (
     fullName: (

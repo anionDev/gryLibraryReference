@@ -133,6 +133,104 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public PropertyEqualsCalculator()</code></pre>
   </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculator_DefaultEquals_" data-uid="GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator.DefaultEquals*"></a>
+  <h4 id="GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculator_DefaultEquals_System_Object_System_Object_" data-uid="GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator.DefaultEquals(System.Object,System.Object)">DefaultEquals(Object, Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool DefaultEquals(object object1, object object2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">object1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">object2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer&lt;System.Object&gt;.DefaultEquals(System.Object, System.Object)</span></div>
+  <h5 id="GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculator_DefaultEquals_System_Object_System_Object__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This function assumes that 2 objects which are not implementing <span class="xref">System.Collections.IEnumerable</span> are not equal if their types are not equal (except they are enumerables).</p>
+</div>
+  
+  
+  <a id="GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculator_DefaultGetHashCode_" data-uid="GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator.DefaultGetHashCode*"></a>
+  <h4 id="GRYLibrary_Core_AdvancedObjectAnalysis_PropertyEqualsCalculator_DefaultGetHashCode_System_Object_" data-uid="GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculator.DefaultGetHashCode(System.Object)">DefaultGetHashCode(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int DefaultGetHashCode(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">GRYLibrary.Core.AdvancedObjectAnalysis.PropertyEqualsCalculatorHelper.GRYEqualityComparer&lt;System.Object&gt;.DefaultGetHashCode(System.Object)</span></div>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">System.Collections.Generic.IEqualityComparer&lt;T&gt;</span>
@@ -152,6 +250,9 @@
   </div>
   <div>
       <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsKeyValuePair_System_Object_">Utilities.ObjectIsKeyValuePair(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsDictionaryEntry_System_Object_">Utilities.ObjectIsDictionaryEntry(Object)</a>
   </div>
   <div>
       <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsTuple_System_Object_">Utilities.ObjectIsTuple(Object)</a>

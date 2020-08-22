@@ -46,7 +46,7 @@ items:
   type: Class
   source:
     id: GRYLog
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
     startLine: 10
   assemblies:
   - GRYLibrary
@@ -73,6 +73,7 @@ items:
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsList
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionary
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsTuple
   - System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable
   - System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable``1
@@ -106,7 +107,7 @@ items:
   type: Property
   source:
     id: Configuration
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
     startLine: 12
   assemblies:
   - GRYLibrary
@@ -137,7 +138,7 @@ items:
   type: Event
   source:
     id: NewLogItem
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
     startLine: 18
   assemblies:
   - GRYLibrary
@@ -164,7 +165,7 @@ items:
   type: Event
   source:
     id: ErrorOccurred
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
     startLine: 20
   assemblies:
   - GRYLibrary
@@ -191,7 +192,7 @@ items:
   type: Constructor
   source:
     id: .ctor
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
     startLine: 37
   assemblies:
   - GRYLibrary
@@ -217,7 +218,7 @@ items:
   type: Method
   source:
     id: Create
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
     startLine: 55
   assemblies:
   - GRYLibrary
@@ -247,7 +248,7 @@ items:
   type: Method
   source:
     id: Create
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
     startLine: 59
   assemblies:
   - GRYLibrary
@@ -280,7 +281,7 @@ items:
   type: Method
   source:
     id: CreateByConfigurationFile
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
     startLine: 65
   assemblies:
   - GRYLibrary
@@ -313,7 +314,7 @@ items:
   type: Method
   source:
     id: GetHashCode
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
     startLine: 69
   assemblies:
   - GRYLibrary
@@ -344,7 +345,7 @@ items:
   type: Method
   source:
     id: Equals
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
     startLine: 74
   assemblies:
   - GRYLibrary
@@ -378,8 +379,8 @@ items:
   type: Method
   source:
     id: GetAmountOfErrors
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
-    startLine: 116
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
+    startLine: 115
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -406,8 +407,8 @@ items:
   type: Method
   source:
     id: GetAmountOfWarnings
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
-    startLine: 120
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
+    startLine: 119
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -434,8 +435,8 @@ items:
   type: Method
   source:
     id: LogGeneralProgramInformation
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
-    startLine: 124
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
+    startLine: 123
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -460,8 +461,8 @@ items:
   type: Method
   source:
     id: LogCurrentSystemStatistics
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
-    startLine: 131
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
+    startLine: 130
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -486,8 +487,8 @@ items:
   type: Method
   source:
     id: LogSummary
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
-    startLine: 151
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
+    startLine: 150
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -512,8 +513,8 @@ items:
   type: Method
   source:
     id: Log
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
-    startLine: 174
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
+    startLine: 173
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -541,8 +542,8 @@ items:
   type: Method
   source:
     id: Log
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
-    startLine: 178
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
+    startLine: 177
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -572,8 +573,8 @@ items:
   type: Method
   source:
     id: Log
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
-    startLine: 182
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
+    startLine: 181
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -605,8 +606,8 @@ items:
   type: Method
   source:
     id: Log
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
-    startLine: 186
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
+    startLine: 185
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -636,8 +637,8 @@ items:
   type: Method
   source:
     id: Log
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
-    startLine: 191
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
+    startLine: 190
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -668,8 +669,8 @@ items:
   type: Method
   source:
     id: Log
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
-    startLine: 195
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
+    startLine: 194
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -702,8 +703,8 @@ items:
   type: Method
   source:
     id: Log
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
-    startLine: 199
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
+    startLine: 198
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -731,8 +732,8 @@ items:
   type: Method
   source:
     id: Log
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
-    startLine: 203
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
+    startLine: 202
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -762,8 +763,8 @@ items:
   type: Method
   source:
     id: Log
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
-    startLine: 207
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
+    startLine: 206
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -798,8 +799,8 @@ items:
   type: Method
   source:
     id: Log
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
-    startLine: 211
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
+    startLine: 210
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -832,8 +833,8 @@ items:
   type: Method
   source:
     id: Log
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
-    startLine: 215
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
+    startLine: 214
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -861,8 +862,8 @@ items:
   type: Method
   source:
     id: ExecuteAndLog
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
-    startLine: 318
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
+    startLine: 317
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -898,8 +899,8 @@ items:
   type: Method
   source:
     id: ExecuteAndLog
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
-    startLine: 344
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
+    startLine: 343
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -944,8 +945,8 @@ items:
   type: Method
   source:
     id: Dispose
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
-    startLine: 377
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
+    startLine: 376
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -972,8 +973,8 @@ items:
   type: Method
   source:
     id: UseSubNamespace
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
-    startLine: 384
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
+    startLine: 383
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -1003,8 +1004,8 @@ items:
   type: Method
   source:
     id: IsEnabled
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
-    startLine: 406
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
+    startLine: 405
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -1036,8 +1037,8 @@ items:
   type: Method
   source:
     id: BeginScope
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
-    startLine: 411
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
+    startLine: 410
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -1074,8 +1075,8 @@ items:
   type: Method
   source:
     id: Log
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
-    startLine: 415
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLog.cs
+    startLine: 414
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -1478,6 +1479,35 @@ references:
     name: ObjectIsKeyValuePair
     nameWithType: Utilities.ObjectIsKeyValuePair
     fullName: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  name: ObjectIsDictionaryEntry()
+  nameWithType: Utilities.ObjectIsDictionaryEntry()
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
   - name: (
     nameWithType: (
     fullName: (
@@ -2131,6 +2161,44 @@ references:
     name: ObjectIsKeyValuePair
     nameWithType: Utilities.ObjectIsKeyValuePair
     fullName: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  isExternal: true
+  name: ObjectIsDictionaryEntry(Object)
+  nameWithType: Utilities.ObjectIsDictionaryEntry(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
   - name: (
     nameWithType: (
     fullName: (

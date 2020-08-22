@@ -11,26 +11,32 @@ items:
   - GRYLibrary.Core.Log.GRYLogConfiguration.DateFormat
   - GRYLibrary.Core.Log.GRYLogConfiguration.Enabled
   - GRYLibrary.Core.Log.GRYLogConfiguration.Equals(System.Object)
-  - GRYLibrary.Core.Log.GRYLogConfiguration.Format
+  - GRYLibrary.Core.Log.GRYLogConfiguration.GetExtraTypesWhichAreRequiredForSerialization
   - GRYLibrary.Core.Log.GRYLogConfiguration.GetHashCode
+  - GRYLibrary.Core.Log.GRYLogConfiguration.GetLogFile
   - GRYLibrary.Core.Log.GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel(Microsoft.Extensions.Logging.LogLevel)
   - GRYLibrary.Core.Log.GRYLogConfiguration.GetLogTarget``1
+  - GRYLibrary.Core.Log.GRYLogConfiguration.GetSchema
   - GRYLibrary.Core.Log.GRYLogConfiguration.LoadConfiguration(System.String)
   - GRYLibrary.Core.Log.GRYLogConfiguration.LogEveryLineOfLogEntryInNewLine
-  - GRYLibrary.Core.Log.GRYLogConfiguration.LogFile
   - GRYLibrary.Core.Log.GRYLogConfiguration.LoggedMessageTypesConfiguration
   - GRYLibrary.Core.Log.GRYLogConfiguration.LogTargets
   - GRYLibrary.Core.Log.GRYLogConfiguration.Name
   - GRYLibrary.Core.Log.GRYLogConfiguration.PrintEmptyLines
   - GRYLibrary.Core.Log.GRYLogConfiguration.PrintErrorsAsInformation
+  - GRYLibrary.Core.Log.GRYLogConfiguration.ReadXml(System.Xml.XmlReader)
   - GRYLibrary.Core.Log.GRYLogConfiguration.ReloadConfigurationWhenConfigurationFileWillBeChanged
   - GRYLibrary.Core.Log.GRYLogConfiguration.ResetToDefaultValues
   - GRYLibrary.Core.Log.GRYLogConfiguration.ResetToDefaultValues(System.String)
   - GRYLibrary.Core.Log.GRYLogConfiguration.SaveConfiguration(System.String,GRYLibrary.Core.Log.GRYLogConfiguration)
   - GRYLibrary.Core.Log.GRYLogConfiguration.SetEnabledOfAllLogTargets(System.Boolean)
+  - GRYLibrary.Core.Log.GRYLogConfiguration.SetFormat(GRYLibrary.Core.Log.GRYLogLogFormat)
+  - GRYLibrary.Core.Log.GRYLogConfiguration.SetLogFile(System.String)
+  - GRYLibrary.Core.Log.GRYLogConfiguration.ToString
   - GRYLibrary.Core.Log.GRYLogConfiguration.WriteExceptionMessageOfExceptionInLogEntry
   - GRYLibrary.Core.Log.GRYLogConfiguration.WriteExceptionStackTraceOfExceptionInLogEntry
   - GRYLibrary.Core.Log.GRYLogConfiguration.WriteLogEntriesAsynchronous
+  - GRYLibrary.Core.Log.GRYLogConfiguration.WriteXml(System.Xml.XmlWriter)
   langs:
   - csharp
   - vb
@@ -40,28 +46,33 @@ items:
   type: Class
   source:
     id: GRYLogConfiguration
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
-    startLine: 11
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 14
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
   syntax:
-    content: public class GRYLogConfiguration
-    content.vb: Public Class GRYLogConfiguration
+    content: 'public class GRYLogConfiguration : IGRYSerializable, IXmlSerializable'
+    content.vb: >-
+      Public Class GRYLogConfiguration
+          Implements IGRYSerializable, IXmlSerializable
   inheritance:
   - System.Object
+  implements:
+  - GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.IGRYSerializable
+  - System.Xml.Serialization.IXmlSerializable
   inheritedMembers:
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.GetType
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.ToString
   extensionMethods:
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsEnumerable
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsSet
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsList
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionary
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsTuple
   - System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable
   - System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable``1
@@ -95,8 +106,8 @@ items:
   type: Property
   source:
     id: ReloadConfigurationWhenConfigurationFileWillBeChanged
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
-    startLine: 17
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 20
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -128,8 +139,8 @@ items:
   type: Property
   source:
     id: LogTargets
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
-    startLine: 18
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 21
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -159,8 +170,8 @@ items:
   type: Property
   source:
     id: WriteLogEntriesAsynchronous
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
-    startLine: 19
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 22
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -190,8 +201,8 @@ items:
   type: Property
   source:
     id: Enabled
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
-    startLine: 20
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 23
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -221,8 +232,8 @@ items:
   type: Property
   source:
     id: ConfigurationFile
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
-    startLine: 21
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 24
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -252,8 +263,8 @@ items:
   type: Property
   source:
     id: PrintEmptyLines
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
-    startLine: 22
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 25
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -270,37 +281,6 @@ items:
   - set
   modifiers.vb:
   - Public
-- uid: GRYLibrary.Core.Log.GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel(Microsoft.Extensions.Logging.LogLevel)
-  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel(Microsoft.Extensions.Logging.LogLevel)
-  id: GetLoggedMessageTypesConfigurationByLogLevel(Microsoft.Extensions.Logging.LogLevel)
-  parent: GRYLibrary.Core.Log.GRYLogConfiguration
-  langs:
-  - csharp
-  - vb
-  name: GetLoggedMessageTypesConfigurationByLogLevel(LogLevel)
-  nameWithType: GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel(LogLevel)
-  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel(Microsoft.Extensions.Logging.LogLevel)
-  type: Method
-  source:
-    id: GetLoggedMessageTypesConfigurationByLogLevel
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
-    startLine: 24
-  assemblies:
-  - GRYLibrary
-  namespace: GRYLibrary.Core.Log
-  syntax:
-    content: public LoggedMessageTypeConfiguration GetLoggedMessageTypesConfigurationByLogLevel(LogLevel logLevel)
-    parameters:
-    - id: logLevel
-      type: Microsoft.Extensions.Logging.LogLevel
-    return:
-      type: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration
-    content.vb: Public Function GetLoggedMessageTypesConfigurationByLogLevel(logLevel As LogLevel) As LoggedMessageTypeConfiguration
-  overload: GRYLibrary.Core.Log.GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: GRYLibrary.Core.Log.GRYLogConfiguration.PrintErrorsAsInformation
   commentId: P:GRYLibrary.Core.Log.GRYLogConfiguration.PrintErrorsAsInformation
   id: PrintErrorsAsInformation
@@ -314,8 +294,8 @@ items:
   type: Property
   source:
     id: PrintErrorsAsInformation
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
-    startLine: 38
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 30
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -347,8 +327,8 @@ items:
   type: Property
   source:
     id: Name
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
-    startLine: 39
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 31
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -378,8 +358,8 @@ items:
   type: Property
   source:
     id: WriteExceptionMessageOfExceptionInLogEntry
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
-    startLine: 40
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 32
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -409,8 +389,8 @@ items:
   type: Property
   source:
     id: WriteExceptionStackTraceOfExceptionInLogEntry
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
-    startLine: 41
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 33
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -440,8 +420,8 @@ items:
   type: Property
   source:
     id: DateFormat
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
-    startLine: 42
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 34
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -471,8 +451,8 @@ items:
   type: Property
   source:
     id: LoggedMessageTypesConfiguration
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
-    startLine: 43
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 35
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -483,37 +463,6 @@ items:
       type: System.Collections.Generic.List{GRYLibrary.Core.XMLSerializer.KeyValuePair{Microsoft.Extensions.Logging.LogLevel,GRYLibrary.Core.Log.LoggedMessageTypeConfiguration}}
     content.vb: Public Property LoggedMessageTypesConfiguration As List(Of KeyValuePair(Of LogLevel, LoggedMessageTypeConfiguration))
   overload: GRYLibrary.Core.Log.GRYLogConfiguration.LoggedMessageTypesConfiguration*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: GRYLibrary.Core.Log.GRYLogConfiguration.Format
-  commentId: P:GRYLibrary.Core.Log.GRYLogConfiguration.Format
-  id: Format
-  parent: GRYLibrary.Core.Log.GRYLogConfiguration
-  langs:
-  - csharp
-  - vb
-  name: Format
-  nameWithType: GRYLogConfiguration.Format
-  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.Format
-  type: Property
-  source:
-    id: Format
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
-    startLine: 44
-  assemblies:
-  - GRYLibrary
-  namespace: GRYLibrary.Core.Log
-  syntax:
-    content: public GRYLogLogFormat Format { get; set; }
-    parameters: []
-    return:
-      type: GRYLibrary.Core.Log.GRYLogLogFormat
-    content.vb: Public Property Format As GRYLogLogFormat
-  overload: GRYLibrary.Core.Log.GRYLogConfiguration.Format*
   modifiers.csharp:
   - public
   - get
@@ -533,8 +482,8 @@ items:
   type: Property
   source:
     id: ConvertTimeForLogentriesToUTCFormat
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
-    startLine: 45
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 36
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -564,8 +513,8 @@ items:
   type: Property
   source:
     id: LogEveryLineOfLogEntryInNewLine
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
-    startLine: 46
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 37
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -576,37 +525,6 @@ items:
       type: System.Boolean
     content.vb: Public Property LogEveryLineOfLogEntryInNewLine As Boolean
   overload: GRYLibrary.Core.Log.GRYLogConfiguration.LogEveryLineOfLogEntryInNewLine*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
-- uid: GRYLibrary.Core.Log.GRYLogConfiguration.LogFile
-  commentId: P:GRYLibrary.Core.Log.GRYLogConfiguration.LogFile
-  id: LogFile
-  parent: GRYLibrary.Core.Log.GRYLogConfiguration
-  langs:
-  - csharp
-  - vb
-  name: LogFile
-  nameWithType: GRYLogConfiguration.LogFile
-  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.LogFile
-  type: Property
-  source:
-    id: LogFile
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
-    startLine: 47
-  assemblies:
-  - GRYLibrary
-  namespace: GRYLibrary.Core.Log
-  syntax:
-    content: public string LogFile { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Property LogFile As String
-  overload: GRYLibrary.Core.Log.GRYLogConfiguration.LogFile*
   modifiers.csharp:
   - public
   - get
@@ -626,8 +544,8 @@ items:
   type: Constructor
   source:
     id: .ctor
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
-    startLine: 60
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 38
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -635,6 +553,123 @@ items:
     content: public GRYLogConfiguration()
     content.vb: Public Sub New
   overload: GRYLibrary.Core.Log.GRYLogConfiguration.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel(Microsoft.Extensions.Logging.LogLevel)
+  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel(Microsoft.Extensions.Logging.LogLevel)
+  id: GetLoggedMessageTypesConfigurationByLogLevel(Microsoft.Extensions.Logging.LogLevel)
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: GetLoggedMessageTypesConfigurationByLogLevel(LogLevel)
+  nameWithType: GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel(LogLevel)
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel(Microsoft.Extensions.Logging.LogLevel)
+  type: Method
+  source:
+    id: GetLoggedMessageTypesConfigurationByLogLevel
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 39
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public LoggedMessageTypeConfiguration GetLoggedMessageTypesConfigurationByLogLevel(LogLevel logLevel)
+    parameters:
+    - id: logLevel
+      type: Microsoft.Extensions.Logging.LogLevel
+    return:
+      type: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration
+    content.vb: Public Function GetLoggedMessageTypesConfigurationByLogLevel(logLevel As LogLevel) As LoggedMessageTypeConfiguration
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.SetLogFile(System.String)
+  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.SetLogFile(System.String)
+  id: SetLogFile(System.String)
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: SetLogFile(String)
+  nameWithType: GRYLogConfiguration.SetLogFile(String)
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.SetLogFile(System.String)
+  type: Method
+  source:
+    id: SetLogFile
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 51
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public void SetLogFile(string file)
+    parameters:
+    - id: file
+      type: System.String
+    content.vb: Public Sub SetLogFile(file As String)
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.SetLogFile*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.GetLogFile
+  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.GetLogFile
+  id: GetLogFile
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: GetLogFile()
+  nameWithType: GRYLogConfiguration.GetLogFile()
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.GetLogFile()
+  type: Method
+  source:
+    id: GetLogFile
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 55
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public string GetLogFile()
+    return:
+      type: System.String
+    content.vb: Public Function GetLogFile As String
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.GetLogFile*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.SetFormat(GRYLibrary.Core.Log.GRYLogLogFormat)
+  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.SetFormat(GRYLibrary.Core.Log.GRYLogLogFormat)
+  id: SetFormat(GRYLibrary.Core.Log.GRYLogLogFormat)
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: SetFormat(GRYLogLogFormat)
+  nameWithType: GRYLogConfiguration.SetFormat(GRYLogLogFormat)
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.SetFormat(GRYLibrary.Core.Log.GRYLogLogFormat)
+  type: Method
+  source:
+    id: SetFormat
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 59
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public void SetFormat(GRYLogLogFormat format)
+    parameters:
+    - id: format
+      type: GRYLibrary.Core.Log.GRYLogLogFormat
+    content.vb: Public Sub SetFormat(format As GRYLogLogFormat)
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.SetFormat*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -652,8 +687,8 @@ items:
   type: Method
   source:
     id: ResetToDefaultValues
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
-    startLine: 63
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 67
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -678,8 +713,8 @@ items:
   type: Method
   source:
     id: ResetToDefaultValues
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
-    startLine: 67
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 71
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -707,8 +742,8 @@ items:
   type: Method
   source:
     id: GetLogTarget
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
-    startLine: 86
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 111
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -742,8 +777,8 @@ items:
   type: Method
   source:
     id: LoadConfiguration
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
-    startLine: 97
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 122
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -775,8 +810,8 @@ items:
   type: Method
   source:
     id: SaveConfiguration
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
-    startLine: 101
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 126
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -795,6 +830,69 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.SetEnabledOfAllLogTargets(System.Boolean)
+  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.SetEnabledOfAllLogTargets(System.Boolean)
+  id: SetEnabledOfAllLogTargets(System.Boolean)
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: SetEnabledOfAllLogTargets(Boolean)
+  nameWithType: GRYLogConfiguration.SetEnabledOfAllLogTargets(Boolean)
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.SetEnabledOfAllLogTargets(System.Boolean)
+  type: Method
+  source:
+    id: SetEnabledOfAllLogTargets
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 131
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public void SetEnabledOfAllLogTargets(bool newEnabledValue)
+    parameters:
+    - id: newEnabledValue
+      type: System.Boolean
+    content.vb: Public Sub SetEnabledOfAllLogTargets(newEnabledValue As Boolean)
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.SetEnabledOfAllLogTargets*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.Equals(System.Object)
+  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: GRYLogConfiguration.Equals(Object)
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 139
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public override bool Equals(object object)
+    parameters:
+    - id: object
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(object As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
 - uid: GRYLibrary.Core.Log.GRYLogConfiguration.GetHashCode
   commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.GetHashCode
   id: GetHashCode
@@ -808,8 +906,8 @@ items:
   type: Method
   source:
     id: GetHashCode
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
-    startLine: 106
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 144
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -826,65 +924,153 @@ items:
   modifiers.vb:
   - Public
   - Overrides
-- uid: GRYLibrary.Core.Log.GRYLogConfiguration.Equals(System.Object)
-  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.Equals(System.Object)
-  id: Equals(System.Object)
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.ToString
+  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.ToString
+  id: ToString
   parent: GRYLibrary.Core.Log.GRYLogConfiguration
   langs:
   - csharp
   - vb
-  name: Equals(Object)
-  nameWithType: GRYLogConfiguration.Equals(Object)
-  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.Equals(System.Object)
+  name: ToString()
+  nameWithType: GRYLogConfiguration.ToString()
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.ToString()
   type: Method
   source:
-    id: Equals
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
-    startLine: 111
+    id: ToString
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 149
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
   syntax:
-    content: public override bool Equals(object obj)
-    parameters:
-    - id: obj
-      type: System.Object
+    content: public override string ToString()
     return:
-      type: System.Boolean
-    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
-  overridden: System.Object.Equals(System.Object)
-  overload: GRYLibrary.Core.Log.GRYLogConfiguration.Equals*
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.ToString*
   modifiers.csharp:
   - public
   - override
   modifiers.vb:
   - Public
   - Overrides
-- uid: GRYLibrary.Core.Log.GRYLogConfiguration.SetEnabledOfAllLogTargets(System.Boolean)
-  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.SetEnabledOfAllLogTargets(System.Boolean)
-  id: SetEnabledOfAllLogTargets(System.Boolean)
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.GetSchema
+  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.GetSchema
+  id: GetSchema
   parent: GRYLibrary.Core.Log.GRYLogConfiguration
   langs:
   - csharp
   - vb
-  name: SetEnabledOfAllLogTargets(Boolean)
-  nameWithType: GRYLogConfiguration.SetEnabledOfAllLogTargets(Boolean)
-  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.SetEnabledOfAllLogTargets(System.Boolean)
+  name: GetSchema()
+  nameWithType: GRYLogConfiguration.GetSchema()
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.GetSchema()
   type: Method
   source:
-    id: SetEnabledOfAllLogTargets
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
-    startLine: 186
+    id: GetSchema
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 154
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
   syntax:
-    content: public void SetEnabledOfAllLogTargets(bool newEnabledValue)
+    content: public XmlSchema GetSchema()
+    return:
+      type: System.Xml.Schema.XmlSchema
+    content.vb: Public Function GetSchema As XmlSchema
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.GetSchema*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.ReadXml(System.Xml.XmlReader)
+  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.ReadXml(System.Xml.XmlReader)
+  id: ReadXml(System.Xml.XmlReader)
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ReadXml(XmlReader)
+  nameWithType: GRYLogConfiguration.ReadXml(XmlReader)
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.ReadXml(System.Xml.XmlReader)
+  type: Method
+  source:
+    id: ReadXml
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 159
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public void ReadXml(XmlReader reader)
     parameters:
-    - id: newEnabledValue
-      type: System.Boolean
-    content.vb: Public Sub SetEnabledOfAllLogTargets(newEnabledValue As Boolean)
-  overload: GRYLibrary.Core.Log.GRYLogConfiguration.SetEnabledOfAllLogTargets*
+    - id: reader
+      type: System.Xml.XmlReader
+    content.vb: Public Sub ReadXml(reader As XmlReader)
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.ReadXml*
+  implements:
+  - System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.WriteXml(System.Xml.XmlWriter)
+  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.WriteXml(System.Xml.XmlWriter)
+  id: WriteXml(System.Xml.XmlWriter)
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: WriteXml(XmlWriter)
+  nameWithType: GRYLogConfiguration.WriteXml(XmlWriter)
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.WriteXml(System.Xml.XmlWriter)
+  type: Method
+  source:
+    id: WriteXml
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 164
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public void WriteXml(XmlWriter writer)
+    parameters:
+    - id: writer
+      type: System.Xml.XmlWriter
+    content.vb: Public Sub WriteXml(writer As XmlWriter)
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.WriteXml*
+  implements:
+  - System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.GetExtraTypesWhichAreRequiredForSerialization
+  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.GetExtraTypesWhichAreRequiredForSerialization
+  id: GetExtraTypesWhichAreRequiredForSerialization
+  parent: GRYLibrary.Core.Log.GRYLogConfiguration
+  langs:
+  - csharp
+  - vb
+  name: GetExtraTypesWhichAreRequiredForSerialization()
+  nameWithType: GRYLogConfiguration.GetExtraTypesWhichAreRequiredForSerialization()
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.GetExtraTypesWhichAreRequiredForSerialization()
+  type: Method
+  source:
+    id: GetExtraTypesWhichAreRequiredForSerialization
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\GRYLogConfiguration.cs
+    startLine: 169
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public ISet<Type> GetExtraTypesWhichAreRequiredForSerialization()
+    return:
+      type: System.Collections.Generic.ISet{System.Type}
+    content.vb: Public Function GetExtraTypesWhichAreRequiredForSerialization As ISet(Of Type)
+  overload: GRYLibrary.Core.Log.GRYLogConfiguration.GetExtraTypesWhichAreRequiredForSerialization*
+  implements:
+  - GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.IGRYSerializable.GetExtraTypesWhichAreRequiredForSerialization
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -902,6 +1088,19 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.IGRYSerializable
+  commentId: T:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.IGRYSerializable
+  parent: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
+  name: IGRYSerializable
+  nameWithType: IGRYSerializable
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.IGRYSerializable
+- uid: System.Xml.Serialization.IXmlSerializable
+  commentId: T:System.Xml.Serialization.IXmlSerializable
+  parent: System.Xml.Serialization
+  isExternal: true
+  name: IXmlSerializable
+  nameWithType: IXmlSerializable
+  fullName: System.Xml.Serialization.IXmlSerializable
 - uid: System.Object.Equals(System.Object,System.Object)
   commentId: M:System.Object.Equals(System.Object,System.Object)
   parent: System.Object
@@ -1078,37 +1277,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GRYLibrary.Core.Utilities.ObjectIsEnumerable
   commentId: M:GRYLibrary.Core.Utilities.ObjectIsEnumerable(System.Object)
   parent: GRYLibrary.Core.Utilities
@@ -1248,6 +1416,35 @@ references:
     name: ObjectIsKeyValuePair
     nameWithType: Utilities.ObjectIsKeyValuePair
     fullName: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  name: ObjectIsDictionaryEntry()
+  nameWithType: Utilities.ObjectIsDictionaryEntry()
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
   - name: (
     nameWithType: (
     fullName: (
@@ -1710,6 +1907,17 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
+  commentId: N:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
+  name: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
+  nameWithType: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper
+- uid: System.Xml.Serialization
+  commentId: N:System.Xml.Serialization
+  isExternal: true
+  name: System.Xml.Serialization
+  nameWithType: System.Xml.Serialization
+  fullName: System.Xml.Serialization
 - uid: GRYLibrary.Core.Utilities.ObjectIsEnumerable(System.Object)
   commentId: M:GRYLibrary.Core.Utilities.ObjectIsEnumerable(System.Object)
   isExternal: true
@@ -1895,6 +2103,44 @@ references:
     name: ObjectIsKeyValuePair
     nameWithType: Utilities.ObjectIsKeyValuePair
     fullName: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  isExternal: true
+  name: ObjectIsDictionaryEntry(Object)
+  nameWithType: Utilities.ObjectIsDictionaryEntry(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
   - name: (
     nameWithType: (
     fullName: (
@@ -2621,30 +2867,6 @@ references:
   name: PrintEmptyLines
   nameWithType: GRYLogConfiguration.PrintEmptyLines
   fullName: GRYLibrary.Core.Log.GRYLogConfiguration.PrintEmptyLines
-- uid: GRYLibrary.Core.Log.GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel*
-  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel
-  name: GetLoggedMessageTypesConfigurationByLogLevel
-  nameWithType: GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel
-  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel
-- uid: Microsoft.Extensions.Logging.LogLevel
-  commentId: T:Microsoft.Extensions.Logging.LogLevel
-  parent: Microsoft.Extensions.Logging
-  isExternal: true
-  name: LogLevel
-  nameWithType: LogLevel
-  fullName: Microsoft.Extensions.Logging.LogLevel
-- uid: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration
-  commentId: T:GRYLibrary.Core.Log.LoggedMessageTypeConfiguration
-  parent: GRYLibrary.Core.Log
-  name: LoggedMessageTypeConfiguration
-  nameWithType: LoggedMessageTypeConfiguration
-  fullName: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration
-- uid: Microsoft.Extensions.Logging
-  commentId: N:Microsoft.Extensions.Logging
-  isExternal: true
-  name: Microsoft.Extensions.Logging
-  nameWithType: Microsoft.Extensions.Logging
-  fullName: Microsoft.Extensions.Logging
 - uid: GRYLibrary.Core.Log.GRYLogConfiguration.PrintErrorsAsInformation*
   commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.PrintErrorsAsInformation
   name: PrintErrorsAsInformation
@@ -2792,17 +3014,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: GRYLibrary.Core.Log.GRYLogConfiguration.Format*
-  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.Format
-  name: Format
-  nameWithType: GRYLogConfiguration.Format
-  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.Format
-- uid: GRYLibrary.Core.Log.GRYLogLogFormat
-  commentId: T:GRYLibrary.Core.Log.GRYLogLogFormat
-  parent: GRYLibrary.Core.Log
-  name: GRYLogLogFormat
-  nameWithType: GRYLogLogFormat
-  fullName: GRYLibrary.Core.Log.GRYLogLogFormat
 - uid: GRYLibrary.Core.Log.GRYLogConfiguration.ConvertTimeForLogentriesToUTCFormat*
   commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.ConvertTimeForLogentriesToUTCFormat
   name: ConvertTimeForLogentriesToUTCFormat
@@ -2813,16 +3024,56 @@ references:
   name: LogEveryLineOfLogEntryInNewLine
   nameWithType: GRYLogConfiguration.LogEveryLineOfLogEntryInNewLine
   fullName: GRYLibrary.Core.Log.GRYLogConfiguration.LogEveryLineOfLogEntryInNewLine
-- uid: GRYLibrary.Core.Log.GRYLogConfiguration.LogFile*
-  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.LogFile
-  name: LogFile
-  nameWithType: GRYLogConfiguration.LogFile
-  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.LogFile
 - uid: GRYLibrary.Core.Log.GRYLogConfiguration.#ctor*
   commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.#ctor
   name: GRYLogConfiguration
   nameWithType: GRYLogConfiguration.GRYLogConfiguration
   fullName: GRYLibrary.Core.Log.GRYLogConfiguration.GRYLogConfiguration
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel
+  name: GetLoggedMessageTypesConfigurationByLogLevel
+  nameWithType: GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.GetLoggedMessageTypesConfigurationByLogLevel
+- uid: Microsoft.Extensions.Logging.LogLevel
+  commentId: T:Microsoft.Extensions.Logging.LogLevel
+  parent: Microsoft.Extensions.Logging
+  isExternal: true
+  name: LogLevel
+  nameWithType: LogLevel
+  fullName: Microsoft.Extensions.Logging.LogLevel
+- uid: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration
+  commentId: T:GRYLibrary.Core.Log.LoggedMessageTypeConfiguration
+  parent: GRYLibrary.Core.Log
+  name: LoggedMessageTypeConfiguration
+  nameWithType: LoggedMessageTypeConfiguration
+  fullName: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.SetLogFile*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.SetLogFile
+  name: SetLogFile
+  nameWithType: GRYLogConfiguration.SetLogFile
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.SetLogFile
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.GetLogFile*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.GetLogFile
+  name: GetLogFile
+  nameWithType: GRYLogConfiguration.GetLogFile
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.GetLogFile
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.SetFormat*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.SetFormat
+  name: SetFormat
+  nameWithType: GRYLogConfiguration.SetFormat
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.SetFormat
+- uid: GRYLibrary.Core.Log.GRYLogLogFormat
+  commentId: T:GRYLibrary.Core.Log.GRYLogLogFormat
+  parent: GRYLibrary.Core.Log
+  name: GRYLogLogFormat
+  nameWithType: GRYLogLogFormat
+  fullName: GRYLibrary.Core.Log.GRYLogLogFormat
 - uid: GRYLibrary.Core.Log.GRYLogConfiguration.ResetToDefaultValues*
   commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.ResetToDefaultValues
   name: ResetToDefaultValues
@@ -2860,49 +3111,11 @@ references:
   name: SaveConfiguration
   nameWithType: GRYLogConfiguration.SaveConfiguration
   fullName: GRYLibrary.Core.Log.GRYLogConfiguration.SaveConfiguration
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: GRYLibrary.Core.Log.GRYLogConfiguration.GetHashCode*
-  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.GetHashCode
-  name: GetHashCode
-  nameWithType: GRYLogConfiguration.GetHashCode
-  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.GetHashCode
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.SetEnabledOfAllLogTargets*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.SetEnabledOfAllLogTargets
+  name: SetEnabledOfAllLogTargets
+  nameWithType: GRYLogConfiguration.SetEnabledOfAllLogTargets
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.SetEnabledOfAllLogTargets
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
@@ -2949,8 +3162,328 @@ references:
   name: Equals
   nameWithType: GRYLogConfiguration.Equals
   fullName: GRYLibrary.Core.Log.GRYLogConfiguration.Equals
-- uid: GRYLibrary.Core.Log.GRYLogConfiguration.SetEnabledOfAllLogTargets*
-  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.SetEnabledOfAllLogTargets
-  name: SetEnabledOfAllLogTargets
-  nameWithType: GRYLogConfiguration.SetEnabledOfAllLogTargets
-  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.SetEnabledOfAllLogTargets
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.GetHashCode*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.GetHashCode
+  name: GetHashCode
+  nameWithType: GRYLogConfiguration.GetHashCode
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.ToString*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.ToString
+  name: ToString
+  nameWithType: GRYLogConfiguration.ToString
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.ToString
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.GetSchema*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.GetSchema
+  name: GetSchema
+  nameWithType: GRYLogConfiguration.GetSchema
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.GetSchema
+- uid: System.Xml.Schema.XmlSchema
+  commentId: T:System.Xml.Schema.XmlSchema
+  parent: System.Xml.Schema
+  isExternal: true
+  name: XmlSchema
+  nameWithType: XmlSchema
+  fullName: System.Xml.Schema.XmlSchema
+- uid: System.Xml.Schema
+  commentId: N:System.Xml.Schema
+  isExternal: true
+  name: System.Xml.Schema
+  nameWithType: System.Xml.Schema
+  fullName: System.Xml.Schema
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.ReadXml*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.ReadXml
+  name: ReadXml
+  nameWithType: GRYLogConfiguration.ReadXml
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.ReadXml
+- uid: System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)
+  commentId: M:System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)
+  parent: System.Xml.Serialization.IXmlSerializable
+  isExternal: true
+  name: ReadXml(XmlReader)
+  nameWithType: IXmlSerializable.ReadXml(XmlReader)
+  fullName: System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)
+  spec.csharp:
+  - uid: System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)
+    name: ReadXml
+    nameWithType: IXmlSerializable.ReadXml
+    fullName: System.Xml.Serialization.IXmlSerializable.ReadXml
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlReader
+    name: XmlReader
+    nameWithType: XmlReader
+    fullName: System.Xml.XmlReader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)
+    name: ReadXml
+    nameWithType: IXmlSerializable.ReadXml
+    fullName: System.Xml.Serialization.IXmlSerializable.ReadXml
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlReader
+    name: XmlReader
+    nameWithType: XmlReader
+    fullName: System.Xml.XmlReader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Xml.XmlReader
+  commentId: T:System.Xml.XmlReader
+  parent: System.Xml
+  isExternal: true
+  name: XmlReader
+  nameWithType: XmlReader
+  fullName: System.Xml.XmlReader
+- uid: System.Xml
+  commentId: N:System.Xml
+  isExternal: true
+  name: System.Xml
+  nameWithType: System.Xml
+  fullName: System.Xml
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.WriteXml*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.WriteXml
+  name: WriteXml
+  nameWithType: GRYLogConfiguration.WriteXml
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.WriteXml
+- uid: System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)
+  commentId: M:System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)
+  parent: System.Xml.Serialization.IXmlSerializable
+  isExternal: true
+  name: WriteXml(XmlWriter)
+  nameWithType: IXmlSerializable.WriteXml(XmlWriter)
+  fullName: System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)
+  spec.csharp:
+  - uid: System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)
+    name: WriteXml
+    nameWithType: IXmlSerializable.WriteXml
+    fullName: System.Xml.Serialization.IXmlSerializable.WriteXml
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlWriter
+    name: XmlWriter
+    nameWithType: XmlWriter
+    fullName: System.Xml.XmlWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)
+    name: WriteXml
+    nameWithType: IXmlSerializable.WriteXml
+    fullName: System.Xml.Serialization.IXmlSerializable.WriteXml
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlWriter
+    name: XmlWriter
+    nameWithType: XmlWriter
+    fullName: System.Xml.XmlWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Xml.XmlWriter
+  commentId: T:System.Xml.XmlWriter
+  parent: System.Xml
+  isExternal: true
+  name: XmlWriter
+  nameWithType: XmlWriter
+  fullName: System.Xml.XmlWriter
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.GetExtraTypesWhichAreRequiredForSerialization*
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.GetExtraTypesWhichAreRequiredForSerialization
+  name: GetExtraTypesWhichAreRequiredForSerialization
+  nameWithType: GRYLogConfiguration.GetExtraTypesWhichAreRequiredForSerialization
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.GetExtraTypesWhichAreRequiredForSerialization
+- uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.IGRYSerializable.GetExtraTypesWhichAreRequiredForSerialization
+  commentId: M:GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.IGRYSerializable.GetExtraTypesWhichAreRequiredForSerialization
+  parent: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.IGRYSerializable
+  name: GetExtraTypesWhichAreRequiredForSerialization()
+  nameWithType: IGRYSerializable.GetExtraTypesWhichAreRequiredForSerialization()
+  fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.IGRYSerializable.GetExtraTypesWhichAreRequiredForSerialization()
+  spec.csharp:
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.IGRYSerializable.GetExtraTypesWhichAreRequiredForSerialization
+    name: GetExtraTypesWhichAreRequiredForSerialization
+    nameWithType: IGRYSerializable.GetExtraTypesWhichAreRequiredForSerialization
+    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.IGRYSerializable.GetExtraTypesWhichAreRequiredForSerialization
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.IGRYSerializable.GetExtraTypesWhichAreRequiredForSerialization
+    name: GetExtraTypesWhichAreRequiredForSerialization
+    nameWithType: IGRYSerializable.GetExtraTypesWhichAreRequiredForSerialization
+    fullName: GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.IGRYSerializable.GetExtraTypesWhichAreRequiredForSerialization
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.ISet{System.Type}
+  commentId: T:System.Collections.Generic.ISet{System.Type}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.ISet`1
+  name: ISet<Type>
+  nameWithType: ISet<Type>
+  fullName: System.Collections.Generic.ISet<System.Type>
+  nameWithType.vb: ISet(Of Type)
+  fullName.vb: System.Collections.Generic.ISet(Of System.Type)
+  name.vb: ISet(Of Type)
+  spec.csharp:
+  - uid: System.Collections.Generic.ISet`1
+    name: ISet
+    nameWithType: ISet
+    fullName: System.Collections.Generic.ISet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ISet`1
+    name: ISet
+    nameWithType: ISet
+    fullName: System.Collections.Generic.ISet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.ISet`1
+  commentId: T:System.Collections.Generic.ISet`1
+  isExternal: true
+  name: ISet<T>
+  nameWithType: ISet<T>
+  fullName: System.Collections.Generic.ISet<T>
+  nameWithType.vb: ISet(Of T)
+  fullName.vb: System.Collections.Generic.ISet(Of T)
+  name.vb: ISet(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.ISet`1
+    name: ISet
+    nameWithType: ISet
+    fullName: System.Collections.Generic.ISet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.ISet`1
+    name: ISet
+    nameWithType: ISet
+    fullName: System.Collections.Generic.ISet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

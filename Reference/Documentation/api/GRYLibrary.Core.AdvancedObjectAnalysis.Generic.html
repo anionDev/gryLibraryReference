@@ -114,6 +114,63 @@
   </h3>
   
   
+  <a id="GRYLibrary_Core_AdvancedObjectAnalysis_Generic_GenericDeserialize_" data-uid="GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericDeserialize*"></a>
+  <h4 id="GRYLibrary_Core_AdvancedObjectAnalysis_Generic_GenericDeserialize__1_System_String_" data-uid="GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericDeserialize``1(System.String)">GenericDeserialize&lt;T&gt;(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T GenericDeserialize&lt;T&gt;(string serializedObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">serializedObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="GRYLibrary_Core_AdvancedObjectAnalysis_Generic_GenericEquals_" data-uid="GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericEquals*"></a>
   <h4 id="GRYLibrary_Core_AdvancedObjectAnalysis_Generic_GenericEquals_System_Object_System_Object_" data-uid="GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericEquals(System.Object,System.Object)">GenericEquals(Object, Object)</h4>
   <div class="markdown level1 summary"></div>
@@ -277,13 +334,13 @@
   </table>
   
   
-  <a id="GRYLibrary_Core_AdvancedObjectAnalysis_Generic_GenericToString_" data-uid="GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericToString*"></a>
-  <h4 id="GRYLibrary_Core_AdvancedObjectAnalysis_Generic_GenericToString_System_Object_" data-uid="GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericToString(System.Object)">GenericToString(Object)</h4>
+  <a id="GRYLibrary_Core_AdvancedObjectAnalysis_Generic_GenericSerialize_" data-uid="GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericSerialize*"></a>
+  <h4 id="GRYLibrary_Core_AdvancedObjectAnalysis_Generic_GenericSerialize_System_Object_" data-uid="GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericSerialize(System.Object)">GenericSerialize(Object)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GenericToString(object object)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string GenericSerialize(object object)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -298,6 +355,53 @@
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_AdvancedObjectAnalysis_Generic_GenericToString_" data-uid="GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericToString*"></a>
+  <h4 id="GRYLibrary_Core_AdvancedObjectAnalysis_Generic_GenericToString_System_Object_System_Int32_" data-uid="GRYLibrary.Core.AdvancedObjectAnalysis.Generic.GenericToString(System.Object,System.Int32)">GenericToString(Object, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GenericToString(object object, int maxOutputLength = 2147483647)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">object</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">maxOutputLength</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -349,6 +453,48 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="GRYLibrary_Core_AdvancedObjectAnalysis_Generic_IterateOverObjectTransitively_" data-uid="GRYLibrary.Core.AdvancedObjectAnalysis.Generic.IterateOverObjectTransitively*"></a>
+  <h4 id="GRYLibrary_Core_AdvancedObjectAnalysis_Generic_IterateOverObjectTransitively_System_Object_" data-uid="GRYLibrary.Core.AdvancedObjectAnalysis.Generic.IterateOverObjectTransitively(System.Object)">IterateOverObjectTransitively(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;(object, Type)&gt; IterateOverObjectTransitively(object object)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.Object</span>, <span class="xref">System.Type</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsEnumerable_System_Object_">Utilities.ObjectIsEnumerable(Object)</a>
@@ -364,6 +510,9 @@
   </div>
   <div>
       <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsKeyValuePair_System_Object_">Utilities.ObjectIsKeyValuePair(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsDictionaryEntry_System_Object_">Utilities.ObjectIsDictionaryEntry(Object)</a>
   </div>
   <div>
       <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsTuple_System_Object_">Utilities.ObjectIsTuple(Object)</a>

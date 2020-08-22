@@ -84,16 +84,15 @@
       <div class="level2"><a class="xref" href="GRYLibrary.Core.Log.ConcreteLogTargets.Observer.html">Observer</a></div>
       <div class="level2"><a class="xref" href="GRYLibrary.Core.Log.ConcreteLogTargets.WindowsEventLog.html">WindowsEventLog</a></div>
   </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.IGRYSerializable.html">IGRYSerializable</a></div>
+    <div><span class="xref">System.Xml.Serialization.IXmlSerializable</span></div>
+  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
       <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
     </div>
     <div>
       <span class="xref">System.Object.GetType()</span>
@@ -104,15 +103,12 @@
     <div>
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="GRYLibrary.Core.Log.html">GRYLibrary.Core.Log</a></h6>
   <h6><strong>Assembly</strong>: GRYLibrary.dll</h6>
   <h5 id="GRYLibrary_Core_Log_GRYLogTarget_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class GRYLogTarget</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class GRYLogTarget : IGRYSerializable, IXmlSerializable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -155,6 +151,31 @@
   </table>
   
   
+  <a id="GRYLibrary_Core_Log_GRYLogTarget_Format_" data-uid="GRYLibrary.Core.Log.GRYLogTarget.Format*"></a>
+  <h4 id="GRYLibrary_Core_Log_GRYLogTarget_Format" data-uid="GRYLibrary.Core.Log.GRYLogTarget.Format">Format</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GRYLogLogFormat Format { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GRYLibrary.Core.Log.GRYLogLogFormat.html">GRYLogLogFormat</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="GRYLibrary_Core_Log_GRYLogTarget_LogLevels_" data-uid="GRYLibrary.Core.Log.GRYLogTarget.LogLevels*"></a>
   <h4 id="GRYLibrary_Core_Log_GRYLogTarget_LogLevels" data-uid="GRYLibrary.Core.Log.GRYLogTarget.LogLevels">LogLevels</h4>
   <div class="markdown level1 summary"></div>
@@ -180,6 +201,50 @@
   </table>
   <h3 id="methods">Methods
   </h3>
+  
+  
+  <a id="GRYLibrary_Core_Log_GRYLogTarget_Equals_" data-uid="GRYLibrary.Core.Log.GRYLogTarget.Equals*"></a>
+  <h4 id="GRYLibrary_Core_Log_GRYLogTarget_Equals_System_Object_" data-uid="GRYLibrary.Core.Log.GRYLogTarget.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object object)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.Equals(System.Object)</span></div>
   
   
   <a id="GRYLibrary_Core_Log_GRYLogTarget_ExecuteImplementation_" data-uid="GRYLibrary.Core.Log.GRYLogTarget.ExecuteImplementation*"></a>
@@ -212,6 +277,206 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="GRYLibrary_Core_Log_GRYLogTarget_FurtherGetExtraTypesWhichAreRequiredForSerialization_" data-uid="GRYLibrary.Core.Log.GRYLogTarget.FurtherGetExtraTypesWhichAreRequiredForSerialization*"></a>
+  <h4 id="GRYLibrary_Core_Log_GRYLogTarget_FurtherGetExtraTypesWhichAreRequiredForSerialization" data-uid="GRYLibrary.Core.Log.GRYLogTarget.FurtherGetExtraTypesWhichAreRequiredForSerialization">FurtherGetExtraTypesWhichAreRequiredForSerialization()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract ISet&lt;Type&gt; FurtherGetExtraTypesWhichAreRequiredForSerialization()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.ISet</span>&lt;<span class="xref">System.Type</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Log_GRYLogTarget_GetExtraTypesWhichAreRequiredForSerialization_" data-uid="GRYLibrary.Core.Log.GRYLogTarget.GetExtraTypesWhichAreRequiredForSerialization*"></a>
+  <h4 id="GRYLibrary_Core_Log_GRYLogTarget_GetExtraTypesWhichAreRequiredForSerialization" data-uid="GRYLibrary.Core.Log.GRYLogTarget.GetExtraTypesWhichAreRequiredForSerialization">GetExtraTypesWhichAreRequiredForSerialization()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ISet&lt;Type&gt; GetExtraTypesWhichAreRequiredForSerialization()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.ISet</span>&lt;<span class="xref">System.Type</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Log_GRYLogTarget_GetHashCode_" data-uid="GRYLibrary.Core.Log.GRYLogTarget.GetHashCode*"></a>
+  <h4 id="GRYLibrary_Core_Log_GRYLogTarget_GetHashCode" data-uid="GRYLibrary.Core.Log.GRYLogTarget.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.GetHashCode()</span></div>
+  
+  
+  <a id="GRYLibrary_Core_Log_GRYLogTarget_GetSchema_" data-uid="GRYLibrary.Core.Log.GRYLogTarget.GetSchema*"></a>
+  <h4 id="GRYLibrary_Core_Log_GRYLogTarget_GetSchema" data-uid="GRYLibrary.Core.Log.GRYLogTarget.GetSchema">GetSchema()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public XmlSchema GetSchema()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Xml.Schema.XmlSchema</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Log_GRYLogTarget_Initialize_" data-uid="GRYLibrary.Core.Log.GRYLogTarget.Initialize*"></a>
+  <h4 id="GRYLibrary_Core_Log_GRYLogTarget_Initialize" data-uid="GRYLibrary.Core.Log.GRYLogTarget.Initialize">Initialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Initialize()</code></pre>
+  </div>
+  
+  
+  <a id="GRYLibrary_Core_Log_GRYLogTarget_ReadXml_" data-uid="GRYLibrary.Core.Log.GRYLogTarget.ReadXml*"></a>
+  <h4 id="GRYLibrary_Core_Log_GRYLogTarget_ReadXml_System_Xml_XmlReader_" data-uid="GRYLibrary.Core.Log.GRYLogTarget.ReadXml(System.Xml.XmlReader)">ReadXml(XmlReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReadXml(XmlReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Xml.XmlReader</span></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Log_GRYLogTarget_ToString_" data-uid="GRYLibrary.Core.Log.GRYLogTarget.ToString*"></a>
+  <h4 id="GRYLibrary_Core_Log_GRYLogTarget_ToString" data-uid="GRYLibrary.Core.Log.GRYLogTarget.ToString">ToString()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.ToString()</span></div>
+  
+  
+  <a id="GRYLibrary_Core_Log_GRYLogTarget_WriteXml_" data-uid="GRYLibrary.Core.Log.GRYLogTarget.WriteXml*"></a>
+  <h4 id="GRYLibrary_Core_Log_GRYLogTarget_WriteXml_System_Xml_XmlWriter_" data-uid="GRYLibrary.Core.Log.GRYLogTarget.WriteXml(System.Xml.XmlWriter)">WriteXml(XmlWriter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WriteXml(XmlWriter writer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Xml.XmlWriter</span></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.IGRYSerializable.html">IGRYSerializable</a>
+  </div>
+  <div>
+      <span class="xref">System.Xml.Serialization.IXmlSerializable</span>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsEnumerable_System_Object_">Utilities.ObjectIsEnumerable(Object)</a>
@@ -227,6 +492,9 @@
   </div>
   <div>
       <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsKeyValuePair_System_Object_">Utilities.ObjectIsKeyValuePair(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsDictionaryEntry_System_Object_">Utilities.ObjectIsDictionaryEntry(Object)</a>
   </div>
   <div>
       <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsTuple_System_Object_">Utilities.ObjectIsTuple(Object)</a>

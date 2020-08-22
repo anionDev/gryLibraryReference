@@ -5,41 +5,47 @@ items:
   id: KeyValuePair`2
   parent: GRYLibrary.Core.XMLSerializer
   children:
+  - GRYLibrary.Core.XMLSerializer.KeyValuePair`2.#ctor
   - GRYLibrary.Core.XMLSerializer.KeyValuePair`2.#ctor(`0,`1)
   - GRYLibrary.Core.XMLSerializer.KeyValuePair`2.Equals(System.Object)
   - GRYLibrary.Core.XMLSerializer.KeyValuePair`2.GetHashCode
+  - GRYLibrary.Core.XMLSerializer.KeyValuePair`2.GetSchema
   - GRYLibrary.Core.XMLSerializer.KeyValuePair`2.Key
+  - GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ReadXml(System.Xml.XmlReader)
+  - GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ToDotNetKeyValuePair
+  - GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ToString
   - GRYLibrary.Core.XMLSerializer.KeyValuePair`2.Value
+  - GRYLibrary.Core.XMLSerializer.KeyValuePair`2.WriteXml(System.Xml.XmlWriter)
   langs:
   - csharp
   - vb
   name: KeyValuePair<TKey, TValue>
   nameWithType: KeyValuePair<TKey, TValue>
   fullName: GRYLibrary.Core.XMLSerializer.KeyValuePair<TKey, TValue>
-  type: Struct
+  type: Class
   source:
     id: KeyValuePair
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\KeyValuePair.cs
-    startLine: 5
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\KeyValuePair.cs
+    startLine: 7
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.XMLSerializer
   syntax:
-    content: >-
-      [Serializable]
-
-      public struct KeyValuePair<TKey, TValue>
+    content: 'public class KeyValuePair<TKey, TValue> : IXmlSerializable'
     typeParameters:
     - id: TKey
     - id: TValue
     content.vb: >-
-      <Serializable>
-
-      Public Structure KeyValuePair(Of TKey, TValue)
+      Public Class KeyValuePair(Of TKey, TValue)
+          Implements IXmlSerializable
+  inheritance:
+  - System.Object
+  implements:
+  - System.Xml.Serialization.IXmlSerializable
   inheritedMembers:
-  - System.ValueType.ToString
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.GetType
+  - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
   extensionMethods:
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsEnumerable
@@ -47,6 +53,7 @@ items:
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsList
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionary
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsTuple
   - System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable
   - System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable``1
@@ -61,19 +68,43 @@ items:
   - GRYLibrary.Core.XMLSerializer.KeyValuePair`2.GRYLibrary.Core.Utilities.DeepClone``1
   - GRYLibrary.Core.XMLSerializer.KeyValuePair`2.GRYLibrary.Core.Utilities.PersistToDisk``1(System.String)
   - System.Object.GRYLibrary.Core.Utilities.NullSafeEquals(System.Object)
-  attributes:
-  - type: System.SerializableAttribute
-    ctor: System.SerializableAttribute.#ctor
-    arguments: []
   nameWithType.vb: KeyValuePair(Of TKey, TValue)
   modifiers.csharp:
   - public
-  - struct
+  - class
   modifiers.vb:
   - Public
-  - Structure
+  - Class
   fullName.vb: GRYLibrary.Core.XMLSerializer.KeyValuePair(Of TKey, TValue)
   name.vb: KeyValuePair(Of TKey, TValue)
+- uid: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.#ctor
+  commentId: M:GRYLibrary.Core.XMLSerializer.KeyValuePair`2.#ctor
+  id: '#ctor'
+  parent: GRYLibrary.Core.XMLSerializer.KeyValuePair`2
+  langs:
+  - csharp
+  - vb
+  name: KeyValuePair()
+  nameWithType: KeyValuePair<TKey, TValue>.KeyValuePair()
+  fullName: GRYLibrary.Core.XMLSerializer.KeyValuePair<TKey, TValue>.KeyValuePair()
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\KeyValuePair.cs
+    startLine: 9
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.XMLSerializer
+  syntax:
+    content: public KeyValuePair()
+    content.vb: Public Sub New
+  overload: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.#ctor*
+  nameWithType.vb: KeyValuePair(Of TKey, TValue).KeyValuePair()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: GRYLibrary.Core.XMLSerializer.KeyValuePair(Of TKey, TValue).KeyValuePair()
 - uid: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.#ctor(`0,`1)
   commentId: M:GRYLibrary.Core.XMLSerializer.KeyValuePair`2.#ctor(`0,`1)
   id: '#ctor(`0,`1)'
@@ -87,8 +118,8 @@ items:
   type: Constructor
   source:
     id: .ctor
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\KeyValuePair.cs
-    startLine: 9
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\KeyValuePair.cs
+    startLine: 12
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.XMLSerializer
@@ -120,8 +151,8 @@ items:
   type: Property
   source:
     id: Key
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\KeyValuePair.cs
-    startLine: 14
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\KeyValuePair.cs
+    startLine: 17
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.XMLSerializer
@@ -153,8 +184,8 @@ items:
   type: Property
   source:
     id: Value
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\KeyValuePair.cs
-    startLine: 16
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\KeyValuePair.cs
+    startLine: 19
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.XMLSerializer
@@ -173,6 +204,36 @@ items:
   modifiers.vb:
   - Public
   fullName.vb: GRYLibrary.Core.XMLSerializer.KeyValuePair(Of TKey, TValue).Value
+- uid: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ToDotNetKeyValuePair
+  commentId: M:GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ToDotNetKeyValuePair
+  id: ToDotNetKeyValuePair
+  parent: GRYLibrary.Core.XMLSerializer.KeyValuePair`2
+  langs:
+  - csharp
+  - vb
+  name: ToDotNetKeyValuePair()
+  nameWithType: KeyValuePair<TKey, TValue>.ToDotNetKeyValuePair()
+  fullName: GRYLibrary.Core.XMLSerializer.KeyValuePair<TKey, TValue>.ToDotNetKeyValuePair()
+  type: Method
+  source:
+    id: ToDotNetKeyValuePair
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\KeyValuePair.cs
+    startLine: 21
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.XMLSerializer
+  syntax:
+    content: public KeyValuePair<object, object> ToDotNetKeyValuePair()
+    return:
+      type: System.Collections.Generic.KeyValuePair{System.Object,System.Object}
+    content.vb: Public Function ToDotNetKeyValuePair As KeyValuePair(Of Object, Object)
+  overload: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ToDotNetKeyValuePair*
+  nameWithType.vb: KeyValuePair(Of TKey, TValue).ToDotNetKeyValuePair()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: GRYLibrary.Core.XMLSerializer.KeyValuePair(Of TKey, TValue).ToDotNetKeyValuePair()
 - uid: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.Equals(System.Object)
   commentId: M:GRYLibrary.Core.XMLSerializer.KeyValuePair`2.Equals(System.Object)
   id: Equals(System.Object)
@@ -186,20 +247,20 @@ items:
   type: Method
   source:
     id: Equals
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\KeyValuePair.cs
-    startLine: 17
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\KeyValuePair.cs
+    startLine: 27
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.XMLSerializer
   syntax:
-    content: public override bool Equals(object obj)
+    content: public override bool Equals(object object)
     parameters:
-    - id: obj
+    - id: object
       type: System.Object
     return:
       type: System.Boolean
-    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
-  overridden: System.ValueType.Equals(System.Object)
+    content.vb: Public Overrides Function Equals(object As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
   overload: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.Equals*
   nameWithType.vb: KeyValuePair(Of TKey, TValue).Equals(Object)
   modifiers.csharp:
@@ -222,8 +283,8 @@ items:
   type: Method
   source:
     id: GetHashCode
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\KeyValuePair.cs
-    startLine: 26
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\KeyValuePair.cs
+    startLine: 32
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.XMLSerializer
@@ -232,7 +293,7 @@ items:
     return:
       type: System.Int32
     content.vb: Public Overrides Function GetHashCode As Integer
-  overridden: System.ValueType.GetHashCode
+  overridden: System.Object.GetHashCode
   overload: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.GetHashCode*
   nameWithType.vb: KeyValuePair(Of TKey, TValue).GetHashCode()
   modifiers.csharp:
@@ -242,43 +303,155 @@ items:
   - Public
   - Overrides
   fullName.vb: GRYLibrary.Core.XMLSerializer.KeyValuePair(Of TKey, TValue).GetHashCode()
+- uid: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ToString
+  commentId: M:GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ToString
+  id: ToString
+  parent: GRYLibrary.Core.XMLSerializer.KeyValuePair`2
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: KeyValuePair<TKey, TValue>.ToString()
+  fullName: GRYLibrary.Core.XMLSerializer.KeyValuePair<TKey, TValue>.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\KeyValuePair.cs
+    startLine: 37
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.XMLSerializer
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ToString*
+  nameWithType.vb: KeyValuePair(Of TKey, TValue).ToString()
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: GRYLibrary.Core.XMLSerializer.KeyValuePair(Of TKey, TValue).ToString()
+- uid: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.GetSchema
+  commentId: M:GRYLibrary.Core.XMLSerializer.KeyValuePair`2.GetSchema
+  id: GetSchema
+  parent: GRYLibrary.Core.XMLSerializer.KeyValuePair`2
+  langs:
+  - csharp
+  - vb
+  name: GetSchema()
+  nameWithType: KeyValuePair<TKey, TValue>.GetSchema()
+  fullName: GRYLibrary.Core.XMLSerializer.KeyValuePair<TKey, TValue>.GetSchema()
+  type: Method
+  source:
+    id: GetSchema
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\KeyValuePair.cs
+    startLine: 42
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.XMLSerializer
+  syntax:
+    content: public XmlSchema GetSchema()
+    return:
+      type: System.Xml.Schema.XmlSchema
+    content.vb: Public Function GetSchema As XmlSchema
+  overload: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.GetSchema*
+  nameWithType.vb: KeyValuePair(Of TKey, TValue).GetSchema()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: GRYLibrary.Core.XMLSerializer.KeyValuePair(Of TKey, TValue).GetSchema()
+- uid: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ReadXml(System.Xml.XmlReader)
+  commentId: M:GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ReadXml(System.Xml.XmlReader)
+  id: ReadXml(System.Xml.XmlReader)
+  parent: GRYLibrary.Core.XMLSerializer.KeyValuePair`2
+  langs:
+  - csharp
+  - vb
+  name: ReadXml(XmlReader)
+  nameWithType: KeyValuePair<TKey, TValue>.ReadXml(XmlReader)
+  fullName: GRYLibrary.Core.XMLSerializer.KeyValuePair<TKey, TValue>.ReadXml(System.Xml.XmlReader)
+  type: Method
+  source:
+    id: ReadXml
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\KeyValuePair.cs
+    startLine: 47
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.XMLSerializer
+  syntax:
+    content: public void ReadXml(XmlReader reader)
+    parameters:
+    - id: reader
+      type: System.Xml.XmlReader
+    content.vb: Public Sub ReadXml(reader As XmlReader)
+  overload: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ReadXml*
+  implements:
+  - System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)
+  nameWithType.vb: KeyValuePair(Of TKey, TValue).ReadXml(XmlReader)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: GRYLibrary.Core.XMLSerializer.KeyValuePair(Of TKey, TValue).ReadXml(System.Xml.XmlReader)
+- uid: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.WriteXml(System.Xml.XmlWriter)
+  commentId: M:GRYLibrary.Core.XMLSerializer.KeyValuePair`2.WriteXml(System.Xml.XmlWriter)
+  id: WriteXml(System.Xml.XmlWriter)
+  parent: GRYLibrary.Core.XMLSerializer.KeyValuePair`2
+  langs:
+  - csharp
+  - vb
+  name: WriteXml(XmlWriter)
+  nameWithType: KeyValuePair<TKey, TValue>.WriteXml(XmlWriter)
+  fullName: GRYLibrary.Core.XMLSerializer.KeyValuePair<TKey, TValue>.WriteXml(System.Xml.XmlWriter)
+  type: Method
+  source:
+    id: WriteXml
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\XMLSerializer\KeyValuePair.cs
+    startLine: 52
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.XMLSerializer
+  syntax:
+    content: public void WriteXml(XmlWriter writer)
+    parameters:
+    - id: writer
+      type: System.Xml.XmlWriter
+    content.vb: Public Sub WriteXml(writer As XmlWriter)
+  overload: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.WriteXml*
+  implements:
+  - System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)
+  nameWithType.vb: KeyValuePair(Of TKey, TValue).WriteXml(XmlWriter)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: GRYLibrary.Core.XMLSerializer.KeyValuePair(Of TKey, TValue).WriteXml(System.Xml.XmlWriter)
 references:
 - uid: GRYLibrary.Core.XMLSerializer
   commentId: N:GRYLibrary.Core.XMLSerializer
   name: GRYLibrary.Core.XMLSerializer
   nameWithType: GRYLibrary.Core.XMLSerializer
   fullName: GRYLibrary.Core.XMLSerializer
-- uid: System.ValueType.ToString
-  commentId: M:System.ValueType.ToString
-  parent: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
-  name: ToString()
-  nameWithType: ValueType.ToString()
-  fullName: System.ValueType.ToString()
-  spec.csharp:
-  - uid: System.ValueType.ToString
-    name: ToString
-    nameWithType: ValueType.ToString
-    fullName: System.ValueType.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.ValueType.ToString
-    name: ToString
-    nameWithType: ValueType.ToString
-    fullName: System.ValueType.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Xml.Serialization.IXmlSerializable
+  commentId: T:System.Xml.Serialization.IXmlSerializable
+  parent: System.Xml.Serialization
+  isExternal: true
+  name: IXmlSerializable
+  nameWithType: IXmlSerializable
+  fullName: System.Xml.Serialization.IXmlSerializable
 - uid: System.Object.Equals(System.Object,System.Object)
   commentId: M:System.Object.Equals(System.Object,System.Object)
   parent: System.Object
@@ -360,6 +533,37 @@ references:
     name: GetType
     nameWithType: Object.GetType
     fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
     isExternal: true
   - name: (
     nameWithType: (
@@ -563,6 +767,35 @@ references:
     name: ObjectIsKeyValuePair
     nameWithType: Utilities.ObjectIsKeyValuePair
     fullName: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  name: ObjectIsDictionaryEntry()
+  nameWithType: Utilities.ObjectIsDictionaryEntry()
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
   - name: (
     nameWithType: (
     fullName: (
@@ -1019,20 +1252,18 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.ValueType
-  commentId: T:System.ValueType
-  parent: System
+- uid: System
+  commentId: N:System
   isExternal: true
-  name: ValueType
-  nameWithType: ValueType
-  fullName: System.ValueType
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Xml.Serialization
+  commentId: N:System.Xml.Serialization
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  name: System.Xml.Serialization
+  nameWithType: System.Xml.Serialization
+  fullName: System.Xml.Serialization
 - uid: GRYLibrary.Core.Utilities.ObjectIsEnumerable(System.Object)
   commentId: M:GRYLibrary.Core.Utilities.ObjectIsEnumerable(System.Object)
   isExternal: true
@@ -1218,6 +1449,44 @@ references:
     name: ObjectIsKeyValuePair
     nameWithType: Utilities.ObjectIsKeyValuePair
     fullName: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  isExternal: true
+  name: ObjectIsDictionaryEntry(Object)
+  nameWithType: Utilities.ObjectIsDictionaryEntry(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
   - name: (
     nameWithType: (
     fullName: (
@@ -1808,12 +2077,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: GRYLibrary.Core
   commentId: N:GRYLibrary.Core
   name: GRYLibrary.Core
@@ -1860,18 +2123,142 @@ references:
   fullName: GRYLibrary.Core.XMLSerializer.KeyValuePair<TKey, TValue>.Value
   nameWithType.vb: KeyValuePair(Of TKey, TValue).Value
   fullName.vb: GRYLibrary.Core.XMLSerializer.KeyValuePair(Of TKey, TValue).Value
-- uid: System.ValueType.Equals(System.Object)
-  commentId: M:System.ValueType.Equals(System.Object)
-  parent: System.ValueType
+- uid: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ToDotNetKeyValuePair*
+  commentId: Overload:GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ToDotNetKeyValuePair
+  name: ToDotNetKeyValuePair
+  nameWithType: KeyValuePair<TKey, TValue>.ToDotNetKeyValuePair
+  fullName: GRYLibrary.Core.XMLSerializer.KeyValuePair<TKey, TValue>.ToDotNetKeyValuePair
+  nameWithType.vb: KeyValuePair(Of TKey, TValue).ToDotNetKeyValuePair
+  fullName.vb: GRYLibrary.Core.XMLSerializer.KeyValuePair(Of TKey, TValue).ToDotNetKeyValuePair
+- uid: System.Collections.Generic.KeyValuePair{System.Object,System.Object}
+  commentId: T:System.Collections.Generic.KeyValuePair{System.Object,System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.KeyValuePair`2
+  name: KeyValuePair<Object, Object>
+  nameWithType: KeyValuePair<Object, Object>
+  fullName: System.Collections.Generic.KeyValuePair<System.Object, System.Object>
+  nameWithType.vb: KeyValuePair(Of Object, Object)
+  fullName.vb: System.Collections.Generic.KeyValuePair(Of System.Object, System.Object)
+  name.vb: KeyValuePair(Of Object, Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.KeyValuePair`2
+  commentId: T:System.Collections.Generic.KeyValuePair`2
+  isExternal: true
+  name: KeyValuePair<TKey, TValue>
+  nameWithType: KeyValuePair<TKey, TValue>
+  fullName: System.Collections.Generic.KeyValuePair<TKey, TValue>
+  nameWithType.vb: KeyValuePair(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.KeyValuePair(Of TKey, TValue)
+  name.vb: KeyValuePair(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
   isExternal: true
   name: Equals(Object)
-  nameWithType: ValueType.Equals(Object)
-  fullName: System.ValueType.Equals(System.Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
   spec.csharp:
-  - uid: System.ValueType.Equals(System.Object)
+  - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: ValueType.Equals
-    fullName: System.ValueType.Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
     isExternal: true
   - name: (
     nameWithType: (
@@ -1885,10 +2272,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: System.ValueType.Equals(System.Object)
+  - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: ValueType.Equals
-    fullName: System.ValueType.Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
     isExternal: true
   - name: (
     nameWithType: (
@@ -1915,18 +2302,18 @@ references:
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
-- uid: System.ValueType.GetHashCode
-  commentId: M:System.ValueType.GetHashCode
-  parent: System.ValueType
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
   isExternal: true
   name: GetHashCode()
-  nameWithType: ValueType.GetHashCode()
-  fullName: System.ValueType.GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
   spec.csharp:
-  - uid: System.ValueType.GetHashCode
+  - uid: System.Object.GetHashCode
     name: GetHashCode
-    nameWithType: ValueType.GetHashCode
-    fullName: System.ValueType.GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
     isExternal: true
   - name: (
     nameWithType: (
@@ -1935,10 +2322,10 @@ references:
     nameWithType: )
     fullName: )
   spec.vb:
-  - uid: System.ValueType.GetHashCode
+  - uid: System.Object.GetHashCode
     name: GetHashCode
-    nameWithType: ValueType.GetHashCode
-    fullName: System.ValueType.GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
     isExternal: true
   - name: (
     nameWithType: (
@@ -1960,3 +2347,184 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ToString*
+  commentId: Overload:GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ToString
+  name: ToString
+  nameWithType: KeyValuePair<TKey, TValue>.ToString
+  fullName: GRYLibrary.Core.XMLSerializer.KeyValuePair<TKey, TValue>.ToString
+  nameWithType.vb: KeyValuePair(Of TKey, TValue).ToString
+  fullName.vb: GRYLibrary.Core.XMLSerializer.KeyValuePair(Of TKey, TValue).ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.GetSchema*
+  commentId: Overload:GRYLibrary.Core.XMLSerializer.KeyValuePair`2.GetSchema
+  name: GetSchema
+  nameWithType: KeyValuePair<TKey, TValue>.GetSchema
+  fullName: GRYLibrary.Core.XMLSerializer.KeyValuePair<TKey, TValue>.GetSchema
+  nameWithType.vb: KeyValuePair(Of TKey, TValue).GetSchema
+  fullName.vb: GRYLibrary.Core.XMLSerializer.KeyValuePair(Of TKey, TValue).GetSchema
+- uid: System.Xml.Schema.XmlSchema
+  commentId: T:System.Xml.Schema.XmlSchema
+  parent: System.Xml.Schema
+  isExternal: true
+  name: XmlSchema
+  nameWithType: XmlSchema
+  fullName: System.Xml.Schema.XmlSchema
+- uid: System.Xml.Schema
+  commentId: N:System.Xml.Schema
+  isExternal: true
+  name: System.Xml.Schema
+  nameWithType: System.Xml.Schema
+  fullName: System.Xml.Schema
+- uid: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ReadXml*
+  commentId: Overload:GRYLibrary.Core.XMLSerializer.KeyValuePair`2.ReadXml
+  name: ReadXml
+  nameWithType: KeyValuePair<TKey, TValue>.ReadXml
+  fullName: GRYLibrary.Core.XMLSerializer.KeyValuePair<TKey, TValue>.ReadXml
+  nameWithType.vb: KeyValuePair(Of TKey, TValue).ReadXml
+  fullName.vb: GRYLibrary.Core.XMLSerializer.KeyValuePair(Of TKey, TValue).ReadXml
+- uid: System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)
+  commentId: M:System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)
+  parent: System.Xml.Serialization.IXmlSerializable
+  isExternal: true
+  name: ReadXml(XmlReader)
+  nameWithType: IXmlSerializable.ReadXml(XmlReader)
+  fullName: System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)
+  spec.csharp:
+  - uid: System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)
+    name: ReadXml
+    nameWithType: IXmlSerializable.ReadXml
+    fullName: System.Xml.Serialization.IXmlSerializable.ReadXml
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlReader
+    name: XmlReader
+    nameWithType: XmlReader
+    fullName: System.Xml.XmlReader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)
+    name: ReadXml
+    nameWithType: IXmlSerializable.ReadXml
+    fullName: System.Xml.Serialization.IXmlSerializable.ReadXml
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlReader
+    name: XmlReader
+    nameWithType: XmlReader
+    fullName: System.Xml.XmlReader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Xml.XmlReader
+  commentId: T:System.Xml.XmlReader
+  parent: System.Xml
+  isExternal: true
+  name: XmlReader
+  nameWithType: XmlReader
+  fullName: System.Xml.XmlReader
+- uid: System.Xml
+  commentId: N:System.Xml
+  isExternal: true
+  name: System.Xml
+  nameWithType: System.Xml
+  fullName: System.Xml
+- uid: GRYLibrary.Core.XMLSerializer.KeyValuePair`2.WriteXml*
+  commentId: Overload:GRYLibrary.Core.XMLSerializer.KeyValuePair`2.WriteXml
+  name: WriteXml
+  nameWithType: KeyValuePair<TKey, TValue>.WriteXml
+  fullName: GRYLibrary.Core.XMLSerializer.KeyValuePair<TKey, TValue>.WriteXml
+  nameWithType.vb: KeyValuePair(Of TKey, TValue).WriteXml
+  fullName.vb: GRYLibrary.Core.XMLSerializer.KeyValuePair(Of TKey, TValue).WriteXml
+- uid: System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)
+  commentId: M:System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)
+  parent: System.Xml.Serialization.IXmlSerializable
+  isExternal: true
+  name: WriteXml(XmlWriter)
+  nameWithType: IXmlSerializable.WriteXml(XmlWriter)
+  fullName: System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)
+  spec.csharp:
+  - uid: System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)
+    name: WriteXml
+    nameWithType: IXmlSerializable.WriteXml
+    fullName: System.Xml.Serialization.IXmlSerializable.WriteXml
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlWriter
+    name: XmlWriter
+    nameWithType: XmlWriter
+    fullName: System.Xml.XmlWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)
+    name: WriteXml
+    nameWithType: IXmlSerializable.WriteXml
+    fullName: System.Xml.Serialization.IXmlSerializable.WriteXml
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlWriter
+    name: XmlWriter
+    nameWithType: XmlWriter
+    fullName: System.Xml.XmlWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Xml.XmlWriter
+  commentId: T:System.Xml.XmlWriter
+  parent: System.Xml
+  isExternal: true
+  name: XmlWriter
+  nameWithType: XmlWriter
+  fullName: System.Xml.XmlWriter

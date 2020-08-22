@@ -5,10 +5,15 @@ items:
   id: LoggedMessageTypeConfiguration
   parent: GRYLibrary.Core.Log
   children:
+  - GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.#ctor
   - GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.ConsoleColor
   - GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.CustomText
   - GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.Equals(System.Object)
   - GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.GetHashCode
+  - GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.GetSchema
+  - GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.ReadXml(System.Xml.XmlReader)
+  - GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.ToString
+  - GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.WriteXml(System.Xml.XmlWriter)
   langs:
   - csharp
   - vb
@@ -18,28 +23,32 @@ items:
   type: Class
   source:
     id: LoggedMessageTypeConfiguration
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\LoggedMessageTypeConfiguration.cs
-    startLine: 4
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\LoggedMessageTypeConfiguration.cs
+    startLine: 8
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
   syntax:
-    content: public class LoggedMessageTypeConfiguration
-    content.vb: Public Class LoggedMessageTypeConfiguration
+    content: 'public class LoggedMessageTypeConfiguration : IXmlSerializable'
+    content.vb: >-
+      Public Class LoggedMessageTypeConfiguration
+          Implements IXmlSerializable
   inheritance:
   - System.Object
+  implements:
+  - System.Xml.Serialization.IXmlSerializable
   inheritedMembers:
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.GetType
   - System.Object.MemberwiseClone
   - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.ToString
   extensionMethods:
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsEnumerable
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsSet
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsList
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionary
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
   - System.Object.GRYLibrary.Core.Utilities.ObjectIsTuple
   - System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable
   - System.Object.GRYLibrary.Core.Utilities.ObjectToEnumerable``1
@@ -73,8 +82,8 @@ items:
   type: Property
   source:
     id: ConsoleColor
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\LoggedMessageTypeConfiguration.cs
-    startLine: 6
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\LoggedMessageTypeConfiguration.cs
+    startLine: 10
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -104,8 +113,8 @@ items:
   type: Property
   source:
     id: CustomText
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\LoggedMessageTypeConfiguration.cs
-    startLine: 7
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\LoggedMessageTypeConfiguration.cs
+    startLine: 11
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -122,6 +131,32 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.#ctor
+  commentId: M:GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.#ctor
+  id: '#ctor'
+  parent: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration
+  langs:
+  - csharp
+  - vb
+  name: LoggedMessageTypeConfiguration()
+  nameWithType: LoggedMessageTypeConfiguration.LoggedMessageTypeConfiguration()
+  fullName: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.LoggedMessageTypeConfiguration()
+  type: Constructor
+  source:
+    id: .ctor
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\LoggedMessageTypeConfiguration.cs
+    startLine: 12
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public LoggedMessageTypeConfiguration()
+    content.vb: Public Sub New
+  overload: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.Equals(System.Object)
   commentId: M:GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.Equals(System.Object)
   id: Equals(System.Object)
@@ -135,19 +170,19 @@ items:
   type: Method
   source:
     id: Equals
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\LoggedMessageTypeConfiguration.cs
-    startLine: 8
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\LoggedMessageTypeConfiguration.cs
+    startLine: 14
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
   syntax:
-    content: public override bool Equals(object obj)
+    content: public override bool Equals(object object)
     parameters:
-    - id: obj
+    - id: object
       type: System.Object
     return:
       type: System.Boolean
-    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+    content.vb: Public Overrides Function Equals(object As Object) As Boolean
   overridden: System.Object.Equals(System.Object)
   overload: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.Equals*
   modifiers.csharp:
@@ -169,8 +204,8 @@ items:
   type: Method
   source:
     id: GetHashCode
-    path: C:\Data\Projects\Common\gryLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\LoggedMessageTypeConfiguration.cs
-    startLine: 25
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\LoggedMessageTypeConfiguration.cs
+    startLine: 19
   assemblies:
   - GRYLibrary
   namespace: GRYLibrary.Core.Log
@@ -187,6 +222,127 @@ items:
   modifiers.vb:
   - Public
   - Overrides
+- uid: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.ToString
+  commentId: M:GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.ToString
+  id: ToString
+  parent: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: LoggedMessageTypeConfiguration.ToString()
+  fullName: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\LoggedMessageTypeConfiguration.cs
+    startLine: 24
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.GetSchema
+  commentId: M:GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.GetSchema
+  id: GetSchema
+  parent: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration
+  langs:
+  - csharp
+  - vb
+  name: GetSchema()
+  nameWithType: LoggedMessageTypeConfiguration.GetSchema()
+  fullName: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.GetSchema()
+  type: Method
+  source:
+    id: GetSchema
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\LoggedMessageTypeConfiguration.cs
+    startLine: 29
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public XmlSchema GetSchema()
+    return:
+      type: System.Xml.Schema.XmlSchema
+    content.vb: Public Function GetSchema As XmlSchema
+  overload: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.GetSchema*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.ReadXml(System.Xml.XmlReader)
+  commentId: M:GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.ReadXml(System.Xml.XmlReader)
+  id: ReadXml(System.Xml.XmlReader)
+  parent: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration
+  langs:
+  - csharp
+  - vb
+  name: ReadXml(XmlReader)
+  nameWithType: LoggedMessageTypeConfiguration.ReadXml(XmlReader)
+  fullName: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.ReadXml(System.Xml.XmlReader)
+  type: Method
+  source:
+    id: ReadXml
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\LoggedMessageTypeConfiguration.cs
+    startLine: 34
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public void ReadXml(XmlReader reader)
+    parameters:
+    - id: reader
+      type: System.Xml.XmlReader
+    content.vb: Public Sub ReadXml(reader As XmlReader)
+  overload: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.ReadXml*
+  implements:
+  - System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.WriteXml(System.Xml.XmlWriter)
+  commentId: M:GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.WriteXml(System.Xml.XmlWriter)
+  id: WriteXml(System.Xml.XmlWriter)
+  parent: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration
+  langs:
+  - csharp
+  - vb
+  name: WriteXml(XmlWriter)
+  nameWithType: LoggedMessageTypeConfiguration.WriteXml(XmlWriter)
+  fullName: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.WriteXml(System.Xml.XmlWriter)
+  type: Method
+  source:
+    id: WriteXml
+    path: C:\Data\Projects\Common\GRYLibraryBuild\Submodules\gryLibrary\GRYLibrary\Core\Log\LoggedMessageTypeConfiguration.cs
+    startLine: 39
+  assemblies:
+  - GRYLibrary
+  namespace: GRYLibrary.Core.Log
+  syntax:
+    content: public void WriteXml(XmlWriter writer)
+    parameters:
+    - id: writer
+      type: System.Xml.XmlWriter
+    content.vb: Public Sub WriteXml(writer As XmlWriter)
+  overload: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.WriteXml*
+  implements:
+  - System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: GRYLibrary.Core.Log
   commentId: N:GRYLibrary.Core.Log
@@ -200,6 +356,13 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Xml.Serialization.IXmlSerializable
+  commentId: T:System.Xml.Serialization.IXmlSerializable
+  parent: System.Xml.Serialization
+  isExternal: true
+  name: IXmlSerializable
+  nameWithType: IXmlSerializable
+  fullName: System.Xml.Serialization.IXmlSerializable
 - uid: System.Object.Equals(System.Object,System.Object)
   commentId: M:System.Object.Equals(System.Object,System.Object)
   parent: System.Object
@@ -376,37 +539,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GRYLibrary.Core.Utilities.ObjectIsEnumerable
   commentId: M:GRYLibrary.Core.Utilities.ObjectIsEnumerable(System.Object)
   parent: GRYLibrary.Core.Utilities
@@ -546,6 +678,35 @@ references:
     name: ObjectIsKeyValuePair
     nameWithType: Utilities.ObjectIsKeyValuePair
     fullName: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  parent: GRYLibrary.Core.Utilities
+  definition: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  name: ObjectIsDictionaryEntry()
+  nameWithType: Utilities.ObjectIsDictionaryEntry()
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry()
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
   - name: (
     nameWithType: (
     fullName: (
@@ -1008,6 +1169,12 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: System.Xml.Serialization
+  commentId: N:System.Xml.Serialization
+  isExternal: true
+  name: System.Xml.Serialization
+  nameWithType: System.Xml.Serialization
+  fullName: System.Xml.Serialization
 - uid: GRYLibrary.Core.Utilities.ObjectIsEnumerable(System.Object)
   commentId: M:GRYLibrary.Core.Utilities.ObjectIsEnumerable(System.Object)
   isExternal: true
@@ -1193,6 +1360,44 @@ references:
     name: ObjectIsKeyValuePair
     nameWithType: Utilities.ObjectIsKeyValuePair
     fullName: GRYLibrary.Core.Utilities.ObjectIsKeyValuePair
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  commentId: M:GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  isExternal: true
+  name: ObjectIsDictionaryEntry(Object)
+  nameWithType: Utilities.ObjectIsDictionaryEntry(Object)
+  fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+  spec.csharp:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry(System.Object)
+    name: ObjectIsDictionaryEntry
+    nameWithType: Utilities.ObjectIsDictionaryEntry
+    fullName: GRYLibrary.Core.Utilities.ObjectIsDictionaryEntry
   - name: (
     nameWithType: (
     fullName: (
@@ -1812,6 +2017,11 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.#ctor*
+  commentId: Overload:GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.#ctor
+  name: LoggedMessageTypeConfiguration
+  nameWithType: LoggedMessageTypeConfiguration.LoggedMessageTypeConfiguration
+  fullName: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.LoggedMessageTypeConfiguration
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
@@ -1908,3 +2118,169 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.ToString*
+  commentId: Overload:GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.ToString
+  name: ToString
+  nameWithType: LoggedMessageTypeConfiguration.ToString
+  fullName: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.ToString
+- uid: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.GetSchema*
+  commentId: Overload:GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.GetSchema
+  name: GetSchema
+  nameWithType: LoggedMessageTypeConfiguration.GetSchema
+  fullName: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.GetSchema
+- uid: System.Xml.Schema.XmlSchema
+  commentId: T:System.Xml.Schema.XmlSchema
+  parent: System.Xml.Schema
+  isExternal: true
+  name: XmlSchema
+  nameWithType: XmlSchema
+  fullName: System.Xml.Schema.XmlSchema
+- uid: System.Xml.Schema
+  commentId: N:System.Xml.Schema
+  isExternal: true
+  name: System.Xml.Schema
+  nameWithType: System.Xml.Schema
+  fullName: System.Xml.Schema
+- uid: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.ReadXml*
+  commentId: Overload:GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.ReadXml
+  name: ReadXml
+  nameWithType: LoggedMessageTypeConfiguration.ReadXml
+  fullName: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.ReadXml
+- uid: System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)
+  commentId: M:System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)
+  parent: System.Xml.Serialization.IXmlSerializable
+  isExternal: true
+  name: ReadXml(XmlReader)
+  nameWithType: IXmlSerializable.ReadXml(XmlReader)
+  fullName: System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)
+  spec.csharp:
+  - uid: System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)
+    name: ReadXml
+    nameWithType: IXmlSerializable.ReadXml
+    fullName: System.Xml.Serialization.IXmlSerializable.ReadXml
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlReader
+    name: XmlReader
+    nameWithType: XmlReader
+    fullName: System.Xml.XmlReader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)
+    name: ReadXml
+    nameWithType: IXmlSerializable.ReadXml
+    fullName: System.Xml.Serialization.IXmlSerializable.ReadXml
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlReader
+    name: XmlReader
+    nameWithType: XmlReader
+    fullName: System.Xml.XmlReader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Xml.XmlReader
+  commentId: T:System.Xml.XmlReader
+  parent: System.Xml
+  isExternal: true
+  name: XmlReader
+  nameWithType: XmlReader
+  fullName: System.Xml.XmlReader
+- uid: System.Xml
+  commentId: N:System.Xml
+  isExternal: true
+  name: System.Xml
+  nameWithType: System.Xml
+  fullName: System.Xml
+- uid: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.WriteXml*
+  commentId: Overload:GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.WriteXml
+  name: WriteXml
+  nameWithType: LoggedMessageTypeConfiguration.WriteXml
+  fullName: GRYLibrary.Core.Log.LoggedMessageTypeConfiguration.WriteXml
+- uid: System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)
+  commentId: M:System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)
+  parent: System.Xml.Serialization.IXmlSerializable
+  isExternal: true
+  name: WriteXml(XmlWriter)
+  nameWithType: IXmlSerializable.WriteXml(XmlWriter)
+  fullName: System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)
+  spec.csharp:
+  - uid: System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)
+    name: WriteXml
+    nameWithType: IXmlSerializable.WriteXml
+    fullName: System.Xml.Serialization.IXmlSerializable.WriteXml
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlWriter
+    name: XmlWriter
+    nameWithType: XmlWriter
+    fullName: System.Xml.XmlWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)
+    name: WriteXml
+    nameWithType: IXmlSerializable.WriteXml
+    fullName: System.Xml.Serialization.IXmlSerializable.WriteXml
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlWriter
+    name: XmlWriter
+    nameWithType: XmlWriter
+    fullName: System.Xml.XmlWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Xml.XmlWriter
+  commentId: T:System.Xml.XmlWriter
+  parent: System.Xml
+  isExternal: true
+  name: XmlWriter
+  nameWithType: XmlWriter
+  fullName: System.Xml.XmlWriter
