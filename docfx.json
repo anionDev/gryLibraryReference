@@ -1,0 +1,63 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+            "GRYLibrary.csproj"
+          ],
+          "src":"../GRYLibrary/Submodules/GRYLibrary/GRYLibrary"
+        }
+      ],
+      "dest": "Submodules/GRYLibraryReference/Sources/docfx/metadata/api",
+      "disableGitFeatures": true,
+      "disableDefaultFilter": false
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**.md",
+          "**.yml",
+        ],
+        "src":"Sources/docfx/additionalcontent",
+      },
+      {
+       "files": [
+          "**.yml",
+        ],
+        "src":"Sources/docfx/metadata/api",
+        "dest":"api"
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**",
+        ],
+        "src":"Sources/docfx/additionalcontent",
+      }
+    ],
+    "overwrite": [
+      {
+        "files": [
+        ],
+        "exclude": [
+        ]
+      }
+    ],
+    "dest": "Reference/Documentation",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": [
+      "default"
+    ],
+    "postProcessors": [],
+    "markdownEngineName": "markdig",
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": true,
+    "disableGitFeatures": true,
+  }
+}
