@@ -1,3 +1,0 @@
-# SimpleGenericXMLSerializer
-
-SimpleGenericXMLSerializer-text

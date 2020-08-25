@@ -6,10 +6,10 @@
           "files": [
             "GRYLibrary.csproj"
           ],
-          "src":"../GRYLibrary/Submodules/GRYLibrary/GRYLibrary"
+          "src":"../GRYLibrary/GRYLibrary"
         }
       ],
-      "dest": "Submodules/GRYLibraryReference/Sources/docfx/metadata/api",
+      "dest": "../GRYLibrary/Other/ReferenceArticles/api",
       "disableGitFeatures": true,
       "disableDefaultFilter": false
     }
@@ -21,13 +21,13 @@
           "**.md",
           "**.yml",
         ],
-        "src":"Sources/docfx/additionalcontent",
+        "src":"../GRYLibrary/Other/ReferenceArticles",
       },
       {
        "files": [
           "**.yml",
         ],
-        "src":"Sources/docfx/metadata/api",
+        "src":"../GRYLibrary/Other/ReferenceArticles/api",
         "dest":"api"
       }
     ],
@@ -36,7 +36,7 @@
         "files": [
           "images/**",
         ],
-        "src":"Sources/docfx/additionalcontent",
+        "src":"../GRYLibrary/Other/ReferenceArticles",
       }
     ],
     "overwrite": [
@@ -47,7 +47,7 @@
         ]
       }
     ],
-    "dest": "Reference/Documentation",
+    "dest": "Reference",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
