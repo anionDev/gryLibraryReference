@@ -1756,6 +1756,18 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "2WMqewDitKeXHC84aGdGVg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/toc.yml",
       "output": {
@@ -1809,7 +1821,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/index.html",
-          "hash": "YCoybP7UcXeGJkj9bZsIKg=="
+          "hash": "vass+/kh95K8XbMcV3BaLw=="
         }
       },
       "is_incremental": true,
@@ -1839,18 +1851,15 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "wXLo8lh+VDI1rs6yrFAQgQ=="
+          "hash": "n5z1ZWsnyvRDu+QT5Qqvnw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1878,7 +1887,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 5,
+          "total_file_count": 6,
           "skipped_file_count": 5
         },
         "ManagedReferenceDocumentProcessor": {
