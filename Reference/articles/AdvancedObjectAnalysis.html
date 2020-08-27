@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>AdvancedObjectAnalysis </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="AdvancedObjectAnalysis ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="advancedobjectanalysis">AdvancedObjectAnalysis</h1>
+
+<p>AdvancedObjectAnalysis is the name of a set of some types in the GRYLibrary. These types are doing certain common things generically. This things are the following functions:</p>
+<ul>
+<li>Equals/GetHashCode</li>
+<li>ToString</li>
+<li>Serialize/Deserialize</li>
+</ul>
+<h1 id="background">Background</h1>
+<p>In nearly every type you create you must overwrite the Equals- and GetHashCode-method. Often this is semantically the same code, but you can not simply copy&amp;paste it because the names of the variables are different.</p>
+<p>Example:</p>
+<p>We create a type and must overwrite the Equals- and GetHashCode-method. To objects (of this type) should be equal when their most conrete types are equals and their property-values are equal.</p>
+<p>We do this very often but we still have some recurring issues:</p>
+<ul>
+<li>Are everywhere (where it is required) null-checks?</li>
+<li>Is <a href="https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.sequenceequal?view=netcore-3.1">SequenceEqual</a> used when the targettype of a property is a <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.ilist?view=netcore-3.1">IList</a>?</li>
+<li>Is <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.iset-1.setequals?view=netcore-3.1">SetEquals</a> used when the targettype of a property is a <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.iset-1?view=netcore-3.1">ISet</a>?</li>
+<li>Is the Equals-operation implemented correctly in the property-target-type?</li>
+<li>Will cyclic object-structures (2 objects references each other by a property) cause an endlees-loop while comparing them?</li>
+<li>...</li>
+</ul>
+<p>So, there are some issues just for the Equals-operation.</p>
+<p>And there are some related frequently occurring topics:</p>
+<ul>
+<li>Overwrite ToString()</li>
+<li>Serialization</li>
+</ul>
+<p>Especially the cyclic object-structures are always a problem. We simply want to xml-serialize any object without having to worry about cyclic structures so that we can spend more time for the actual algorithms we want to implement.</p>
+<p>Admitted:</p>
+<p>You simply can not exactly map an object into xml if the object contains cyclic object-structures. But in many cases we do not want to execute XPath-expressions on it, transform it with XSLT or query data with XQuery. And for this many cases we want a xml which does not have to look like the originally object, but we want to be able to edit it with a text-editor, even it is not as easy as it would be in &quot;simply&quot; xml-serialized objects.</p>
+<p>Is is also conceivable that we can store the xml-serialized configuration-object of our application in a versioned repository (e. g. a git-repository) so that we can see any change in our configuration. With xml, this is possible as long as there a no cyclic object-structures.</p>
+<p>This is the reason we do not use a <a href="https://docs.microsoft.com/en-us/dotnet/api/system.runtime.serialization.formatters.binary.binaryformatter?view=netcore-3.1">BinaryFormatter</a> often.</p>
+<p>AdvancedObjectAnalysis tries to solve this problems. AdvancedObjectAnalysis looks into the objects and can serialize or compare the objects, but AdvancedObjectAnalysis it memorizes the already compared objects to avoid endless-loops. When serializing an object, every object (referenced by the object we want to serialize) will be serialized as simple object without the objects of the properties but the links are stored. You can compare it with a reference-graph. And when you serialize it then you simply serialize every vertex with its outgoing edges. When deserializing the property-values will be &quot;composed&quot; according to the edges in the graph. That's all. Maybe it sounds easy. In theory: It is easy. In Practise: It is s little bit tricky in detail and that is the reason why the types which are doing this are &quot;Advanced&quot;.</p>
+<h1 id="usage">Usage</h1>
+<p>Calling the functions of AdvancedObjectAnalysis is pretty using the <code>Generic</code>-type. Example:</p>
+<pre><code>using GRYLibrary.Core.AdvancedObjectAnalysis;
+using System.Xml.Serialization;
+
+public class MyType : IXMLSerializable
+    {
+
+        // Your code
+
+        #region Overhead
+        public override bool Equals(object @object)
+        {
+            return Generic.GenericEquals(this, @object);
+        }
+
+        public override int GetHashCode()
+        {
+            return Generic.GenericGetHashCode(this);
+        }
+
+        public override string ToString()
+        {
+            return Generic.GenericToString(this);
+        }
+
+        public XmlSchema GetSchema()
+        {
+            return Generic.GenericGetSchema(this);
+        }
+
+        public void ReadXml(XmlReader reader)
+        {
+            Generic.GenericReadXml(this, reader);
+        }
+
+        public void WriteXml(XmlWriter writer)
+        {
+            Generic.GenericWriteXml(this, writer);
+        }
+        #endregion
+    }
+</code></pre>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -2915,6 +2915,32 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.FileSelector.FilesInFolder
   nameWithType: FileSelector.FilesInFolder
+- uid: GRYLibrary.Core.FileSelector.RegexOfFilename(System.String,System.String,System.Boolean)
+  name: RegexOfFilename(String, String, Boolean)
+  href: api/GRYLibrary.Core.FileSelector.html#GRYLibrary_Core_FileSelector_RegexOfFilename_System_String_System_String_System_Boolean_
+  commentId: M:GRYLibrary.Core.FileSelector.RegexOfFilename(System.String,System.String,System.Boolean)
+  fullName: GRYLibrary.Core.FileSelector.RegexOfFilename(System.String, System.String, System.Boolean)
+  nameWithType: FileSelector.RegexOfFilename(String, String, Boolean)
+- uid: GRYLibrary.Core.FileSelector.RegexOfFilename*
+  name: RegexOfFilename
+  href: api/GRYLibrary.Core.FileSelector.html#GRYLibrary_Core_FileSelector_RegexOfFilename_
+  commentId: Overload:GRYLibrary.Core.FileSelector.RegexOfFilename
+  isSpec: "True"
+  fullName: GRYLibrary.Core.FileSelector.RegexOfFilename
+  nameWithType: FileSelector.RegexOfFilename
+- uid: GRYLibrary.Core.FileSelector.RegexOfFileWithFullPath(System.String,System.String,System.Boolean)
+  name: RegexOfFileWithFullPath(String, String, Boolean)
+  href: api/GRYLibrary.Core.FileSelector.html#GRYLibrary_Core_FileSelector_RegexOfFileWithFullPath_System_String_System_String_System_Boolean_
+  commentId: M:GRYLibrary.Core.FileSelector.RegexOfFileWithFullPath(System.String,System.String,System.Boolean)
+  fullName: GRYLibrary.Core.FileSelector.RegexOfFileWithFullPath(System.String, System.String, System.Boolean)
+  nameWithType: FileSelector.RegexOfFileWithFullPath(String, String, Boolean)
+- uid: GRYLibrary.Core.FileSelector.RegexOfFileWithFullPath*
+  name: RegexOfFileWithFullPath
+  href: api/GRYLibrary.Core.FileSelector.html#GRYLibrary_Core_FileSelector_RegexOfFileWithFullPath_
+  commentId: Overload:GRYLibrary.Core.FileSelector.RegexOfFileWithFullPath
+  isSpec: "True"
+  fullName: GRYLibrary.Core.FileSelector.RegexOfFileWithFullPath
+  nameWithType: FileSelector.RegexOfFileWithFullPath
 - uid: GRYLibrary.Core.FileSelector.SingleFile(System.String)
   name: SingleFile(String)
   href: api/GRYLibrary.Core.FileSelector.html#GRYLibrary_Core_FileSelector_SingleFile_System_String_

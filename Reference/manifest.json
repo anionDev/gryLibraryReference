@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Data/Projects/Common/gryLibraryBuild/Submodules/GRYLibraryReference",
+  "source_base_path": "C:/Data/Projects/Common/GRYLibraryBuild/Submodules/GRYLibraryReference",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -681,7 +681,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.FileSelector.html",
-          "hash": "AQFIi0T0SZk9ff1Hinnkrw=="
+          "hash": "oeAkaeGWDu3zHeHPBe8zqg=="
         }
       },
       "is_incremental": true,
@@ -1677,7 +1677,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.Utilities.html",
-          "hash": "rq2ddjXsU9lCYV8lBm86Pg=="
+          "hash": "EmEnYYBFxZn+aKK4RClEIA=="
         }
       },
       "is_incremental": true,
@@ -1749,7 +1749,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.html",
-          "hash": "85biAan2Pjb0k6inxQyoxA=="
+          "hash": "CRqTz17485TBFmW84VyVkw=="
         }
       },
       "is_incremental": true,
@@ -1777,6 +1777,18 @@
         }
       },
       "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/articles/AdvancedObjectAnalysis.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/AdvancedObjectAnalysis.html",
+          "hash": "TZ+mY+eEJQqWCfv167vHpQ=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1833,7 +1845,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "JME6OboesKocX8KzOpePlQ=="
+          "hash": "af77bDozD1KPuW5LnBwyew=="
         }
       },
       "is_incremental": false,
@@ -1859,7 +1871,7 @@
           "hash": "n5z1ZWsnyvRDu+QT5Qqvnw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1887,8 +1899,8 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 6,
-          "skipped_file_count": 5
+          "total_file_count": 7,
+          "skipped_file_count": 7
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
