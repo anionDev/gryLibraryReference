@@ -281,7 +281,7 @@ var assemblies = [
       { "name": "GRYLibrary.Core.Log.ConcreteLogTargets.Observer", "rp": "GRYLibrary_Observer.htm", "cl": 0, "ucl": 4, "cal": 4, "tl": 20, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Core.Log.ConcreteLogTargets.WindowsEventLog", "rp": "GRYLibrary_WindowsEventLog.htm", "cl": 1, "ucl": 17, "cal": 18, "tl": 50, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 12, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Core.Log.GRYLog", "rp": "GRYLibrary_GRYLog.htm", "cl": 53, "ucl": 139, "cal": 192, "tl": 425, "ct": "LineCoverage", "mc": "-", "cb": 28, "tb": 68, "lch": [], "bch": [], "hc": [] },
-      { "name": "GRYLibrary.Core.Log.GRYLogConfiguration", "rp": "GRYLibrary_GRYLogConfiguration.htm", "cl": 64, "ucl": 17, "cal": 81, "tl": 177, "ct": "LineCoverage", "mc": "-", "cb": 12, "tb": 16, "lch": [], "bch": [], "hc": [] },
+      { "name": "GRYLibrary.Core.Log.GRYLogConfiguration", "rp": "GRYLibrary_GRYLogConfiguration.htm", "cl": 64, "ucl": 17, "cal": 81, "tl": 176, "ct": "LineCoverage", "mc": "-", "cb": 12, "tb": 16, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Core.Log.GRYLogSubNamespaceProvider", "rp": "GRYLibrary_GRYLogSubNamespaceProvider.htm", "cl": 0, "ucl": 13, "cal": 13, "tl": 38, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 4, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Core.Log.GRYLogTarget", "rp": "GRYLibrary_GRYLogTarget.htm", "cl": 17, "ucl": 8, "cal": 25, "tl": 81, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Core.Log.LoggedMessageTypeConfiguration", "rp": "GRYLibrary_LoggedMessageTypeConfiguration.htm", "cl": 2, "ucl": 9, "cal": 11, "tl": 47, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
@@ -310,11 +310,11 @@ var assemblies = [
       { "name": "GRYLibrary.Core.Tree.Containee`1", "rp": "GRYLibrary_Containee_1.htm", "cl": 0, "ucl": 10, "cal": 10, "tl": 24, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Core.Tree.Container`1", "rp": "GRYLibrary_Container_1.htm", "cl": 0, "ucl": 14, "cal": 14, "tl": 39, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 4, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Core.UnexpectedExitCodeException", "rp": "GRYLibrary_UnexpectedExitCodeException.htm", "cl": 0, "ucl": 4, "cal": 4, "tl": 457, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "GRYLibrary.Core.Utilities", "rp": "GRYLibrary_Utilities.htm", "cl": 390, "ucl": 638, "cal": 1028, "tl": 2577, "ct": "LineCoverage", "mc": "-", "cb": 235, "tb": 566, "lch": [], "bch": [], "hc": [] },
+      { "name": "GRYLibrary.Core.Utilities", "rp": "GRYLibrary_Utilities.htm", "cl": 390, "ucl": 640, "cal": 1030, "tl": 2585, "ct": "LineCoverage", "mc": "-", "cb": 235, "tb": 570, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Core.WriteableTuple`2", "rp": "GRYLibrary_WriteableTuple_2.htm", "cl": 10, "ucl": 6, "cal": 16, "tl": 40, "ct": "LineCoverage", "mc": "-", "cb": 1, "tb": 6, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Core.XMLSerializer.KeyValuePair`2", "rp": "GRYLibrary_KeyValuePair_2.htm", "cl": 6, "ucl": 11, "cal": 17, "tl": 59, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Core.XMLSerializer.SerializableDictionary`2", "rp": "GRYLibrary_SerializableDictionary_2.htm", "cl": 30, "ucl": 2, "cal": 32, "tl": 67, "ct": "LineCoverage", "mc": "-", "cb": 5, "tb": 6, "lch": [], "bch": [], "hc": [] },
-      { "name": "GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1", "rp": "GRYLibrary_SimpleGenericXMLSerializer_1.htm", "cl": 29, "ucl": 6, "cal": 35, "tl": 79, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 2, "lch": [], "bch": [], "hc": [] },
+      { "name": "GRYLibrary.Core.XMLSerializer.SimpleGenericXMLSerializer`1", "rp": "GRYLibrary_SimpleGenericXMLSerializer_1.htm", "cl": 29, "ucl": 6, "cal": 35, "tl": 78, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 2, "lch": [], "bch": [], "hc": [] },
     ]},
 ];
 
