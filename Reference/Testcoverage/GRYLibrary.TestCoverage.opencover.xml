@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CoverageSession>
-  <Summary numSequencePoints="3837" visitedSequencePoints="2089" numBranchPoints="1632" visitedBranchPoints="849" sequenceCoverage="54.44" branchCoverage="52.02" maxCyclomaticComplexity="2366" minCyclomaticComplexity="2366" visitedClasses="83" numClasses="112" visitedMethods="574" numMethods="1083" />
+  <Summary numSequencePoints="3837" visitedSequencePoints="2097" numBranchPoints="1632" visitedBranchPoints="850" sequenceCoverage="54.65" branchCoverage="52.08" maxCyclomaticComplexity="2366" minCyclomaticComplexity="2366" visitedClasses="83" numClasses="112" visitedMethods="575" numMethods="1083" />
   <Modules>
-    <Module hash="9650FB36-A2E3-4BEC-83D2-490602B79610">
+    <Module hash="7C881A0D-4299-4568-8D48-3D0CF7A2B0BB">
       <ModulePath>GRYLibrary.dll</ModulePath>
-      <ModuleTime>2020-08-31T10:41:36</ModuleTime>
+      <ModuleTime>2020-08-31T10:53:54</ModuleTime>
       <ModuleName>GRYLibrary</ModuleName>
       <Files>
         <File uid="1" fullPath="C:\Data\Projects\Common\GRYLibraryBuild\Submodules\GRYLibrary\GRYLibrary\Core\ByteArray.cs" />
@@ -8529,7 +8529,7 @@
               <Name>TKey GRYLibrary.Core.XMLSerializer.KeyValuePair`2::get_Key()</Name>
               <FileRef uid="23" />
               <SequencePoints>
-                <SequencePoint vc="66" uspid="18" ordinal="0" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="72" uspid="18" ordinal="0" sl="18" sc="1" el="18" ec="2" bec="0" bev="0" fileid="23" />
               </SequencePoints>
               <BranchPoints />
               <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="18" ec="1" el="18" bec="0" bev="0" fileid="23" xmlns:p8="xsi" />
@@ -8540,7 +8540,7 @@
               <Name>TValue GRYLibrary.Core.XMLSerializer.KeyValuePair`2::get_Value()</Name>
               <FileRef uid="23" />
               <SequencePoints>
-                <SequencePoint vc="46" uspid="20" ordinal="0" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="23" />
+                <SequencePoint vc="48" uspid="20" ordinal="0" sl="20" sc="1" el="20" ec="2" bec="0" bev="0" fileid="23" />
               </SequencePoints>
               <BranchPoints />
               <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="20" ec="1" el="20" bec="0" bev="0" fileid="23" xmlns:p8="xsi" />
@@ -11161,7 +11161,7 @@
               <Name>System.String GRYLibrary.Core.Log.GRYLogConfiguration::get_DateFormat()</Name>
               <FileRef uid="38" />
               <SequencePoints>
-                <SequencePoint vc="14" uspid="34" ordinal="0" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="38" />
+                <SequencePoint vc="16" uspid="34" ordinal="0" sl="34" sc="1" el="34" ec="2" bec="0" bev="0" fileid="38" />
               </SequencePoints>
               <BranchPoints />
               <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="10" offset="10" sc="0" sl="34" ec="1" el="34" bec="0" bev="0" fileid="38" xmlns:p8="xsi" />
@@ -11172,7 +11172,7 @@
               <Name>System.Collections.Generic.List`1&lt;GRYLibrary.Core.XMLSerializer.KeyValuePair`2&lt;Microsoft.Extensions.Logging.LogLevel,GRYLibrary.Core.Log.LoggedMessageTypeConfiguration&gt;&gt; GRYLibrary.Core.Log.GRYLogConfiguration::get_LoggedMessageTypesConfiguration()</Name>
               <FileRef uid="38" />
               <SequencePoints>
-                <SequencePoint vc="30" uspid="35" ordinal="0" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="38" />
+                <SequencePoint vc="32" uspid="35" ordinal="0" sl="35" sc="1" el="35" ec="2" bec="0" bev="0" fileid="38" />
               </SequencePoints>
               <BranchPoints />
               <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="11" offset="11" sc="0" sl="35" ec="1" el="35" bec="0" bev="0" fileid="38" xmlns:p8="xsi" />
@@ -11205,16 +11205,16 @@
               <Name>GRYLibrary.Core.Log.LoggedMessageTypeConfiguration GRYLibrary.Core.Log.GRYLogConfiguration::GetLoggedMessageTypesConfigurationByLogLevel(Microsoft.Extensions.Logging.LogLevel)</Name>
               <FileRef uid="38" />
               <SequencePoints>
-                <SequencePoint vc="70" uspid="41" ordinal="0" sl="41" sc="1" el="41" ec="2" bec="2" bev="1" fileid="38" />
-                <SequencePoint vc="30" uspid="43" ordinal="1" sl="43" sc="1" el="43" ec="2" bec="2" bev="2" fileid="38" />
-                <SequencePoint vc="10" uspid="45" ordinal="2" sl="45" sc="1" el="45" ec="2" bec="0" bev="0" fileid="38" />
+                <SequencePoint vc="84" uspid="41" ordinal="0" sl="41" sc="1" el="41" ec="2" bec="2" bev="1" fileid="38" />
+                <SequencePoint vc="36" uspid="43" ordinal="1" sl="43" sc="1" el="43" ec="2" bec="2" bev="2" fileid="38" />
+                <SequencePoint vc="12" uspid="45" ordinal="2" sl="45" sc="1" el="45" ec="2" bec="0" bev="0" fileid="38" />
                 <SequencePoint vc="0" uspid="48" ordinal="3" sl="48" sc="1" el="48" ec="2" bec="0" bev="0" fileid="38" />
-                <SequencePoint vc="10" uspid="49" ordinal="4" sl="49" sc="1" el="49" ec="2" bec="0" bev="0" fileid="38" />
+                <SequencePoint vc="12" uspid="49" ordinal="4" sl="49" sc="1" el="49" ec="2" bec="0" bev="0" fileid="38" />
               </SequencePoints>
               <BranchPoints>
-                <BranchPoint vc="30" uspid="41" ordinal="3" path="1" offset="47" offsetend="14" sl="41" fileid="38" />
-                <BranchPoint vc="10" uspid="43" ordinal="0" path="0" offset="29" offsetend="31" sl="43" fileid="38" />
-                <BranchPoint vc="30" uspid="43" ordinal="1" path="1" offset="29" offsetend="40" sl="43" fileid="38" />
+                <BranchPoint vc="36" uspid="41" ordinal="3" path="1" offset="47" offsetend="14" sl="41" fileid="38" />
+                <BranchPoint vc="12" uspid="43" ordinal="0" path="0" offset="29" offsetend="31" sl="43" fileid="38" />
+                <BranchPoint vc="36" uspid="43" ordinal="1" path="1" offset="29" offsetend="40" sl="43" fileid="38" />
                 <BranchPoint vc="0" uspid="41" ordinal="2" path="0" offset="47" offsetend="49" sl="41" fileid="38" />
               </BranchPoints>
               <MethodPoint vc="4" uspid="0" p8:type="SequencePoint" ordinal="14" offset="14" sc="0" sl="41" ec="1" el="49" bec="0" bev="0" fileid="38" xmlns:p8="xsi" />
@@ -11675,7 +11675,7 @@
           </Methods>
         </Class>
         <Class>
-          <Summary numSequencePoints="11" visitedSequencePoints="2" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="18.18" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="2" numMethods="9" />
+          <Summary numSequencePoints="11" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="27.27" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="3" numMethods="9" />
           <FullName>GRYLibrary.Core.Log.LoggedMessageTypeConfiguration</FullName>
           <Methods>
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
@@ -11689,16 +11689,16 @@
               <BranchPoints />
               <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="0" offset="0" sc="0" sl="11" ec="1" el="11" bec="0" bev="0" fileid="41" xmlns:p8="xsi" />
             </Method>
-            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
-              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken />
               <Name>System.String GRYLibrary.Core.Log.LoggedMessageTypeConfiguration::get_CustomText()</Name>
               <FileRef uid="41" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="12" ordinal="0" sl="12" sc="1" el="12" ec="2" bec="0" bev="0" fileid="41" />
+                <SequencePoint vc="38" uspid="12" ordinal="0" sl="12" sc="1" el="12" ec="2" bec="0" bev="0" fileid="41" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="12" ec="1" el="12" bec="0" bev="0" fileid="41" xmlns:p8="xsi" />
+              <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="1" offset="1" sc="0" sl="12" ec="1" el="12" bec="0" bev="0" fileid="41" xmlns:p8="xsi" />
             </Method>
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
@@ -11782,7 +11782,7 @@
           </Methods>
         </Class>
         <Class>
-          <Summary numSequencePoints="83" visitedSequencePoints="38" numBranchPoints="14" visitedBranchPoints="8" sequenceCoverage="45.78" branchCoverage="57.14" maxCyclomaticComplexity="8" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="8" numMethods="25" />
+          <Summary numSequencePoints="83" visitedSequencePoints="45" numBranchPoints="14" visitedBranchPoints="9" sequenceCoverage="54.21" branchCoverage="64.28" maxCyclomaticComplexity="8" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="8" numMethods="25" />
           <FullName>GRYLibrary.Core.Log.LogItem</FullName>
           <Methods>
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
@@ -11896,8 +11896,8 @@
               </BranchPoints>
               <MethodPoint vc="1" uspid="0" p8:type="SequencePoint" ordinal="7" offset="7" sc="0" sl="115" ec="1" el="115" bec="0" bev="0" fileid="42" xmlns:p8="xsi" />
             </Method>
-            <Method cyclomaticComplexity="8" nPathComplexity="0" sequenceCoverage="33.33" branchCoverage="37.5" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
-              <Summary numSequencePoints="21" visitedSequencePoints="7" numBranchPoints="8" visitedBranchPoints="3" sequenceCoverage="33.33" branchCoverage="37.5" maxCyclomaticComplexity="8" minCyclomaticComplexity="8" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+            <Method cyclomaticComplexity="8" nPathComplexity="0" sequenceCoverage="66.66" branchCoverage="50" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="21" visitedSequencePoints="14" numBranchPoints="8" visitedBranchPoints="4" sequenceCoverage="66.66" branchCoverage="50" maxCyclomaticComplexity="8" minCyclomaticComplexity="8" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
               <MetadataToken />
               <Name>System.Void GRYLibrary.Core.Log.LogItem::FormatMessage(GRYLibrary.Core.Log.GRYLogConfiguration,System.String,System.DateTime,Microsoft.Extensions.Logging.LogLevel,GRYLibrary.Core.Log.GRYLogLogFormat,System.String&amp;,System.Int32&amp;,System.Int32&amp;,System.ConsoleColor&amp;)</Name>
               <FileRef uid="42" />
@@ -11906,18 +11906,18 @@
                 <SequencePoint vc="6" uspid="120" ordinal="1" sl="120" sc="1" el="120" ec="2" bec="2" bev="1" fileid="42" />
                 <SequencePoint vc="0" uspid="122" ordinal="2" sl="122" sc="1" el="122" ec="2" bec="0" bev="0" fileid="42" />
                 <SequencePoint vc="6" uspid="124" ordinal="3" sl="124" sc="1" el="124" ec="2" bec="2" bev="1" fileid="42" />
-                <SequencePoint vc="0" uspid="126" ordinal="4" sl="126" sc="1" el="126" ec="2" bec="4" bev="1" fileid="42" />
-                <SequencePoint vc="6" uspid="131" ordinal="5" sl="131" sc="1" el="131" ec="2" bec="0" bev="0" fileid="42" />
-                <SequencePoint vc="6" uspid="132" ordinal="6" sl="132" sc="1" el="132" ec="2" bec="0" bev="0" fileid="42" />
-                <SequencePoint vc="6" uspid="133" ordinal="7" sl="133" sc="1" el="133" ec="2" bec="0" bev="0" fileid="42" />
-                <SequencePoint vc="6" uspid="134" ordinal="8" sl="134" sc="1" el="134" ec="2" bec="0" bev="0" fileid="42" />
-                <SequencePoint vc="0" uspid="136" ordinal="9" sl="136" sc="1" el="136" ec="2" bec="0" bev="0" fileid="42" />
-                <SequencePoint vc="0" uspid="137" ordinal="10" sl="137" sc="1" el="137" ec="2" bec="0" bev="0" fileid="42" />
-                <SequencePoint vc="0" uspid="138" ordinal="11" sl="138" sc="1" el="138" ec="2" bec="0" bev="0" fileid="42" />
-                <SequencePoint vc="0" uspid="139" ordinal="12" sl="139" sc="1" el="139" ec="2" bec="0" bev="0" fileid="42" />
-                <SequencePoint vc="0" uspid="140" ordinal="13" sl="140" sc="1" el="140" ec="2" bec="0" bev="0" fileid="42" />
-                <SequencePoint vc="0" uspid="141" ordinal="14" sl="141" sc="1" el="141" ec="2" bec="0" bev="0" fileid="42" />
-                <SequencePoint vc="0" uspid="142" ordinal="15" sl="142" sc="1" el="142" ec="2" bec="0" bev="0" fileid="42" />
+                <SequencePoint vc="0" uspid="126" ordinal="4" sl="126" sc="1" el="126" ec="2" bec="4" bev="2" fileid="42" />
+                <SequencePoint vc="4" uspid="131" ordinal="5" sl="131" sc="1" el="131" ec="2" bec="0" bev="0" fileid="42" />
+                <SequencePoint vc="4" uspid="132" ordinal="6" sl="132" sc="1" el="132" ec="2" bec="0" bev="0" fileid="42" />
+                <SequencePoint vc="4" uspid="133" ordinal="7" sl="133" sc="1" el="133" ec="2" bec="0" bev="0" fileid="42" />
+                <SequencePoint vc="4" uspid="134" ordinal="8" sl="134" sc="1" el="134" ec="2" bec="0" bev="0" fileid="42" />
+                <SequencePoint vc="2" uspid="136" ordinal="9" sl="136" sc="1" el="136" ec="2" bec="0" bev="0" fileid="42" />
+                <SequencePoint vc="2" uspid="137" ordinal="10" sl="137" sc="1" el="137" ec="2" bec="0" bev="0" fileid="42" />
+                <SequencePoint vc="2" uspid="138" ordinal="11" sl="138" sc="1" el="138" ec="2" bec="0" bev="0" fileid="42" />
+                <SequencePoint vc="2" uspid="139" ordinal="12" sl="139" sc="1" el="139" ec="2" bec="0" bev="0" fileid="42" />
+                <SequencePoint vc="2" uspid="140" ordinal="13" sl="140" sc="1" el="140" ec="2" bec="0" bev="0" fileid="42" />
+                <SequencePoint vc="2" uspid="141" ordinal="14" sl="141" sc="1" el="141" ec="2" bec="0" bev="0" fileid="42" />
+                <SequencePoint vc="2" uspid="142" ordinal="15" sl="142" sc="1" el="142" ec="2" bec="0" bev="0" fileid="42" />
                 <SequencePoint vc="0" uspid="144" ordinal="16" sl="144" sc="1" el="144" ec="2" bec="0" bev="0" fileid="42" />
                 <SequencePoint vc="0" uspid="145" ordinal="17" sl="145" sc="1" el="145" ec="2" bec="0" bev="0" fileid="42" />
                 <SequencePoint vc="0" uspid="146" ordinal="18" sl="146" sc="1" el="146" ec="2" bec="0" bev="0" fileid="42" />
@@ -11929,12 +11929,12 @@
                 <BranchPoint vc="6" uspid="120" ordinal="1" path="1" offset="27" offsetend="58" sl="120" fileid="42" />
                 <BranchPoint vc="0" uspid="124" ordinal="2" path="0" offset="64" offsetend="66" sl="124" fileid="42" />
                 <BranchPoint vc="6" uspid="124" ordinal="3" path="1" offset="64" offsetend="75" sl="124" fileid="42" />
-                <BranchPoint vc="6" uspid="126" ordinal="5" path="1" offset="77" offsetend="99" sl="126" fileid="42" />
-                <BranchPoint vc="0" uspid="126" ordinal="6" path="2" offset="77" offsetend="112" sl="126" fileid="42" />
+                <BranchPoint vc="4" uspid="126" ordinal="5" path="1" offset="77" offsetend="99" sl="126" fileid="42" />
+                <BranchPoint vc="2" uspid="126" ordinal="6" path="2" offset="77" offsetend="112" sl="126" fileid="42" />
                 <BranchPoint vc="0" uspid="126" ordinal="7" path="3" offset="77" offsetend="204" sl="126" fileid="42" />
                 <BranchPoint vc="0" uspid="126" ordinal="4" path="0" offset="77" offsetend="240" sl="126" fileid="42" />
               </BranchPoints>
-              <MethodPoint vc="7" uspid="0" p8:type="SequencePoint" ordinal="8" offset="8" sc="0" sl="119" ec="1" el="149" bec="0" bev="0" fileid="42" xmlns:p8="xsi" />
+              <MethodPoint vc="14" uspid="0" p8:type="SequencePoint" ordinal="8" offset="8" sc="0" sl="119" ec="1" el="149" bec="0" bev="0" fileid="42" xmlns:p8="xsi" />
             </Method>
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
