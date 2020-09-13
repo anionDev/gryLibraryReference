@@ -4106,7 +4106,7 @@
   
   <a id="GRYLibrary_Core_Utilities_GitCommit_" data-uid="GRYLibrary.Core.Utilities.GitCommit*"></a>
   <h4 id="GRYLibrary_Core_Utilities_GitCommit_System_String_System_String_System_Boolean__System_Boolean_" data-uid="GRYLibrary.Core.Utilities.GitCommit(System.String,System.String,System.Boolean@,System.Boolean)">GitCommit(String, String, out Boolean, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Commits all staged and unstaged changes in <code data-dev-comment-type="paramref" class="paramref">repositoryFolder</code> (excluding uncommitted changes in submodules).</p>
+  <div class="markdown level1 summary"><p>Commits all staged and unstaged changes in <code data-dev-comment-type="paramref" class="paramref">repositoryFolder</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -4160,6 +4160,22 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><p>Returns the commit-id of the currently checked out commit. This returns the id of the new created commit if there were changes which were committed by this function.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GRYLibrary.Core.UnexpectedExitCodeException.html">UnexpectedExitCodeException</a></td>
+        <td><p>If there are uncommitted changes in submodules of <code data-dev-comment-type="paramref" class="paramref">repositoryFolder</code>.</p>
 </td>
       </tr>
     </tbody>
