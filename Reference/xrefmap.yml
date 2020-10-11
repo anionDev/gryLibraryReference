@@ -12570,6 +12570,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.WriteToConsoleAsASCIITable
   nameWithType: Utilities.WriteToConsoleAsASCIITable
+- uid: GRYLibrary.Core.Utilities.XmlToString(System.Xml.XmlDocument)
+  name: XmlToString(XmlDocument)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_XmlToString_System_Xml_XmlDocument_
+  commentId: M:GRYLibrary.Core.Utilities.XmlToString(System.Xml.XmlDocument)
+  fullName: GRYLibrary.Core.Utilities.XmlToString(System.Xml.XmlDocument)
+  nameWithType: Utilities.XmlToString(XmlDocument)
+- uid: GRYLibrary.Core.Utilities.XmlToString*
+  name: XmlToString
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_XmlToString_
+  commentId: Overload:GRYLibrary.Core.Utilities.XmlToString
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.XmlToString
+  nameWithType: Utilities.XmlToString
 - uid: GRYLibrary.Core.WriteableTuple`2
   name: WriteableTuple<T1, T2>
   href: api/GRYLibrary.Core.WriteableTuple-2.html
