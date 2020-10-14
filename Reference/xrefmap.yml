@@ -5175,6 +5175,38 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Log.ConcreteLogTargets.Observer.FurtherGetExtraTypesWhichAreRequiredForSerialization
   nameWithType: Observer.FurtherGetExtraTypesWhichAreRequiredForSerialization
+- uid: GRYLibrary.Core.Log.ConcreteLogTargets.Syslog
+  name: Syslog
+  href: api/GRYLibrary.Core.Log.ConcreteLogTargets.Syslog.html
+  commentId: T:GRYLibrary.Core.Log.ConcreteLogTargets.Syslog
+  fullName: GRYLibrary.Core.Log.ConcreteLogTargets.Syslog
+  nameWithType: Syslog
+- uid: GRYLibrary.Core.Log.ConcreteLogTargets.Syslog.ExecuteImplementation(GRYLibrary.Core.Log.LogItem,GRYLibrary.Core.Log.GRYLog)
+  name: ExecuteImplementation(LogItem, GRYLog)
+  href: api/GRYLibrary.Core.Log.ConcreteLogTargets.Syslog.html#GRYLibrary_Core_Log_ConcreteLogTargets_Syslog_ExecuteImplementation_GRYLibrary_Core_Log_LogItem_GRYLibrary_Core_Log_GRYLog_
+  commentId: M:GRYLibrary.Core.Log.ConcreteLogTargets.Syslog.ExecuteImplementation(GRYLibrary.Core.Log.LogItem,GRYLibrary.Core.Log.GRYLog)
+  fullName: GRYLibrary.Core.Log.ConcreteLogTargets.Syslog.ExecuteImplementation(GRYLibrary.Core.Log.LogItem, GRYLibrary.Core.Log.GRYLog)
+  nameWithType: Syslog.ExecuteImplementation(LogItem, GRYLog)
+- uid: GRYLibrary.Core.Log.ConcreteLogTargets.Syslog.ExecuteImplementation*
+  name: ExecuteImplementation
+  href: api/GRYLibrary.Core.Log.ConcreteLogTargets.Syslog.html#GRYLibrary_Core_Log_ConcreteLogTargets_Syslog_ExecuteImplementation_
+  commentId: Overload:GRYLibrary.Core.Log.ConcreteLogTargets.Syslog.ExecuteImplementation
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.ConcreteLogTargets.Syslog.ExecuteImplementation
+  nameWithType: Syslog.ExecuteImplementation
+- uid: GRYLibrary.Core.Log.ConcreteLogTargets.Syslog.FurtherGetExtraTypesWhichAreRequiredForSerialization
+  name: FurtherGetExtraTypesWhichAreRequiredForSerialization()
+  href: api/GRYLibrary.Core.Log.ConcreteLogTargets.Syslog.html#GRYLibrary_Core_Log_ConcreteLogTargets_Syslog_FurtherGetExtraTypesWhichAreRequiredForSerialization
+  commentId: M:GRYLibrary.Core.Log.ConcreteLogTargets.Syslog.FurtherGetExtraTypesWhichAreRequiredForSerialization
+  fullName: GRYLibrary.Core.Log.ConcreteLogTargets.Syslog.FurtherGetExtraTypesWhichAreRequiredForSerialization()
+  nameWithType: Syslog.FurtherGetExtraTypesWhichAreRequiredForSerialization()
+- uid: GRYLibrary.Core.Log.ConcreteLogTargets.Syslog.FurtherGetExtraTypesWhichAreRequiredForSerialization*
+  name: FurtherGetExtraTypesWhichAreRequiredForSerialization
+  href: api/GRYLibrary.Core.Log.ConcreteLogTargets.Syslog.html#GRYLibrary_Core_Log_ConcreteLogTargets_Syslog_FurtherGetExtraTypesWhichAreRequiredForSerialization_
+  commentId: Overload:GRYLibrary.Core.Log.ConcreteLogTargets.Syslog.FurtherGetExtraTypesWhichAreRequiredForSerialization
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.ConcreteLogTargets.Syslog.FurtherGetExtraTypesWhichAreRequiredForSerialization
+  nameWithType: Syslog.FurtherGetExtraTypesWhichAreRequiredForSerialization
 - uid: GRYLibrary.Core.Log.ConcreteLogTargets.WindowsEventLog
   name: WindowsEventLog
   href: api/GRYLibrary.Core.Log.ConcreteLogTargets.WindowsEventLog.html
@@ -5418,78 +5450,78 @@ references:
   commentId: M:GRYLibrary.Core.Log.GRYLog.Log(GRYLibrary.Core.Log.LogItem)
   fullName: GRYLibrary.Core.Log.GRYLog.Log(GRYLibrary.Core.Log.LogItem)
   nameWithType: GRYLog.Log(LogItem)
-- uid: GRYLibrary.Core.Log.GRYLog.Log(Microsoft.Extensions.Logging.LogLevel,System.Exception)
-  name: Log(LogLevel, Exception)
-  href: api/GRYLibrary.Core.Log.GRYLog.html#GRYLibrary_Core_Log_GRYLog_Log_Microsoft_Extensions_Logging_LogLevel_System_Exception_
-  commentId: M:GRYLibrary.Core.Log.GRYLog.Log(Microsoft.Extensions.Logging.LogLevel,System.Exception)
-  fullName: GRYLibrary.Core.Log.GRYLog.Log(Microsoft.Extensions.Logging.LogLevel, System.Exception)
-  nameWithType: GRYLog.Log(LogLevel, Exception)
-- uid: GRYLibrary.Core.Log.GRYLog.Log(System.Exception)
-  name: Log(Exception)
-  href: api/GRYLibrary.Core.Log.GRYLog.html#GRYLibrary_Core_Log_GRYLog_Log_System_Exception_
-  commentId: M:GRYLibrary.Core.Log.GRYLog.Log(System.Exception)
-  fullName: GRYLibrary.Core.Log.GRYLog.Log(System.Exception)
-  nameWithType: GRYLog.Log(Exception)
-- uid: GRYLibrary.Core.Log.GRYLog.Log(System.Func{System.String})
-  name: Log(Func<String>)
-  href: api/GRYLibrary.Core.Log.GRYLog.html#GRYLibrary_Core_Log_GRYLog_Log_System_Func_System_String__
-  commentId: M:GRYLibrary.Core.Log.GRYLog.Log(System.Func{System.String})
-  name.vb: Log(Func(Of String))
-  fullName: GRYLibrary.Core.Log.GRYLog.Log(System.Func<System.String>)
-  fullName.vb: GRYLibrary.Core.Log.GRYLog.Log(System.Func(Of System.String))
-  nameWithType: GRYLog.Log(Func<String>)
-  nameWithType.vb: GRYLog.Log(Func(Of String))
-- uid: GRYLibrary.Core.Log.GRYLog.Log(System.Func{System.String},Microsoft.Extensions.Logging.LogLevel)
-  name: Log(Func<String>, LogLevel)
-  href: api/GRYLibrary.Core.Log.GRYLog.html#GRYLibrary_Core_Log_GRYLog_Log_System_Func_System_String__Microsoft_Extensions_Logging_LogLevel_
-  commentId: M:GRYLibrary.Core.Log.GRYLog.Log(System.Func{System.String},Microsoft.Extensions.Logging.LogLevel)
-  name.vb: Log(Func(Of String), LogLevel)
-  fullName: GRYLibrary.Core.Log.GRYLog.Log(System.Func<System.String>, Microsoft.Extensions.Logging.LogLevel)
-  fullName.vb: GRYLibrary.Core.Log.GRYLog.Log(System.Func(Of System.String), Microsoft.Extensions.Logging.LogLevel)
-  nameWithType: GRYLog.Log(Func<String>, LogLevel)
-  nameWithType.vb: GRYLog.Log(Func(Of String), LogLevel)
-- uid: GRYLibrary.Core.Log.GRYLog.Log(System.Func{System.String},Microsoft.Extensions.Logging.LogLevel,System.Exception)
-  name: Log(Func<String>, LogLevel, Exception)
-  href: api/GRYLibrary.Core.Log.GRYLog.html#GRYLibrary_Core_Log_GRYLog_Log_System_Func_System_String__Microsoft_Extensions_Logging_LogLevel_System_Exception_
-  commentId: M:GRYLibrary.Core.Log.GRYLog.Log(System.Func{System.String},Microsoft.Extensions.Logging.LogLevel,System.Exception)
-  name.vb: Log(Func(Of String), LogLevel, Exception)
-  fullName: GRYLibrary.Core.Log.GRYLog.Log(System.Func<System.String>, Microsoft.Extensions.Logging.LogLevel, System.Exception)
-  fullName.vb: GRYLibrary.Core.Log.GRYLog.Log(System.Func(Of System.String), Microsoft.Extensions.Logging.LogLevel, System.Exception)
-  nameWithType: GRYLog.Log(Func<String>, LogLevel, Exception)
-  nameWithType.vb: GRYLog.Log(Func(Of String), LogLevel, Exception)
-- uid: GRYLibrary.Core.Log.GRYLog.Log(System.Func{System.String},System.Exception)
-  name: Log(Func<String>, Exception)
-  href: api/GRYLibrary.Core.Log.GRYLog.html#GRYLibrary_Core_Log_GRYLog_Log_System_Func_System_String__System_Exception_
-  commentId: M:GRYLibrary.Core.Log.GRYLog.Log(System.Func{System.String},System.Exception)
-  name.vb: Log(Func(Of String), Exception)
-  fullName: GRYLibrary.Core.Log.GRYLog.Log(System.Func<System.String>, System.Exception)
-  fullName.vb: GRYLibrary.Core.Log.GRYLog.Log(System.Func(Of System.String), System.Exception)
-  nameWithType: GRYLog.Log(Func<String>, Exception)
-  nameWithType.vb: GRYLog.Log(Func(Of String), Exception)
-- uid: GRYLibrary.Core.Log.GRYLog.Log(System.String)
-  name: Log(String)
-  href: api/GRYLibrary.Core.Log.GRYLog.html#GRYLibrary_Core_Log_GRYLog_Log_System_String_
-  commentId: M:GRYLibrary.Core.Log.GRYLog.Log(System.String)
-  fullName: GRYLibrary.Core.Log.GRYLog.Log(System.String)
-  nameWithType: GRYLog.Log(String)
-- uid: GRYLibrary.Core.Log.GRYLog.Log(System.String,Microsoft.Extensions.Logging.LogLevel)
-  name: Log(String, LogLevel)
-  href: api/GRYLibrary.Core.Log.GRYLog.html#GRYLibrary_Core_Log_GRYLog_Log_System_String_Microsoft_Extensions_Logging_LogLevel_
-  commentId: M:GRYLibrary.Core.Log.GRYLog.Log(System.String,Microsoft.Extensions.Logging.LogLevel)
-  fullName: GRYLibrary.Core.Log.GRYLog.Log(System.String, Microsoft.Extensions.Logging.LogLevel)
-  nameWithType: GRYLog.Log(String, LogLevel)
-- uid: GRYLibrary.Core.Log.GRYLog.Log(System.String,Microsoft.Extensions.Logging.LogLevel,System.Exception)
-  name: Log(String, LogLevel, Exception)
-  href: api/GRYLibrary.Core.Log.GRYLog.html#GRYLibrary_Core_Log_GRYLog_Log_System_String_Microsoft_Extensions_Logging_LogLevel_System_Exception_
-  commentId: M:GRYLibrary.Core.Log.GRYLog.Log(System.String,Microsoft.Extensions.Logging.LogLevel,System.Exception)
-  fullName: GRYLibrary.Core.Log.GRYLog.Log(System.String, Microsoft.Extensions.Logging.LogLevel, System.Exception)
-  nameWithType: GRYLog.Log(String, LogLevel, Exception)
-- uid: GRYLibrary.Core.Log.GRYLog.Log(System.String,System.Exception)
-  name: Log(String, Exception)
-  href: api/GRYLibrary.Core.Log.GRYLog.html#GRYLibrary_Core_Log_GRYLog_Log_System_String_System_Exception_
-  commentId: M:GRYLibrary.Core.Log.GRYLog.Log(System.String,System.Exception)
-  fullName: GRYLibrary.Core.Log.GRYLog.Log(System.String, System.Exception)
-  nameWithType: GRYLog.Log(String, Exception)
+- uid: GRYLibrary.Core.Log.GRYLog.Log(Microsoft.Extensions.Logging.LogLevel,System.Exception,System.String)
+  name: Log(LogLevel, Exception, String)
+  href: api/GRYLibrary.Core.Log.GRYLog.html#GRYLibrary_Core_Log_GRYLog_Log_Microsoft_Extensions_Logging_LogLevel_System_Exception_System_String_
+  commentId: M:GRYLibrary.Core.Log.GRYLog.Log(Microsoft.Extensions.Logging.LogLevel,System.Exception,System.String)
+  fullName: GRYLibrary.Core.Log.GRYLog.Log(Microsoft.Extensions.Logging.LogLevel, System.Exception, System.String)
+  nameWithType: GRYLog.Log(LogLevel, Exception, String)
+- uid: GRYLibrary.Core.Log.GRYLog.Log(System.Exception,System.String)
+  name: Log(Exception, String)
+  href: api/GRYLibrary.Core.Log.GRYLog.html#GRYLibrary_Core_Log_GRYLog_Log_System_Exception_System_String_
+  commentId: M:GRYLibrary.Core.Log.GRYLog.Log(System.Exception,System.String)
+  fullName: GRYLibrary.Core.Log.GRYLog.Log(System.Exception, System.String)
+  nameWithType: GRYLog.Log(Exception, String)
+- uid: GRYLibrary.Core.Log.GRYLog.Log(System.Func{System.String},Microsoft.Extensions.Logging.LogLevel,System.Exception,System.String)
+  name: Log(Func<String>, LogLevel, Exception, String)
+  href: api/GRYLibrary.Core.Log.GRYLog.html#GRYLibrary_Core_Log_GRYLog_Log_System_Func_System_String__Microsoft_Extensions_Logging_LogLevel_System_Exception_System_String_
+  commentId: M:GRYLibrary.Core.Log.GRYLog.Log(System.Func{System.String},Microsoft.Extensions.Logging.LogLevel,System.Exception,System.String)
+  name.vb: Log(Func(Of String), LogLevel, Exception, String)
+  fullName: GRYLibrary.Core.Log.GRYLog.Log(System.Func<System.String>, Microsoft.Extensions.Logging.LogLevel, System.Exception, System.String)
+  fullName.vb: GRYLibrary.Core.Log.GRYLog.Log(System.Func(Of System.String), Microsoft.Extensions.Logging.LogLevel, System.Exception, System.String)
+  nameWithType: GRYLog.Log(Func<String>, LogLevel, Exception, String)
+  nameWithType.vb: GRYLog.Log(Func(Of String), LogLevel, Exception, String)
+- uid: GRYLibrary.Core.Log.GRYLog.Log(System.Func{System.String},Microsoft.Extensions.Logging.LogLevel,System.String)
+  name: Log(Func<String>, LogLevel, String)
+  href: api/GRYLibrary.Core.Log.GRYLog.html#GRYLibrary_Core_Log_GRYLog_Log_System_Func_System_String__Microsoft_Extensions_Logging_LogLevel_System_String_
+  commentId: M:GRYLibrary.Core.Log.GRYLog.Log(System.Func{System.String},Microsoft.Extensions.Logging.LogLevel,System.String)
+  name.vb: Log(Func(Of String), LogLevel, String)
+  fullName: GRYLibrary.Core.Log.GRYLog.Log(System.Func<System.String>, Microsoft.Extensions.Logging.LogLevel, System.String)
+  fullName.vb: GRYLibrary.Core.Log.GRYLog.Log(System.Func(Of System.String), Microsoft.Extensions.Logging.LogLevel, System.String)
+  nameWithType: GRYLog.Log(Func<String>, LogLevel, String)
+  nameWithType.vb: GRYLog.Log(Func(Of String), LogLevel, String)
+- uid: GRYLibrary.Core.Log.GRYLog.Log(System.Func{System.String},System.Exception,System.String)
+  name: Log(Func<String>, Exception, String)
+  href: api/GRYLibrary.Core.Log.GRYLog.html#GRYLibrary_Core_Log_GRYLog_Log_System_Func_System_String__System_Exception_System_String_
+  commentId: M:GRYLibrary.Core.Log.GRYLog.Log(System.Func{System.String},System.Exception,System.String)
+  name.vb: Log(Func(Of String), Exception, String)
+  fullName: GRYLibrary.Core.Log.GRYLog.Log(System.Func<System.String>, System.Exception, System.String)
+  fullName.vb: GRYLibrary.Core.Log.GRYLog.Log(System.Func(Of System.String), System.Exception, System.String)
+  nameWithType: GRYLog.Log(Func<String>, Exception, String)
+  nameWithType.vb: GRYLog.Log(Func(Of String), Exception, String)
+- uid: GRYLibrary.Core.Log.GRYLog.Log(System.Func{System.String},System.String)
+  name: Log(Func<String>, String)
+  href: api/GRYLibrary.Core.Log.GRYLog.html#GRYLibrary_Core_Log_GRYLog_Log_System_Func_System_String__System_String_
+  commentId: M:GRYLibrary.Core.Log.GRYLog.Log(System.Func{System.String},System.String)
+  name.vb: Log(Func(Of String), String)
+  fullName: GRYLibrary.Core.Log.GRYLog.Log(System.Func<System.String>, System.String)
+  fullName.vb: GRYLibrary.Core.Log.GRYLog.Log(System.Func(Of System.String), System.String)
+  nameWithType: GRYLog.Log(Func<String>, String)
+  nameWithType.vb: GRYLog.Log(Func(Of String), String)
+- uid: GRYLibrary.Core.Log.GRYLog.Log(System.String,Microsoft.Extensions.Logging.LogLevel,System.Exception,System.String)
+  name: Log(String, LogLevel, Exception, String)
+  href: api/GRYLibrary.Core.Log.GRYLog.html#GRYLibrary_Core_Log_GRYLog_Log_System_String_Microsoft_Extensions_Logging_LogLevel_System_Exception_System_String_
+  commentId: M:GRYLibrary.Core.Log.GRYLog.Log(System.String,Microsoft.Extensions.Logging.LogLevel,System.Exception,System.String)
+  fullName: GRYLibrary.Core.Log.GRYLog.Log(System.String, Microsoft.Extensions.Logging.LogLevel, System.Exception, System.String)
+  nameWithType: GRYLog.Log(String, LogLevel, Exception, String)
+- uid: GRYLibrary.Core.Log.GRYLog.Log(System.String,Microsoft.Extensions.Logging.LogLevel,System.String)
+  name: Log(String, LogLevel, String)
+  href: api/GRYLibrary.Core.Log.GRYLog.html#GRYLibrary_Core_Log_GRYLog_Log_System_String_Microsoft_Extensions_Logging_LogLevel_System_String_
+  commentId: M:GRYLibrary.Core.Log.GRYLog.Log(System.String,Microsoft.Extensions.Logging.LogLevel,System.String)
+  fullName: GRYLibrary.Core.Log.GRYLog.Log(System.String, Microsoft.Extensions.Logging.LogLevel, System.String)
+  nameWithType: GRYLog.Log(String, LogLevel, String)
+- uid: GRYLibrary.Core.Log.GRYLog.Log(System.String,System.Exception,System.String)
+  name: Log(String, Exception, String)
+  href: api/GRYLibrary.Core.Log.GRYLog.html#GRYLibrary_Core_Log_GRYLog_Log_System_String_System_Exception_System_String_
+  commentId: M:GRYLibrary.Core.Log.GRYLog.Log(System.String,System.Exception,System.String)
+  fullName: GRYLibrary.Core.Log.GRYLog.Log(System.String, System.Exception, System.String)
+  nameWithType: GRYLog.Log(String, Exception, String)
+- uid: GRYLibrary.Core.Log.GRYLog.Log(System.String,System.String)
+  name: Log(String, String)
+  href: api/GRYLibrary.Core.Log.GRYLog.html#GRYLibrary_Core_Log_GRYLog_Log_System_String_System_String_
+  commentId: M:GRYLibrary.Core.Log.GRYLog.Log(System.String,System.String)
+  fullName: GRYLibrary.Core.Log.GRYLog.Log(System.String, System.String)
+  nameWithType: GRYLog.Log(String, String)
 - uid: GRYLibrary.Core.Log.GRYLog.Log*
   name: Log
   href: api/GRYLibrary.Core.Log.GRYLog.html#GRYLibrary_Core_Log_GRYLog_Log_
@@ -6367,126 +6399,126 @@ references:
   commentId: T:GRYLibrary.Core.Log.LogItem
   fullName: GRYLibrary.Core.Log.LogItem
   nameWithType: LogItem
-- uid: GRYLibrary.Core.Log.LogItem.#ctor(System.Func{System.String})
-  name: LogItem(Func<String>)
-  href: api/GRYLibrary.Core.Log.LogItem.html#GRYLibrary_Core_Log_LogItem__ctor_System_Func_System_String__
-  commentId: M:GRYLibrary.Core.Log.LogItem.#ctor(System.Func{System.String})
-  name.vb: LogItem(Func(Of String))
-  fullName: GRYLibrary.Core.Log.LogItem.LogItem(System.Func<System.String>)
-  fullName.vb: GRYLibrary.Core.Log.LogItem.LogItem(System.Func(Of System.String))
-  nameWithType: LogItem.LogItem(Func<String>)
-  nameWithType.vb: LogItem.LogItem(Func(Of String))
-- uid: GRYLibrary.Core.Log.LogItem.#ctor(System.Func{System.String},Microsoft.Extensions.Logging.LogLevel)
-  name: LogItem(Func<String>, LogLevel)
-  href: api/GRYLibrary.Core.Log.LogItem.html#GRYLibrary_Core_Log_LogItem__ctor_System_Func_System_String__Microsoft_Extensions_Logging_LogLevel_
-  commentId: M:GRYLibrary.Core.Log.LogItem.#ctor(System.Func{System.String},Microsoft.Extensions.Logging.LogLevel)
-  name.vb: LogItem(Func(Of String), LogLevel)
-  fullName: GRYLibrary.Core.Log.LogItem.LogItem(System.Func<System.String>, Microsoft.Extensions.Logging.LogLevel)
-  fullName.vb: GRYLibrary.Core.Log.LogItem.LogItem(System.Func(Of System.String), Microsoft.Extensions.Logging.LogLevel)
-  nameWithType: LogItem.LogItem(Func<String>, LogLevel)
-  nameWithType.vb: LogItem.LogItem(Func(Of String), LogLevel)
-- uid: GRYLibrary.Core.Log.LogItem.#ctor(System.Func{System.String},Microsoft.Extensions.Logging.LogLevel,System.Exception)
-  name: LogItem(Func<String>, LogLevel, Exception)
-  href: api/GRYLibrary.Core.Log.LogItem.html#GRYLibrary_Core_Log_LogItem__ctor_System_Func_System_String__Microsoft_Extensions_Logging_LogLevel_System_Exception_
-  commentId: M:GRYLibrary.Core.Log.LogItem.#ctor(System.Func{System.String},Microsoft.Extensions.Logging.LogLevel,System.Exception)
-  name.vb: LogItem(Func(Of String), LogLevel, Exception)
-  fullName: GRYLibrary.Core.Log.LogItem.LogItem(System.Func<System.String>, Microsoft.Extensions.Logging.LogLevel, System.Exception)
-  fullName.vb: GRYLibrary.Core.Log.LogItem.LogItem(System.Func(Of System.String), Microsoft.Extensions.Logging.LogLevel, System.Exception)
-  nameWithType: LogItem.LogItem(Func<String>, LogLevel, Exception)
-  nameWithType.vb: LogItem.LogItem(Func(Of String), LogLevel, Exception)
-- uid: GRYLibrary.Core.Log.LogItem.#ctor(System.Func{System.String},System.DateTime)
-  name: LogItem(Func<String>, DateTime)
-  href: api/GRYLibrary.Core.Log.LogItem.html#GRYLibrary_Core_Log_LogItem__ctor_System_Func_System_String__System_DateTime_
-  commentId: M:GRYLibrary.Core.Log.LogItem.#ctor(System.Func{System.String},System.DateTime)
-  name.vb: LogItem(Func(Of String), DateTime)
-  fullName: GRYLibrary.Core.Log.LogItem.LogItem(System.Func<System.String>, System.DateTime)
-  fullName.vb: GRYLibrary.Core.Log.LogItem.LogItem(System.Func(Of System.String), System.DateTime)
-  nameWithType: LogItem.LogItem(Func<String>, DateTime)
-  nameWithType.vb: LogItem.LogItem(Func(Of String), DateTime)
-- uid: GRYLibrary.Core.Log.LogItem.#ctor(System.Func{System.String},System.DateTime,Microsoft.Extensions.Logging.LogLevel)
-  name: LogItem(Func<String>, DateTime, LogLevel)
-  href: api/GRYLibrary.Core.Log.LogItem.html#GRYLibrary_Core_Log_LogItem__ctor_System_Func_System_String__System_DateTime_Microsoft_Extensions_Logging_LogLevel_
-  commentId: M:GRYLibrary.Core.Log.LogItem.#ctor(System.Func{System.String},System.DateTime,Microsoft.Extensions.Logging.LogLevel)
-  name.vb: LogItem(Func(Of String), DateTime, LogLevel)
-  fullName: GRYLibrary.Core.Log.LogItem.LogItem(System.Func<System.String>, System.DateTime, Microsoft.Extensions.Logging.LogLevel)
-  fullName.vb: GRYLibrary.Core.Log.LogItem.LogItem(System.Func(Of System.String), System.DateTime, Microsoft.Extensions.Logging.LogLevel)
-  nameWithType: LogItem.LogItem(Func<String>, DateTime, LogLevel)
-  nameWithType.vb: LogItem.LogItem(Func(Of String), DateTime, LogLevel)
-- uid: GRYLibrary.Core.Log.LogItem.#ctor(System.Func{System.String},System.DateTime,Microsoft.Extensions.Logging.LogLevel,System.Exception)
-  name: LogItem(Func<String>, DateTime, LogLevel, Exception)
-  href: api/GRYLibrary.Core.Log.LogItem.html#GRYLibrary_Core_Log_LogItem__ctor_System_Func_System_String__System_DateTime_Microsoft_Extensions_Logging_LogLevel_System_Exception_
-  commentId: M:GRYLibrary.Core.Log.LogItem.#ctor(System.Func{System.String},System.DateTime,Microsoft.Extensions.Logging.LogLevel,System.Exception)
-  name.vb: LogItem(Func(Of String), DateTime, LogLevel, Exception)
-  fullName: GRYLibrary.Core.Log.LogItem.LogItem(System.Func<System.String>, System.DateTime, Microsoft.Extensions.Logging.LogLevel, System.Exception)
-  fullName.vb: GRYLibrary.Core.Log.LogItem.LogItem(System.Func(Of System.String), System.DateTime, Microsoft.Extensions.Logging.LogLevel, System.Exception)
-  nameWithType: LogItem.LogItem(Func<String>, DateTime, LogLevel, Exception)
-  nameWithType.vb: LogItem.LogItem(Func(Of String), DateTime, LogLevel, Exception)
-- uid: GRYLibrary.Core.Log.LogItem.#ctor(System.Func{System.String},System.DateTime,System.Exception)
-  name: LogItem(Func<String>, DateTime, Exception)
-  href: api/GRYLibrary.Core.Log.LogItem.html#GRYLibrary_Core_Log_LogItem__ctor_System_Func_System_String__System_DateTime_System_Exception_
-  commentId: M:GRYLibrary.Core.Log.LogItem.#ctor(System.Func{System.String},System.DateTime,System.Exception)
-  name.vb: LogItem(Func(Of String), DateTime, Exception)
-  fullName: GRYLibrary.Core.Log.LogItem.LogItem(System.Func<System.String>, System.DateTime, System.Exception)
-  fullName.vb: GRYLibrary.Core.Log.LogItem.LogItem(System.Func(Of System.String), System.DateTime, System.Exception)
-  nameWithType: LogItem.LogItem(Func<String>, DateTime, Exception)
-  nameWithType.vb: LogItem.LogItem(Func(Of String), DateTime, Exception)
-- uid: GRYLibrary.Core.Log.LogItem.#ctor(System.Func{System.String},System.Exception)
-  name: LogItem(Func<String>, Exception)
-  href: api/GRYLibrary.Core.Log.LogItem.html#GRYLibrary_Core_Log_LogItem__ctor_System_Func_System_String__System_Exception_
-  commentId: M:GRYLibrary.Core.Log.LogItem.#ctor(System.Func{System.String},System.Exception)
-  name.vb: LogItem(Func(Of String), Exception)
-  fullName: GRYLibrary.Core.Log.LogItem.LogItem(System.Func<System.String>, System.Exception)
-  fullName.vb: GRYLibrary.Core.Log.LogItem.LogItem(System.Func(Of System.String), System.Exception)
-  nameWithType: LogItem.LogItem(Func<String>, Exception)
-  nameWithType.vb: LogItem.LogItem(Func(Of String), Exception)
-- uid: GRYLibrary.Core.Log.LogItem.#ctor(System.String)
-  name: LogItem(String)
-  href: api/GRYLibrary.Core.Log.LogItem.html#GRYLibrary_Core_Log_LogItem__ctor_System_String_
-  commentId: M:GRYLibrary.Core.Log.LogItem.#ctor(System.String)
-  fullName: GRYLibrary.Core.Log.LogItem.LogItem(System.String)
-  nameWithType: LogItem.LogItem(String)
+- uid: GRYLibrary.Core.Log.LogItem.#ctor(System.Func{System.String},Microsoft.Extensions.Logging.LogLevel,System.Exception,System.String)
+  name: LogItem(Func<String>, LogLevel, Exception, String)
+  href: api/GRYLibrary.Core.Log.LogItem.html#GRYLibrary_Core_Log_LogItem__ctor_System_Func_System_String__Microsoft_Extensions_Logging_LogLevel_System_Exception_System_String_
+  commentId: M:GRYLibrary.Core.Log.LogItem.#ctor(System.Func{System.String},Microsoft.Extensions.Logging.LogLevel,System.Exception,System.String)
+  name.vb: LogItem(Func(Of String), LogLevel, Exception, String)
+  fullName: GRYLibrary.Core.Log.LogItem.LogItem(System.Func<System.String>, Microsoft.Extensions.Logging.LogLevel, System.Exception, System.String)
+  fullName.vb: GRYLibrary.Core.Log.LogItem.LogItem(System.Func(Of System.String), Microsoft.Extensions.Logging.LogLevel, System.Exception, System.String)
+  nameWithType: LogItem.LogItem(Func<String>, LogLevel, Exception, String)
+  nameWithType.vb: LogItem.LogItem(Func(Of String), LogLevel, Exception, String)
+- uid: GRYLibrary.Core.Log.LogItem.#ctor(System.Func{System.String},Microsoft.Extensions.Logging.LogLevel,System.String)
+  name: LogItem(Func<String>, LogLevel, String)
+  href: api/GRYLibrary.Core.Log.LogItem.html#GRYLibrary_Core_Log_LogItem__ctor_System_Func_System_String__Microsoft_Extensions_Logging_LogLevel_System_String_
+  commentId: M:GRYLibrary.Core.Log.LogItem.#ctor(System.Func{System.String},Microsoft.Extensions.Logging.LogLevel,System.String)
+  name.vb: LogItem(Func(Of String), LogLevel, String)
+  fullName: GRYLibrary.Core.Log.LogItem.LogItem(System.Func<System.String>, Microsoft.Extensions.Logging.LogLevel, System.String)
+  fullName.vb: GRYLibrary.Core.Log.LogItem.LogItem(System.Func(Of System.String), Microsoft.Extensions.Logging.LogLevel, System.String)
+  nameWithType: LogItem.LogItem(Func<String>, LogLevel, String)
+  nameWithType.vb: LogItem.LogItem(Func(Of String), LogLevel, String)
+- uid: GRYLibrary.Core.Log.LogItem.#ctor(System.Func{System.String},System.DateTime,Microsoft.Extensions.Logging.LogLevel,System.Exception,System.String)
+  name: LogItem(Func<String>, DateTime, LogLevel, Exception, String)
+  href: api/GRYLibrary.Core.Log.LogItem.html#GRYLibrary_Core_Log_LogItem__ctor_System_Func_System_String__System_DateTime_Microsoft_Extensions_Logging_LogLevel_System_Exception_System_String_
+  commentId: M:GRYLibrary.Core.Log.LogItem.#ctor(System.Func{System.String},System.DateTime,Microsoft.Extensions.Logging.LogLevel,System.Exception,System.String)
+  name.vb: LogItem(Func(Of String), DateTime, LogLevel, Exception, String)
+  fullName: GRYLibrary.Core.Log.LogItem.LogItem(System.Func<System.String>, System.DateTime, Microsoft.Extensions.Logging.LogLevel, System.Exception, System.String)
+  fullName.vb: GRYLibrary.Core.Log.LogItem.LogItem(System.Func(Of System.String), System.DateTime, Microsoft.Extensions.Logging.LogLevel, System.Exception, System.String)
+  nameWithType: LogItem.LogItem(Func<String>, DateTime, LogLevel, Exception, String)
+  nameWithType.vb: LogItem.LogItem(Func(Of String), DateTime, LogLevel, Exception, String)
+- uid: GRYLibrary.Core.Log.LogItem.#ctor(System.Func{System.String},System.DateTime,Microsoft.Extensions.Logging.LogLevel,System.String)
+  name: LogItem(Func<String>, DateTime, LogLevel, String)
+  href: api/GRYLibrary.Core.Log.LogItem.html#GRYLibrary_Core_Log_LogItem__ctor_System_Func_System_String__System_DateTime_Microsoft_Extensions_Logging_LogLevel_System_String_
+  commentId: M:GRYLibrary.Core.Log.LogItem.#ctor(System.Func{System.String},System.DateTime,Microsoft.Extensions.Logging.LogLevel,System.String)
+  name.vb: LogItem(Func(Of String), DateTime, LogLevel, String)
+  fullName: GRYLibrary.Core.Log.LogItem.LogItem(System.Func<System.String>, System.DateTime, Microsoft.Extensions.Logging.LogLevel, System.String)
+  fullName.vb: GRYLibrary.Core.Log.LogItem.LogItem(System.Func(Of System.String), System.DateTime, Microsoft.Extensions.Logging.LogLevel, System.String)
+  nameWithType: LogItem.LogItem(Func<String>, DateTime, LogLevel, String)
+  nameWithType.vb: LogItem.LogItem(Func(Of String), DateTime, LogLevel, String)
+- uid: GRYLibrary.Core.Log.LogItem.#ctor(System.Func{System.String},System.DateTime,System.Exception,System.String)
+  name: LogItem(Func<String>, DateTime, Exception, String)
+  href: api/GRYLibrary.Core.Log.LogItem.html#GRYLibrary_Core_Log_LogItem__ctor_System_Func_System_String__System_DateTime_System_Exception_System_String_
+  commentId: M:GRYLibrary.Core.Log.LogItem.#ctor(System.Func{System.String},System.DateTime,System.Exception,System.String)
+  name.vb: LogItem(Func(Of String), DateTime, Exception, String)
+  fullName: GRYLibrary.Core.Log.LogItem.LogItem(System.Func<System.String>, System.DateTime, System.Exception, System.String)
+  fullName.vb: GRYLibrary.Core.Log.LogItem.LogItem(System.Func(Of System.String), System.DateTime, System.Exception, System.String)
+  nameWithType: LogItem.LogItem(Func<String>, DateTime, Exception, String)
+  nameWithType.vb: LogItem.LogItem(Func(Of String), DateTime, Exception, String)
+- uid: GRYLibrary.Core.Log.LogItem.#ctor(System.Func{System.String},System.DateTime,System.String)
+  name: LogItem(Func<String>, DateTime, String)
+  href: api/GRYLibrary.Core.Log.LogItem.html#GRYLibrary_Core_Log_LogItem__ctor_System_Func_System_String__System_DateTime_System_String_
+  commentId: M:GRYLibrary.Core.Log.LogItem.#ctor(System.Func{System.String},System.DateTime,System.String)
+  name.vb: LogItem(Func(Of String), DateTime, String)
+  fullName: GRYLibrary.Core.Log.LogItem.LogItem(System.Func<System.String>, System.DateTime, System.String)
+  fullName.vb: GRYLibrary.Core.Log.LogItem.LogItem(System.Func(Of System.String), System.DateTime, System.String)
+  nameWithType: LogItem.LogItem(Func<String>, DateTime, String)
+  nameWithType.vb: LogItem.LogItem(Func(Of String), DateTime, String)
+- uid: GRYLibrary.Core.Log.LogItem.#ctor(System.Func{System.String},System.Exception,System.String)
+  name: LogItem(Func<String>, Exception, String)
+  href: api/GRYLibrary.Core.Log.LogItem.html#GRYLibrary_Core_Log_LogItem__ctor_System_Func_System_String__System_Exception_System_String_
+  commentId: M:GRYLibrary.Core.Log.LogItem.#ctor(System.Func{System.String},System.Exception,System.String)
+  name.vb: LogItem(Func(Of String), Exception, String)
+  fullName: GRYLibrary.Core.Log.LogItem.LogItem(System.Func<System.String>, System.Exception, System.String)
+  fullName.vb: GRYLibrary.Core.Log.LogItem.LogItem(System.Func(Of System.String), System.Exception, System.String)
+  nameWithType: LogItem.LogItem(Func<String>, Exception, String)
+  nameWithType.vb: LogItem.LogItem(Func(Of String), Exception, String)
+- uid: GRYLibrary.Core.Log.LogItem.#ctor(System.Func{System.String},System.String)
+  name: LogItem(Func<String>, String)
+  href: api/GRYLibrary.Core.Log.LogItem.html#GRYLibrary_Core_Log_LogItem__ctor_System_Func_System_String__System_String_
+  commentId: M:GRYLibrary.Core.Log.LogItem.#ctor(System.Func{System.String},System.String)
+  name.vb: LogItem(Func(Of String), String)
+  fullName: GRYLibrary.Core.Log.LogItem.LogItem(System.Func<System.String>, System.String)
+  fullName.vb: GRYLibrary.Core.Log.LogItem.LogItem(System.Func(Of System.String), System.String)
+  nameWithType: LogItem.LogItem(Func<String>, String)
+  nameWithType.vb: LogItem.LogItem(Func(Of String), String)
 - uid: GRYLibrary.Core.Log.LogItem.#ctor(System.String,Microsoft.Extensions.Logging.LogLevel)
   name: LogItem(String, LogLevel)
   href: api/GRYLibrary.Core.Log.LogItem.html#GRYLibrary_Core_Log_LogItem__ctor_System_String_Microsoft_Extensions_Logging_LogLevel_
   commentId: M:GRYLibrary.Core.Log.LogItem.#ctor(System.String,Microsoft.Extensions.Logging.LogLevel)
   fullName: GRYLibrary.Core.Log.LogItem.LogItem(System.String, Microsoft.Extensions.Logging.LogLevel)
   nameWithType: LogItem.LogItem(String, LogLevel)
-- uid: GRYLibrary.Core.Log.LogItem.#ctor(System.String,Microsoft.Extensions.Logging.LogLevel,System.Exception)
-  name: LogItem(String, LogLevel, Exception)
-  href: api/GRYLibrary.Core.Log.LogItem.html#GRYLibrary_Core_Log_LogItem__ctor_System_String_Microsoft_Extensions_Logging_LogLevel_System_Exception_
-  commentId: M:GRYLibrary.Core.Log.LogItem.#ctor(System.String,Microsoft.Extensions.Logging.LogLevel,System.Exception)
-  fullName: GRYLibrary.Core.Log.LogItem.LogItem(System.String, Microsoft.Extensions.Logging.LogLevel, System.Exception)
-  nameWithType: LogItem.LogItem(String, LogLevel, Exception)
-- uid: GRYLibrary.Core.Log.LogItem.#ctor(System.String,System.DateTime)
-  name: LogItem(String, DateTime)
-  href: api/GRYLibrary.Core.Log.LogItem.html#GRYLibrary_Core_Log_LogItem__ctor_System_String_System_DateTime_
-  commentId: M:GRYLibrary.Core.Log.LogItem.#ctor(System.String,System.DateTime)
-  fullName: GRYLibrary.Core.Log.LogItem.LogItem(System.String, System.DateTime)
-  nameWithType: LogItem.LogItem(String, DateTime)
+- uid: GRYLibrary.Core.Log.LogItem.#ctor(System.String,Microsoft.Extensions.Logging.LogLevel,System.Exception,System.String)
+  name: LogItem(String, LogLevel, Exception, String)
+  href: api/GRYLibrary.Core.Log.LogItem.html#GRYLibrary_Core_Log_LogItem__ctor_System_String_Microsoft_Extensions_Logging_LogLevel_System_Exception_System_String_
+  commentId: M:GRYLibrary.Core.Log.LogItem.#ctor(System.String,Microsoft.Extensions.Logging.LogLevel,System.Exception,System.String)
+  fullName: GRYLibrary.Core.Log.LogItem.LogItem(System.String, Microsoft.Extensions.Logging.LogLevel, System.Exception, System.String)
+  nameWithType: LogItem.LogItem(String, LogLevel, Exception, String)
 - uid: GRYLibrary.Core.Log.LogItem.#ctor(System.String,System.DateTime,Microsoft.Extensions.Logging.LogLevel)
   name: LogItem(String, DateTime, LogLevel)
   href: api/GRYLibrary.Core.Log.LogItem.html#GRYLibrary_Core_Log_LogItem__ctor_System_String_System_DateTime_Microsoft_Extensions_Logging_LogLevel_
   commentId: M:GRYLibrary.Core.Log.LogItem.#ctor(System.String,System.DateTime,Microsoft.Extensions.Logging.LogLevel)
   fullName: GRYLibrary.Core.Log.LogItem.LogItem(System.String, System.DateTime, Microsoft.Extensions.Logging.LogLevel)
   nameWithType: LogItem.LogItem(String, DateTime, LogLevel)
-- uid: GRYLibrary.Core.Log.LogItem.#ctor(System.String,System.DateTime,Microsoft.Extensions.Logging.LogLevel,System.Exception)
-  name: LogItem(String, DateTime, LogLevel, Exception)
-  href: api/GRYLibrary.Core.Log.LogItem.html#GRYLibrary_Core_Log_LogItem__ctor_System_String_System_DateTime_Microsoft_Extensions_Logging_LogLevel_System_Exception_
-  commentId: M:GRYLibrary.Core.Log.LogItem.#ctor(System.String,System.DateTime,Microsoft.Extensions.Logging.LogLevel,System.Exception)
-  fullName: GRYLibrary.Core.Log.LogItem.LogItem(System.String, System.DateTime, Microsoft.Extensions.Logging.LogLevel, System.Exception)
-  nameWithType: LogItem.LogItem(String, DateTime, LogLevel, Exception)
-- uid: GRYLibrary.Core.Log.LogItem.#ctor(System.String,System.DateTime,System.Exception)
-  name: LogItem(String, DateTime, Exception)
-  href: api/GRYLibrary.Core.Log.LogItem.html#GRYLibrary_Core_Log_LogItem__ctor_System_String_System_DateTime_System_Exception_
-  commentId: M:GRYLibrary.Core.Log.LogItem.#ctor(System.String,System.DateTime,System.Exception)
-  fullName: GRYLibrary.Core.Log.LogItem.LogItem(System.String, System.DateTime, System.Exception)
-  nameWithType: LogItem.LogItem(String, DateTime, Exception)
-- uid: GRYLibrary.Core.Log.LogItem.#ctor(System.String,System.Exception)
-  name: LogItem(String, Exception)
-  href: api/GRYLibrary.Core.Log.LogItem.html#GRYLibrary_Core_Log_LogItem__ctor_System_String_System_Exception_
-  commentId: M:GRYLibrary.Core.Log.LogItem.#ctor(System.String,System.Exception)
-  fullName: GRYLibrary.Core.Log.LogItem.LogItem(System.String, System.Exception)
-  nameWithType: LogItem.LogItem(String, Exception)
+- uid: GRYLibrary.Core.Log.LogItem.#ctor(System.String,System.DateTime,Microsoft.Extensions.Logging.LogLevel,System.Exception,System.String)
+  name: LogItem(String, DateTime, LogLevel, Exception, String)
+  href: api/GRYLibrary.Core.Log.LogItem.html#GRYLibrary_Core_Log_LogItem__ctor_System_String_System_DateTime_Microsoft_Extensions_Logging_LogLevel_System_Exception_System_String_
+  commentId: M:GRYLibrary.Core.Log.LogItem.#ctor(System.String,System.DateTime,Microsoft.Extensions.Logging.LogLevel,System.Exception,System.String)
+  fullName: GRYLibrary.Core.Log.LogItem.LogItem(System.String, System.DateTime, Microsoft.Extensions.Logging.LogLevel, System.Exception, System.String)
+  nameWithType: LogItem.LogItem(String, DateTime, LogLevel, Exception, String)
+- uid: GRYLibrary.Core.Log.LogItem.#ctor(System.String,System.DateTime,System.Exception,System.String)
+  name: LogItem(String, DateTime, Exception, String)
+  href: api/GRYLibrary.Core.Log.LogItem.html#GRYLibrary_Core_Log_LogItem__ctor_System_String_System_DateTime_System_Exception_System_String_
+  commentId: M:GRYLibrary.Core.Log.LogItem.#ctor(System.String,System.DateTime,System.Exception,System.String)
+  fullName: GRYLibrary.Core.Log.LogItem.LogItem(System.String, System.DateTime, System.Exception, System.String)
+  nameWithType: LogItem.LogItem(String, DateTime, Exception, String)
+- uid: GRYLibrary.Core.Log.LogItem.#ctor(System.String,System.DateTime,System.String)
+  name: LogItem(String, DateTime, String)
+  href: api/GRYLibrary.Core.Log.LogItem.html#GRYLibrary_Core_Log_LogItem__ctor_System_String_System_DateTime_System_String_
+  commentId: M:GRYLibrary.Core.Log.LogItem.#ctor(System.String,System.DateTime,System.String)
+  fullName: GRYLibrary.Core.Log.LogItem.LogItem(System.String, System.DateTime, System.String)
+  nameWithType: LogItem.LogItem(String, DateTime, String)
+- uid: GRYLibrary.Core.Log.LogItem.#ctor(System.String,System.Exception,System.String)
+  name: LogItem(String, Exception, String)
+  href: api/GRYLibrary.Core.Log.LogItem.html#GRYLibrary_Core_Log_LogItem__ctor_System_String_System_Exception_System_String_
+  commentId: M:GRYLibrary.Core.Log.LogItem.#ctor(System.String,System.Exception,System.String)
+  fullName: GRYLibrary.Core.Log.LogItem.LogItem(System.String, System.Exception, System.String)
+  nameWithType: LogItem.LogItem(String, Exception, String)
+- uid: GRYLibrary.Core.Log.LogItem.#ctor(System.String,System.String)
+  name: LogItem(String, String)
+  href: api/GRYLibrary.Core.Log.LogItem.html#GRYLibrary_Core_Log_LogItem__ctor_System_String_System_String_
+  commentId: M:GRYLibrary.Core.Log.LogItem.#ctor(System.String,System.String)
+  fullName: GRYLibrary.Core.Log.LogItem.LogItem(System.String, System.String)
+  nameWithType: LogItem.LogItem(String, String)
 - uid: GRYLibrary.Core.Log.LogItem.#ctor*
   name: LogItem
   href: api/GRYLibrary.Core.Log.LogItem.html#GRYLibrary_Core_Log_LogItem__ctor_
@@ -6559,6 +6591,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Log.LogItem.LogLevel
   nameWithType: LogItem.LogLevel
+- uid: GRYLibrary.Core.Log.LogItem.MessageId
+  name: MessageId
+  href: api/GRYLibrary.Core.Log.LogItem.html#GRYLibrary_Core_Log_LogItem_MessageId
+  commentId: P:GRYLibrary.Core.Log.LogItem.MessageId
+  fullName: GRYLibrary.Core.Log.LogItem.MessageId
+  nameWithType: LogItem.MessageId
+- uid: GRYLibrary.Core.Log.LogItem.MessageId*
+  name: MessageId
+  href: api/GRYLibrary.Core.Log.LogItem.html#GRYLibrary_Core_Log_LogItem_MessageId_
+  commentId: Overload:GRYLibrary.Core.Log.LogItem.MessageId
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.LogItem.MessageId
+  nameWithType: LogItem.MessageId
 - uid: GRYLibrary.Core.Log.LogItem.MomentOfLogEntry
   name: MomentOfLogEntry
   href: api/GRYLibrary.Core.Log.LogItem.html#GRYLibrary_Core_Log_LogItem_MomentOfLogEntry
@@ -10735,6 +10780,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GetGitRemotes
   nameWithType: Utilities.GetGitRemotes
+- uid: GRYLibrary.Core.Utilities.GetGitSubmodulePaths(System.String,System.Boolean)
+  name: GetGitSubmodulePaths(String, Boolean)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetGitSubmodulePaths_System_String_System_Boolean_
+  commentId: M:GRYLibrary.Core.Utilities.GetGitSubmodulePaths(System.String,System.Boolean)
+  fullName: GRYLibrary.Core.Utilities.GetGitSubmodulePaths(System.String, System.Boolean)
+  nameWithType: Utilities.GetGitSubmodulePaths(String, Boolean)
+- uid: GRYLibrary.Core.Utilities.GetGitSubmodulePaths*
+  name: GetGitSubmodulePaths
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetGitSubmodulePaths_
+  commentId: Overload:GRYLibrary.Core.Utilities.GetGitSubmodulePaths
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.GetGitSubmodulePaths
+  nameWithType: Utilities.GetGitSubmodulePaths
 - uid: GRYLibrary.Core.Utilities.GetHexValue(System.Char)
   name: GetHexValue(Char)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetHexValue_System_Char_
@@ -10826,19 +10884,6 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GetPropertiesWhichHaveGetterAndSetter
   nameWithType: Utilities.GetPropertiesWhichHaveGetterAndSetter
-- uid: GRYLibrary.Core.Utilities.GetSubmodulePaths(System.String,System.Boolean)
-  name: GetSubmodulePaths(String, Boolean)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetSubmodulePaths_System_String_System_Boolean_
-  commentId: M:GRYLibrary.Core.Utilities.GetSubmodulePaths(System.String,System.Boolean)
-  fullName: GRYLibrary.Core.Utilities.GetSubmodulePaths(System.String, System.Boolean)
-  nameWithType: Utilities.GetSubmodulePaths(String, Boolean)
-- uid: GRYLibrary.Core.Utilities.GetSubmodulePaths*
-  name: GetSubmodulePaths
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetSubmodulePaths_
-  commentId: Overload:GRYLibrary.Core.Utilities.GetSubmodulePaths
-  isSpec: "True"
-  fullName: GRYLibrary.Core.Utilities.GetSubmodulePaths
-  nameWithType: Utilities.GetSubmodulePaths
 - uid: GRYLibrary.Core.Utilities.GetTimeFromInternet(System.TimeZoneInfo)
   name: GetTimeFromInternet(TimeZoneInfo)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetTimeFromInternet_System_TimeZoneInfo_
@@ -10965,6 +11010,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GitFetch
   nameWithType: Utilities.GitFetch
+- uid: GRYLibrary.Core.Utilities.GitRemoteIsAvailable(System.String,System.String)
+  name: GitRemoteIsAvailable(String, String)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitRemoteIsAvailable_System_String_System_String_
+  commentId: M:GRYLibrary.Core.Utilities.GitRemoteIsAvailable(System.String,System.String)
+  fullName: GRYLibrary.Core.Utilities.GitRemoteIsAvailable(System.String, System.String)
+  nameWithType: Utilities.GitRemoteIsAvailable(String, String)
+- uid: GRYLibrary.Core.Utilities.GitRemoteIsAvailable*
+  name: GitRemoteIsAvailable
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitRemoteIsAvailable_
+  commentId: Overload:GRYLibrary.Core.Utilities.GitRemoteIsAvailable
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.GitRemoteIsAvailable
+  nameWithType: Utilities.GitRemoteIsAvailable
 - uid: GRYLibrary.Core.Utilities.GitRepositoryContainsFiles(System.String,System.Collections.Generic.ISet{System.String}@,System.Collections.Generic.IEnumerable{System.Tuple{System.String,System.Collections.Generic.ISet{System.String}}})
   name: GitRepositoryContainsFiles(String, out ISet<String>, IEnumerable<Tuple<String, ISet<String>>>)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitRepositoryContainsFiles_System_String_System_Collections_Generic_ISet_System_String___System_Collections_Generic_IEnumerable_System_Tuple_System_String_System_Collections_Generic_ISet_System_String____
