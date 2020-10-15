@@ -10884,6 +10884,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GetPropertiesWhichHaveGetterAndSetter
   nameWithType: Utilities.GetPropertiesWhichHaveGetterAndSetter
+- uid: GRYLibrary.Core.Utilities.GetRandomByteArray(System.Int64)
+  name: GetRandomByteArray(Int64)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetRandomByteArray_System_Int64_
+  commentId: M:GRYLibrary.Core.Utilities.GetRandomByteArray(System.Int64)
+  fullName: GRYLibrary.Core.Utilities.GetRandomByteArray(System.Int64)
+  nameWithType: Utilities.GetRandomByteArray(Int64)
+- uid: GRYLibrary.Core.Utilities.GetRandomByteArray*
+  name: GetRandomByteArray
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetRandomByteArray_
+  commentId: Overload:GRYLibrary.Core.Utilities.GetRandomByteArray
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.GetRandomByteArray
+  nameWithType: Utilities.GetRandomByteArray
 - uid: GRYLibrary.Core.Utilities.GetTimeFromInternet(System.TimeZoneInfo)
   name: GetTimeFromInternet(TimeZoneInfo)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetTimeFromInternet_System_TimeZoneInfo_
