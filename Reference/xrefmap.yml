@@ -2650,6 +2650,18 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.ExternalProgramExecutor.ExecutionDuration
   nameWithType: ExternalProgramExecutor.ExecutionDuration
+- uid: GRYLibrary.Core.ExternalProgramExecutor.ExecutionFinishedEvent
+  name: ExecutionFinishedEvent
+  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_ExecutionFinishedEvent
+  commentId: E:GRYLibrary.Core.ExternalProgramExecutor.ExecutionFinishedEvent
+  fullName: GRYLibrary.Core.ExternalProgramExecutor.ExecutionFinishedEvent
+  nameWithType: ExternalProgramExecutor.ExecutionFinishedEvent
+- uid: GRYLibrary.Core.ExternalProgramExecutor.ExecutionFinishedHandler
+  name: ExternalProgramExecutor.ExecutionFinishedHandler
+  href: api/GRYLibrary.Core.ExternalProgramExecutor.ExecutionFinishedHandler.html
+  commentId: T:GRYLibrary.Core.ExternalProgramExecutor.ExecutionFinishedHandler
+  fullName: GRYLibrary.Core.ExternalProgramExecutor.ExecutionFinishedHandler
+  nameWithType: ExternalProgramExecutor.ExecutionFinishedHandler
 - uid: GRYLibrary.Core.ExternalProgramExecutor.ExecutionState
   name: ExecutionState
   href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_ExecutionState
@@ -2767,19 +2779,6 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.ExternalProgramExecutor.ProgramPathAndFile
   nameWithType: ExternalProgramExecutor.ProgramPathAndFile
-- uid: GRYLibrary.Core.ExternalProgramExecutor.RunAsAdministrator
-  name: RunAsAdministrator
-  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_RunAsAdministrator
-  commentId: P:GRYLibrary.Core.ExternalProgramExecutor.RunAsAdministrator
-  fullName: GRYLibrary.Core.ExternalProgramExecutor.RunAsAdministrator
-  nameWithType: ExternalProgramExecutor.RunAsAdministrator
-- uid: GRYLibrary.Core.ExternalProgramExecutor.RunAsAdministrator*
-  name: RunAsAdministrator
-  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_RunAsAdministrator_
-  commentId: Overload:GRYLibrary.Core.ExternalProgramExecutor.RunAsAdministrator
-  isSpec: "True"
-  fullName: GRYLibrary.Core.ExternalProgramExecutor.RunAsAdministrator
-  nameWithType: ExternalProgramExecutor.RunAsAdministrator
 - uid: GRYLibrary.Core.ExternalProgramExecutor.Running
   name: Running()
   href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_Running
@@ -2793,19 +2792,32 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.ExternalProgramExecutor.Running
   nameWithType: ExternalProgramExecutor.Running
-- uid: GRYLibrary.Core.ExternalProgramExecutor.StartConsoleApplicationInCurrentConsoleWindow
-  name: StartConsoleApplicationInCurrentConsoleWindow()
-  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_StartConsoleApplicationInCurrentConsoleWindow
-  commentId: M:GRYLibrary.Core.ExternalProgramExecutor.StartConsoleApplicationInCurrentConsoleWindow
-  fullName: GRYLibrary.Core.ExternalProgramExecutor.StartConsoleApplicationInCurrentConsoleWindow()
-  nameWithType: ExternalProgramExecutor.StartConsoleApplicationInCurrentConsoleWindow()
-- uid: GRYLibrary.Core.ExternalProgramExecutor.StartConsoleApplicationInCurrentConsoleWindow*
-  name: StartConsoleApplicationInCurrentConsoleWindow
-  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_StartConsoleApplicationInCurrentConsoleWindow_
-  commentId: Overload:GRYLibrary.Core.ExternalProgramExecutor.StartConsoleApplicationInCurrentConsoleWindow
+- uid: GRYLibrary.Core.ExternalProgramExecutor.RunSynchronously
+  name: RunSynchronously
+  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_RunSynchronously
+  commentId: P:GRYLibrary.Core.ExternalProgramExecutor.RunSynchronously
+  fullName: GRYLibrary.Core.ExternalProgramExecutor.RunSynchronously
+  nameWithType: ExternalProgramExecutor.RunSynchronously
+- uid: GRYLibrary.Core.ExternalProgramExecutor.RunSynchronously*
+  name: RunSynchronously
+  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_RunSynchronously_
+  commentId: Overload:GRYLibrary.Core.ExternalProgramExecutor.RunSynchronously
   isSpec: "True"
-  fullName: GRYLibrary.Core.ExternalProgramExecutor.StartConsoleApplicationInCurrentConsoleWindow
-  nameWithType: ExternalProgramExecutor.StartConsoleApplicationInCurrentConsoleWindow
+  fullName: GRYLibrary.Core.ExternalProgramExecutor.RunSynchronously
+  nameWithType: ExternalProgramExecutor.RunSynchronously
+- uid: GRYLibrary.Core.ExternalProgramExecutor.Start
+  name: Start()
+  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_Start
+  commentId: M:GRYLibrary.Core.ExternalProgramExecutor.Start
+  fullName: GRYLibrary.Core.ExternalProgramExecutor.Start()
+  nameWithType: ExternalProgramExecutor.Start()
+- uid: GRYLibrary.Core.ExternalProgramExecutor.Start*
+  name: Start
+  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_Start_
+  commentId: Overload:GRYLibrary.Core.ExternalProgramExecutor.Start
+  isSpec: "True"
+  fullName: GRYLibrary.Core.ExternalProgramExecutor.Start
+  nameWithType: ExternalProgramExecutor.Start
 - uid: GRYLibrary.Core.ExternalProgramExecutor.ThrowErrorIfExitCodeIsNotZero
   name: ThrowErrorIfExitCodeIsNotZero
   href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_ThrowErrorIfExitCodeIsNotZero
@@ -5033,6 +5045,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Log.ConcreteLogTargets.Console.Console
   nameWithType: Console.Console
+- uid: GRYLibrary.Core.Log.ConcreteLogTargets.Console.Dispose
+  name: Dispose()
+  href: api/GRYLibrary.Core.Log.ConcreteLogTargets.Console.html#GRYLibrary_Core_Log_ConcreteLogTargets_Console_Dispose
+  commentId: M:GRYLibrary.Core.Log.ConcreteLogTargets.Console.Dispose
+  fullName: GRYLibrary.Core.Log.ConcreteLogTargets.Console.Dispose()
+  nameWithType: Console.Dispose()
+- uid: GRYLibrary.Core.Log.ConcreteLogTargets.Console.Dispose*
+  name: Dispose
+  href: api/GRYLibrary.Core.Log.ConcreteLogTargets.Console.html#GRYLibrary_Core_Log_ConcreteLogTargets_Console_Dispose_
+  commentId: Overload:GRYLibrary.Core.Log.ConcreteLogTargets.Console.Dispose
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.ConcreteLogTargets.Console.Dispose
+  nameWithType: Console.Dispose
 - uid: GRYLibrary.Core.Log.ConcreteLogTargets.Console.ExecuteImplementation(GRYLibrary.Core.Log.LogItem,GRYLibrary.Core.Log.GRYLog)
   name: ExecuteImplementation(LogItem, GRYLog)
   href: api/GRYLibrary.Core.Log.ConcreteLogTargets.Console.html#GRYLibrary_Core_Log_ConcreteLogTargets_Console_ExecuteImplementation_GRYLibrary_Core_Log_LogItem_GRYLibrary_Core_Log_GRYLog_
@@ -5078,6 +5103,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.LogFile
   nameWithType: LogFile.LogFile
+- uid: GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.Dispose
+  name: Dispose()
+  href: api/GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.html#GRYLibrary_Core_Log_ConcreteLogTargets_LogFile_Dispose
+  commentId: M:GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.Dispose
+  fullName: GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.Dispose()
+  nameWithType: LogFile.Dispose()
+- uid: GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.Dispose*
+  name: Dispose
+  href: api/GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.html#GRYLibrary_Core_Log_ConcreteLogTargets_LogFile_Dispose_
+  commentId: Overload:GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.Dispose
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.Dispose
+  nameWithType: LogFile.Dispose
 - uid: GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.Encoding
   name: Encoding
   href: api/GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.html#GRYLibrary_Core_Log_ConcreteLogTargets_LogFile_Encoding
@@ -5117,6 +5155,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.File
   nameWithType: LogFile.File
+- uid: GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.Flush
+  name: Flush()
+  href: api/GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.html#GRYLibrary_Core_Log_ConcreteLogTargets_LogFile_Flush
+  commentId: M:GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.Flush
+  fullName: GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.Flush()
+  nameWithType: LogFile.Flush()
+- uid: GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.Flush*
+  name: Flush
+  href: api/GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.html#GRYLibrary_Core_Log_ConcreteLogTargets_LogFile_Flush_
+  commentId: Overload:GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.Flush
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.Flush
+  nameWithType: LogFile.Flush
 - uid: GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.FurtherGetExtraTypesWhichAreRequiredForSerialization
   name: FurtherGetExtraTypesWhichAreRequiredForSerialization()
   href: api/GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.html#GRYLibrary_Core_Log_ConcreteLogTargets_LogFile_FurtherGetExtraTypesWhichAreRequiredForSerialization
@@ -5130,6 +5181,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.FurtherGetExtraTypesWhichAreRequiredForSerialization
   nameWithType: LogFile.FurtherGetExtraTypesWhichAreRequiredForSerialization
+- uid: GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.PreFlushPoolSize
+  name: PreFlushPoolSize
+  href: api/GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.html#GRYLibrary_Core_Log_ConcreteLogTargets_LogFile_PreFlushPoolSize
+  commentId: P:GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.PreFlushPoolSize
+  fullName: GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.PreFlushPoolSize
+  nameWithType: LogFile.PreFlushPoolSize
+- uid: GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.PreFlushPoolSize*
+  name: PreFlushPoolSize
+  href: api/GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.html#GRYLibrary_Core_Log_ConcreteLogTargets_LogFile_PreFlushPoolSize_
+  commentId: Overload:GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.PreFlushPoolSize
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.PreFlushPoolSize
+  nameWithType: LogFile.PreFlushPoolSize
 - uid: GRYLibrary.Core.Log.ConcreteLogTargets.Observer
   name: Observer
   href: api/GRYLibrary.Core.Log.ConcreteLogTargets.Observer.html
@@ -5149,6 +5213,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Log.ConcreteLogTargets.Observer.Observer
   nameWithType: Observer.Observer
+- uid: GRYLibrary.Core.Log.ConcreteLogTargets.Observer.Dispose
+  name: Dispose()
+  href: api/GRYLibrary.Core.Log.ConcreteLogTargets.Observer.html#GRYLibrary_Core_Log_ConcreteLogTargets_Observer_Dispose
+  commentId: M:GRYLibrary.Core.Log.ConcreteLogTargets.Observer.Dispose
+  fullName: GRYLibrary.Core.Log.ConcreteLogTargets.Observer.Dispose()
+  nameWithType: Observer.Dispose()
+- uid: GRYLibrary.Core.Log.ConcreteLogTargets.Observer.Dispose*
+  name: Dispose
+  href: api/GRYLibrary.Core.Log.ConcreteLogTargets.Observer.html#GRYLibrary_Core_Log_ConcreteLogTargets_Observer_Dispose_
+  commentId: Overload:GRYLibrary.Core.Log.ConcreteLogTargets.Observer.Dispose
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.ConcreteLogTargets.Observer.Dispose
+  nameWithType: Observer.Dispose
 - uid: GRYLibrary.Core.Log.ConcreteLogTargets.Observer.ExecuteImplementation(GRYLibrary.Core.Log.LogItem,GRYLibrary.Core.Log.GRYLog)
   name: ExecuteImplementation(LogItem, GRYLog)
   href: api/GRYLibrary.Core.Log.ConcreteLogTargets.Observer.html#GRYLibrary_Core_Log_ConcreteLogTargets_Observer_ExecuteImplementation_GRYLibrary_Core_Log_LogItem_GRYLibrary_Core_Log_GRYLog_
@@ -5181,6 +5258,19 @@ references:
   commentId: T:GRYLibrary.Core.Log.ConcreteLogTargets.Syslog
   fullName: GRYLibrary.Core.Log.ConcreteLogTargets.Syslog
   nameWithType: Syslog
+- uid: GRYLibrary.Core.Log.ConcreteLogTargets.Syslog.Dispose
+  name: Dispose()
+  href: api/GRYLibrary.Core.Log.ConcreteLogTargets.Syslog.html#GRYLibrary_Core_Log_ConcreteLogTargets_Syslog_Dispose
+  commentId: M:GRYLibrary.Core.Log.ConcreteLogTargets.Syslog.Dispose
+  fullName: GRYLibrary.Core.Log.ConcreteLogTargets.Syslog.Dispose()
+  nameWithType: Syslog.Dispose()
+- uid: GRYLibrary.Core.Log.ConcreteLogTargets.Syslog.Dispose*
+  name: Dispose
+  href: api/GRYLibrary.Core.Log.ConcreteLogTargets.Syslog.html#GRYLibrary_Core_Log_ConcreteLogTargets_Syslog_Dispose_
+  commentId: Overload:GRYLibrary.Core.Log.ConcreteLogTargets.Syslog.Dispose
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.ConcreteLogTargets.Syslog.Dispose
+  nameWithType: Syslog.Dispose
 - uid: GRYLibrary.Core.Log.ConcreteLogTargets.Syslog.ExecuteImplementation(GRYLibrary.Core.Log.LogItem,GRYLibrary.Core.Log.GRYLog)
   name: ExecuteImplementation(LogItem, GRYLog)
   href: api/GRYLibrary.Core.Log.ConcreteLogTargets.Syslog.html#GRYLibrary_Core_Log_ConcreteLogTargets_Syslog_ExecuteImplementation_GRYLibrary_Core_Log_LogItem_GRYLibrary_Core_Log_GRYLog_
@@ -5226,6 +5316,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Log.ConcreteLogTargets.WindowsEventLog.WindowsEventLog
   nameWithType: WindowsEventLog.WindowsEventLog
+- uid: GRYLibrary.Core.Log.ConcreteLogTargets.WindowsEventLog.Dispose
+  name: Dispose()
+  href: api/GRYLibrary.Core.Log.ConcreteLogTargets.WindowsEventLog.html#GRYLibrary_Core_Log_ConcreteLogTargets_WindowsEventLog_Dispose
+  commentId: M:GRYLibrary.Core.Log.ConcreteLogTargets.WindowsEventLog.Dispose
+  fullName: GRYLibrary.Core.Log.ConcreteLogTargets.WindowsEventLog.Dispose()
+  nameWithType: WindowsEventLog.Dispose()
+- uid: GRYLibrary.Core.Log.ConcreteLogTargets.WindowsEventLog.Dispose*
+  name: Dispose
+  href: api/GRYLibrary.Core.Log.ConcreteLogTargets.WindowsEventLog.html#GRYLibrary_Core_Log_ConcreteLogTargets_WindowsEventLog_Dispose_
+  commentId: Overload:GRYLibrary.Core.Log.ConcreteLogTargets.WindowsEventLog.Dispose
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.ConcreteLogTargets.WindowsEventLog.Dispose
+  nameWithType: WindowsEventLog.Dispose
 - uid: GRYLibrary.Core.Log.ConcreteLogTargets.WindowsEventLog.ExecuteImplementation(GRYLibrary.Core.Log.LogItem,GRYLibrary.Core.Log.GRYLog)
   name: ExecuteImplementation(LogItem, GRYLog)
   href: api/GRYLibrary.Core.Log.ConcreteLogTargets.WindowsEventLog.html#GRYLibrary_Core_Log_ConcreteLogTargets_WindowsEventLog_ExecuteImplementation_GRYLibrary_Core_Log_LogItem_GRYLibrary_Core_Log_GRYLog_
@@ -5660,6 +5763,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Log.GRYLogConfiguration.DateFormat
   nameWithType: GRYLogConfiguration.DateFormat
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.Dispose
+  name: Dispose()
+  href: api/GRYLibrary.Core.Log.GRYLogConfiguration.html#GRYLibrary_Core_Log_GRYLogConfiguration_Dispose
+  commentId: M:GRYLibrary.Core.Log.GRYLogConfiguration.Dispose
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.Dispose()
+  nameWithType: GRYLogConfiguration.Dispose()
+- uid: GRYLibrary.Core.Log.GRYLogConfiguration.Dispose*
+  name: Dispose
+  href: api/GRYLibrary.Core.Log.GRYLogConfiguration.html#GRYLibrary_Core_Log_GRYLogConfiguration_Dispose_
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogConfiguration.Dispose
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.GRYLogConfiguration.Dispose
+  nameWithType: GRYLogConfiguration.Dispose
 - uid: GRYLibrary.Core.Log.GRYLogConfiguration.Enabled
   name: Enabled
   href: api/GRYLibrary.Core.Log.GRYLogConfiguration.html#GRYLibrary_Core_Log_GRYLogConfiguration_Enabled
@@ -6101,6 +6217,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Log.GRYLogTarget.GRYLogTarget
   nameWithType: GRYLogTarget.GRYLogTarget
+- uid: GRYLibrary.Core.Log.GRYLogTarget.Dispose
+  name: Dispose()
+  href: api/GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_Dispose
+  commentId: M:GRYLibrary.Core.Log.GRYLogTarget.Dispose
+  fullName: GRYLibrary.Core.Log.GRYLogTarget.Dispose()
+  nameWithType: GRYLogTarget.Dispose()
+- uid: GRYLibrary.Core.Log.GRYLogTarget.Dispose*
+  name: Dispose
+  href: api/GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_Dispose_
+  commentId: Overload:GRYLibrary.Core.Log.GRYLogTarget.Dispose
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.GRYLogTarget.Dispose
+  nameWithType: GRYLogTarget.Dispose
 - uid: GRYLibrary.Core.Log.GRYLogTarget.Enabled
   name: Enabled
   href: api/GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_Enabled

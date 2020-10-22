@@ -85,6 +85,7 @@
     <h5>Implements</h5>
     <div><a class="xref" href="GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.IGRYSerializable.html">IGRYSerializable</a></div>
     <div><span class="xref">System.Xml.Serialization.IXmlSerializable</span></div>
+    <div><span class="xref">System.IDisposable</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -138,10 +139,22 @@
   <h6><strong>Assembly</strong>: GRYLibrary.dll</h6>
   <h5 id="GRYLibrary_Core_Log_ConcreteLogTargets_Syslog_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Syslog : GRYLogTarget, IGRYSerializable, IXmlSerializable</code></pre>
+    <pre><code class="lang-csharp hljs">public class Syslog : GRYLogTarget, IGRYSerializable, IXmlSerializable, IDisposable</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
+  
+  
+  <a id="GRYLibrary_Core_Log_ConcreteLogTargets_Syslog_Dispose_" data-uid="GRYLibrary.Core.Log.ConcreteLogTargets.Syslog.Dispose*"></a>
+  <h4 id="GRYLibrary_Core_Log_ConcreteLogTargets_Syslog_Dispose" data-uid="GRYLibrary.Core.Log.ConcreteLogTargets.Syslog.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Dispose()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_Dispose">GRYLogTarget.Dispose()</a></div>
   
   
   <a id="GRYLibrary_Core_Log_ConcreteLogTargets_Syslog_ExecuteImplementation_" data-uid="GRYLibrary.Core.Log.ConcreteLogTargets.Syslog.ExecuteImplementation*"></a>
@@ -209,6 +222,9 @@
   </div>
   <div>
       <span class="xref">System.Xml.Serialization.IXmlSerializable</span>
+  </div>
+  <div>
+      <span class="xref">System.IDisposable</span>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>

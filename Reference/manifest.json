@@ -665,11 +665,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.ExternalProgramExecutor.ExecutionFinishedHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GRYLibrary.Core.ExternalProgramExecutor.ExecutionFinishedHandler.html",
+          "hash": "3sMVyxRJG2NsqsyHdU+LsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.ExternalProgramExecutor.yml",
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.ExternalProgramExecutor.html",
-          "hash": "x0x/wxUk405arko3p+Hgbw=="
+          "hash": "RHF3eBiLuF/kP6HM5gKlKw=="
         }
       },
       "is_incremental": false,
@@ -957,7 +969,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.Log.ConcreteLogTargets.Console.html",
-          "hash": "DMTJ6rDGSMZg4oUnMuo4hA=="
+          "hash": "XL1xOZ26Qu+kVBPBKUBYaw=="
         }
       },
       "is_incremental": false,
@@ -969,7 +981,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.html",
-          "hash": "sf799RK1w/ixSvlwUVcOtA=="
+          "hash": "8O/8uvzRKR1sh9+ef2c6Kw=="
         }
       },
       "is_incremental": false,
@@ -981,7 +993,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.Log.ConcreteLogTargets.Observer.html",
-          "hash": "oLgdnw4tQzaZOGpjgR0eCg=="
+          "hash": "xBuyApLwL+lAEJfv6wzPlA=="
         }
       },
       "is_incremental": false,
@@ -993,7 +1005,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.Log.ConcreteLogTargets.Syslog.html",
-          "hash": "YYOTr2v68gmm7FnSsnSfpA=="
+          "hash": "hwmtZ8zLMJWkGcciUoAp8Q=="
         }
       },
       "is_incremental": false,
@@ -1005,7 +1017,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.Log.ConcreteLogTargets.WindowsEventLog.html",
-          "hash": "fhGGCoPqM6Xasz39H9DfAQ=="
+          "hash": "QPUHTG6iUslqSpsoX2pSOg=="
         }
       },
       "is_incremental": false,
@@ -1065,7 +1077,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.Log.GRYLogConfiguration.html",
-          "hash": "KqGMCJyv7lUG52Obmzg1Kw=="
+          "hash": "LDlqHlc9DFbpCfT/eLZcFg=="
         }
       },
       "is_incremental": false,
@@ -1101,7 +1113,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.Log.GRYLogTarget.html",
-          "hash": "34Yzo3wFSxsv6XmaSU7q7g=="
+          "hash": "1SM1yqHy9szduFBo6xrIcw=="
         }
       },
       "is_incremental": false,
@@ -1761,7 +1773,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.html",
-          "hash": "CRqTz17485TBFmW84VyVkw=="
+          "hash": "uM17ZQ0falP10W3+9YsIVQ=="
         }
       },
       "is_incremental": false,
@@ -1785,7 +1797,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "ESk0U9GtdxNEHiRp+5UHZQ=="
+          "hash": "sXMBf7eb0zXANtZSj37K8g=="
         }
       },
       "is_incremental": false,
@@ -1919,7 +1931,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 147,
+          "total_file_count": 148,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

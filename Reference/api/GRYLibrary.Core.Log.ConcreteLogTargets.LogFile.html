@@ -85,6 +85,7 @@
     <h5>Implements</h5>
     <div><a class="xref" href="GRYLibrary.Core.AdvancedObjectAnalysis.GenericXMLSerializerHelper.IGRYSerializable.html">IGRYSerializable</a></div>
     <div><span class="xref">System.Xml.Serialization.IXmlSerializable</span></div>
+    <div><span class="xref">System.IDisposable</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -138,7 +139,7 @@
   <h6><strong>Assembly</strong>: GRYLibrary.dll</h6>
   <h5 id="GRYLibrary_Core_Log_ConcreteLogTargets_LogFile_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class LogFile : GRYLogTarget, IGRYSerializable, IXmlSerializable</code></pre>
+    <pre><code class="lang-csharp hljs">public class LogFile : GRYLogTarget, IGRYSerializable, IXmlSerializable, IDisposable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -204,8 +205,45 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="GRYLibrary_Core_Log_ConcreteLogTargets_LogFile_PreFlushPoolSize_" data-uid="GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.PreFlushPoolSize*"></a>
+  <h4 id="GRYLibrary_Core_Log_ConcreteLogTargets_LogFile_PreFlushPoolSize" data-uid="GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.PreFlushPoolSize">PreFlushPoolSize</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int PreFlushPoolSize { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
+  
+  
+  <a id="GRYLibrary_Core_Log_ConcreteLogTargets_LogFile_Dispose_" data-uid="GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.Dispose*"></a>
+  <h4 id="GRYLibrary_Core_Log_ConcreteLogTargets_LogFile_Dispose" data-uid="GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Dispose()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_Dispose">GRYLogTarget.Dispose()</a></div>
   
   
   <a id="GRYLibrary_Core_Log_ConcreteLogTargets_LogFile_ExecuteImplementation_" data-uid="GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.ExecuteImplementation*"></a>
@@ -242,6 +280,16 @@
   <div><a class="xref" href="GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_ExecuteImplementation_GRYLibrary_Core_Log_LogItem_GRYLibrary_Core_Log_GRYLog_">GRYLogTarget.ExecuteImplementation(LogItem, GRYLog)</a></div>
   
   
+  <a id="GRYLibrary_Core_Log_ConcreteLogTargets_LogFile_Flush_" data-uid="GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.Flush*"></a>
+  <h4 id="GRYLibrary_Core_Log_ConcreteLogTargets_LogFile_Flush" data-uid="GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.Flush">Flush()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Flush()</code></pre>
+  </div>
+  
+  
   <a id="GRYLibrary_Core_Log_ConcreteLogTargets_LogFile_FurtherGetExtraTypesWhichAreRequiredForSerialization_" data-uid="GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.FurtherGetExtraTypesWhichAreRequiredForSerialization*"></a>
   <h4 id="GRYLibrary_Core_Log_ConcreteLogTargets_LogFile_FurtherGetExtraTypesWhichAreRequiredForSerialization" data-uid="GRYLibrary.Core.Log.ConcreteLogTargets.LogFile.FurtherGetExtraTypesWhichAreRequiredForSerialization">FurtherGetExtraTypesWhichAreRequiredForSerialization()</h4>
   <div class="markdown level1 summary"></div>
@@ -273,6 +321,9 @@
   </div>
   <div>
       <span class="xref">System.Xml.Serialization.IXmlSerializable</span>
+  </div>
+  <div>
+      <span class="xref">System.IDisposable</span>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>

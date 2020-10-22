@@ -503,13 +503,13 @@
   </table>
   
   
-  <a id="GRYLibrary_Core_ExternalProgramExecutor_RunAsAdministrator_" data-uid="GRYLibrary.Core.ExternalProgramExecutor.RunAsAdministrator*"></a>
-  <h4 id="GRYLibrary_Core_ExternalProgramExecutor_RunAsAdministrator" data-uid="GRYLibrary.Core.ExternalProgramExecutor.RunAsAdministrator">RunAsAdministrator</h4>
+  <a id="GRYLibrary_Core_ExternalProgramExecutor_RunSynchronously_" data-uid="GRYLibrary.Core.ExternalProgramExecutor.RunSynchronously*"></a>
+  <h4 id="GRYLibrary_Core_ExternalProgramExecutor_RunSynchronously" data-uid="GRYLibrary.Core.ExternalProgramExecutor.RunSynchronously">RunSynchronously</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool RunAsAdministrator { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool RunSynchronously { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -551,6 +551,9 @@
       </tr>
     </tbody>
   </table>
+  <h5 id="GRYLibrary_Core_ExternalProgramExecutor_ThrowErrorIfExitCodeIsNotZero_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This property will be ignored if <a class="xref" href="GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_RunSynchronously">RunSynchronously</a>==false.</p>
+</div>
   
   
   <a id="GRYLibrary_Core_ExternalProgramExecutor_TimeoutInMilliseconds_" data-uid="GRYLibrary.Core.ExternalProgramExecutor.TimeoutInMilliseconds*"></a>
@@ -911,14 +914,14 @@
   </table>
   
   
-  <a id="GRYLibrary_Core_ExternalProgramExecutor_StartConsoleApplicationInCurrentConsoleWindow_" data-uid="GRYLibrary.Core.ExternalProgramExecutor.StartConsoleApplicationInCurrentConsoleWindow*"></a>
-  <h4 id="GRYLibrary_Core_ExternalProgramExecutor_StartConsoleApplicationInCurrentConsoleWindow" data-uid="GRYLibrary.Core.ExternalProgramExecutor.StartConsoleApplicationInCurrentConsoleWindow">StartConsoleApplicationInCurrentConsoleWindow()</h4>
+  <a id="GRYLibrary_Core_ExternalProgramExecutor_Start_" data-uid="GRYLibrary.Core.ExternalProgramExecutor.Start*"></a>
+  <h4 id="GRYLibrary_Core_ExternalProgramExecutor_Start" data-uid="GRYLibrary.Core.ExternalProgramExecutor.Start">Start()</h4>
   <div class="markdown level1 summary"><p>Starts the program which was set in the properties.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int StartConsoleApplicationInCurrentConsoleWindow()</code></pre>
+    <pre><code class="lang-csharp hljs">public int Start()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -931,7 +934,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><p>Returns the exit-code of the executed program.</p>
+        <td><p>If <a class="xref" href="GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_RunSynchronously">RunSynchronously</a>==true then the exit-code of the executed program will be returned.
+If <a class="xref" href="GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_RunSynchronously">RunSynchronously</a>==false then the process-id of the executed program will be returned.</p>
 </td>
       </tr>
     </tbody>
@@ -952,7 +956,7 @@
       </tr>
       <tr>
         <td><span class="xref">System.InvalidOperationException</span></td>
-        <td><p>Will be thrown if <a class="xref" href="GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_StartConsoleApplicationInCurrentConsoleWindow">StartConsoleApplicationInCurrentConsoleWindow()</a> was already called.</p>
+        <td><p>Will be thrown if <a class="xref" href="GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_Start">Start()</a> was already called.</p>
 </td>
       </tr>
       <tr>
@@ -964,6 +968,32 @@
         <td><a class="xref" href="GRYLibrary.Core.Exceptions.ProcessStartException.html">ProcessStartException</a></td>
         <td><p>Will be thrown if the process could not be started.</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="GRYLibrary_Core_ExternalProgramExecutor_ExecutionFinishedEvent" data-uid="GRYLibrary.Core.ExternalProgramExecutor.ExecutionFinishedEvent">ExecutionFinishedEvent</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event ExternalProgramExecutor.ExecutionFinishedHandler ExecutionFinishedEvent</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GRYLibrary.Core.ExternalProgramExecutor.ExecutionFinishedHandler.html">ExternalProgramExecutor.ExecutionFinishedHandler</a></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
