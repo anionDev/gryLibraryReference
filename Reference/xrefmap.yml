@@ -6204,19 +6204,6 @@ references:
   commentId: T:GRYLibrary.Core.Log.GRYLogTarget
   fullName: GRYLibrary.Core.Log.GRYLogTarget
   nameWithType: GRYLogTarget
-- uid: GRYLibrary.Core.Log.GRYLogTarget.#ctor
-  name: GRYLogTarget()
-  href: api/GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget__ctor
-  commentId: M:GRYLibrary.Core.Log.GRYLogTarget.#ctor
-  fullName: GRYLibrary.Core.Log.GRYLogTarget.GRYLogTarget()
-  nameWithType: GRYLogTarget.GRYLogTarget()
-- uid: GRYLibrary.Core.Log.GRYLogTarget.#ctor*
-  name: GRYLogTarget
-  href: api/GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget__ctor_
-  commentId: Overload:GRYLibrary.Core.Log.GRYLogTarget.#ctor
-  isSpec: "True"
-  fullName: GRYLibrary.Core.Log.GRYLogTarget.GRYLogTarget
-  nameWithType: GRYLogTarget.GRYLogTarget
 - uid: GRYLibrary.Core.Log.GRYLogTarget.Dispose
   name: Dispose()
   href: api/GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_Dispose
@@ -6334,19 +6321,6 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Log.GRYLogTarget.GetSchema
   nameWithType: GRYLogTarget.GetSchema
-- uid: GRYLibrary.Core.Log.GRYLogTarget.Initialize
-  name: Initialize()
-  href: api/GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_Initialize
-  commentId: M:GRYLibrary.Core.Log.GRYLogTarget.Initialize
-  fullName: GRYLibrary.Core.Log.GRYLogTarget.Initialize()
-  nameWithType: GRYLogTarget.Initialize()
-- uid: GRYLibrary.Core.Log.GRYLogTarget.Initialize*
-  name: Initialize
-  href: api/GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_Initialize_
-  commentId: Overload:GRYLibrary.Core.Log.GRYLogTarget.Initialize
-  isSpec: "True"
-  fullName: GRYLibrary.Core.Log.GRYLogTarget.Initialize
-  nameWithType: GRYLogTarget.Initialize
 - uid: GRYLibrary.Core.Log.GRYLogTarget.LogLevels
   name: LogLevels
   href: api/GRYLibrary.Core.Log.GRYLogTarget.html#GRYLibrary_Core_Log_GRYLogTarget_LogLevels

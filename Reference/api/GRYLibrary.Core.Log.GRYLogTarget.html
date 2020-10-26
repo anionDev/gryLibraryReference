@@ -112,18 +112,6 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract class GRYLogTarget : IGRYSerializable, IXmlSerializable, IDisposable</code></pre>
   </div>
-  <h3 id="constructors">Constructors
-  </h3>
-  
-  
-  <a id="GRYLibrary_Core_Log_GRYLogTarget__ctor_" data-uid="GRYLibrary.Core.Log.GRYLogTarget.#ctor*"></a>
-  <h4 id="GRYLibrary_Core_Log_GRYLogTarget__ctor" data-uid="GRYLibrary.Core.Log.GRYLogTarget.#ctor">GRYLogTarget()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GRYLogTarget()</code></pre>
-  </div>
   <h3 id="properties">Properties
   </h3>
   
@@ -184,7 +172,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public HashSet&lt;LogLevel&gt; LogLevels { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ISet&lt;LogLevel&gt; LogLevels { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -196,7 +184,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.HashSet</span>&lt;<span class="xref">Microsoft.Extensions.Logging.LogLevel</span>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.ISet</span>&lt;<span class="xref">Microsoft.Extensions.Logging.LogLevel</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -391,16 +379,6 @@
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="GRYLibrary_Core_Log_GRYLogTarget_Initialize_" data-uid="GRYLibrary.Core.Log.GRYLogTarget.Initialize*"></a>
-  <h4 id="GRYLibrary_Core_Log_GRYLogTarget_Initialize" data-uid="GRYLibrary.Core.Log.GRYLogTarget.Initialize">Initialize()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Initialize()</code></pre>
-  </div>
   
   
   <a id="GRYLibrary_Core_Log_GRYLogTarget_ReadXml_" data-uid="GRYLibrary.Core.Log.GRYLogTarget.ReadXml*"></a>
