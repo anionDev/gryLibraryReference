@@ -2867,6 +2867,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.ExternalProgramExecutor.Title
   nameWithType: ExternalProgramExecutor.Title
+- uid: GRYLibrary.Core.ExternalProgramExecutor.WaitUntilTerminated
+  name: WaitUntilTerminated()
+  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_WaitUntilTerminated
+  commentId: M:GRYLibrary.Core.ExternalProgramExecutor.WaitUntilTerminated
+  fullName: GRYLibrary.Core.ExternalProgramExecutor.WaitUntilTerminated()
+  nameWithType: ExternalProgramExecutor.WaitUntilTerminated()
+- uid: GRYLibrary.Core.ExternalProgramExecutor.WaitUntilTerminated*
+  name: WaitUntilTerminated
+  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_WaitUntilTerminated_
+  commentId: Overload:GRYLibrary.Core.ExternalProgramExecutor.WaitUntilTerminated
+  isSpec: "True"
+  fullName: GRYLibrary.Core.ExternalProgramExecutor.WaitUntilTerminated
+  nameWithType: ExternalProgramExecutor.WaitUntilTerminated
 - uid: GRYLibrary.Core.ExternalProgramExecutor.WorkingDirectory
   name: WorkingDirectory
   href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_WorkingDirectory
@@ -12738,6 +12751,22 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ValidateXMLAgainstXSD
   nameWithType: Utilities.ValidateXMLAgainstXSD
+- uid: GRYLibrary.Core.Utilities.WaitUntilConditionIsTrue(System.Func{System.Boolean})
+  name: WaitUntilConditionIsTrue(Func<Boolean>)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_WaitUntilConditionIsTrue_System_Func_System_Boolean__
+  commentId: M:GRYLibrary.Core.Utilities.WaitUntilConditionIsTrue(System.Func{System.Boolean})
+  name.vb: WaitUntilConditionIsTrue(Func(Of Boolean))
+  fullName: GRYLibrary.Core.Utilities.WaitUntilConditionIsTrue(System.Func<System.Boolean>)
+  fullName.vb: GRYLibrary.Core.Utilities.WaitUntilConditionIsTrue(System.Func(Of System.Boolean))
+  nameWithType: Utilities.WaitUntilConditionIsTrue(Func<Boolean>)
+  nameWithType.vb: Utilities.WaitUntilConditionIsTrue(Func(Of Boolean))
+- uid: GRYLibrary.Core.Utilities.WaitUntilConditionIsTrue*
+  name: WaitUntilConditionIsTrue
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_WaitUntilConditionIsTrue_
+  commentId: Overload:GRYLibrary.Core.Utilities.WaitUntilConditionIsTrue
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.WaitUntilConditionIsTrue
+  nameWithType: Utilities.WaitUntilConditionIsTrue
 - uid: GRYLibrary.Core.Utilities.WriteToConsoleAsASCIITable(System.Collections.Generic.IList{System.Collections.Generic.IList{System.String}})
   name: WriteToConsoleAsASCIITable(IList<IList<String>>)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_WriteToConsoleAsASCIITable_System_Collections_Generic_IList_System_Collections_Generic_IList_System_String___
