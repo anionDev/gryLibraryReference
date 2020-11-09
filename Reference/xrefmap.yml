@@ -2537,6 +2537,25 @@ references:
   commentId: T:GRYLibrary.Core.ExternalProgramExecutor
   fullName: GRYLibrary.Core.ExternalProgramExecutor
   nameWithType: ExternalProgramExecutor
+- uid: GRYLibrary.Core.ExternalProgramExecutor.#ctor(System.String,System.String)
+  name: ExternalProgramExecutor(String, String)
+  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor__ctor_System_String_System_String_
+  commentId: M:GRYLibrary.Core.ExternalProgramExecutor.#ctor(System.String,System.String)
+  fullName: GRYLibrary.Core.ExternalProgramExecutor.ExternalProgramExecutor(System.String, System.String)
+  nameWithType: ExternalProgramExecutor.ExternalProgramExecutor(String, String)
+- uid: GRYLibrary.Core.ExternalProgramExecutor.#ctor(System.String,System.String,System.String)
+  name: ExternalProgramExecutor(String, String, String)
+  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor__ctor_System_String_System_String_System_String_
+  commentId: M:GRYLibrary.Core.ExternalProgramExecutor.#ctor(System.String,System.String,System.String)
+  fullName: GRYLibrary.Core.ExternalProgramExecutor.ExternalProgramExecutor(System.String, System.String, System.String)
+  nameWithType: ExternalProgramExecutor.ExternalProgramExecutor(String, String, String)
+- uid: GRYLibrary.Core.ExternalProgramExecutor.#ctor*
+  name: ExternalProgramExecutor
+  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor__ctor_
+  commentId: Overload:GRYLibrary.Core.ExternalProgramExecutor.#ctor
+  isSpec: "True"
+  fullName: GRYLibrary.Core.ExternalProgramExecutor.ExternalProgramExecutor
+  nameWithType: ExternalProgramExecutor.ExternalProgramExecutor
 - uid: GRYLibrary.Core.ExternalProgramExecutor.AllStdErrLines
   name: AllStdErrLines
   href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_AllStdErrLines
@@ -2576,54 +2595,6 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.ExternalProgramExecutor.Arguments
   nameWithType: ExternalProgramExecutor.Arguments
-- uid: GRYLibrary.Core.ExternalProgramExecutor.Create(System.String,System.String,System.String,System.String,System.Boolean,System.Nullable{System.Int32})
-  name: Create(String, String, String, String, Boolean, Nullable<Int32>)
-  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_Create_System_String_System_String_System_String_System_String_System_Boolean_System_Nullable_System_Int32__
-  commentId: M:GRYLibrary.Core.ExternalProgramExecutor.Create(System.String,System.String,System.String,System.String,System.Boolean,System.Nullable{System.Int32})
-  name.vb: Create(String, String, String, String, Boolean, Nullable(Of Int32))
-  fullName: GRYLibrary.Core.ExternalProgramExecutor.Create(System.String, System.String, System.String, System.String, System.Boolean, System.Nullable<System.Int32>)
-  fullName.vb: GRYLibrary.Core.ExternalProgramExecutor.Create(System.String, System.String, System.String, System.String, System.Boolean, System.Nullable(Of System.Int32))
-  nameWithType: ExternalProgramExecutor.Create(String, String, String, String, Boolean, Nullable<Int32>)
-  nameWithType.vb: ExternalProgramExecutor.Create(String, String, String, String, Boolean, Nullable(Of Int32))
-- uid: GRYLibrary.Core.ExternalProgramExecutor.Create*
-  name: Create
-  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_Create_
-  commentId: Overload:GRYLibrary.Core.ExternalProgramExecutor.Create
-  isSpec: "True"
-  fullName: GRYLibrary.Core.ExternalProgramExecutor.Create
-  nameWithType: ExternalProgramExecutor.Create
-- uid: GRYLibrary.Core.ExternalProgramExecutor.CreateByGRYLog(System.String,System.String,GRYLibrary.Core.Log.GRYLog,System.String,System.String,System.Boolean,System.Nullable{System.Int32})
-  name: CreateByGRYLog(String, String, GRYLog, String, String, Boolean, Nullable<Int32>)
-  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_CreateByGRYLog_System_String_System_String_GRYLibrary_Core_Log_GRYLog_System_String_System_String_System_Boolean_System_Nullable_System_Int32__
-  commentId: M:GRYLibrary.Core.ExternalProgramExecutor.CreateByGRYLog(System.String,System.String,GRYLibrary.Core.Log.GRYLog,System.String,System.String,System.Boolean,System.Nullable{System.Int32})
-  name.vb: CreateByGRYLog(String, String, GRYLog, String, String, Boolean, Nullable(Of Int32))
-  fullName: GRYLibrary.Core.ExternalProgramExecutor.CreateByGRYLog(System.String, System.String, GRYLibrary.Core.Log.GRYLog, System.String, System.String, System.Boolean, System.Nullable<System.Int32>)
-  fullName.vb: GRYLibrary.Core.ExternalProgramExecutor.CreateByGRYLog(System.String, System.String, GRYLibrary.Core.Log.GRYLog, System.String, System.String, System.Boolean, System.Nullable(Of System.Int32))
-  nameWithType: ExternalProgramExecutor.CreateByGRYLog(String, String, GRYLog, String, String, Boolean, Nullable<Int32>)
-  nameWithType.vb: ExternalProgramExecutor.CreateByGRYLog(String, String, GRYLog, String, String, Boolean, Nullable(Of Int32))
-- uid: GRYLibrary.Core.ExternalProgramExecutor.CreateByGRYLog*
-  name: CreateByGRYLog
-  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_CreateByGRYLog_
-  commentId: Overload:GRYLibrary.Core.ExternalProgramExecutor.CreateByGRYLog
-  isSpec: "True"
-  fullName: GRYLibrary.Core.ExternalProgramExecutor.CreateByGRYLog
-  nameWithType: ExternalProgramExecutor.CreateByGRYLog
-- uid: GRYLibrary.Core.ExternalProgramExecutor.CreateByLogFile(System.String,System.String,System.String,System.String,System.String,System.Boolean,System.Nullable{System.Int32})
-  name: CreateByLogFile(String, String, String, String, String, Boolean, Nullable<Int32>)
-  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_CreateByLogFile_System_String_System_String_System_String_System_String_System_String_System_Boolean_System_Nullable_System_Int32__
-  commentId: M:GRYLibrary.Core.ExternalProgramExecutor.CreateByLogFile(System.String,System.String,System.String,System.String,System.String,System.Boolean,System.Nullable{System.Int32})
-  name.vb: CreateByLogFile(String, String, String, String, String, Boolean, Nullable(Of Int32))
-  fullName: GRYLibrary.Core.ExternalProgramExecutor.CreateByLogFile(System.String, System.String, System.String, System.String, System.String, System.Boolean, System.Nullable<System.Int32>)
-  fullName.vb: GRYLibrary.Core.ExternalProgramExecutor.CreateByLogFile(System.String, System.String, System.String, System.String, System.String, System.Boolean, System.Nullable(Of System.Int32))
-  nameWithType: ExternalProgramExecutor.CreateByLogFile(String, String, String, String, String, Boolean, Nullable<Int32>)
-  nameWithType.vb: ExternalProgramExecutor.CreateByLogFile(String, String, String, String, String, Boolean, Nullable(Of Int32))
-- uid: GRYLibrary.Core.ExternalProgramExecutor.CreateByLogFile*
-  name: CreateByLogFile
-  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_CreateByLogFile_
-  commentId: Overload:GRYLibrary.Core.ExternalProgramExecutor.CreateByLogFile
-  isSpec: "True"
-  fullName: GRYLibrary.Core.ExternalProgramExecutor.CreateByLogFile
-  nameWithType: ExternalProgramExecutor.CreateByLogFile
 - uid: GRYLibrary.Core.ExternalProgramExecutor.CreateWindow
   name: CreateWindow
   href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_CreateWindow
@@ -2637,6 +2608,32 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.ExternalProgramExecutor.CreateWindow
   nameWithType: ExternalProgramExecutor.CreateWindow
+- uid: GRYLibrary.Core.ExternalProgramExecutor.CurrentExecutionState
+  name: CurrentExecutionState
+  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_CurrentExecutionState
+  commentId: P:GRYLibrary.Core.ExternalProgramExecutor.CurrentExecutionState
+  fullName: GRYLibrary.Core.ExternalProgramExecutor.CurrentExecutionState
+  nameWithType: ExternalProgramExecutor.CurrentExecutionState
+- uid: GRYLibrary.Core.ExternalProgramExecutor.CurrentExecutionState*
+  name: CurrentExecutionState
+  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_CurrentExecutionState_
+  commentId: Overload:GRYLibrary.Core.ExternalProgramExecutor.CurrentExecutionState
+  isSpec: "True"
+  fullName: GRYLibrary.Core.ExternalProgramExecutor.CurrentExecutionState
+  nameWithType: ExternalProgramExecutor.CurrentExecutionState
+- uid: GRYLibrary.Core.ExternalProgramExecutor.Dispose
+  name: Dispose()
+  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_Dispose
+  commentId: M:GRYLibrary.Core.ExternalProgramExecutor.Dispose
+  fullName: GRYLibrary.Core.ExternalProgramExecutor.Dispose()
+  nameWithType: ExternalProgramExecutor.Dispose()
+- uid: GRYLibrary.Core.ExternalProgramExecutor.Dispose*
+  name: Dispose
+  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_Dispose_
+  commentId: Overload:GRYLibrary.Core.ExternalProgramExecutor.Dispose
+  isSpec: "True"
+  fullName: GRYLibrary.Core.ExternalProgramExecutor.Dispose
+  nameWithType: ExternalProgramExecutor.Dispose
 - uid: GRYLibrary.Core.ExternalProgramExecutor.ExecutionDuration
   name: ExecutionDuration
   href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_ExecutionDuration
@@ -2662,19 +2659,6 @@ references:
   commentId: T:GRYLibrary.Core.ExternalProgramExecutor.ExecutionFinishedHandler
   fullName: GRYLibrary.Core.ExternalProgramExecutor.ExecutionFinishedHandler
   nameWithType: ExternalProgramExecutor.ExecutionFinishedHandler
-- uid: GRYLibrary.Core.ExternalProgramExecutor.ExecutionState
-  name: ExecutionState
-  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_ExecutionState
-  commentId: P:GRYLibrary.Core.ExternalProgramExecutor.ExecutionState
-  fullName: GRYLibrary.Core.ExternalProgramExecutor.ExecutionState
-  nameWithType: ExternalProgramExecutor.ExecutionState
-- uid: GRYLibrary.Core.ExternalProgramExecutor.ExecutionState*
-  name: ExecutionState
-  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_ExecutionState_
-  commentId: Overload:GRYLibrary.Core.ExternalProgramExecutor.ExecutionState
-  isSpec: "True"
-  fullName: GRYLibrary.Core.ExternalProgramExecutor.ExecutionState
-  nameWithType: ExternalProgramExecutor.ExecutionState
 - uid: GRYLibrary.Core.ExternalProgramExecutor.ExitCode
   name: ExitCode
   href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_ExitCode
@@ -2701,6 +2685,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.ExternalProgramExecutor.GetResult
   nameWithType: ExternalProgramExecutor.GetResult
+- uid: GRYLibrary.Core.ExternalProgramExecutor.LogNamespace
+  name: LogNamespace
+  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_LogNamespace
+  commentId: P:GRYLibrary.Core.ExternalProgramExecutor.LogNamespace
+  fullName: GRYLibrary.Core.ExternalProgramExecutor.LogNamespace
+  nameWithType: ExternalProgramExecutor.LogNamespace
+- uid: GRYLibrary.Core.ExternalProgramExecutor.LogNamespace*
+  name: LogNamespace
+  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_LogNamespace_
+  commentId: Overload:GRYLibrary.Core.ExternalProgramExecutor.LogNamespace
+  isSpec: "True"
+  fullName: GRYLibrary.Core.ExternalProgramExecutor.LogNamespace
+  nameWithType: ExternalProgramExecutor.LogNamespace
 - uid: GRYLibrary.Core.ExternalProgramExecutor.LogObject
   name: LogObject
   href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_LogObject
@@ -2753,6 +2750,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.ExternalProgramExecutor.PrintErrorsAsInformation
   nameWithType: ExternalProgramExecutor.PrintErrorsAsInformation
+- uid: GRYLibrary.Core.ExternalProgramExecutor.ProcessId
+  name: ProcessId
+  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_ProcessId
+  commentId: P:GRYLibrary.Core.ExternalProgramExecutor.ProcessId
+  fullName: GRYLibrary.Core.ExternalProgramExecutor.ProcessId
+  nameWithType: ExternalProgramExecutor.ProcessId
+- uid: GRYLibrary.Core.ExternalProgramExecutor.ProcessId*
+  name: ProcessId
+  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_ProcessId_
+  commentId: Overload:GRYLibrary.Core.ExternalProgramExecutor.ProcessId
+  isSpec: "True"
+  fullName: GRYLibrary.Core.ExternalProgramExecutor.ProcessId
+  nameWithType: ExternalProgramExecutor.ProcessId
 - uid: GRYLibrary.Core.ExternalProgramExecutor.ProcessWasAbortedDueToTimeout
   name: ProcessWasAbortedDueToTimeout
   href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_ProcessWasAbortedDueToTimeout
@@ -2792,32 +2802,32 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.ExternalProgramExecutor.Running
   nameWithType: ExternalProgramExecutor.Running
-- uid: GRYLibrary.Core.ExternalProgramExecutor.RunSynchronously
-  name: RunSynchronously
-  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_RunSynchronously
-  commentId: P:GRYLibrary.Core.ExternalProgramExecutor.RunSynchronously
-  fullName: GRYLibrary.Core.ExternalProgramExecutor.RunSynchronously
-  nameWithType: ExternalProgramExecutor.RunSynchronously
-- uid: GRYLibrary.Core.ExternalProgramExecutor.RunSynchronously*
-  name: RunSynchronously
-  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_RunSynchronously_
-  commentId: Overload:GRYLibrary.Core.ExternalProgramExecutor.RunSynchronously
+- uid: GRYLibrary.Core.ExternalProgramExecutor.StartAsynchronously
+  name: StartAsynchronously()
+  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_StartAsynchronously
+  commentId: M:GRYLibrary.Core.ExternalProgramExecutor.StartAsynchronously
+  fullName: GRYLibrary.Core.ExternalProgramExecutor.StartAsynchronously()
+  nameWithType: ExternalProgramExecutor.StartAsynchronously()
+- uid: GRYLibrary.Core.ExternalProgramExecutor.StartAsynchronously*
+  name: StartAsynchronously
+  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_StartAsynchronously_
+  commentId: Overload:GRYLibrary.Core.ExternalProgramExecutor.StartAsynchronously
   isSpec: "True"
-  fullName: GRYLibrary.Core.ExternalProgramExecutor.RunSynchronously
-  nameWithType: ExternalProgramExecutor.RunSynchronously
-- uid: GRYLibrary.Core.ExternalProgramExecutor.Start
-  name: Start()
-  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_Start
-  commentId: M:GRYLibrary.Core.ExternalProgramExecutor.Start
-  fullName: GRYLibrary.Core.ExternalProgramExecutor.Start()
-  nameWithType: ExternalProgramExecutor.Start()
-- uid: GRYLibrary.Core.ExternalProgramExecutor.Start*
-  name: Start
-  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_Start_
-  commentId: Overload:GRYLibrary.Core.ExternalProgramExecutor.Start
+  fullName: GRYLibrary.Core.ExternalProgramExecutor.StartAsynchronously
+  nameWithType: ExternalProgramExecutor.StartAsynchronously
+- uid: GRYLibrary.Core.ExternalProgramExecutor.StartSynchronously
+  name: StartSynchronously()
+  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_StartSynchronously
+  commentId: M:GRYLibrary.Core.ExternalProgramExecutor.StartSynchronously
+  fullName: GRYLibrary.Core.ExternalProgramExecutor.StartSynchronously()
+  nameWithType: ExternalProgramExecutor.StartSynchronously()
+- uid: GRYLibrary.Core.ExternalProgramExecutor.StartSynchronously*
+  name: StartSynchronously
+  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_StartSynchronously_
+  commentId: Overload:GRYLibrary.Core.ExternalProgramExecutor.StartSynchronously
   isSpec: "True"
-  fullName: GRYLibrary.Core.ExternalProgramExecutor.Start
-  nameWithType: ExternalProgramExecutor.Start
+  fullName: GRYLibrary.Core.ExternalProgramExecutor.StartSynchronously
+  nameWithType: ExternalProgramExecutor.StartSynchronously
 - uid: GRYLibrary.Core.ExternalProgramExecutor.ThrowErrorIfExitCodeIsNotZero
   name: ThrowErrorIfExitCodeIsNotZero
   href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_ThrowErrorIfExitCodeIsNotZero
