@@ -10378,6 +10378,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.EnsureFileExists
   nameWithType: Utilities.EnsureFileExists
+- uid: GRYLibrary.Core.Utilities.EnsurePathDoesNotHaveLeadingOrTrailingSlashOrBackslash(System.String)
+  name: EnsurePathDoesNotHaveLeadingOrTrailingSlashOrBackslash(String)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathDoesNotHaveLeadingOrTrailingSlashOrBackslash_System_String_
+  commentId: M:GRYLibrary.Core.Utilities.EnsurePathDoesNotHaveLeadingOrTrailingSlashOrBackslash(System.String)
+  fullName: GRYLibrary.Core.Utilities.EnsurePathDoesNotHaveLeadingOrTrailingSlashOrBackslash(System.String)
+  nameWithType: Utilities.EnsurePathDoesNotHaveLeadingOrTrailingSlashOrBackslash(String)
+- uid: GRYLibrary.Core.Utilities.EnsurePathDoesNotHaveLeadingOrTrailingSlashOrBackslash*
+  name: EnsurePathDoesNotHaveLeadingOrTrailingSlashOrBackslash
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathDoesNotHaveLeadingOrTrailingSlashOrBackslash_
+  commentId: Overload:GRYLibrary.Core.Utilities.EnsurePathDoesNotHaveLeadingOrTrailingSlashOrBackslash
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.EnsurePathDoesNotHaveLeadingOrTrailingSlashOrBackslash
+  nameWithType: Utilities.EnsurePathDoesNotHaveLeadingOrTrailingSlashOrBackslash
 - uid: GRYLibrary.Core.Utilities.EnsurePathEndsWithBackslash(System.String)
   name: EnsurePathEndsWithBackslash(String)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathEndsWithBackslash_System_String_
@@ -10417,6 +10430,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.EnsurePathEndsWithoutSlash
   nameWithType: Utilities.EnsurePathEndsWithoutSlash
+- uid: GRYLibrary.Core.Utilities.EnsurePathEndsWithoutSlashOrBackslash(System.String)
+  name: EnsurePathEndsWithoutSlashOrBackslash(String)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathEndsWithoutSlashOrBackslash_System_String_
+  commentId: M:GRYLibrary.Core.Utilities.EnsurePathEndsWithoutSlashOrBackslash(System.String)
+  fullName: GRYLibrary.Core.Utilities.EnsurePathEndsWithoutSlashOrBackslash(System.String)
+  nameWithType: Utilities.EnsurePathEndsWithoutSlashOrBackslash(String)
+- uid: GRYLibrary.Core.Utilities.EnsurePathEndsWithoutSlashOrBackslash*
+  name: EnsurePathEndsWithoutSlashOrBackslash
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathEndsWithoutSlashOrBackslash_
+  commentId: Overload:GRYLibrary.Core.Utilities.EnsurePathEndsWithoutSlashOrBackslash
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.EnsurePathEndsWithoutSlashOrBackslash
+  nameWithType: Utilities.EnsurePathEndsWithoutSlashOrBackslash
 - uid: GRYLibrary.Core.Utilities.EnsurePathEndsWithSlash(System.String)
   name: EnsurePathEndsWithSlash(String)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathEndsWithSlash_System_String_
@@ -10430,19 +10456,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.EnsurePathEndsWithSlash
   nameWithType: Utilities.EnsurePathEndsWithSlash
-- uid: GRYLibrary.Core.Utilities.EnsurePathSEndsWithoutSlashOrBackslash(System.String)
-  name: EnsurePathSEndsWithoutSlashOrBackslash(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathSEndsWithoutSlashOrBackslash_System_String_
-  commentId: M:GRYLibrary.Core.Utilities.EnsurePathSEndsWithoutSlashOrBackslash(System.String)
-  fullName: GRYLibrary.Core.Utilities.EnsurePathSEndsWithoutSlashOrBackslash(System.String)
-  nameWithType: Utilities.EnsurePathSEndsWithoutSlashOrBackslash(String)
-- uid: GRYLibrary.Core.Utilities.EnsurePathSEndsWithoutSlashOrBackslash*
-  name: EnsurePathSEndsWithoutSlashOrBackslash
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathSEndsWithoutSlashOrBackslash_
-  commentId: Overload:GRYLibrary.Core.Utilities.EnsurePathSEndsWithoutSlashOrBackslash
+- uid: GRYLibrary.Core.Utilities.EnsurePathHasNoLeadingOrTrailingQuotes(System.String)
+  name: EnsurePathHasNoLeadingOrTrailingQuotes(String)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathHasNoLeadingOrTrailingQuotes_System_String_
+  commentId: M:GRYLibrary.Core.Utilities.EnsurePathHasNoLeadingOrTrailingQuotes(System.String)
+  fullName: GRYLibrary.Core.Utilities.EnsurePathHasNoLeadingOrTrailingQuotes(System.String)
+  nameWithType: Utilities.EnsurePathHasNoLeadingOrTrailingQuotes(String)
+- uid: GRYLibrary.Core.Utilities.EnsurePathHasNoLeadingOrTrailingQuotes*
+  name: EnsurePathHasNoLeadingOrTrailingQuotes
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathHasNoLeadingOrTrailingQuotes_
+  commentId: Overload:GRYLibrary.Core.Utilities.EnsurePathHasNoLeadingOrTrailingQuotes
   isSpec: "True"
-  fullName: GRYLibrary.Core.Utilities.EnsurePathSEndsWithoutSlashOrBackslash
-  nameWithType: Utilities.EnsurePathSEndsWithoutSlashOrBackslash
+  fullName: GRYLibrary.Core.Utilities.EnsurePathHasNoLeadingOrTrailingQuotes
+  nameWithType: Utilities.EnsurePathHasNoLeadingOrTrailingQuotes
 - uid: GRYLibrary.Core.Utilities.EnsurePathStartsWithBackslash(System.String)
   name: EnsurePathStartsWithBackslash(String)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsurePathStartsWithBackslash_System_String_
