@@ -1,0 +1,233 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>PropertyEqualsCalculator </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="PropertyEqualsCalculator ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../index.html">
+                <img id="logo" class="svg" src="../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="propertyequalscalculator">PropertyEqualsCalculator</h1>
+
+<p><code>PropertyEqualsCalculator</code> is a type which basically contains an equals-function to determine if two given objects are equal.
+It should be as easy as possible to use.
+<code>PropertyEqualsCalculator</code> has some special properties/features. <code>PropertyEqualsCalculator</code></p>
+<ul>
+<li>treats two objects as equal if their type and the values of their properties are equal0</li>
+<li>can handle cyclic attribute-references</li>
+<li>ignores the <a href="https://docs.microsoft.com/en-us/dotnet/api/system.object.equals">Equals</a>-operation</li>
+<li>treats to enumerables as equal if and only if their elements are equal
+When two objects will be compared then by default only non-static properties with public getter and setter are included, fields and other properties will be ignored. This behavior is configurable.</li>
+</ul>
+<p><code>PropertyEqualsCalculator</code> will help you to make some things easier:
+When you want to implement <code>Equals</code> in the standard way (&quot;another object is equal to <code>this</code> object when the type and the properties of the object is equal to this) you simply call an always-the-same-onliner which is simply copy- &amp; paste-able and does always work for datastructures which are equal when the types and their properties are equal.
+If you add or remove a property after using <code>PropertyEqualsCalculator</code> in the <code>Equals</code>- and <code>GetHashCode</code>-method then you do not must to remember anymore that you must also adjust the <code>Equals</code>- and <code>GetHashCode</code>-method when you add or remove a property. Furthermore common flaws in the <code>Equals</code>-implementation like <code>this.ListProperty.Equals(otherObject.ListProperty)</code> (which should probably be <code>this.ListProperty.SequenceEqual(otherObject.ListProperty)</code> in the most cases) can not happen anymore.</p>
+<h2 id="usage">Usage</h2>
+<p>The most simple way to use <code>PropertyEqualsCalculator</code> is to call the static methods from the <code>Generic</code>-type which is prepared to be used exactly in this usecase:</p>
+<pre><code>using GRYLibrary.Core.AdvancedObjectAnalysis;
+
+namespace MyNamespace{
+
+  class MyClass{
+
+    //...
+
+    #region Overhead
+
+    public override bool Equals(object @object)
+    {
+      return Generic.GenericEquals(this, @object);
+    }
+
+
+    public override int GetHashCode()
+    {
+      return Generic.GenericGetHashCode(this);
+    }
+
+    #endregion
+
+  }
+
+}
+</code></pre>
+<h2 id="configuration">Configuration</h2>
+<p>You can configure some properties for the equals-comparison process, e. g. you can configure that every public field and no property will be used.
+An example-way to do this is shown in the following listing:</p>
+<pre><code>using GRYLibrary.Core.AdvancedObjectAnalysis;
+
+namespace MyNamespace{
+
+  class MyClass{
+
+    //...
+
+    #region Overhead
+
+    private readonly PropertyEqualsCalculator _PropertyEqualsCalculator = new PropertyEqualsCalculator(GetPropertyEqualsCalculatorConfiguration());
+
+    private static PropertyEqualsCalculatorConfiguration GetPropertyEqualsCalculatorConfiguration()
+    {
+      PropertyEqualsCalculatorConfiguration configuration = new PropertyEqualsCalculatorConfiguration();
+      configuration.FieldSelector = (field) =&gt; field.IsPublic;
+      configuration.PropertySelector = (property) =&gt; false;
+      // configuration.CustomComparer.Add(myCustomComparer)
+      return configuration;
+    }
+
+    public override bool Equals(object @object)
+    {
+      return this._PropertyEqualsCalculator.Equals(this, @object);
+    }
+
+    public override int GetHashCode()
+    {
+      return this._PropertyEqualsCalculator.GetHashCode(this);
+    }
+
+    #endregion
+
+  }
+
+}
+</code></pre>
+<p>You can also edit the list of custom comparer by editing the <code>PropertyEqualsCalculatorConfiguration.CustomComparer</code>-list.</p>
+<h2 id="technical-information">Technical information</h2>
+<p>The configuration will be applied for <em>every</em> object which will is involved when <code>PropertyEqualsCalculatorConfiguration</code> is called.
+So <code>FieldSelector</code> and <code>PropertySelector</code> will be used to select not only the properties and fields of the type of the object where the equals-method is called on but also all other properties and fields of the types which can be &quot;reached&quot; transitively from the object where the equals-method is called on.</p>
+<p>PropertyEqualsCalculator knows the following types of objects:</p>
+<ul>
+<li>complex objects</li>
+<li>enumerables</li>
+<li>primitive objects</li>
+</ul>
+<p>A type (let's call it <code>type</code>) will be treated as primitive if and only if</p>
+<ul>
+<li><code>type.IsPrimitive</code> or</li>
+<li><code>typeof(string).Equals(type)</code> or</li>
+<li><code>type.IsValueType</code></li>
+</ul>
+<p>An object will be treated as enumerable if and only if its type inherits from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable?view=netcore-3.1">IEnumerable</a>.</p>
+<p><code>PropertyEqualsCalculatorConfiguration</code> has a list of <code>CustomComparer</code>. A <code>CustomComparer</code> compares to object to &quot;overwrite&quot; the default equals-implementation (which compares the properties/fields of 2 objects). A <code>CustomComparer</code> has the following functions:</p>
+<ul>
+<li><code>IsApplicable</code>: To say if the <code>Customparer</code> should be applied to 2 objects of a given type.</li>
+<li><code>Equals</code>: To say if two objects are equal (will only be called when <code>IsApplicable</code> returns true).</li>
+<li><code>GetHashCode</code>: To calculate a hashcode for a given object.</li>
+</ul>
+<p>By default the following <code>Customparer</code> will be added to <code>PropertyEqualsCalculatorConfiguration</code>:</p>
+<ul>
+<li><code>PrimitiveComparer</code> (applies to objects will be treated as primitive)</li>
+<li><code>KeyValuePairComparer</code> (applies to objects whose type inherits from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.keyvaluepair-2">KeyValuePair&lt;TKey,TValue&gt;</a>)</li>
+<li><code>TupleComparer</code> (applies to objects whose type inherits from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.tuple">Tuple&lt;T1,T2&gt;</a>))</li>
+<li><code>ListComparer</code> (applies to objects whose type inherits from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.ilist">IList</a> or <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ilist-1">IList<t></t></a>)</li>
+<li><code>SetComparer</code> (applies to objects whose type inherits from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.iset-1">ISet</a>))</li>
+<li><code>DictionaryComparer</code> (applies to objects whose type inherits from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.idictionary">IDictionary</a> or <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary-2">Dictionary&lt;TKey,TValue&gt;</a>)</li>
+<li><code>EnumerableComparer</code> (applies to objects whose type inherits from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable">IEnumerable</a>)</li>
+</ul>
+<p>You may wonder why there is a <code>CustomComparer</code> for lists, sets and dictionaries when there is a comparer for enumerables. The reason is that some some enumerables have &quot;special properties&quot;. For example: <code>IList</code>s have an order, <code>ISet</code>s does not have an order. The comparer should consider this: Two <code>IList</code>s <code>[a,b,c]</code> and <code>[a,b,c]</code> are not equal. To <code>ISet</code>s <code>[a,b,c]</code> and <code>[a,b,c]</code> are equal. The equals-implementation should usually consider this properties. <code>PropertyEqualsCalculator</code> consider this.
+You can edit the list of <code>CustomComparer</code>. When doing this you should consider:</p>
+<ul>
+<li>To decide which <code>CustomComparer</code> will be applied all of the <code>CustomComparer</code> will be asked if it should be applied in the order in which they are in the <code>CustomComparer</code>-list. The first Comparer whose <code>IsApplicable</code>-function returns true will be used.</li>
+<li>When <code>EnumerableComparer</code> comes before <code>ListComparer</code> (or <code>SetComparer</code> or <code>DictionaryComparer</code>) then <code>ListComparer</code> (or <code>SetComparer</code> or <code>DictionaryComparer</code>) will obviously never be applied because the objects for this comparer will be &quot;grabbed&quot; by <code>EnumerableComparer</code>. You must consider this behavior when adding your own <code>CustomComparer</code>.</li>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/api/system.string">string</a> inherits from <a href="https://docs.microsoft.com/en-us/dotnet/api/system.collections.ienumerable">IEnumerable</a> so <code>string</code>s can be grabbed by the <code>EnumerableComparer</code>.</li>
+</ul>
+<p>If you call <code>PropertyEqualsCalculator.Equals(...)</code> then the objects which will be compared can have cyclic attributes.
+Example:
+<code>object1</code> has the attribute <code>attribute1</code> whose target is <code>object2</code>. <code>object2</code> has the attribute <code>attribute2</code> whose target is <code>object1</code>. (This would obviously be a cycle with 2 objects. You can also have objects with cyclic attributes with 1 object (an object have an attribute to itself) or with more than 2 objects (&quot;longer&quot; attribute-cycle).)
+All of these cycles should be detected by <code>PropertyEqualsCalculator</code>. Currently there are no known bugs which could raise <code>StackOverflowException</code>s. This does not mean that there are no Stackoverflow-bugs. Since <code>StackOverflowException</code>s are a a little bit tricky (because you can not catch them if they are raised due to a StackOverflow) you must keep in mind: Even if the <code>GRYLibrary</code>-project has some testcases for cycle-detection you should also test it with your data before using it productively. <code>PropertyEqualsCalculator</code> tries to be as much as possible generic to be applicable many objects. There are no requirements to your objects to compare. Feel free to create big and exotic objects and use them with <code>PropertyEqualsCalculator</code>. If <code>PropertyEqualsCalculator</code> does not work properly then please report a bug by creating an appropriate <a href="https://github.com/anionDev/gryLibrary/issues">issue</a>.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>

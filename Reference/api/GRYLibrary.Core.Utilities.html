@@ -758,6 +758,49 @@
   </table>
   
   
+  <a id="GRYLibrary_Core_Utilities_ByteArrayToInt_" data-uid="GRYLibrary.Core.Utilities.ByteArrayToInt*"></a>
+  <h4 id="GRYLibrary_Core_Utilities_ByteArrayToInt_System_Byte___" data-uid="GRYLibrary.Core.Utilities.ByteArrayToInt(System.Byte[])">ByteArrayToInt(Byte[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int ByteArrayToInt(byte[] value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">value</span></td>
+        <td><p>must contain maximal 4 bytes.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="GRYLibrary_Core_Utilities_CalculateCosineSimilarity_" data-uid="GRYLibrary.Core.Utilities.CalculateCosineSimilarity*"></a>
   <h4 id="GRYLibrary_Core_Utilities_CalculateCosineSimilarity_System_String_System_String_" data-uid="GRYLibrary.Core.Utilities.CalculateCosineSimilarity(System.String,System.String)">CalculateCosineSimilarity(String, String)</h4>
   <div class="markdown level1 summary"></div>
@@ -993,6 +1036,53 @@
   </table>
   
   
+  <a id="GRYLibrary_Core_Utilities_Cast_" data-uid="GRYLibrary.Core.Utilities.Cast*"></a>
+  <h4 id="GRYLibrary_Core_Utilities_Cast_System_Object_System_Type_" data-uid="GRYLibrary.Core.Utilities.Cast(System.Object,System.Type)">Cast(Object, Type)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static object Cast(object object, Type targetType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">object</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">targetType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="GRYLibrary_Core_Utilities_ClearFile_" data-uid="GRYLibrary.Core.Utilities.ClearFile*"></a>
   <h4 id="GRYLibrary_Core_Utilities_ClearFile_System_String_" data-uid="GRYLibrary.Core.Utilities.ClearFile(System.String)">ClearFile(String)</h4>
   <div class="markdown level1 summary"></div>
@@ -1021,12 +1111,12 @@
   
   
   <a id="GRYLibrary_Core_Utilities_Concat_" data-uid="GRYLibrary.Core.Utilities.Concat*"></a>
-  <h4 id="GRYLibrary_Core_Utilities_Concat__1___0_____0___" data-uid="GRYLibrary.Core.Utilities.Concat``1(``0[],``0[])">Concat&lt;T&gt;(T[], T[])</h4>
+  <h4 id="GRYLibrary_Core_Utilities_Concat__1___0_____" data-uid="GRYLibrary.Core.Utilities.Concat``1(``0[][])">Concat&lt;T&gt;(T[][])</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static T[] Concat&lt;T&gt;(T[] array1, T[] array2)</code></pre>
+    <pre><code class="lang-csharp hljs">public static T[] Concat&lt;T&gt;(params T[][] arrays)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1039,13 +1129,8 @@
     </thead>
     <tbody>
       <tr>
-        <td>T[]</td>
-        <td><span class="parametername">array1</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>T[]</td>
-        <td><span class="parametername">array2</span></td>
+        <td>T[][]</td>
+        <td><span class="parametername">arrays</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1150,6 +1235,31 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Utilities_DarkModeEnabled_" data-uid="GRYLibrary.Core.Utilities.DarkModeEnabled*"></a>
+  <h4 id="GRYLibrary_Core_Utilities_DarkModeEnabled" data-uid="GRYLibrary.Core.Utilities.DarkModeEnabled">DarkModeEnabled()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool DarkModeEnabled()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -2374,7 +2484,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static GitCommandResult ExecuteGitCommand(string repositoryFolder, string argument, bool throwErrorIfExitCodeIsNotZero = false, int? timeoutInMilliseconds = default(int? ), bool printErrorsAsInformation = false, bool logEnabled = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public static GitCommandResult ExecuteGitCommand(string repositoryFolder, string argument, bool throwErrorIfExitCodeIsNotZero = false, int? timeoutInMilliseconds = default(int? ), bool printErrorsAsInformation = false, bool writeOutputConsole = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2413,7 +2523,7 @@
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">logEnabled</span></td>
+        <td><span class="parametername">writeOutputConsole</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -3583,12 +3693,12 @@ tuple.Item1 represents the remote-branchname.</p>
   
   
   <a id="GRYLibrary_Core_Utilities_GetLastGitCommitId_" data-uid="GRYLibrary.Core.Utilities.GetLastGitCommitId*"></a>
-  <h4 id="GRYLibrary_Core_Utilities_GetLastGitCommitId_System_String_System_String_" data-uid="GRYLibrary.Core.Utilities.GetLastGitCommitId(System.String,System.String)">GetLastGitCommitId(String, String)</h4>
+  <h4 id="GRYLibrary_Core_Utilities_GetLastGitCommitId_System_String_System_String_System_Boolean_" data-uid="GRYLibrary.Core.Utilities.GetLastGitCommitId(System.String,System.String,System.Boolean)">GetLastGitCommitId(String, String, Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetLastGitCommitId(string repositoryFolder, string revision = &quot;HEAD&quot;)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string GetLastGitCommitId(string repositoryFolder, string revision = &quot;HEAD&quot;, bool writeOutputConsole = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3608,6 +3718,11 @@ tuple.Item1 represents the remote-branchname.</p>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">revision</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">writeOutputConsole</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -4201,7 +4316,7 @@ tuple.Item1 represents the remote-branchname.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GitCommit(string repositoryFolder, string commitMessage, out bool commitWasCreated, bool logEnabled = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string GitCommit(string repositoryFolder, string commitMessage, out bool commitWasCreated, bool writeOutputConsole = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -4233,7 +4348,7 @@ tuple.Item1 represents the remote-branchname.</p>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">logEnabled</span></td>
+        <td><span class="parametername">writeOutputConsole</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -4278,7 +4393,7 @@ tuple.Item1 represents the remote-branchname.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void GitFetch(string repositoryFolder, string remoteName = &quot;--all&quot;, bool printErrorsAsInformation = true, bool logEnabled = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void GitFetch(string repositoryFolder, string remoteName = &quot;--all&quot;, bool printErrorsAsInformation = true, bool writeOutputConsole = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -4310,7 +4425,7 @@ If really an error occures (=the exit-code of git is not 0) then this function t
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">logEnabled</span></td>
+        <td><span class="parametername">writeOutputConsole</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -4752,7 +4867,7 @@ If really an error occures (=the exit-code of git is not 0) then this function t
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static byte[] HexStringToByteArray(string hexString)</code></pre>
+    <pre><code class="lang-csharp hljs">public static byte[] HexStringToByteArray(string hex)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -4766,7 +4881,7 @@ If really an error occures (=the exit-code of git is not 0) then this function t
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">hexString</span></td>
+        <td><span class="parametername">hex</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -5009,6 +5124,49 @@ If really an error occures (=the exit-code of git is not 0) then this function t
       <tr>
         <td><span class="xref">System.String</span></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Utilities_IntToByteArray_" data-uid="GRYLibrary.Core.Utilities.IntToByteArray*"></a>
+  <h4 id="GRYLibrary_Core_Utilities_IntToByteArray_System_Int32_" data-uid="GRYLibrary.Core.Utilities.IntToByteArray(System.Int32)">IntToByteArray(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] IntToByteArray(int value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><p>Returns an array with exactly 4 bytes.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -7400,6 +7558,264 @@ The purpose of this function is to say explicitly that nothing should be done at
   </table>
   
   
+  <a id="GRYLibrary_Core_Utilities_PadLeft_" data-uid="GRYLibrary.Core.Utilities.PadLeft*"></a>
+  <h4 id="GRYLibrary_Core_Utilities_PadLeft__1___0_____0_System_Int32_" data-uid="GRYLibrary.Core.Utilities.PadLeft``1(``0[],``0,System.Int32)">PadLeft&lt;T&gt;(T[], T, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T[] PadLeft&lt;T&gt;(T[] array, T fillItem, int length)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td><span class="parametername">array</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">fillItem</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">length</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Utilities_PadLeft_" data-uid="GRYLibrary.Core.Utilities.PadLeft*"></a>
+  <h4 id="GRYLibrary_Core_Utilities_PadLeft__1___0___System_Int32_" data-uid="GRYLibrary.Core.Utilities.PadLeft``1(``0[],System.Int32)">PadLeft&lt;T&gt;(T[], Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T[] PadLeft&lt;T&gt;(T[] array, int length)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td><span class="parametername">array</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">length</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Utilities_PadRight_" data-uid="GRYLibrary.Core.Utilities.PadRight*"></a>
+  <h4 id="GRYLibrary_Core_Utilities_PadRight__1___0_____0_System_Int32_" data-uid="GRYLibrary.Core.Utilities.PadRight``1(``0[],``0,System.Int32)">PadRight&lt;T&gt;(T[], T, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T[] PadRight&lt;T&gt;(T[] array, T fillItem, int length)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td><span class="parametername">array</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">fillItem</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">length</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Utilities_PadRight_" data-uid="GRYLibrary.Core.Utilities.PadRight*"></a>
+  <h4 id="GRYLibrary_Core_Utilities_PadRight__1___0___System_Int32_" data-uid="GRYLibrary.Core.Utilities.PadRight``1(``0[],System.Int32)">PadRight&lt;T&gt;(T[], Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T[] PadRight&lt;T&gt;(T[] array, int length)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td><span class="parametername">array</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">length</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="GRYLibrary_Core_Utilities_PersistToDisk_" data-uid="GRYLibrary.Core.Utilities.PersistToDisk*"></a>
   <h4 id="GRYLibrary_Core_Utilities_PersistToDisk__1___0_System_String_" data-uid="GRYLibrary.Core.Utilities.PersistToDisk``1(``0,System.String)">PersistToDisk&lt;T&gt;(T, String)</h4>
   <div class="markdown level1 summary"></div>
@@ -8359,6 +8775,152 @@ Warning: This function is not implemented yet.</p>
   </table>
   
   
+  <a id="GRYLibrary_Core_Utilities_SimpleByteArrayToString_" data-uid="GRYLibrary.Core.Utilities.SimpleByteArrayToString*"></a>
+  <h4 id="GRYLibrary_Core_Utilities_SimpleByteArrayToString_System_Byte___" data-uid="GRYLibrary.Core.Utilities.SimpleByteArrayToString(System.Byte[])">SimpleByteArrayToString(Byte[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string SimpleByteArrayToString(byte[] bytes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">bytes</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Utilities_SimpleStringToByteArray_" data-uid="GRYLibrary.Core.Utilities.SimpleStringToByteArray*"></a>
+  <h4 id="GRYLibrary_Core_Utilities_SimpleStringToByteArray_System_String_" data-uid="GRYLibrary.Core.Utilities.SimpleStringToByteArray(System.String)">SimpleStringToByteArray(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] SimpleStringToByteArray(string string)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">string</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Utilities_Split_" data-uid="GRYLibrary.Core.Utilities.Split*"></a>
+  <h4 id="GRYLibrary_Core_Utilities_Split__1___0___System_Int32_" data-uid="GRYLibrary.Core.Utilities.Split``1(``0[],System.Int32)">Split&lt;T&gt;(T[], Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static (T[], T[]) Split&lt;T&gt;(T[] source, int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td><span class="parametername">source</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;T[], T[]&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="GRYLibrary_Core_Utilities_StartsWith_" data-uid="GRYLibrary.Core.Utilities.StartsWith*"></a>
   <h4 id="GRYLibrary_Core_Utilities_StartsWith__1___0_____0___" data-uid="GRYLibrary.Core.Utilities.StartsWith``1(``0[],``0[])">StartsWith&lt;T&gt;(T[], T[])</h4>
   <div class="markdown level1 summary"></div>
@@ -8457,48 +9019,6 @@ Warning: This function is not implemented yet.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="GRYLibrary_Core_Utilities_StringToByteArray_" data-uid="GRYLibrary.Core.Utilities.StringToByteArray*"></a>
-  <h4 id="GRYLibrary_Core_Utilities_StringToByteArray_System_String_" data-uid="GRYLibrary.Core.Utilities.StringToByteArray(System.String)">StringToByteArray(String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static byte[] StringToByteArray(string hex)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">hex</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Byte</span>[]</td>
         <td></td>
       </tr>
     </tbody>

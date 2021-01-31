@@ -4,6 +4,153 @@
   "xrefmap": "xrefmap.yml",
   "files": [
     {
+      "type": "Conceptual",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/TODOSortOldReferenceFromReferenceRepository/Introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "TODOSortOldReferenceFromReferenceRepository/Introduction.html",
+          "hash": "7zT/TbhNXAwusd5ORvOwSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/TODOSortOldReferenceFromReferenceRepository/OtherInfo.md",
+      "output": {
+        ".html": {
+          "relative_path": "TODOSortOldReferenceFromReferenceRepository/OtherInfo.html",
+          "hash": "tiXdSxgACdxO4ho1ZL+EJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/TODOSortOldReferenceFromReferenceRepository/articles/AdvancedObjectAnalysis/GenericToString.md",
+      "output": {
+        ".html": {
+          "relative_path": "TODOSortOldReferenceFromReferenceRepository/articles/AdvancedObjectAnalysis/GenericToString.html",
+          "hash": "JLZslf8ta2TYFaet+Zm3cw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/TODOSortOldReferenceFromReferenceRepository/articles/AdvancedObjectAnalysis/GenericXMLSerializer.md",
+      "output": {
+        ".html": {
+          "relative_path": "TODOSortOldReferenceFromReferenceRepository/articles/AdvancedObjectAnalysis/GenericXMLSerializer.html",
+          "hash": "tdHJuJZTA/fcke7QrZZLyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/TODOSortOldReferenceFromReferenceRepository/articles/AdvancedObjectAnalysis/PropertyEqualsCalculator.md",
+      "output": {
+        ".html": {
+          "relative_path": "TODOSortOldReferenceFromReferenceRepository/articles/AdvancedObjectAnalysis/PropertyEqualsCalculator.html",
+          "hash": "r6MNlCaGvr+xtjiAI0P5jA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/TODOSortOldReferenceFromReferenceRepository/articles/ExternalProgramExecutor.md",
+      "output": {
+        ".html": {
+          "relative_path": "TODOSortOldReferenceFromReferenceRepository/articles/ExternalProgramExecutor.html",
+          "hash": "afr7UH0jliv/MZEzShfURA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/TODOSortOldReferenceFromReferenceRepository/articles/GRYLog.md",
+      "output": {
+        ".html": {
+          "relative_path": "TODOSortOldReferenceFromReferenceRepository/articles/GRYLog.html",
+          "hash": "xlnmlakCayEX5oPWfGs4fw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/TODOSortOldReferenceFromReferenceRepository/articles/SimpleGenericXMLSerializer.md",
+      "output": {
+        ".html": {
+          "relative_path": "TODOSortOldReferenceFromReferenceRepository/articles/SimpleGenericXMLSerializer.html",
+          "hash": "y4rLyMLovYBCx57CtmPN3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/TODOSortOldReferenceFromReferenceRepository/articles/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "TODOSortOldReferenceFromReferenceRepository/articles/index.html",
+          "hash": "uDeOuqtIDRZbOdu+FVLYpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/TODOSortOldReferenceFromReferenceRepository/articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "TODOSortOldReferenceFromReferenceRepository/articles/toc.html",
+          "hash": "UxvSM4DC2MeCP8ZADRqc0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/TODOSortOldReferenceFromReferenceRepository/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "TODOSortOldReferenceFromReferenceRepository/index.html",
+          "hash": "PcG7Y1oKe2GUSjlTWMP7+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/TODOSortOldReferenceFromReferenceRepository/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "TODOSortOldReferenceFromReferenceRepository/toc.html",
+          "hash": "bqs3clTLtUuEJkAGy640fA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "ManagedReference",
       "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.AdvancedObjectAnalysis.Generic.yml",
       "output": {
@@ -466,6 +613,282 @@
         ".html": {
           "relative_path": "api/GRYLibrary.Core.ColorGradient.html",
           "hash": "7iHeggsthyW6G7WhyfAwnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256.html",
+          "hash": "NthZLeVIDSoqPU7UuP/k9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.html",
+          "hash": "7dwh6tDnkHIaQ1inF6vzLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.CryptoSystems.CryptographyAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GRYLibrary.Core.CryptoSystems.CryptographyAlgorithm.html",
+          "hash": "ndeFIyKaChFy+vTDrsv+KA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithm.html",
+          "hash": "7CybTA3FihwJIzL3rrRs0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.CommonEncryptionAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.CommonEncryptionAlgorithm.html",
+          "hash": "9wIXFo85F15k4Z07aV2nlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.AsymmetricEncryptionAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.AsymmetricEncryptionAlgorithm.html",
+          "hash": "XX1LXiRtwnjcPpMlESFWEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.html",
+          "hash": "t6bX6OnhN+Q5ukzZ1YGS1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.html",
+          "hash": "XLOple6oalyCG4AI8zHgJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.html",
+          "hash": "/P8iUmGCb57mlzn3roQQMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.html",
+          "hash": "PK99E2tptOHIE686JdEOJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.html",
+          "hash": "V6E4qWg69rEmQ1JGLSPWQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.html",
+          "hash": "q578fWz3Q1zavRa69tw10g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.html",
+          "hash": "sbUh1JhGSKRkctVMHs9NlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.SymmetricEncryptionAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.SymmetricEncryptionAlgorithm.html",
+          "hash": "CqzyOHvofYq/u7zFyqytBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.html",
+          "hash": "pvV8SlyVt0vK+SKHZ5gGPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.html",
+          "hash": "jpijO7C0Y1E3wlZUNCWVcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.html",
+          "hash": "pTdsdv1oY2Gdxx+udFsGZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm.html",
+          "hash": "wbjCpibKIp8uckPgTPbrig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.html",
+          "hash": "Qa0DYydd/jINvbSYA8tU3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.OtherEncryptionAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.OtherEncryptionAlgorithm.html",
+          "hash": "39y68jVBKedclJhAaPRJAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.html",
+          "hash": "Lpwe0elri9XL/epmJvJXRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.CryptoSystems.HashAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GRYLibrary.Core.CryptoSystems.HashAlgorithm.html",
+          "hash": "W1QPTDtAUOmWFmWDyN3dOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.CryptoSystems.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GRYLibrary.Core.CryptoSystems.html",
+          "hash": "0rOkS2o24pXAQFfWD0Feuw=="
         }
       },
       "is_incremental": false,
@@ -1613,6 +2036,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.TestKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GRYLibrary.Core.TestKind.html",
+          "hash": "MBCUPVyjHs5dTxG/6iGxQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.Tree.Containee-1.yml",
       "output": {
         ".html": {
@@ -1701,7 +2136,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.Utilities.html",
-          "hash": "BGW5Z8HVyNqPXeRv5GDYoA=="
+          "hash": "/dFKdpWQWAl9s4NHGw/LSQ=="
         }
       },
       "is_incremental": false,
@@ -1773,7 +2208,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.html",
-          "hash": "uM17ZQ0falP10W3+9YsIVQ=="
+          "hash": "KdIWbivOr3+FW6b4TB00jQ=="
         }
       },
       "is_incremental": false,
@@ -1797,7 +2232,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "sXMBf7eb0zXANtZSj37K8g=="
+          "hash": "N7lt72G+B2BkUbu2qR8ZDg=="
         }
       },
       "is_incremental": false,
@@ -1809,7 +2244,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/AdvancedObjectAnalysis.html",
-          "hash": "TZ+mY+eEJQqWCfv167vHpQ=="
+          "hash": "3MZvVcFAFPuTYK013agEFA=="
         }
       },
       "is_incremental": false,
@@ -1821,7 +2256,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/ExternalProgramExecutorWrapper.html",
-          "hash": "eM2P7Rii26clnNfYPlib5A=="
+          "hash": "jcCBAiczqyH6Jl+ZxS3XuQ=="
         }
       },
       "is_incremental": false,
@@ -1845,7 +2280,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/SimpleGenericXMLSerializer.html",
-          "hash": "2heSmhux/QwGPZI8W4vbqw=="
+          "hash": "1JXkHhmW5s7ZLeFCZ50QMQ=="
         }
       },
       "is_incremental": false,
@@ -1892,7 +2327,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "n5z1ZWsnyvRDu+QT5Qqvnw=="
+          "hash": "8JLkGQ17NwG+3kcNNnj/hQ=="
         }
       },
       "is_incremental": false,
@@ -1925,13 +2360,13 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 7,
+          "total_file_count": 17,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 148,
+          "total_file_count": 172,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

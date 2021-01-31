@@ -1,0 +1,686 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class GRYBCryptoSystem
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class GRYBCryptoSystem
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem">
+  
+  
+  <h1 id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem" data-uid="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem" class="text-break">Class GRYBCryptoSystem
+  </h1>
+  <div class="markdown level0 summary"><p>The <a class="xref" href="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.html">GRYBCryptoSystem</a> is a cryptosystem to encrypt data with an optional masterkey to be able to decrypt the data without the password.
+The &quot;B&quot; in the name stands for &quot;backdoor&quot; since the masterpassword is obviously a backdoor.
+The purpose of this cryptosystem is to be able to encrypt data conformable to law when you have the requirement that a third party (and only this third party) must be able to decrypt the data.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="GRYLibrary.Core.CryptoSystems.CryptographyAlgorithm.html">CryptographyAlgorithm</a></div>
+    <div class="level2"><a class="xref" href="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithm.html">EncryptionAlgorithm</a></div>
+    <div class="level3"><a class="xref" href="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.OtherEncryptionAlgorithm.html">OtherEncryptionAlgorithm</a></div>
+    <div class="level4"><a class="xref" href="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm.html">EncryptUsingPropertiesAlgorithm</a></div>
+    <div class="level5"><span class="xref">GRYBCryptoSystem</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_EncryptUsingPropertiesAlgorithm_Encrypt_System_String_">EncryptUsingPropertiesAlgorithm.Encrypt(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_EncryptUsingPropertiesAlgorithm_Decrypt_System_String_System_String_">EncryptUsingPropertiesAlgorithm.Decrypt(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="GRYLibrary.Core.CryptoSystems.CryptographyAlgorithm.html#GRYLibrary_Core_CryptoSystems_CryptographyAlgorithm_Encoding">CryptographyAlgorithm.Encoding</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.html">GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms</a></h6>
+  <h6><strong>Assembly</strong>: GRYLibrary.dll</h6>
+  <h5 id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class GRYBCryptoSystem : EncryptUsingPropertiesAlgorithm</code></pre>
+  </div>
+  <h5 id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>The size of the entire encrypted data is:
+length(encrypted payload data)+(little overhead)
+(little overhead)=sum(length(publickey) for each publickey in <a class="xref" href="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_PasswordEncryptionKeys">PasswordEncryptionKeys</a>)+(some very small technical overhead)
+So if there are n keys available in <a class="xref" href="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_PasswordEncryptionKeys">PasswordEncryptionKeys</a> then the size of the entire encrypted data is not n*(encrypted payload data)+(little overhead) but 1*(encrypted payload data)+(little overhead).</p>
+</div>
+  <h5 id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_examples"><strong>Examples</strong></h5>
+  <p>Example-usage:
+It is a statutory requirement that the Secret service s can also decrypt the data.
+The secret service creates a master key mk (mk is technically a private key for an RSA-keypair).
+Company c want to encrypt userdata with a user-specific password p. p can be defined by the c or by the user or can be a user-client-side generated password. (p is technically a private key for an RSA-keypair.) c does neither have to know p nor mk.
+Then the public keys of mk and p will be added to <a class="xref" href="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_PasswordEncryptionKeys">PasswordEncryptionKeys</a>.
+Now c can encrypt and decrypt data with gcs.<see cref="!:Encrypt(byte[], byte[])"></see> and gcs.<a class="xref" href="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_Decrypt_System_Byte___System_Byte___">Decrypt(Byte[], Byte[])</a>.
+The encrypted data can be decrypted either with the password used when calling <see cref="!:Encrypt(byte[], byte[])"></see> or (by s) using mp as password.
+(In General: The data can be decrypted with all keys which are contained in <a class="xref" href="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_PasswordEncryptionKeys">PasswordEncryptionKeys</a> when <see cref="!:Encrypt(byte[], byte[])"></see> is called.)</p>
+
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_GRYBCryptoSystemDatasetMagicHeader" data-uid="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.GRYBCryptoSystemDatasetMagicHeader">GRYBCryptoSystemDatasetMagicHeader</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string GRYBCryptoSystemDatasetMagicHeader = &quot;GRYBC&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_GRYBCryptoSystemDatasetMagicHeaderBytes" data-uid="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.GRYBCryptoSystemDatasetMagicHeaderBytes">GRYBCryptoSystemDatasetMagicHeaderBytes</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly byte[] GRYBCryptoSystemDatasetMagicHeaderBytes</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_HashAlgorithm_" data-uid="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.HashAlgorithm*"></a>
+  <h4 id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_HashAlgorithm" data-uid="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.HashAlgorithm">HashAlgorithm</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HashAlgorithm HashAlgorithm { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GRYLibrary.Core.CryptoSystems.HashAlgorithm.html">HashAlgorithm</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_InternalEncryptionAlgorithmForKeys_" data-uid="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.InternalEncryptionAlgorithmForKeys*"></a>
+  <h4 id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_InternalEncryptionAlgorithmForKeys" data-uid="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.InternalEncryptionAlgorithmForKeys">InternalEncryptionAlgorithmForKeys</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SymmetricEncryptionAlgorithm InternalEncryptionAlgorithmForKeys { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.SymmetricEncryptionAlgorithm.html">SymmetricEncryptionAlgorithm</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_PasswordEncryptionKeys_" data-uid="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.PasswordEncryptionKeys*"></a>
+  <h4 id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_PasswordEncryptionKeys" data-uid="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.PasswordEncryptionKeys">PasswordEncryptionKeys</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ISet&lt;(byte[], AsymmetricEncryptionAlgorithm)&gt; PasswordEncryptionKeys { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.ISet</span>&lt;<span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.Byte</span>[], <a class="xref" href="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.AsymmetricEncryptionAlgorithm.html">AsymmetricEncryptionAlgorithm</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_CreateGRYBCryptoSystemForCommonUsage_" data-uid="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.CreateGRYBCryptoSystemForCommonUsage*"></a>
+  <h4 id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_CreateGRYBCryptoSystemForCommonUsage_System_ValueTuple_System_Byte___GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_AsymmetricEncryptionAlgorithm__System_ValueTuple_System_Byte___GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_AsymmetricEncryptionAlgorithm__" data-uid="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.CreateGRYBCryptoSystemForCommonUsage(System.ValueTuple{System.Byte[],GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.AsymmetricEncryptionAlgorithm},System.ValueTuple{System.Byte[],GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.AsymmetricEncryptionAlgorithm})">CreateGRYBCryptoSystemForCommonUsage((Byte[], AsymmetricEncryptionAlgorithm), (Byte[], AsymmetricEncryptionAlgorithm))</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GRYBCryptoSystem CreateGRYBCryptoSystemForCommonUsage((byte[], AsymmetricEncryptionAlgorithm) publicKeyOfMasterKey, (byte[], AsymmetricEncryptionAlgorithm) publicKeyOfUserKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.Byte</span>[], <a class="xref" href="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.AsymmetricEncryptionAlgorithm.html">AsymmetricEncryptionAlgorithm</a>&gt;</td>
+        <td><span class="parametername">publicKeyOfMasterKey</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.Byte</span>[], <a class="xref" href="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.AsymmetricEncryptionAlgorithm.html">AsymmetricEncryptionAlgorithm</a>&gt;</td>
+        <td><span class="parametername">publicKeyOfUserKey</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.html">GRYBCryptoSystem</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_Decrypt_" data-uid="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.Decrypt*"></a>
+  <h4 id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_Decrypt_System_Byte___System_Byte___" data-uid="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.Decrypt(System.Byte[],System.Byte[])">Decrypt(Byte[], Byte[])</h4>
+  <div class="markdown level1 summary"><p>Use this function to decrypt data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override byte[] Decrypt(byte[] encryptedData, byte[] password)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">encryptedData</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">password</span></td>
+        <td><p>As password you can either use any private key of a public key which was contained in <a class="xref" href="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_PasswordEncryptionKeys">PasswordEncryptionKeys</a> when calling <see cref="!:Encrypt(byte[], byte[])"></see>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_EncryptUsingPropertiesAlgorithm_Decrypt_System_Byte___System_Byte___">EncryptUsingPropertiesAlgorithm.Decrypt(Byte[], Byte[])</a></div>
+  
+  
+  <a id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_DeserializeAndDecrypt_" data-uid="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.DeserializeAndDecrypt*"></a>
+  <h4 id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_DeserializeAndDecrypt_System_Byte___System_Byte___" data-uid="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.DeserializeAndDecrypt(System.Byte[],System.Byte[])">DeserializeAndDecrypt(Byte[], Byte[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] DeserializeAndDecrypt(byte[] encryptedData, byte[] password)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">encryptedData</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">password</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_Encrypt_" data-uid="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.Encrypt*"></a>
+  <h4 id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_Encrypt_System_Byte___" data-uid="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.Encrypt(System.Byte[])">Encrypt(Byte[])</h4>
+  <div class="markdown level1 summary"><p>Use this function to encrypt data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override byte[] Encrypt(byte[] unencryptedData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">unencryptedData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_EncryptUsingPropertiesAlgorithm_Encrypt_System_Byte___">EncryptUsingPropertiesAlgorithm.Encrypt(Byte[])</a></div>
+  
+  
+  <a id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_EncryptAndSerialize_" data-uid="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.EncryptAndSerialize*"></a>
+  <h4 id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_EncryptAndSerialize_System_Byte___System_ValueTuple_System_Byte___GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_AsymmetricEncryptionAlgorithm____GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_SymmetricEncryptionAlgorithm_GRYLibrary_Core_CryptoSystems_HashAlgorithm_" data-uid="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.EncryptAndSerialize(System.Byte[],System.ValueTuple{System.Byte[],GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.AsymmetricEncryptionAlgorithm}[],GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.SymmetricEncryptionAlgorithm,GRYLibrary.Core.CryptoSystems.HashAlgorithm)">EncryptAndSerialize(Byte[], (Byte[], AsymmetricEncryptionAlgorithm)[], SymmetricEncryptionAlgorithm, HashAlgorithm)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] EncryptAndSerialize(byte[] unencryptedData, (byte[], AsymmetricEncryptionAlgorithm)[] unencryptedPublicPasswordEncryptionKeys, SymmetricEncryptionAlgorithm internalEncryptionAlgorithmForKeys, HashAlgorithm hashAlgorithm)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">unencryptedData</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.Byte</span>[], <a class="xref" href="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.AsymmetricEncryptionAlgorithm.html">AsymmetricEncryptionAlgorithm</a>&gt;[]</td>
+        <td><span class="parametername">unencryptedPublicPasswordEncryptionKeys</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.SymmetricEncryptionAlgorithm.html">SymmetricEncryptionAlgorithm</a></td>
+        <td><span class="parametername">internalEncryptionAlgorithmForKeys</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GRYLibrary.Core.CryptoSystems.HashAlgorithm.html">HashAlgorithm</a></td>
+        <td><span class="parametername">hashAlgorithm</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_GetIdentifier_" data-uid="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.GetIdentifier*"></a>
+  <h4 id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_GetIdentifier" data-uid="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.GetIdentifier">GetIdentifier()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override byte[] GetIdentifier()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="GRYLibrary.Core.CryptoSystems.CryptographyAlgorithm.html#GRYLibrary_Core_CryptoSystems_CryptographyAlgorithm_GetIdentifier">CryptographyAlgorithm.GetIdentifier()</a></div>
+  
+  
+  <a id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_IsValidDataset_" data-uid="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.IsValidDataset*"></a>
+  <h4 id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_IsValidDataset_System_Byte___" data-uid="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.IsValidDataset(System.Byte[])">IsValidDataset(Byte[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsValidDataset(byte[] encryptedData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">encryptedData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToDynamic_System_Object_">Utilities.ToDynamic(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DeepClone__1___0_">Utilities.DeepClone&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_PersistToDisk__1___0_System_String_">Utilities.PersistToDisk&lt;T&gt;(T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_NullSafeEquals_System_Object_System_Object_">Utilities.NullSafeEquals(Object, Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsEnumerable_System_Object_">Utilities.ObjectIsEnumerable(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsSet_System_Object_">Utilities.ObjectIsSet(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsList_System_Object_">Utilities.ObjectIsList(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsDictionary_System_Object_">Utilities.ObjectIsDictionary(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsKeyValuePair_System_Object_">Utilities.ObjectIsKeyValuePair(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsDictionaryEntry_System_Object_">Utilities.ObjectIsDictionaryEntry(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectIsTuple_System_Object_">Utilities.ObjectIsTuple(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToEnumerable_System_Object_">Utilities.ObjectToEnumerable(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToEnumerable__1_System_Object_">Utilities.ObjectToEnumerable&lt;T&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToSet__1_System_Object_">Utilities.ObjectToSet&lt;T&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToList_System_Object_">Utilities.ObjectToList(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToList__1_System_Object_">Utilities.ObjectToList&lt;T&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToDictionary_System_Object_">Utilities.ObjectToDictionary(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToDictionary__2_System_Object_">Utilities.ObjectToDictionary&lt;TKey, TValue&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToKeyValuePair__2_System_Object_">Utilities.ObjectToKeyValuePair&lt;TKey, TValue&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ObjectToTuple__2_System_Object_">Utilities.ObjectToTuple&lt;T1, T2&gt;(Object)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

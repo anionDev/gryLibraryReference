@@ -1951,6 +1951,750 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.ColorGradient.StartColor
   nameWithType: ColorGradient.StartColor
+- uid: GRYLibrary.Core.CryptoSystems
+  name: GRYLibrary.Core.CryptoSystems
+  href: api/GRYLibrary.Core.CryptoSystems.html
+  commentId: N:GRYLibrary.Core.CryptoSystems
+  fullName: GRYLibrary.Core.CryptoSystems
+  nameWithType: GRYLibrary.Core.CryptoSystems
+- uid: GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms
+  name: GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms
+  href: api/GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.html
+  commentId: N:GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms
+  fullName: GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms
+  nameWithType: GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms
+- uid: GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256
+  name: SHA256
+  href: api/GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256.html
+  commentId: T:GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256
+  fullName: GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256
+  nameWithType: SHA256
+- uid: GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256.GetIdentifier
+  name: GetIdentifier()
+  href: api/GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256.html#GRYLibrary_Core_CryptoSystems_ConcreteHashAlgorithms_SHA256_GetIdentifier
+  commentId: M:GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256.GetIdentifier
+  fullName: GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256.GetIdentifier()
+  nameWithType: SHA256.GetIdentifier()
+- uid: GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256.GetIdentifier*
+  name: GetIdentifier
+  href: api/GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256.html#GRYLibrary_Core_CryptoSystems_ConcreteHashAlgorithms_SHA256_GetIdentifier_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256.GetIdentifier
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256.GetIdentifier
+  nameWithType: SHA256.GetIdentifier
+- uid: GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256.Hash(System.Byte[])
+  name: Hash(Byte[])
+  href: api/GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256.html#GRYLibrary_Core_CryptoSystems_ConcreteHashAlgorithms_SHA256_Hash_System_Byte___
+  commentId: M:GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256.Hash(System.Byte[])
+  name.vb: Hash(Byte())
+  fullName: GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256.Hash(System.Byte[])
+  fullName.vb: GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256.Hash(System.Byte())
+  nameWithType: SHA256.Hash(Byte[])
+  nameWithType.vb: SHA256.Hash(Byte())
+- uid: GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256.Hash*
+  name: Hash
+  href: api/GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256.html#GRYLibrary_Core_CryptoSystems_ConcreteHashAlgorithms_SHA256_Hash_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256.Hash
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256.Hash
+  nameWithType: SHA256.Hash
+- uid: GRYLibrary.Core.CryptoSystems.CryptographyAlgorithm
+  name: CryptographyAlgorithm
+  href: api/GRYLibrary.Core.CryptoSystems.CryptographyAlgorithm.html
+  commentId: T:GRYLibrary.Core.CryptoSystems.CryptographyAlgorithm
+  fullName: GRYLibrary.Core.CryptoSystems.CryptographyAlgorithm
+  nameWithType: CryptographyAlgorithm
+- uid: GRYLibrary.Core.CryptoSystems.CryptographyAlgorithm.Encoding
+  name: Encoding
+  href: api/GRYLibrary.Core.CryptoSystems.CryptographyAlgorithm.html#GRYLibrary_Core_CryptoSystems_CryptographyAlgorithm_Encoding
+  commentId: P:GRYLibrary.Core.CryptoSystems.CryptographyAlgorithm.Encoding
+  fullName: GRYLibrary.Core.CryptoSystems.CryptographyAlgorithm.Encoding
+  nameWithType: CryptographyAlgorithm.Encoding
+- uid: GRYLibrary.Core.CryptoSystems.CryptographyAlgorithm.Encoding*
+  name: Encoding
+  href: api/GRYLibrary.Core.CryptoSystems.CryptographyAlgorithm.html#GRYLibrary_Core_CryptoSystems_CryptographyAlgorithm_Encoding_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.CryptographyAlgorithm.Encoding
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.CryptographyAlgorithm.Encoding
+  nameWithType: CryptographyAlgorithm.Encoding
+- uid: GRYLibrary.Core.CryptoSystems.CryptographyAlgorithm.GetIdentifier
+  name: GetIdentifier()
+  href: api/GRYLibrary.Core.CryptoSystems.CryptographyAlgorithm.html#GRYLibrary_Core_CryptoSystems_CryptographyAlgorithm_GetIdentifier
+  commentId: M:GRYLibrary.Core.CryptoSystems.CryptographyAlgorithm.GetIdentifier
+  fullName: GRYLibrary.Core.CryptoSystems.CryptographyAlgorithm.GetIdentifier()
+  nameWithType: CryptographyAlgorithm.GetIdentifier()
+- uid: GRYLibrary.Core.CryptoSystems.CryptographyAlgorithm.GetIdentifier*
+  name: GetIdentifier
+  href: api/GRYLibrary.Core.CryptoSystems.CryptographyAlgorithm.html#GRYLibrary_Core_CryptoSystems_CryptographyAlgorithm_GetIdentifier_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.CryptographyAlgorithm.GetIdentifier
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.CryptographyAlgorithm.GetIdentifier
+  nameWithType: CryptographyAlgorithm.GetIdentifier
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithm
+  name: EncryptionAlgorithm
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithm.html
+  commentId: T:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithm
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithm
+  nameWithType: EncryptionAlgorithm
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms
+  name: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.html
+  commentId: N:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms
+  nameWithType: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.CommonEncryptionAlgorithm
+  name: CommonEncryptionAlgorithm
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.CommonEncryptionAlgorithm.html
+  commentId: T:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.CommonEncryptionAlgorithm
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.CommonEncryptionAlgorithm
+  nameWithType: CommonEncryptionAlgorithm
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.CommonEncryptionAlgorithm.Decrypt(System.Byte[],System.Byte[])
+  name: Decrypt(Byte[], Byte[])
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.CommonEncryptionAlgorithm.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_CommonEncryptionAlgorithm_Decrypt_System_Byte___System_Byte___
+  commentId: M:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.CommonEncryptionAlgorithm.Decrypt(System.Byte[],System.Byte[])
+  name.vb: Decrypt(Byte(), Byte())
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.CommonEncryptionAlgorithm.Decrypt(System.Byte[], System.Byte[])
+  fullName.vb: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.CommonEncryptionAlgorithm.Decrypt(System.Byte(), System.Byte())
+  nameWithType: CommonEncryptionAlgorithm.Decrypt(Byte[], Byte[])
+  nameWithType.vb: CommonEncryptionAlgorithm.Decrypt(Byte(), Byte())
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.CommonEncryptionAlgorithm.Decrypt(System.String,System.String)
+  name: Decrypt(String, String)
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.CommonEncryptionAlgorithm.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_CommonEncryptionAlgorithm_Decrypt_System_String_System_String_
+  commentId: M:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.CommonEncryptionAlgorithm.Decrypt(System.String,System.String)
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.CommonEncryptionAlgorithm.Decrypt(System.String, System.String)
+  nameWithType: CommonEncryptionAlgorithm.Decrypt(String, String)
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.CommonEncryptionAlgorithm.Decrypt*
+  name: Decrypt
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.CommonEncryptionAlgorithm.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_CommonEncryptionAlgorithm_Decrypt_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.CommonEncryptionAlgorithm.Decrypt
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.CommonEncryptionAlgorithm.Decrypt
+  nameWithType: CommonEncryptionAlgorithm.Decrypt
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.CommonEncryptionAlgorithm.Encrypt(System.Byte[],System.Byte[])
+  name: Encrypt(Byte[], Byte[])
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.CommonEncryptionAlgorithm.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_CommonEncryptionAlgorithm_Encrypt_System_Byte___System_Byte___
+  commentId: M:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.CommonEncryptionAlgorithm.Encrypt(System.Byte[],System.Byte[])
+  name.vb: Encrypt(Byte(), Byte())
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.CommonEncryptionAlgorithm.Encrypt(System.Byte[], System.Byte[])
+  fullName.vb: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.CommonEncryptionAlgorithm.Encrypt(System.Byte(), System.Byte())
+  nameWithType: CommonEncryptionAlgorithm.Encrypt(Byte[], Byte[])
+  nameWithType.vb: CommonEncryptionAlgorithm.Encrypt(Byte(), Byte())
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.CommonEncryptionAlgorithm.Encrypt(System.String,System.String)
+  name: Encrypt(String, String)
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.CommonEncryptionAlgorithm.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_CommonEncryptionAlgorithm_Encrypt_System_String_System_String_
+  commentId: M:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.CommonEncryptionAlgorithm.Encrypt(System.String,System.String)
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.CommonEncryptionAlgorithm.Encrypt(System.String, System.String)
+  nameWithType: CommonEncryptionAlgorithm.Encrypt(String, String)
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.CommonEncryptionAlgorithm.Encrypt*
+  name: Encrypt
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.CommonEncryptionAlgorithm.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_CommonEncryptionAlgorithm_Encrypt_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.CommonEncryptionAlgorithm.Encrypt
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.CommonEncryptionAlgorithm.Encrypt
+  nameWithType: CommonEncryptionAlgorithm.Encrypt
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms
+  name: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.html
+  commentId: N:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms
+  nameWithType: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.AsymmetricEncryptionAlgorithm
+  name: AsymmetricEncryptionAlgorithm
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.AsymmetricEncryptionAlgorithm.html
+  commentId: T:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.AsymmetricEncryptionAlgorithm
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.AsymmetricEncryptionAlgorithm
+  nameWithType: AsymmetricEncryptionAlgorithm
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.AsymmetricEncryptionAlgorithm.GenerateRandomKeyPair
+  name: GenerateRandomKeyPair()
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.AsymmetricEncryptionAlgorithm.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_AsymmetricEncryptionAlgorithm_GenerateRandomKeyPair
+  commentId: M:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.AsymmetricEncryptionAlgorithm.GenerateRandomKeyPair
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.AsymmetricEncryptionAlgorithm.GenerateRandomKeyPair()
+  nameWithType: AsymmetricEncryptionAlgorithm.GenerateRandomKeyPair()
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.AsymmetricEncryptionAlgorithm.GenerateRandomKeyPair*
+  name: GenerateRandomKeyPair
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.AsymmetricEncryptionAlgorithm.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_AsymmetricEncryptionAlgorithm_GenerateRandomKeyPair_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.AsymmetricEncryptionAlgorithm.GenerateRandomKeyPair
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.AsymmetricEncryptionAlgorithm.GenerateRandomKeyPair
+  nameWithType: AsymmetricEncryptionAlgorithm.GenerateRandomKeyPair
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms
+  name: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.html
+  commentId: N:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms
+  nameWithType: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC
+  name: ECC
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.html
+  commentId: T:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC
+  nameWithType: ECC
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.Curve
+  name: Curve
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_ECC_Curve
+  commentId: P:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.Curve
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.Curve
+  nameWithType: ECC.Curve
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.Curve*
+  name: Curve
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_ECC_Curve_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.Curve
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.Curve
+  nameWithType: ECC.Curve
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.Decrypt(System.Byte[],System.Byte[])
+  name: Decrypt(Byte[], Byte[])
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_ECC_Decrypt_System_Byte___System_Byte___
+  commentId: M:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.Decrypt(System.Byte[],System.Byte[])
+  name.vb: Decrypt(Byte(), Byte())
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.Decrypt(System.Byte[], System.Byte[])
+  fullName.vb: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.Decrypt(System.Byte(), System.Byte())
+  nameWithType: ECC.Decrypt(Byte[], Byte[])
+  nameWithType.vb: ECC.Decrypt(Byte(), Byte())
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.Decrypt*
+  name: Decrypt
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_ECC_Decrypt_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.Decrypt
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.Decrypt
+  nameWithType: ECC.Decrypt
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.Encrypt(System.Byte[],System.Byte[])
+  name: Encrypt(Byte[], Byte[])
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_ECC_Encrypt_System_Byte___System_Byte___
+  commentId: M:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.Encrypt(System.Byte[],System.Byte[])
+  name.vb: Encrypt(Byte(), Byte())
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.Encrypt(System.Byte[], System.Byte[])
+  fullName.vb: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.Encrypt(System.Byte(), System.Byte())
+  nameWithType: ECC.Encrypt(Byte[], Byte[])
+  nameWithType.vb: ECC.Encrypt(Byte(), Byte())
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.Encrypt*
+  name: Encrypt
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_ECC_Encrypt_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.Encrypt
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.Encrypt
+  nameWithType: ECC.Encrypt
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.GenerateRandomKeyPair
+  name: GenerateRandomKeyPair()
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_ECC_GenerateRandomKeyPair
+  commentId: M:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.GenerateRandomKeyPair
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.GenerateRandomKeyPair()
+  nameWithType: ECC.GenerateRandomKeyPair()
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.GenerateRandomKeyPair*
+  name: GenerateRandomKeyPair
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_ECC_GenerateRandomKeyPair_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.GenerateRandomKeyPair
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.GenerateRandomKeyPair
+  nameWithType: ECC.GenerateRandomKeyPair
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.GetIdentifier
+  name: GetIdentifier()
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_ECC_GetIdentifier
+  commentId: M:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.GetIdentifier
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.GetIdentifier()
+  nameWithType: ECC.GetIdentifier()
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.GetIdentifier*
+  name: GetIdentifier
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_ECC_GetIdentifier_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.GetIdentifier
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.ECC.GetIdentifier
+  nameWithType: ECC.GetIdentifier
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper
+  name: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.html
+  commentId: N:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper
+  nameWithType: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve
+  name: Curve
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.html
+  commentId: T:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve
+  nameWithType: Curve
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.Curve25519
+  name: Curve25519
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_Helper_Curve_Curve25519
+  commentId: P:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.Curve25519
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.Curve25519
+  nameWithType: Curve.Curve25519
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.Curve25519*
+  name: Curve25519
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_Helper_Curve_Curve25519_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.Curve25519
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.Curve25519
+  nameWithType: Curve.Curve25519
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.Secp256k1
+  name: Secp256k1
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_Helper_Curve_Secp256k1
+  commentId: P:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.Secp256k1
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.Secp256k1
+  nameWithType: Curve.Secp256k1
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.Secp256k1*
+  name: Secp256k1
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_Helper_Curve_Secp256k1_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.Secp256k1
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.Secp256k1
+  nameWithType: Curve.Secp256k1
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA
+  name: RSA
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.html
+  commentId: T:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA
+  nameWithType: RSA
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.Decrypt(System.Byte[],System.Byte[])
+  name: Decrypt(Byte[], Byte[])
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_RSA_Decrypt_System_Byte___System_Byte___
+  commentId: M:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.Decrypt(System.Byte[],System.Byte[])
+  name.vb: Decrypt(Byte(), Byte())
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.Decrypt(System.Byte[], System.Byte[])
+  fullName.vb: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.Decrypt(System.Byte(), System.Byte())
+  nameWithType: RSA.Decrypt(Byte[], Byte[])
+  nameWithType.vb: RSA.Decrypt(Byte(), Byte())
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.Decrypt*
+  name: Decrypt
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_RSA_Decrypt_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.Decrypt
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.Decrypt
+  nameWithType: RSA.Decrypt
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.Encrypt(System.Byte[],System.Byte[])
+  name: Encrypt(Byte[], Byte[])
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_RSA_Encrypt_System_Byte___System_Byte___
+  commentId: M:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.Encrypt(System.Byte[],System.Byte[])
+  name.vb: Encrypt(Byte(), Byte())
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.Encrypt(System.Byte[], System.Byte[])
+  fullName.vb: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.Encrypt(System.Byte(), System.Byte())
+  nameWithType: RSA.Encrypt(Byte[], Byte[])
+  nameWithType.vb: RSA.Encrypt(Byte(), Byte())
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.Encrypt*
+  name: Encrypt
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_RSA_Encrypt_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.Encrypt
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.Encrypt
+  nameWithType: RSA.Encrypt
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.GenerateRandomKeyPair
+  name: GenerateRandomKeyPair()
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_RSA_GenerateRandomKeyPair
+  commentId: M:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.GenerateRandomKeyPair
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.GenerateRandomKeyPair()
+  nameWithType: RSA.GenerateRandomKeyPair()
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.GenerateRandomKeyPair*
+  name: GenerateRandomKeyPair
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_RSA_GenerateRandomKeyPair_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.GenerateRandomKeyPair
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.GenerateRandomKeyPair
+  nameWithType: RSA.GenerateRandomKeyPair
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.GetIdentifier
+  name: GetIdentifier()
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_RSA_GetIdentifier
+  commentId: M:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.GetIdentifier
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.GetIdentifier()
+  nameWithType: RSA.GetIdentifier()
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.GetIdentifier*
+  name: GetIdentifier
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_RSA_GetIdentifier_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.GetIdentifier
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.GetIdentifier
+  nameWithType: RSA.GetIdentifier
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.KeyLengthForNewGeneratedKeys
+  name: KeyLengthForNewGeneratedKeys
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_RSA_KeyLengthForNewGeneratedKeys
+  commentId: P:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.KeyLengthForNewGeneratedKeys
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.KeyLengthForNewGeneratedKeys
+  nameWithType: RSA.KeyLengthForNewGeneratedKeys
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.KeyLengthForNewGeneratedKeys*
+  name: KeyLengthForNewGeneratedKeys
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_RSA_KeyLengthForNewGeneratedKeys_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.KeyLengthForNewGeneratedKeys
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.KeyLengthForNewGeneratedKeys
+  nameWithType: RSA.KeyLengthForNewGeneratedKeys
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.PasswordToRSAParameters(System.Byte[])
+  name: PasswordToRSAParameters(Byte[])
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_RSA_PasswordToRSAParameters_System_Byte___
+  commentId: M:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.PasswordToRSAParameters(System.Byte[])
+  name.vb: PasswordToRSAParameters(Byte())
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.PasswordToRSAParameters(System.Byte[])
+  fullName.vb: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.PasswordToRSAParameters(System.Byte())
+  nameWithType: RSA.PasswordToRSAParameters(Byte[])
+  nameWithType.vb: RSA.PasswordToRSAParameters(Byte())
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.PasswordToRSAParameters*
+  name: PasswordToRSAParameters
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_RSA_PasswordToRSAParameters_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.PasswordToRSAParameters
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.PasswordToRSAParameters
+  nameWithType: RSA.PasswordToRSAParameters
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.RSAParametersToPassword(System.Security.Cryptography.RSAParameters)
+  name: RSAParametersToPassword(RSAParameters)
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_RSA_RSAParametersToPassword_System_Security_Cryptography_RSAParameters_
+  commentId: M:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.RSAParametersToPassword(System.Security.Cryptography.RSAParameters)
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.RSAParametersToPassword(System.Security.Cryptography.RSAParameters)
+  nameWithType: RSA.RSAParametersToPassword(RSAParameters)
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.RSAParametersToPassword*
+  name: RSAParametersToPassword
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_RSA_RSAParametersToPassword_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.RSAParametersToPassword
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.RSA.RSAParametersToPassword
+  nameWithType: RSA.RSAParametersToPassword
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms
+  name: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.html
+  commentId: N:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms
+  nameWithType: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256
+  name: AES256
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.html
+  commentId: T:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256
+  nameWithType: AES256
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.Decrypt(System.Byte[],System.Byte[])
+  name: Decrypt(Byte[], Byte[])
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteSymmetricAlgorithms_AES256_Decrypt_System_Byte___System_Byte___
+  commentId: M:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.Decrypt(System.Byte[],System.Byte[])
+  name.vb: Decrypt(Byte(), Byte())
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.Decrypt(System.Byte[], System.Byte[])
+  fullName.vb: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.Decrypt(System.Byte(), System.Byte())
+  nameWithType: AES256.Decrypt(Byte[], Byte[])
+  nameWithType.vb: AES256.Decrypt(Byte(), Byte())
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.Decrypt*
+  name: Decrypt
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteSymmetricAlgorithms_AES256_Decrypt_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.Decrypt
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.Decrypt
+  nameWithType: AES256.Decrypt
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.Encrypt(System.Byte[],System.Byte[])
+  name: Encrypt(Byte[], Byte[])
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteSymmetricAlgorithms_AES256_Encrypt_System_Byte___System_Byte___
+  commentId: M:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.Encrypt(System.Byte[],System.Byte[])
+  name.vb: Encrypt(Byte(), Byte())
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.Encrypt(System.Byte[], System.Byte[])
+  fullName.vb: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.Encrypt(System.Byte(), System.Byte())
+  nameWithType: AES256.Encrypt(Byte[], Byte[])
+  nameWithType.vb: AES256.Encrypt(Byte(), Byte())
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.Encrypt*
+  name: Encrypt
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteSymmetricAlgorithms_AES256_Encrypt_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.Encrypt
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.Encrypt
+  nameWithType: AES256.Encrypt
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.GenerateRandomKey
+  name: GenerateRandomKey()
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteSymmetricAlgorithms_AES256_GenerateRandomKey
+  commentId: M:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.GenerateRandomKey
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.GenerateRandomKey()
+  nameWithType: AES256.GenerateRandomKey()
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.GenerateRandomKey*
+  name: GenerateRandomKey
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteSymmetricAlgorithms_AES256_GenerateRandomKey_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.GenerateRandomKey
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.GenerateRandomKey
+  nameWithType: AES256.GenerateRandomKey
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.GetIdentifier
+  name: GetIdentifier()
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteSymmetricAlgorithms_AES256_GetIdentifier
+  commentId: M:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.GetIdentifier
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.GetIdentifier()
+  nameWithType: AES256.GetIdentifier()
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.GetIdentifier*
+  name: GetIdentifier
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteSymmetricAlgorithms_AES256_GetIdentifier_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.GetIdentifier
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteSymmetricAlgorithms.AES256.GetIdentifier
+  nameWithType: AES256.GetIdentifier
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.SymmetricEncryptionAlgorithm
+  name: SymmetricEncryptionAlgorithm
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.SymmetricEncryptionAlgorithm.html
+  commentId: T:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.SymmetricEncryptionAlgorithm
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.SymmetricEncryptionAlgorithm
+  nameWithType: SymmetricEncryptionAlgorithm
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.SymmetricEncryptionAlgorithm.GenerateRandomKey
+  name: GenerateRandomKey()
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.SymmetricEncryptionAlgorithm.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_SymmetricEncryptionAlgorithm_GenerateRandomKey
+  commentId: M:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.SymmetricEncryptionAlgorithm.GenerateRandomKey
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.SymmetricEncryptionAlgorithm.GenerateRandomKey()
+  nameWithType: SymmetricEncryptionAlgorithm.GenerateRandomKey()
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.SymmetricEncryptionAlgorithm.GenerateRandomKey*
+  name: GenerateRandomKey
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.SymmetricEncryptionAlgorithm.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_SymmetricEncryptionAlgorithm_GenerateRandomKey_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.SymmetricEncryptionAlgorithm.GenerateRandomKey
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.SymmetricEncryptionAlgorithm.GenerateRandomKey
+  nameWithType: SymmetricEncryptionAlgorithm.GenerateRandomKey
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms
+  name: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.html
+  commentId: N:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms
+  nameWithType: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms
+  name: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.html
+  commentId: N:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms
+  nameWithType: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem
+  name: GRYBCryptoSystem
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.html
+  commentId: T:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem
+  nameWithType: GRYBCryptoSystem
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.CreateGRYBCryptoSystemForCommonUsage(System.ValueTuple{System.Byte[],GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.AsymmetricEncryptionAlgorithm},System.ValueTuple{System.Byte[],GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.AsymmetricEncryptionAlgorithm})
+  name: CreateGRYBCryptoSystemForCommonUsage((Byte[], AsymmetricEncryptionAlgorithm), (Byte[], AsymmetricEncryptionAlgorithm))
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_CreateGRYBCryptoSystemForCommonUsage_System_ValueTuple_System_Byte___GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_AsymmetricEncryptionAlgorithm__System_ValueTuple_System_Byte___GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_AsymmetricEncryptionAlgorithm__
+  commentId: M:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.CreateGRYBCryptoSystemForCommonUsage(System.ValueTuple{System.Byte[],GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.AsymmetricEncryptionAlgorithm},System.ValueTuple{System.Byte[],GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.AsymmetricEncryptionAlgorithm})
+  name.vb: CreateGRYBCryptoSystemForCommonUsage((Byte(), AsymmetricEncryptionAlgorithm), (Byte(), AsymmetricEncryptionAlgorithm))
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.CreateGRYBCryptoSystemForCommonUsage(System.ValueTuple<System.Byte[], GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.AsymmetricEncryptionAlgorithm>, System.ValueTuple<System.Byte[], GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.AsymmetricEncryptionAlgorithm>)
+  fullName.vb: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.CreateGRYBCryptoSystemForCommonUsage(System.ValueTuple(Of System.Byte(), GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.AsymmetricEncryptionAlgorithm), System.ValueTuple(Of System.Byte(), GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.AsymmetricEncryptionAlgorithm))
+  nameWithType: GRYBCryptoSystem.CreateGRYBCryptoSystemForCommonUsage((Byte[], AsymmetricEncryptionAlgorithm), (Byte[], AsymmetricEncryptionAlgorithm))
+  nameWithType.vb: GRYBCryptoSystem.CreateGRYBCryptoSystemForCommonUsage((Byte(), AsymmetricEncryptionAlgorithm), (Byte(), AsymmetricEncryptionAlgorithm))
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.CreateGRYBCryptoSystemForCommonUsage*
+  name: CreateGRYBCryptoSystemForCommonUsage
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_CreateGRYBCryptoSystemForCommonUsage_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.CreateGRYBCryptoSystemForCommonUsage
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.CreateGRYBCryptoSystemForCommonUsage
+  nameWithType: GRYBCryptoSystem.CreateGRYBCryptoSystemForCommonUsage
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.Decrypt(System.Byte[],System.Byte[])
+  name: Decrypt(Byte[], Byte[])
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_Decrypt_System_Byte___System_Byte___
+  commentId: M:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.Decrypt(System.Byte[],System.Byte[])
+  name.vb: Decrypt(Byte(), Byte())
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.Decrypt(System.Byte[], System.Byte[])
+  fullName.vb: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.Decrypt(System.Byte(), System.Byte())
+  nameWithType: GRYBCryptoSystem.Decrypt(Byte[], Byte[])
+  nameWithType.vb: GRYBCryptoSystem.Decrypt(Byte(), Byte())
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.Decrypt*
+  name: Decrypt
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_Decrypt_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.Decrypt
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.Decrypt
+  nameWithType: GRYBCryptoSystem.Decrypt
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.DeserializeAndDecrypt(System.Byte[],System.Byte[])
+  name: DeserializeAndDecrypt(Byte[], Byte[])
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_DeserializeAndDecrypt_System_Byte___System_Byte___
+  commentId: M:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.DeserializeAndDecrypt(System.Byte[],System.Byte[])
+  name.vb: DeserializeAndDecrypt(Byte(), Byte())
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.DeserializeAndDecrypt(System.Byte[], System.Byte[])
+  fullName.vb: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.DeserializeAndDecrypt(System.Byte(), System.Byte())
+  nameWithType: GRYBCryptoSystem.DeserializeAndDecrypt(Byte[], Byte[])
+  nameWithType.vb: GRYBCryptoSystem.DeserializeAndDecrypt(Byte(), Byte())
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.DeserializeAndDecrypt*
+  name: DeserializeAndDecrypt
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_DeserializeAndDecrypt_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.DeserializeAndDecrypt
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.DeserializeAndDecrypt
+  nameWithType: GRYBCryptoSystem.DeserializeAndDecrypt
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.Encrypt(System.Byte[])
+  name: Encrypt(Byte[])
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_Encrypt_System_Byte___
+  commentId: M:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.Encrypt(System.Byte[])
+  name.vb: Encrypt(Byte())
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.Encrypt(System.Byte[])
+  fullName.vb: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.Encrypt(System.Byte())
+  nameWithType: GRYBCryptoSystem.Encrypt(Byte[])
+  nameWithType.vb: GRYBCryptoSystem.Encrypt(Byte())
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.Encrypt*
+  name: Encrypt
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_Encrypt_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.Encrypt
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.Encrypt
+  nameWithType: GRYBCryptoSystem.Encrypt
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.EncryptAndSerialize(System.Byte[],System.ValueTuple{System.Byte[],GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.AsymmetricEncryptionAlgorithm}[],GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.SymmetricEncryptionAlgorithm,GRYLibrary.Core.CryptoSystems.HashAlgorithm)
+  name: EncryptAndSerialize(Byte[], (Byte[], AsymmetricEncryptionAlgorithm)[], SymmetricEncryptionAlgorithm, HashAlgorithm)
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_EncryptAndSerialize_System_Byte___System_ValueTuple_System_Byte___GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_AsymmetricEncryptionAlgorithm____GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_SymmetricEncryptionAlgorithm_GRYLibrary_Core_CryptoSystems_HashAlgorithm_
+  commentId: M:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.EncryptAndSerialize(System.Byte[],System.ValueTuple{System.Byte[],GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.AsymmetricEncryptionAlgorithm}[],GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.SymmetricEncryptionAlgorithm,GRYLibrary.Core.CryptoSystems.HashAlgorithm)
+  name.vb: EncryptAndSerialize(Byte(), (Byte(), AsymmetricEncryptionAlgorithm)(), SymmetricEncryptionAlgorithm, HashAlgorithm)
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.EncryptAndSerialize(System.Byte[], System.ValueTuple<System.Byte[], GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.AsymmetricEncryptionAlgorithm>[], GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.SymmetricEncryptionAlgorithm, GRYLibrary.Core.CryptoSystems.HashAlgorithm)
+  fullName.vb: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.EncryptAndSerialize(System.Byte(), System.ValueTuple(Of System.Byte(), GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.AsymmetricEncryptionAlgorithm)(), GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.SymmetricEncryptionAlgorithm, GRYLibrary.Core.CryptoSystems.HashAlgorithm)
+  nameWithType: GRYBCryptoSystem.EncryptAndSerialize(Byte[], (Byte[], AsymmetricEncryptionAlgorithm)[], SymmetricEncryptionAlgorithm, HashAlgorithm)
+  nameWithType.vb: GRYBCryptoSystem.EncryptAndSerialize(Byte(), (Byte(), AsymmetricEncryptionAlgorithm)(), SymmetricEncryptionAlgorithm, HashAlgorithm)
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.EncryptAndSerialize*
+  name: EncryptAndSerialize
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_EncryptAndSerialize_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.EncryptAndSerialize
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.EncryptAndSerialize
+  nameWithType: GRYBCryptoSystem.EncryptAndSerialize
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.GetIdentifier
+  name: GetIdentifier()
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_GetIdentifier
+  commentId: M:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.GetIdentifier
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.GetIdentifier()
+  nameWithType: GRYBCryptoSystem.GetIdentifier()
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.GetIdentifier*
+  name: GetIdentifier
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_GetIdentifier_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.GetIdentifier
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.GetIdentifier
+  nameWithType: GRYBCryptoSystem.GetIdentifier
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.GRYBCryptoSystemDatasetMagicHeader
+  name: GRYBCryptoSystemDatasetMagicHeader
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_GRYBCryptoSystemDatasetMagicHeader
+  commentId: F:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.GRYBCryptoSystemDatasetMagicHeader
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.GRYBCryptoSystemDatasetMagicHeader
+  nameWithType: GRYBCryptoSystem.GRYBCryptoSystemDatasetMagicHeader
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.GRYBCryptoSystemDatasetMagicHeaderBytes
+  name: GRYBCryptoSystemDatasetMagicHeaderBytes
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_GRYBCryptoSystemDatasetMagicHeaderBytes
+  commentId: F:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.GRYBCryptoSystemDatasetMagicHeaderBytes
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.GRYBCryptoSystemDatasetMagicHeaderBytes
+  nameWithType: GRYBCryptoSystem.GRYBCryptoSystemDatasetMagicHeaderBytes
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.HashAlgorithm
+  name: HashAlgorithm
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_HashAlgorithm
+  commentId: P:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.HashAlgorithm
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.HashAlgorithm
+  nameWithType: GRYBCryptoSystem.HashAlgorithm
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.HashAlgorithm*
+  name: HashAlgorithm
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_HashAlgorithm_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.HashAlgorithm
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.HashAlgorithm
+  nameWithType: GRYBCryptoSystem.HashAlgorithm
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.InternalEncryptionAlgorithmForKeys
+  name: InternalEncryptionAlgorithmForKeys
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_InternalEncryptionAlgorithmForKeys
+  commentId: P:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.InternalEncryptionAlgorithmForKeys
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.InternalEncryptionAlgorithmForKeys
+  nameWithType: GRYBCryptoSystem.InternalEncryptionAlgorithmForKeys
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.InternalEncryptionAlgorithmForKeys*
+  name: InternalEncryptionAlgorithmForKeys
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_InternalEncryptionAlgorithmForKeys_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.InternalEncryptionAlgorithmForKeys
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.InternalEncryptionAlgorithmForKeys
+  nameWithType: GRYBCryptoSystem.InternalEncryptionAlgorithmForKeys
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.IsValidDataset(System.Byte[])
+  name: IsValidDataset(Byte[])
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_IsValidDataset_System_Byte___
+  commentId: M:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.IsValidDataset(System.Byte[])
+  name.vb: IsValidDataset(Byte())
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.IsValidDataset(System.Byte[])
+  fullName.vb: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.IsValidDataset(System.Byte())
+  nameWithType: GRYBCryptoSystem.IsValidDataset(Byte[])
+  nameWithType.vb: GRYBCryptoSystem.IsValidDataset(Byte())
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.IsValidDataset*
+  name: IsValidDataset
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_IsValidDataset_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.IsValidDataset
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.IsValidDataset
+  nameWithType: GRYBCryptoSystem.IsValidDataset
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.PasswordEncryptionKeys
+  name: PasswordEncryptionKeys
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_PasswordEncryptionKeys
+  commentId: P:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.PasswordEncryptionKeys
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.PasswordEncryptionKeys
+  nameWithType: GRYBCryptoSystem.PasswordEncryptionKeys
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.PasswordEncryptionKeys*
+  name: PasswordEncryptionKeys
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_ConcreteEncryptUsingPropertiesAlgorithms_GRYBCryptoSystem_PasswordEncryptionKeys_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.PasswordEncryptionKeys
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.ConcreteEncryptUsingPropertiesAlgorithms.GRYBCryptoSystem.PasswordEncryptionKeys
+  nameWithType: GRYBCryptoSystem.PasswordEncryptionKeys
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm
+  name: EncryptUsingPropertiesAlgorithm
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm.html
+  commentId: T:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm
+  nameWithType: EncryptUsingPropertiesAlgorithm
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm.Decrypt(System.Byte[],System.Byte[])
+  name: Decrypt(Byte[], Byte[])
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_EncryptUsingPropertiesAlgorithm_Decrypt_System_Byte___System_Byte___
+  commentId: M:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm.Decrypt(System.Byte[],System.Byte[])
+  name.vb: Decrypt(Byte(), Byte())
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm.Decrypt(System.Byte[], System.Byte[])
+  fullName.vb: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm.Decrypt(System.Byte(), System.Byte())
+  nameWithType: EncryptUsingPropertiesAlgorithm.Decrypt(Byte[], Byte[])
+  nameWithType.vb: EncryptUsingPropertiesAlgorithm.Decrypt(Byte(), Byte())
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm.Decrypt(System.String,System.String)
+  name: Decrypt(String, String)
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_EncryptUsingPropertiesAlgorithm_Decrypt_System_String_System_String_
+  commentId: M:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm.Decrypt(System.String,System.String)
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm.Decrypt(System.String, System.String)
+  nameWithType: EncryptUsingPropertiesAlgorithm.Decrypt(String, String)
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm.Decrypt*
+  name: Decrypt
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_EncryptUsingPropertiesAlgorithm_Decrypt_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm.Decrypt
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm.Decrypt
+  nameWithType: EncryptUsingPropertiesAlgorithm.Decrypt
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm.Encrypt(System.Byte[])
+  name: Encrypt(Byte[])
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_EncryptUsingPropertiesAlgorithm_Encrypt_System_Byte___
+  commentId: M:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm.Encrypt(System.Byte[])
+  name.vb: Encrypt(Byte())
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm.Encrypt(System.Byte[])
+  fullName.vb: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm.Encrypt(System.Byte())
+  nameWithType: EncryptUsingPropertiesAlgorithm.Encrypt(Byte[])
+  nameWithType.vb: EncryptUsingPropertiesAlgorithm.Encrypt(Byte())
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm.Encrypt(System.String)
+  name: Encrypt(String)
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_EncryptUsingPropertiesAlgorithm_Encrypt_System_String_
+  commentId: M:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm.Encrypt(System.String)
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm.Encrypt(System.String)
+  nameWithType: EncryptUsingPropertiesAlgorithm.Encrypt(String)
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm.Encrypt*
+  name: Encrypt
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteOtherAlgorithms_EncryptUsingPropertiesAlgorithm_Encrypt_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm.Encrypt
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteOtherAlgorithms.EncryptUsingPropertiesAlgorithm.Encrypt
+  nameWithType: EncryptUsingPropertiesAlgorithm.Encrypt
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.OtherEncryptionAlgorithm
+  name: OtherEncryptionAlgorithm
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.OtherEncryptionAlgorithm.html
+  commentId: T:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.OtherEncryptionAlgorithm
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.OtherEncryptionAlgorithm
+  nameWithType: OtherEncryptionAlgorithm
+- uid: GRYLibrary.Core.CryptoSystems.HashAlgorithm
+  name: HashAlgorithm
+  href: api/GRYLibrary.Core.CryptoSystems.HashAlgorithm.html
+  commentId: T:GRYLibrary.Core.CryptoSystems.HashAlgorithm
+  fullName: GRYLibrary.Core.CryptoSystems.HashAlgorithm
+  nameWithType: HashAlgorithm
+- uid: GRYLibrary.Core.CryptoSystems.HashAlgorithm.Hash(System.Byte[])
+  name: Hash(Byte[])
+  href: api/GRYLibrary.Core.CryptoSystems.HashAlgorithm.html#GRYLibrary_Core_CryptoSystems_HashAlgorithm_Hash_System_Byte___
+  commentId: M:GRYLibrary.Core.CryptoSystems.HashAlgorithm.Hash(System.Byte[])
+  name.vb: Hash(Byte())
+  fullName: GRYLibrary.Core.CryptoSystems.HashAlgorithm.Hash(System.Byte[])
+  fullName.vb: GRYLibrary.Core.CryptoSystems.HashAlgorithm.Hash(System.Byte())
+  nameWithType: HashAlgorithm.Hash(Byte[])
+  nameWithType.vb: HashAlgorithm.Hash(Byte())
+- uid: GRYLibrary.Core.CryptoSystems.HashAlgorithm.Hash(System.String)
+  name: Hash(String)
+  href: api/GRYLibrary.Core.CryptoSystems.HashAlgorithm.html#GRYLibrary_Core_CryptoSystems_HashAlgorithm_Hash_System_String_
+  commentId: M:GRYLibrary.Core.CryptoSystems.HashAlgorithm.Hash(System.String)
+  fullName: GRYLibrary.Core.CryptoSystems.HashAlgorithm.Hash(System.String)
+  nameWithType: HashAlgorithm.Hash(String)
+- uid: GRYLibrary.Core.CryptoSystems.HashAlgorithm.Hash*
+  name: Hash
+  href: api/GRYLibrary.Core.CryptoSystems.HashAlgorithm.html#GRYLibrary_Core_CryptoSystems_HashAlgorithm_Hash_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.HashAlgorithm.Hash
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.HashAlgorithm.Hash
+  nameWithType: HashAlgorithm.Hash
 - uid: GRYLibrary.Core.EarleyParser
   name: EarleyParser
   href: api/GRYLibrary.Core.EarleyParser.html
@@ -9595,6 +10339,54 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.TaskQueue.Start
   nameWithType: TaskQueue.Start
+- uid: GRYLibrary.Core.TestKind
+  name: TestKind
+  href: api/GRYLibrary.Core.TestKind.html
+  commentId: T:GRYLibrary.Core.TestKind
+  fullName: GRYLibrary.Core.TestKind
+  nameWithType: TestKind
+- uid: GRYLibrary.Core.TestKind.DebugHelperTest
+  name: DebugHelperTest
+  href: api/GRYLibrary.Core.TestKind.html#GRYLibrary_Core_TestKind_DebugHelperTest
+  commentId: F:GRYLibrary.Core.TestKind.DebugHelperTest
+  fullName: GRYLibrary.Core.TestKind.DebugHelperTest
+  nameWithType: TestKind.DebugHelperTest
+- uid: GRYLibrary.Core.TestKind.DemonstrationTest
+  name: DemonstrationTest
+  href: api/GRYLibrary.Core.TestKind.html#GRYLibrary_Core_TestKind_DemonstrationTest
+  commentId: F:GRYLibrary.Core.TestKind.DemonstrationTest
+  fullName: GRYLibrary.Core.TestKind.DemonstrationTest
+  nameWithType: TestKind.DemonstrationTest
+- uid: GRYLibrary.Core.TestKind.IntegrationTest
+  name: IntegrationTest
+  href: api/GRYLibrary.Core.TestKind.html#GRYLibrary_Core_TestKind_IntegrationTest
+  commentId: F:GRYLibrary.Core.TestKind.IntegrationTest
+  fullName: GRYLibrary.Core.TestKind.IntegrationTest
+  nameWithType: TestKind.IntegrationTest
+- uid: GRYLibrary.Core.TestKind.ReflectionTest
+  name: ReflectionTest
+  href: api/GRYLibrary.Core.TestKind.html#GRYLibrary_Core_TestKind_ReflectionTest
+  commentId: F:GRYLibrary.Core.TestKind.ReflectionTest
+  fullName: GRYLibrary.Core.TestKind.ReflectionTest
+  nameWithType: TestKind.ReflectionTest
+- uid: GRYLibrary.Core.TestKind.RegressionTest
+  name: RegressionTest
+  href: api/GRYLibrary.Core.TestKind.html#GRYLibrary_Core_TestKind_RegressionTest
+  commentId: F:GRYLibrary.Core.TestKind.RegressionTest
+  fullName: GRYLibrary.Core.TestKind.RegressionTest
+  nameWithType: TestKind.RegressionTest
+- uid: GRYLibrary.Core.TestKind.SystemTest
+  name: SystemTest
+  href: api/GRYLibrary.Core.TestKind.html#GRYLibrary_Core_TestKind_SystemTest
+  commentId: F:GRYLibrary.Core.TestKind.SystemTest
+  fullName: GRYLibrary.Core.TestKind.SystemTest
+  nameWithType: TestKind.SystemTest
+- uid: GRYLibrary.Core.TestKind.UnitTest
+  name: UnitTest
+  href: api/GRYLibrary.Core.TestKind.html#GRYLibrary_Core_TestKind_UnitTest
+  commentId: F:GRYLibrary.Core.TestKind.UnitTest
+  fullName: GRYLibrary.Core.TestKind.UnitTest
+  nameWithType: TestKind.UnitTest
 - uid: GRYLibrary.Core.Tree
   name: GRYLibrary.Core.Tree
   href: api/GRYLibrary.Core.Tree.html
@@ -10077,6 +10869,22 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ByteArrayToHexString
   nameWithType: Utilities.ByteArrayToHexString
+- uid: GRYLibrary.Core.Utilities.ByteArrayToInt(System.Byte[])
+  name: ByteArrayToInt(Byte[])
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ByteArrayToInt_System_Byte___
+  commentId: M:GRYLibrary.Core.Utilities.ByteArrayToInt(System.Byte[])
+  name.vb: ByteArrayToInt(Byte())
+  fullName: GRYLibrary.Core.Utilities.ByteArrayToInt(System.Byte[])
+  fullName.vb: GRYLibrary.Core.Utilities.ByteArrayToInt(System.Byte())
+  nameWithType: Utilities.ByteArrayToInt(Byte[])
+  nameWithType.vb: Utilities.ByteArrayToInt(Byte())
+- uid: GRYLibrary.Core.Utilities.ByteArrayToInt*
+  name: ByteArrayToInt
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ByteArrayToInt_
+  commentId: Overload:GRYLibrary.Core.Utilities.ByteArrayToInt
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.ByteArrayToInt
+  nameWithType: Utilities.ByteArrayToInt
 - uid: GRYLibrary.Core.Utilities.CalculateCosineSimilarity(System.String,System.String)
   name: CalculateCosineSimilarity(String, String)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_CalculateCosineSimilarity_System_String_System_String_
@@ -10142,6 +10950,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.CalculateLevenshteinSimilarity
   nameWithType: Utilities.CalculateLevenshteinSimilarity
+- uid: GRYLibrary.Core.Utilities.Cast(System.Object,System.Type)
+  name: Cast(Object, Type)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_Cast_System_Object_System_Type_
+  commentId: M:GRYLibrary.Core.Utilities.Cast(System.Object,System.Type)
+  fullName: GRYLibrary.Core.Utilities.Cast(System.Object, System.Type)
+  nameWithType: Utilities.Cast(Object, Type)
+- uid: GRYLibrary.Core.Utilities.Cast*
+  name: Cast
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_Cast_
+  commentId: Overload:GRYLibrary.Core.Utilities.Cast
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.Cast
+  nameWithType: Utilities.Cast
 - uid: GRYLibrary.Core.Utilities.ClearFile(System.String)
   name: ClearFile(String)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ClearFile_System_String_
@@ -10162,15 +10983,15 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.Concat
   nameWithType: Utilities.Concat
-- uid: GRYLibrary.Core.Utilities.Concat``1(``0[],``0[])
-  name: Concat<T>(T[], T[])
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_Concat__1___0_____0___
-  commentId: M:GRYLibrary.Core.Utilities.Concat``1(``0[],``0[])
-  name.vb: Concat(Of T)(T(), T())
-  fullName: GRYLibrary.Core.Utilities.Concat<T>(T[], T[])
-  fullName.vb: GRYLibrary.Core.Utilities.Concat(Of T)(T(), T())
-  nameWithType: Utilities.Concat<T>(T[], T[])
-  nameWithType.vb: Utilities.Concat(Of T)(T(), T())
+- uid: GRYLibrary.Core.Utilities.Concat``1(``0[][])
+  name: Concat<T>(T[][])
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_Concat__1___0_____
+  commentId: M:GRYLibrary.Core.Utilities.Concat``1(``0[][])
+  name.vb: Concat(Of T)(T()())
+  fullName: GRYLibrary.Core.Utilities.Concat<T>(T[][])
+  fullName.vb: GRYLibrary.Core.Utilities.Concat(Of T)(T()())
+  nameWithType: Utilities.Concat<T>(T[][])
+  nameWithType.vb: Utilities.Concat(Of T)(T()())
 - uid: GRYLibrary.Core.Utilities.CopyFolderAcrossVolumes(System.String,System.String)
   name: CopyFolderAcrossVolumes(String, String)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_CopyFolderAcrossVolumes_System_String_System_String_
@@ -10197,6 +11018,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.Count
   nameWithType: Utilities.Count
+- uid: GRYLibrary.Core.Utilities.DarkModeEnabled
+  name: DarkModeEnabled()
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DarkModeEnabled
+  commentId: M:GRYLibrary.Core.Utilities.DarkModeEnabled
+  fullName: GRYLibrary.Core.Utilities.DarkModeEnabled()
+  nameWithType: Utilities.DarkModeEnabled()
+- uid: GRYLibrary.Core.Utilities.DarkModeEnabled*
+  name: DarkModeEnabled
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DarkModeEnabled_
+  commentId: Overload:GRYLibrary.Core.Utilities.DarkModeEnabled
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.DarkModeEnabled
+  nameWithType: Utilities.DarkModeEnabled
 - uid: GRYLibrary.Core.Utilities.DeepClone*
   name: DeepClone
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DeepClone_
@@ -10945,12 +11779,12 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GetHexValue
   nameWithType: Utilities.GetHexValue
-- uid: GRYLibrary.Core.Utilities.GetLastGitCommitId(System.String,System.String)
-  name: GetLastGitCommitId(String, String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetLastGitCommitId_System_String_System_String_
-  commentId: M:GRYLibrary.Core.Utilities.GetLastGitCommitId(System.String,System.String)
-  fullName: GRYLibrary.Core.Utilities.GetLastGitCommitId(System.String, System.String)
-  nameWithType: Utilities.GetLastGitCommitId(String, String)
+- uid: GRYLibrary.Core.Utilities.GetLastGitCommitId(System.String,System.String,System.Boolean)
+  name: GetLastGitCommitId(String, String, Boolean)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetLastGitCommitId_System_String_System_String_System_Boolean_
+  commentId: M:GRYLibrary.Core.Utilities.GetLastGitCommitId(System.String,System.String,System.Boolean)
+  fullName: GRYLibrary.Core.Utilities.GetLastGitCommitId(System.String, System.String, System.Boolean)
+  nameWithType: Utilities.GetLastGitCommitId(String, String, Boolean)
 - uid: GRYLibrary.Core.Utilities.GetLastGitCommitId*
   name: GetLastGitCommitId
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetLastGitCommitId_
@@ -11369,6 +12203,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.IntegerToHexString
   nameWithType: Utilities.IntegerToHexString
+- uid: GRYLibrary.Core.Utilities.IntToByteArray(System.Int32)
+  name: IntToByteArray(Int32)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IntToByteArray_System_Int32_
+  commentId: M:GRYLibrary.Core.Utilities.IntToByteArray(System.Int32)
+  fullName: GRYLibrary.Core.Utilities.IntToByteArray(System.Int32)
+  nameWithType: Utilities.IntToByteArray(Int32)
+- uid: GRYLibrary.Core.Utilities.IntToByteArray*
+  name: IntToByteArray
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IntToByteArray_
+  commentId: Overload:GRYLibrary.Core.Utilities.IntToByteArray
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.IntToByteArray
+  nameWithType: Utilities.IntToByteArray
 - uid: GRYLibrary.Core.Utilities.IsAbsolutePath(System.String)
   name: IsAbsolutePath(String)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsAbsolutePath_System_String_
@@ -12027,6 +12874,56 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.OpenFileWithDefaultProgram
   nameWithType: Utilities.OpenFileWithDefaultProgram
+- uid: GRYLibrary.Core.Utilities.PadLeft*
+  name: PadLeft
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_PadLeft_
+  commentId: Overload:GRYLibrary.Core.Utilities.PadLeft
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.PadLeft
+  nameWithType: Utilities.PadLeft
+- uid: GRYLibrary.Core.Utilities.PadLeft``1(``0[],``0,System.Int32)
+  name: PadLeft<T>(T[], T, Int32)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_PadLeft__1___0_____0_System_Int32_
+  commentId: M:GRYLibrary.Core.Utilities.PadLeft``1(``0[],``0,System.Int32)
+  name.vb: PadLeft(Of T)(T(), T, Int32)
+  fullName: GRYLibrary.Core.Utilities.PadLeft<T>(T[], T, System.Int32)
+  fullName.vb: GRYLibrary.Core.Utilities.PadLeft(Of T)(T(), T, System.Int32)
+  nameWithType: Utilities.PadLeft<T>(T[], T, Int32)
+  nameWithType.vb: Utilities.PadLeft(Of T)(T(), T, Int32)
+- uid: GRYLibrary.Core.Utilities.PadLeft``1(``0[],System.Int32)
+  name: PadLeft<T>(T[], Int32)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_PadLeft__1___0___System_Int32_
+  commentId: M:GRYLibrary.Core.Utilities.PadLeft``1(``0[],System.Int32)
+  name.vb: PadLeft(Of T)(T(), Int32)
+  fullName: GRYLibrary.Core.Utilities.PadLeft<T>(T[], System.Int32)
+  fullName.vb: GRYLibrary.Core.Utilities.PadLeft(Of T)(T(), System.Int32)
+  nameWithType: Utilities.PadLeft<T>(T[], Int32)
+  nameWithType.vb: Utilities.PadLeft(Of T)(T(), Int32)
+- uid: GRYLibrary.Core.Utilities.PadRight*
+  name: PadRight
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_PadRight_
+  commentId: Overload:GRYLibrary.Core.Utilities.PadRight
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.PadRight
+  nameWithType: Utilities.PadRight
+- uid: GRYLibrary.Core.Utilities.PadRight``1(``0[],``0,System.Int32)
+  name: PadRight<T>(T[], T, Int32)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_PadRight__1___0_____0_System_Int32_
+  commentId: M:GRYLibrary.Core.Utilities.PadRight``1(``0[],``0,System.Int32)
+  name.vb: PadRight(Of T)(T(), T, Int32)
+  fullName: GRYLibrary.Core.Utilities.PadRight<T>(T[], T, System.Int32)
+  fullName.vb: GRYLibrary.Core.Utilities.PadRight(Of T)(T(), T, System.Int32)
+  nameWithType: Utilities.PadRight<T>(T[], T, Int32)
+  nameWithType.vb: Utilities.PadRight(Of T)(T(), T, Int32)
+- uid: GRYLibrary.Core.Utilities.PadRight``1(``0[],System.Int32)
+  name: PadRight<T>(T[], Int32)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_PadRight__1___0___System_Int32_
+  commentId: M:GRYLibrary.Core.Utilities.PadRight``1(``0[],System.Int32)
+  name.vb: PadRight(Of T)(T(), Int32)
+  fullName: GRYLibrary.Core.Utilities.PadRight<T>(T[], System.Int32)
+  fullName.vb: GRYLibrary.Core.Utilities.PadRight(Of T)(T(), System.Int32)
+  nameWithType: Utilities.PadRight<T>(T[], Int32)
+  nameWithType.vb: Utilities.PadRight(Of T)(T(), Int32)
 - uid: GRYLibrary.Core.Utilities.PersistToDisk*
   name: PersistToDisk
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_PersistToDisk_
@@ -12312,6 +13209,51 @@ references:
   fullName.vb: GRYLibrary.Core.Utilities.Shuffle(Of T)(System.Collections.Generic.IList(Of T))
   nameWithType: Utilities.Shuffle<T>(IList<T>)
   nameWithType.vb: Utilities.Shuffle(Of T)(IList(Of T))
+- uid: GRYLibrary.Core.Utilities.SimpleByteArrayToString(System.Byte[])
+  name: SimpleByteArrayToString(Byte[])
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_SimpleByteArrayToString_System_Byte___
+  commentId: M:GRYLibrary.Core.Utilities.SimpleByteArrayToString(System.Byte[])
+  name.vb: SimpleByteArrayToString(Byte())
+  fullName: GRYLibrary.Core.Utilities.SimpleByteArrayToString(System.Byte[])
+  fullName.vb: GRYLibrary.Core.Utilities.SimpleByteArrayToString(System.Byte())
+  nameWithType: Utilities.SimpleByteArrayToString(Byte[])
+  nameWithType.vb: Utilities.SimpleByteArrayToString(Byte())
+- uid: GRYLibrary.Core.Utilities.SimpleByteArrayToString*
+  name: SimpleByteArrayToString
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_SimpleByteArrayToString_
+  commentId: Overload:GRYLibrary.Core.Utilities.SimpleByteArrayToString
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.SimpleByteArrayToString
+  nameWithType: Utilities.SimpleByteArrayToString
+- uid: GRYLibrary.Core.Utilities.SimpleStringToByteArray(System.String)
+  name: SimpleStringToByteArray(String)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_SimpleStringToByteArray_System_String_
+  commentId: M:GRYLibrary.Core.Utilities.SimpleStringToByteArray(System.String)
+  fullName: GRYLibrary.Core.Utilities.SimpleStringToByteArray(System.String)
+  nameWithType: Utilities.SimpleStringToByteArray(String)
+- uid: GRYLibrary.Core.Utilities.SimpleStringToByteArray*
+  name: SimpleStringToByteArray
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_SimpleStringToByteArray_
+  commentId: Overload:GRYLibrary.Core.Utilities.SimpleStringToByteArray
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.SimpleStringToByteArray
+  nameWithType: Utilities.SimpleStringToByteArray
+- uid: GRYLibrary.Core.Utilities.Split*
+  name: Split
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_Split_
+  commentId: Overload:GRYLibrary.Core.Utilities.Split
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.Split
+  nameWithType: Utilities.Split
+- uid: GRYLibrary.Core.Utilities.Split``1(``0[],System.Int32)
+  name: Split<T>(T[], Int32)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_Split__1___0___System_Int32_
+  commentId: M:GRYLibrary.Core.Utilities.Split``1(``0[],System.Int32)
+  name.vb: Split(Of T)(T(), Int32)
+  fullName: GRYLibrary.Core.Utilities.Split<T>(T[], System.Int32)
+  fullName.vb: GRYLibrary.Core.Utilities.Split(Of T)(T(), System.Int32)
+  nameWithType: Utilities.Split<T>(T[], Int32)
+  nameWithType.vb: Utilities.Split(Of T)(T(), Int32)
 - uid: GRYLibrary.Core.Utilities.StartsWith*
   name: StartsWith
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_StartsWith_
@@ -12341,19 +13283,6 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.StringToBoolean
   nameWithType: Utilities.StringToBoolean
-- uid: GRYLibrary.Core.Utilities.StringToByteArray(System.String)
-  name: StringToByteArray(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_StringToByteArray_System_String_
-  commentId: M:GRYLibrary.Core.Utilities.StringToByteArray(System.String)
-  fullName: GRYLibrary.Core.Utilities.StringToByteArray(System.String)
-  nameWithType: Utilities.StringToByteArray(String)
-- uid: GRYLibrary.Core.Utilities.StringToByteArray*
-  name: StringToByteArray
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_StringToByteArray_
-  commentId: Overload:GRYLibrary.Core.Utilities.StringToByteArray
-  isSpec: "True"
-  fullName: GRYLibrary.Core.Utilities.StringToByteArray
-  nameWithType: Utilities.StringToByteArray
 - uid: GRYLibrary.Core.Utilities.ToCamelCase(System.String)
   name: ToCamelCase(String)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToCamelCase_System_String_
