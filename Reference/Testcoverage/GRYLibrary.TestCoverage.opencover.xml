@@ -2,9 +2,9 @@
 <CoverageSession>
   <Summary numSequencePoints="4120" visitedSequencePoints="0" numBranchPoints="1682" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2469" minCyclomaticComplexity="2469" visitedClasses="0" numClasses="123" visitedMethods="0" numMethods="1156" />
   <Modules>
-    <Module hash="BFFE8BF3-FE31-43C6-9937-6E809D162B4B">
+    <Module hash="CF0E57D1-11E3-4750-9A80-6522A22265CC">
       <ModulePath>GRYLibrary.dll</ModulePath>
-      <ModuleTime>2021-01-31T10:35:22</ModuleTime>
+      <ModuleTime>2021-01-31T10:56:18</ModuleTime>
       <ModuleName>GRYLibrary</ModuleName>
       <Files>
         <File uid="1" fullPath="C:\Data\Projects\Common\GRYLibraryBuild\Submodules\GRYLibrary\GRYLibrary\Core\ByteArray.cs" />

@@ -2484,7 +2484,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static GitCommandResult ExecuteGitCommand(string repositoryFolder, string argument, bool throwErrorIfExitCodeIsNotZero = false, int? timeoutInMilliseconds = default(int? ), bool printErrorsAsInformation = false, bool writeOutputConsole = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public static GitCommandResult ExecuteGitCommand(string repositoryFolder, string argument, bool throwErrorIfExitCodeIsNotZero = false, int? timeoutInMilliseconds = default(int? ), bool printErrorsAsInformation = false, bool writeOutputToConsole = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2523,7 +2523,7 @@
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">writeOutputConsole</span></td>
+        <td><span class="parametername">writeOutputToConsole</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -3698,7 +3698,7 @@ tuple.Item1 represents the remote-branchname.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetLastGitCommitId(string repositoryFolder, string revision = &quot;HEAD&quot;, bool writeOutputConsole = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string GetLastGitCommitId(string repositoryFolder, string revision = &quot;HEAD&quot;, bool writeOutputToConsole = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3722,7 +3722,7 @@ tuple.Item1 represents the remote-branchname.</p>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">writeOutputConsole</span></td>
+        <td><span class="parametername">writeOutputToConsole</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -4316,7 +4316,7 @@ tuple.Item1 represents the remote-branchname.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GitCommit(string repositoryFolder, string commitMessage, out bool commitWasCreated, bool writeOutputConsole = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string GitCommit(string repositoryFolder, string commitMessage, out bool commitWasCreated, bool writeOutputToConsole = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -4348,7 +4348,7 @@ tuple.Item1 represents the remote-branchname.</p>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">writeOutputConsole</span></td>
+        <td><span class="parametername">writeOutputToConsole</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -4393,7 +4393,7 @@ tuple.Item1 represents the remote-branchname.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void GitFetch(string repositoryFolder, string remoteName = &quot;--all&quot;, bool printErrorsAsInformation = true, bool writeOutputConsole = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void GitFetch(string repositoryFolder, string remoteName = &quot;--all&quot;, bool printErrorsAsInformation = true, bool writeOutputToConsole = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -4425,7 +4425,7 @@ If really an error occures (=the exit-code of git is not 0) then this function t
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">writeOutputConsole</span></td>
+        <td><span class="parametername">writeOutputToConsole</span></td>
         <td></td>
       </tr>
     </tbody>
