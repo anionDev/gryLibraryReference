@@ -4789,13 +4789,13 @@ If really an error occures (=the exit-code of git is not 0) then this function t
   
   
   <a id="GRYLibrary_Core_Utilities_GitTidyUp_" data-uid="GRYLibrary.Core.Utilities.GitTidyUp*"></a>
-  <h4 id="GRYLibrary_Core_Utilities_GitTidyUp_System_String_" data-uid="GRYLibrary.Core.Utilities.GitTidyUp(System.String)">GitTidyUp(String)</h4>
+  <h4 id="GRYLibrary_Core_Utilities_GitTidyUp_System_String_System_Boolean_" data-uid="GRYLibrary.Core.Utilities.GitTidyUp(System.String,System.Boolean)">GitTidyUp(String, Boolean)</h4>
   <div class="markdown level1 summary"><p>Removes unused internal files in the .git-folder of the given <code data-dev-comment-type="paramref" class="paramref">repositoryFolder</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void GitTidyUp(string repositoryFolder)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void GitTidyUp(string repositoryFolder, bool writeOutputToConsole = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -4812,9 +4812,14 @@ If really an error occures (=the exit-code of git is not 0) then this function t
         <td><span class="parametername">repositoryFolder</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">writeOutputToConsole</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
-  <h5 id="GRYLibrary_Core_Utilities_GitTidyUp_System_String__remarks">Remarks</h5>
+  <h5 id="GRYLibrary_Core_Utilities_GitTidyUp_System_String_System_Boolean__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Warning: After executing this function deleted commits can not be restored because then they are really deleted.</p>
 </div>
   

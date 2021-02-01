@@ -12106,12 +12106,12 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GitRepositoryHasUnstagedChangesOfTrackedFiles
   nameWithType: Utilities.GitRepositoryHasUnstagedChangesOfTrackedFiles
-- uid: GRYLibrary.Core.Utilities.GitTidyUp(System.String)
-  name: GitTidyUp(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitTidyUp_System_String_
-  commentId: M:GRYLibrary.Core.Utilities.GitTidyUp(System.String)
-  fullName: GRYLibrary.Core.Utilities.GitTidyUp(System.String)
-  nameWithType: Utilities.GitTidyUp(String)
+- uid: GRYLibrary.Core.Utilities.GitTidyUp(System.String,System.Boolean)
+  name: GitTidyUp(String, Boolean)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitTidyUp_System_String_System_Boolean_
+  commentId: M:GRYLibrary.Core.Utilities.GitTidyUp(System.String,System.Boolean)
+  fullName: GRYLibrary.Core.Utilities.GitTidyUp(System.String, System.Boolean)
+  nameWithType: Utilities.GitTidyUp(String, Boolean)
 - uid: GRYLibrary.Core.Utilities.GitTidyUp*
   name: GitTidyUp
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GitTidyUp_
