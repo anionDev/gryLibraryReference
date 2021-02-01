@@ -11019,11 +11019,11 @@ references:
   fullName: GRYLibrary.Core.Utilities.Count
   nameWithType: Utilities.Count
 - uid: GRYLibrary.Core.Utilities.DarkModeEnabled
-  name: DarkModeEnabled()
+  name: DarkModeEnabled
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DarkModeEnabled
-  commentId: M:GRYLibrary.Core.Utilities.DarkModeEnabled
-  fullName: GRYLibrary.Core.Utilities.DarkModeEnabled()
-  nameWithType: Utilities.DarkModeEnabled()
+  commentId: P:GRYLibrary.Core.Utilities.DarkModeEnabled
+  fullName: GRYLibrary.Core.Utilities.DarkModeEnabled
+  nameWithType: Utilities.DarkModeEnabled
 - uid: GRYLibrary.Core.Utilities.DarkModeEnabled*
   name: DarkModeEnabled
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DarkModeEnabled_
@@ -11571,6 +11571,22 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.FormatXMLString
   nameWithType: Utilities.FormatXMLString
+- uid: GRYLibrary.Core.Utilities.FuncToObservable*
+  name: FuncToObservable
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_FuncToObservable_
+  commentId: Overload:GRYLibrary.Core.Utilities.FuncToObservable
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.FuncToObservable
+  nameWithType: Utilities.FuncToObservable
+- uid: GRYLibrary.Core.Utilities.FuncToObservable``1(System.Func{``0},System.TimeSpan)
+  name: FuncToObservable<T>(Func<T>, TimeSpan)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_FuncToObservable__1_System_Func___0__System_TimeSpan_
+  commentId: M:GRYLibrary.Core.Utilities.FuncToObservable``1(System.Func{``0},System.TimeSpan)
+  name.vb: FuncToObservable(Of T)(Func(Of T), TimeSpan)
+  fullName: GRYLibrary.Core.Utilities.FuncToObservable<T>(System.Func<T>, System.TimeSpan)
+  fullName.vb: GRYLibrary.Core.Utilities.FuncToObservable(Of T)(System.Func(Of T), System.TimeSpan)
+  nameWithType: Utilities.FuncToObservable<T>(Func<T>, TimeSpan)
+  nameWithType.vb: Utilities.FuncToObservable(Of T)(Func(Of T), TimeSpan)
 - uid: GRYLibrary.Core.Utilities.GetAbsolutePath(System.String,System.String)
   name: GetAbsolutePath(String, String)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetAbsolutePath_System_String_System_String_
