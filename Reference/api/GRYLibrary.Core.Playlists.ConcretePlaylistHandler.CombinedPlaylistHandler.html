@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ByteArray
+    <title>Class CombinedPlaylistHandler
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ByteArray
+    <meta name="title" content="Class CombinedPlaylistHandler
    ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -68,23 +68,32 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="GRYLibrary.Core.ByteArray">
+            <article class="content wrap" id="_content" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler">
   
   
-  <h1 id="GRYLibrary_Core_ByteArray" data-uid="GRYLibrary.Core.ByteArray" class="text-break">Class ByteArray
+  <h1 id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler" class="text-break">Class CombinedPlaylistHandler
   </h1>
-  <div class="markdown level0 summary"><p>Represents a byte-array which can easily used in some common formats (e. g. hex-string).</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ByteArray</span></div>
+    <div class="level1"><span class="xref">CombinedPlaylistHandler</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="GRYLibrary.Core.Playlists.IPlaylistFileHandler.html">IPlaylistFileHandler</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
       <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
     </div>
     <div>
       <span class="xref">System.Object.GetType()</span>
@@ -99,26 +108,33 @@
       <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="GRYLibrary.Core.html">GRYLibrary.Core</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.html">GRYLibrary.Core.Playlists.ConcretePlaylistHandler</a></h6>
   <h6><strong>Assembly</strong>: GRYLibrary.dll</h6>
-  <h5 id="GRYLibrary_Core_ByteArray_syntax">Syntax</h5>
+  <h5 id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ByteArray</code></pre>
+    <pre><code class="lang-csharp hljs">public class CombinedPlaylistHandler : IPlaylistFileHandler</code></pre>
   </div>
-  <h5 id="GRYLibrary_Core_ByteArray_remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level0 remarks"><p>Objects of this type should be treated as unmodifiable.</p>
-</div>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="GRYLibrary_Core_ByteArray__ctor_" data-uid="GRYLibrary.Core.ByteArray.#ctor*"></a>
-  <h4 id="GRYLibrary_Core_ByteArray__ctor_System_Byte___" data-uid="GRYLibrary.Core.ByteArray.#ctor(System.Byte[])">ByteArray(Byte[])</h4>
+  <a id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler__ctor_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.#ctor*"></a>
+  <h4 id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler__ctor" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.#ctor">CombinedPlaylistHandler()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ByteArray(byte[] value)</code></pre>
+    <pre><code class="lang-csharp hljs">public CombinedPlaylistHandler()</code></pre>
+  </div>
+  
+  
+  <a id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler__ctor_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.#ctor*"></a>
+  <h4 id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler__ctor_System_Collections_Generic_IList_System_ValueTuple_System_String_System_String___" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.#ctor(System.Collections.Generic.IList{System.ValueTuple{System.String,System.String}})">CombinedPlaylistHandler(IList&lt;(String, String)&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CombinedPlaylistHandler(IList&lt;(string, string)&gt; defaultMusicFolder)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -131,8 +147,58 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Byte</span>[]</td>
-        <td><span class="parametername">value</span></td>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;&gt;</td>
+        <td><span class="parametername">defaultMusicFolder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_MusicFileExtensions" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.MusicFileExtensions">MusicFileExtensions</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ISet&lt;string&gt; MusicFileExtensions</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.ISet</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_PlaylistFileExtensions" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.PlaylistFileExtensions">PlaylistFileExtensions</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ISet&lt;string&gt; PlaylistFileExtensions</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.ISet</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -141,13 +207,13 @@
   </h3>
   
   
-  <a id="GRYLibrary_Core_ByteArray_Data_" data-uid="GRYLibrary.Core.ByteArray.Data*"></a>
-  <h4 id="GRYLibrary_Core_ByteArray_Data" data-uid="GRYLibrary.Core.ByteArray.Data">Data</h4>
+  <a id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_AllowedFiletypesForMusicFiles_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.AllowedFiletypesForMusicFiles*"></a>
+  <h4 id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_AllowedFiletypesForMusicFiles" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.AllowedFiletypesForMusicFiles">AllowedFiletypesForMusicFiles</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public byte[] Data { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IList&lt;string&gt; AllowedFiletypesForMusicFiles { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -159,20 +225,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="GRYLibrary_Core_ByteArray_DataAsHexString_" data-uid="GRYLibrary.Core.ByteArray.DataAsHexString*"></a>
-  <h4 id="GRYLibrary_Core_ByteArray_DataAsHexString" data-uid="GRYLibrary.Core.ByteArray.DataAsHexString">DataAsHexString</h4>
+  <a id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_DefaultInstance_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.DefaultInstance*"></a>
+  <h4 id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_DefaultInstance" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.DefaultInstance">DefaultInstance</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string DataAsHexString { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static IPlaylistFileHandler DefaultInstance { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -184,20 +250,45 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="GRYLibrary.Core.Playlists.IPlaylistFileHandler.html">IPlaylistFileHandler</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="GRYLibrary_Core_ByteArray_DefaultEncoding_" data-uid="GRYLibrary.Core.ByteArray.DefaultEncoding*"></a>
-  <h4 id="GRYLibrary_Core_ByteArray_DefaultEncoding" data-uid="GRYLibrary.Core.ByteArray.DefaultEncoding">DefaultEncoding</h4>
+  <a id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_DefaultMusicFolder_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.DefaultMusicFolder*"></a>
+  <h4 id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_DefaultMusicFolder" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.DefaultMusicFolder">DefaultMusicFolder</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Encoding DefaultEncoding { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IList&lt;(string, string)&gt; DefaultMusicFolder { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_Encoding_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.Encoding*"></a>
+  <h4 id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_Encoding" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.Encoding">Encoding</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Encoding Encoding { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -218,13 +309,13 @@
   </h3>
   
   
-  <a id="GRYLibrary_Core_ByteArray_Contains_" data-uid="GRYLibrary.Core.ByteArray.Contains*"></a>
-  <h4 id="GRYLibrary_Core_ByteArray_Contains_GRYLibrary_Core_ByteArray_" data-uid="GRYLibrary.Core.ByteArray.Contains(GRYLibrary.Core.ByteArray)">Contains(ByteArray)</h4>
+  <a id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_AddSongsToPlaylist_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.AddSongsToPlaylist*"></a>
+  <h4 id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_AddSongsToPlaylist_System_String_System_Collections_Generic_IEnumerable_System_String__" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.AddSongsToPlaylist(System.String,System.Collections.Generic.IEnumerable{System.String})">AddSongsToPlaylist(String, IEnumerable&lt;String&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Contains(ByteArray value)</code></pre>
+    <pre><code class="lang-csharp hljs">public void AddSongsToPlaylist(string playlistFile, IEnumerable&lt;string&gt; newSongs)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -237,8 +328,277 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="GRYLibrary.Core.ByteArray.html">ByteArray</a></td>
-        <td><span class="parametername">value</span></td>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">playlistFile</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">newSongs</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_CreatePlaylist_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.CreatePlaylist*"></a>
+  <h4 id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_CreatePlaylist_System_String_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.CreatePlaylist(System.String)">CreatePlaylist(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CreatePlaylist(string file)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">file</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_DeleteSongsFromPlaylist_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.DeleteSongsFromPlaylist*"></a>
+  <h4 id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_DeleteSongsFromPlaylist_System_String_System_Collections_Generic_IEnumerable_System_String__" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.DeleteSongsFromPlaylist(System.String,System.Collections.Generic.IEnumerable{System.String})">DeleteSongsFromPlaylist(String, IEnumerable&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DeleteSongsFromPlaylist(string playlistFile, IEnumerable&lt;string&gt; songsToDelete)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">playlistFile</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">songsToDelete</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_GetConcretePlaylistHandler_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GetConcretePlaylistHandler*"></a>
+  <h4 id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_GetConcretePlaylistHandler_System_String_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GetConcretePlaylistHandler(System.String)">GetConcretePlaylistHandler(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IPlaylistFileHandler GetConcretePlaylistHandler(string file)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">file</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GRYLibrary.Core.Playlists.IPlaylistFileHandler.html">IPlaylistFileHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_GetSongs_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GetSongs*"></a>
+  <h4 id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_GetSongs_System_String_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GetSongs(System.String)">GetSongs(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;string&gt; GetSongs(string playlistFile)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">playlistFile</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_GetSongs_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GetSongs*"></a>
+  <h4 id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_GetSongs_System_String_System_Boolean_System_Boolean_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GetSongs(System.String,System.Boolean,System.Boolean)">GetSongs(String, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;string&gt; GetSongs(string musicFileOrPlaylistFileOrFolder, bool removeDuplicatedItems, bool addOnlyExistingMusicFiles)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">musicFileOrPlaylistFileOrFolder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">removeDuplicatedItems</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">addOnlyExistingMusicFiles</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_GetSongsAndExcludedSongs_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GetSongsAndExcludedSongs*"></a>
+  <h4 id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_GetSongsAndExcludedSongs_System_String_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GetSongsAndExcludedSongs(System.String)">GetSongsAndExcludedSongs(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Tuple&lt;IEnumerable&lt;string&gt;, IEnumerable&lt;string&gt;&gt; GetSongsAndExcludedSongs(string playlistFile)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">playlistFile</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Tuple</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;, <span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_IsMusicFile_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.IsMusicFile*"></a>
+  <h4 id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_IsMusicFile_System_String_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.IsMusicFile(System.String)">IsMusicFile(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsMusicFile(string file)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">file</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -260,13 +620,13 @@
   </table>
   
   
-  <a id="GRYLibrary_Core_ByteArray_CreateByHexString_" data-uid="GRYLibrary.Core.ByteArray.CreateByHexString*"></a>
-  <h4 id="GRYLibrary_Core_ByteArray_CreateByHexString_System_String_" data-uid="GRYLibrary.Core.ByteArray.CreateByHexString(System.String)">CreateByHexString(String)</h4>
+  <a id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_IsPlaylistFile_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.IsPlaylistFile*"></a>
+  <h4 id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_IsPlaylistFile_System_String_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.IsPlaylistFile(System.String)">IsPlaylistFile(String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ByteArray CreateByHexString(string value)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool IsPlaylistFile(string file)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -280,247 +640,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="GRYLibrary.Core.ByteArray.html">ByteArray</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="GRYLibrary_Core_ByteArray_CreateByInteger_" data-uid="GRYLibrary.Core.ByteArray.CreateByInteger*"></a>
-  <h4 id="GRYLibrary_Core_ByteArray_CreateByInteger_System_Numerics_BigInteger_" data-uid="GRYLibrary.Core.ByteArray.CreateByInteger(System.Numerics.BigInteger)">CreateByInteger(BigInteger)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ByteArray CreateByInteger(BigInteger value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Numerics.BigInteger</span></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="GRYLibrary.Core.ByteArray.html">ByteArray</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="GRYLibrary_Core_ByteArray_CreateByString_" data-uid="GRYLibrary.Core.ByteArray.CreateByString*"></a>
-  <h4 id="GRYLibrary_Core_ByteArray_CreateByString_System_String_" data-uid="GRYLibrary.Core.ByteArray.CreateByString(System.String)">CreateByString(String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ByteArray CreateByString(string value)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="GRYLibrary.Core.ByteArray.html">ByteArray</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="GRYLibrary_Core_ByteArray_CreateByString_" data-uid="GRYLibrary.Core.ByteArray.CreateByString*"></a>
-  <h4 id="GRYLibrary_Core_ByteArray_CreateByString_System_String_System_Text_Encoding_" data-uid="GRYLibrary.Core.ByteArray.CreateByString(System.String,System.Text.Encoding)">CreateByString(String, Encoding)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ByteArray CreateByString(string value, Encoding encoding)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Text.Encoding</span></td>
-        <td><span class="parametername">encoding</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="GRYLibrary.Core.ByteArray.html">ByteArray</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="GRYLibrary_Core_ByteArray_DecodeToString_" data-uid="GRYLibrary.Core.ByteArray.DecodeToString*"></a>
-  <h4 id="GRYLibrary_Core_ByteArray_DecodeToString" data-uid="GRYLibrary.Core.ByteArray.DecodeToString">DecodeToString()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string DecodeToString()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="GRYLibrary_Core_ByteArray_DecodeToString_" data-uid="GRYLibrary.Core.ByteArray.DecodeToString*"></a>
-  <h4 id="GRYLibrary_Core_ByteArray_DecodeToString_System_Text_Encoding_" data-uid="GRYLibrary.Core.ByteArray.DecodeToString(System.Text.Encoding)">DecodeToString(Encoding)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string DecodeToString(Encoding encoding)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Text.Encoding</span></td>
-        <td><span class="parametername">encoding</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="GRYLibrary_Core_ByteArray_Equals_" data-uid="GRYLibrary.Core.ByteArray.Equals*"></a>
-  <h4 id="GRYLibrary_Core_ByteArray_Equals_System_Object_" data-uid="GRYLibrary.Core.ByteArray.Equals(System.Object)">Equals(Object)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">obj</span></td>
+        <td><span class="parametername">file</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -540,44 +660,15 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Object.Equals(System.Object)</span></div>
   
   
-  <a id="GRYLibrary_Core_ByteArray_GetHashCode_" data-uid="GRYLibrary.Core.ByteArray.GetHashCode*"></a>
-  <h4 id="GRYLibrary_Core_ByteArray_GetHashCode" data-uid="GRYLibrary.Core.ByteArray.GetHashCode">GetHashCode()</h4>
+  <a id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_NormalizePlaylist_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.NormalizePlaylist*"></a>
+  <h4 id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_NormalizePlaylist_System_String_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.NormalizePlaylist(System.String)">NormalizePlaylist(String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Object.GetHashCode()</span></div>
-  
-  
-  <a id="GRYLibrary_Core_ByteArray_StartsWith_" data-uid="GRYLibrary.Core.ByteArray.StartsWith*"></a>
-  <h4 id="GRYLibrary_Core_ByteArray_StartsWith_GRYLibrary_Core_ByteArray_" data-uid="GRYLibrary.Core.ByteArray.StartsWith(GRYLibrary.Core.ByteArray)">StartsWith(ByteArray)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool StartsWith(ByteArray value)</code></pre>
+    <pre><code class="lang-csharp hljs">protected void NormalizePlaylist(string playlistFile)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -590,38 +681,23 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="GRYLibrary.Core.ByteArray.html">ByteArray</a></td>
-        <td><span class="parametername">value</span></td>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">playlistFile</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="operators">Operators
+  <h3 id="eii">Explicit Interface Implementations
   </h3>
   
   
-  <a id="GRYLibrary_Core_ByteArray_op_Addition_" data-uid="GRYLibrary.Core.ByteArray.op_Addition*"></a>
-  <h4 id="GRYLibrary_Core_ByteArray_op_Addition_GRYLibrary_Core_ByteArray_GRYLibrary_Core_ByteArray_" data-uid="GRYLibrary.Core.ByteArray.op_Addition(GRYLibrary.Core.ByteArray,GRYLibrary.Core.ByteArray)">Addition(ByteArray, ByteArray)</h4>
+  <a id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_GRYLibrary_Core_Playlists_IPlaylistFileHandler_NormalizePlaylist_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GRYLibrary#Core#Playlists#IPlaylistFileHandler#NormalizePlaylist*"></a>
+  <h4 id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_GRYLibrary_Core_Playlists_IPlaylistFileHandler_NormalizePlaylist_System_String_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GRYLibrary#Core#Playlists#IPlaylistFileHandler#NormalizePlaylist(System.String)">IPlaylistFileHandler.NormalizePlaylist(String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ByteArray operator +(ByteArray first, ByteArray second)</code></pre>
+    <pre><code class="lang-csharp hljs">void IPlaylistFileHandler.NormalizePlaylist(string playlistFile)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -634,273 +710,25 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="GRYLibrary.Core.ByteArray.html">ByteArray</a></td>
-        <td><span class="parametername">first</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="GRYLibrary.Core.ByteArray.html">ByteArray</a></td>
-        <td><span class="parametername">second</span></td>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">playlistFile</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="GRYLibrary.Core.ByteArray.html">ByteArray</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="GRYLibrary_Core_ByteArray_op_Addition_" data-uid="GRYLibrary.Core.ByteArray.op_Addition*"></a>
-  <h4 id="GRYLibrary_Core_ByteArray_op_Addition_GRYLibrary_Core_ByteArray_System_Byte_" data-uid="GRYLibrary.Core.ByteArray.op_Addition(GRYLibrary.Core.ByteArray,System.Byte)">Addition(ByteArray, Byte)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ByteArray operator +(ByteArray first, byte second)</code></pre>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Playlists.IPlaylistFileHandler.html">IPlaylistFileHandler</a>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="GRYLibrary.Core.ByteArray.html">ByteArray</a></td>
-        <td><span class="parametername">first</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Byte</span></td>
-        <td><span class="parametername">second</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="GRYLibrary.Core.ByteArray.html">ByteArray</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="GRYLibrary_Core_ByteArray_op_Addition_" data-uid="GRYLibrary.Core.ByteArray.op_Addition*"></a>
-  <h4 id="GRYLibrary_Core_ByteArray_op_Addition_GRYLibrary_Core_ByteArray_System_Byte___" data-uid="GRYLibrary.Core.ByteArray.op_Addition(GRYLibrary.Core.ByteArray,System.Byte[])">Addition(ByteArray, Byte[])</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ByteArray operator +(ByteArray first, byte[] second)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="GRYLibrary.Core.ByteArray.html">ByteArray</a></td>
-        <td><span class="parametername">first</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Byte</span>[]</td>
-        <td><span class="parametername">second</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="GRYLibrary.Core.ByteArray.html">ByteArray</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="GRYLibrary_Core_ByteArray_op_Equality_" data-uid="GRYLibrary.Core.ByteArray.op_Equality*"></a>
-  <h4 id="GRYLibrary_Core_ByteArray_op_Equality_GRYLibrary_Core_ByteArray_GRYLibrary_Core_ByteArray_" data-uid="GRYLibrary.Core.ByteArray.op_Equality(GRYLibrary.Core.ByteArray,GRYLibrary.Core.ByteArray)">Equality(ByteArray, ByteArray)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool operator ==(ByteArray first, ByteArray second)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="GRYLibrary.Core.ByteArray.html">ByteArray</a></td>
-        <td><span class="parametername">first</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="GRYLibrary.Core.ByteArray.html">ByteArray</a></td>
-        <td><span class="parametername">second</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="GRYLibrary_Core_ByteArray_op_Inequality_" data-uid="GRYLibrary.Core.ByteArray.op_Inequality*"></a>
-  <h4 id="GRYLibrary_Core_ByteArray_op_Inequality_GRYLibrary_Core_ByteArray_GRYLibrary_Core_ByteArray_" data-uid="GRYLibrary.Core.ByteArray.op_Inequality(GRYLibrary.Core.ByteArray,GRYLibrary.Core.ByteArray)">Inequality(ByteArray, ByteArray)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool operator !=(ByteArray first, ByteArray second)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="GRYLibrary.Core.ByteArray.html">ByteArray</a></td>
-        <td><span class="parametername">first</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="GRYLibrary.Core.ByteArray.html">ByteArray</a></td>
-        <td><span class="parametername">second</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="GRYLibrary_Core_ByteArray_op_Subtraction_" data-uid="GRYLibrary.Core.ByteArray.op_Subtraction*"></a>
-  <h4 id="GRYLibrary_Core_ByteArray_op_Subtraction_GRYLibrary_Core_ByteArray_GRYLibrary_Core_ByteArray_" data-uid="GRYLibrary.Core.ByteArray.op_Subtraction(GRYLibrary.Core.ByteArray,GRYLibrary.Core.ByteArray)">Subtraction(ByteArray, ByteArray)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ByteArray operator -(ByteArray first, ByteArray second)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="GRYLibrary.Core.ByteArray.html">ByteArray</a></td>
-        <td><span class="parametername">first</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="GRYLibrary.Core.ByteArray.html">ByteArray</a></td>
-        <td><span class="parametername">second</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="GRYLibrary.Core.ByteArray.html">ByteArray</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToDynamic_System_Object_">Utilities.ToDynamic(Object)</a>
   </div>
   <div>
       <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_DeepClone__1___0_">Utilities.DeepClone&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_PersistToDisk__1___0_System_String_">Utilities.PersistToDisk&lt;T&gt;(T, String)</a>
   </div>
   <div>
       <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_NullSafeEquals_System_Object_System_Object_">Utilities.NullSafeEquals(Object, Object)</a>

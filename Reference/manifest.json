@@ -588,7 +588,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.ByteArray.html",
-          "hash": "Yp+6m2cn2azSuOmUJeiVMg=="
+          "hash": "9DINzdYIHCtvMln7jRE59w=="
         }
       },
       "is_incremental": false,
@@ -632,11 +632,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp.html",
+          "hash": "PaUjZ1uAnBfBxaUSGHmKoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.yml",
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.html",
-          "hash": "7dwh6tDnkHIaQ1inF6vzLA=="
+          "hash": "BQpHA45NoD5GUq43RiaukQ=="
         }
       },
       "is_incremental": false,
@@ -876,7 +888,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.CryptoSystems.HashAlgorithm.html",
-          "hash": "W1QPTDtAUOmWFmWDyN3dOg=="
+          "hash": "NP3s9ckxc+sCHoJAPjfB0w=="
         }
       },
       "is_incremental": false,
@@ -1052,11 +1064,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.Exceptions.UnexpectedExitCodeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GRYLibrary.Core.Exceptions.UnexpectedExitCodeException.html",
+          "hash": "zssMKFhvgtV7CN5zVmR1KA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.Exceptions.yml",
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.Exceptions.html",
-          "hash": "d5FB7E5Jvc7o3wZ8hqtfpQ=="
+          "hash": "josxGLg83daQMsDVGA8KBw=="
         }
       },
       "is_incremental": false,
@@ -1104,7 +1128,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.ExternalProgramExecutor.html",
-          "hash": "ob4NpqItE4Jr5aCQLUgn0A=="
+          "hash": "HqWfu/lshJVkcfnxz9Ot3g=="
         }
       },
       "is_incremental": false,
@@ -1488,7 +1512,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.Log.GRYLog.html",
-          "hash": "xfFyBur1paYKjGm3fM7QDA=="
+          "hash": "cNxyBMeVYdsJ8pF5NJ21lA=="
         }
       },
       "is_incremental": false,
@@ -1692,7 +1716,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.PercentValue.html",
-          "hash": "16GUX0oQpa6jdGBs7xCSIA=="
+          "hash": "KvTomYj/R+BJ9Xd6LwkrlQ=="
         }
       },
       "is_incremental": false,
@@ -1700,11 +1724,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.Playlists.AbstractPlaylistHandler.yml",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GRYLibrary.Core.Playlists.AbstractPlaylistHandler.html",
-          "hash": "aybnhEz8JIr7OXTThXITCQ=="
+          "relative_path": "api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html",
+          "hash": "U9YFPtdaihii4Oyfz280sA=="
         }
       },
       "is_incremental": false,
@@ -1716,7 +1740,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.html",
-          "hash": "t4rh/uLOptZ6WIIvcPjfYA=="
+          "hash": "0+5zLMwYLJ4+gHcMKoctZg=="
         }
       },
       "is_incremental": false,
@@ -1728,7 +1752,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.html",
-          "hash": "Et3CHLoV37s6gnLdwdfUyA=="
+          "hash": "yP5BttkTlSPverB+3vhzbw=="
         }
       },
       "is_incremental": false,
@@ -1740,7 +1764,19 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.html",
-          "hash": "WDPq4wn9Dcta2ieCzhj1qg=="
+          "hash": "78Zu65RitZbrVRmWIPykFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.Playlists.IPlaylistFileHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GRYLibrary.Core.Playlists.IPlaylistFileHandler.html",
+          "hash": "P0Vb7K0FpaAX4gj/x/gBRQ=="
         }
       },
       "is_incremental": false,
@@ -1752,7 +1788,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.Playlists.html",
-          "hash": "vBxzpP1N7cLPYLUrek5Clw=="
+          "hash": "+rIJKXRJkB5MYwFkFbiKig=="
         }
       },
       "is_incremental": false,
@@ -2040,7 +2076,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.TestKind.html",
-          "hash": "MBCUPVyjHs5dTxG/6iGxQA=="
+          "hash": "56FeAXFMJChOVE5AN+jIEg=="
         }
       },
       "is_incremental": false,
@@ -2120,11 +2156,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.UnexpectedExitCodeException.yml",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.Utilities.Endianness.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GRYLibrary.Core.UnexpectedExitCodeException.html",
-          "hash": "yTI6K7c6RT3TDuQNkcqjYw=="
+          "relative_path": "api/GRYLibrary.Core.Utilities.Endianness.html",
+          "hash": "lrGlaBzj0cCr4ukBqIzSFw=="
         }
       },
       "is_incremental": false,
@@ -2136,7 +2172,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.Utilities.html",
-          "hash": "nsh3qzKXvjbUIiglV3bszQ=="
+          "hash": "kJZdoGQMi+/mg5ToTEa3gQ=="
         }
       },
       "is_incremental": false,
@@ -2172,7 +2208,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.XMLSerializer.SerializableDictionary-2.html",
-          "hash": "uALPq7GoB96cIhyqQ53gFw=="
+          "hash": "X0avLLFBkZ0UZyDxwcD4TA=="
         }
       },
       "is_incremental": false,
@@ -2208,7 +2244,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.html",
-          "hash": "KdIWbivOr3+FW6b4TB00jQ=="
+          "hash": "89rNll/z1yTzN36FC1CR8Q=="
         }
       },
       "is_incremental": false,
@@ -2232,7 +2268,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "N7lt72G+B2BkUbu2qR8ZDg=="
+          "hash": "I17dqSs0oPpx5DwF60DpXw=="
         }
       },
       "is_incremental": false,
@@ -2366,7 +2402,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 172,
+          "total_file_count": 175,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

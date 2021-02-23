@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class M3UHandler
+    <title>Class SHA256PureCSharp
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class M3UHandler
+    <meta name="title" content="Class SHA256PureCSharp
    ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -68,24 +68,28 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler">
+            <article class="content wrap" id="_content" data-uid="GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp">
   
   
-  <h1 id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler" class="text-break">Class M3UHandler
+  <h1 id="GRYLibrary_Core_CryptoSystems_ConcreteHashAlgorithms_SHA256PureCSharp" data-uid="GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp" class="text-break">Class SHA256PureCSharp
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">M3UHandler</span></div>
-  </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="GRYLibrary.Core.Playlists.IPlaylistFileHandler.html">IPlaylistFileHandler</a></div>
+    <div class="level1"><a class="xref" href="GRYLibrary.Core.CryptoSystems.CryptographyAlgorithm.html">CryptographyAlgorithm</a></div>
+    <div class="level2"><a class="xref" href="GRYLibrary.Core.CryptoSystems.HashAlgorithm.html">HashAlgorithm</a></div>
+    <div class="level3"><span class="xref">SHA256PureCSharp</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="GRYLibrary.Core.CryptoSystems.HashAlgorithm.html#GRYLibrary_Core_CryptoSystems_HashAlgorithm_Hash_System_String_">HashAlgorithm.Hash(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="GRYLibrary.Core.CryptoSystems.CryptographyAlgorithm.html#GRYLibrary_Core_CryptoSystems_CryptographyAlgorithm_Encoding">CryptographyAlgorithm.Encoding</a>
+    </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
@@ -108,25 +112,24 @@
       <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.html">GRYLibrary.Core.Playlists.ConcretePlaylistHandler</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.html">GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms</a></h6>
   <h6><strong>Assembly</strong>: GRYLibrary.dll</h6>
-  <h5 id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_syntax">Syntax</h5>
+  <h5 id="GRYLibrary_Core_CryptoSystems_ConcreteHashAlgorithms_SHA256PureCSharp_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class M3UHandler : IPlaylistFileHandler</code></pre>
+    <pre><code class="lang-csharp hljs">public class SHA256PureCSharp : HashAlgorithm</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_Encoding_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.Encoding*"></a>
-  <h4 id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_Encoding" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.Encoding">Encoding</h4>
+  <h4 id="GRYLibrary_Core_CryptoSystems_ConcreteHashAlgorithms_SHA256PureCSharp_H_InitialValue" data-uid="GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp.H_InitialValue">H_InitialValue</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Encoding Encoding { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public uint[] H_InitialValue</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -136,7 +139,31 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Text.Encoding</span></td>
+        <td><span class="xref">System.UInt32</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="GRYLibrary_Core_CryptoSystems_ConcreteHashAlgorithms_SHA256PureCSharp_K_InitialValue" data-uid="GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp.K_InitialValue">K_InitialValue</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint[] K_InitialValue</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span>[]</td>
         <td></td>
       </tr>
     </tbody>
@@ -145,45 +172,40 @@
   </h3>
   
   
-  <a id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_AddSongsToPlaylist_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.AddSongsToPlaylist*"></a>
-  <h4 id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_AddSongsToPlaylist_System_String_System_Collections_Generic_IEnumerable_System_String__" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.AddSongsToPlaylist(System.String,System.Collections.Generic.IEnumerable{System.String})">AddSongsToPlaylist(String, IEnumerable&lt;String&gt;)</h4>
+  <a id="GRYLibrary_Core_CryptoSystems_ConcreteHashAlgorithms_SHA256PureCSharp_GetIdentifier_" data-uid="GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp.GetIdentifier*"></a>
+  <h4 id="GRYLibrary_Core_CryptoSystems_ConcreteHashAlgorithms_SHA256PureCSharp_GetIdentifier" data-uid="GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp.GetIdentifier">GetIdentifier()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AddSongsToPlaylist(string playlistFile, IEnumerable&lt;string&gt; newSongs)</code></pre>
+    <pre><code class="lang-csharp hljs">public override byte[] GetIdentifier()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">playlistFile</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
-        <td><span class="parametername">newSongs</span></td>
+        <td><span class="xref">System.Byte</span>[]</td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="GRYLibrary.Core.CryptoSystems.CryptographyAlgorithm.html#GRYLibrary_Core_CryptoSystems_CryptographyAlgorithm_GetIdentifier">CryptographyAlgorithm.GetIdentifier()</a></div>
   
   
-  <a id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_CreatePlaylist_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.CreatePlaylist*"></a>
-  <h4 id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_CreatePlaylist_System_String_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.CreatePlaylist(System.String)">CreatePlaylist(String)</h4>
+  <a id="GRYLibrary_Core_CryptoSystems_ConcreteHashAlgorithms_SHA256PureCSharp_Hash_" data-uid="GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp.Hash*"></a>
+  <h4 id="GRYLibrary_Core_CryptoSystems_ConcreteHashAlgorithms_SHA256PureCSharp_Hash_System_Byte___" data-uid="GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp.Hash(System.Byte[])">Hash(Byte[])</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void CreatePlaylist(string file)</code></pre>
+    <pre><code class="lang-csharp hljs">public override byte[] Hash(byte[] data)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -196,67 +218,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">file</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_DeleteSongsFromPlaylist_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.DeleteSongsFromPlaylist*"></a>
-  <h4 id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_DeleteSongsFromPlaylist_System_String_System_Collections_Generic_IEnumerable_System_String__" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.DeleteSongsFromPlaylist(System.String,System.Collections.Generic.IEnumerable{System.String})">DeleteSongsFromPlaylist(String, IEnumerable&lt;String&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void DeleteSongsFromPlaylist(string playlistFile, IEnumerable&lt;string&gt; songsToDelete)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">playlistFile</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
-        <td><span class="parametername">songsToDelete</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_GetSongs_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.GetSongs*"></a>
-  <h4 id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_GetSongs_System_String_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.GetSongs(System.String)">GetSongs(String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerable&lt;string&gt; GetSongs(string playlistFile)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">playlistFile</span></td>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">data</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -271,84 +234,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">System.Byte</span>[]</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_GetSongsAndExcludedSongs_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.GetSongsAndExcludedSongs*"></a>
-  <h4 id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_GetSongsAndExcludedSongs_System_String_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.GetSongsAndExcludedSongs(System.String)">GetSongsAndExcludedSongs(String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Tuple&lt;IEnumerable&lt;string&gt;, IEnumerable&lt;string&gt;&gt; GetSongsAndExcludedSongs(string playlistFile)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">playlistFile</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Tuple</span>&lt;<span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;, <span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_NormalizePlaylist_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.NormalizePlaylist*"></a>
-  <h4 id="GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_NormalizePlaylist_System_String_" data-uid="GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.NormalizePlaylist(System.String)">NormalizePlaylist(String)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void NormalizePlaylist(string playlistFile)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">playlistFile</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="GRYLibrary.Core.Playlists.IPlaylistFileHandler.html">IPlaylistFileHandler</a>
-  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="GRYLibrary.Core.CryptoSystems.HashAlgorithm.html#GRYLibrary_Core_CryptoSystems_HashAlgorithm_Hash_System_Byte___">HashAlgorithm.Hash(Byte[])</a></div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToDynamic_System_Object_">Utilities.ToDynamic(Object)</a>

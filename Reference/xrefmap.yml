@@ -1755,6 +1755,21 @@ references:
   commentId: M:GRYLibrary.Core.ByteArray.op_Addition(GRYLibrary.Core.ByteArray,GRYLibrary.Core.ByteArray)
   fullName: GRYLibrary.Core.ByteArray.Addition(GRYLibrary.Core.ByteArray, GRYLibrary.Core.ByteArray)
   nameWithType: ByteArray.Addition(ByteArray, ByteArray)
+- uid: GRYLibrary.Core.ByteArray.op_Addition(GRYLibrary.Core.ByteArray,System.Byte)
+  name: Addition(ByteArray, Byte)
+  href: api/GRYLibrary.Core.ByteArray.html#GRYLibrary_Core_ByteArray_op_Addition_GRYLibrary_Core_ByteArray_System_Byte_
+  commentId: M:GRYLibrary.Core.ByteArray.op_Addition(GRYLibrary.Core.ByteArray,System.Byte)
+  fullName: GRYLibrary.Core.ByteArray.Addition(GRYLibrary.Core.ByteArray, System.Byte)
+  nameWithType: ByteArray.Addition(ByteArray, Byte)
+- uid: GRYLibrary.Core.ByteArray.op_Addition(GRYLibrary.Core.ByteArray,System.Byte[])
+  name: Addition(ByteArray, Byte[])
+  href: api/GRYLibrary.Core.ByteArray.html#GRYLibrary_Core_ByteArray_op_Addition_GRYLibrary_Core_ByteArray_System_Byte___
+  commentId: M:GRYLibrary.Core.ByteArray.op_Addition(GRYLibrary.Core.ByteArray,System.Byte[])
+  name.vb: Addition(ByteArray, Byte())
+  fullName: GRYLibrary.Core.ByteArray.Addition(GRYLibrary.Core.ByteArray, System.Byte[])
+  fullName.vb: GRYLibrary.Core.ByteArray.Addition(GRYLibrary.Core.ByteArray, System.Byte())
+  nameWithType: ByteArray.Addition(ByteArray, Byte[])
+  nameWithType.vb: ByteArray.Addition(ByteArray, Byte())
 - uid: GRYLibrary.Core.ByteArray.op_Addition*
   name: Addition
   href: api/GRYLibrary.Core.ByteArray.html#GRYLibrary_Core_ByteArray_op_Addition_
@@ -1788,6 +1803,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.ByteArray.Inequality
   nameWithType: ByteArray.Inequality
+- uid: GRYLibrary.Core.ByteArray.op_Subtraction(GRYLibrary.Core.ByteArray,GRYLibrary.Core.ByteArray)
+  name: Subtraction(ByteArray, ByteArray)
+  href: api/GRYLibrary.Core.ByteArray.html#GRYLibrary_Core_ByteArray_op_Subtraction_GRYLibrary_Core_ByteArray_GRYLibrary_Core_ByteArray_
+  commentId: M:GRYLibrary.Core.ByteArray.op_Subtraction(GRYLibrary.Core.ByteArray,GRYLibrary.Core.ByteArray)
+  fullName: GRYLibrary.Core.ByteArray.Subtraction(GRYLibrary.Core.ByteArray, GRYLibrary.Core.ByteArray)
+  nameWithType: ByteArray.Subtraction(ByteArray, ByteArray)
+- uid: GRYLibrary.Core.ByteArray.op_Subtraction*
+  name: Subtraction
+  href: api/GRYLibrary.Core.ByteArray.html#GRYLibrary_Core_ByteArray_op_Subtraction_
+  commentId: Overload:GRYLibrary.Core.ByteArray.op_Subtraction
+  isSpec: "True"
+  fullName: GRYLibrary.Core.ByteArray.Subtraction
+  nameWithType: ByteArray.Subtraction
 - uid: GRYLibrary.Core.ByteArray.StartsWith(GRYLibrary.Core.ByteArray)
   name: StartsWith(ByteArray)
   href: api/GRYLibrary.Core.ByteArray.html#GRYLibrary_Core_ByteArray_StartsWith_GRYLibrary_Core_ByteArray_
@@ -1998,6 +2026,53 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256.Hash
   nameWithType: SHA256.Hash
+- uid: GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp
+  name: SHA256PureCSharp
+  href: api/GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp.html
+  commentId: T:GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp
+  fullName: GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp
+  nameWithType: SHA256PureCSharp
+- uid: GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp.GetIdentifier
+  name: GetIdentifier()
+  href: api/GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp.html#GRYLibrary_Core_CryptoSystems_ConcreteHashAlgorithms_SHA256PureCSharp_GetIdentifier
+  commentId: M:GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp.GetIdentifier
+  fullName: GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp.GetIdentifier()
+  nameWithType: SHA256PureCSharp.GetIdentifier()
+- uid: GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp.GetIdentifier*
+  name: GetIdentifier
+  href: api/GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp.html#GRYLibrary_Core_CryptoSystems_ConcreteHashAlgorithms_SHA256PureCSharp_GetIdentifier_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp.GetIdentifier
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp.GetIdentifier
+  nameWithType: SHA256PureCSharp.GetIdentifier
+- uid: GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp.H_InitialValue
+  name: H_InitialValue
+  href: api/GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp.html#GRYLibrary_Core_CryptoSystems_ConcreteHashAlgorithms_SHA256PureCSharp_H_InitialValue
+  commentId: F:GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp.H_InitialValue
+  fullName: GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp.H_InitialValue
+  nameWithType: SHA256PureCSharp.H_InitialValue
+- uid: GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp.Hash(System.Byte[])
+  name: Hash(Byte[])
+  href: api/GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp.html#GRYLibrary_Core_CryptoSystems_ConcreteHashAlgorithms_SHA256PureCSharp_Hash_System_Byte___
+  commentId: M:GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp.Hash(System.Byte[])
+  name.vb: Hash(Byte())
+  fullName: GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp.Hash(System.Byte[])
+  fullName.vb: GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp.Hash(System.Byte())
+  nameWithType: SHA256PureCSharp.Hash(Byte[])
+  nameWithType.vb: SHA256PureCSharp.Hash(Byte())
+- uid: GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp.Hash*
+  name: Hash
+  href: api/GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp.html#GRYLibrary_Core_CryptoSystems_ConcreteHashAlgorithms_SHA256PureCSharp_Hash_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp.Hash
+  isSpec: "True"
+  fullName: GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp.Hash
+  nameWithType: SHA256PureCSharp.Hash
+- uid: GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp.K_InitialValue
+  name: K_InitialValue
+  href: api/GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp.html#GRYLibrary_Core_CryptoSystems_ConcreteHashAlgorithms_SHA256PureCSharp_K_InitialValue
+  commentId: F:GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp.K_InitialValue
+  fullName: GRYLibrary.Core.CryptoSystems.ConcreteHashAlgorithms.SHA256PureCSharp.K_InitialValue
+  nameWithType: SHA256PureCSharp.K_InitialValue
 - uid: GRYLibrary.Core.CryptoSystems.CryptographyAlgorithm
   name: CryptographyAlgorithm
   href: api/GRYLibrary.Core.CryptoSystems.CryptographyAlgorithm.html
@@ -3053,6 +3128,38 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Exceptions.ProcessStartException.ProcessStartException
   nameWithType: ProcessStartException.ProcessStartException
+- uid: GRYLibrary.Core.Exceptions.UnexpectedExitCodeException
+  name: UnexpectedExitCodeException
+  href: api/GRYLibrary.Core.Exceptions.UnexpectedExitCodeException.html
+  commentId: T:GRYLibrary.Core.Exceptions.UnexpectedExitCodeException
+  fullName: GRYLibrary.Core.Exceptions.UnexpectedExitCodeException
+  nameWithType: UnexpectedExitCodeException
+- uid: GRYLibrary.Core.Exceptions.UnexpectedExitCodeException.#ctor(GRYLibrary.Core.ExternalProgramExecutor)
+  name: UnexpectedExitCodeException(ExternalProgramExecutor)
+  href: api/GRYLibrary.Core.Exceptions.UnexpectedExitCodeException.html#GRYLibrary_Core_Exceptions_UnexpectedExitCodeException__ctor_GRYLibrary_Core_ExternalProgramExecutor_
+  commentId: M:GRYLibrary.Core.Exceptions.UnexpectedExitCodeException.#ctor(GRYLibrary.Core.ExternalProgramExecutor)
+  fullName: GRYLibrary.Core.Exceptions.UnexpectedExitCodeException.UnexpectedExitCodeException(GRYLibrary.Core.ExternalProgramExecutor)
+  nameWithType: UnexpectedExitCodeException.UnexpectedExitCodeException(ExternalProgramExecutor)
+- uid: GRYLibrary.Core.Exceptions.UnexpectedExitCodeException.#ctor*
+  name: UnexpectedExitCodeException
+  href: api/GRYLibrary.Core.Exceptions.UnexpectedExitCodeException.html#GRYLibrary_Core_Exceptions_UnexpectedExitCodeException__ctor_
+  commentId: Overload:GRYLibrary.Core.Exceptions.UnexpectedExitCodeException.#ctor
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Exceptions.UnexpectedExitCodeException.UnexpectedExitCodeException
+  nameWithType: UnexpectedExitCodeException.UnexpectedExitCodeException
+- uid: GRYLibrary.Core.Exceptions.UnexpectedExitCodeException.ExecutedProgram
+  name: ExecutedProgram
+  href: api/GRYLibrary.Core.Exceptions.UnexpectedExitCodeException.html#GRYLibrary_Core_Exceptions_UnexpectedExitCodeException_ExecutedProgram
+  commentId: P:GRYLibrary.Core.Exceptions.UnexpectedExitCodeException.ExecutedProgram
+  fullName: GRYLibrary.Core.Exceptions.UnexpectedExitCodeException.ExecutedProgram
+  nameWithType: UnexpectedExitCodeException.ExecutedProgram
+- uid: GRYLibrary.Core.Exceptions.UnexpectedExitCodeException.ExecutedProgram*
+  name: ExecutedProgram
+  href: api/GRYLibrary.Core.Exceptions.UnexpectedExitCodeException.html#GRYLibrary_Core_Exceptions_UnexpectedExitCodeException_ExecutedProgram_
+  commentId: Overload:GRYLibrary.Core.Exceptions.UnexpectedExitCodeException.ExecutedProgram
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Exceptions.UnexpectedExitCodeException.ExecutedProgram
+  nameWithType: UnexpectedExitCodeException.ExecutedProgram
 - uid: GRYLibrary.Core.ExecutionState
   name: ExecutionState
   href: api/GRYLibrary.Core.ExecutionState.html
@@ -3611,6 +3718,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.ExternalProgramExecutor.Title
   nameWithType: ExternalProgramExecutor.Title
+- uid: GRYLibrary.Core.ExternalProgramExecutor.UpdateConsoleTitle
+  name: UpdateConsoleTitle
+  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_UpdateConsoleTitle
+  commentId: P:GRYLibrary.Core.ExternalProgramExecutor.UpdateConsoleTitle
+  fullName: GRYLibrary.Core.ExternalProgramExecutor.UpdateConsoleTitle
+  nameWithType: ExternalProgramExecutor.UpdateConsoleTitle
+- uid: GRYLibrary.Core.ExternalProgramExecutor.UpdateConsoleTitle*
+  name: UpdateConsoleTitle
+  href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_UpdateConsoleTitle_
+  commentId: Overload:GRYLibrary.Core.ExternalProgramExecutor.UpdateConsoleTitle
+  isSpec: "True"
+  fullName: GRYLibrary.Core.ExternalProgramExecutor.UpdateConsoleTitle
+  nameWithType: ExternalProgramExecutor.UpdateConsoleTitle
 - uid: GRYLibrary.Core.ExternalProgramExecutor.WaitUntilTerminated
   name: WaitUntilTerminated()
   href: api/GRYLibrary.Core.ExternalProgramExecutor.html#GRYLibrary_Core_ExternalProgramExecutor_WaitUntilTerminated
@@ -6128,19 +6248,6 @@ references:
   commentId: T:GRYLibrary.Core.Log.GRYLog
   fullName: GRYLibrary.Core.Log.GRYLog
   nameWithType: GRYLog
-- uid: GRYLibrary.Core.Log.GRYLog.#ctor
-  name: GRYLog()
-  href: api/GRYLibrary.Core.Log.GRYLog.html#GRYLibrary_Core_Log_GRYLog__ctor
-  commentId: M:GRYLibrary.Core.Log.GRYLog.#ctor
-  fullName: GRYLibrary.Core.Log.GRYLog.GRYLog()
-  nameWithType: GRYLog.GRYLog()
-- uid: GRYLibrary.Core.Log.GRYLog.#ctor*
-  name: GRYLog
-  href: api/GRYLibrary.Core.Log.GRYLog.html#GRYLibrary_Core_Log_GRYLog__ctor_
-  commentId: Overload:GRYLibrary.Core.Log.GRYLog.#ctor
-  isSpec: "True"
-  fullName: GRYLibrary.Core.Log.GRYLog.GRYLog
-  nameWithType: GRYLog.GRYLog
 - uid: GRYLibrary.Core.Log.GRYLog.BeginScope*
   name: BeginScope
   href: api/GRYLibrary.Core.Log.GRYLog.html#GRYLibrary_Core_Log_GRYLog_BeginScope_
@@ -6189,6 +6296,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Log.GRYLog.Create
   nameWithType: GRYLog.Create
+- uid: GRYLibrary.Core.Log.GRYLog.CreateByConfiguration(GRYLibrary.Core.Log.GRYLogConfiguration)
+  name: CreateByConfiguration(GRYLogConfiguration)
+  href: api/GRYLibrary.Core.Log.GRYLog.html#GRYLibrary_Core_Log_GRYLog_CreateByConfiguration_GRYLibrary_Core_Log_GRYLogConfiguration_
+  commentId: M:GRYLibrary.Core.Log.GRYLog.CreateByConfiguration(GRYLibrary.Core.Log.GRYLogConfiguration)
+  fullName: GRYLibrary.Core.Log.GRYLog.CreateByConfiguration(GRYLibrary.Core.Log.GRYLogConfiguration)
+  nameWithType: GRYLog.CreateByConfiguration(GRYLogConfiguration)
+- uid: GRYLibrary.Core.Log.GRYLog.CreateByConfiguration*
+  name: CreateByConfiguration
+  href: api/GRYLibrary.Core.Log.GRYLog.html#GRYLibrary_Core_Log_GRYLog_CreateByConfiguration_
+  commentId: Overload:GRYLibrary.Core.Log.GRYLog.CreateByConfiguration
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Log.GRYLog.CreateByConfiguration
+  nameWithType: GRYLog.CreateByConfiguration
 - uid: GRYLibrary.Core.Log.GRYLog.CreateByConfigurationFile(System.String)
   name: CreateByConfigurationFile(String)
   href: api/GRYLibrary.Core.Log.GRYLog.html#GRYLibrary_Core_Log_GRYLog_CreateByConfigurationFile_System_String_
@@ -7884,6 +8004,496 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.PercentValue.HundredPercent
   nameWithType: PercentValue.HundredPercent
+- uid: GRYLibrary.Core.PercentValue.op_Addition(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)
+  name: Addition(PercentValue, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Addition_GRYLibrary_Core_PercentValue_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Addition(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.Addition(GRYLibrary.Core.PercentValue, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.Addition(PercentValue, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_Addition(GRYLibrary.Core.PercentValue,System.Decimal)
+  name: Addition(PercentValue, Decimal)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Addition_GRYLibrary_Core_PercentValue_System_Decimal_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Addition(GRYLibrary.Core.PercentValue,System.Decimal)
+  fullName: GRYLibrary.Core.PercentValue.Addition(GRYLibrary.Core.PercentValue, System.Decimal)
+  nameWithType: PercentValue.Addition(PercentValue, Decimal)
+- uid: GRYLibrary.Core.PercentValue.op_Addition(GRYLibrary.Core.PercentValue,System.Double)
+  name: Addition(PercentValue, Double)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Addition_GRYLibrary_Core_PercentValue_System_Double_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Addition(GRYLibrary.Core.PercentValue,System.Double)
+  fullName: GRYLibrary.Core.PercentValue.Addition(GRYLibrary.Core.PercentValue, System.Double)
+  nameWithType: PercentValue.Addition(PercentValue, Double)
+- uid: GRYLibrary.Core.PercentValue.op_Addition(GRYLibrary.Core.PercentValue,System.Int32)
+  name: Addition(PercentValue, Int32)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Addition_GRYLibrary_Core_PercentValue_System_Int32_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Addition(GRYLibrary.Core.PercentValue,System.Int32)
+  fullName: GRYLibrary.Core.PercentValue.Addition(GRYLibrary.Core.PercentValue, System.Int32)
+  nameWithType: PercentValue.Addition(PercentValue, Int32)
+- uid: GRYLibrary.Core.PercentValue.op_Addition(System.Decimal,GRYLibrary.Core.PercentValue)
+  name: Addition(Decimal, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Addition_System_Decimal_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Addition(System.Decimal,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.Addition(System.Decimal, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.Addition(Decimal, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_Addition(System.Double,GRYLibrary.Core.PercentValue)
+  name: Addition(Double, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Addition_System_Double_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Addition(System.Double,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.Addition(System.Double, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.Addition(Double, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_Addition(System.Int32,GRYLibrary.Core.PercentValue)
+  name: Addition(Int32, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Addition_System_Int32_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Addition(System.Int32,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.Addition(System.Int32, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.Addition(Int32, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_Addition*
+  name: Addition
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Addition_
+  commentId: Overload:GRYLibrary.Core.PercentValue.op_Addition
+  isSpec: "True"
+  fullName: GRYLibrary.Core.PercentValue.Addition
+  nameWithType: PercentValue.Addition
+- uid: GRYLibrary.Core.PercentValue.op_Division(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)
+  name: Division(PercentValue, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Division_GRYLibrary_Core_PercentValue_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Division(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.Division(GRYLibrary.Core.PercentValue, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.Division(PercentValue, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_Division(GRYLibrary.Core.PercentValue,System.Decimal)
+  name: Division(PercentValue, Decimal)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Division_GRYLibrary_Core_PercentValue_System_Decimal_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Division(GRYLibrary.Core.PercentValue,System.Decimal)
+  fullName: GRYLibrary.Core.PercentValue.Division(GRYLibrary.Core.PercentValue, System.Decimal)
+  nameWithType: PercentValue.Division(PercentValue, Decimal)
+- uid: GRYLibrary.Core.PercentValue.op_Division(GRYLibrary.Core.PercentValue,System.Double)
+  name: Division(PercentValue, Double)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Division_GRYLibrary_Core_PercentValue_System_Double_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Division(GRYLibrary.Core.PercentValue,System.Double)
+  fullName: GRYLibrary.Core.PercentValue.Division(GRYLibrary.Core.PercentValue, System.Double)
+  nameWithType: PercentValue.Division(PercentValue, Double)
+- uid: GRYLibrary.Core.PercentValue.op_Division(GRYLibrary.Core.PercentValue,System.Int32)
+  name: Division(PercentValue, Int32)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Division_GRYLibrary_Core_PercentValue_System_Int32_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Division(GRYLibrary.Core.PercentValue,System.Int32)
+  fullName: GRYLibrary.Core.PercentValue.Division(GRYLibrary.Core.PercentValue, System.Int32)
+  nameWithType: PercentValue.Division(PercentValue, Int32)
+- uid: GRYLibrary.Core.PercentValue.op_Division(System.Decimal,GRYLibrary.Core.PercentValue)
+  name: Division(Decimal, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Division_System_Decimal_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Division(System.Decimal,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.Division(System.Decimal, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.Division(Decimal, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_Division(System.Double,GRYLibrary.Core.PercentValue)
+  name: Division(Double, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Division_System_Double_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Division(System.Double,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.Division(System.Double, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.Division(Double, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_Division(System.Int32,GRYLibrary.Core.PercentValue)
+  name: Division(Int32, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Division_System_Int32_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Division(System.Int32,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.Division(System.Int32, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.Division(Int32, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_Division*
+  name: Division
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Division_
+  commentId: Overload:GRYLibrary.Core.PercentValue.op_Division
+  isSpec: "True"
+  fullName: GRYLibrary.Core.PercentValue.Division
+  nameWithType: PercentValue.Division
+- uid: GRYLibrary.Core.PercentValue.op_Equality(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)
+  name: Equality(PercentValue, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Equality_GRYLibrary_Core_PercentValue_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Equality(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.Equality(GRYLibrary.Core.PercentValue, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.Equality(PercentValue, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_Equality(GRYLibrary.Core.PercentValue,System.Decimal)
+  name: Equality(PercentValue, Decimal)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Equality_GRYLibrary_Core_PercentValue_System_Decimal_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Equality(GRYLibrary.Core.PercentValue,System.Decimal)
+  fullName: GRYLibrary.Core.PercentValue.Equality(GRYLibrary.Core.PercentValue, System.Decimal)
+  nameWithType: PercentValue.Equality(PercentValue, Decimal)
+- uid: GRYLibrary.Core.PercentValue.op_Equality(GRYLibrary.Core.PercentValue,System.Double)
+  name: Equality(PercentValue, Double)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Equality_GRYLibrary_Core_PercentValue_System_Double_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Equality(GRYLibrary.Core.PercentValue,System.Double)
+  fullName: GRYLibrary.Core.PercentValue.Equality(GRYLibrary.Core.PercentValue, System.Double)
+  nameWithType: PercentValue.Equality(PercentValue, Double)
+- uid: GRYLibrary.Core.PercentValue.op_Equality(GRYLibrary.Core.PercentValue,System.Int32)
+  name: Equality(PercentValue, Int32)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Equality_GRYLibrary_Core_PercentValue_System_Int32_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Equality(GRYLibrary.Core.PercentValue,System.Int32)
+  fullName: GRYLibrary.Core.PercentValue.Equality(GRYLibrary.Core.PercentValue, System.Int32)
+  nameWithType: PercentValue.Equality(PercentValue, Int32)
+- uid: GRYLibrary.Core.PercentValue.op_Equality(System.Decimal,GRYLibrary.Core.PercentValue)
+  name: Equality(Decimal, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Equality_System_Decimal_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Equality(System.Decimal,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.Equality(System.Decimal, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.Equality(Decimal, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_Equality(System.Double,GRYLibrary.Core.PercentValue)
+  name: Equality(Double, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Equality_System_Double_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Equality(System.Double,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.Equality(System.Double, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.Equality(Double, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_Equality(System.Int32,GRYLibrary.Core.PercentValue)
+  name: Equality(Int32, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Equality_System_Int32_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Equality(System.Int32,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.Equality(System.Int32, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.Equality(Int32, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_Equality*
+  name: Equality
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Equality_
+  commentId: Overload:GRYLibrary.Core.PercentValue.op_Equality
+  isSpec: "True"
+  fullName: GRYLibrary.Core.PercentValue.Equality
+  nameWithType: PercentValue.Equality
+- uid: GRYLibrary.Core.PercentValue.op_GreaterThan(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)
+  name: GreaterThan(PercentValue, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_GreaterThan_GRYLibrary_Core_PercentValue_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_GreaterThan(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.GreaterThan(GRYLibrary.Core.PercentValue, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.GreaterThan(PercentValue, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_GreaterThan(GRYLibrary.Core.PercentValue,System.Decimal)
+  name: GreaterThan(PercentValue, Decimal)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_GreaterThan_GRYLibrary_Core_PercentValue_System_Decimal_
+  commentId: M:GRYLibrary.Core.PercentValue.op_GreaterThan(GRYLibrary.Core.PercentValue,System.Decimal)
+  fullName: GRYLibrary.Core.PercentValue.GreaterThan(GRYLibrary.Core.PercentValue, System.Decimal)
+  nameWithType: PercentValue.GreaterThan(PercentValue, Decimal)
+- uid: GRYLibrary.Core.PercentValue.op_GreaterThan(GRYLibrary.Core.PercentValue,System.Double)
+  name: GreaterThan(PercentValue, Double)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_GreaterThan_GRYLibrary_Core_PercentValue_System_Double_
+  commentId: M:GRYLibrary.Core.PercentValue.op_GreaterThan(GRYLibrary.Core.PercentValue,System.Double)
+  fullName: GRYLibrary.Core.PercentValue.GreaterThan(GRYLibrary.Core.PercentValue, System.Double)
+  nameWithType: PercentValue.GreaterThan(PercentValue, Double)
+- uid: GRYLibrary.Core.PercentValue.op_GreaterThan(GRYLibrary.Core.PercentValue,System.Int32)
+  name: GreaterThan(PercentValue, Int32)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_GreaterThan_GRYLibrary_Core_PercentValue_System_Int32_
+  commentId: M:GRYLibrary.Core.PercentValue.op_GreaterThan(GRYLibrary.Core.PercentValue,System.Int32)
+  fullName: GRYLibrary.Core.PercentValue.GreaterThan(GRYLibrary.Core.PercentValue, System.Int32)
+  nameWithType: PercentValue.GreaterThan(PercentValue, Int32)
+- uid: GRYLibrary.Core.PercentValue.op_GreaterThan(System.Decimal,GRYLibrary.Core.PercentValue)
+  name: GreaterThan(Decimal, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_GreaterThan_System_Decimal_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_GreaterThan(System.Decimal,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.GreaterThan(System.Decimal, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.GreaterThan(Decimal, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_GreaterThan(System.Double,GRYLibrary.Core.PercentValue)
+  name: GreaterThan(Double, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_GreaterThan_System_Double_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_GreaterThan(System.Double,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.GreaterThan(System.Double, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.GreaterThan(Double, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_GreaterThan(System.Int32,GRYLibrary.Core.PercentValue)
+  name: GreaterThan(Int32, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_GreaterThan_System_Int32_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_GreaterThan(System.Int32,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.GreaterThan(System.Int32, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.GreaterThan(Int32, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_GreaterThan*
+  name: GreaterThan
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_GreaterThan_
+  commentId: Overload:GRYLibrary.Core.PercentValue.op_GreaterThan
+  isSpec: "True"
+  fullName: GRYLibrary.Core.PercentValue.GreaterThan
+  nameWithType: PercentValue.GreaterThan
+- uid: GRYLibrary.Core.PercentValue.op_GreaterThanOrEqual(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)
+  name: GreaterThanOrEqual(PercentValue, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_GreaterThanOrEqual_GRYLibrary_Core_PercentValue_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_GreaterThanOrEqual(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.GreaterThanOrEqual(GRYLibrary.Core.PercentValue, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.GreaterThanOrEqual(PercentValue, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_GreaterThanOrEqual(GRYLibrary.Core.PercentValue,System.Decimal)
+  name: GreaterThanOrEqual(PercentValue, Decimal)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_GreaterThanOrEqual_GRYLibrary_Core_PercentValue_System_Decimal_
+  commentId: M:GRYLibrary.Core.PercentValue.op_GreaterThanOrEqual(GRYLibrary.Core.PercentValue,System.Decimal)
+  fullName: GRYLibrary.Core.PercentValue.GreaterThanOrEqual(GRYLibrary.Core.PercentValue, System.Decimal)
+  nameWithType: PercentValue.GreaterThanOrEqual(PercentValue, Decimal)
+- uid: GRYLibrary.Core.PercentValue.op_GreaterThanOrEqual(GRYLibrary.Core.PercentValue,System.Double)
+  name: GreaterThanOrEqual(PercentValue, Double)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_GreaterThanOrEqual_GRYLibrary_Core_PercentValue_System_Double_
+  commentId: M:GRYLibrary.Core.PercentValue.op_GreaterThanOrEqual(GRYLibrary.Core.PercentValue,System.Double)
+  fullName: GRYLibrary.Core.PercentValue.GreaterThanOrEqual(GRYLibrary.Core.PercentValue, System.Double)
+  nameWithType: PercentValue.GreaterThanOrEqual(PercentValue, Double)
+- uid: GRYLibrary.Core.PercentValue.op_GreaterThanOrEqual(GRYLibrary.Core.PercentValue,System.Int32)
+  name: GreaterThanOrEqual(PercentValue, Int32)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_GreaterThanOrEqual_GRYLibrary_Core_PercentValue_System_Int32_
+  commentId: M:GRYLibrary.Core.PercentValue.op_GreaterThanOrEqual(GRYLibrary.Core.PercentValue,System.Int32)
+  fullName: GRYLibrary.Core.PercentValue.GreaterThanOrEqual(GRYLibrary.Core.PercentValue, System.Int32)
+  nameWithType: PercentValue.GreaterThanOrEqual(PercentValue, Int32)
+- uid: GRYLibrary.Core.PercentValue.op_GreaterThanOrEqual(System.Decimal,GRYLibrary.Core.PercentValue)
+  name: GreaterThanOrEqual(Decimal, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_GreaterThanOrEqual_System_Decimal_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_GreaterThanOrEqual(System.Decimal,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.GreaterThanOrEqual(System.Decimal, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.GreaterThanOrEqual(Decimal, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_GreaterThanOrEqual(System.Double,GRYLibrary.Core.PercentValue)
+  name: GreaterThanOrEqual(Double, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_GreaterThanOrEqual_System_Double_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_GreaterThanOrEqual(System.Double,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.GreaterThanOrEqual(System.Double, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.GreaterThanOrEqual(Double, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_GreaterThanOrEqual(System.Int32,GRYLibrary.Core.PercentValue)
+  name: GreaterThanOrEqual(Int32, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_GreaterThanOrEqual_System_Int32_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_GreaterThanOrEqual(System.Int32,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.GreaterThanOrEqual(System.Int32, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.GreaterThanOrEqual(Int32, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_GreaterThanOrEqual*
+  name: GreaterThanOrEqual
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_GreaterThanOrEqual_
+  commentId: Overload:GRYLibrary.Core.PercentValue.op_GreaterThanOrEqual
+  isSpec: "True"
+  fullName: GRYLibrary.Core.PercentValue.GreaterThanOrEqual
+  nameWithType: PercentValue.GreaterThanOrEqual
+- uid: GRYLibrary.Core.PercentValue.op_Inequality(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)
+  name: Inequality(PercentValue, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Inequality_GRYLibrary_Core_PercentValue_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Inequality(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.Inequality(GRYLibrary.Core.PercentValue, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.Inequality(PercentValue, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_Inequality(GRYLibrary.Core.PercentValue,System.Decimal)
+  name: Inequality(PercentValue, Decimal)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Inequality_GRYLibrary_Core_PercentValue_System_Decimal_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Inequality(GRYLibrary.Core.PercentValue,System.Decimal)
+  fullName: GRYLibrary.Core.PercentValue.Inequality(GRYLibrary.Core.PercentValue, System.Decimal)
+  nameWithType: PercentValue.Inequality(PercentValue, Decimal)
+- uid: GRYLibrary.Core.PercentValue.op_Inequality(GRYLibrary.Core.PercentValue,System.Double)
+  name: Inequality(PercentValue, Double)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Inequality_GRYLibrary_Core_PercentValue_System_Double_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Inequality(GRYLibrary.Core.PercentValue,System.Double)
+  fullName: GRYLibrary.Core.PercentValue.Inequality(GRYLibrary.Core.PercentValue, System.Double)
+  nameWithType: PercentValue.Inequality(PercentValue, Double)
+- uid: GRYLibrary.Core.PercentValue.op_Inequality(GRYLibrary.Core.PercentValue,System.Int32)
+  name: Inequality(PercentValue, Int32)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Inequality_GRYLibrary_Core_PercentValue_System_Int32_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Inequality(GRYLibrary.Core.PercentValue,System.Int32)
+  fullName: GRYLibrary.Core.PercentValue.Inequality(GRYLibrary.Core.PercentValue, System.Int32)
+  nameWithType: PercentValue.Inequality(PercentValue, Int32)
+- uid: GRYLibrary.Core.PercentValue.op_Inequality(System.Decimal,GRYLibrary.Core.PercentValue)
+  name: Inequality(Decimal, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Inequality_System_Decimal_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Inequality(System.Decimal,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.Inequality(System.Decimal, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.Inequality(Decimal, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_Inequality(System.Double,GRYLibrary.Core.PercentValue)
+  name: Inequality(Double, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Inequality_System_Double_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Inequality(System.Double,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.Inequality(System.Double, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.Inequality(Double, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_Inequality(System.Int32,GRYLibrary.Core.PercentValue)
+  name: Inequality(Int32, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Inequality_System_Int32_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Inequality(System.Int32,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.Inequality(System.Int32, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.Inequality(Int32, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_Inequality*
+  name: Inequality
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Inequality_
+  commentId: Overload:GRYLibrary.Core.PercentValue.op_Inequality
+  isSpec: "True"
+  fullName: GRYLibrary.Core.PercentValue.Inequality
+  nameWithType: PercentValue.Inequality
+- uid: GRYLibrary.Core.PercentValue.op_LessThan(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)
+  name: LessThan(PercentValue, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_LessThan_GRYLibrary_Core_PercentValue_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_LessThan(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.LessThan(GRYLibrary.Core.PercentValue, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.LessThan(PercentValue, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_LessThan(GRYLibrary.Core.PercentValue,System.Decimal)
+  name: LessThan(PercentValue, Decimal)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_LessThan_GRYLibrary_Core_PercentValue_System_Decimal_
+  commentId: M:GRYLibrary.Core.PercentValue.op_LessThan(GRYLibrary.Core.PercentValue,System.Decimal)
+  fullName: GRYLibrary.Core.PercentValue.LessThan(GRYLibrary.Core.PercentValue, System.Decimal)
+  nameWithType: PercentValue.LessThan(PercentValue, Decimal)
+- uid: GRYLibrary.Core.PercentValue.op_LessThan(GRYLibrary.Core.PercentValue,System.Double)
+  name: LessThan(PercentValue, Double)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_LessThan_GRYLibrary_Core_PercentValue_System_Double_
+  commentId: M:GRYLibrary.Core.PercentValue.op_LessThan(GRYLibrary.Core.PercentValue,System.Double)
+  fullName: GRYLibrary.Core.PercentValue.LessThan(GRYLibrary.Core.PercentValue, System.Double)
+  nameWithType: PercentValue.LessThan(PercentValue, Double)
+- uid: GRYLibrary.Core.PercentValue.op_LessThan(GRYLibrary.Core.PercentValue,System.Int32)
+  name: LessThan(PercentValue, Int32)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_LessThan_GRYLibrary_Core_PercentValue_System_Int32_
+  commentId: M:GRYLibrary.Core.PercentValue.op_LessThan(GRYLibrary.Core.PercentValue,System.Int32)
+  fullName: GRYLibrary.Core.PercentValue.LessThan(GRYLibrary.Core.PercentValue, System.Int32)
+  nameWithType: PercentValue.LessThan(PercentValue, Int32)
+- uid: GRYLibrary.Core.PercentValue.op_LessThan(System.Decimal,GRYLibrary.Core.PercentValue)
+  name: LessThan(Decimal, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_LessThan_System_Decimal_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_LessThan(System.Decimal,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.LessThan(System.Decimal, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.LessThan(Decimal, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_LessThan(System.Double,GRYLibrary.Core.PercentValue)
+  name: LessThan(Double, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_LessThan_System_Double_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_LessThan(System.Double,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.LessThan(System.Double, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.LessThan(Double, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_LessThan(System.Int32,GRYLibrary.Core.PercentValue)
+  name: LessThan(Int32, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_LessThan_System_Int32_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_LessThan(System.Int32,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.LessThan(System.Int32, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.LessThan(Int32, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_LessThan*
+  name: LessThan
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_LessThan_
+  commentId: Overload:GRYLibrary.Core.PercentValue.op_LessThan
+  isSpec: "True"
+  fullName: GRYLibrary.Core.PercentValue.LessThan
+  nameWithType: PercentValue.LessThan
+- uid: GRYLibrary.Core.PercentValue.op_LessThanOrEqual(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)
+  name: LessThanOrEqual(PercentValue, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_LessThanOrEqual_GRYLibrary_Core_PercentValue_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_LessThanOrEqual(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.LessThanOrEqual(GRYLibrary.Core.PercentValue, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.LessThanOrEqual(PercentValue, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_LessThanOrEqual(GRYLibrary.Core.PercentValue,System.Decimal)
+  name: LessThanOrEqual(PercentValue, Decimal)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_LessThanOrEqual_GRYLibrary_Core_PercentValue_System_Decimal_
+  commentId: M:GRYLibrary.Core.PercentValue.op_LessThanOrEqual(GRYLibrary.Core.PercentValue,System.Decimal)
+  fullName: GRYLibrary.Core.PercentValue.LessThanOrEqual(GRYLibrary.Core.PercentValue, System.Decimal)
+  nameWithType: PercentValue.LessThanOrEqual(PercentValue, Decimal)
+- uid: GRYLibrary.Core.PercentValue.op_LessThanOrEqual(GRYLibrary.Core.PercentValue,System.Double)
+  name: LessThanOrEqual(PercentValue, Double)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_LessThanOrEqual_GRYLibrary_Core_PercentValue_System_Double_
+  commentId: M:GRYLibrary.Core.PercentValue.op_LessThanOrEqual(GRYLibrary.Core.PercentValue,System.Double)
+  fullName: GRYLibrary.Core.PercentValue.LessThanOrEqual(GRYLibrary.Core.PercentValue, System.Double)
+  nameWithType: PercentValue.LessThanOrEqual(PercentValue, Double)
+- uid: GRYLibrary.Core.PercentValue.op_LessThanOrEqual(GRYLibrary.Core.PercentValue,System.Int32)
+  name: LessThanOrEqual(PercentValue, Int32)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_LessThanOrEqual_GRYLibrary_Core_PercentValue_System_Int32_
+  commentId: M:GRYLibrary.Core.PercentValue.op_LessThanOrEqual(GRYLibrary.Core.PercentValue,System.Int32)
+  fullName: GRYLibrary.Core.PercentValue.LessThanOrEqual(GRYLibrary.Core.PercentValue, System.Int32)
+  nameWithType: PercentValue.LessThanOrEqual(PercentValue, Int32)
+- uid: GRYLibrary.Core.PercentValue.op_LessThanOrEqual(System.Decimal,GRYLibrary.Core.PercentValue)
+  name: LessThanOrEqual(Decimal, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_LessThanOrEqual_System_Decimal_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_LessThanOrEqual(System.Decimal,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.LessThanOrEqual(System.Decimal, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.LessThanOrEqual(Decimal, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_LessThanOrEqual(System.Double,GRYLibrary.Core.PercentValue)
+  name: LessThanOrEqual(Double, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_LessThanOrEqual_System_Double_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_LessThanOrEqual(System.Double,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.LessThanOrEqual(System.Double, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.LessThanOrEqual(Double, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_LessThanOrEqual(System.Int32,GRYLibrary.Core.PercentValue)
+  name: LessThanOrEqual(Int32, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_LessThanOrEqual_System_Int32_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_LessThanOrEqual(System.Int32,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.LessThanOrEqual(System.Int32, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.LessThanOrEqual(Int32, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_LessThanOrEqual*
+  name: LessThanOrEqual
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_LessThanOrEqual_
+  commentId: Overload:GRYLibrary.Core.PercentValue.op_LessThanOrEqual
+  isSpec: "True"
+  fullName: GRYLibrary.Core.PercentValue.LessThanOrEqual
+  nameWithType: PercentValue.LessThanOrEqual
+- uid: GRYLibrary.Core.PercentValue.op_Multiply(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)
+  name: Multiply(PercentValue, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Multiply_GRYLibrary_Core_PercentValue_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Multiply(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.Multiply(GRYLibrary.Core.PercentValue, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.Multiply(PercentValue, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_Multiply(GRYLibrary.Core.PercentValue,System.Decimal)
+  name: Multiply(PercentValue, Decimal)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Multiply_GRYLibrary_Core_PercentValue_System_Decimal_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Multiply(GRYLibrary.Core.PercentValue,System.Decimal)
+  fullName: GRYLibrary.Core.PercentValue.Multiply(GRYLibrary.Core.PercentValue, System.Decimal)
+  nameWithType: PercentValue.Multiply(PercentValue, Decimal)
+- uid: GRYLibrary.Core.PercentValue.op_Multiply(GRYLibrary.Core.PercentValue,System.Double)
+  name: Multiply(PercentValue, Double)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Multiply_GRYLibrary_Core_PercentValue_System_Double_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Multiply(GRYLibrary.Core.PercentValue,System.Double)
+  fullName: GRYLibrary.Core.PercentValue.Multiply(GRYLibrary.Core.PercentValue, System.Double)
+  nameWithType: PercentValue.Multiply(PercentValue, Double)
+- uid: GRYLibrary.Core.PercentValue.op_Multiply(GRYLibrary.Core.PercentValue,System.Int32)
+  name: Multiply(PercentValue, Int32)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Multiply_GRYLibrary_Core_PercentValue_System_Int32_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Multiply(GRYLibrary.Core.PercentValue,System.Int32)
+  fullName: GRYLibrary.Core.PercentValue.Multiply(GRYLibrary.Core.PercentValue, System.Int32)
+  nameWithType: PercentValue.Multiply(PercentValue, Int32)
+- uid: GRYLibrary.Core.PercentValue.op_Multiply(System.Decimal,GRYLibrary.Core.PercentValue)
+  name: Multiply(Decimal, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Multiply_System_Decimal_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Multiply(System.Decimal,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.Multiply(System.Decimal, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.Multiply(Decimal, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_Multiply(System.Double,GRYLibrary.Core.PercentValue)
+  name: Multiply(Double, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Multiply_System_Double_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Multiply(System.Double,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.Multiply(System.Double, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.Multiply(Double, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_Multiply(System.Int32,GRYLibrary.Core.PercentValue)
+  name: Multiply(Int32, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Multiply_System_Int32_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Multiply(System.Int32,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.Multiply(System.Int32, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.Multiply(Int32, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_Multiply*
+  name: Multiply
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Multiply_
+  commentId: Overload:GRYLibrary.Core.PercentValue.op_Multiply
+  isSpec: "True"
+  fullName: GRYLibrary.Core.PercentValue.Multiply
+  nameWithType: PercentValue.Multiply
+- uid: GRYLibrary.Core.PercentValue.op_Subtraction(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)
+  name: Subtraction(PercentValue, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Subtraction_GRYLibrary_Core_PercentValue_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Subtraction(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.Subtraction(GRYLibrary.Core.PercentValue, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.Subtraction(PercentValue, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_Subtraction(GRYLibrary.Core.PercentValue,System.Decimal)
+  name: Subtraction(PercentValue, Decimal)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Subtraction_GRYLibrary_Core_PercentValue_System_Decimal_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Subtraction(GRYLibrary.Core.PercentValue,System.Decimal)
+  fullName: GRYLibrary.Core.PercentValue.Subtraction(GRYLibrary.Core.PercentValue, System.Decimal)
+  nameWithType: PercentValue.Subtraction(PercentValue, Decimal)
+- uid: GRYLibrary.Core.PercentValue.op_Subtraction(GRYLibrary.Core.PercentValue,System.Double)
+  name: Subtraction(PercentValue, Double)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Subtraction_GRYLibrary_Core_PercentValue_System_Double_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Subtraction(GRYLibrary.Core.PercentValue,System.Double)
+  fullName: GRYLibrary.Core.PercentValue.Subtraction(GRYLibrary.Core.PercentValue, System.Double)
+  nameWithType: PercentValue.Subtraction(PercentValue, Double)
+- uid: GRYLibrary.Core.PercentValue.op_Subtraction(GRYLibrary.Core.PercentValue,System.Int32)
+  name: Subtraction(PercentValue, Int32)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Subtraction_GRYLibrary_Core_PercentValue_System_Int32_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Subtraction(GRYLibrary.Core.PercentValue,System.Int32)
+  fullName: GRYLibrary.Core.PercentValue.Subtraction(GRYLibrary.Core.PercentValue, System.Int32)
+  nameWithType: PercentValue.Subtraction(PercentValue, Int32)
+- uid: GRYLibrary.Core.PercentValue.op_Subtraction(System.Decimal,GRYLibrary.Core.PercentValue)
+  name: Subtraction(Decimal, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Subtraction_System_Decimal_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Subtraction(System.Decimal,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.Subtraction(System.Decimal, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.Subtraction(Decimal, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_Subtraction(System.Double,GRYLibrary.Core.PercentValue)
+  name: Subtraction(Double, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Subtraction_System_Double_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Subtraction(System.Double,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.Subtraction(System.Double, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.Subtraction(Double, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_Subtraction(System.Int32,GRYLibrary.Core.PercentValue)
+  name: Subtraction(Int32, PercentValue)
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Subtraction_System_Int32_GRYLibrary_Core_PercentValue_
+  commentId: M:GRYLibrary.Core.PercentValue.op_Subtraction(System.Int32,GRYLibrary.Core.PercentValue)
+  fullName: GRYLibrary.Core.PercentValue.Subtraction(System.Int32, GRYLibrary.Core.PercentValue)
+  nameWithType: PercentValue.Subtraction(Int32, PercentValue)
+- uid: GRYLibrary.Core.PercentValue.op_Subtraction*
+  name: Subtraction
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Subtraction_
+  commentId: Overload:GRYLibrary.Core.PercentValue.op_Subtraction
+  isSpec: "True"
+  fullName: GRYLibrary.Core.PercentValue.Subtraction
+  nameWithType: PercentValue.Subtraction
 - uid: GRYLibrary.Core.PercentValue.Value
   name: Value
   href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_Value
@@ -7929,226 +8539,272 @@ references:
   commentId: N:GRYLibrary.Core.Playlists
   fullName: GRYLibrary.Core.Playlists
   nameWithType: GRYLibrary.Core.Playlists
-- uid: GRYLibrary.Core.Playlists.AbstractPlaylistHandler
-  name: AbstractPlaylistHandler
-  href: api/GRYLibrary.Core.Playlists.AbstractPlaylistHandler.html
-  commentId: T:GRYLibrary.Core.Playlists.AbstractPlaylistHandler
-  fullName: GRYLibrary.Core.Playlists.AbstractPlaylistHandler
-  nameWithType: AbstractPlaylistHandler
-- uid: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.AddSongsToPlaylist(System.String,System.Collections.Generic.IEnumerable{System.String},System.Boolean)
-  name: AddSongsToPlaylist(String, IEnumerable<String>, Boolean)
-  href: api/GRYLibrary.Core.Playlists.AbstractPlaylistHandler.html#GRYLibrary_Core_Playlists_AbstractPlaylistHandler_AddSongsToPlaylist_System_String_System_Collections_Generic_IEnumerable_System_String__System_Boolean_
-  commentId: M:GRYLibrary.Core.Playlists.AbstractPlaylistHandler.AddSongsToPlaylist(System.String,System.Collections.Generic.IEnumerable{System.String},System.Boolean)
-  name.vb: AddSongsToPlaylist(String, IEnumerable(Of String), Boolean)
-  fullName: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.AddSongsToPlaylist(System.String, System.Collections.Generic.IEnumerable<System.String>, System.Boolean)
-  fullName.vb: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.AddSongsToPlaylist(System.String, System.Collections.Generic.IEnumerable(Of System.String), System.Boolean)
-  nameWithType: AbstractPlaylistHandler.AddSongsToPlaylist(String, IEnumerable<String>, Boolean)
-  nameWithType.vb: AbstractPlaylistHandler.AddSongsToPlaylist(String, IEnumerable(Of String), Boolean)
-- uid: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.AddSongsToPlaylist*
-  name: AddSongsToPlaylist
-  href: api/GRYLibrary.Core.Playlists.AbstractPlaylistHandler.html#GRYLibrary_Core_Playlists_AbstractPlaylistHandler_AddSongsToPlaylist_
-  commentId: Overload:GRYLibrary.Core.Playlists.AbstractPlaylistHandler.AddSongsToPlaylist
-  isSpec: "True"
-  fullName: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.AddSongsToPlaylist
-  nameWithType: AbstractPlaylistHandler.AddSongsToPlaylist
-- uid: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.AddSongsToPlaylistImplementation(System.String,System.Collections.Generic.IEnumerable{System.String})
-  name: AddSongsToPlaylistImplementation(String, IEnumerable<String>)
-  href: api/GRYLibrary.Core.Playlists.AbstractPlaylistHandler.html#GRYLibrary_Core_Playlists_AbstractPlaylistHandler_AddSongsToPlaylistImplementation_System_String_System_Collections_Generic_IEnumerable_System_String__
-  commentId: M:GRYLibrary.Core.Playlists.AbstractPlaylistHandler.AddSongsToPlaylistImplementation(System.String,System.Collections.Generic.IEnumerable{System.String})
-  name.vb: AddSongsToPlaylistImplementation(String, IEnumerable(Of String))
-  fullName: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.AddSongsToPlaylistImplementation(System.String, System.Collections.Generic.IEnumerable<System.String>)
-  fullName.vb: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.AddSongsToPlaylistImplementation(System.String, System.Collections.Generic.IEnumerable(Of System.String))
-  nameWithType: AbstractPlaylistHandler.AddSongsToPlaylistImplementation(String, IEnumerable<String>)
-  nameWithType.vb: AbstractPlaylistHandler.AddSongsToPlaylistImplementation(String, IEnumerable(Of String))
-- uid: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.AddSongsToPlaylistImplementation*
-  name: AddSongsToPlaylistImplementation
-  href: api/GRYLibrary.Core.Playlists.AbstractPlaylistHandler.html#GRYLibrary_Core_Playlists_AbstractPlaylistHandler_AddSongsToPlaylistImplementation_
-  commentId: Overload:GRYLibrary.Core.Playlists.AbstractPlaylistHandler.AddSongsToPlaylistImplementation
-  isSpec: "True"
-  fullName: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.AddSongsToPlaylistImplementation
-  nameWithType: AbstractPlaylistHandler.AddSongsToPlaylistImplementation
-- uid: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.AllowedFiletypesForMusicFiles
-  name: AllowedFiletypesForMusicFiles
-  href: api/GRYLibrary.Core.Playlists.AbstractPlaylistHandler.html#GRYLibrary_Core_Playlists_AbstractPlaylistHandler_AllowedFiletypesForMusicFiles
-  commentId: P:GRYLibrary.Core.Playlists.AbstractPlaylistHandler.AllowedFiletypesForMusicFiles
-  fullName: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.AllowedFiletypesForMusicFiles
-  nameWithType: AbstractPlaylistHandler.AllowedFiletypesForMusicFiles
-- uid: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.AllowedFiletypesForMusicFiles*
-  name: AllowedFiletypesForMusicFiles
-  href: api/GRYLibrary.Core.Playlists.AbstractPlaylistHandler.html#GRYLibrary_Core_Playlists_AbstractPlaylistHandler_AllowedFiletypesForMusicFiles_
-  commentId: Overload:GRYLibrary.Core.Playlists.AbstractPlaylistHandler.AllowedFiletypesForMusicFiles
-  isSpec: "True"
-  fullName: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.AllowedFiletypesForMusicFiles
-  nameWithType: AbstractPlaylistHandler.AllowedFiletypesForMusicFiles
-- uid: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.CreatePlaylist(System.String)
-  name: CreatePlaylist(String)
-  href: api/GRYLibrary.Core.Playlists.AbstractPlaylistHandler.html#GRYLibrary_Core_Playlists_AbstractPlaylistHandler_CreatePlaylist_System_String_
-  commentId: M:GRYLibrary.Core.Playlists.AbstractPlaylistHandler.CreatePlaylist(System.String)
-  fullName: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.CreatePlaylist(System.String)
-  nameWithType: AbstractPlaylistHandler.CreatePlaylist(String)
-- uid: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.CreatePlaylist*
-  name: CreatePlaylist
-  href: api/GRYLibrary.Core.Playlists.AbstractPlaylistHandler.html#GRYLibrary_Core_Playlists_AbstractPlaylistHandler_CreatePlaylist_
-  commentId: Overload:GRYLibrary.Core.Playlists.AbstractPlaylistHandler.CreatePlaylist
-  isSpec: "True"
-  fullName: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.CreatePlaylist
-  nameWithType: AbstractPlaylistHandler.CreatePlaylist
-- uid: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.DeleteSongsFromPlaylist(System.String,System.Collections.Generic.IEnumerable{System.String})
-  name: DeleteSongsFromPlaylist(String, IEnumerable<String>)
-  href: api/GRYLibrary.Core.Playlists.AbstractPlaylistHandler.html#GRYLibrary_Core_Playlists_AbstractPlaylistHandler_DeleteSongsFromPlaylist_System_String_System_Collections_Generic_IEnumerable_System_String__
-  commentId: M:GRYLibrary.Core.Playlists.AbstractPlaylistHandler.DeleteSongsFromPlaylist(System.String,System.Collections.Generic.IEnumerable{System.String})
-  name.vb: DeleteSongsFromPlaylist(String, IEnumerable(Of String))
-  fullName: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.DeleteSongsFromPlaylist(System.String, System.Collections.Generic.IEnumerable<System.String>)
-  fullName.vb: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.DeleteSongsFromPlaylist(System.String, System.Collections.Generic.IEnumerable(Of System.String))
-  nameWithType: AbstractPlaylistHandler.DeleteSongsFromPlaylist(String, IEnumerable<String>)
-  nameWithType.vb: AbstractPlaylistHandler.DeleteSongsFromPlaylist(String, IEnumerable(Of String))
-- uid: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.DeleteSongsFromPlaylist*
-  name: DeleteSongsFromPlaylist
-  href: api/GRYLibrary.Core.Playlists.AbstractPlaylistHandler.html#GRYLibrary_Core_Playlists_AbstractPlaylistHandler_DeleteSongsFromPlaylist_
-  commentId: Overload:GRYLibrary.Core.Playlists.AbstractPlaylistHandler.DeleteSongsFromPlaylist
-  isSpec: "True"
-  fullName: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.DeleteSongsFromPlaylist
-  nameWithType: AbstractPlaylistHandler.DeleteSongsFromPlaylist
-- uid: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.DeleteSongsFromPlaylistImplementation(System.String,System.Collections.Generic.IEnumerable{System.String})
-  name: DeleteSongsFromPlaylistImplementation(String, IEnumerable<String>)
-  href: api/GRYLibrary.Core.Playlists.AbstractPlaylistHandler.html#GRYLibrary_Core_Playlists_AbstractPlaylistHandler_DeleteSongsFromPlaylistImplementation_System_String_System_Collections_Generic_IEnumerable_System_String__
-  commentId: M:GRYLibrary.Core.Playlists.AbstractPlaylistHandler.DeleteSongsFromPlaylistImplementation(System.String,System.Collections.Generic.IEnumerable{System.String})
-  name.vb: DeleteSongsFromPlaylistImplementation(String, IEnumerable(Of String))
-  fullName: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.DeleteSongsFromPlaylistImplementation(System.String, System.Collections.Generic.IEnumerable<System.String>)
-  fullName.vb: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.DeleteSongsFromPlaylistImplementation(System.String, System.Collections.Generic.IEnumerable(Of System.String))
-  nameWithType: AbstractPlaylistHandler.DeleteSongsFromPlaylistImplementation(String, IEnumerable<String>)
-  nameWithType.vb: AbstractPlaylistHandler.DeleteSongsFromPlaylistImplementation(String, IEnumerable(Of String))
-- uid: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.DeleteSongsFromPlaylistImplementation*
-  name: DeleteSongsFromPlaylistImplementation
-  href: api/GRYLibrary.Core.Playlists.AbstractPlaylistHandler.html#GRYLibrary_Core_Playlists_AbstractPlaylistHandler_DeleteSongsFromPlaylistImplementation_
-  commentId: Overload:GRYLibrary.Core.Playlists.AbstractPlaylistHandler.DeleteSongsFromPlaylistImplementation
-  isSpec: "True"
-  fullName: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.DeleteSongsFromPlaylistImplementation
-  nameWithType: AbstractPlaylistHandler.DeleteSongsFromPlaylistImplementation
-- uid: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.Encoding
-  name: Encoding
-  href: api/GRYLibrary.Core.Playlists.AbstractPlaylistHandler.html#GRYLibrary_Core_Playlists_AbstractPlaylistHandler_Encoding
-  commentId: P:GRYLibrary.Core.Playlists.AbstractPlaylistHandler.Encoding
-  fullName: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.Encoding
-  nameWithType: AbstractPlaylistHandler.Encoding
-- uid: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.Encoding*
-  name: Encoding
-  href: api/GRYLibrary.Core.Playlists.AbstractPlaylistHandler.html#GRYLibrary_Core_Playlists_AbstractPlaylistHandler_Encoding_
-  commentId: Overload:GRYLibrary.Core.Playlists.AbstractPlaylistHandler.Encoding
-  isSpec: "True"
-  fullName: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.Encoding
-  nameWithType: AbstractPlaylistHandler.Encoding
-- uid: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.ExtensionsOfReadablePlaylists
-  name: ExtensionsOfReadablePlaylists
-  href: api/GRYLibrary.Core.Playlists.AbstractPlaylistHandler.html#GRYLibrary_Core_Playlists_AbstractPlaylistHandler_ExtensionsOfReadablePlaylists
-  commentId: P:GRYLibrary.Core.Playlists.AbstractPlaylistHandler.ExtensionsOfReadablePlaylists
-  fullName: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.ExtensionsOfReadablePlaylists
-  nameWithType: AbstractPlaylistHandler.ExtensionsOfReadablePlaylists
-- uid: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.ExtensionsOfReadablePlaylists*
-  name: ExtensionsOfReadablePlaylists
-  href: api/GRYLibrary.Core.Playlists.AbstractPlaylistHandler.html#GRYLibrary_Core_Playlists_AbstractPlaylistHandler_ExtensionsOfReadablePlaylists_
-  commentId: Overload:GRYLibrary.Core.Playlists.AbstractPlaylistHandler.ExtensionsOfReadablePlaylists
-  isSpec: "True"
-  fullName: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.ExtensionsOfReadablePlaylists
-  nameWithType: AbstractPlaylistHandler.ExtensionsOfReadablePlaylists
-- uid: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.GetConcretePlaylistHandler(System.String)
-  name: GetConcretePlaylistHandler(String)
-  href: api/GRYLibrary.Core.Playlists.AbstractPlaylistHandler.html#GRYLibrary_Core_Playlists_AbstractPlaylistHandler_GetConcretePlaylistHandler_System_String_
-  commentId: M:GRYLibrary.Core.Playlists.AbstractPlaylistHandler.GetConcretePlaylistHandler(System.String)
-  fullName: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.GetConcretePlaylistHandler(System.String)
-  nameWithType: AbstractPlaylistHandler.GetConcretePlaylistHandler(String)
-- uid: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.GetConcretePlaylistHandler*
-  name: GetConcretePlaylistHandler
-  href: api/GRYLibrary.Core.Playlists.AbstractPlaylistHandler.html#GRYLibrary_Core_Playlists_AbstractPlaylistHandler_GetConcretePlaylistHandler_
-  commentId: Overload:GRYLibrary.Core.Playlists.AbstractPlaylistHandler.GetConcretePlaylistHandler
-  isSpec: "True"
-  fullName: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.GetConcretePlaylistHandler
-  nameWithType: AbstractPlaylistHandler.GetConcretePlaylistHandler
-- uid: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.GetSongsFromPlaylist(System.String)
-  name: GetSongsFromPlaylist(String)
-  href: api/GRYLibrary.Core.Playlists.AbstractPlaylistHandler.html#GRYLibrary_Core_Playlists_AbstractPlaylistHandler_GetSongsFromPlaylist_System_String_
-  commentId: M:GRYLibrary.Core.Playlists.AbstractPlaylistHandler.GetSongsFromPlaylist(System.String)
-  fullName: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.GetSongsFromPlaylist(System.String)
-  nameWithType: AbstractPlaylistHandler.GetSongsFromPlaylist(String)
-- uid: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.GetSongsFromPlaylist(System.String,System.Boolean,System.Boolean)
-  name: GetSongsFromPlaylist(String, Boolean, Boolean)
-  href: api/GRYLibrary.Core.Playlists.AbstractPlaylistHandler.html#GRYLibrary_Core_Playlists_AbstractPlaylistHandler_GetSongsFromPlaylist_System_String_System_Boolean_System_Boolean_
-  commentId: M:GRYLibrary.Core.Playlists.AbstractPlaylistHandler.GetSongsFromPlaylist(System.String,System.Boolean,System.Boolean)
-  fullName: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.GetSongsFromPlaylist(System.String, System.Boolean, System.Boolean)
-  nameWithType: AbstractPlaylistHandler.GetSongsFromPlaylist(String, Boolean, Boolean)
-- uid: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.GetSongsFromPlaylist(System.String,System.String,System.Boolean,System.Boolean)
-  name: GetSongsFromPlaylist(String, String, Boolean, Boolean)
-  href: api/GRYLibrary.Core.Playlists.AbstractPlaylistHandler.html#GRYLibrary_Core_Playlists_AbstractPlaylistHandler_GetSongsFromPlaylist_System_String_System_String_System_Boolean_System_Boolean_
-  commentId: M:GRYLibrary.Core.Playlists.AbstractPlaylistHandler.GetSongsFromPlaylist(System.String,System.String,System.Boolean,System.Boolean)
-  fullName: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.GetSongsFromPlaylist(System.String, System.String, System.Boolean, System.Boolean)
-  nameWithType: AbstractPlaylistHandler.GetSongsFromPlaylist(String, String, Boolean, Boolean)
-- uid: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.GetSongsFromPlaylist*
-  name: GetSongsFromPlaylist
-  href: api/GRYLibrary.Core.Playlists.AbstractPlaylistHandler.html#GRYLibrary_Core_Playlists_AbstractPlaylistHandler_GetSongsFromPlaylist_
-  commentId: Overload:GRYLibrary.Core.Playlists.AbstractPlaylistHandler.GetSongsFromPlaylist
-  isSpec: "True"
-  fullName: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.GetSongsFromPlaylist
-  nameWithType: AbstractPlaylistHandler.GetSongsFromPlaylist
-- uid: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.IsAllowedAsPlaylistItem(System.String)
-  name: IsAllowedAsPlaylistItem(String)
-  href: api/GRYLibrary.Core.Playlists.AbstractPlaylistHandler.html#GRYLibrary_Core_Playlists_AbstractPlaylistHandler_IsAllowedAsPlaylistItem_System_String_
-  commentId: M:GRYLibrary.Core.Playlists.AbstractPlaylistHandler.IsAllowedAsPlaylistItem(System.String)
-  fullName: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.IsAllowedAsPlaylistItem(System.String)
-  nameWithType: AbstractPlaylistHandler.IsAllowedAsPlaylistItem(String)
-- uid: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.IsAllowedAsPlaylistItem*
-  name: IsAllowedAsPlaylistItem
-  href: api/GRYLibrary.Core.Playlists.AbstractPlaylistHandler.html#GRYLibrary_Core_Playlists_AbstractPlaylistHandler_IsAllowedAsPlaylistItem_
-  commentId: Overload:GRYLibrary.Core.Playlists.AbstractPlaylistHandler.IsAllowedAsPlaylistItem
-  isSpec: "True"
-  fullName: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.IsAllowedAsPlaylistItem
-  nameWithType: AbstractPlaylistHandler.IsAllowedAsPlaylistItem
-- uid: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.IsReadablePlaylist(System.String)
-  name: IsReadablePlaylist(String)
-  href: api/GRYLibrary.Core.Playlists.AbstractPlaylistHandler.html#GRYLibrary_Core_Playlists_AbstractPlaylistHandler_IsReadablePlaylist_System_String_
-  commentId: M:GRYLibrary.Core.Playlists.AbstractPlaylistHandler.IsReadablePlaylist(System.String)
-  fullName: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.IsReadablePlaylist(System.String)
-  nameWithType: AbstractPlaylistHandler.IsReadablePlaylist(String)
-- uid: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.IsReadablePlaylist*
-  name: IsReadablePlaylist
-  href: api/GRYLibrary.Core.Playlists.AbstractPlaylistHandler.html#GRYLibrary_Core_Playlists_AbstractPlaylistHandler_IsReadablePlaylist_
-  commentId: Overload:GRYLibrary.Core.Playlists.AbstractPlaylistHandler.IsReadablePlaylist
-  isSpec: "True"
-  fullName: GRYLibrary.Core.Playlists.AbstractPlaylistHandler.IsReadablePlaylist
-  nameWithType: AbstractPlaylistHandler.IsReadablePlaylist
 - uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler
   name: GRYLibrary.Core.Playlists.ConcretePlaylistHandler
   href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.html
   commentId: N:GRYLibrary.Core.Playlists.ConcretePlaylistHandler
   fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler
   nameWithType: GRYLibrary.Core.Playlists.ConcretePlaylistHandler
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler
+  name: CombinedPlaylistHandler
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html
+  commentId: T:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler
+  nameWithType: CombinedPlaylistHandler
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.#ctor
+  name: CombinedPlaylistHandler()
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler__ctor
+  commentId: M:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.#ctor
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.CombinedPlaylistHandler()
+  nameWithType: CombinedPlaylistHandler.CombinedPlaylistHandler()
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.#ctor(System.Collections.Generic.IList{System.ValueTuple{System.String,System.String}})
+  name: CombinedPlaylistHandler(IList<(String, String)>)
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler__ctor_System_Collections_Generic_IList_System_ValueTuple_System_String_System_String___
+  commentId: M:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.#ctor(System.Collections.Generic.IList{System.ValueTuple{System.String,System.String}})
+  name.vb: CombinedPlaylistHandler(IList(Of (String, String)))
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.CombinedPlaylistHandler(System.Collections.Generic.IList<System.ValueTuple<System.String, System.String>>)
+  fullName.vb: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.CombinedPlaylistHandler(System.Collections.Generic.IList(Of System.ValueTuple(Of System.String, System.String)))
+  nameWithType: CombinedPlaylistHandler.CombinedPlaylistHandler(IList<(String, String)>)
+  nameWithType.vb: CombinedPlaylistHandler.CombinedPlaylistHandler(IList(Of (String, String)))
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.#ctor*
+  name: CombinedPlaylistHandler
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler__ctor_
+  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.#ctor
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.CombinedPlaylistHandler
+  nameWithType: CombinedPlaylistHandler.CombinedPlaylistHandler
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.AddSongsToPlaylist(System.String,System.Collections.Generic.IEnumerable{System.String})
+  name: AddSongsToPlaylist(String, IEnumerable<String>)
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_AddSongsToPlaylist_System_String_System_Collections_Generic_IEnumerable_System_String__
+  commentId: M:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.AddSongsToPlaylist(System.String,System.Collections.Generic.IEnumerable{System.String})
+  name.vb: AddSongsToPlaylist(String, IEnumerable(Of String))
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.AddSongsToPlaylist(System.String, System.Collections.Generic.IEnumerable<System.String>)
+  fullName.vb: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.AddSongsToPlaylist(System.String, System.Collections.Generic.IEnumerable(Of System.String))
+  nameWithType: CombinedPlaylistHandler.AddSongsToPlaylist(String, IEnumerable<String>)
+  nameWithType.vb: CombinedPlaylistHandler.AddSongsToPlaylist(String, IEnumerable(Of String))
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.AddSongsToPlaylist*
+  name: AddSongsToPlaylist
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_AddSongsToPlaylist_
+  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.AddSongsToPlaylist
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.AddSongsToPlaylist
+  nameWithType: CombinedPlaylistHandler.AddSongsToPlaylist
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.AllowedFiletypesForMusicFiles
+  name: AllowedFiletypesForMusicFiles
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_AllowedFiletypesForMusicFiles
+  commentId: P:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.AllowedFiletypesForMusicFiles
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.AllowedFiletypesForMusicFiles
+  nameWithType: CombinedPlaylistHandler.AllowedFiletypesForMusicFiles
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.AllowedFiletypesForMusicFiles*
+  name: AllowedFiletypesForMusicFiles
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_AllowedFiletypesForMusicFiles_
+  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.AllowedFiletypesForMusicFiles
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.AllowedFiletypesForMusicFiles
+  nameWithType: CombinedPlaylistHandler.AllowedFiletypesForMusicFiles
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.CreatePlaylist(System.String)
+  name: CreatePlaylist(String)
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_CreatePlaylist_System_String_
+  commentId: M:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.CreatePlaylist(System.String)
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.CreatePlaylist(System.String)
+  nameWithType: CombinedPlaylistHandler.CreatePlaylist(String)
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.CreatePlaylist*
+  name: CreatePlaylist
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_CreatePlaylist_
+  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.CreatePlaylist
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.CreatePlaylist
+  nameWithType: CombinedPlaylistHandler.CreatePlaylist
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.DefaultInstance
+  name: DefaultInstance
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_DefaultInstance
+  commentId: P:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.DefaultInstance
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.DefaultInstance
+  nameWithType: CombinedPlaylistHandler.DefaultInstance
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.DefaultInstance*
+  name: DefaultInstance
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_DefaultInstance_
+  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.DefaultInstance
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.DefaultInstance
+  nameWithType: CombinedPlaylistHandler.DefaultInstance
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.DefaultMusicFolder
+  name: DefaultMusicFolder
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_DefaultMusicFolder
+  commentId: P:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.DefaultMusicFolder
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.DefaultMusicFolder
+  nameWithType: CombinedPlaylistHandler.DefaultMusicFolder
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.DefaultMusicFolder*
+  name: DefaultMusicFolder
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_DefaultMusicFolder_
+  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.DefaultMusicFolder
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.DefaultMusicFolder
+  nameWithType: CombinedPlaylistHandler.DefaultMusicFolder
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.DeleteSongsFromPlaylist(System.String,System.Collections.Generic.IEnumerable{System.String})
+  name: DeleteSongsFromPlaylist(String, IEnumerable<String>)
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_DeleteSongsFromPlaylist_System_String_System_Collections_Generic_IEnumerable_System_String__
+  commentId: M:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.DeleteSongsFromPlaylist(System.String,System.Collections.Generic.IEnumerable{System.String})
+  name.vb: DeleteSongsFromPlaylist(String, IEnumerable(Of String))
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.DeleteSongsFromPlaylist(System.String, System.Collections.Generic.IEnumerable<System.String>)
+  fullName.vb: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.DeleteSongsFromPlaylist(System.String, System.Collections.Generic.IEnumerable(Of System.String))
+  nameWithType: CombinedPlaylistHandler.DeleteSongsFromPlaylist(String, IEnumerable<String>)
+  nameWithType.vb: CombinedPlaylistHandler.DeleteSongsFromPlaylist(String, IEnumerable(Of String))
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.DeleteSongsFromPlaylist*
+  name: DeleteSongsFromPlaylist
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_DeleteSongsFromPlaylist_
+  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.DeleteSongsFromPlaylist
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.DeleteSongsFromPlaylist
+  nameWithType: CombinedPlaylistHandler.DeleteSongsFromPlaylist
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.Encoding
+  name: Encoding
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_Encoding
+  commentId: P:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.Encoding
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.Encoding
+  nameWithType: CombinedPlaylistHandler.Encoding
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.Encoding*
+  name: Encoding
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_Encoding_
+  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.Encoding
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.Encoding
+  nameWithType: CombinedPlaylistHandler.Encoding
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GetConcretePlaylistHandler(System.String)
+  name: GetConcretePlaylistHandler(String)
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_GetConcretePlaylistHandler_System_String_
+  commentId: M:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GetConcretePlaylistHandler(System.String)
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GetConcretePlaylistHandler(System.String)
+  nameWithType: CombinedPlaylistHandler.GetConcretePlaylistHandler(String)
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GetConcretePlaylistHandler*
+  name: GetConcretePlaylistHandler
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_GetConcretePlaylistHandler_
+  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GetConcretePlaylistHandler
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GetConcretePlaylistHandler
+  nameWithType: CombinedPlaylistHandler.GetConcretePlaylistHandler
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GetSongs(System.String)
+  name: GetSongs(String)
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_GetSongs_System_String_
+  commentId: M:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GetSongs(System.String)
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GetSongs(System.String)
+  nameWithType: CombinedPlaylistHandler.GetSongs(String)
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GetSongs(System.String,System.Boolean,System.Boolean)
+  name: GetSongs(String, Boolean, Boolean)
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_GetSongs_System_String_System_Boolean_System_Boolean_
+  commentId: M:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GetSongs(System.String,System.Boolean,System.Boolean)
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GetSongs(System.String, System.Boolean, System.Boolean)
+  nameWithType: CombinedPlaylistHandler.GetSongs(String, Boolean, Boolean)
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GetSongs*
+  name: GetSongs
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_GetSongs_
+  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GetSongs
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GetSongs
+  nameWithType: CombinedPlaylistHandler.GetSongs
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GetSongsAndExcludedSongs(System.String)
+  name: GetSongsAndExcludedSongs(String)
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_GetSongsAndExcludedSongs_System_String_
+  commentId: M:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GetSongsAndExcludedSongs(System.String)
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GetSongsAndExcludedSongs(System.String)
+  nameWithType: CombinedPlaylistHandler.GetSongsAndExcludedSongs(String)
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GetSongsAndExcludedSongs*
+  name: GetSongsAndExcludedSongs
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_GetSongsAndExcludedSongs_
+  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GetSongsAndExcludedSongs
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GetSongsAndExcludedSongs
+  nameWithType: CombinedPlaylistHandler.GetSongsAndExcludedSongs
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GRYLibrary#Core#Playlists#IPlaylistFileHandler#NormalizePlaylist(System.String)
+  name: IPlaylistFileHandler.NormalizePlaylist(String)
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_GRYLibrary_Core_Playlists_IPlaylistFileHandler_NormalizePlaylist_System_String_
+  commentId: M:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GRYLibrary#Core#Playlists#IPlaylistFileHandler#NormalizePlaylist(System.String)
+  name.vb: GRYLibrary.Core.Playlists.IPlaylistFileHandler.NormalizePlaylist(String)
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GRYLibrary.Core.Playlists.IPlaylistFileHandler.NormalizePlaylist(System.String)
+  nameWithType: CombinedPlaylistHandler.IPlaylistFileHandler.NormalizePlaylist(String)
+  nameWithType.vb: CombinedPlaylistHandler.GRYLibrary.Core.Playlists.IPlaylistFileHandler.NormalizePlaylist(String)
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GRYLibrary#Core#Playlists#IPlaylistFileHandler#NormalizePlaylist*
+  name: IPlaylistFileHandler.NormalizePlaylist
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_GRYLibrary_Core_Playlists_IPlaylistFileHandler_NormalizePlaylist_
+  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GRYLibrary#Core#Playlists#IPlaylistFileHandler#NormalizePlaylist
+  isSpec: "True"
+  name.vb: GRYLibrary.Core.Playlists.IPlaylistFileHandler.NormalizePlaylist
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.GRYLibrary.Core.Playlists.IPlaylistFileHandler.NormalizePlaylist
+  nameWithType: CombinedPlaylistHandler.IPlaylistFileHandler.NormalizePlaylist
+  nameWithType.vb: CombinedPlaylistHandler.GRYLibrary.Core.Playlists.IPlaylistFileHandler.NormalizePlaylist
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.IsMusicFile(System.String)
+  name: IsMusicFile(String)
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_IsMusicFile_System_String_
+  commentId: M:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.IsMusicFile(System.String)
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.IsMusicFile(System.String)
+  nameWithType: CombinedPlaylistHandler.IsMusicFile(String)
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.IsMusicFile*
+  name: IsMusicFile
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_IsMusicFile_
+  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.IsMusicFile
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.IsMusicFile
+  nameWithType: CombinedPlaylistHandler.IsMusicFile
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.IsPlaylistFile(System.String)
+  name: IsPlaylistFile(String)
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_IsPlaylistFile_System_String_
+  commentId: M:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.IsPlaylistFile(System.String)
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.IsPlaylistFile(System.String)
+  nameWithType: CombinedPlaylistHandler.IsPlaylistFile(String)
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.IsPlaylistFile*
+  name: IsPlaylistFile
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_IsPlaylistFile_
+  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.IsPlaylistFile
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.IsPlaylistFile
+  nameWithType: CombinedPlaylistHandler.IsPlaylistFile
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.MusicFileExtensions
+  name: MusicFileExtensions
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_MusicFileExtensions
+  commentId: F:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.MusicFileExtensions
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.MusicFileExtensions
+  nameWithType: CombinedPlaylistHandler.MusicFileExtensions
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.NormalizePlaylist(System.String)
+  name: NormalizePlaylist(String)
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_NormalizePlaylist_System_String_
+  commentId: M:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.NormalizePlaylist(System.String)
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.NormalizePlaylist(System.String)
+  nameWithType: CombinedPlaylistHandler.NormalizePlaylist(String)
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.NormalizePlaylist*
+  name: NormalizePlaylist
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_NormalizePlaylist_
+  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.NormalizePlaylist
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.NormalizePlaylist
+  nameWithType: CombinedPlaylistHandler.NormalizePlaylist
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.PlaylistFileExtensions
+  name: PlaylistFileExtensions
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_CombinedPlaylistHandler_PlaylistFileExtensions
+  commentId: F:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.PlaylistFileExtensions
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.CombinedPlaylistHandler.PlaylistFileExtensions
+  nameWithType: CombinedPlaylistHandler.PlaylistFileExtensions
 - uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler
   name: M3UHandler
   href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.html
   commentId: T:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler
   fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler
   nameWithType: M3UHandler
-- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.AddSongsToPlaylistImplementation(System.String,System.Collections.Generic.IEnumerable{System.String})
-  name: AddSongsToPlaylistImplementation(String, IEnumerable<String>)
-  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_AddSongsToPlaylistImplementation_System_String_System_Collections_Generic_IEnumerable_System_String__
-  commentId: M:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.AddSongsToPlaylistImplementation(System.String,System.Collections.Generic.IEnumerable{System.String})
-  name.vb: AddSongsToPlaylistImplementation(String, IEnumerable(Of String))
-  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.AddSongsToPlaylistImplementation(System.String, System.Collections.Generic.IEnumerable<System.String>)
-  fullName.vb: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.AddSongsToPlaylistImplementation(System.String, System.Collections.Generic.IEnumerable(Of System.String))
-  nameWithType: M3UHandler.AddSongsToPlaylistImplementation(String, IEnumerable<String>)
-  nameWithType.vb: M3UHandler.AddSongsToPlaylistImplementation(String, IEnumerable(Of String))
-- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.AddSongsToPlaylistImplementation*
-  name: AddSongsToPlaylistImplementation
-  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_AddSongsToPlaylistImplementation_
-  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.AddSongsToPlaylistImplementation
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.AddSongsToPlaylist(System.String,System.Collections.Generic.IEnumerable{System.String})
+  name: AddSongsToPlaylist(String, IEnumerable<String>)
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_AddSongsToPlaylist_System_String_System_Collections_Generic_IEnumerable_System_String__
+  commentId: M:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.AddSongsToPlaylist(System.String,System.Collections.Generic.IEnumerable{System.String})
+  name.vb: AddSongsToPlaylist(String, IEnumerable(Of String))
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.AddSongsToPlaylist(System.String, System.Collections.Generic.IEnumerable<System.String>)
+  fullName.vb: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.AddSongsToPlaylist(System.String, System.Collections.Generic.IEnumerable(Of System.String))
+  nameWithType: M3UHandler.AddSongsToPlaylist(String, IEnumerable<String>)
+  nameWithType.vb: M3UHandler.AddSongsToPlaylist(String, IEnumerable(Of String))
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.AddSongsToPlaylist*
+  name: AddSongsToPlaylist
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_AddSongsToPlaylist_
+  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.AddSongsToPlaylist
   isSpec: "True"
-  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.AddSongsToPlaylistImplementation
-  nameWithType: M3UHandler.AddSongsToPlaylistImplementation
-- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.ConfigurationFileInCurrentFolder
-  name: ConfigurationFileInCurrentFolder
-  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_ConfigurationFileInCurrentFolder
-  commentId: F:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.ConfigurationFileInCurrentFolder
-  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.ConfigurationFileInCurrentFolder
-  nameWithType: M3UHandler.ConfigurationFileInCurrentFolder
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.AddSongsToPlaylist
+  nameWithType: M3UHandler.AddSongsToPlaylist
 - uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.CreatePlaylist(System.String)
   name: CreatePlaylist(String)
   href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_CreatePlaylist_System_String_
@@ -8162,70 +8818,105 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.CreatePlaylist
   nameWithType: M3UHandler.CreatePlaylist
-- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.DeleteSongsFromPlaylistImplementation(System.String,System.Collections.Generic.IEnumerable{System.String})
-  name: DeleteSongsFromPlaylistImplementation(String, IEnumerable<String>)
-  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_DeleteSongsFromPlaylistImplementation_System_String_System_Collections_Generic_IEnumerable_System_String__
-  commentId: M:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.DeleteSongsFromPlaylistImplementation(System.String,System.Collections.Generic.IEnumerable{System.String})
-  name.vb: DeleteSongsFromPlaylistImplementation(String, IEnumerable(Of String))
-  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.DeleteSongsFromPlaylistImplementation(System.String, System.Collections.Generic.IEnumerable<System.String>)
-  fullName.vb: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.DeleteSongsFromPlaylistImplementation(System.String, System.Collections.Generic.IEnumerable(Of System.String))
-  nameWithType: M3UHandler.DeleteSongsFromPlaylistImplementation(String, IEnumerable<String>)
-  nameWithType.vb: M3UHandler.DeleteSongsFromPlaylistImplementation(String, IEnumerable(Of String))
-- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.DeleteSongsFromPlaylistImplementation*
-  name: DeleteSongsFromPlaylistImplementation
-  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_DeleteSongsFromPlaylistImplementation_
-  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.DeleteSongsFromPlaylistImplementation
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.DeleteSongsFromPlaylist(System.String,System.Collections.Generic.IEnumerable{System.String})
+  name: DeleteSongsFromPlaylist(String, IEnumerable<String>)
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_DeleteSongsFromPlaylist_System_String_System_Collections_Generic_IEnumerable_System_String__
+  commentId: M:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.DeleteSongsFromPlaylist(System.String,System.Collections.Generic.IEnumerable{System.String})
+  name.vb: DeleteSongsFromPlaylist(String, IEnumerable(Of String))
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.DeleteSongsFromPlaylist(System.String, System.Collections.Generic.IEnumerable<System.String>)
+  fullName.vb: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.DeleteSongsFromPlaylist(System.String, System.Collections.Generic.IEnumerable(Of System.String))
+  nameWithType: M3UHandler.DeleteSongsFromPlaylist(String, IEnumerable<String>)
+  nameWithType.vb: M3UHandler.DeleteSongsFromPlaylist(String, IEnumerable(Of String))
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.DeleteSongsFromPlaylist*
+  name: DeleteSongsFromPlaylist
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_DeleteSongsFromPlaylist_
+  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.DeleteSongsFromPlaylist
   isSpec: "True"
-  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.DeleteSongsFromPlaylistImplementation
-  nameWithType: M3UHandler.DeleteSongsFromPlaylistImplementation
-- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.GetSongsFromPlaylist(System.String)
-  name: GetSongsFromPlaylist(String)
-  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_GetSongsFromPlaylist_System_String_
-  commentId: M:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.GetSongsFromPlaylist(System.String)
-  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.GetSongsFromPlaylist(System.String)
-  nameWithType: M3UHandler.GetSongsFromPlaylist(String)
-- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.GetSongsFromPlaylist*
-  name: GetSongsFromPlaylist
-  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_GetSongsFromPlaylist_
-  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.GetSongsFromPlaylist
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.DeleteSongsFromPlaylist
+  nameWithType: M3UHandler.DeleteSongsFromPlaylist
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.Encoding
+  name: Encoding
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_Encoding
+  commentId: P:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.Encoding
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.Encoding
+  nameWithType: M3UHandler.Encoding
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.Encoding*
+  name: Encoding
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_Encoding_
+  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.Encoding
   isSpec: "True"
-  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.GetSongsFromPlaylist
-  nameWithType: M3UHandler.GetSongsFromPlaylist
-- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.Instance
-  name: Instance
-  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_Instance
-  commentId: P:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.Instance
-  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.Instance
-  nameWithType: M3UHandler.Instance
-- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.Instance*
-  name: Instance
-  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_Instance_
-  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.Instance
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.Encoding
+  nameWithType: M3UHandler.Encoding
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.GetSongs(System.String)
+  name: GetSongs(String)
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_GetSongs_System_String_
+  commentId: M:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.GetSongs(System.String)
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.GetSongs(System.String)
+  nameWithType: M3UHandler.GetSongs(String)
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.GetSongs*
+  name: GetSongs
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_GetSongs_
+  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.GetSongs
   isSpec: "True"
-  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.Instance
-  nameWithType: M3UHandler.Instance
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.GetSongs
+  nameWithType: M3UHandler.GetSongs
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.GetSongsAndExcludedSongs(System.String)
+  name: GetSongsAndExcludedSongs(String)
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_GetSongsAndExcludedSongs_System_String_
+  commentId: M:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.GetSongsAndExcludedSongs(System.String)
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.GetSongsAndExcludedSongs(System.String)
+  nameWithType: M3UHandler.GetSongsAndExcludedSongs(String)
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.GetSongsAndExcludedSongs*
+  name: GetSongsAndExcludedSongs
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_GetSongsAndExcludedSongs_
+  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.GetSongsAndExcludedSongs
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.GetSongsAndExcludedSongs
+  nameWithType: M3UHandler.GetSongsAndExcludedSongs
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.NormalizePlaylist(System.String)
+  name: NormalizePlaylist(String)
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_NormalizePlaylist_System_String_
+  commentId: M:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.NormalizePlaylist(System.String)
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.NormalizePlaylist(System.String)
+  nameWithType: M3UHandler.NormalizePlaylist(String)
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.NormalizePlaylist*
+  name: NormalizePlaylist
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_M3UHandler_NormalizePlaylist_
+  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.NormalizePlaylist
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.M3UHandler.NormalizePlaylist
+  nameWithType: M3UHandler.NormalizePlaylist
 - uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler
   name: PLSHandler
   href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.html
   commentId: T:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler
   fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler
   nameWithType: PLSHandler
-- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.AddSongsToPlaylistImplementation(System.String,System.Collections.Generic.IEnumerable{System.String})
-  name: AddSongsToPlaylistImplementation(String, IEnumerable<String>)
-  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_PLSHandler_AddSongsToPlaylistImplementation_System_String_System_Collections_Generic_IEnumerable_System_String__
-  commentId: M:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.AddSongsToPlaylistImplementation(System.String,System.Collections.Generic.IEnumerable{System.String})
-  name.vb: AddSongsToPlaylistImplementation(String, IEnumerable(Of String))
-  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.AddSongsToPlaylistImplementation(System.String, System.Collections.Generic.IEnumerable<System.String>)
-  fullName.vb: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.AddSongsToPlaylistImplementation(System.String, System.Collections.Generic.IEnumerable(Of System.String))
-  nameWithType: PLSHandler.AddSongsToPlaylistImplementation(String, IEnumerable<String>)
-  nameWithType.vb: PLSHandler.AddSongsToPlaylistImplementation(String, IEnumerable(Of String))
-- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.AddSongsToPlaylistImplementation*
-  name: AddSongsToPlaylistImplementation
-  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_PLSHandler_AddSongsToPlaylistImplementation_
-  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.AddSongsToPlaylistImplementation
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.AddSongsToPlaylist(System.String,System.Collections.Generic.IEnumerable{System.String})
+  name: AddSongsToPlaylist(String, IEnumerable<String>)
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_PLSHandler_AddSongsToPlaylist_System_String_System_Collections_Generic_IEnumerable_System_String__
+  commentId: M:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.AddSongsToPlaylist(System.String,System.Collections.Generic.IEnumerable{System.String})
+  name.vb: AddSongsToPlaylist(String, IEnumerable(Of String))
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.AddSongsToPlaylist(System.String, System.Collections.Generic.IEnumerable<System.String>)
+  fullName.vb: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.AddSongsToPlaylist(System.String, System.Collections.Generic.IEnumerable(Of System.String))
+  nameWithType: PLSHandler.AddSongsToPlaylist(String, IEnumerable<String>)
+  nameWithType.vb: PLSHandler.AddSongsToPlaylist(String, IEnumerable(Of String))
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.AddSongsToPlaylist(System.String,System.Collections.Generic.IEnumerable{System.String},System.Text.Encoding)
+  name: AddSongsToPlaylist(String, IEnumerable<String>, Encoding)
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_PLSHandler_AddSongsToPlaylist_System_String_System_Collections_Generic_IEnumerable_System_String__System_Text_Encoding_
+  commentId: M:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.AddSongsToPlaylist(System.String,System.Collections.Generic.IEnumerable{System.String},System.Text.Encoding)
+  name.vb: AddSongsToPlaylist(String, IEnumerable(Of String), Encoding)
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.AddSongsToPlaylist(System.String, System.Collections.Generic.IEnumerable<System.String>, System.Text.Encoding)
+  fullName.vb: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.AddSongsToPlaylist(System.String, System.Collections.Generic.IEnumerable(Of System.String), System.Text.Encoding)
+  nameWithType: PLSHandler.AddSongsToPlaylist(String, IEnumerable<String>, Encoding)
+  nameWithType.vb: PLSHandler.AddSongsToPlaylist(String, IEnumerable(Of String), Encoding)
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.AddSongsToPlaylist*
+  name: AddSongsToPlaylist
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_PLSHandler_AddSongsToPlaylist_
+  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.AddSongsToPlaylist
   isSpec: "True"
-  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.AddSongsToPlaylistImplementation
-  nameWithType: PLSHandler.AddSongsToPlaylistImplementation
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.AddSongsToPlaylist
+  nameWithType: PLSHandler.AddSongsToPlaylist
 - uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.CreatePlaylist(System.String)
   name: CreatePlaylist(String)
   href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_PLSHandler_CreatePlaylist_System_String_
@@ -8239,61 +8930,177 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.CreatePlaylist
   nameWithType: PLSHandler.CreatePlaylist
-- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.DeleteSongsFromPlaylistImplementation(System.String,System.Collections.Generic.IEnumerable{System.String})
-  name: DeleteSongsFromPlaylistImplementation(String, IEnumerable<String>)
-  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_PLSHandler_DeleteSongsFromPlaylistImplementation_System_String_System_Collections_Generic_IEnumerable_System_String__
-  commentId: M:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.DeleteSongsFromPlaylistImplementation(System.String,System.Collections.Generic.IEnumerable{System.String})
-  name.vb: DeleteSongsFromPlaylistImplementation(String, IEnumerable(Of String))
-  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.DeleteSongsFromPlaylistImplementation(System.String, System.Collections.Generic.IEnumerable<System.String>)
-  fullName.vb: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.DeleteSongsFromPlaylistImplementation(System.String, System.Collections.Generic.IEnumerable(Of System.String))
-  nameWithType: PLSHandler.DeleteSongsFromPlaylistImplementation(String, IEnumerable<String>)
-  nameWithType.vb: PLSHandler.DeleteSongsFromPlaylistImplementation(String, IEnumerable(Of String))
-- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.DeleteSongsFromPlaylistImplementation*
-  name: DeleteSongsFromPlaylistImplementation
-  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_PLSHandler_DeleteSongsFromPlaylistImplementation_
-  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.DeleteSongsFromPlaylistImplementation
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.DeleteSongsFromPlaylist(System.String,System.Collections.Generic.IEnumerable{System.String})
+  name: DeleteSongsFromPlaylist(String, IEnumerable<String>)
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_PLSHandler_DeleteSongsFromPlaylist_System_String_System_Collections_Generic_IEnumerable_System_String__
+  commentId: M:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.DeleteSongsFromPlaylist(System.String,System.Collections.Generic.IEnumerable{System.String})
+  name.vb: DeleteSongsFromPlaylist(String, IEnumerable(Of String))
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.DeleteSongsFromPlaylist(System.String, System.Collections.Generic.IEnumerable<System.String>)
+  fullName.vb: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.DeleteSongsFromPlaylist(System.String, System.Collections.Generic.IEnumerable(Of System.String))
+  nameWithType: PLSHandler.DeleteSongsFromPlaylist(String, IEnumerable<String>)
+  nameWithType.vb: PLSHandler.DeleteSongsFromPlaylist(String, IEnumerable(Of String))
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.DeleteSongsFromPlaylist*
+  name: DeleteSongsFromPlaylist
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_PLSHandler_DeleteSongsFromPlaylist_
+  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.DeleteSongsFromPlaylist
   isSpec: "True"
-  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.DeleteSongsFromPlaylistImplementation
-  nameWithType: PLSHandler.DeleteSongsFromPlaylistImplementation
-- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.GetAmountOfItems(System.String)
-  name: GetAmountOfItems(String)
-  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_PLSHandler_GetAmountOfItems_System_String_
-  commentId: M:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.GetAmountOfItems(System.String)
-  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.GetAmountOfItems(System.String)
-  nameWithType: PLSHandler.GetAmountOfItems(String)
-- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.GetAmountOfItems*
-  name: GetAmountOfItems
-  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_PLSHandler_GetAmountOfItems_
-  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.GetAmountOfItems
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.DeleteSongsFromPlaylist
+  nameWithType: PLSHandler.DeleteSongsFromPlaylist
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.Encoding
+  name: Encoding
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_PLSHandler_Encoding
+  commentId: P:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.Encoding
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.Encoding
+  nameWithType: PLSHandler.Encoding
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.Encoding*
+  name: Encoding
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_PLSHandler_Encoding_
+  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.Encoding
   isSpec: "True"
-  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.GetAmountOfItems
-  nameWithType: PLSHandler.GetAmountOfItems
-- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.GetSongsFromPlaylist(System.String)
-  name: GetSongsFromPlaylist(String)
-  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_PLSHandler_GetSongsFromPlaylist_System_String_
-  commentId: M:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.GetSongsFromPlaylist(System.String)
-  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.GetSongsFromPlaylist(System.String)
-  nameWithType: PLSHandler.GetSongsFromPlaylist(String)
-- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.GetSongsFromPlaylist*
-  name: GetSongsFromPlaylist
-  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_PLSHandler_GetSongsFromPlaylist_
-  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.GetSongsFromPlaylist
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.Encoding
+  nameWithType: PLSHandler.Encoding
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.GetSongs(System.String)
+  name: GetSongs(String)
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_PLSHandler_GetSongs_System_String_
+  commentId: M:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.GetSongs(System.String)
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.GetSongs(System.String)
+  nameWithType: PLSHandler.GetSongs(String)
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.GetSongs*
+  name: GetSongs
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_PLSHandler_GetSongs_
+  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.GetSongs
   isSpec: "True"
-  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.GetSongsFromPlaylist
-  nameWithType: PLSHandler.GetSongsFromPlaylist
-- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.Instance
-  name: Instance
-  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_PLSHandler_Instance
-  commentId: P:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.Instance
-  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.Instance
-  nameWithType: PLSHandler.Instance
-- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.Instance*
-  name: Instance
-  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_PLSHandler_Instance_
-  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.Instance
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.GetSongs
+  nameWithType: PLSHandler.GetSongs
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.GetSongsAndExcludedSongs(System.String)
+  name: GetSongsAndExcludedSongs(String)
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_PLSHandler_GetSongsAndExcludedSongs_System_String_
+  commentId: M:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.GetSongsAndExcludedSongs(System.String)
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.GetSongsAndExcludedSongs(System.String)
+  nameWithType: PLSHandler.GetSongsAndExcludedSongs(String)
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.GetSongsAndExcludedSongs*
+  name: GetSongsAndExcludedSongs
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_PLSHandler_GetSongsAndExcludedSongs_
+  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.GetSongsAndExcludedSongs
   isSpec: "True"
-  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.Instance
-  nameWithType: PLSHandler.Instance
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.GetSongsAndExcludedSongs
+  nameWithType: PLSHandler.GetSongsAndExcludedSongs
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.NormalizePlaylist(System.String)
+  name: NormalizePlaylist(String)
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_PLSHandler_NormalizePlaylist_System_String_
+  commentId: M:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.NormalizePlaylist(System.String)
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.NormalizePlaylist(System.String)
+  nameWithType: PLSHandler.NormalizePlaylist(String)
+- uid: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.NormalizePlaylist*
+  name: NormalizePlaylist
+  href: api/GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.html#GRYLibrary_Core_Playlists_ConcretePlaylistHandler_PLSHandler_NormalizePlaylist_
+  commentId: Overload:GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.NormalizePlaylist
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Playlists.ConcretePlaylistHandler.PLSHandler.NormalizePlaylist
+  nameWithType: PLSHandler.NormalizePlaylist
+- uid: GRYLibrary.Core.Playlists.IPlaylistFileHandler
+  name: IPlaylistFileHandler
+  href: api/GRYLibrary.Core.Playlists.IPlaylistFileHandler.html
+  commentId: T:GRYLibrary.Core.Playlists.IPlaylistFileHandler
+  fullName: GRYLibrary.Core.Playlists.IPlaylistFileHandler
+  nameWithType: IPlaylistFileHandler
+- uid: GRYLibrary.Core.Playlists.IPlaylistFileHandler.AddSongsToPlaylist(System.String,System.Collections.Generic.IEnumerable{System.String})
+  name: AddSongsToPlaylist(String, IEnumerable<String>)
+  href: api/GRYLibrary.Core.Playlists.IPlaylistFileHandler.html#GRYLibrary_Core_Playlists_IPlaylistFileHandler_AddSongsToPlaylist_System_String_System_Collections_Generic_IEnumerable_System_String__
+  commentId: M:GRYLibrary.Core.Playlists.IPlaylistFileHandler.AddSongsToPlaylist(System.String,System.Collections.Generic.IEnumerable{System.String})
+  name.vb: AddSongsToPlaylist(String, IEnumerable(Of String))
+  fullName: GRYLibrary.Core.Playlists.IPlaylistFileHandler.AddSongsToPlaylist(System.String, System.Collections.Generic.IEnumerable<System.String>)
+  fullName.vb: GRYLibrary.Core.Playlists.IPlaylistFileHandler.AddSongsToPlaylist(System.String, System.Collections.Generic.IEnumerable(Of System.String))
+  nameWithType: IPlaylistFileHandler.AddSongsToPlaylist(String, IEnumerable<String>)
+  nameWithType.vb: IPlaylistFileHandler.AddSongsToPlaylist(String, IEnumerable(Of String))
+- uid: GRYLibrary.Core.Playlists.IPlaylistFileHandler.AddSongsToPlaylist*
+  name: AddSongsToPlaylist
+  href: api/GRYLibrary.Core.Playlists.IPlaylistFileHandler.html#GRYLibrary_Core_Playlists_IPlaylistFileHandler_AddSongsToPlaylist_
+  commentId: Overload:GRYLibrary.Core.Playlists.IPlaylistFileHandler.AddSongsToPlaylist
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Playlists.IPlaylistFileHandler.AddSongsToPlaylist
+  nameWithType: IPlaylistFileHandler.AddSongsToPlaylist
+- uid: GRYLibrary.Core.Playlists.IPlaylistFileHandler.CreatePlaylist(System.String)
+  name: CreatePlaylist(String)
+  href: api/GRYLibrary.Core.Playlists.IPlaylistFileHandler.html#GRYLibrary_Core_Playlists_IPlaylistFileHandler_CreatePlaylist_System_String_
+  commentId: M:GRYLibrary.Core.Playlists.IPlaylistFileHandler.CreatePlaylist(System.String)
+  fullName: GRYLibrary.Core.Playlists.IPlaylistFileHandler.CreatePlaylist(System.String)
+  nameWithType: IPlaylistFileHandler.CreatePlaylist(String)
+- uid: GRYLibrary.Core.Playlists.IPlaylistFileHandler.CreatePlaylist*
+  name: CreatePlaylist
+  href: api/GRYLibrary.Core.Playlists.IPlaylistFileHandler.html#GRYLibrary_Core_Playlists_IPlaylistFileHandler_CreatePlaylist_
+  commentId: Overload:GRYLibrary.Core.Playlists.IPlaylistFileHandler.CreatePlaylist
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Playlists.IPlaylistFileHandler.CreatePlaylist
+  nameWithType: IPlaylistFileHandler.CreatePlaylist
+- uid: GRYLibrary.Core.Playlists.IPlaylistFileHandler.DeleteSongsFromPlaylist(System.String,System.Collections.Generic.IEnumerable{System.String})
+  name: DeleteSongsFromPlaylist(String, IEnumerable<String>)
+  href: api/GRYLibrary.Core.Playlists.IPlaylistFileHandler.html#GRYLibrary_Core_Playlists_IPlaylistFileHandler_DeleteSongsFromPlaylist_System_String_System_Collections_Generic_IEnumerable_System_String__
+  commentId: M:GRYLibrary.Core.Playlists.IPlaylistFileHandler.DeleteSongsFromPlaylist(System.String,System.Collections.Generic.IEnumerable{System.String})
+  name.vb: DeleteSongsFromPlaylist(String, IEnumerable(Of String))
+  fullName: GRYLibrary.Core.Playlists.IPlaylistFileHandler.DeleteSongsFromPlaylist(System.String, System.Collections.Generic.IEnumerable<System.String>)
+  fullName.vb: GRYLibrary.Core.Playlists.IPlaylistFileHandler.DeleteSongsFromPlaylist(System.String, System.Collections.Generic.IEnumerable(Of System.String))
+  nameWithType: IPlaylistFileHandler.DeleteSongsFromPlaylist(String, IEnumerable<String>)
+  nameWithType.vb: IPlaylistFileHandler.DeleteSongsFromPlaylist(String, IEnumerable(Of String))
+- uid: GRYLibrary.Core.Playlists.IPlaylistFileHandler.DeleteSongsFromPlaylist*
+  name: DeleteSongsFromPlaylist
+  href: api/GRYLibrary.Core.Playlists.IPlaylistFileHandler.html#GRYLibrary_Core_Playlists_IPlaylistFileHandler_DeleteSongsFromPlaylist_
+  commentId: Overload:GRYLibrary.Core.Playlists.IPlaylistFileHandler.DeleteSongsFromPlaylist
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Playlists.IPlaylistFileHandler.DeleteSongsFromPlaylist
+  nameWithType: IPlaylistFileHandler.DeleteSongsFromPlaylist
+- uid: GRYLibrary.Core.Playlists.IPlaylistFileHandler.Encoding
+  name: Encoding
+  href: api/GRYLibrary.Core.Playlists.IPlaylistFileHandler.html#GRYLibrary_Core_Playlists_IPlaylistFileHandler_Encoding
+  commentId: P:GRYLibrary.Core.Playlists.IPlaylistFileHandler.Encoding
+  fullName: GRYLibrary.Core.Playlists.IPlaylistFileHandler.Encoding
+  nameWithType: IPlaylistFileHandler.Encoding
+- uid: GRYLibrary.Core.Playlists.IPlaylistFileHandler.Encoding*
+  name: Encoding
+  href: api/GRYLibrary.Core.Playlists.IPlaylistFileHandler.html#GRYLibrary_Core_Playlists_IPlaylistFileHandler_Encoding_
+  commentId: Overload:GRYLibrary.Core.Playlists.IPlaylistFileHandler.Encoding
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Playlists.IPlaylistFileHandler.Encoding
+  nameWithType: IPlaylistFileHandler.Encoding
+- uid: GRYLibrary.Core.Playlists.IPlaylistFileHandler.GetSongs(System.String)
+  name: GetSongs(String)
+  href: api/GRYLibrary.Core.Playlists.IPlaylistFileHandler.html#GRYLibrary_Core_Playlists_IPlaylistFileHandler_GetSongs_System_String_
+  commentId: M:GRYLibrary.Core.Playlists.IPlaylistFileHandler.GetSongs(System.String)
+  fullName: GRYLibrary.Core.Playlists.IPlaylistFileHandler.GetSongs(System.String)
+  nameWithType: IPlaylistFileHandler.GetSongs(String)
+- uid: GRYLibrary.Core.Playlists.IPlaylistFileHandler.GetSongs*
+  name: GetSongs
+  href: api/GRYLibrary.Core.Playlists.IPlaylistFileHandler.html#GRYLibrary_Core_Playlists_IPlaylistFileHandler_GetSongs_
+  commentId: Overload:GRYLibrary.Core.Playlists.IPlaylistFileHandler.GetSongs
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Playlists.IPlaylistFileHandler.GetSongs
+  nameWithType: IPlaylistFileHandler.GetSongs
+- uid: GRYLibrary.Core.Playlists.IPlaylistFileHandler.GetSongsAndExcludedSongs(System.String)
+  name: GetSongsAndExcludedSongs(String)
+  href: api/GRYLibrary.Core.Playlists.IPlaylistFileHandler.html#GRYLibrary_Core_Playlists_IPlaylistFileHandler_GetSongsAndExcludedSongs_System_String_
+  commentId: M:GRYLibrary.Core.Playlists.IPlaylistFileHandler.GetSongsAndExcludedSongs(System.String)
+  fullName: GRYLibrary.Core.Playlists.IPlaylistFileHandler.GetSongsAndExcludedSongs(System.String)
+  nameWithType: IPlaylistFileHandler.GetSongsAndExcludedSongs(String)
+- uid: GRYLibrary.Core.Playlists.IPlaylistFileHandler.GetSongsAndExcludedSongs*
+  name: GetSongsAndExcludedSongs
+  href: api/GRYLibrary.Core.Playlists.IPlaylistFileHandler.html#GRYLibrary_Core_Playlists_IPlaylistFileHandler_GetSongsAndExcludedSongs_
+  commentId: Overload:GRYLibrary.Core.Playlists.IPlaylistFileHandler.GetSongsAndExcludedSongs
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Playlists.IPlaylistFileHandler.GetSongsAndExcludedSongs
+  nameWithType: IPlaylistFileHandler.GetSongsAndExcludedSongs
+- uid: GRYLibrary.Core.Playlists.IPlaylistFileHandler.NormalizePlaylist(System.String)
+  name: NormalizePlaylist(String)
+  href: api/GRYLibrary.Core.Playlists.IPlaylistFileHandler.html#GRYLibrary_Core_Playlists_IPlaylistFileHandler_NormalizePlaylist_System_String_
+  commentId: M:GRYLibrary.Core.Playlists.IPlaylistFileHandler.NormalizePlaylist(System.String)
+  fullName: GRYLibrary.Core.Playlists.IPlaylistFileHandler.NormalizePlaylist(System.String)
+  nameWithType: IPlaylistFileHandler.NormalizePlaylist(String)
+- uid: GRYLibrary.Core.Playlists.IPlaylistFileHandler.NormalizePlaylist*
+  name: NormalizePlaylist
+  href: api/GRYLibrary.Core.Playlists.IPlaylistFileHandler.html#GRYLibrary_Core_Playlists_IPlaylistFileHandler_NormalizePlaylist_
+  commentId: Overload:GRYLibrary.Core.Playlists.IPlaylistFileHandler.NormalizePlaylist
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Playlists.IPlaylistFileHandler.NormalizePlaylist
+  nameWithType: IPlaylistFileHandler.NormalizePlaylist
 - uid: GRYLibrary.Core.Property`1
   name: Property<T>
   href: api/GRYLibrary.Core.Property-1.html
@@ -10675,38 +11482,6 @@ references:
   fullName.vb: GRYLibrary.Core.Tree.TreeItem(Of ContainedItemType).Accept(Of T)(GRYLibrary.Core.Tree.ITreeItemVisitor(Of T))
   nameWithType: TreeItem<ContainedItemType>.Accept<T>(ITreeItemVisitor<T>)
   nameWithType.vb: TreeItem(Of ContainedItemType).Accept(Of T)(ITreeItemVisitor(Of T))
-- uid: GRYLibrary.Core.UnexpectedExitCodeException
-  name: UnexpectedExitCodeException
-  href: api/GRYLibrary.Core.UnexpectedExitCodeException.html
-  commentId: T:GRYLibrary.Core.UnexpectedExitCodeException
-  fullName: GRYLibrary.Core.UnexpectedExitCodeException
-  nameWithType: UnexpectedExitCodeException
-- uid: GRYLibrary.Core.UnexpectedExitCodeException.#ctor(System.String,GRYLibrary.Core.ExternalProgramExecutor)
-  name: UnexpectedExitCodeException(String, ExternalProgramExecutor)
-  href: api/GRYLibrary.Core.UnexpectedExitCodeException.html#GRYLibrary_Core_UnexpectedExitCodeException__ctor_System_String_GRYLibrary_Core_ExternalProgramExecutor_
-  commentId: M:GRYLibrary.Core.UnexpectedExitCodeException.#ctor(System.String,GRYLibrary.Core.ExternalProgramExecutor)
-  fullName: GRYLibrary.Core.UnexpectedExitCodeException.UnexpectedExitCodeException(System.String, GRYLibrary.Core.ExternalProgramExecutor)
-  nameWithType: UnexpectedExitCodeException.UnexpectedExitCodeException(String, ExternalProgramExecutor)
-- uid: GRYLibrary.Core.UnexpectedExitCodeException.#ctor*
-  name: UnexpectedExitCodeException
-  href: api/GRYLibrary.Core.UnexpectedExitCodeException.html#GRYLibrary_Core_UnexpectedExitCodeException__ctor_
-  commentId: Overload:GRYLibrary.Core.UnexpectedExitCodeException.#ctor
-  isSpec: "True"
-  fullName: GRYLibrary.Core.UnexpectedExitCodeException.UnexpectedExitCodeException
-  nameWithType: UnexpectedExitCodeException.UnexpectedExitCodeException
-- uid: GRYLibrary.Core.UnexpectedExitCodeException.ExecutedProgram
-  name: ExecutedProgram
-  href: api/GRYLibrary.Core.UnexpectedExitCodeException.html#GRYLibrary_Core_UnexpectedExitCodeException_ExecutedProgram
-  commentId: P:GRYLibrary.Core.UnexpectedExitCodeException.ExecutedProgram
-  fullName: GRYLibrary.Core.UnexpectedExitCodeException.ExecutedProgram
-  nameWithType: UnexpectedExitCodeException.ExecutedProgram
-- uid: GRYLibrary.Core.UnexpectedExitCodeException.ExecutedProgram*
-  name: ExecutedProgram
-  href: api/GRYLibrary.Core.UnexpectedExitCodeException.html#GRYLibrary_Core_UnexpectedExitCodeException_ExecutedProgram_
-  commentId: Overload:GRYLibrary.Core.UnexpectedExitCodeException.ExecutedProgram
-  isSpec: "True"
-  fullName: GRYLibrary.Core.UnexpectedExitCodeException.ExecutedProgram
-  nameWithType: UnexpectedExitCodeException.ExecutedProgram
 - uid: GRYLibrary.Core.Utilities
   name: Utilities
   href: api/GRYLibrary.Core.Utilities.html
@@ -10853,6 +11628,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.AtLeastOneFileExistsInFolder
   nameWithType: Utilities.AtLeastOneFileExistsInFolder
+- uid: GRYLibrary.Core.Utilities.BigIntegerToHexString(System.Numerics.BigInteger)
+  name: BigIntegerToHexString(BigInteger)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_BigIntegerToHexString_System_Numerics_BigInteger_
+  commentId: M:GRYLibrary.Core.Utilities.BigIntegerToHexString(System.Numerics.BigInteger)
+  fullName: GRYLibrary.Core.Utilities.BigIntegerToHexString(System.Numerics.BigInteger)
+  nameWithType: Utilities.BigIntegerToHexString(BigInteger)
+- uid: GRYLibrary.Core.Utilities.BigIntegerToHexString*
+  name: BigIntegerToHexString
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_BigIntegerToHexString_
+  commentId: Overload:GRYLibrary.Core.Utilities.BigIntegerToHexString
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.BigIntegerToHexString
+  nameWithType: Utilities.BigIntegerToHexString
 - uid: GRYLibrary.Core.Utilities.ByteArrayToHexString(System.Byte[])
   name: ByteArrayToHexString(Byte[])
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ByteArrayToHexString_System_Byte___
@@ -10869,22 +11657,83 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ByteArrayToHexString
   nameWithType: Utilities.ByteArrayToHexString
-- uid: GRYLibrary.Core.Utilities.ByteArrayToInt(System.Byte[])
-  name: ByteArrayToInt(Byte[])
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ByteArrayToInt_System_Byte___
-  commentId: M:GRYLibrary.Core.Utilities.ByteArrayToInt(System.Byte[])
-  name.vb: ByteArrayToInt(Byte())
-  fullName: GRYLibrary.Core.Utilities.ByteArrayToInt(System.Byte[])
-  fullName.vb: GRYLibrary.Core.Utilities.ByteArrayToInt(System.Byte())
-  nameWithType: Utilities.ByteArrayToInt(Byte[])
-  nameWithType.vb: Utilities.ByteArrayToInt(Byte())
-- uid: GRYLibrary.Core.Utilities.ByteArrayToInt*
-  name: ByteArrayToInt
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ByteArrayToInt_
-  commentId: Overload:GRYLibrary.Core.Utilities.ByteArrayToInt
+- uid: GRYLibrary.Core.Utilities.ByteArrayToString(System.Byte[])
+  name: ByteArrayToString(Byte[])
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ByteArrayToString_System_Byte___
+  commentId: M:GRYLibrary.Core.Utilities.ByteArrayToString(System.Byte[])
+  name.vb: ByteArrayToString(Byte())
+  fullName: GRYLibrary.Core.Utilities.ByteArrayToString(System.Byte[])
+  fullName.vb: GRYLibrary.Core.Utilities.ByteArrayToString(System.Byte())
+  nameWithType: Utilities.ByteArrayToString(Byte[])
+  nameWithType.vb: Utilities.ByteArrayToString(Byte())
+- uid: GRYLibrary.Core.Utilities.ByteArrayToString*
+  name: ByteArrayToString
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ByteArrayToString_
+  commentId: Overload:GRYLibrary.Core.Utilities.ByteArrayToString
   isSpec: "True"
-  fullName: GRYLibrary.Core.Utilities.ByteArrayToInt
-  nameWithType: Utilities.ByteArrayToInt
+  fullName: GRYLibrary.Core.Utilities.ByteArrayToString
+  nameWithType: Utilities.ByteArrayToString
+- uid: GRYLibrary.Core.Utilities.ByteArrayToUnsignedInteger32Bit(System.Byte[],GRYLibrary.Core.Utilities.Endianness)
+  name: ByteArrayToUnsignedInteger32Bit(Byte[], Utilities.Endianness)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ByteArrayToUnsignedInteger32Bit_System_Byte___GRYLibrary_Core_Utilities_Endianness_
+  commentId: M:GRYLibrary.Core.Utilities.ByteArrayToUnsignedInteger32Bit(System.Byte[],GRYLibrary.Core.Utilities.Endianness)
+  name.vb: ByteArrayToUnsignedInteger32Bit(Byte(), Utilities.Endianness)
+  fullName: GRYLibrary.Core.Utilities.ByteArrayToUnsignedInteger32Bit(System.Byte[], GRYLibrary.Core.Utilities.Endianness)
+  fullName.vb: GRYLibrary.Core.Utilities.ByteArrayToUnsignedInteger32Bit(System.Byte(), GRYLibrary.Core.Utilities.Endianness)
+  nameWithType: Utilities.ByteArrayToUnsignedInteger32Bit(Byte[], Utilities.Endianness)
+  nameWithType.vb: Utilities.ByteArrayToUnsignedInteger32Bit(Byte(), Utilities.Endianness)
+- uid: GRYLibrary.Core.Utilities.ByteArrayToUnsignedInteger32Bit*
+  name: ByteArrayToUnsignedInteger32Bit
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ByteArrayToUnsignedInteger32Bit_
+  commentId: Overload:GRYLibrary.Core.Utilities.ByteArrayToUnsignedInteger32Bit
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.ByteArrayToUnsignedInteger32Bit
+  nameWithType: Utilities.ByteArrayToUnsignedInteger32Bit
+- uid: GRYLibrary.Core.Utilities.ByteArrayToUnsignedInteger32BitArray(System.Byte[])
+  name: ByteArrayToUnsignedInteger32BitArray(Byte[])
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ByteArrayToUnsignedInteger32BitArray_System_Byte___
+  commentId: M:GRYLibrary.Core.Utilities.ByteArrayToUnsignedInteger32BitArray(System.Byte[])
+  name.vb: ByteArrayToUnsignedInteger32BitArray(Byte())
+  fullName: GRYLibrary.Core.Utilities.ByteArrayToUnsignedInteger32BitArray(System.Byte[])
+  fullName.vb: GRYLibrary.Core.Utilities.ByteArrayToUnsignedInteger32BitArray(System.Byte())
+  nameWithType: Utilities.ByteArrayToUnsignedInteger32BitArray(Byte[])
+  nameWithType.vb: Utilities.ByteArrayToUnsignedInteger32BitArray(Byte())
+- uid: GRYLibrary.Core.Utilities.ByteArrayToUnsignedInteger32BitArray*
+  name: ByteArrayToUnsignedInteger32BitArray
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ByteArrayToUnsignedInteger32BitArray_
+  commentId: Overload:GRYLibrary.Core.Utilities.ByteArrayToUnsignedInteger32BitArray
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.ByteArrayToUnsignedInteger32BitArray
+  nameWithType: Utilities.ByteArrayToUnsignedInteger32BitArray
+- uid: GRYLibrary.Core.Utilities.ByteArrayToUnsignedInteger64Bit(System.Byte[],GRYLibrary.Core.Utilities.Endianness)
+  name: ByteArrayToUnsignedInteger64Bit(Byte[], Utilities.Endianness)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ByteArrayToUnsignedInteger64Bit_System_Byte___GRYLibrary_Core_Utilities_Endianness_
+  commentId: M:GRYLibrary.Core.Utilities.ByteArrayToUnsignedInteger64Bit(System.Byte[],GRYLibrary.Core.Utilities.Endianness)
+  name.vb: ByteArrayToUnsignedInteger64Bit(Byte(), Utilities.Endianness)
+  fullName: GRYLibrary.Core.Utilities.ByteArrayToUnsignedInteger64Bit(System.Byte[], GRYLibrary.Core.Utilities.Endianness)
+  fullName.vb: GRYLibrary.Core.Utilities.ByteArrayToUnsignedInteger64Bit(System.Byte(), GRYLibrary.Core.Utilities.Endianness)
+  nameWithType: Utilities.ByteArrayToUnsignedInteger64Bit(Byte[], Utilities.Endianness)
+  nameWithType.vb: Utilities.ByteArrayToUnsignedInteger64Bit(Byte(), Utilities.Endianness)
+- uid: GRYLibrary.Core.Utilities.ByteArrayToUnsignedInteger64Bit*
+  name: ByteArrayToUnsignedInteger64Bit
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ByteArrayToUnsignedInteger64Bit_
+  commentId: Overload:GRYLibrary.Core.Utilities.ByteArrayToUnsignedInteger64Bit
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.ByteArrayToUnsignedInteger64Bit
+  nameWithType: Utilities.ByteArrayToUnsignedInteger64Bit
+- uid: GRYLibrary.Core.Utilities.CalculateCombinedSimilarity(System.String,System.String)
+  name: CalculateCombinedSimilarity(String, String)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_CalculateCombinedSimilarity_System_String_System_String_
+  commentId: M:GRYLibrary.Core.Utilities.CalculateCombinedSimilarity(System.String,System.String)
+  fullName: GRYLibrary.Core.Utilities.CalculateCombinedSimilarity(System.String, System.String)
+  nameWithType: Utilities.CalculateCombinedSimilarity(String, String)
+- uid: GRYLibrary.Core.Utilities.CalculateCombinedSimilarity*
+  name: CalculateCombinedSimilarity
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_CalculateCombinedSimilarity_
+  commentId: Overload:GRYLibrary.Core.Utilities.CalculateCombinedSimilarity
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.CalculateCombinedSimilarity
+  nameWithType: Utilities.CalculateCombinedSimilarity
 - uid: GRYLibrary.Core.Utilities.CalculateCosineSimilarity(System.String,System.String)
   name: CalculateCosineSimilarity(String, String)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_CalculateCosineSimilarity_System_String_System_String_
@@ -10992,6 +11841,38 @@ references:
   fullName.vb: GRYLibrary.Core.Utilities.Concat(Of T)(T()())
   nameWithType: Utilities.Concat<T>(T[][])
   nameWithType.vb: Utilities.Concat(Of T)(T()())
+- uid: GRYLibrary.Core.Utilities.ConcatBytesArraysWithLengthInformation(System.Byte[][])
+  name: ConcatBytesArraysWithLengthInformation(Byte[][])
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ConcatBytesArraysWithLengthInformation_System_Byte_____
+  commentId: M:GRYLibrary.Core.Utilities.ConcatBytesArraysWithLengthInformation(System.Byte[][])
+  name.vb: ConcatBytesArraysWithLengthInformation(Byte()())
+  fullName: GRYLibrary.Core.Utilities.ConcatBytesArraysWithLengthInformation(System.Byte[][])
+  fullName.vb: GRYLibrary.Core.Utilities.ConcatBytesArraysWithLengthInformation(System.Byte()())
+  nameWithType: Utilities.ConcatBytesArraysWithLengthInformation(Byte[][])
+  nameWithType.vb: Utilities.ConcatBytesArraysWithLengthInformation(Byte()())
+- uid: GRYLibrary.Core.Utilities.ConcatBytesArraysWithLengthInformation*
+  name: ConcatBytesArraysWithLengthInformation
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ConcatBytesArraysWithLengthInformation_
+  commentId: Overload:GRYLibrary.Core.Utilities.ConcatBytesArraysWithLengthInformation
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.ConcatBytesArraysWithLengthInformation
+  nameWithType: Utilities.ConcatBytesArraysWithLengthInformation
+- uid: GRYLibrary.Core.Utilities.ContainsSublist*
+  name: ContainsSublist
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ContainsSublist_
+  commentId: Overload:GRYLibrary.Core.Utilities.ContainsSublist
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.ContainsSublist
+  nameWithType: Utilities.ContainsSublist
+- uid: GRYLibrary.Core.Utilities.ContainsSublist``1(System.Collections.Generic.IList{``0},System.Collections.Generic.IList{``0},System.Func{``0,System.String},System.String)
+  name: ContainsSublist<T>(IList<T>, IList<T>, Func<T, String>, String)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ContainsSublist__1_System_Collections_Generic_IList___0__System_Collections_Generic_IList___0__System_Func___0_System_String__System_String_
+  commentId: M:GRYLibrary.Core.Utilities.ContainsSublist``1(System.Collections.Generic.IList{``0},System.Collections.Generic.IList{``0},System.Func{``0,System.String},System.String)
+  name.vb: ContainsSublist(Of T)(IList(Of T), IList(Of T), Func(Of T, String), String)
+  fullName: GRYLibrary.Core.Utilities.ContainsSublist<T>(System.Collections.Generic.IList<T>, System.Collections.Generic.IList<T>, System.Func<T, System.String>, System.String)
+  fullName.vb: GRYLibrary.Core.Utilities.ContainsSublist(Of T)(System.Collections.Generic.IList(Of T), System.Collections.Generic.IList(Of T), System.Func(Of T, System.String), System.String)
+  nameWithType: Utilities.ContainsSublist<T>(IList<T>, IList<T>, Func<T, String>, String)
+  nameWithType.vb: Utilities.ContainsSublist(Of T)(IList(Of T), IList(Of T), Func(Of T, String), String)
 - uid: GRYLibrary.Core.Utilities.CopyFolderAcrossVolumes(System.String,System.String)
   name: CopyFolderAcrossVolumes(String, String)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_CopyFolderAcrossVolumes_System_String_System_String_
@@ -11160,6 +12041,36 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.DurationToUserFriendlyString
   nameWithType: Utilities.DurationToUserFriendlyString
+- uid: GRYLibrary.Core.Utilities.EmptyString
+  name: EmptyString
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EmptyString
+  commentId: F:GRYLibrary.Core.Utilities.EmptyString
+  fullName: GRYLibrary.Core.Utilities.EmptyString
+  nameWithType: Utilities.EmptyString
+- uid: GRYLibrary.Core.Utilities.Endianness
+  name: Utilities.Endianness
+  href: api/GRYLibrary.Core.Utilities.Endianness.html
+  commentId: T:GRYLibrary.Core.Utilities.Endianness
+  fullName: GRYLibrary.Core.Utilities.Endianness
+  nameWithType: Utilities.Endianness
+- uid: GRYLibrary.Core.Utilities.Endianness.BigEndian
+  name: BigEndian
+  href: api/GRYLibrary.Core.Utilities.Endianness.html#GRYLibrary_Core_Utilities_Endianness_BigEndian
+  commentId: F:GRYLibrary.Core.Utilities.Endianness.BigEndian
+  fullName: GRYLibrary.Core.Utilities.Endianness.BigEndian
+  nameWithType: Utilities.Endianness.BigEndian
+- uid: GRYLibrary.Core.Utilities.Endianness.LittleEndian
+  name: LittleEndian
+  href: api/GRYLibrary.Core.Utilities.Endianness.html#GRYLibrary_Core_Utilities_Endianness_LittleEndian
+  commentId: F:GRYLibrary.Core.Utilities.Endianness.LittleEndian
+  fullName: GRYLibrary.Core.Utilities.Endianness.LittleEndian
+  nameWithType: Utilities.Endianness.LittleEndian
+- uid: GRYLibrary.Core.Utilities.Endianness.MixedEndian
+  name: MixedEndian
+  href: api/GRYLibrary.Core.Utilities.Endianness.html#GRYLibrary_Core_Utilities_Endianness_MixedEndian
+  commentId: F:GRYLibrary.Core.Utilities.Endianness.MixedEndian
+  fullName: GRYLibrary.Core.Utilities.Endianness.MixedEndian
+  nameWithType: Utilities.Endianness.MixedEndian
 - uid: GRYLibrary.Core.Utilities.EnsureDirectoryDoesNotExist(System.String)
   name: EnsureDirectoryDoesNotExist(String)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_EnsureDirectoryDoesNotExist_System_String_
@@ -11678,6 +12589,22 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GetAvailableVolumeIds
   nameWithType: Utilities.GetAvailableVolumeIds
+- uid: GRYLibrary.Core.Utilities.GetBytesArraysFromConcatBytesArraysWithLengthInformation(System.Byte[])
+  name: GetBytesArraysFromConcatBytesArraysWithLengthInformation(Byte[])
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetBytesArraysFromConcatBytesArraysWithLengthInformation_System_Byte___
+  commentId: M:GRYLibrary.Core.Utilities.GetBytesArraysFromConcatBytesArraysWithLengthInformation(System.Byte[])
+  name.vb: GetBytesArraysFromConcatBytesArraysWithLengthInformation(Byte())
+  fullName: GRYLibrary.Core.Utilities.GetBytesArraysFromConcatBytesArraysWithLengthInformation(System.Byte[])
+  fullName.vb: GRYLibrary.Core.Utilities.GetBytesArraysFromConcatBytesArraysWithLengthInformation(System.Byte())
+  nameWithType: Utilities.GetBytesArraysFromConcatBytesArraysWithLengthInformation(Byte[])
+  nameWithType.vb: Utilities.GetBytesArraysFromConcatBytesArraysWithLengthInformation(Byte())
+- uid: GRYLibrary.Core.Utilities.GetBytesArraysFromConcatBytesArraysWithLengthInformation*
+  name: GetBytesArraysFromConcatBytesArraysWithLengthInformation
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetBytesArraysFromConcatBytesArraysWithLengthInformation_
+  commentId: Overload:GRYLibrary.Core.Utilities.GetBytesArraysFromConcatBytesArraysWithLengthInformation
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.GetBytesArraysFromConcatBytesArraysWithLengthInformation
+  nameWithType: Utilities.GetBytesArraysFromConcatBytesArraysWithLengthInformation
 - uid: GRYLibrary.Core.Utilities.GetCommandLineArguments
   name: GetCommandLineArguments()
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetCommandLineArguments
@@ -11782,19 +12709,6 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.GetGitSubmodulePaths
   nameWithType: Utilities.GetGitSubmodulePaths
-- uid: GRYLibrary.Core.Utilities.GetHexValue(System.Char)
-  name: GetHexValue(Char)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetHexValue_System_Char_
-  commentId: M:GRYLibrary.Core.Utilities.GetHexValue(System.Char)
-  fullName: GRYLibrary.Core.Utilities.GetHexValue(System.Char)
-  nameWithType: Utilities.GetHexValue(Char)
-- uid: GRYLibrary.Core.Utilities.GetHexValue*
-  name: GetHexValue
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetHexValue_
-  commentId: Overload:GRYLibrary.Core.Utilities.GetHexValue
-  isSpec: "True"
-  fullName: GRYLibrary.Core.Utilities.GetHexValue
-  nameWithType: Utilities.GetHexValue
 - uid: GRYLibrary.Core.Utilities.GetLastGitCommitId(System.String,System.String,System.Boolean)
   name: GetLastGitCommitId(String, String, Boolean)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_GetLastGitCommitId_System_String_System_String_System_Boolean_
@@ -12148,6 +13062,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.HasValueType
   nameWithType: Utilities.HasValueType
+- uid: GRYLibrary.Core.Utilities.HexStringToBigInteger(System.String)
+  name: HexStringToBigInteger(String)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_HexStringToBigInteger_System_String_
+  commentId: M:GRYLibrary.Core.Utilities.HexStringToBigInteger(System.String)
+  fullName: GRYLibrary.Core.Utilities.HexStringToBigInteger(System.String)
+  nameWithType: Utilities.HexStringToBigInteger(String)
+- uid: GRYLibrary.Core.Utilities.HexStringToBigInteger*
+  name: HexStringToBigInteger
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_HexStringToBigInteger_
+  commentId: Overload:GRYLibrary.Core.Utilities.HexStringToBigInteger
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.HexStringToBigInteger
+  nameWithType: Utilities.HexStringToBigInteger
 - uid: GRYLibrary.Core.Utilities.HexStringToByteArray(System.String)
   name: HexStringToByteArray(String)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_HexStringToByteArray_System_String_
@@ -12161,19 +13088,6 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.HexStringToByteArray
   nameWithType: Utilities.HexStringToByteArray
-- uid: GRYLibrary.Core.Utilities.HexStringToInteger(System.String)
-  name: HexStringToInteger(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_HexStringToInteger_System_String_
-  commentId: M:GRYLibrary.Core.Utilities.HexStringToInteger(System.String)
-  fullName: GRYLibrary.Core.Utilities.HexStringToInteger(System.String)
-  nameWithType: Utilities.HexStringToInteger(String)
-- uid: GRYLibrary.Core.Utilities.HexStringToInteger*
-  name: HexStringToInteger
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_HexStringToInteger_
-  commentId: Overload:GRYLibrary.Core.Utilities.HexStringToInteger
-  isSpec: "True"
-  fullName: GRYLibrary.Core.Utilities.HexStringToInteger
-  nameWithType: Utilities.HexStringToInteger
 - uid: GRYLibrary.Core.Utilities.ImprovedReferenceEquals(System.Object,System.Object)
   name: ImprovedReferenceEquals(Object, Object)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ImprovedReferenceEquals_System_Object_System_Object_
@@ -12206,32 +13120,6 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.IncrementGuid
   nameWithType: Utilities.IncrementGuid
-- uid: GRYLibrary.Core.Utilities.IntegerToHexString(System.Numerics.BigInteger)
-  name: IntegerToHexString(BigInteger)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IntegerToHexString_System_Numerics_BigInteger_
-  commentId: M:GRYLibrary.Core.Utilities.IntegerToHexString(System.Numerics.BigInteger)
-  fullName: GRYLibrary.Core.Utilities.IntegerToHexString(System.Numerics.BigInteger)
-  nameWithType: Utilities.IntegerToHexString(BigInteger)
-- uid: GRYLibrary.Core.Utilities.IntegerToHexString*
-  name: IntegerToHexString
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IntegerToHexString_
-  commentId: Overload:GRYLibrary.Core.Utilities.IntegerToHexString
-  isSpec: "True"
-  fullName: GRYLibrary.Core.Utilities.IntegerToHexString
-  nameWithType: Utilities.IntegerToHexString
-- uid: GRYLibrary.Core.Utilities.IntToByteArray(System.Int32)
-  name: IntToByteArray(Int32)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IntToByteArray_System_Int32_
-  commentId: M:GRYLibrary.Core.Utilities.IntToByteArray(System.Int32)
-  fullName: GRYLibrary.Core.Utilities.IntToByteArray(System.Int32)
-  nameWithType: Utilities.IntToByteArray(Int32)
-- uid: GRYLibrary.Core.Utilities.IntToByteArray*
-  name: IntToByteArray
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IntToByteArray_
-  commentId: Overload:GRYLibrary.Core.Utilities.IntToByteArray
-  isSpec: "True"
-  fullName: GRYLibrary.Core.Utilities.IntToByteArray
-  nameWithType: Utilities.IntToByteArray
 - uid: GRYLibrary.Core.Utilities.IsAbsolutePath(System.String)
   name: IsAbsolutePath(String)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_IsAbsolutePath_System_String_
@@ -12585,6 +13473,22 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.NoOperation
   nameWithType: Utilities.NoOperation
+- uid: GRYLibrary.Core.Utilities.NTimes*
+  name: NTimes
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_NTimes_
+  commentId: Overload:GRYLibrary.Core.Utilities.NTimes
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.NTimes
+  nameWithType: Utilities.NTimes
+- uid: GRYLibrary.Core.Utilities.NTimes``1(System.Collections.Generic.IEnumerable{``0},System.UInt32)
+  name: NTimes<T>(IEnumerable<T>, UInt32)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_NTimes__1_System_Collections_Generic_IEnumerable___0__System_UInt32_
+  commentId: M:GRYLibrary.Core.Utilities.NTimes``1(System.Collections.Generic.IEnumerable{``0},System.UInt32)
+  name.vb: NTimes(Of T)(IEnumerable(Of T), UInt32)
+  fullName: GRYLibrary.Core.Utilities.NTimes<T>(System.Collections.Generic.IEnumerable<T>, System.UInt32)
+  fullName.vb: GRYLibrary.Core.Utilities.NTimes(Of T)(System.Collections.Generic.IEnumerable(Of T), System.UInt32)
+  nameWithType: Utilities.NTimes<T>(IEnumerable<T>, UInt32)
+  nameWithType.vb: Utilities.NTimes(Of T)(IEnumerable(Of T), UInt32)
 - uid: GRYLibrary.Core.Utilities.NullSafeEnumerableEquals*
   name: NullSafeEnumerableEquals
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_NullSafeEnumerableEquals_
@@ -13043,6 +13947,22 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.RemoveMountPointOfVolume
   nameWithType: Utilities.RemoveMountPointOfVolume
+- uid: GRYLibrary.Core.Utilities.Repeat*
+  name: Repeat
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_Repeat_
+  commentId: Overload:GRYLibrary.Core.Utilities.Repeat
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.Repeat
+  nameWithType: Utilities.Repeat
+- uid: GRYLibrary.Core.Utilities.Repeat``1(System.Action{System.UInt32},System.UInt32)
+  name: Repeat<T>(Action<UInt32>, UInt32)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_Repeat__1_System_Action_System_UInt32__System_UInt32_
+  commentId: M:GRYLibrary.Core.Utilities.Repeat``1(System.Action{System.UInt32},System.UInt32)
+  name.vb: Repeat(Of T)(Action(Of UInt32), UInt32)
+  fullName: GRYLibrary.Core.Utilities.Repeat<T>(System.Action<System.UInt32>, System.UInt32)
+  fullName.vb: GRYLibrary.Core.Utilities.Repeat(Of T)(System.Action(Of System.UInt32), System.UInt32)
+  nameWithType: Utilities.Repeat<T>(Action<UInt32>, UInt32)
+  nameWithType.vb: Utilities.Repeat(Of T)(Action(Of UInt32), UInt32)
 - uid: GRYLibrary.Core.Utilities.ReplaceUnderscores(System.String,System.Collections.Generic.IDictionary{System.String,System.String})
   name: ReplaceUnderscores(String, IDictionary<String, String>)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ReplaceUnderscores_System_String_System_Collections_Generic_IDictionary_System_String_System_String__
@@ -13225,35 +14145,12 @@ references:
   fullName.vb: GRYLibrary.Core.Utilities.Shuffle(Of T)(System.Collections.Generic.IList(Of T))
   nameWithType: Utilities.Shuffle<T>(IList<T>)
   nameWithType.vb: Utilities.Shuffle(Of T)(IList(Of T))
-- uid: GRYLibrary.Core.Utilities.SimpleByteArrayToString(System.Byte[])
-  name: SimpleByteArrayToString(Byte[])
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_SimpleByteArrayToString_System_Byte___
-  commentId: M:GRYLibrary.Core.Utilities.SimpleByteArrayToString(System.Byte[])
-  name.vb: SimpleByteArrayToString(Byte())
-  fullName: GRYLibrary.Core.Utilities.SimpleByteArrayToString(System.Byte[])
-  fullName.vb: GRYLibrary.Core.Utilities.SimpleByteArrayToString(System.Byte())
-  nameWithType: Utilities.SimpleByteArrayToString(Byte[])
-  nameWithType.vb: Utilities.SimpleByteArrayToString(Byte())
-- uid: GRYLibrary.Core.Utilities.SimpleByteArrayToString*
-  name: SimpleByteArrayToString
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_SimpleByteArrayToString_
-  commentId: Overload:GRYLibrary.Core.Utilities.SimpleByteArrayToString
-  isSpec: "True"
-  fullName: GRYLibrary.Core.Utilities.SimpleByteArrayToString
-  nameWithType: Utilities.SimpleByteArrayToString
-- uid: GRYLibrary.Core.Utilities.SimpleStringToByteArray(System.String)
-  name: SimpleStringToByteArray(String)
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_SimpleStringToByteArray_System_String_
-  commentId: M:GRYLibrary.Core.Utilities.SimpleStringToByteArray(System.String)
-  fullName: GRYLibrary.Core.Utilities.SimpleStringToByteArray(System.String)
-  nameWithType: Utilities.SimpleStringToByteArray(String)
-- uid: GRYLibrary.Core.Utilities.SimpleStringToByteArray*
-  name: SimpleStringToByteArray
-  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_SimpleStringToByteArray_
-  commentId: Overload:GRYLibrary.Core.Utilities.SimpleStringToByteArray
-  isSpec: "True"
-  fullName: GRYLibrary.Core.Utilities.SimpleStringToByteArray
-  nameWithType: Utilities.SimpleStringToByteArray
+- uid: GRYLibrary.Core.Utilities.SpecialCharacterTestString
+  name: SpecialCharacterTestString
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_SpecialCharacterTestString
+  commentId: F:GRYLibrary.Core.Utilities.SpecialCharacterTestString
+  fullName: GRYLibrary.Core.Utilities.SpecialCharacterTestString
+  nameWithType: Utilities.SpecialCharacterTestString
 - uid: GRYLibrary.Core.Utilities.Split*
   name: Split
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_Split_
@@ -13299,6 +14196,32 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.StringToBoolean
   nameWithType: Utilities.StringToBoolean
+- uid: GRYLibrary.Core.Utilities.StringToByteArray(System.String)
+  name: StringToByteArray(String)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_StringToByteArray_System_String_
+  commentId: M:GRYLibrary.Core.Utilities.StringToByteArray(System.String)
+  fullName: GRYLibrary.Core.Utilities.StringToByteArray(System.String)
+  nameWithType: Utilities.StringToByteArray(String)
+- uid: GRYLibrary.Core.Utilities.StringToByteArray*
+  name: StringToByteArray
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_StringToByteArray_
+  commentId: Overload:GRYLibrary.Core.Utilities.StringToByteArray
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.StringToByteArray
+  nameWithType: Utilities.StringToByteArray
+- uid: GRYLibrary.Core.Utilities.SwapEndianness(System.UInt32)
+  name: SwapEndianness(UInt32)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_SwapEndianness_System_UInt32_
+  commentId: M:GRYLibrary.Core.Utilities.SwapEndianness(System.UInt32)
+  fullName: GRYLibrary.Core.Utilities.SwapEndianness(System.UInt32)
+  nameWithType: Utilities.SwapEndianness(UInt32)
+- uid: GRYLibrary.Core.Utilities.SwapEndianness*
+  name: SwapEndianness
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_SwapEndianness_
+  commentId: Overload:GRYLibrary.Core.Utilities.SwapEndianness
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.SwapEndianness
+  nameWithType: Utilities.SwapEndianness
 - uid: GRYLibrary.Core.Utilities.ToCamelCase(System.String)
   name: ToCamelCase(String)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToCamelCase_System_String_
@@ -13415,6 +14338,37 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.ToPascalCase
   nameWithType: Utilities.ToPascalCase
+- uid: GRYLibrary.Core.Utilities.ToPercentValue(System.Decimal)
+  name: ToPercentValue(Decimal)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToPercentValue_System_Decimal_
+  commentId: M:GRYLibrary.Core.Utilities.ToPercentValue(System.Decimal)
+  fullName: GRYLibrary.Core.Utilities.ToPercentValue(System.Decimal)
+  nameWithType: Utilities.ToPercentValue(Decimal)
+- uid: GRYLibrary.Core.Utilities.ToPercentValue(System.Double)
+  name: ToPercentValue(Double)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToPercentValue_System_Double_
+  commentId: M:GRYLibrary.Core.Utilities.ToPercentValue(System.Double)
+  fullName: GRYLibrary.Core.Utilities.ToPercentValue(System.Double)
+  nameWithType: Utilities.ToPercentValue(Double)
+- uid: GRYLibrary.Core.Utilities.ToPercentValue(System.Int32)
+  name: ToPercentValue(Int32)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToPercentValue_System_Int32_
+  commentId: M:GRYLibrary.Core.Utilities.ToPercentValue(System.Int32)
+  fullName: GRYLibrary.Core.Utilities.ToPercentValue(System.Int32)
+  nameWithType: Utilities.ToPercentValue(Int32)
+- uid: GRYLibrary.Core.Utilities.ToPercentValue(System.Single)
+  name: ToPercentValue(Single)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToPercentValue_System_Single_
+  commentId: M:GRYLibrary.Core.Utilities.ToPercentValue(System.Single)
+  fullName: GRYLibrary.Core.Utilities.ToPercentValue(System.Single)
+  nameWithType: Utilities.ToPercentValue(Single)
+- uid: GRYLibrary.Core.Utilities.ToPercentValue*
+  name: ToPercentValue
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToPercentValue_
+  commentId: Overload:GRYLibrary.Core.Utilities.ToPercentValue
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.ToPercentValue
+  nameWithType: Utilities.ToPercentValue
 - uid: GRYLibrary.Core.Utilities.ToSerializableDictionary*
   name: ToSerializableDictionary
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ToSerializableDictionary_
@@ -13693,6 +14647,32 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Utilities.TypeIsTuple
   nameWithType: Utilities.TypeIsTuple
+- uid: GRYLibrary.Core.Utilities.UnsignedInteger32BitToByteArray(System.UInt32,GRYLibrary.Core.Utilities.Endianness)
+  name: UnsignedInteger32BitToByteArray(UInt32, Utilities.Endianness)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_UnsignedInteger32BitToByteArray_System_UInt32_GRYLibrary_Core_Utilities_Endianness_
+  commentId: M:GRYLibrary.Core.Utilities.UnsignedInteger32BitToByteArray(System.UInt32,GRYLibrary.Core.Utilities.Endianness)
+  fullName: GRYLibrary.Core.Utilities.UnsignedInteger32BitToByteArray(System.UInt32, GRYLibrary.Core.Utilities.Endianness)
+  nameWithType: Utilities.UnsignedInteger32BitToByteArray(UInt32, Utilities.Endianness)
+- uid: GRYLibrary.Core.Utilities.UnsignedInteger32BitToByteArray*
+  name: UnsignedInteger32BitToByteArray
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_UnsignedInteger32BitToByteArray_
+  commentId: Overload:GRYLibrary.Core.Utilities.UnsignedInteger32BitToByteArray
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.UnsignedInteger32BitToByteArray
+  nameWithType: Utilities.UnsignedInteger32BitToByteArray
+- uid: GRYLibrary.Core.Utilities.UnsignedInteger64BitToByteArray(System.UInt64,GRYLibrary.Core.Utilities.Endianness)
+  name: UnsignedInteger64BitToByteArray(UInt64, Utilities.Endianness)
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_UnsignedInteger64BitToByteArray_System_UInt64_GRYLibrary_Core_Utilities_Endianness_
+  commentId: M:GRYLibrary.Core.Utilities.UnsignedInteger64BitToByteArray(System.UInt64,GRYLibrary.Core.Utilities.Endianness)
+  fullName: GRYLibrary.Core.Utilities.UnsignedInteger64BitToByteArray(System.UInt64, GRYLibrary.Core.Utilities.Endianness)
+  nameWithType: Utilities.UnsignedInteger64BitToByteArray(UInt64, Utilities.Endianness)
+- uid: GRYLibrary.Core.Utilities.UnsignedInteger64BitToByteArray*
+  name: UnsignedInteger64BitToByteArray
+  href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_UnsignedInteger64BitToByteArray_
+  commentId: Overload:GRYLibrary.Core.Utilities.UnsignedInteger64BitToByteArray
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Utilities.UnsignedInteger64BitToByteArray
+  nameWithType: Utilities.UnsignedInteger64BitToByteArray
 - uid: GRYLibrary.Core.Utilities.ValidateXMLAgainstXSD(System.String,System.String,System.Collections.Generic.IList{System.Object}@)
   name: ValidateXMLAgainstXSD(String, String, out IList<Object>)
   href: api/GRYLibrary.Core.Utilities.html#GRYLibrary_Core_Utilities_ValidateXMLAgainstXSD_System_String_System_String_System_Collections_Generic_IList_System_Object___
