@@ -8022,12 +8022,6 @@ references:
   commentId: M:GRYLibrary.Core.PercentValue.op_Addition(GRYLibrary.Core.PercentValue,System.Double)
   fullName: GRYLibrary.Core.PercentValue.Addition(GRYLibrary.Core.PercentValue, System.Double)
   nameWithType: PercentValue.Addition(PercentValue, Double)
-- uid: GRYLibrary.Core.PercentValue.op_Addition(GRYLibrary.Core.PercentValue,System.Int32)
-  name: Addition(PercentValue, Int32)
-  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Addition_GRYLibrary_Core_PercentValue_System_Int32_
-  commentId: M:GRYLibrary.Core.PercentValue.op_Addition(GRYLibrary.Core.PercentValue,System.Int32)
-  fullName: GRYLibrary.Core.PercentValue.Addition(GRYLibrary.Core.PercentValue, System.Int32)
-  nameWithType: PercentValue.Addition(PercentValue, Int32)
 - uid: GRYLibrary.Core.PercentValue.op_Addition(System.Decimal,GRYLibrary.Core.PercentValue)
   name: Addition(Decimal, PercentValue)
   href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Addition_System_Decimal_GRYLibrary_Core_PercentValue_
@@ -8040,12 +8034,6 @@ references:
   commentId: M:GRYLibrary.Core.PercentValue.op_Addition(System.Double,GRYLibrary.Core.PercentValue)
   fullName: GRYLibrary.Core.PercentValue.Addition(System.Double, GRYLibrary.Core.PercentValue)
   nameWithType: PercentValue.Addition(Double, PercentValue)
-- uid: GRYLibrary.Core.PercentValue.op_Addition(System.Int32,GRYLibrary.Core.PercentValue)
-  name: Addition(Int32, PercentValue)
-  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Addition_System_Int32_GRYLibrary_Core_PercentValue_
-  commentId: M:GRYLibrary.Core.PercentValue.op_Addition(System.Int32,GRYLibrary.Core.PercentValue)
-  fullName: GRYLibrary.Core.PercentValue.Addition(System.Int32, GRYLibrary.Core.PercentValue)
-  nameWithType: PercentValue.Addition(Int32, PercentValue)
 - uid: GRYLibrary.Core.PercentValue.op_Addition*
   name: Addition
   href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Addition_
@@ -8071,12 +8059,6 @@ references:
   commentId: M:GRYLibrary.Core.PercentValue.op_Division(GRYLibrary.Core.PercentValue,System.Double)
   fullName: GRYLibrary.Core.PercentValue.Division(GRYLibrary.Core.PercentValue, System.Double)
   nameWithType: PercentValue.Division(PercentValue, Double)
-- uid: GRYLibrary.Core.PercentValue.op_Division(GRYLibrary.Core.PercentValue,System.Int32)
-  name: Division(PercentValue, Int32)
-  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Division_GRYLibrary_Core_PercentValue_System_Int32_
-  commentId: M:GRYLibrary.Core.PercentValue.op_Division(GRYLibrary.Core.PercentValue,System.Int32)
-  fullName: GRYLibrary.Core.PercentValue.Division(GRYLibrary.Core.PercentValue, System.Int32)
-  nameWithType: PercentValue.Division(PercentValue, Int32)
 - uid: GRYLibrary.Core.PercentValue.op_Division(System.Decimal,GRYLibrary.Core.PercentValue)
   name: Division(Decimal, PercentValue)
   href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Division_System_Decimal_GRYLibrary_Core_PercentValue_
@@ -8089,12 +8071,6 @@ references:
   commentId: M:GRYLibrary.Core.PercentValue.op_Division(System.Double,GRYLibrary.Core.PercentValue)
   fullName: GRYLibrary.Core.PercentValue.Division(System.Double, GRYLibrary.Core.PercentValue)
   nameWithType: PercentValue.Division(Double, PercentValue)
-- uid: GRYLibrary.Core.PercentValue.op_Division(System.Int32,GRYLibrary.Core.PercentValue)
-  name: Division(Int32, PercentValue)
-  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Division_System_Int32_GRYLibrary_Core_PercentValue_
-  commentId: M:GRYLibrary.Core.PercentValue.op_Division(System.Int32,GRYLibrary.Core.PercentValue)
-  fullName: GRYLibrary.Core.PercentValue.Division(System.Int32, GRYLibrary.Core.PercentValue)
-  nameWithType: PercentValue.Division(Int32, PercentValue)
 - uid: GRYLibrary.Core.PercentValue.op_Division*
   name: Division
   href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Division_
@@ -8169,12 +8145,6 @@ references:
   commentId: M:GRYLibrary.Core.PercentValue.op_GreaterThan(GRYLibrary.Core.PercentValue,System.Double)
   fullName: GRYLibrary.Core.PercentValue.GreaterThan(GRYLibrary.Core.PercentValue, System.Double)
   nameWithType: PercentValue.GreaterThan(PercentValue, Double)
-- uid: GRYLibrary.Core.PercentValue.op_GreaterThan(GRYLibrary.Core.PercentValue,System.Int32)
-  name: GreaterThan(PercentValue, Int32)
-  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_GreaterThan_GRYLibrary_Core_PercentValue_System_Int32_
-  commentId: M:GRYLibrary.Core.PercentValue.op_GreaterThan(GRYLibrary.Core.PercentValue,System.Int32)
-  fullName: GRYLibrary.Core.PercentValue.GreaterThan(GRYLibrary.Core.PercentValue, System.Int32)
-  nameWithType: PercentValue.GreaterThan(PercentValue, Int32)
 - uid: GRYLibrary.Core.PercentValue.op_GreaterThan(System.Decimal,GRYLibrary.Core.PercentValue)
   name: GreaterThan(Decimal, PercentValue)
   href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_GreaterThan_System_Decimal_GRYLibrary_Core_PercentValue_
@@ -8187,12 +8157,6 @@ references:
   commentId: M:GRYLibrary.Core.PercentValue.op_GreaterThan(System.Double,GRYLibrary.Core.PercentValue)
   fullName: GRYLibrary.Core.PercentValue.GreaterThan(System.Double, GRYLibrary.Core.PercentValue)
   nameWithType: PercentValue.GreaterThan(Double, PercentValue)
-- uid: GRYLibrary.Core.PercentValue.op_GreaterThan(System.Int32,GRYLibrary.Core.PercentValue)
-  name: GreaterThan(Int32, PercentValue)
-  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_GreaterThan_System_Int32_GRYLibrary_Core_PercentValue_
-  commentId: M:GRYLibrary.Core.PercentValue.op_GreaterThan(System.Int32,GRYLibrary.Core.PercentValue)
-  fullName: GRYLibrary.Core.PercentValue.GreaterThan(System.Int32, GRYLibrary.Core.PercentValue)
-  nameWithType: PercentValue.GreaterThan(Int32, PercentValue)
 - uid: GRYLibrary.Core.PercentValue.op_GreaterThan*
   name: GreaterThan
   href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_GreaterThan_
@@ -8218,12 +8182,6 @@ references:
   commentId: M:GRYLibrary.Core.PercentValue.op_GreaterThanOrEqual(GRYLibrary.Core.PercentValue,System.Double)
   fullName: GRYLibrary.Core.PercentValue.GreaterThanOrEqual(GRYLibrary.Core.PercentValue, System.Double)
   nameWithType: PercentValue.GreaterThanOrEqual(PercentValue, Double)
-- uid: GRYLibrary.Core.PercentValue.op_GreaterThanOrEqual(GRYLibrary.Core.PercentValue,System.Int32)
-  name: GreaterThanOrEqual(PercentValue, Int32)
-  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_GreaterThanOrEqual_GRYLibrary_Core_PercentValue_System_Int32_
-  commentId: M:GRYLibrary.Core.PercentValue.op_GreaterThanOrEqual(GRYLibrary.Core.PercentValue,System.Int32)
-  fullName: GRYLibrary.Core.PercentValue.GreaterThanOrEqual(GRYLibrary.Core.PercentValue, System.Int32)
-  nameWithType: PercentValue.GreaterThanOrEqual(PercentValue, Int32)
 - uid: GRYLibrary.Core.PercentValue.op_GreaterThanOrEqual(System.Decimal,GRYLibrary.Core.PercentValue)
   name: GreaterThanOrEqual(Decimal, PercentValue)
   href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_GreaterThanOrEqual_System_Decimal_GRYLibrary_Core_PercentValue_
@@ -8236,12 +8194,6 @@ references:
   commentId: M:GRYLibrary.Core.PercentValue.op_GreaterThanOrEqual(System.Double,GRYLibrary.Core.PercentValue)
   fullName: GRYLibrary.Core.PercentValue.GreaterThanOrEqual(System.Double, GRYLibrary.Core.PercentValue)
   nameWithType: PercentValue.GreaterThanOrEqual(Double, PercentValue)
-- uid: GRYLibrary.Core.PercentValue.op_GreaterThanOrEqual(System.Int32,GRYLibrary.Core.PercentValue)
-  name: GreaterThanOrEqual(Int32, PercentValue)
-  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_GreaterThanOrEqual_System_Int32_GRYLibrary_Core_PercentValue_
-  commentId: M:GRYLibrary.Core.PercentValue.op_GreaterThanOrEqual(System.Int32,GRYLibrary.Core.PercentValue)
-  fullName: GRYLibrary.Core.PercentValue.GreaterThanOrEqual(System.Int32, GRYLibrary.Core.PercentValue)
-  nameWithType: PercentValue.GreaterThanOrEqual(Int32, PercentValue)
 - uid: GRYLibrary.Core.PercentValue.op_GreaterThanOrEqual*
   name: GreaterThanOrEqual
   href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_GreaterThanOrEqual_
@@ -8316,12 +8268,6 @@ references:
   commentId: M:GRYLibrary.Core.PercentValue.op_LessThan(GRYLibrary.Core.PercentValue,System.Double)
   fullName: GRYLibrary.Core.PercentValue.LessThan(GRYLibrary.Core.PercentValue, System.Double)
   nameWithType: PercentValue.LessThan(PercentValue, Double)
-- uid: GRYLibrary.Core.PercentValue.op_LessThan(GRYLibrary.Core.PercentValue,System.Int32)
-  name: LessThan(PercentValue, Int32)
-  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_LessThan_GRYLibrary_Core_PercentValue_System_Int32_
-  commentId: M:GRYLibrary.Core.PercentValue.op_LessThan(GRYLibrary.Core.PercentValue,System.Int32)
-  fullName: GRYLibrary.Core.PercentValue.LessThan(GRYLibrary.Core.PercentValue, System.Int32)
-  nameWithType: PercentValue.LessThan(PercentValue, Int32)
 - uid: GRYLibrary.Core.PercentValue.op_LessThan(System.Decimal,GRYLibrary.Core.PercentValue)
   name: LessThan(Decimal, PercentValue)
   href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_LessThan_System_Decimal_GRYLibrary_Core_PercentValue_
@@ -8334,12 +8280,6 @@ references:
   commentId: M:GRYLibrary.Core.PercentValue.op_LessThan(System.Double,GRYLibrary.Core.PercentValue)
   fullName: GRYLibrary.Core.PercentValue.LessThan(System.Double, GRYLibrary.Core.PercentValue)
   nameWithType: PercentValue.LessThan(Double, PercentValue)
-- uid: GRYLibrary.Core.PercentValue.op_LessThan(System.Int32,GRYLibrary.Core.PercentValue)
-  name: LessThan(Int32, PercentValue)
-  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_LessThan_System_Int32_GRYLibrary_Core_PercentValue_
-  commentId: M:GRYLibrary.Core.PercentValue.op_LessThan(System.Int32,GRYLibrary.Core.PercentValue)
-  fullName: GRYLibrary.Core.PercentValue.LessThan(System.Int32, GRYLibrary.Core.PercentValue)
-  nameWithType: PercentValue.LessThan(Int32, PercentValue)
 - uid: GRYLibrary.Core.PercentValue.op_LessThan*
   name: LessThan
   href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_LessThan_
@@ -8365,12 +8305,6 @@ references:
   commentId: M:GRYLibrary.Core.PercentValue.op_LessThanOrEqual(GRYLibrary.Core.PercentValue,System.Double)
   fullName: GRYLibrary.Core.PercentValue.LessThanOrEqual(GRYLibrary.Core.PercentValue, System.Double)
   nameWithType: PercentValue.LessThanOrEqual(PercentValue, Double)
-- uid: GRYLibrary.Core.PercentValue.op_LessThanOrEqual(GRYLibrary.Core.PercentValue,System.Int32)
-  name: LessThanOrEqual(PercentValue, Int32)
-  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_LessThanOrEqual_GRYLibrary_Core_PercentValue_System_Int32_
-  commentId: M:GRYLibrary.Core.PercentValue.op_LessThanOrEqual(GRYLibrary.Core.PercentValue,System.Int32)
-  fullName: GRYLibrary.Core.PercentValue.LessThanOrEqual(GRYLibrary.Core.PercentValue, System.Int32)
-  nameWithType: PercentValue.LessThanOrEqual(PercentValue, Int32)
 - uid: GRYLibrary.Core.PercentValue.op_LessThanOrEqual(System.Decimal,GRYLibrary.Core.PercentValue)
   name: LessThanOrEqual(Decimal, PercentValue)
   href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_LessThanOrEqual_System_Decimal_GRYLibrary_Core_PercentValue_
@@ -8383,12 +8317,6 @@ references:
   commentId: M:GRYLibrary.Core.PercentValue.op_LessThanOrEqual(System.Double,GRYLibrary.Core.PercentValue)
   fullName: GRYLibrary.Core.PercentValue.LessThanOrEqual(System.Double, GRYLibrary.Core.PercentValue)
   nameWithType: PercentValue.LessThanOrEqual(Double, PercentValue)
-- uid: GRYLibrary.Core.PercentValue.op_LessThanOrEqual(System.Int32,GRYLibrary.Core.PercentValue)
-  name: LessThanOrEqual(Int32, PercentValue)
-  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_LessThanOrEqual_System_Int32_GRYLibrary_Core_PercentValue_
-  commentId: M:GRYLibrary.Core.PercentValue.op_LessThanOrEqual(System.Int32,GRYLibrary.Core.PercentValue)
-  fullName: GRYLibrary.Core.PercentValue.LessThanOrEqual(System.Int32, GRYLibrary.Core.PercentValue)
-  nameWithType: PercentValue.LessThanOrEqual(Int32, PercentValue)
 - uid: GRYLibrary.Core.PercentValue.op_LessThanOrEqual*
   name: LessThanOrEqual
   href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_LessThanOrEqual_
@@ -8414,12 +8342,6 @@ references:
   commentId: M:GRYLibrary.Core.PercentValue.op_Multiply(GRYLibrary.Core.PercentValue,System.Double)
   fullName: GRYLibrary.Core.PercentValue.Multiply(GRYLibrary.Core.PercentValue, System.Double)
   nameWithType: PercentValue.Multiply(PercentValue, Double)
-- uid: GRYLibrary.Core.PercentValue.op_Multiply(GRYLibrary.Core.PercentValue,System.Int32)
-  name: Multiply(PercentValue, Int32)
-  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Multiply_GRYLibrary_Core_PercentValue_System_Int32_
-  commentId: M:GRYLibrary.Core.PercentValue.op_Multiply(GRYLibrary.Core.PercentValue,System.Int32)
-  fullName: GRYLibrary.Core.PercentValue.Multiply(GRYLibrary.Core.PercentValue, System.Int32)
-  nameWithType: PercentValue.Multiply(PercentValue, Int32)
 - uid: GRYLibrary.Core.PercentValue.op_Multiply(System.Decimal,GRYLibrary.Core.PercentValue)
   name: Multiply(Decimal, PercentValue)
   href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Multiply_System_Decimal_GRYLibrary_Core_PercentValue_
@@ -8432,12 +8354,6 @@ references:
   commentId: M:GRYLibrary.Core.PercentValue.op_Multiply(System.Double,GRYLibrary.Core.PercentValue)
   fullName: GRYLibrary.Core.PercentValue.Multiply(System.Double, GRYLibrary.Core.PercentValue)
   nameWithType: PercentValue.Multiply(Double, PercentValue)
-- uid: GRYLibrary.Core.PercentValue.op_Multiply(System.Int32,GRYLibrary.Core.PercentValue)
-  name: Multiply(Int32, PercentValue)
-  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Multiply_System_Int32_GRYLibrary_Core_PercentValue_
-  commentId: M:GRYLibrary.Core.PercentValue.op_Multiply(System.Int32,GRYLibrary.Core.PercentValue)
-  fullName: GRYLibrary.Core.PercentValue.Multiply(System.Int32, GRYLibrary.Core.PercentValue)
-  nameWithType: PercentValue.Multiply(Int32, PercentValue)
 - uid: GRYLibrary.Core.PercentValue.op_Multiply*
   name: Multiply
   href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Multiply_
@@ -8463,12 +8379,6 @@ references:
   commentId: M:GRYLibrary.Core.PercentValue.op_Subtraction(GRYLibrary.Core.PercentValue,System.Double)
   fullName: GRYLibrary.Core.PercentValue.Subtraction(GRYLibrary.Core.PercentValue, System.Double)
   nameWithType: PercentValue.Subtraction(PercentValue, Double)
-- uid: GRYLibrary.Core.PercentValue.op_Subtraction(GRYLibrary.Core.PercentValue,System.Int32)
-  name: Subtraction(PercentValue, Int32)
-  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Subtraction_GRYLibrary_Core_PercentValue_System_Int32_
-  commentId: M:GRYLibrary.Core.PercentValue.op_Subtraction(GRYLibrary.Core.PercentValue,System.Int32)
-  fullName: GRYLibrary.Core.PercentValue.Subtraction(GRYLibrary.Core.PercentValue, System.Int32)
-  nameWithType: PercentValue.Subtraction(PercentValue, Int32)
 - uid: GRYLibrary.Core.PercentValue.op_Subtraction(System.Decimal,GRYLibrary.Core.PercentValue)
   name: Subtraction(Decimal, PercentValue)
   href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Subtraction_System_Decimal_GRYLibrary_Core_PercentValue_
@@ -8481,12 +8391,6 @@ references:
   commentId: M:GRYLibrary.Core.PercentValue.op_Subtraction(System.Double,GRYLibrary.Core.PercentValue)
   fullName: GRYLibrary.Core.PercentValue.Subtraction(System.Double, GRYLibrary.Core.PercentValue)
   nameWithType: PercentValue.Subtraction(Double, PercentValue)
-- uid: GRYLibrary.Core.PercentValue.op_Subtraction(System.Int32,GRYLibrary.Core.PercentValue)
-  name: Subtraction(Int32, PercentValue)
-  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Subtraction_System_Int32_GRYLibrary_Core_PercentValue_
-  commentId: M:GRYLibrary.Core.PercentValue.op_Subtraction(System.Int32,GRYLibrary.Core.PercentValue)
-  fullName: GRYLibrary.Core.PercentValue.Subtraction(System.Int32, GRYLibrary.Core.PercentValue)
-  nameWithType: PercentValue.Subtraction(Int32, PercentValue)
 - uid: GRYLibrary.Core.PercentValue.op_Subtraction*
   name: Subtraction
   href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_op_Subtraction_
@@ -8494,6 +8398,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.PercentValue.Subtraction
   nameWithType: PercentValue.Subtraction
+- uid: GRYLibrary.Core.PercentValue.ToString
+  name: ToString()
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_ToString
+  commentId: M:GRYLibrary.Core.PercentValue.ToString
+  fullName: GRYLibrary.Core.PercentValue.ToString()
+  nameWithType: PercentValue.ToString()
+- uid: GRYLibrary.Core.PercentValue.ToString*
+  name: ToString
+  href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_ToString_
+  commentId: Overload:GRYLibrary.Core.PercentValue.ToString
+  isSpec: "True"
+  fullName: GRYLibrary.Core.PercentValue.ToString
+  nameWithType: PercentValue.ToString
 - uid: GRYLibrary.Core.PercentValue.Value
   name: Value
   href: api/GRYLibrary.Core.PercentValue.html#GRYLibrary_Core_PercentValue_Value

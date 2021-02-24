@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CoverageSession>
-  <Summary numSequencePoints="4300" visitedSequencePoints="0" numBranchPoints="1648" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2541" minCyclomaticComplexity="2541" visitedClasses="0" numClasses="123" visitedMethods="0" numMethods="1253" />
+  <Summary numSequencePoints="4293" visitedSequencePoints="0" numBranchPoints="1654" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2531" minCyclomaticComplexity="2531" visitedClasses="0" numClasses="123" visitedMethods="0" numMethods="1238" />
   <Modules>
-    <Module hash="6EDA82E2-2BE6-42B2-9690-DFC93EB0218A">
+    <Module hash="DD965B62-7632-47C0-A792-EF995CC76927">
       <ModulePath>GRYLibrary.dll</ModulePath>
-      <ModuleTime>2021-02-23T07:09:36</ModuleTime>
+      <ModuleTime>2021-02-24T11:28:17</ModuleTime>
       <ModuleName>GRYLibrary</ModuleName>
       <Files>
         <File uid="1" fullPath="C:\Data\Projects\Common\GRYLibraryBuild\Submodules\GRYLibrary\GRYLibrary\Core\ByteArray.cs" />
@@ -2104,7 +2104,7 @@
           </Methods>
         </Class>
         <Class>
-          <Summary numSequencePoints="89" visitedSequencePoints="0" numBranchPoints="10" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="4" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="79" />
+          <Summary numSequencePoints="74" visitedSequencePoints="0" numBranchPoints="10" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="4" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="64" />
           <FullName>GRYLibrary.Core.PercentValue</FullName>
           <Methods>
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="True" isSetter="False" isStatic="True">
@@ -2199,13 +2199,24 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
+              <Name>System.String GRYLibrary.Core.PercentValue::ToString()</Name>
+              <FileRef uid="11" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="66" ordinal="0" sl="66" sc="1" el="66" ec="2" bec="0" bev="0" fileid="11" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="7" offset="7" sc="0" sl="66" ec="1" el="66" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
+            </Method>
+            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken />
               <Name>System.Boolean GRYLibrary.Core.PercentValue::op_Equality(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)</Name>
               <FileRef uid="11" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="67" ordinal="0" sl="67" sc="1" el="67" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="71" ordinal="0" sl="71" sc="1" el="71" ec="2" bec="0" bev="0" fileid="11" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="7" offset="7" sc="0" sl="67" ec="1" el="67" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="8" offset="8" sc="0" sl="71" ec="1" el="71" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
             </Method>
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
@@ -2213,26 +2224,15 @@
               <Name>System.Boolean GRYLibrary.Core.PercentValue::op_Inequality(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)</Name>
               <FileRef uid="11" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="72" ordinal="0" sl="72" sc="1" el="72" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="76" ordinal="0" sl="76" sc="1" el="76" ec="2" bec="0" bev="0" fileid="11" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="8" offset="8" sc="0" sl="72" ec="1" el="72" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="9" offset="9" sc="0" sl="76" ec="1" el="76" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
             </Method>
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
               <Name>System.Boolean GRYLibrary.Core.PercentValue::op_Equality(GRYLibrary.Core.PercentValue,System.Int32)</Name>
-              <FileRef uid="11" />
-              <SequencePoints>
-                <SequencePoint vc="0" uspid="77" ordinal="0" sl="77" sc="1" el="77" ec="2" bec="0" bev="0" fileid="11" />
-              </SequencePoints>
-              <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="9" offset="9" sc="0" sl="77" ec="1" el="77" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
-            </Method>
-            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
-              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
-              <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_Inequality(GRYLibrary.Core.PercentValue,System.Int32)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="81" ordinal="0" sl="81" sc="1" el="81" ec="2" bec="0" bev="0" fileid="11" />
@@ -2243,7 +2243,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_Equality(System.Int32,GRYLibrary.Core.PercentValue)</Name>
+              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_Inequality(GRYLibrary.Core.PercentValue,System.Int32)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="85" ordinal="0" sl="85" sc="1" el="85" ec="2" bec="0" bev="0" fileid="11" />
@@ -2254,18 +2254,18 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_Inequality(System.Int32,GRYLibrary.Core.PercentValue)</Name>
+              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_Equality(System.Int32,GRYLibrary.Core.PercentValue)</Name>
               <FileRef uid="11" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="90" ordinal="0" sl="90" sc="1" el="90" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="89" ordinal="0" sl="89" sc="1" el="89" ec="2" bec="0" bev="0" fileid="11" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="12" offset="12" sc="0" sl="90" ec="1" el="90" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="12" offset="12" sc="0" sl="89" ec="1" el="89" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
             </Method>
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_Equality(GRYLibrary.Core.PercentValue,System.Double)</Name>
+              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_Inequality(System.Int32,GRYLibrary.Core.PercentValue)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="94" ordinal="0" sl="94" sc="1" el="94" ec="2" bec="0" bev="0" fileid="11" />
@@ -2276,18 +2276,18 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_Inequality(GRYLibrary.Core.PercentValue,System.Double)</Name>
+              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_Equality(GRYLibrary.Core.PercentValue,System.Double)</Name>
               <FileRef uid="11" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="99" ordinal="0" sl="99" sc="1" el="99" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="98" ordinal="0" sl="98" sc="1" el="98" ec="2" bec="0" bev="0" fileid="11" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="14" offset="14" sc="0" sl="99" ec="1" el="99" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="14" offset="14" sc="0" sl="98" ec="1" el="98" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
             </Method>
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_Equality(System.Double,GRYLibrary.Core.PercentValue)</Name>
+              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_Inequality(GRYLibrary.Core.PercentValue,System.Double)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="103" ordinal="0" sl="103" sc="1" el="103" ec="2" bec="0" bev="0" fileid="11" />
@@ -2298,7 +2298,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_Inequality(System.Double,GRYLibrary.Core.PercentValue)</Name>
+              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_Equality(System.Double,GRYLibrary.Core.PercentValue)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="107" ordinal="0" sl="107" sc="1" el="107" ec="2" bec="0" bev="0" fileid="11" />
@@ -2309,7 +2309,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_Equality(GRYLibrary.Core.PercentValue,System.Decimal)</Name>
+              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_Inequality(System.Double,GRYLibrary.Core.PercentValue)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="111" ordinal="0" sl="111" sc="1" el="111" ec="2" bec="0" bev="0" fileid="11" />
@@ -2320,7 +2320,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_Inequality(GRYLibrary.Core.PercentValue,System.Decimal)</Name>
+              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_Equality(GRYLibrary.Core.PercentValue,System.Decimal)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="115" ordinal="0" sl="115" sc="1" el="115" ec="2" bec="0" bev="0" fileid="11" />
@@ -2331,7 +2331,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_Equality(System.Decimal,GRYLibrary.Core.PercentValue)</Name>
+              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_Inequality(GRYLibrary.Core.PercentValue,System.Decimal)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="119" ordinal="0" sl="119" sc="1" el="119" ec="2" bec="0" bev="0" fileid="11" />
@@ -2342,18 +2342,18 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_Inequality(System.Decimal,GRYLibrary.Core.PercentValue)</Name>
+              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_Equality(System.Decimal,GRYLibrary.Core.PercentValue)</Name>
               <FileRef uid="11" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="124" ordinal="0" sl="124" sc="1" el="124" ec="2" bec="0" bev="0" fileid="11" />
+                <SequencePoint vc="0" uspid="123" ordinal="0" sl="123" sc="1" el="123" ec="2" bec="0" bev="0" fileid="11" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="20" offset="20" sc="0" sl="124" ec="1" el="124" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="20" offset="20" sc="0" sl="123" ec="1" el="123" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
             </Method>
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_LessThan(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)</Name>
+              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_Inequality(System.Decimal,GRYLibrary.Core.PercentValue)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="128" ordinal="0" sl="128" sc="1" el="128" ec="2" bec="0" bev="0" fileid="11" />
@@ -2364,7 +2364,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_GreaterThan(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)</Name>
+              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_LessThan(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="132" ordinal="0" sl="132" sc="1" el="132" ec="2" bec="0" bev="0" fileid="11" />
@@ -2375,7 +2375,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_LessThanOrEqual(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)</Name>
+              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_GreaterThan(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="136" ordinal="0" sl="136" sc="1" el="136" ec="2" bec="0" bev="0" fileid="11" />
@@ -2386,7 +2386,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_GreaterThanOrEqual(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)</Name>
+              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_LessThanOrEqual(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="140" ordinal="0" sl="140" sc="1" el="140" ec="2" bec="0" bev="0" fileid="11" />
@@ -2397,7 +2397,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_LessThan(GRYLibrary.Core.PercentValue,System.Int32)</Name>
+              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_GreaterThanOrEqual(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="144" ordinal="0" sl="144" sc="1" el="144" ec="2" bec="0" bev="0" fileid="11" />
@@ -2408,7 +2408,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_GreaterThan(GRYLibrary.Core.PercentValue,System.Int32)</Name>
+              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_LessThan(GRYLibrary.Core.PercentValue,System.Double)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="148" ordinal="0" sl="148" sc="1" el="148" ec="2" bec="0" bev="0" fileid="11" />
@@ -2419,7 +2419,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_LessThanOrEqual(GRYLibrary.Core.PercentValue,System.Int32)</Name>
+              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_GreaterThan(GRYLibrary.Core.PercentValue,System.Double)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="152" ordinal="0" sl="152" sc="1" el="152" ec="2" bec="0" bev="0" fileid="11" />
@@ -2430,7 +2430,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_GreaterThanOrEqual(GRYLibrary.Core.PercentValue,System.Int32)</Name>
+              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_LessThanOrEqual(GRYLibrary.Core.PercentValue,System.Double)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="156" ordinal="0" sl="156" sc="1" el="156" ec="2" bec="0" bev="0" fileid="11" />
@@ -2441,7 +2441,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_LessThan(System.Int32,GRYLibrary.Core.PercentValue)</Name>
+              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_GreaterThanOrEqual(GRYLibrary.Core.PercentValue,System.Double)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="160" ordinal="0" sl="160" sc="1" el="160" ec="2" bec="0" bev="0" fileid="11" />
@@ -2452,7 +2452,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_GreaterThan(System.Int32,GRYLibrary.Core.PercentValue)</Name>
+              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_LessThan(System.Double,GRYLibrary.Core.PercentValue)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="164" ordinal="0" sl="164" sc="1" el="164" ec="2" bec="0" bev="0" fileid="11" />
@@ -2463,7 +2463,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_LessThanOrEqual(System.Int32,GRYLibrary.Core.PercentValue)</Name>
+              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_GreaterThan(System.Double,GRYLibrary.Core.PercentValue)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="168" ordinal="0" sl="168" sc="1" el="168" ec="2" bec="0" bev="0" fileid="11" />
@@ -2474,7 +2474,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_GreaterThanOrEqual(System.Int32,GRYLibrary.Core.PercentValue)</Name>
+              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_LessThanOrEqual(System.Double,GRYLibrary.Core.PercentValue)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="172" ordinal="0" sl="172" sc="1" el="172" ec="2" bec="0" bev="0" fileid="11" />
@@ -2485,7 +2485,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_LessThan(GRYLibrary.Core.PercentValue,System.Double)</Name>
+              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_GreaterThanOrEqual(System.Double,GRYLibrary.Core.PercentValue)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="176" ordinal="0" sl="176" sc="1" el="176" ec="2" bec="0" bev="0" fileid="11" />
@@ -2496,7 +2496,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_GreaterThan(GRYLibrary.Core.PercentValue,System.Double)</Name>
+              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_LessThan(GRYLibrary.Core.PercentValue,System.Decimal)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="180" ordinal="0" sl="180" sc="1" el="180" ec="2" bec="0" bev="0" fileid="11" />
@@ -2507,7 +2507,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_LessThanOrEqual(GRYLibrary.Core.PercentValue,System.Double)</Name>
+              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_GreaterThan(GRYLibrary.Core.PercentValue,System.Decimal)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="184" ordinal="0" sl="184" sc="1" el="184" ec="2" bec="0" bev="0" fileid="11" />
@@ -2518,7 +2518,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_GreaterThanOrEqual(GRYLibrary.Core.PercentValue,System.Double)</Name>
+              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_LessThanOrEqual(GRYLibrary.Core.PercentValue,System.Decimal)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="188" ordinal="0" sl="188" sc="1" el="188" ec="2" bec="0" bev="0" fileid="11" />
@@ -2529,7 +2529,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_LessThan(System.Double,GRYLibrary.Core.PercentValue)</Name>
+              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_GreaterThanOrEqual(GRYLibrary.Core.PercentValue,System.Decimal)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="192" ordinal="0" sl="192" sc="1" el="192" ec="2" bec="0" bev="0" fileid="11" />
@@ -2540,7 +2540,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_GreaterThan(System.Double,GRYLibrary.Core.PercentValue)</Name>
+              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_LessThan(System.Decimal,GRYLibrary.Core.PercentValue)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="196" ordinal="0" sl="196" sc="1" el="196" ec="2" bec="0" bev="0" fileid="11" />
@@ -2551,7 +2551,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_LessThanOrEqual(System.Double,GRYLibrary.Core.PercentValue)</Name>
+              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_GreaterThan(System.Decimal,GRYLibrary.Core.PercentValue)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="200" ordinal="0" sl="200" sc="1" el="200" ec="2" bec="0" bev="0" fileid="11" />
@@ -2562,7 +2562,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_GreaterThanOrEqual(System.Double,GRYLibrary.Core.PercentValue)</Name>
+              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_LessThanOrEqual(System.Decimal,GRYLibrary.Core.PercentValue)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="204" ordinal="0" sl="204" sc="1" el="204" ec="2" bec="0" bev="0" fileid="11" />
@@ -2573,7 +2573,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_LessThan(GRYLibrary.Core.PercentValue,System.Decimal)</Name>
+              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_GreaterThanOrEqual(System.Decimal,GRYLibrary.Core.PercentValue)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="208" ordinal="0" sl="208" sc="1" el="208" ec="2" bec="0" bev="0" fileid="11" />
@@ -2584,7 +2584,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_GreaterThan(GRYLibrary.Core.PercentValue,System.Decimal)</Name>
+              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Addition(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="212" ordinal="0" sl="212" sc="1" el="212" ec="2" bec="0" bev="0" fileid="11" />
@@ -2595,7 +2595,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_LessThanOrEqual(GRYLibrary.Core.PercentValue,System.Decimal)</Name>
+              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Subtraction(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="216" ordinal="0" sl="216" sc="1" el="216" ec="2" bec="0" bev="0" fileid="11" />
@@ -2606,7 +2606,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_GreaterThanOrEqual(GRYLibrary.Core.PercentValue,System.Decimal)</Name>
+              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Multiply(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="220" ordinal="0" sl="220" sc="1" el="220" ec="2" bec="0" bev="0" fileid="11" />
@@ -2617,7 +2617,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_LessThan(System.Decimal,GRYLibrary.Core.PercentValue)</Name>
+              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Division(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="224" ordinal="0" sl="224" sc="1" el="224" ec="2" bec="0" bev="0" fileid="11" />
@@ -2628,7 +2628,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_GreaterThan(System.Decimal,GRYLibrary.Core.PercentValue)</Name>
+              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Addition(GRYLibrary.Core.PercentValue,System.Double)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="228" ordinal="0" sl="228" sc="1" el="228" ec="2" bec="0" bev="0" fileid="11" />
@@ -2639,7 +2639,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_LessThanOrEqual(System.Decimal,GRYLibrary.Core.PercentValue)</Name>
+              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Subtraction(GRYLibrary.Core.PercentValue,System.Double)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="232" ordinal="0" sl="232" sc="1" el="232" ec="2" bec="0" bev="0" fileid="11" />
@@ -2650,7 +2650,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>System.Boolean GRYLibrary.Core.PercentValue::op_GreaterThanOrEqual(System.Decimal,GRYLibrary.Core.PercentValue)</Name>
+              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Multiply(GRYLibrary.Core.PercentValue,System.Double)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="236" ordinal="0" sl="236" sc="1" el="236" ec="2" bec="0" bev="0" fileid="11" />
@@ -2661,7 +2661,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Addition(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)</Name>
+              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Division(GRYLibrary.Core.PercentValue,System.Double)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="240" ordinal="0" sl="240" sc="1" el="240" ec="2" bec="0" bev="0" fileid="11" />
@@ -2672,7 +2672,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Subtraction(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)</Name>
+              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Addition(System.Double,GRYLibrary.Core.PercentValue)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="244" ordinal="0" sl="244" sc="1" el="244" ec="2" bec="0" bev="0" fileid="11" />
@@ -2683,7 +2683,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Multiply(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)</Name>
+              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Subtraction(System.Double,GRYLibrary.Core.PercentValue)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="248" ordinal="0" sl="248" sc="1" el="248" ec="2" bec="0" bev="0" fileid="11" />
@@ -2694,7 +2694,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Division(GRYLibrary.Core.PercentValue,GRYLibrary.Core.PercentValue)</Name>
+              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Multiply(System.Double,GRYLibrary.Core.PercentValue)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="252" ordinal="0" sl="252" sc="1" el="252" ec="2" bec="0" bev="0" fileid="11" />
@@ -2705,7 +2705,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Addition(GRYLibrary.Core.PercentValue,System.Int32)</Name>
+              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Division(System.Double,GRYLibrary.Core.PercentValue)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="256" ordinal="0" sl="256" sc="1" el="256" ec="2" bec="0" bev="0" fileid="11" />
@@ -2716,7 +2716,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Subtraction(GRYLibrary.Core.PercentValue,System.Int32)</Name>
+              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Addition(GRYLibrary.Core.PercentValue,System.Decimal)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="260" ordinal="0" sl="260" sc="1" el="260" ec="2" bec="0" bev="0" fileid="11" />
@@ -2727,7 +2727,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Multiply(GRYLibrary.Core.PercentValue,System.Int32)</Name>
+              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Subtraction(GRYLibrary.Core.PercentValue,System.Decimal)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="264" ordinal="0" sl="264" sc="1" el="264" ec="2" bec="0" bev="0" fileid="11" />
@@ -2738,7 +2738,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Division(GRYLibrary.Core.PercentValue,System.Int32)</Name>
+              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Multiply(GRYLibrary.Core.PercentValue,System.Decimal)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="268" ordinal="0" sl="268" sc="1" el="268" ec="2" bec="0" bev="0" fileid="11" />
@@ -2749,7 +2749,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Addition(System.Int32,GRYLibrary.Core.PercentValue)</Name>
+              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Division(GRYLibrary.Core.PercentValue,System.Decimal)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="272" ordinal="0" sl="272" sc="1" el="272" ec="2" bec="0" bev="0" fileid="11" />
@@ -2760,7 +2760,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Subtraction(System.Int32,GRYLibrary.Core.PercentValue)</Name>
+              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Addition(System.Decimal,GRYLibrary.Core.PercentValue)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="276" ordinal="0" sl="276" sc="1" el="276" ec="2" bec="0" bev="0" fileid="11" />
@@ -2771,7 +2771,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Multiply(System.Int32,GRYLibrary.Core.PercentValue)</Name>
+              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Subtraction(System.Decimal,GRYLibrary.Core.PercentValue)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="280" ordinal="0" sl="280" sc="1" el="280" ec="2" bec="0" bev="0" fileid="11" />
@@ -2782,7 +2782,7 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Division(System.Int32,GRYLibrary.Core.PercentValue)</Name>
+              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Multiply(System.Decimal,GRYLibrary.Core.PercentValue)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="284" ordinal="0" sl="284" sc="1" el="284" ec="2" bec="0" bev="0" fileid="11" />
@@ -2793,178 +2793,13 @@
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
-              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Addition(GRYLibrary.Core.PercentValue,System.Double)</Name>
+              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Division(System.Decimal,GRYLibrary.Core.PercentValue)</Name>
               <FileRef uid="11" />
               <SequencePoints>
                 <SequencePoint vc="0" uspid="288" ordinal="0" sl="288" sc="1" el="288" ec="2" bec="0" bev="0" fileid="11" />
               </SequencePoints>
               <BranchPoints />
               <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="61" offset="61" sc="0" sl="288" ec="1" el="288" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
-            </Method>
-            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
-              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
-              <MetadataToken />
-              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Subtraction(GRYLibrary.Core.PercentValue,System.Double)</Name>
-              <FileRef uid="11" />
-              <SequencePoints>
-                <SequencePoint vc="0" uspid="292" ordinal="0" sl="292" sc="1" el="292" ec="2" bec="0" bev="0" fileid="11" />
-              </SequencePoints>
-              <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="62" offset="62" sc="0" sl="292" ec="1" el="292" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
-            </Method>
-            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
-              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
-              <MetadataToken />
-              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Multiply(GRYLibrary.Core.PercentValue,System.Double)</Name>
-              <FileRef uid="11" />
-              <SequencePoints>
-                <SequencePoint vc="0" uspid="296" ordinal="0" sl="296" sc="1" el="296" ec="2" bec="0" bev="0" fileid="11" />
-              </SequencePoints>
-              <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="63" offset="63" sc="0" sl="296" ec="1" el="296" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
-            </Method>
-            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
-              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
-              <MetadataToken />
-              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Division(GRYLibrary.Core.PercentValue,System.Double)</Name>
-              <FileRef uid="11" />
-              <SequencePoints>
-                <SequencePoint vc="0" uspid="300" ordinal="0" sl="300" sc="1" el="300" ec="2" bec="0" bev="0" fileid="11" />
-              </SequencePoints>
-              <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="64" offset="64" sc="0" sl="300" ec="1" el="300" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
-            </Method>
-            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
-              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
-              <MetadataToken />
-              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Addition(System.Double,GRYLibrary.Core.PercentValue)</Name>
-              <FileRef uid="11" />
-              <SequencePoints>
-                <SequencePoint vc="0" uspid="304" ordinal="0" sl="304" sc="1" el="304" ec="2" bec="0" bev="0" fileid="11" />
-              </SequencePoints>
-              <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="65" offset="65" sc="0" sl="304" ec="1" el="304" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
-            </Method>
-            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
-              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
-              <MetadataToken />
-              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Subtraction(System.Double,GRYLibrary.Core.PercentValue)</Name>
-              <FileRef uid="11" />
-              <SequencePoints>
-                <SequencePoint vc="0" uspid="308" ordinal="0" sl="308" sc="1" el="308" ec="2" bec="0" bev="0" fileid="11" />
-              </SequencePoints>
-              <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="66" offset="66" sc="0" sl="308" ec="1" el="308" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
-            </Method>
-            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
-              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
-              <MetadataToken />
-              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Multiply(System.Double,GRYLibrary.Core.PercentValue)</Name>
-              <FileRef uid="11" />
-              <SequencePoints>
-                <SequencePoint vc="0" uspid="312" ordinal="0" sl="312" sc="1" el="312" ec="2" bec="0" bev="0" fileid="11" />
-              </SequencePoints>
-              <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="67" offset="67" sc="0" sl="312" ec="1" el="312" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
-            </Method>
-            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
-              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
-              <MetadataToken />
-              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Division(System.Double,GRYLibrary.Core.PercentValue)</Name>
-              <FileRef uid="11" />
-              <SequencePoints>
-                <SequencePoint vc="0" uspid="316" ordinal="0" sl="316" sc="1" el="316" ec="2" bec="0" bev="0" fileid="11" />
-              </SequencePoints>
-              <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="68" offset="68" sc="0" sl="316" ec="1" el="316" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
-            </Method>
-            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
-              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
-              <MetadataToken />
-              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Addition(GRYLibrary.Core.PercentValue,System.Decimal)</Name>
-              <FileRef uid="11" />
-              <SequencePoints>
-                <SequencePoint vc="0" uspid="320" ordinal="0" sl="320" sc="1" el="320" ec="2" bec="0" bev="0" fileid="11" />
-              </SequencePoints>
-              <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="69" offset="69" sc="0" sl="320" ec="1" el="320" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
-            </Method>
-            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
-              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
-              <MetadataToken />
-              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Subtraction(GRYLibrary.Core.PercentValue,System.Decimal)</Name>
-              <FileRef uid="11" />
-              <SequencePoints>
-                <SequencePoint vc="0" uspid="324" ordinal="0" sl="324" sc="1" el="324" ec="2" bec="0" bev="0" fileid="11" />
-              </SequencePoints>
-              <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="70" offset="70" sc="0" sl="324" ec="1" el="324" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
-            </Method>
-            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
-              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
-              <MetadataToken />
-              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Multiply(GRYLibrary.Core.PercentValue,System.Decimal)</Name>
-              <FileRef uid="11" />
-              <SequencePoints>
-                <SequencePoint vc="0" uspid="328" ordinal="0" sl="328" sc="1" el="328" ec="2" bec="0" bev="0" fileid="11" />
-              </SequencePoints>
-              <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="71" offset="71" sc="0" sl="328" ec="1" el="328" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
-            </Method>
-            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
-              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
-              <MetadataToken />
-              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Division(GRYLibrary.Core.PercentValue,System.Decimal)</Name>
-              <FileRef uid="11" />
-              <SequencePoints>
-                <SequencePoint vc="0" uspid="332" ordinal="0" sl="332" sc="1" el="332" ec="2" bec="0" bev="0" fileid="11" />
-              </SequencePoints>
-              <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="72" offset="72" sc="0" sl="332" ec="1" el="332" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
-            </Method>
-            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
-              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
-              <MetadataToken />
-              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Addition(System.Decimal,GRYLibrary.Core.PercentValue)</Name>
-              <FileRef uid="11" />
-              <SequencePoints>
-                <SequencePoint vc="0" uspid="336" ordinal="0" sl="336" sc="1" el="336" ec="2" bec="0" bev="0" fileid="11" />
-              </SequencePoints>
-              <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="73" offset="73" sc="0" sl="336" ec="1" el="336" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
-            </Method>
-            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
-              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
-              <MetadataToken />
-              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Subtraction(System.Decimal,GRYLibrary.Core.PercentValue)</Name>
-              <FileRef uid="11" />
-              <SequencePoints>
-                <SequencePoint vc="0" uspid="340" ordinal="0" sl="340" sc="1" el="340" ec="2" bec="0" bev="0" fileid="11" />
-              </SequencePoints>
-              <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="74" offset="74" sc="0" sl="340" ec="1" el="340" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
-            </Method>
-            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
-              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
-              <MetadataToken />
-              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Multiply(System.Decimal,GRYLibrary.Core.PercentValue)</Name>
-              <FileRef uid="11" />
-              <SequencePoints>
-                <SequencePoint vc="0" uspid="344" ordinal="0" sl="344" sc="1" el="344" ec="2" bec="0" bev="0" fileid="11" />
-              </SequencePoints>
-              <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="75" offset="75" sc="0" sl="344" ec="1" el="344" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
-            </Method>
-            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
-              <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
-              <MetadataToken />
-              <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.PercentValue::op_Division(System.Decimal,GRYLibrary.Core.PercentValue)</Name>
-              <FileRef uid="11" />
-              <SequencePoints>
-                <SequencePoint vc="0" uspid="348" ordinal="0" sl="348" sc="1" el="348" ec="2" bec="0" bev="0" fileid="11" />
-              </SequencePoints>
-              <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="76" offset="76" sc="0" sl="348" ec="1" el="348" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
             </Method>
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="2" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
@@ -2976,7 +2811,7 @@
                 <SequencePoint vc="0" uspid="23" ordinal="1" sl="23" sc="1" el="23" ec="2" bec="0" bev="0" fileid="11" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="77" offset="77" sc="0" sl="21" ec="1" el="23" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="62" offset="62" sc="0" sl="21" ec="1" el="23" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
             </Method>
             <Method cyclomaticComplexity="4" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="4" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
@@ -2997,7 +2832,7 @@
                 <BranchPoint vc="0" uspid="30" ordinal="2" path="0" offset="37" offsetend="39" sl="30" fileid="11" />
                 <BranchPoint vc="0" uspid="30" ordinal="3" path="1" offset="37" offsetend="51" sl="30" fileid="11" />
               </BranchPoints>
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="78" offset="78" sc="0" sl="26" ec="1" el="38" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="63" offset="63" sc="0" sl="26" ec="1" el="38" bec="0" bev="0" fileid="11" xmlns:p8="xsi" />
             </Method>
           </Methods>
         </Class>
@@ -5068,7 +4903,7 @@
           </Methods>
         </Class>
         <Class>
-          <Summary numSequencePoints="1166" visitedSequencePoints="0" numBranchPoints="600" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="22" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="266" />
+          <Summary numSequencePoints="1174" visitedSequencePoints="0" numBranchPoints="606" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="22" minCyclomaticComplexity="1" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="266" />
           <FullName>GRYLibrary.Core.Utilities</FullName>
           <Methods>
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
@@ -9339,18 +9174,33 @@
               <BranchPoints />
               <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="250" offset="250" sc="0" sl="2901" ec="1" el="2901" bec="0" bev="0" fileid="21" xmlns:p8="xsi" />
             </Method>
-            <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
-              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+            <Method cyclomaticComplexity="6" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
+              <Summary numSequencePoints="11" visitedSequencePoints="0" numBranchPoints="6" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
               <MetadataToken />
               <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.Utilities::CalculateCombinedSimilarity(System.String,System.String)</Name>
               <FileRef uid="21" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="2910" ordinal="0" sl="2910" sc="1" el="2910" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2911" ordinal="1" sl="2911" sc="1" el="2911" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2912" ordinal="2" sl="2912" sc="1" el="2912" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2910" ordinal="0" sl="2910" sc="1" el="2910" ec="2" bec="4" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2912" ordinal="1" sl="2912" sc="1" el="2912" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2916" ordinal="2" sl="2916" sc="1" el="2916" ec="2" bec="2" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2918" ordinal="3" sl="2918" sc="1" el="2918" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2922" ordinal="4" sl="2922" sc="1" el="2922" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2923" ordinal="5" sl="2923" sc="1" el="2923" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2924" ordinal="6" sl="2924" sc="1" el="2924" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2925" ordinal="7" sl="2925" sc="1" el="2925" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2926" ordinal="8" sl="2926" sc="1" el="2926" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2927" ordinal="9" sl="2927" sc="1" el="2927" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2928" ordinal="10" sl="2928" sc="1" el="2928" ec="2" bec="0" bev="0" fileid="21" />
               </SequencePoints>
-              <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="251" offset="251" sc="0" sl="2910" ec="1" el="2912" bec="0" bev="0" fileid="21" xmlns:p8="xsi" />
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="2910" ordinal="0" path="0" offset="1" offsetend="3" sl="2910" fileid="21" />
+                <BranchPoint vc="0" uspid="2910" ordinal="1" path="1" offset="1" offsetend="6" sl="2910" fileid="21" />
+                <BranchPoint vc="0" uspid="2910" ordinal="2" path="0" offset="4" offsetend="6" sl="2910" fileid="21" />
+                <BranchPoint vc="0" uspid="2910" ordinal="3" path="1" offset="4" offsetend="12" sl="2910" fileid="21" />
+                <BranchPoint vc="0" uspid="2916" ordinal="4" path="0" offset="19" offsetend="21" sl="2916" fileid="21" />
+                <BranchPoint vc="0" uspid="2916" ordinal="5" path="1" offset="19" offsetend="27" sl="2916" fileid="21" />
+              </BranchPoints>
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="251" offset="251" sc="0" sl="2910" ec="1" el="2928" bec="0" bev="0" fileid="21" xmlns:p8="xsi" />
             </Method>
             <Method cyclomaticComplexity="18" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="16" visitedSequencePoints="0" numBranchPoints="18" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="18" minCyclomaticComplexity="18" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
@@ -9358,44 +9208,44 @@
               <Name>System.Int32 GRYLibrary.Core.Utilities::CalculateLevenshteinDistance(System.String,System.String)</Name>
               <FileRef uid="21" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="2916" ordinal="0" sl="2916" sc="1" el="2916" ec="2" bec="4" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2918" ordinal="1" sl="2918" sc="1" el="2918" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2920" ordinal="2" sl="2920" sc="1" el="2920" ec="2" bec="2" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2922" ordinal="3" sl="2922" sc="1" el="2922" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2924" ordinal="4" sl="2924" sc="1" el="2924" ec="2" bec="2" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2926" ordinal="5" sl="2926" sc="1" el="2926" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2928" ordinal="6" sl="2928" sc="1" el="2928" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2929" ordinal="7" sl="2929" sc="1" el="2929" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2930" ordinal="8" sl="2930" sc="1" el="2930" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2931" ordinal="9" sl="2931" sc="1" el="2931" ec="2" bec="2" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2932" ordinal="10" sl="2932" sc="1" el="2932" ec="2" bec="2" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2934" ordinal="11" sl="2934" sc="1" el="2934" ec="2" bec="2" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2936" ordinal="12" sl="2936" sc="1" el="2936" ec="2" bec="2" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2938" ordinal="13" sl="2938" sc="1" el="2938" ec="2" bec="2" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2939" ordinal="14" sl="2939" sc="1" el="2939" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2943" ordinal="15" sl="2943" sc="1" el="2943" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2934" ordinal="0" sl="2934" sc="1" el="2934" ec="2" bec="4" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2936" ordinal="1" sl="2936" sc="1" el="2936" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2938" ordinal="2" sl="2938" sc="1" el="2938" ec="2" bec="2" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2940" ordinal="3" sl="2940" sc="1" el="2940" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2942" ordinal="4" sl="2942" sc="1" el="2942" ec="2" bec="2" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2944" ordinal="5" sl="2944" sc="1" el="2944" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2946" ordinal="6" sl="2946" sc="1" el="2946" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2947" ordinal="7" sl="2947" sc="1" el="2947" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2948" ordinal="8" sl="2948" sc="1" el="2948" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2949" ordinal="9" sl="2949" sc="1" el="2949" ec="2" bec="2" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2950" ordinal="10" sl="2950" sc="1" el="2950" ec="2" bec="2" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2952" ordinal="11" sl="2952" sc="1" el="2952" ec="2" bec="2" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2954" ordinal="12" sl="2954" sc="1" el="2954" ec="2" bec="2" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2956" ordinal="13" sl="2956" sc="1" el="2956" ec="2" bec="2" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2957" ordinal="14" sl="2957" sc="1" el="2957" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2961" ordinal="15" sl="2961" sc="1" el="2961" ec="2" bec="0" bev="0" fileid="21" />
               </SequencePoints>
               <BranchPoints>
-                <BranchPoint vc="0" uspid="2916" ordinal="0" path="0" offset="6" offsetend="8" sl="2916" fileid="21" />
-                <BranchPoint vc="0" uspid="2916" ordinal="2" path="0" offset="14" offsetend="16" sl="2916" fileid="21" />
-                <BranchPoint vc="0" uspid="2916" ordinal="1" path="1" offset="6" offsetend="18" sl="2916" fileid="21" />
-                <BranchPoint vc="0" uspid="2916" ordinal="3" path="1" offset="14" offsetend="18" sl="2916" fileid="21" />
-                <BranchPoint vc="0" uspid="2920" ordinal="4" path="0" offset="24" offsetend="26" sl="2920" fileid="21" />
-                <BranchPoint vc="0" uspid="2920" ordinal="5" path="1" offset="24" offsetend="33" sl="2920" fileid="21" />
-                <BranchPoint vc="0" uspid="2924" ordinal="6" path="0" offset="39" offsetend="41" sl="2924" fileid="21" />
-                <BranchPoint vc="0" uspid="2924" ordinal="7" path="1" offset="39" offsetend="48" sl="2924" fileid="21" />
-                <BranchPoint vc="0" uspid="2931" ordinal="9" path="1" offset="93" offsetend="78" sl="2931" fileid="21" />
-                <BranchPoint vc="0" uspid="2931" ordinal="8" path="0" offset="93" offsetend="95" sl="2931" fileid="21" />
-                <BranchPoint vc="0" uspid="2932" ordinal="11" path="1" offset="119" offsetend="100" sl="2932" fileid="21" />
-                <BranchPoint vc="0" uspid="2932" ordinal="10" path="0" offset="119" offsetend="121" sl="2932" fileid="21" />
-                <BranchPoint vc="0" uspid="2934" ordinal="17" path="1" offset="244" offsetend="126" sl="2934" fileid="21" />
-                <BranchPoint vc="0" uspid="2936" ordinal="15" path="1" offset="233" offsetend="131" sl="2936" fileid="21" />
-                <BranchPoint vc="0" uspid="2938" ordinal="12" path="0" offset="151" offsetend="153" sl="2938" fileid="21" />
-                <BranchPoint vc="0" uspid="2938" ordinal="13" path="1" offset="151" offsetend="156" sl="2938" fileid="21" />
-                <BranchPoint vc="0" uspid="2936" ordinal="14" path="0" offset="233" offsetend="235" sl="2936" fileid="21" />
-                <BranchPoint vc="0" uspid="2934" ordinal="16" path="0" offset="244" offsetend="246" sl="2934" fileid="21" />
+                <BranchPoint vc="0" uspid="2934" ordinal="0" path="0" offset="6" offsetend="8" sl="2934" fileid="21" />
+                <BranchPoint vc="0" uspid="2934" ordinal="2" path="0" offset="14" offsetend="16" sl="2934" fileid="21" />
+                <BranchPoint vc="0" uspid="2934" ordinal="1" path="1" offset="6" offsetend="18" sl="2934" fileid="21" />
+                <BranchPoint vc="0" uspid="2934" ordinal="3" path="1" offset="14" offsetend="18" sl="2934" fileid="21" />
+                <BranchPoint vc="0" uspid="2938" ordinal="4" path="0" offset="24" offsetend="26" sl="2938" fileid="21" />
+                <BranchPoint vc="0" uspid="2938" ordinal="5" path="1" offset="24" offsetend="33" sl="2938" fileid="21" />
+                <BranchPoint vc="0" uspid="2942" ordinal="6" path="0" offset="39" offsetend="41" sl="2942" fileid="21" />
+                <BranchPoint vc="0" uspid="2942" ordinal="7" path="1" offset="39" offsetend="48" sl="2942" fileid="21" />
+                <BranchPoint vc="0" uspid="2949" ordinal="9" path="1" offset="93" offsetend="78" sl="2949" fileid="21" />
+                <BranchPoint vc="0" uspid="2949" ordinal="8" path="0" offset="93" offsetend="95" sl="2949" fileid="21" />
+                <BranchPoint vc="0" uspid="2950" ordinal="11" path="1" offset="119" offsetend="100" sl="2950" fileid="21" />
+                <BranchPoint vc="0" uspid="2950" ordinal="10" path="0" offset="119" offsetend="121" sl="2950" fileid="21" />
+                <BranchPoint vc="0" uspid="2952" ordinal="17" path="1" offset="244" offsetend="126" sl="2952" fileid="21" />
+                <BranchPoint vc="0" uspid="2954" ordinal="15" path="1" offset="233" offsetend="131" sl="2954" fileid="21" />
+                <BranchPoint vc="0" uspid="2956" ordinal="12" path="0" offset="151" offsetend="153" sl="2956" fileid="21" />
+                <BranchPoint vc="0" uspid="2956" ordinal="13" path="1" offset="151" offsetend="156" sl="2956" fileid="21" />
+                <BranchPoint vc="0" uspid="2954" ordinal="14" path="0" offset="233" offsetend="235" sl="2954" fileid="21" />
+                <BranchPoint vc="0" uspid="2952" ordinal="16" path="0" offset="244" offsetend="246" sl="2952" fileid="21" />
               </BranchPoints>
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="252" offset="252" sc="0" sl="2916" ec="1" el="2943" bec="0" bev="0" fileid="21" xmlns:p8="xsi" />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="252" offset="252" sc="0" sl="2934" ec="1" el="2961" bec="0" bev="0" fileid="21" xmlns:p8="xsi" />
             </Method>
             <Method cyclomaticComplexity="4" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="7" visitedSequencePoints="0" numBranchPoints="4" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
@@ -9403,21 +9253,21 @@
               <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.Utilities::CalculateLevenshteinSimilarity(System.String,System.String)</Name>
               <FileRef uid="21" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="2947" ordinal="0" sl="2947" sc="1" el="2947" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2948" ordinal="1" sl="2948" sc="1" el="2948" ec="2" bec="2" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2950" ordinal="2" sl="2950" sc="1" el="2950" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2952" ordinal="3" sl="2952" sc="1" el="2952" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2953" ordinal="4" sl="2953" sc="1" el="2953" ec="2" bec="2" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2955" ordinal="5" sl="2955" sc="1" el="2955" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2959" ordinal="6" sl="2959" sc="1" el="2959" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2965" ordinal="0" sl="2965" sc="1" el="2965" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2966" ordinal="1" sl="2966" sc="1" el="2966" ec="2" bec="2" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2968" ordinal="2" sl="2968" sc="1" el="2968" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2970" ordinal="3" sl="2970" sc="1" el="2970" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2971" ordinal="4" sl="2971" sc="1" el="2971" ec="2" bec="2" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2973" ordinal="5" sl="2973" sc="1" el="2973" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2977" ordinal="6" sl="2977" sc="1" el="2977" ec="2" bec="0" bev="0" fileid="21" />
               </SequencePoints>
               <BranchPoints>
-                <BranchPoint vc="0" uspid="2948" ordinal="0" path="0" offset="9" offsetend="11" sl="2948" fileid="21" />
-                <BranchPoint vc="0" uspid="2948" ordinal="1" path="1" offset="9" offsetend="17" sl="2948" fileid="21" />
-                <BranchPoint vc="0" uspid="2953" ordinal="2" path="0" offset="37" offsetend="39" sl="2953" fileid="21" />
-                <BranchPoint vc="0" uspid="2953" ordinal="3" path="1" offset="37" offsetend="45" sl="2953" fileid="21" />
+                <BranchPoint vc="0" uspid="2966" ordinal="0" path="0" offset="9" offsetend="11" sl="2966" fileid="21" />
+                <BranchPoint vc="0" uspid="2966" ordinal="1" path="1" offset="9" offsetend="17" sl="2966" fileid="21" />
+                <BranchPoint vc="0" uspid="2971" ordinal="2" path="0" offset="37" offsetend="39" sl="2971" fileid="21" />
+                <BranchPoint vc="0" uspid="2971" ordinal="3" path="1" offset="37" offsetend="45" sl="2971" fileid="21" />
               </BranchPoints>
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="253" offset="253" sc="0" sl="2947" ec="1" el="2959" bec="0" bev="0" fileid="21" xmlns:p8="xsi" />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="253" offset="253" sc="0" sl="2965" ec="1" el="2977" bec="0" bev="0" fileid="21" xmlns:p8="xsi" />
             </Method>
             <Method cyclomaticComplexity="14" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="15" visitedSequencePoints="0" numBranchPoints="14" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="14" minCyclomaticComplexity="14" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
@@ -9425,39 +9275,39 @@
               <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.Utilities::CalculateCosineSimilarity(System.String,System.String)</Name>
               <FileRef uid="21" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="2964" ordinal="0" sl="2964" sc="1" el="2964" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2965" ordinal="1" sl="2965" sc="1" el="2965" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2966" ordinal="2" sl="2966" sc="1" el="2966" ec="2" bec="8" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2968" ordinal="3" sl="2968" sc="1" el="2968" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2970" ordinal="4" sl="2970" sc="1" el="2970" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2971" ordinal="5" sl="2971" sc="1" el="2971" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2972" ordinal="6" sl="2972" sc="1" el="2972" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2973" ordinal="7" sl="2973" sc="1" el="2973" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2974" ordinal="8" sl="2974" sc="1" el="2974" ec="2" bec="2" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2976" ordinal="9" sl="2976" sc="1" el="2976" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2978" ordinal="10" sl="2978" sc="1" el="2978" ec="2" bec="2" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2980" ordinal="11" sl="2980" sc="1" el="2980" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2982" ordinal="12" sl="2982" sc="1" el="2982" ec="2" bec="2" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2984" ordinal="13" sl="2984" sc="1" el="2984" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2986" ordinal="14" sl="2986" sc="1" el="2986" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2982" ordinal="0" sl="2982" sc="1" el="2982" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2983" ordinal="1" sl="2983" sc="1" el="2983" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2984" ordinal="2" sl="2984" sc="1" el="2984" ec="2" bec="8" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2986" ordinal="3" sl="2986" sc="1" el="2986" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2988" ordinal="4" sl="2988" sc="1" el="2988" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2989" ordinal="5" sl="2989" sc="1" el="2989" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2990" ordinal="6" sl="2990" sc="1" el="2990" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2991" ordinal="7" sl="2991" sc="1" el="2991" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2992" ordinal="8" sl="2992" sc="1" el="2992" ec="2" bec="2" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2994" ordinal="9" sl="2994" sc="1" el="2994" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2996" ordinal="10" sl="2996" sc="1" el="2996" ec="2" bec="2" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="2998" ordinal="11" sl="2998" sc="1" el="2998" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3000" ordinal="12" sl="3000" sc="1" el="3000" ec="2" bec="2" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3002" ordinal="13" sl="3002" sc="1" el="3002" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3004" ordinal="14" sl="3004" sc="1" el="3004" ec="2" bec="0" bev="0" fileid="21" />
               </SequencePoints>
               <BranchPoints>
-                <BranchPoint vc="0" uspid="2966" ordinal="0" path="0" offset="15" offsetend="17" sl="2966" fileid="21" />
-                <BranchPoint vc="0" uspid="2966" ordinal="1" path="1" offset="15" offsetend="21" sl="2966" fileid="21" />
-                <BranchPoint vc="0" uspid="2966" ordinal="2" path="0" offset="19" offsetend="21" sl="2966" fileid="21" />
-                <BranchPoint vc="0" uspid="2966" ordinal="4" path="0" offset="22" offsetend="24" sl="2966" fileid="21" />
-                <BranchPoint vc="0" uspid="2966" ordinal="3" path="1" offset="19" offsetend="28" sl="2966" fileid="21" />
-                <BranchPoint vc="0" uspid="2966" ordinal="6" path="0" offset="26" offsetend="28" sl="2966" fileid="21" />
-                <BranchPoint vc="0" uspid="2966" ordinal="5" path="1" offset="22" offsetend="34" sl="2966" fileid="21" />
-                <BranchPoint vc="0" uspid="2966" ordinal="7" path="1" offset="26" offsetend="34" sl="2966" fileid="21" />
-                <BranchPoint vc="0" uspid="2974" ordinal="9" path="1" offset="156" offsetend="117" sl="2974" fileid="21" />
-                <BranchPoint vc="0" uspid="2974" ordinal="8" path="0" offset="156" offsetend="158" sl="2974" fileid="21" />
-                <BranchPoint vc="0" uspid="2978" ordinal="11" path="1" offset="233" offsetend="189" sl="2978" fileid="21" />
-                <BranchPoint vc="0" uspid="2978" ordinal="10" path="0" offset="233" offsetend="235" sl="2978" fileid="21" />
-                <BranchPoint vc="0" uspid="2982" ordinal="13" path="1" offset="308" offsetend="264" sl="2982" fileid="21" />
-                <BranchPoint vc="0" uspid="2982" ordinal="12" path="0" offset="308" offsetend="310" sl="2982" fileid="21" />
+                <BranchPoint vc="0" uspid="2984" ordinal="0" path="0" offset="15" offsetend="17" sl="2984" fileid="21" />
+                <BranchPoint vc="0" uspid="2984" ordinal="1" path="1" offset="15" offsetend="21" sl="2984" fileid="21" />
+                <BranchPoint vc="0" uspid="2984" ordinal="2" path="0" offset="19" offsetend="21" sl="2984" fileid="21" />
+                <BranchPoint vc="0" uspid="2984" ordinal="4" path="0" offset="22" offsetend="24" sl="2984" fileid="21" />
+                <BranchPoint vc="0" uspid="2984" ordinal="3" path="1" offset="19" offsetend="28" sl="2984" fileid="21" />
+                <BranchPoint vc="0" uspid="2984" ordinal="6" path="0" offset="26" offsetend="28" sl="2984" fileid="21" />
+                <BranchPoint vc="0" uspid="2984" ordinal="5" path="1" offset="22" offsetend="34" sl="2984" fileid="21" />
+                <BranchPoint vc="0" uspid="2984" ordinal="7" path="1" offset="26" offsetend="34" sl="2984" fileid="21" />
+                <BranchPoint vc="0" uspid="2992" ordinal="9" path="1" offset="156" offsetend="117" sl="2992" fileid="21" />
+                <BranchPoint vc="0" uspid="2992" ordinal="8" path="0" offset="156" offsetend="158" sl="2992" fileid="21" />
+                <BranchPoint vc="0" uspid="2996" ordinal="11" path="1" offset="233" offsetend="189" sl="2996" fileid="21" />
+                <BranchPoint vc="0" uspid="2996" ordinal="10" path="0" offset="233" offsetend="235" sl="2996" fileid="21" />
+                <BranchPoint vc="0" uspid="3000" ordinal="13" path="1" offset="308" offsetend="264" sl="3000" fileid="21" />
+                <BranchPoint vc="0" uspid="3000" ordinal="12" path="0" offset="308" offsetend="310" sl="3000" fileid="21" />
               </BranchPoints>
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="254" offset="254" sc="0" sl="2964" ec="1" el="2986" bec="0" bev="0" fileid="21" xmlns:p8="xsi" />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="254" offset="254" sc="0" sl="2982" ec="1" el="3004" bec="0" bev="0" fileid="21" xmlns:p8="xsi" />
             </Method>
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
@@ -9465,10 +9315,10 @@
               <Name>System.Double GRYLibrary.Core.Utilities::CalculateJaccardIndex(System.String,System.String)</Name>
               <FileRef uid="21" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="2990" ordinal="0" sl="2990" sc="1" el="2990" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3008" ordinal="0" sl="3008" sc="1" el="3008" ec="2" bec="0" bev="0" fileid="21" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="255" offset="255" sc="0" sl="2990" ec="1" el="2990" bec="0" bev="0" fileid="21" xmlns:p8="xsi" />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="255" offset="255" sc="0" sl="3008" ec="1" el="3008" bec="0" bev="0" fileid="21" xmlns:p8="xsi" />
             </Method>
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
@@ -9476,10 +9326,10 @@
               <Name>GRYLibrary.Core.PercentValue GRYLibrary.Core.Utilities::CalculateJaccardSimilarity(System.String,System.String)</Name>
               <FileRef uid="21" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="2994" ordinal="0" sl="2994" sc="1" el="2994" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3012" ordinal="0" sl="3012" sc="1" el="3012" ec="2" bec="0" bev="0" fileid="21" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="256" offset="256" sc="0" sl="2994" ec="1" el="2994" bec="0" bev="0" fileid="21" xmlns:p8="xsi" />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="256" offset="256" sc="0" sl="3012" ec="1" el="3012" bec="0" bev="0" fileid="21" xmlns:p8="xsi" />
             </Method>
             <Method cyclomaticComplexity="4" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="4" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
@@ -9487,20 +9337,20 @@
               <Name>System.String GRYLibrary.Core.Utilities::CalculateSimilarityHelperGetIntersection(System.String,System.String)</Name>
               <FileRef uid="21" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="2998" ordinal="0" sl="2998" sc="1" el="2998" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="2999" ordinal="1" sl="2999" sc="1" el="2999" ec="2" bec="2" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="3001" ordinal="2" sl="3001" sc="1" el="3001" ec="2" bec="2" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="3003" ordinal="3" sl="3003" sc="1" el="3003" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="3006" ordinal="4" sl="3006" sc="1" el="3006" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="3007" ordinal="5" sl="3007" sc="1" el="3007" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3016" ordinal="0" sl="3016" sc="1" el="3016" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3017" ordinal="1" sl="3017" sc="1" el="3017" ec="2" bec="2" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3019" ordinal="2" sl="3019" sc="1" el="3019" ec="2" bec="2" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3021" ordinal="3" sl="3021" sc="1" el="3021" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3024" ordinal="4" sl="3024" sc="1" el="3024" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3025" ordinal="5" sl="3025" sc="1" el="3025" ec="2" bec="0" bev="0" fileid="21" />
               </SequencePoints>
               <BranchPoints>
-                <BranchPoint vc="0" uspid="2999" ordinal="3" path="1" offset="47" offsetend="12" sl="2999" fileid="21" />
-                <BranchPoint vc="0" uspid="3001" ordinal="0" path="0" offset="27" offsetend="29" sl="3001" fileid="21" />
-                <BranchPoint vc="0" uspid="3001" ordinal="1" path="1" offset="27" offsetend="36" sl="3001" fileid="21" />
-                <BranchPoint vc="0" uspid="2999" ordinal="2" path="0" offset="47" offsetend="49" sl="2999" fileid="21" />
+                <BranchPoint vc="0" uspid="3017" ordinal="3" path="1" offset="47" offsetend="12" sl="3017" fileid="21" />
+                <BranchPoint vc="0" uspid="3019" ordinal="0" path="0" offset="27" offsetend="29" sl="3019" fileid="21" />
+                <BranchPoint vc="0" uspid="3019" ordinal="1" path="1" offset="27" offsetend="36" sl="3019" fileid="21" />
+                <BranchPoint vc="0" uspid="3017" ordinal="2" path="0" offset="47" offsetend="49" sl="3017" fileid="21" />
               </BranchPoints>
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="257" offset="257" sc="0" sl="2998" ec="1" el="3007" bec="0" bev="0" fileid="21" xmlns:p8="xsi" />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="257" offset="257" sc="0" sl="3016" ec="1" el="3025" bec="0" bev="0" fileid="21" xmlns:p8="xsi" />
             </Method>
             <Method cyclomaticComplexity="4" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="4" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="4" minCyclomaticComplexity="4" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
@@ -9508,20 +9358,20 @@
               <Name>System.Collections.Generic.IDictionary`2&lt;System.Char,System.Int32&gt; GRYLibrary.Core.Utilities::CalculateSimilarityHelperGetCharFrequencyMap(System.String)</Name>
               <FileRef uid="21" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="3011" ordinal="0" sl="3011" sc="1" el="3011" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="3012" ordinal="1" sl="3012" sc="1" el="3012" ec="2" bec="2" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="3014" ordinal="2" sl="3014" sc="1" el="3014" ec="2" bec="2" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="3016" ordinal="3" sl="3016" sc="1" el="3016" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="3020" ordinal="4" sl="3020" sc="1" el="3020" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="3023" ordinal="5" sl="3023" sc="1" el="3023" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3029" ordinal="0" sl="3029" sc="1" el="3029" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3030" ordinal="1" sl="3030" sc="1" el="3030" ec="2" bec="2" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3032" ordinal="2" sl="3032" sc="1" el="3032" ec="2" bec="2" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3034" ordinal="3" sl="3034" sc="1" el="3034" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3038" ordinal="4" sl="3038" sc="1" el="3038" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3041" ordinal="5" sl="3041" sc="1" el="3041" ec="2" bec="0" bev="0" fileid="21" />
               </SequencePoints>
               <BranchPoints>
-                <BranchPoint vc="0" uspid="3012" ordinal="3" path="1" offset="66" offsetend="12" sl="3012" fileid="21" />
-                <BranchPoint vc="0" uspid="3014" ordinal="0" path="0" offset="27" offsetend="29" sl="3014" fileid="21" />
-                <BranchPoint vc="0" uspid="3014" ordinal="1" path="1" offset="27" offsetend="47" sl="3014" fileid="21" />
-                <BranchPoint vc="0" uspid="3012" ordinal="2" path="0" offset="66" offsetend="68" sl="3012" fileid="21" />
+                <BranchPoint vc="0" uspid="3030" ordinal="3" path="1" offset="66" offsetend="12" sl="3030" fileid="21" />
+                <BranchPoint vc="0" uspid="3032" ordinal="0" path="0" offset="27" offsetend="29" sl="3032" fileid="21" />
+                <BranchPoint vc="0" uspid="3032" ordinal="1" path="1" offset="27" offsetend="47" sl="3032" fileid="21" />
+                <BranchPoint vc="0" uspid="3030" ordinal="2" path="0" offset="66" offsetend="68" sl="3030" fileid="21" />
               </BranchPoints>
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="258" offset="258" sc="0" sl="3011" ec="1" el="3023" bec="0" bev="0" fileid="21" xmlns:p8="xsi" />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="258" offset="258" sc="0" sl="3029" ec="1" el="3041" bec="0" bev="0" fileid="21" xmlns:p8="xsi" />
             </Method>
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
@@ -9529,10 +9379,10 @@
               <Name>System.String GRYLibrary.Core.Utilities::CalculateSimilarityHelperGetUnion(System.String,System.String)</Name>
               <FileRef uid="21" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="3027" ordinal="0" sl="3027" sc="1" el="3027" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3045" ordinal="0" sl="3045" sc="1" el="3045" ec="2" bec="0" bev="0" fileid="21" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="259" offset="259" sc="0" sl="3027" ec="1" el="3027" bec="0" bev="0" fileid="21" xmlns:p8="xsi" />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="259" offset="259" sc="0" sl="3045" ec="1" el="3045" bec="0" bev="0" fileid="21" xmlns:p8="xsi" />
             </Method>
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
@@ -9540,13 +9390,13 @@
               <Name>System.Collections.Generic.HashSet`1&lt;System.String&gt; GRYLibrary.Core.Utilities::CalculateSimilarityHelperGetIntersectionOfCharSet(System.Collections.Generic.ICollection`1&lt;System.String&gt;,System.Collections.Generic.ICollection`1&lt;System.String&gt;)</Name>
               <FileRef uid="21" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="3031" ordinal="0" sl="3031" sc="1" el="3031" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="3032" ordinal="1" sl="3032" sc="1" el="3032" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="3033" ordinal="2" sl="3033" sc="1" el="3033" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="3034" ordinal="3" sl="3034" sc="1" el="3034" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3049" ordinal="0" sl="3049" sc="1" el="3049" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3050" ordinal="1" sl="3050" sc="1" el="3050" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3051" ordinal="2" sl="3051" sc="1" el="3051" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3052" ordinal="3" sl="3052" sc="1" el="3052" ec="2" bec="0" bev="0" fileid="21" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="260" offset="260" sc="0" sl="3031" ec="1" el="3034" bec="0" bev="0" fileid="21" xmlns:p8="xsi" />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="260" offset="260" sc="0" sl="3049" ec="1" el="3052" bec="0" bev="0" fileid="21" xmlns:p8="xsi" />
             </Method>
             <Method cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="2" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
@@ -9554,16 +9404,16 @@
               <Name>System.Collections.Generic.IDictionary`2&lt;System.String,System.Int32&gt; GRYLibrary.Core.Utilities::CalculateSimilarityHelperConvert(System.Collections.Generic.IDictionary`2&lt;System.Char,System.Int32&gt;)</Name>
               <FileRef uid="21" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="3038" ordinal="0" sl="3038" sc="1" el="3038" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="3039" ordinal="1" sl="3039" sc="1" el="3039" ec="2" bec="2" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="3041" ordinal="2" sl="3041" sc="1" el="3041" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="3043" ordinal="3" sl="3043" sc="1" el="3043" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3056" ordinal="0" sl="3056" sc="1" el="3056" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3057" ordinal="1" sl="3057" sc="1" el="3057" ec="2" bec="2" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3059" ordinal="2" sl="3059" sc="1" el="3059" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3061" ordinal="3" sl="3061" sc="1" el="3061" ec="2" bec="0" bev="0" fileid="21" />
               </SequencePoints>
               <BranchPoints>
-                <BranchPoint vc="0" uspid="3039" ordinal="1" path="1" offset="56" offsetend="15" sl="3039" fileid="21" />
-                <BranchPoint vc="0" uspid="3039" ordinal="0" path="0" offset="56" offsetend="58" sl="3039" fileid="21" />
+                <BranchPoint vc="0" uspid="3057" ordinal="1" path="1" offset="56" offsetend="15" sl="3057" fileid="21" />
+                <BranchPoint vc="0" uspid="3057" ordinal="0" path="0" offset="56" offsetend="58" sl="3057" fileid="21" />
               </BranchPoints>
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="261" offset="261" sc="0" sl="3038" ec="1" el="3043" bec="0" bev="0" fileid="21" xmlns:p8="xsi" />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="261" offset="261" sc="0" sl="3056" ec="1" el="3061" bec="0" bev="0" fileid="21" xmlns:p8="xsi" />
             </Method>
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="1" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
@@ -9571,10 +9421,10 @@
               <Name>System.String GRYLibrary.Core.Utilities::GetDefaultProgramToOpenFile(System.String)</Name>
               <FileRef uid="21" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="3050" ordinal="0" sl="3050" sc="1" el="3050" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3068" ordinal="0" sl="3068" sc="1" el="3068" ec="2" bec="0" bev="0" fileid="21" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="262" offset="262" sc="0" sl="3050" ec="1" el="3050" bec="0" bev="0" fileid="21" xmlns:p8="xsi" />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="262" offset="262" sc="0" sl="3068" ec="1" el="3068" bec="0" bev="0" fileid="21" xmlns:p8="xsi" />
             </Method>
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
@@ -9582,14 +9432,14 @@
               <Name>System.String GRYLibrary.Core.Utilities::FileExtentionInfo(GRYLibrary.Core.Utilities/AssocStr,System.String)</Name>
               <FileRef uid="21" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="3057" ordinal="0" sl="3057" sc="1" el="3057" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="3058" ordinal="1" sl="3058" sc="1" el="3058" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="3059" ordinal="2" sl="3059" sc="1" el="3059" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="3060" ordinal="3" sl="3060" sc="1" el="3060" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="3062" ordinal="4" sl="3062" sc="1" el="3062" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3075" ordinal="0" sl="3075" sc="1" el="3075" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3076" ordinal="1" sl="3076" sc="1" el="3076" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3077" ordinal="2" sl="3077" sc="1" el="3077" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3078" ordinal="3" sl="3078" sc="1" el="3078" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3080" ordinal="4" sl="3080" sc="1" el="3080" ec="2" bec="0" bev="0" fileid="21" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="263" offset="263" sc="0" sl="3057" ec="1" el="3062" bec="0" bev="0" fileid="21" xmlns:p8="xsi" />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="263" offset="263" sc="0" sl="3075" ec="1" el="3080" bec="0" bev="0" fileid="21" xmlns:p8="xsi" />
             </Method>
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="False" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="6" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
@@ -9597,15 +9447,15 @@
               <Name>System.ValueTuple`2&lt;T[],T[]&gt; GRYLibrary.Core.Utilities::Split(T[],System.Int32)</Name>
               <FileRef uid="21" />
               <SequencePoints>
-                <SequencePoint vc="0" uspid="3067" ordinal="0" sl="3067" sc="1" el="3067" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="3068" ordinal="1" sl="3068" sc="1" el="3068" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="3069" ordinal="2" sl="3069" sc="1" el="3069" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="3070" ordinal="3" sl="3070" sc="1" el="3070" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="3071" ordinal="4" sl="3071" sc="1" el="3071" ec="2" bec="0" bev="0" fileid="21" />
-                <SequencePoint vc="0" uspid="3072" ordinal="5" sl="3072" sc="1" el="3072" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3085" ordinal="0" sl="3085" sc="1" el="3085" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3086" ordinal="1" sl="3086" sc="1" el="3086" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3087" ordinal="2" sl="3087" sc="1" el="3087" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3088" ordinal="3" sl="3088" sc="1" el="3088" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3089" ordinal="4" sl="3089" sc="1" el="3089" ec="2" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="0" uspid="3090" ordinal="5" sl="3090" sc="1" el="3090" ec="2" bec="0" bev="0" fileid="21" />
               </SequencePoints>
               <BranchPoints />
-              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="264" offset="264" sc="0" sl="3067" ec="1" el="3072" bec="0" bev="0" fileid="21" xmlns:p8="xsi" />
+              <MethodPoint vc="0" uspid="0" p8:type="SequencePoint" ordinal="264" offset="264" sc="0" sl="3085" ec="1" el="3090" bec="0" bev="0" fileid="21" xmlns:p8="xsi" />
             </Method>
             <Method cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="100" isConstructor="True" isGetter="False" isSetter="False" isStatic="True">
               <Summary numSequencePoints="9" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
