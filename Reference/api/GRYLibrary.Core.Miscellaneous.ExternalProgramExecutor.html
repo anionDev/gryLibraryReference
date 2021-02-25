@@ -1,0 +1,1040 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ExternalProgramExecutor
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ExternalProgramExecutor
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor">
+  
+  
+  <h1 id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor" class="text-break">Class ExternalProgramExecutor
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ExternalProgramExecutor</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IDisposable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="GRYLibrary.Core.Miscellaneous.html">GRYLibrary.Core.Miscellaneous</a></h6>
+  <h6><strong>Assembly</strong>: GRYLibrary.dll</h6>
+  <h5 id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class ExternalProgramExecutor : IDisposable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor__ctor_" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.#ctor*"></a>
+  <h4 id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor__ctor_System_String_System_String_" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.#ctor(System.String,System.String)">ExternalProgramExecutor(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ExternalProgramExecutor(string programPathAndFile, string arguments)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">programPathAndFile</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">arguments</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor__ctor_" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.#ctor*"></a>
+  <h4 id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor__ctor_System_String_System_String_System_String_" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.#ctor(System.String,System.String,System.String)">ExternalProgramExecutor(String, String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ExternalProgramExecutor(string programPathAndFile, string arguments, string workingDirectory)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">programPathAndFile</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">arguments</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">workingDirectory</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_AllStdErrLines_" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.AllStdErrLines*"></a>
+  <h4 id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_AllStdErrLines" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.AllStdErrLines">AllStdErrLines</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string[] AllStdErrLines { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>If the process is not terminated yet.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_AllStdOutLines_" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.AllStdOutLines*"></a>
+  <h4 id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_AllStdOutLines" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.AllStdOutLines">AllStdOutLines</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string[] AllStdOutLines { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>If the process is not terminated yet.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_Arguments_" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.Arguments*"></a>
+  <h4 id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_Arguments" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.Arguments">Arguments</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Arguments { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_CreateWindow_" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.CreateWindow*"></a>
+  <h4 id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_CreateWindow" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.CreateWindow">CreateWindow</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CreateWindow { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_CurrentExecutionState_" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.CurrentExecutionState*"></a>
+  <h4 id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_CurrentExecutionState" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.CurrentExecutionState">CurrentExecutionState</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ExecutionState CurrentExecutionState { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GRYLibrary.Core.Miscellaneous.ExecutionState.html">ExecutionState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_ExecutionDuration_" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.ExecutionDuration*"></a>
+  <h4 id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_ExecutionDuration" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.ExecutionDuration">ExecutionDuration</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TimeSpan ExecutionDuration { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.TimeSpan</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_ExitCode_" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.ExitCode*"></a>
+  <h4 id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_ExitCode" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.ExitCode">ExitCode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ExitCode { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>If the process is not terminated yet.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_LogNamespace_" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.LogNamespace*"></a>
+  <h4 id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_LogNamespace" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.LogNamespace">LogNamespace</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string LogNamespace { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_LogObject_" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.LogObject*"></a>
+  <h4 id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_LogObject" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.LogObject">LogObject</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GRYLog LogObject { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GRYLibrary.Core.LogObject.GRYLog.html">GRYLog</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_LogOutput_" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.LogOutput*"></a>
+  <h4 id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_LogOutput" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.LogOutput">LogOutput</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool LogOutput { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_LogOverhead_" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.LogOverhead*"></a>
+  <h4 id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_LogOverhead" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.LogOverhead">LogOverhead</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool LogOverhead { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_PrintErrorsAsInformation_" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.PrintErrorsAsInformation*"></a>
+  <h4 id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_PrintErrorsAsInformation" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.PrintErrorsAsInformation">PrintErrorsAsInformation</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool PrintErrorsAsInformation { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_ProcessId_" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.ProcessId*"></a>
+  <h4 id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_ProcessId" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.ProcessId">ProcessId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ProcessId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_ProcessWasAbortedDueToTimeout_" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.ProcessWasAbortedDueToTimeout*"></a>
+  <h4 id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_ProcessWasAbortedDueToTimeout" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.ProcessWasAbortedDueToTimeout">ProcessWasAbortedDueToTimeout</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ProcessWasAbortedDueToTimeout { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>If the process is not terminated yet.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_ProgramPathAndFile_" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.ProgramPathAndFile*"></a>
+  <h4 id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_ProgramPathAndFile" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.ProgramPathAndFile">ProgramPathAndFile</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ProgramPathAndFile { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_ThrowErrorIfExitCodeIsNotZero_" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.ThrowErrorIfExitCodeIsNotZero*"></a>
+  <h4 id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_ThrowErrorIfExitCodeIsNotZero" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.ThrowErrorIfExitCodeIsNotZero">ThrowErrorIfExitCodeIsNotZero</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ThrowErrorIfExitCodeIsNotZero { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_ThrowErrorIfExitCodeIsNotZero_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This property will be ignored if <see cref="!:RunSynchronously"></see>==false.</p>
+</div>
+  
+  
+  <a id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_TimeoutInMilliseconds_" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.TimeoutInMilliseconds*"></a>
+  <h4 id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_TimeoutInMilliseconds" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.TimeoutInMilliseconds">TimeoutInMilliseconds</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? TimeoutInMilliseconds { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_Title_" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.Title*"></a>
+  <h4 id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_Title" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.Title">Title</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Title { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_UpdateConsoleTitle_" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.UpdateConsoleTitle*"></a>
+  <h4 id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_UpdateConsoleTitle" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.UpdateConsoleTitle">UpdateConsoleTitle</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UpdateConsoleTitle { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_WorkingDirectory_" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.WorkingDirectory*"></a>
+  <h4 id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_WorkingDirectory" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.WorkingDirectory">WorkingDirectory</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string WorkingDirectory { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_Dispose_" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.Dispose*"></a>
+  <h4 id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_Dispose" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  
+  
+  <a id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_GetResult_" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.GetResult*"></a>
+  <h4 id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_GetResult" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.GetResult">GetResult()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetResult()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>Returns a summary of the executed program with its error-code, console-outputs, etc.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_GetResult_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This summary is designed for readability and not for a further program-controlled processing of the data. For that purpose please read out the properties of this object.</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>If the process is not terminated yet.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_Running_" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.Running*"></a>
+  <h4 id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_Running" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.Running">Running()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Running()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_StartAsynchronously_" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.StartAsynchronously*"></a>
+  <h4 id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_StartAsynchronously" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.StartAsynchronously">StartAsynchronously()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StartAsynchronously()</code></pre>
+  </div>
+  
+  
+  <a id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_StartSynchronously_" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.StartSynchronously*"></a>
+  <h4 id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_StartSynchronously" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.StartSynchronously">StartSynchronously()</h4>
+  <div class="markdown level1 summary"><p>Starts the program which was set in the properties.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int StartSynchronously()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The exit-code of the executed program will be returned.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GRYLibrary.Core.Exceptions.UnexpectedExitCodeException.html">UnexpectedExitCodeException</a></td>
+        <td><p>Will be thrown if <a class="xref" href="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.html#GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_ThrowErrorIfExitCodeIsNotZero">ThrowErrorIfExitCodeIsNotZero</a> and the exitcode of the executed program is not 0.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Will be thrown if <a class="xref" href="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.html#GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_StartSynchronously">StartSynchronously()</a> was already called.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Will be thrown if the given working-directory does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GRYLibrary.Core.Exceptions.ProcessStartException.html">ProcessStartException</a></td>
+        <td><p>Will be thrown if the process could not be started.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_WaitUntilTerminated_" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.WaitUntilTerminated*"></a>
+  <h4 id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_WaitUntilTerminated" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.WaitUntilTerminated">WaitUntilTerminated()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void WaitUntilTerminated()</code></pre>
+  </div>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_ExecutionFinishedEvent" data-uid="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.ExecutionFinishedEvent">ExecutionFinishedEvent</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event ExternalProgramExecutor.ExecutionFinishedHandler ExecutionFinishedEvent</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.ExecutionFinishedHandler.html">ExternalProgramExecutor.ExecutionFinishedHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_ToDynamic_System_Object_">Utilities.ToDynamic(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_DeepClone__1___0_">Utilities.DeepClone&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_NullSafeEquals_System_Object_System_Object_">Utilities.NullSafeEquals(Object, Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_ObjectIsEnumerable_System_Object_">Utilities.ObjectIsEnumerable(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_ObjectIsSet_System_Object_">Utilities.ObjectIsSet(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_ObjectIsList_System_Object_">Utilities.ObjectIsList(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_ObjectIsDictionary_System_Object_">Utilities.ObjectIsDictionary(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_ObjectIsKeyValuePair_System_Object_">Utilities.ObjectIsKeyValuePair(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_ObjectIsDictionaryEntry_System_Object_">Utilities.ObjectIsDictionaryEntry(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_ObjectIsTuple_System_Object_">Utilities.ObjectIsTuple(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_ObjectToEnumerable_System_Object_">Utilities.ObjectToEnumerable(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_ObjectToEnumerable__1_System_Object_">Utilities.ObjectToEnumerable&lt;T&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_ObjectToSet__1_System_Object_">Utilities.ObjectToSet&lt;T&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_ObjectToList_System_Object_">Utilities.ObjectToList(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_ObjectToList__1_System_Object_">Utilities.ObjectToList&lt;T&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_ObjectToDictionary_System_Object_">Utilities.ObjectToDictionary(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_ObjectToDictionary__2_System_Object_">Utilities.ObjectToDictionary&lt;TKey, TValue&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_ObjectToKeyValuePair__2_System_Object_">Utilities.ObjectToKeyValuePair&lt;TKey, TValue&gt;(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_ObjectToTuple__2_System_Object_">Utilities.ObjectToTuple&lt;T1, T2&gt;(Object)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
