@@ -283,12 +283,12 @@ var assemblies = [
       { "name": "GRYLibrary.Core.LogObject.ConcreteLogTargets.Observer", "rp": "GRYLibrary_Observer.htm", "cl": 0, "ucl": 6, "cal": 6, "tl": 25, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Core.LogObject.ConcreteLogTargets.Syslog", "rp": "GRYLibrary_Syslog.htm", "cl": 0, "ucl": 12, "cal": 12, "tl": 38, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 2, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Core.LogObject.ConcreteLogTargets.WindowsEventLog", "rp": "GRYLibrary_WindowsEventLog.htm", "cl": 0, "ucl": 23, "cal": 23, "tl": 66, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 14, "lch": [], "bch": [], "hc": [] },
-      { "name": "GRYLibrary.Core.LogObject.GRYLog", "rp": "GRYLibrary_GRYLog.htm", "cl": 0, "ucl": 193, "cal": 193, "tl": 430, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 68, "lch": [], "bch": [], "hc": [] },
-      { "name": "GRYLibrary.Core.LogObject.GRYLogConfiguration", "rp": "GRYLibrary_GRYLogConfiguration.htm", "cl": 0, "ucl": 86, "cal": 86, "tl": 189, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 20, "lch": [], "bch": [], "hc": [] },
+      { "name": "GRYLibrary.Core.LogObject.GRYLog", "rp": "GRYLibrary_GRYLog.htm", "cl": 0, "ucl": 221, "cal": 221, "tl": 470, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 72, "lch": [], "bch": [], "hc": [] },
+      { "name": "GRYLibrary.Core.LogObject.GRYLogConfiguration", "rp": "GRYLibrary_GRYLogConfiguration.htm", "cl": 0, "ucl": 88, "cal": 88, "tl": 192, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 20, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Core.LogObject.GRYLogSubNamespaceProvider", "rp": "GRYLibrary_GRYLogSubNamespaceProvider.htm", "cl": 0, "ucl": 13, "cal": 13, "tl": 38, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 4, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Core.LogObject.GRYLogTarget", "rp": "GRYLibrary_GRYLogTarget.htm", "cl": 0, "ucl": 20, "cal": 20, "tl": 75, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Core.LogObject.LoggedMessageTypeConfiguration", "rp": "GRYLibrary_LoggedMessageTypeConfiguration.htm", "cl": 0, "ucl": 11, "cal": 11, "tl": 47, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "GRYLibrary.Core.LogObject.LogItem", "rp": "GRYLibrary_LogItem.htm", "cl": 0, "ucl": 88, "cal": 88, "tl": 171, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 16, "lch": [], "bch": [], "hc": [] },
+      { "name": "GRYLibrary.Core.LogObject.LogItem", "rp": "GRYLibrary_LogItem.htm", "cl": 0, "ucl": 96, "cal": 96, "tl": 188, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 28, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Core.Miscellaneous.ByteArray", "rp": "GRYLibrary_ByteArray.htm", "cl": 0, "ucl": 39, "cal": 39, "tl": 119, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 16, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Core.Miscellaneous.CacheDictionaryStore`2", "rp": "GRYLibrary_CacheDictionaryStore_2.htm", "cl": 0, "ucl": 12, "cal": 12, "tl": 37, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 2, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Core.Miscellaneous.ColorGradient", "rp": "GRYLibrary_ColorGradient.htm", "cl": 0, "ucl": 13, "cal": 13, "tl": 33, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
@@ -311,7 +311,7 @@ var assemblies = [
       { "name": "GRYLibrary.Core.Miscellaneous.SupervisedThread", "rp": "GRYLibrary_SupervisedThread.htm", "cl": 0, "ucl": 39, "cal": 39, "tl": 81, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 16, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Core.Miscellaneous.TableGenerator", "rp": "GRYLibrary_TableGenerator.htm", "cl": 0, "ucl": 116, "cal": 116, "tl": 305, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 40, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Core.Miscellaneous.TaskQueue", "rp": "GRYLibrary_TaskQueue.htm", "cl": 0, "ucl": 51, "cal": 51, "tl": 102, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 26, "lch": [], "bch": [], "hc": [] },
-      { "name": "GRYLibrary.Core.Miscellaneous.Utilities", "rp": "GRYLibrary_Utilities.htm", "cl": 0, "ucl": 1286, "cal": 1286, "tl": 3127, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 644, "lch": [], "bch": [], "hc": [] },
+      { "name": "GRYLibrary.Core.Miscellaneous.Utilities", "rp": "GRYLibrary_Utilities.htm", "cl": 0, "ucl": 1289, "cal": 1289, "tl": 3135, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 646, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Core.Miscellaneous.WriteableTuple`2", "rp": "GRYLibrary_WriteableTuple_2.htm", "cl": 0, "ucl": 16, "cal": 16, "tl": 40, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 6, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Core.OperatingSystem.ConcreteOperatingSystems.Linux", "rp": "GRYLibrary_Linux.htm", "cl": 0, "ucl": 5, "cal": 5, "tl": 17, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Core.OperatingSystem.ConcreteOperatingSystems.OSX", "rp": "GRYLibrary_OSX.htm", "cl": 0, "ucl": 5, "cal": 5, "tl": 17, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
@@ -339,9 +339,9 @@ var riskHotspotMetrics = [
 
 var riskHotspots = [
   {
-    "assembly": "GRYLibrary", "class": "GRYLibrary.Core.LogObject.GRYLog", "reportPath": "GRYLibrary_GRYLog.htm", "methodName": "System.Void GRYLibrary.Core.LogObject.GRYLog::LogImplementation(GRYLibrary.Core.LogObject.LogItem)", "methodShortName": "LogImplementation(...)", "fileIndex": 0, "line": 235,
+    "assembly": "GRYLibrary", "class": "GRYLibrary.Core.LogObject.GRYLog", "reportPath": "GRYLibrary_GRYLog.htm", "methodName": "System.Void GRYLibrary.Core.LogObject.GRYLog::LogImplementation(GRYLibrary.Core.LogObject.LogItem)", "methodShortName": "LogImplementation(...)", "fileIndex": 0, "line": 240,
     "metrics": [
-      { "value": 32, "exceeded": true },
+      { "value": 34, "exceeded": true },
       { "value": 0, "exceeded": false },
     ]},
 ];

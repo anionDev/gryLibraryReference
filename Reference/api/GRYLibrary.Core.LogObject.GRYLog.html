@@ -107,7 +107,7 @@
   <h6><strong>Assembly</strong>: GRYLibrary.dll</h6>
   <h5 id="GRYLibrary_Core_LogObject_GRYLog_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class GRYLog : IDisposable, ILogger</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class GRYLog : IDisposable, ILogger</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -136,6 +136,34 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="GRYLibrary_Core_LogObject_GRYLog_ProcessedLogItems_" data-uid="GRYLibrary.Core.LogObject.GRYLog.ProcessedLogItems*"></a>
+  <h4 id="GRYLibrary_Core_LogObject_GRYLog_ProcessedLogItems" data-uid="GRYLibrary.Core.LogObject.GRYLog.ProcessedLogItems">ProcessedLogItems</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IList&lt;LogItem&gt; ProcessedLogItems { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="GRYLibrary.Core.LogObject.LogItem.html">LogItem</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="GRYLibrary_Core_LogObject_GRYLog_ProcessedLogItems_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Will only be used if <a class="xref" href="GRYLibrary.Core.LogObject.GRYLogConfiguration.html#GRYLibrary_Core_LogObject_GRYLogConfiguration_StoreProcessedLogItemsInternally">StoreProcessedLogItemsInternally</a> is set to true.ls -la</p>
+</div>
   <h3 id="methods">Methods
   </h3>
   
@@ -525,6 +553,83 @@
     <tbody>
       <tr>
         <td><span class="parametername">TResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_LogObject_GRYLog_ExecuteAndLogForEach_" data-uid="GRYLibrary.Core.LogObject.GRYLog.ExecuteAndLogForEach*"></a>
+  <h4 id="GRYLibrary_Core_LogObject_GRYLog_ExecuteAndLogForEach__1_System_Collections_Generic_IEnumerable___0__System_Action___0__System_String_System_String_System_Func___0_System_String__System_Func___0_System_String__System_Boolean_Microsoft_Extensions_Logging_LogLevel_" data-uid="GRYLibrary.Core.LogObject.GRYLog.ExecuteAndLogForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0},System.String,System.String,System.Func{``0,System.String},System.Func{``0,System.String},System.Boolean,Microsoft.Extensions.Logging.LogLevel)">ExecuteAndLogForEach&lt;T&gt;(IEnumerable&lt;T&gt;, Action&lt;T&gt;, String, String, Func&lt;T, String&gt;, Func&lt;T, String&gt;, Boolean, LogLevel)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ExecuteAndLogForEach&lt;T&gt;(IEnumerable&lt;T&gt; items, Action&lt;T&gt; itemAction, string nameOfEntireLoopAction, string subNamespaceOfEntireLoopAction, Func&lt;T, string&gt; nameOfSingleItemFunc, Func&lt;T, string&gt; subNamespaceOfSingleItemFunc, bool preventThrowingExceptions = false, LogLevel logLevelForOverhead = LogLevel.Debug)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+        <td><span class="parametername">items</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;T&gt;</td>
+        <td><span class="parametername">itemAction</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">nameOfEntireLoopAction</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">subNamespaceOfEntireLoopAction</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T, <span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">nameOfSingleItemFunc</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;T, <span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">subNamespaceOfSingleItemFunc</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">preventThrowingExceptions</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.Extensions.Logging.LogLevel</span></td>
+        <td><span class="parametername">logLevelForOverhead</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1122,6 +1227,38 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void LogGeneralProgramInformation()</code></pre>
   </div>
+  
+  
+  <a id="GRYLibrary_Core_LogObject_GRYLog_LogProgress_" data-uid="GRYLibrary.Core.LogObject.GRYLog.LogProgress*"></a>
+  <h4 id="GRYLibrary_Core_LogObject_GRYLog_LogProgress_System_UInt32_System_UInt32_" data-uid="GRYLibrary.Core.LogObject.GRYLog.LogProgress(System.UInt32,System.UInt32)">LogProgress(UInt32, UInt32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LogProgress(uint enumerator, uint denominator)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">enumerator</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">denominator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="GRYLibrary_Core_LogObject_GRYLog_LogSummary_" data-uid="GRYLibrary.Core.LogObject.GRYLog.LogSummary*"></a>

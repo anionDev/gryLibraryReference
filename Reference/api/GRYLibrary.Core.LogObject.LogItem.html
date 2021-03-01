@@ -78,12 +78,6 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <span class="xref">System.ValueType.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.ValueType.GetHashCode()</span>
-    </div>
-    <div>
       <span class="xref">System.ValueType.ToString()</span>
     </div>
     <div>
@@ -428,7 +422,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LogItem(string getMessageFunction, LogLevel logLevel)</code></pre>
+    <pre><code class="lang-csharp hljs">public LogItem(string message, LogLevel logLevel)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -442,7 +436,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">getMessageFunction</span></td>
+        <td><span class="parametername">message</span></td>
         <td></td>
       </tr>
       <tr>
@@ -460,7 +454,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LogItem(string getMessageFunction, LogLevel logLevel, Exception exception, string messageId = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public LogItem(string message, LogLevel logLevel, Exception exception, string messageId = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -474,7 +468,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">getMessageFunction</span></td>
+        <td><span class="parametername">message</span></td>
         <td></td>
       </tr>
       <tr>
@@ -502,7 +496,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LogItem(string getMessageFunction, DateTime dateTime, LogLevel logLevel)</code></pre>
+    <pre><code class="lang-csharp hljs">public LogItem(string message, DateTime dateTime, LogLevel logLevel)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -516,7 +510,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">getMessageFunction</span></td>
+        <td><span class="parametername">message</span></td>
         <td></td>
       </tr>
       <tr>
@@ -539,7 +533,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LogItem(string getMessageFunction, DateTime dateTime, LogLevel logLevel, Exception exception, string messageId = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public LogItem(string message, DateTime dateTime, LogLevel logLevel, Exception exception, string messageId = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -553,7 +547,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">getMessageFunction</span></td>
+        <td><span class="parametername">message</span></td>
         <td></td>
       </tr>
       <tr>
@@ -586,7 +580,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LogItem(string getMessageFunction, DateTime dateTime, Exception exception, string messageId = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public LogItem(string message, DateTime dateTime, Exception exception, string messageId = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -600,7 +594,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">getMessageFunction</span></td>
+        <td><span class="parametername">message</span></td>
         <td></td>
       </tr>
       <tr>
@@ -628,7 +622,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LogItem(string getMessageFunction, DateTime dateTime, string messageId = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public LogItem(string message, DateTime dateTime, string messageId = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -642,7 +636,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">getMessageFunction</span></td>
+        <td><span class="parametername">message</span></td>
         <td></td>
       </tr>
       <tr>
@@ -665,7 +659,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LogItem(string getMessageFunction, Exception exception, string messageId = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public LogItem(string message, Exception exception, string messageId = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -679,7 +673,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">getMessageFunction</span></td>
+        <td><span class="parametername">message</span></td>
         <td></td>
       </tr>
       <tr>
@@ -702,7 +696,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LogItem(string getMessageFunction, string messageId = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public LogItem(string message, string messageId = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -716,7 +710,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">getMessageFunction</span></td>
+        <td><span class="parametername">message</span></td>
         <td></td>
       </tr>
       <tr>
@@ -905,6 +899,77 @@
   </table>
   <h3 id="methods">Methods
   </h3>
+  
+  
+  <a id="GRYLibrary_Core_LogObject_LogItem_Equals_" data-uid="GRYLibrary.Core.LogObject.LogItem.Equals*"></a>
+  <h4 id="GRYLibrary_Core_LogObject_LogItem_Equals_System_Object_" data-uid="GRYLibrary.Core.LogObject.LogItem.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.ValueType.Equals(System.Object)</span></div>
+  
+  
+  <a id="GRYLibrary_Core_LogObject_LogItem_GetHashCode_" data-uid="GRYLibrary.Core.LogObject.LogItem.GetHashCode*"></a>
+  <h4 id="GRYLibrary_Core_LogObject_LogItem_GetHashCode" data-uid="GRYLibrary.Core.LogObject.LogItem.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.ValueType.GetHashCode()</span></div>
   
   
   <a id="GRYLibrary_Core_LogObject_LogItem_IsErrorEntry_" data-uid="GRYLibrary.Core.LogObject.LogItem.IsErrorEntry*"></a>

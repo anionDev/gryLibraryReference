@@ -4914,6 +4914,22 @@ references:
   fullName.vb: GRYLibrary.Core.LogObject.GRYLog.ExecuteAndLog(Of TResult)(System.Func(Of TResult), System.String, System.Boolean, Microsoft.Extensions.Logging.LogLevel, TResult, System.String)
   nameWithType: GRYLog.ExecuteAndLog<TResult>(Func<TResult>, String, Boolean, LogLevel, TResult, String)
   nameWithType.vb: GRYLog.ExecuteAndLog(Of TResult)(Func(Of TResult), String, Boolean, LogLevel, TResult, String)
+- uid: GRYLibrary.Core.LogObject.GRYLog.ExecuteAndLogForEach*
+  name: ExecuteAndLogForEach
+  href: api/GRYLibrary.Core.LogObject.GRYLog.html#GRYLibrary_Core_LogObject_GRYLog_ExecuteAndLogForEach_
+  commentId: Overload:GRYLibrary.Core.LogObject.GRYLog.ExecuteAndLogForEach
+  isSpec: "True"
+  fullName: GRYLibrary.Core.LogObject.GRYLog.ExecuteAndLogForEach
+  nameWithType: GRYLog.ExecuteAndLogForEach
+- uid: GRYLibrary.Core.LogObject.GRYLog.ExecuteAndLogForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0},System.String,System.String,System.Func{``0,System.String},System.Func{``0,System.String},System.Boolean,Microsoft.Extensions.Logging.LogLevel)
+  name: ExecuteAndLogForEach<T>(IEnumerable<T>, Action<T>, String, String, Func<T, String>, Func<T, String>, Boolean, LogLevel)
+  href: api/GRYLibrary.Core.LogObject.GRYLog.html#GRYLibrary_Core_LogObject_GRYLog_ExecuteAndLogForEach__1_System_Collections_Generic_IEnumerable___0__System_Action___0__System_String_System_String_System_Func___0_System_String__System_Func___0_System_String__System_Boolean_Microsoft_Extensions_Logging_LogLevel_
+  commentId: M:GRYLibrary.Core.LogObject.GRYLog.ExecuteAndLogForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0},System.String,System.String,System.Func{``0,System.String},System.Func{``0,System.String},System.Boolean,Microsoft.Extensions.Logging.LogLevel)
+  name.vb: ExecuteAndLogForEach(Of T)(IEnumerable(Of T), Action(Of T), String, String, Func(Of T, String), Func(Of T, String), Boolean, LogLevel)
+  fullName: GRYLibrary.Core.LogObject.GRYLog.ExecuteAndLogForEach<T>(System.Collections.Generic.IEnumerable<T>, System.Action<T>, System.String, System.String, System.Func<T, System.String>, System.Func<T, System.String>, System.Boolean, Microsoft.Extensions.Logging.LogLevel)
+  fullName.vb: GRYLibrary.Core.LogObject.GRYLog.ExecuteAndLogForEach(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Action(Of T), System.String, System.String, System.Func(Of T, System.String), System.Func(Of T, System.String), System.Boolean, Microsoft.Extensions.Logging.LogLevel)
+  nameWithType: GRYLog.ExecuteAndLogForEach<T>(IEnumerable<T>, Action<T>, String, String, Func<T, String>, Func<T, String>, Boolean, LogLevel)
+  nameWithType.vb: GRYLog.ExecuteAndLogForEach(Of T)(IEnumerable(Of T), Action(Of T), String, String, Func(Of T, String), Func(Of T, String), Boolean, LogLevel)
 - uid: GRYLibrary.Core.LogObject.GRYLog.GetAmountOfErrors
   name: GetAmountOfErrors()
   href: api/GRYLibrary.Core.LogObject.GRYLog.html#GRYLibrary_Core_LogObject_GRYLog_GetAmountOfErrors
@@ -5086,6 +5102,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.LogObject.GRYLog.LogGeneralProgramInformation
   nameWithType: GRYLog.LogGeneralProgramInformation
+- uid: GRYLibrary.Core.LogObject.GRYLog.LogProgress(System.UInt32,System.UInt32)
+  name: LogProgress(UInt32, UInt32)
+  href: api/GRYLibrary.Core.LogObject.GRYLog.html#GRYLibrary_Core_LogObject_GRYLog_LogProgress_System_UInt32_System_UInt32_
+  commentId: M:GRYLibrary.Core.LogObject.GRYLog.LogProgress(System.UInt32,System.UInt32)
+  fullName: GRYLibrary.Core.LogObject.GRYLog.LogProgress(System.UInt32, System.UInt32)
+  nameWithType: GRYLog.LogProgress(UInt32, UInt32)
+- uid: GRYLibrary.Core.LogObject.GRYLog.LogProgress*
+  name: LogProgress
+  href: api/GRYLibrary.Core.LogObject.GRYLog.html#GRYLibrary_Core_LogObject_GRYLog_LogProgress_
+  commentId: Overload:GRYLibrary.Core.LogObject.GRYLog.LogProgress
+  isSpec: "True"
+  fullName: GRYLibrary.Core.LogObject.GRYLog.LogProgress
+  nameWithType: GRYLog.LogProgress
 - uid: GRYLibrary.Core.LogObject.GRYLog.LogSummary
   name: LogSummary()
   href: api/GRYLibrary.Core.LogObject.GRYLog.html#GRYLibrary_Core_LogObject_GRYLog_LogSummary
@@ -5111,6 +5140,19 @@ references:
   commentId: T:GRYLibrary.Core.LogObject.GRYLog.NewLogItemEventHandler
   fullName: GRYLibrary.Core.LogObject.GRYLog.NewLogItemEventHandler
   nameWithType: GRYLog.NewLogItemEventHandler
+- uid: GRYLibrary.Core.LogObject.GRYLog.ProcessedLogItems
+  name: ProcessedLogItems
+  href: api/GRYLibrary.Core.LogObject.GRYLog.html#GRYLibrary_Core_LogObject_GRYLog_ProcessedLogItems
+  commentId: P:GRYLibrary.Core.LogObject.GRYLog.ProcessedLogItems
+  fullName: GRYLibrary.Core.LogObject.GRYLog.ProcessedLogItems
+  nameWithType: GRYLog.ProcessedLogItems
+- uid: GRYLibrary.Core.LogObject.GRYLog.ProcessedLogItems*
+  name: ProcessedLogItems
+  href: api/GRYLibrary.Core.LogObject.GRYLog.html#GRYLibrary_Core_LogObject_GRYLog_ProcessedLogItems_
+  commentId: Overload:GRYLibrary.Core.LogObject.GRYLog.ProcessedLogItems
+  isSpec: "True"
+  fullName: GRYLibrary.Core.LogObject.GRYLog.ProcessedLogItems
+  nameWithType: GRYLog.ProcessedLogItems
 - uid: GRYLibrary.Core.LogObject.GRYLog.UseSubNamespace(System.String)
   name: UseSubNamespace(String)
   href: api/GRYLibrary.Core.LogObject.GRYLog.html#GRYLibrary_Core_LogObject_GRYLog_UseSubNamespace_System_String_
@@ -5490,6 +5532,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.LogObject.GRYLogConfiguration.SetLogFile
   nameWithType: GRYLogConfiguration.SetLogFile
+- uid: GRYLibrary.Core.LogObject.GRYLogConfiguration.StoreProcessedLogItemsInternally
+  name: StoreProcessedLogItemsInternally
+  href: api/GRYLibrary.Core.LogObject.GRYLogConfiguration.html#GRYLibrary_Core_LogObject_GRYLogConfiguration_StoreProcessedLogItemsInternally
+  commentId: P:GRYLibrary.Core.LogObject.GRYLogConfiguration.StoreProcessedLogItemsInternally
+  fullName: GRYLibrary.Core.LogObject.GRYLogConfiguration.StoreProcessedLogItemsInternally
+  nameWithType: GRYLogConfiguration.StoreProcessedLogItemsInternally
+- uid: GRYLibrary.Core.LogObject.GRYLogConfiguration.StoreProcessedLogItemsInternally*
+  name: StoreProcessedLogItemsInternally
+  href: api/GRYLibrary.Core.LogObject.GRYLogConfiguration.html#GRYLibrary_Core_LogObject_GRYLogConfiguration_StoreProcessedLogItemsInternally_
+  commentId: Overload:GRYLibrary.Core.LogObject.GRYLogConfiguration.StoreProcessedLogItemsInternally
+  isSpec: "True"
+  fullName: GRYLibrary.Core.LogObject.GRYLogConfiguration.StoreProcessedLogItemsInternally
+  nameWithType: GRYLogConfiguration.StoreProcessedLogItemsInternally
 - uid: GRYLibrary.Core.LogObject.GRYLogConfiguration.ToString
   name: ToString()
   href: api/GRYLibrary.Core.LogObject.GRYLogConfiguration.html#GRYLibrary_Core_LogObject_GRYLogConfiguration_ToString
@@ -6061,6 +6116,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.LogObject.LogItem.Category
   nameWithType: LogItem.Category
+- uid: GRYLibrary.Core.LogObject.LogItem.Equals(System.Object)
+  name: Equals(Object)
+  href: api/GRYLibrary.Core.LogObject.LogItem.html#GRYLibrary_Core_LogObject_LogItem_Equals_System_Object_
+  commentId: M:GRYLibrary.Core.LogObject.LogItem.Equals(System.Object)
+  fullName: GRYLibrary.Core.LogObject.LogItem.Equals(System.Object)
+  nameWithType: LogItem.Equals(Object)
+- uid: GRYLibrary.Core.LogObject.LogItem.Equals*
+  name: Equals
+  href: api/GRYLibrary.Core.LogObject.LogItem.html#GRYLibrary_Core_LogObject_LogItem_Equals_
+  commentId: Overload:GRYLibrary.Core.LogObject.LogItem.Equals
+  isSpec: "True"
+  fullName: GRYLibrary.Core.LogObject.LogItem.Equals
+  nameWithType: LogItem.Equals
 - uid: GRYLibrary.Core.LogObject.LogItem.EventId
   name: EventId
   href: api/GRYLibrary.Core.LogObject.LogItem.html#GRYLibrary_Core_LogObject_LogItem_EventId
@@ -6087,6 +6155,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.LogObject.LogItem.Exception
   nameWithType: LogItem.Exception
+- uid: GRYLibrary.Core.LogObject.LogItem.GetHashCode
+  name: GetHashCode()
+  href: api/GRYLibrary.Core.LogObject.LogItem.html#GRYLibrary_Core_LogObject_LogItem_GetHashCode
+  commentId: M:GRYLibrary.Core.LogObject.LogItem.GetHashCode
+  fullName: GRYLibrary.Core.LogObject.LogItem.GetHashCode()
+  nameWithType: LogItem.GetHashCode()
+- uid: GRYLibrary.Core.LogObject.LogItem.GetHashCode*
+  name: GetHashCode
+  href: api/GRYLibrary.Core.LogObject.LogItem.html#GRYLibrary_Core_LogObject_LogItem_GetHashCode_
+  commentId: Overload:GRYLibrary.Core.LogObject.LogItem.GetHashCode
+  isSpec: "True"
+  fullName: GRYLibrary.Core.LogObject.LogItem.GetHashCode
+  nameWithType: LogItem.GetHashCode
 - uid: GRYLibrary.Core.LogObject.LogItem.IsErrorEntry
   name: IsErrorEntry()
   href: api/GRYLibrary.Core.LogObject.LogItem.html#GRYLibrary_Core_LogObject_LogItem_IsErrorEntry
