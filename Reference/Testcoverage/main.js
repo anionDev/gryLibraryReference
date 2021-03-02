@@ -283,7 +283,7 @@ var assemblies = [
       { "name": "GRYLibrary.Core.LogObject.ConcreteLogTargets.Observer", "rp": "GRYLibrary_Observer.htm", "cl": 0, "ucl": 6, "cal": 6, "tl": 25, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Core.LogObject.ConcreteLogTargets.Syslog", "rp": "GRYLibrary_Syslog.htm", "cl": 0, "ucl": 12, "cal": 12, "tl": 38, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 2, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Core.LogObject.ConcreteLogTargets.WindowsEventLog", "rp": "GRYLibrary_WindowsEventLog.htm", "cl": 0, "ucl": 23, "cal": 23, "tl": 66, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 14, "lch": [], "bch": [], "hc": [] },
-      { "name": "GRYLibrary.Core.LogObject.GRYLog", "rp": "GRYLibrary_GRYLog.htm", "cl": 0, "ucl": 221, "cal": 221, "tl": 470, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 72, "lch": [], "bch": [], "hc": [] },
+      { "name": "GRYLibrary.Core.LogObject.GRYLog", "rp": "GRYLibrary_GRYLog.htm", "cl": 0, "ucl": 223, "cal": 223, "tl": 478, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 78, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Core.LogObject.GRYLogConfiguration", "rp": "GRYLibrary_GRYLogConfiguration.htm", "cl": 0, "ucl": 88, "cal": 88, "tl": 192, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 20, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Core.LogObject.GRYLogSubNamespaceProvider", "rp": "GRYLibrary_GRYLogSubNamespaceProvider.htm", "cl": 0, "ucl": 13, "cal": 13, "tl": 38, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 4, "lch": [], "bch": [], "hc": [] },
       { "name": "GRYLibrary.Core.LogObject.GRYLogTarget", "rp": "GRYLibrary_GRYLogTarget.htm", "cl": 0, "ucl": 20, "cal": 20, "tl": 75, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
@@ -339,7 +339,7 @@ var riskHotspotMetrics = [
 
 var riskHotspots = [
   {
-    "assembly": "GRYLibrary", "class": "GRYLibrary.Core.LogObject.GRYLog", "reportPath": "GRYLibrary_GRYLog.htm", "methodName": "System.Void GRYLibrary.Core.LogObject.GRYLog::LogImplementation(GRYLibrary.Core.LogObject.LogItem)", "methodShortName": "LogImplementation(...)", "fileIndex": 0, "line": 240,
+    "assembly": "GRYLibrary", "class": "GRYLibrary.Core.LogObject.GRYLog", "reportPath": "GRYLibrary_GRYLog.htm", "methodName": "System.Void GRYLibrary.Core.LogObject.GRYLog::LogImplementation(GRYLibrary.Core.LogObject.LogItem)", "methodShortName": "LogImplementation(...)", "fileIndex": 0, "line": 241,
     "metrics": [
       { "value": 34, "exceeded": true },
       { "value": 0, "exceeded": false },
