@@ -684,7 +684,19 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.html",
-          "hash": "Js3b80mNTxl0w/kyqx4AGA=="
+          "hash": "n6AnnNGutrgmavYSNIlEFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Point.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Point.html",
+          "hash": "LSCBxXvrYa2HLzsSLYZkDg=="
         }
       },
       "is_incremental": false,
@@ -696,7 +708,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.html",
-          "hash": "/P8iUmGCb57mlzn3roQQMg=="
+          "hash": "+blSUr8BtMWeUAMMO94O5A=="
         }
       },
       "is_incremental": false,
@@ -2160,7 +2172,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "IR6gmJGMQuAjN+oLSsPepw=="
+          "hash": "SSu5r12QyXWBbGKlYs6iAw=="
         }
       },
       "is_incremental": false,
@@ -2294,7 +2306,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 166,
+          "total_file_count": 167,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

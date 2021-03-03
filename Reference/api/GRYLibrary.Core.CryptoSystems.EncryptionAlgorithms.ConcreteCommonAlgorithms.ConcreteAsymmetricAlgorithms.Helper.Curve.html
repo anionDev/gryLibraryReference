@@ -102,8 +102,72 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public struct Curve</code></pre>
   </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_Helper_Curve__ctor_" data-uid="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.#ctor*"></a>
+  <h4 id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_Helper_Curve__ctor_System_Func_System_Numerics_BigInteger_System_Numerics_BigInteger__System_Numerics_BigInteger_System_Numerics_BigInteger_" data-uid="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.#ctor(System.Func{System.Numerics.BigInteger,System.Numerics.BigInteger},System.Numerics.BigInteger,System.Numerics.BigInteger)">Curve(Func&lt;BigInteger, BigInteger&gt;, BigInteger, BigInteger)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Curve(Func&lt;BigInteger, BigInteger&gt; curveFunction, BigInteger field, BigInteger basePoint)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Numerics.BigInteger</span>, <span class="xref">System.Numerics.BigInteger</span>&gt;</td>
+        <td><span class="parametername">curveFunction</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Numerics.BigInteger</span></td>
+        <td><span class="parametername">field</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Numerics.BigInteger</span></td>
+        <td><span class="parametername">basePoint</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
+  
+  
+  <a id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_Helper_Curve_BasePoint_" data-uid="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.BasePoint*"></a>
+  <h4 id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_Helper_Curve_BasePoint" data-uid="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.BasePoint">BasePoint</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BigInteger BasePoint { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Numerics.BigInteger</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_Helper_Curve_Curve25519_" data-uid="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.Curve25519*"></a>
@@ -125,6 +189,56 @@
     <tbody>
       <tr>
         <td><a class="xref" href="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.html">Curve</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_Helper_Curve_CurveFunction_" data-uid="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.CurveFunction*"></a>
+  <h4 id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_Helper_Curve_CurveFunction" data-uid="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.CurveFunction">CurveFunction</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Func&lt;BigInteger, BigInteger&gt; CurveFunction { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Numerics.BigInteger</span>, <span class="xref">System.Numerics.BigInteger</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_Helper_Curve_Field_" data-uid="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.Field*"></a>
+  <h4 id="GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_Helper_Curve_Field" data-uid="GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.Field">Field</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BigInteger Field { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Numerics.BigInteger</span></td>
         <td></td>
       </tr>
     </tbody>
