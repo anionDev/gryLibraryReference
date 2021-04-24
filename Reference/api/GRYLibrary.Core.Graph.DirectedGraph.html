@@ -96,6 +96,12 @@
       <a class="xref" href="GRYLibrary.Core.Graph.Graph.html#GRYLibrary_Core_Graph_Graph_GetVertex_System_String_">Graph.GetVertex(String)</a>
     </div>
     <div>
+      <a class="xref" href="GRYLibrary.Core.Graph.Graph.html#GRYLibrary_Core_Graph_Graph_AddEdge_GRYLibrary_Core_Graph_Edge_">Graph.AddEdge(Edge)</a>
+    </div>
+    <div>
+      <a class="xref" href="GRYLibrary.Core.Graph.Graph.html#GRYLibrary_Core_Graph_Graph_RemoveEdge_GRYLibrary_Core_Graph_Edge_">Graph.RemoveEdge(Edge)</a>
+    </div>
+    <div>
       <a class="xref" href="GRYLibrary.Core.Graph.Graph.html#GRYLibrary_Core_Graph_Graph_AddVertex_GRYLibrary_Core_Graph_Vertex_">Graph.AddVertex(Vertex)</a>
     </div>
     <div>
@@ -133,6 +139,9 @@
     </div>
     <div>
       <a class="xref" href="GRYLibrary.Core.Graph.Graph.html#GRYLibrary_Core_Graph_Graph_GetShortestPath_GRYLibrary_Core_Graph_Vertex_GRYLibrary_Core_Graph_Vertex_">Graph.GetShortestPath(Vertex, Vertex)</a>
+    </div>
+    <div>
+      <a class="xref" href="GRYLibrary.Core.Graph.Graph.html#GRYLibrary_Core_Graph_Graph_ToString">Graph.ToString()</a>
     </div>
     <div>
       <a class="xref" href="GRYLibrary.Core.Graph.Graph.html#GRYLibrary_Core_Graph_Graph_BreadthFirstSearch_System_Func_GRYLibrary_Core_Graph_Vertex_System_Collections_Generic_IList_GRYLibrary_Core_Graph_Edge__System_Boolean__">Graph.BreadthFirstSearch(Func&lt;Vertex, IList&lt;Edge&gt;, Boolean&gt;)</a>
@@ -348,38 +357,6 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">GRYLibrary.Core.Graph.Graph.Accept&lt;T&gt;(GRYLibrary.Core.Graph.IGraphVisitor&lt;T&gt;)</span></div>
-  
-  
-  <a id="GRYLibrary_Core_Graph_DirectedGraph_AddEdge_" data-uid="GRYLibrary.Core.Graph.DirectedGraph.AddEdge*"></a>
-  <h4 id="GRYLibrary_Core_Graph_DirectedGraph_AddEdge_GRYLibrary_Core_Graph_Edge_" data-uid="GRYLibrary.Core.Graph.DirectedGraph.AddEdge(GRYLibrary.Core.Graph.Edge)">AddEdge(Edge)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void AddEdge(Edge edge)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="GRYLibrary.Core.Graph.Edge.html">Edge</a></td>
-        <td><span class="parametername">edge</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="GRYLibrary.Core.Graph.Graph.html#GRYLibrary_Core_Graph_Graph_AddEdge_GRYLibrary_Core_Graph_Edge_">Graph.AddEdge(Edge)</a></div>
-  <h5 id="GRYLibrary_Core_Graph_DirectedGraph_AddEdge_GRYLibrary_Core_Graph_Edge__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>This function will also add the vertices which are connected by <code data-dev-comment-type="paramref" class="paramref">edge</code> to the list of vertices of this graph.</p>
-</div>
   
   
   <a id="GRYLibrary_Core_Graph_DirectedGraph_CreateByAdjacencyMatrix_" data-uid="GRYLibrary.Core.Graph.DirectedGraph.CreateByAdjacencyMatrix*"></a>
@@ -693,62 +670,6 @@ The runtime of this function is &lt;=O(|this.Edges|).</p>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="GRYLibrary_Core_Graph_DirectedGraph_RemoveEdge_" data-uid="GRYLibrary.Core.Graph.DirectedGraph.RemoveEdge*"></a>
-  <h4 id="GRYLibrary_Core_Graph_DirectedGraph_RemoveEdge_GRYLibrary_Core_Graph_Edge_" data-uid="GRYLibrary.Core.Graph.DirectedGraph.RemoveEdge(GRYLibrary.Core.Graph.Edge)">RemoveEdge(Edge)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void RemoveEdge(Edge edge)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="GRYLibrary.Core.Graph.Edge.html">Edge</a></td>
-        <td><span class="parametername">edge</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="GRYLibrary.Core.Graph.Graph.html#GRYLibrary_Core_Graph_Graph_RemoveEdge_GRYLibrary_Core_Graph_Edge_">Graph.RemoveEdge(Edge)</a></div>
-  
-  
-  <a id="GRYLibrary_Core_Graph_DirectedGraph_ToString_" data-uid="GRYLibrary.Core.Graph.DirectedGraph.ToString*"></a>
-  <h4 id="GRYLibrary_Core_Graph_DirectedGraph_ToString" data-uid="GRYLibrary.Core.Graph.DirectedGraph.ToString">ToString()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="GRYLibrary.Core.Graph.Graph.html#GRYLibrary_Core_Graph_Graph_ToString">Graph.ToString()</a></div>
   
   
   <a id="GRYLibrary_Core_Graph_DirectedGraph_ToUndirectedGraph_" data-uid="GRYLibrary.Core.Graph.DirectedGraph.ToUndirectedGraph*"></a>

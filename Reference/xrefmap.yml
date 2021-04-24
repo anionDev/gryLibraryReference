@@ -2833,6 +2833,25 @@ references:
   commentId: N:GRYLibrary.Core.Exceptions
   fullName: GRYLibrary.Core.Exceptions
   nameWithType: GRYLibrary.Core.Exceptions
+- uid: GRYLibrary.Core.Exceptions.AssertionException
+  name: AssertionException
+  href: api/GRYLibrary.Core.Exceptions.AssertionException.html
+  commentId: T:GRYLibrary.Core.Exceptions.AssertionException
+  fullName: GRYLibrary.Core.Exceptions.AssertionException
+  nameWithType: AssertionException
+- uid: GRYLibrary.Core.Exceptions.AssertionException.#ctor(System.String)
+  name: AssertionException(String)
+  href: api/GRYLibrary.Core.Exceptions.AssertionException.html#GRYLibrary_Core_Exceptions_AssertionException__ctor_System_String_
+  commentId: M:GRYLibrary.Core.Exceptions.AssertionException.#ctor(System.String)
+  fullName: GRYLibrary.Core.Exceptions.AssertionException.AssertionException(System.String)
+  nameWithType: AssertionException.AssertionException(String)
+- uid: GRYLibrary.Core.Exceptions.AssertionException.#ctor*
+  name: AssertionException
+  href: api/GRYLibrary.Core.Exceptions.AssertionException.html#GRYLibrary_Core_Exceptions_AssertionException__ctor_
+  commentId: Overload:GRYLibrary.Core.Exceptions.AssertionException.#ctor
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Exceptions.AssertionException.AssertionException
+  nameWithType: AssertionException.AssertionException
 - uid: GRYLibrary.Core.Exceptions.ProcessStartException
   name: ProcessStartException
   href: api/GRYLibrary.Core.Exceptions.ProcessStartException.html
@@ -3213,19 +3232,6 @@ references:
   fullName.vb: GRYLibrary.Core.Graph.DirectedGraph.Accept(Of T)(GRYLibrary.Core.Graph.IGraphVisitor(Of T))
   nameWithType: DirectedGraph.Accept<T>(IGraphVisitor<T>)
   nameWithType.vb: DirectedGraph.Accept(Of T)(IGraphVisitor(Of T))
-- uid: GRYLibrary.Core.Graph.DirectedGraph.AddEdge(GRYLibrary.Core.Graph.Edge)
-  name: AddEdge(Edge)
-  href: api/GRYLibrary.Core.Graph.DirectedGraph.html#GRYLibrary_Core_Graph_DirectedGraph_AddEdge_GRYLibrary_Core_Graph_Edge_
-  commentId: M:GRYLibrary.Core.Graph.DirectedGraph.AddEdge(GRYLibrary.Core.Graph.Edge)
-  fullName: GRYLibrary.Core.Graph.DirectedGraph.AddEdge(GRYLibrary.Core.Graph.Edge)
-  nameWithType: DirectedGraph.AddEdge(Edge)
-- uid: GRYLibrary.Core.Graph.DirectedGraph.AddEdge*
-  name: AddEdge
-  href: api/GRYLibrary.Core.Graph.DirectedGraph.html#GRYLibrary_Core_Graph_DirectedGraph_AddEdge_
-  commentId: Overload:GRYLibrary.Core.Graph.DirectedGraph.AddEdge
-  isSpec: "True"
-  fullName: GRYLibrary.Core.Graph.DirectedGraph.AddEdge
-  nameWithType: DirectedGraph.AddEdge
 - uid: GRYLibrary.Core.Graph.DirectedGraph.CreateByAdjacencyMatrix(System.Double[0:,0:])
   name: CreateByAdjacencyMatrix(Double[,])
   href: api/GRYLibrary.Core.Graph.DirectedGraph.html#GRYLibrary_Core_Graph_DirectedGraph_CreateByAdjacencyMatrix_System_Double_0__0___
@@ -3346,32 +3352,6 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Graph.DirectedGraph.HasIncomingEdge
   nameWithType: DirectedGraph.HasIncomingEdge
-- uid: GRYLibrary.Core.Graph.DirectedGraph.RemoveEdge(GRYLibrary.Core.Graph.Edge)
-  name: RemoveEdge(Edge)
-  href: api/GRYLibrary.Core.Graph.DirectedGraph.html#GRYLibrary_Core_Graph_DirectedGraph_RemoveEdge_GRYLibrary_Core_Graph_Edge_
-  commentId: M:GRYLibrary.Core.Graph.DirectedGraph.RemoveEdge(GRYLibrary.Core.Graph.Edge)
-  fullName: GRYLibrary.Core.Graph.DirectedGraph.RemoveEdge(GRYLibrary.Core.Graph.Edge)
-  nameWithType: DirectedGraph.RemoveEdge(Edge)
-- uid: GRYLibrary.Core.Graph.DirectedGraph.RemoveEdge*
-  name: RemoveEdge
-  href: api/GRYLibrary.Core.Graph.DirectedGraph.html#GRYLibrary_Core_Graph_DirectedGraph_RemoveEdge_
-  commentId: Overload:GRYLibrary.Core.Graph.DirectedGraph.RemoveEdge
-  isSpec: "True"
-  fullName: GRYLibrary.Core.Graph.DirectedGraph.RemoveEdge
-  nameWithType: DirectedGraph.RemoveEdge
-- uid: GRYLibrary.Core.Graph.DirectedGraph.ToString
-  name: ToString()
-  href: api/GRYLibrary.Core.Graph.DirectedGraph.html#GRYLibrary_Core_Graph_DirectedGraph_ToString
-  commentId: M:GRYLibrary.Core.Graph.DirectedGraph.ToString
-  fullName: GRYLibrary.Core.Graph.DirectedGraph.ToString()
-  nameWithType: DirectedGraph.ToString()
-- uid: GRYLibrary.Core.Graph.DirectedGraph.ToString*
-  name: ToString
-  href: api/GRYLibrary.Core.Graph.DirectedGraph.html#GRYLibrary_Core_Graph_DirectedGraph_ToString_
-  commentId: Overload:GRYLibrary.Core.Graph.DirectedGraph.ToString
-  isSpec: "True"
-  fullName: GRYLibrary.Core.Graph.DirectedGraph.ToString
-  nameWithType: DirectedGraph.ToString
 - uid: GRYLibrary.Core.Graph.DirectedGraph.ToUndirectedGraph
   name: ToUndirectedGraph()
   href: api/GRYLibrary.Core.Graph.DirectedGraph.html#GRYLibrary_Core_Graph_DirectedGraph_ToUndirectedGraph
@@ -7479,6 +7459,12 @@ references:
   commentId: T:GRYLibrary.Core.Miscellaneous.ExtendedColor
   fullName: GRYLibrary.Core.Miscellaneous.ExtendedColor
   nameWithType: ExtendedColor
+- uid: GRYLibrary.Core.Miscellaneous.ExtendedColor.
+  name: ''
+  href: api/GRYLibrary.Core.Miscellaneous.ExtendedColor.html#GRYLibrary_Core_Miscellaneous_ExtendedColor_
+  commentId: F:GRYLibrary.Core.Miscellaneous.ExtendedColor.
+  fullName: GRYLibrary.Core.Miscellaneous.ExtendedColor.
+  nameWithType: ExtendedColor.
 - uid: GRYLibrary.Core.Miscellaneous.ExtendedColor.#ctor
   name: ExtendedColor()
   href: api/GRYLibrary.Core.Miscellaneous.ExtendedColor.html#GRYLibrary_Core_Miscellaneous_ExtendedColor__ctor
@@ -8594,12 +8580,12 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Miscellaneous.GitTools.GitRepositoryHasUnstagedChangesOfTrackedFiles
   nameWithType: GitTools.GitRepositoryHasUnstagedChangesOfTrackedFiles
-- uid: GRYLibrary.Core.Miscellaneous.GitTools.GitTidyUp(System.String,System.Boolean)
-  name: GitTidyUp(String, Boolean)
-  href: api/GRYLibrary.Core.Miscellaneous.GitTools.html#GRYLibrary_Core_Miscellaneous_GitTools_GitTidyUp_System_String_System_Boolean_
-  commentId: M:GRYLibrary.Core.Miscellaneous.GitTools.GitTidyUp(System.String,System.Boolean)
-  fullName: GRYLibrary.Core.Miscellaneous.GitTools.GitTidyUp(System.String, System.Boolean)
-  nameWithType: GitTools.GitTidyUp(String, Boolean)
+- uid: GRYLibrary.Core.Miscellaneous.GitTools.GitTidyUp(System.String,System.Boolean,System.Boolean)
+  name: GitTidyUp(String, Boolean, Boolean)
+  href: api/GRYLibrary.Core.Miscellaneous.GitTools.html#GRYLibrary_Core_Miscellaneous_GitTools_GitTidyUp_System_String_System_Boolean_System_Boolean_
+  commentId: M:GRYLibrary.Core.Miscellaneous.GitTools.GitTidyUp(System.String,System.Boolean,System.Boolean)
+  fullName: GRYLibrary.Core.Miscellaneous.GitTools.GitTidyUp(System.String, System.Boolean, System.Boolean)
+  nameWithType: GitTools.GitTidyUp(String, Boolean, Boolean)
 - uid: GRYLibrary.Core.Miscellaneous.GitTools.GitTidyUp*
   name: GitTidyUp
   href: api/GRYLibrary.Core.Miscellaneous.GitTools.html#GRYLibrary_Core_Miscellaneous_GitTools_GitTidyUp_
@@ -11644,19 +11630,32 @@ references:
   commentId: F:GRYLibrary.Core.Miscellaneous.Utilities.ApplyXSLTToXMLXMLWriterDefaultXMLDeclaration
   fullName: GRYLibrary.Core.Miscellaneous.Utilities.ApplyXSLTToXMLXMLWriterDefaultXMLDeclaration
   nameWithType: Utilities.ApplyXSLTToXMLXMLWriterDefaultXMLDeclaration
-- uid: GRYLibrary.Core.Miscellaneous.Utilities.Assert(System.Boolean,System.String)
-  name: Assert(Boolean, String)
-  href: api/GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_Assert_System_Boolean_System_String_
-  commentId: M:GRYLibrary.Core.Miscellaneous.Utilities.Assert(System.Boolean,System.String)
-  fullName: GRYLibrary.Core.Miscellaneous.Utilities.Assert(System.Boolean, System.String)
-  nameWithType: Utilities.Assert(Boolean, String)
-- uid: GRYLibrary.Core.Miscellaneous.Utilities.Assert*
-  name: Assert
-  href: api/GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_Assert_
-  commentId: Overload:GRYLibrary.Core.Miscellaneous.Utilities.Assert
+- uid: GRYLibrary.Core.Miscellaneous.Utilities.AssertCondition(System.Boolean,System.String)
+  name: AssertCondition(Boolean, String)
+  href: api/GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_AssertCondition_System_Boolean_System_String_
+  commentId: M:GRYLibrary.Core.Miscellaneous.Utilities.AssertCondition(System.Boolean,System.String)
+  fullName: GRYLibrary.Core.Miscellaneous.Utilities.AssertCondition(System.Boolean, System.String)
+  nameWithType: Utilities.AssertCondition(Boolean, String)
+- uid: GRYLibrary.Core.Miscellaneous.Utilities.AssertCondition*
+  name: AssertCondition
+  href: api/GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_AssertCondition_
+  commentId: Overload:GRYLibrary.Core.Miscellaneous.Utilities.AssertCondition
   isSpec: "True"
-  fullName: GRYLibrary.Core.Miscellaneous.Utilities.Assert
-  nameWithType: Utilities.Assert
+  fullName: GRYLibrary.Core.Miscellaneous.Utilities.AssertCondition
+  nameWithType: Utilities.AssertCondition
+- uid: GRYLibrary.Core.Miscellaneous.Utilities.BigIntegerToBinaryString(System.Numerics.BigInteger)
+  name: BigIntegerToBinaryString(BigInteger)
+  href: api/GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_BigIntegerToBinaryString_System_Numerics_BigInteger_
+  commentId: M:GRYLibrary.Core.Miscellaneous.Utilities.BigIntegerToBinaryString(System.Numerics.BigInteger)
+  fullName: GRYLibrary.Core.Miscellaneous.Utilities.BigIntegerToBinaryString(System.Numerics.BigInteger)
+  nameWithType: Utilities.BigIntegerToBinaryString(BigInteger)
+- uid: GRYLibrary.Core.Miscellaneous.Utilities.BigIntegerToBinaryString*
+  name: BigIntegerToBinaryString
+  href: api/GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_BigIntegerToBinaryString_
+  commentId: Overload:GRYLibrary.Core.Miscellaneous.Utilities.BigIntegerToBinaryString
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Miscellaneous.Utilities.BigIntegerToBinaryString
+  nameWithType: Utilities.BigIntegerToBinaryString
 - uid: GRYLibrary.Core.Miscellaneous.Utilities.BigIntegerToHexString(System.Numerics.BigInteger)
   name: BigIntegerToHexString(BigInteger)
   href: api/GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_BigIntegerToHexString_System_Numerics_BigInteger_
@@ -11670,6 +11669,32 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Miscellaneous.Utilities.BigIntegerToHexString
   nameWithType: Utilities.BigIntegerToHexString
+- uid: GRYLibrary.Core.Miscellaneous.Utilities.BinaryStringToBigInteger(System.String)
+  name: BinaryStringToBigInteger(String)
+  href: api/GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_BinaryStringToBigInteger_System_String_
+  commentId: M:GRYLibrary.Core.Miscellaneous.Utilities.BinaryStringToBigInteger(System.String)
+  fullName: GRYLibrary.Core.Miscellaneous.Utilities.BinaryStringToBigInteger(System.String)
+  nameWithType: Utilities.BinaryStringToBigInteger(String)
+- uid: GRYLibrary.Core.Miscellaneous.Utilities.BinaryStringToBigInteger*
+  name: BinaryStringToBigInteger
+  href: api/GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_BinaryStringToBigInteger_
+  commentId: Overload:GRYLibrary.Core.Miscellaneous.Utilities.BinaryStringToBigInteger
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Miscellaneous.Utilities.BinaryStringToBigInteger
+  nameWithType: Utilities.BinaryStringToBigInteger
+- uid: GRYLibrary.Core.Miscellaneous.Utilities.BinaryStringToUint(System.String)
+  name: BinaryStringToUint(String)
+  href: api/GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_BinaryStringToUint_System_String_
+  commentId: M:GRYLibrary.Core.Miscellaneous.Utilities.BinaryStringToUint(System.String)
+  fullName: GRYLibrary.Core.Miscellaneous.Utilities.BinaryStringToUint(System.String)
+  nameWithType: Utilities.BinaryStringToUint(String)
+- uid: GRYLibrary.Core.Miscellaneous.Utilities.BinaryStringToUint*
+  name: BinaryStringToUint
+  href: api/GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_BinaryStringToUint_
+  commentId: Overload:GRYLibrary.Core.Miscellaneous.Utilities.BinaryStringToUint
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Miscellaneous.Utilities.BinaryStringToUint
+  nameWithType: Utilities.BinaryStringToUint
 - uid: GRYLibrary.Core.Miscellaneous.Utilities.ByteArrayToHexString(System.Byte[])
   name: ByteArrayToHexString(Byte[])
   href: api/GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_ByteArrayToHexString_System_Byte___
@@ -13716,6 +13741,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Miscellaneous.Utilities.TypeIsPrimitive
   nameWithType: Utilities.TypeIsPrimitive
+- uid: GRYLibrary.Core.Miscellaneous.Utilities.UintToBinaryString(System.UInt32)
+  name: UintToBinaryString(UInt32)
+  href: api/GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_UintToBinaryString_System_UInt32_
+  commentId: M:GRYLibrary.Core.Miscellaneous.Utilities.UintToBinaryString(System.UInt32)
+  fullName: GRYLibrary.Core.Miscellaneous.Utilities.UintToBinaryString(System.UInt32)
+  nameWithType: Utilities.UintToBinaryString(UInt32)
+- uid: GRYLibrary.Core.Miscellaneous.Utilities.UintToBinaryString*
+  name: UintToBinaryString
+  href: api/GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_UintToBinaryString_
+  commentId: Overload:GRYLibrary.Core.Miscellaneous.Utilities.UintToBinaryString
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Miscellaneous.Utilities.UintToBinaryString
+  nameWithType: Utilities.UintToBinaryString
 - uid: GRYLibrary.Core.Miscellaneous.Utilities.UnsignedInteger32BitToByteArray(System.UInt32,GRYLibrary.Core.Miscellaneous.Utilities.Endianness)
   name: UnsignedInteger32BitToByteArray(UInt32, Utilities.Endianness)
   href: api/GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_UnsignedInteger32BitToByteArray_System_UInt32_GRYLibrary_Core_Miscellaneous_Utilities_Endianness_

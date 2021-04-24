@@ -239,7 +239,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const string SpecialCharacterTestString = &quot;&lt;Special-character-Test: (^&#228;&#246;&#252;&#223;/\\&#8364;\&quot;'+-*&#174;&#172;&#188;&#128522;&#128077;&#9990;&#8838;&#8473;&#8776;&#8721;&#8734;&#8747;/&#119070;&#119076;&#119136;) (&#24744;&#22909;) (&#1047;&#1076;&#1088;&#1072;&#1074;&#1089;&#1090;&#1074;&#1091;&#1081;&#1090;&#1077;) (&#2344;&#2350;&#2360;&#2381;&#2325;&#2366;&#2352;)&gt;&quot;</code></pre>
+    <pre><code class="lang-csharp hljs">public const string SpecialCharacterTestString = &quot;&lt;Special-character-Test: (^&#228;&#246;&#252;&#223;/\\$&#8364;\&quot;'+-*&#174;&#172;&#188;&#128522;&#128077;&#9990;&#8838;&#8473;&#8776;&#8721;&#8734;&#8747;/&#119070;&#119076;&#119136;) (&#24744;&#22909;) (&#1047;&#1076;&#1088;&#1072;&#1074;&#1089;&#1090;&#1074;&#1091;&#1081;&#1090;&#1077;) (&#2344;&#2350;&#2360;&#2381;&#2325;&#2366;&#2352;)&gt;&quot;</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -636,13 +636,13 @@
   </table>
   
   
-  <a id="GRYLibrary_Core_Miscellaneous_Utilities_Assert_" data-uid="GRYLibrary.Core.Miscellaneous.Utilities.Assert*"></a>
-  <h4 id="GRYLibrary_Core_Miscellaneous_Utilities_Assert_System_Boolean_System_String_" data-uid="GRYLibrary.Core.Miscellaneous.Utilities.Assert(System.Boolean,System.String)">Assert(Boolean, String)</h4>
+  <a id="GRYLibrary_Core_Miscellaneous_Utilities_AssertCondition_" data-uid="GRYLibrary.Core.Miscellaneous.Utilities.AssertCondition*"></a>
+  <h4 id="GRYLibrary_Core_Miscellaneous_Utilities_AssertCondition_System_Boolean_System_String_" data-uid="GRYLibrary.Core.Miscellaneous.Utilities.AssertCondition(System.Boolean,System.String)">AssertCondition(Boolean, String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Assert(bool condition, string message = &quot;&quot;)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void AssertCondition(bool condition, string message = &quot;&quot;)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -662,6 +662,48 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Miscellaneous_Utilities_BigIntegerToBinaryString_" data-uid="GRYLibrary.Core.Miscellaneous.Utilities.BigIntegerToBinaryString*"></a>
+  <h4 id="GRYLibrary_Core_Miscellaneous_Utilities_BigIntegerToBinaryString_System_Numerics_BigInteger_" data-uid="GRYLibrary.Core.Miscellaneous.Utilities.BigIntegerToBinaryString(System.Numerics.BigInteger)">BigIntegerToBinaryString(BigInteger)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string BigIntegerToBinaryString(BigInteger binaryString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Numerics.BigInteger</span></td>
+        <td><span class="parametername">binaryString</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -704,6 +746,90 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Miscellaneous_Utilities_BinaryStringToBigInteger_" data-uid="GRYLibrary.Core.Miscellaneous.Utilities.BinaryStringToBigInteger*"></a>
+  <h4 id="GRYLibrary_Core_Miscellaneous_Utilities_BinaryStringToBigInteger_System_String_" data-uid="GRYLibrary.Core.Miscellaneous.Utilities.BinaryStringToBigInteger(System.String)">BinaryStringToBigInteger(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigInteger BinaryStringToBigInteger(string binaryString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">binaryString</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Numerics.BigInteger</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Miscellaneous_Utilities_BinaryStringToUint_" data-uid="GRYLibrary.Core.Miscellaneous.Utilities.BinaryStringToUint*"></a>
+  <h4 id="GRYLibrary_Core_Miscellaneous_Utilities_BinaryStringToUint_System_String_" data-uid="GRYLibrary.Core.Miscellaneous.Utilities.BinaryStringToUint(System.String)">BinaryStringToUint(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static uint BinaryStringToUint(string binaryString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">binaryString</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -7407,6 +7533,48 @@ Warning: This function is not implemented yet.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="GRYLibrary_Core_Miscellaneous_Utilities_UintToBinaryString_" data-uid="GRYLibrary.Core.Miscellaneous.Utilities.UintToBinaryString*"></a>
+  <h4 id="GRYLibrary_Core_Miscellaneous_Utilities_UintToBinaryString_System_UInt32_" data-uid="GRYLibrary.Core.Miscellaneous.Utilities.UintToBinaryString(System.UInt32)">UintToBinaryString(UInt32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string UintToBinaryString(uint binaryString)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">binaryString</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>

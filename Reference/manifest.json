@@ -156,7 +156,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.AdvancedObjectAnalysis.Generic.html",
-          "hash": "z+8+Eiee5PcA7VbScwYg6A=="
+          "hash": "5rNB6eaXJnYij1RfwhMBNg=="
         }
       },
       "is_incremental": false,
@@ -932,6 +932,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.Exceptions.AssertionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GRYLibrary.Core.Exceptions.AssertionException.html",
+          "hash": "hBcvQGDwdEkg+EyuJ6LlgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "../GRYLibrary/Other/ReferenceArticles/api/GRYLibrary.Core.Exceptions.ProcessStartException.yml",
       "output": {
         ".html": {
@@ -960,7 +972,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.Exceptions.html",
-          "hash": "josxGLg83daQMsDVGA8KBw=="
+          "hash": "rfEX0/z95up1onFdOHbUqw=="
         }
       },
       "is_incremental": false,
@@ -996,7 +1008,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.Graph.DirectedGraph.html",
-          "hash": "mGGB7lbI74dvaw6D9a3eAQ=="
+          "hash": "zv95eceXYsMF0gmuiDuk0w=="
         }
       },
       "is_incremental": false,
@@ -1452,7 +1464,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.Miscellaneous.ExtendedColor.html",
-          "hash": "SEBiV5gzjnKqB7dNnvjWHw=="
+          "hash": "HEzfM2XkxGD2CWu0oliPZQ=="
         }
       },
       "is_incremental": false,
@@ -1512,7 +1524,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.Miscellaneous.GitTools.html",
-          "hash": "IVBETBzym7UVITbA2f9x5g=="
+          "hash": "j+AVqqFtokE+rjJqmtuouw=="
         }
       },
       "is_incremental": false,
@@ -1872,7 +1884,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GRYLibrary.Core.Miscellaneous.Utilities.html",
-          "hash": "caxb6iCaZCtnZNbrEAw7VA=="
+          "hash": "sTWiJpFJ+QDHCWW4nOceJQ=="
         }
       },
       "is_incremental": false,
@@ -2232,7 +2244,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "aQym0x6WvDjD/sGoi4/lpw=="
+          "hash": "Z4+RIgrrMgOz3kd7YYuDwg=="
         }
       },
       "is_incremental": false,
@@ -2366,7 +2378,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 172,
+          "total_file_count": 173,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
