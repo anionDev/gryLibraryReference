@@ -5413,6 +5413,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.LogObject.GRYLogConfiguration.GRYLogConfiguration
   nameWithType: GRYLogConfiguration.GRYLogConfiguration
+- uid: GRYLibrary.Core.LogObject.GRYLogConfiguration.AddSystemLog
+  name: AddSystemLog()
+  href: api/GRYLibrary.Core.LogObject.GRYLogConfiguration.html#GRYLibrary_Core_LogObject_GRYLogConfiguration_AddSystemLog
+  commentId: M:GRYLibrary.Core.LogObject.GRYLogConfiguration.AddSystemLog
+  fullName: GRYLibrary.Core.LogObject.GRYLogConfiguration.AddSystemLog()
+  nameWithType: GRYLogConfiguration.AddSystemLog()
+- uid: GRYLibrary.Core.LogObject.GRYLogConfiguration.AddSystemLog*
+  name: AddSystemLog
+  href: api/GRYLibrary.Core.LogObject.GRYLogConfiguration.html#GRYLibrary_Core_LogObject_GRYLogConfiguration_AddSystemLog_
+  commentId: Overload:GRYLibrary.Core.LogObject.GRYLogConfiguration.AddSystemLog
+  isSpec: "True"
+  fullName: GRYLibrary.Core.LogObject.GRYLogConfiguration.AddSystemLog
+  nameWithType: GRYLogConfiguration.AddSystemLog
 - uid: GRYLibrary.Core.LogObject.GRYLogConfiguration.ConfigurationFile
   name: ConfigurationFile
   href: api/GRYLibrary.Core.LogObject.GRYLogConfiguration.html#GRYLibrary_Core_LogObject_GRYLogConfiguration_ConfigurationFile
@@ -7817,19 +7830,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.ExitCode
   nameWithType: ExternalProgramExecutor.ExitCode
-- uid: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.GetResult
-  name: GetResult()
-  href: api/GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.html#GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_GetResult
-  commentId: M:GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.GetResult
-  fullName: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.GetResult()
-  nameWithType: ExternalProgramExecutor.GetResult()
-- uid: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.GetResult*
-  name: GetResult
-  href: api/GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.html#GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_GetResult_
-  commentId: Overload:GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.GetResult
+- uid: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.GetSummaryOfExecutedProgram(System.Boolean)
+  name: GetSummaryOfExecutedProgram(Boolean)
+  href: api/GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.html#GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_GetSummaryOfExecutedProgram_System_Boolean_
+  commentId: M:GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.GetSummaryOfExecutedProgram(System.Boolean)
+  fullName: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.GetSummaryOfExecutedProgram(System.Boolean)
+  nameWithType: ExternalProgramExecutor.GetSummaryOfExecutedProgram(Boolean)
+- uid: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.GetSummaryOfExecutedProgram*
+  name: GetSummaryOfExecutedProgram
+  href: api/GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.html#GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_GetSummaryOfExecutedProgram_
+  commentId: Overload:GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.GetSummaryOfExecutedProgram
   isSpec: "True"
-  fullName: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.GetResult
-  nameWithType: ExternalProgramExecutor.GetResult
+  fullName: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.GetSummaryOfExecutedProgram
+  nameWithType: ExternalProgramExecutor.GetSummaryOfExecutedProgram
 - uid: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.IsRunning
   name: IsRunning
   href: api/GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.html#GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_IsRunning
