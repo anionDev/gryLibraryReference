@@ -5002,6 +5002,12 @@ references:
   commentId: T:GRYLibrary.Core.LogObject.GRYLog
   fullName: GRYLibrary.Core.LogObject.GRYLog
   nameWithType: GRYLog
+- uid: GRYLibrary.Core.LogObject.GRYLog._Indentation
+  name: _Indentation
+  href: api/GRYLibrary.Core.LogObject.GRYLog.html#GRYLibrary_Core_LogObject_GRYLog__Indentation
+  commentId: F:GRYLibrary.Core.LogObject.GRYLog._Indentation
+  fullName: GRYLibrary.Core.LogObject.GRYLog._Indentation
+  nameWithType: GRYLog._Indentation
 - uid: GRYLibrary.Core.LogObject.GRYLog.BeginScope*
   name: BeginScope
   href: api/GRYLibrary.Core.LogObject.GRYLog.html#GRYLibrary_Core_LogObject_GRYLog_BeginScope_
@@ -5780,32 +5786,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.LogObject.GRYLogConfiguration.ToString
   nameWithType: GRYLogConfiguration.ToString
-- uid: GRYLibrary.Core.LogObject.GRYLogConfiguration.WriteExceptionMessageOfExceptionInLogEntry
-  name: WriteExceptionMessageOfExceptionInLogEntry
-  href: api/GRYLibrary.Core.LogObject.GRYLogConfiguration.html#GRYLibrary_Core_LogObject_GRYLogConfiguration_WriteExceptionMessageOfExceptionInLogEntry
-  commentId: P:GRYLibrary.Core.LogObject.GRYLogConfiguration.WriteExceptionMessageOfExceptionInLogEntry
-  fullName: GRYLibrary.Core.LogObject.GRYLogConfiguration.WriteExceptionMessageOfExceptionInLogEntry
-  nameWithType: GRYLogConfiguration.WriteExceptionMessageOfExceptionInLogEntry
-- uid: GRYLibrary.Core.LogObject.GRYLogConfiguration.WriteExceptionMessageOfExceptionInLogEntry*
-  name: WriteExceptionMessageOfExceptionInLogEntry
-  href: api/GRYLibrary.Core.LogObject.GRYLogConfiguration.html#GRYLibrary_Core_LogObject_GRYLogConfiguration_WriteExceptionMessageOfExceptionInLogEntry_
-  commentId: Overload:GRYLibrary.Core.LogObject.GRYLogConfiguration.WriteExceptionMessageOfExceptionInLogEntry
+- uid: GRYLibrary.Core.LogObject.GRYLogConfiguration.WriteDetailsOfLoggedExceptionsToLogEntry
+  name: WriteDetailsOfLoggedExceptionsToLogEntry
+  href: api/GRYLibrary.Core.LogObject.GRYLogConfiguration.html#GRYLibrary_Core_LogObject_GRYLogConfiguration_WriteDetailsOfLoggedExceptionsToLogEntry
+  commentId: P:GRYLibrary.Core.LogObject.GRYLogConfiguration.WriteDetailsOfLoggedExceptionsToLogEntry
+  fullName: GRYLibrary.Core.LogObject.GRYLogConfiguration.WriteDetailsOfLoggedExceptionsToLogEntry
+  nameWithType: GRYLogConfiguration.WriteDetailsOfLoggedExceptionsToLogEntry
+- uid: GRYLibrary.Core.LogObject.GRYLogConfiguration.WriteDetailsOfLoggedExceptionsToLogEntry*
+  name: WriteDetailsOfLoggedExceptionsToLogEntry
+  href: api/GRYLibrary.Core.LogObject.GRYLogConfiguration.html#GRYLibrary_Core_LogObject_GRYLogConfiguration_WriteDetailsOfLoggedExceptionsToLogEntry_
+  commentId: Overload:GRYLibrary.Core.LogObject.GRYLogConfiguration.WriteDetailsOfLoggedExceptionsToLogEntry
   isSpec: "True"
-  fullName: GRYLibrary.Core.LogObject.GRYLogConfiguration.WriteExceptionMessageOfExceptionInLogEntry
-  nameWithType: GRYLogConfiguration.WriteExceptionMessageOfExceptionInLogEntry
-- uid: GRYLibrary.Core.LogObject.GRYLogConfiguration.WriteExceptionStackTraceOfExceptionInLogEntry
-  name: WriteExceptionStackTraceOfExceptionInLogEntry
-  href: api/GRYLibrary.Core.LogObject.GRYLogConfiguration.html#GRYLibrary_Core_LogObject_GRYLogConfiguration_WriteExceptionStackTraceOfExceptionInLogEntry
-  commentId: P:GRYLibrary.Core.LogObject.GRYLogConfiguration.WriteExceptionStackTraceOfExceptionInLogEntry
-  fullName: GRYLibrary.Core.LogObject.GRYLogConfiguration.WriteExceptionStackTraceOfExceptionInLogEntry
-  nameWithType: GRYLogConfiguration.WriteExceptionStackTraceOfExceptionInLogEntry
-- uid: GRYLibrary.Core.LogObject.GRYLogConfiguration.WriteExceptionStackTraceOfExceptionInLogEntry*
-  name: WriteExceptionStackTraceOfExceptionInLogEntry
-  href: api/GRYLibrary.Core.LogObject.GRYLogConfiguration.html#GRYLibrary_Core_LogObject_GRYLogConfiguration_WriteExceptionStackTraceOfExceptionInLogEntry_
-  commentId: Overload:GRYLibrary.Core.LogObject.GRYLogConfiguration.WriteExceptionStackTraceOfExceptionInLogEntry
-  isSpec: "True"
-  fullName: GRYLibrary.Core.LogObject.GRYLogConfiguration.WriteExceptionStackTraceOfExceptionInLogEntry
-  nameWithType: GRYLogConfiguration.WriteExceptionStackTraceOfExceptionInLogEntry
+  fullName: GRYLibrary.Core.LogObject.GRYLogConfiguration.WriteDetailsOfLoggedExceptionsToLogEntry
+  nameWithType: GRYLogConfiguration.WriteDetailsOfLoggedExceptionsToLogEntry
 - uid: GRYLibrary.Core.LogObject.GRYLogConfiguration.WriteLogEntriesAsynchronous
   name: WriteLogEntriesAsynchronous
   href: api/GRYLibrary.Core.LogObject.GRYLogConfiguration.html#GRYLibrary_Core_LogObject_GRYLogConfiguration_WriteLogEntriesAsynchronous
@@ -6442,6 +6435,32 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.LogObject.LogItem.MomentOfLogEntry
   nameWithType: LogItem.MomentOfLogEntry
+- uid: GRYLibrary.Core.LogObject.LogItem.op_Equality(GRYLibrary.Core.LogObject.LogItem,GRYLibrary.Core.LogObject.LogItem)
+  name: Equality(LogItem, LogItem)
+  href: api/GRYLibrary.Core.LogObject.LogItem.html#GRYLibrary_Core_LogObject_LogItem_op_Equality_GRYLibrary_Core_LogObject_LogItem_GRYLibrary_Core_LogObject_LogItem_
+  commentId: M:GRYLibrary.Core.LogObject.LogItem.op_Equality(GRYLibrary.Core.LogObject.LogItem,GRYLibrary.Core.LogObject.LogItem)
+  fullName: GRYLibrary.Core.LogObject.LogItem.Equality(GRYLibrary.Core.LogObject.LogItem, GRYLibrary.Core.LogObject.LogItem)
+  nameWithType: LogItem.Equality(LogItem, LogItem)
+- uid: GRYLibrary.Core.LogObject.LogItem.op_Equality*
+  name: Equality
+  href: api/GRYLibrary.Core.LogObject.LogItem.html#GRYLibrary_Core_LogObject_LogItem_op_Equality_
+  commentId: Overload:GRYLibrary.Core.LogObject.LogItem.op_Equality
+  isSpec: "True"
+  fullName: GRYLibrary.Core.LogObject.LogItem.Equality
+  nameWithType: LogItem.Equality
+- uid: GRYLibrary.Core.LogObject.LogItem.op_Inequality(GRYLibrary.Core.LogObject.LogItem,GRYLibrary.Core.LogObject.LogItem)
+  name: Inequality(LogItem, LogItem)
+  href: api/GRYLibrary.Core.LogObject.LogItem.html#GRYLibrary_Core_LogObject_LogItem_op_Inequality_GRYLibrary_Core_LogObject_LogItem_GRYLibrary_Core_LogObject_LogItem_
+  commentId: M:GRYLibrary.Core.LogObject.LogItem.op_Inequality(GRYLibrary.Core.LogObject.LogItem,GRYLibrary.Core.LogObject.LogItem)
+  fullName: GRYLibrary.Core.LogObject.LogItem.Inequality(GRYLibrary.Core.LogObject.LogItem, GRYLibrary.Core.LogObject.LogItem)
+  nameWithType: LogItem.Inequality(LogItem, LogItem)
+- uid: GRYLibrary.Core.LogObject.LogItem.op_Inequality*
+  name: Inequality
+  href: api/GRYLibrary.Core.LogObject.LogItem.html#GRYLibrary_Core_LogObject_LogItem_op_Inequality_
+  commentId: Overload:GRYLibrary.Core.LogObject.LogItem.op_Inequality
+  isSpec: "True"
+  fullName: GRYLibrary.Core.LogObject.LogItem.Inequality
+  nameWithType: LogItem.Inequality
 - uid: GRYLibrary.Core.LogObject.LogItem.PlainMessage
   name: PlainMessage
   href: api/GRYLibrary.Core.LogObject.LogItem.html#GRYLibrary_Core_LogObject_LogItem_PlainMessage
@@ -7811,6 +7830,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.GetResult
   nameWithType: ExternalProgramExecutor.GetResult
+- uid: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.IsRunning
+  name: IsRunning
+  href: api/GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.html#GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_IsRunning
+  commentId: P:GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.IsRunning
+  fullName: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.IsRunning
+  nameWithType: ExternalProgramExecutor.IsRunning
+- uid: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.IsRunning*
+  name: IsRunning
+  href: api/GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.html#GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_IsRunning_
+  commentId: Overload:GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.IsRunning
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.IsRunning
+  nameWithType: ExternalProgramExecutor.IsRunning
 - uid: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.LogNamespace
   name: LogNamespace
   href: api/GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.html#GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_LogNamespace
@@ -7837,32 +7869,6 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.LogObject
   nameWithType: ExternalProgramExecutor.LogObject
-- uid: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.LogOutput
-  name: LogOutput
-  href: api/GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.html#GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_LogOutput
-  commentId: P:GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.LogOutput
-  fullName: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.LogOutput
-  nameWithType: ExternalProgramExecutor.LogOutput
-- uid: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.LogOutput*
-  name: LogOutput
-  href: api/GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.html#GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_LogOutput_
-  commentId: Overload:GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.LogOutput
-  isSpec: "True"
-  fullName: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.LogOutput
-  nameWithType: ExternalProgramExecutor.LogOutput
-- uid: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.LogOverhead
-  name: LogOverhead
-  href: api/GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.html#GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_LogOverhead
-  commentId: P:GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.LogOverhead
-  fullName: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.LogOverhead
-  nameWithType: ExternalProgramExecutor.LogOverhead
-- uid: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.LogOverhead*
-  name: LogOverhead
-  href: api/GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.html#GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_LogOverhead_
-  commentId: Overload:GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.LogOverhead
-  isSpec: "True"
-  fullName: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.LogOverhead
-  nameWithType: ExternalProgramExecutor.LogOverhead
 - uid: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.PrintErrorsAsInformation
   name: PrintErrorsAsInformation
   href: api/GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.html#GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_PrintErrorsAsInformation
@@ -7915,19 +7921,6 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.ProgramPathAndFile
   nameWithType: ExternalProgramExecutor.ProgramPathAndFile
-- uid: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.Running
-  name: Running()
-  href: api/GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.html#GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_Running
-  commentId: M:GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.Running
-  fullName: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.Running()
-  nameWithType: ExternalProgramExecutor.Running()
-- uid: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.Running*
-  name: Running
-  href: api/GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.html#GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_Running_
-  commentId: Overload:GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.Running
-  isSpec: "True"
-  fullName: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.Running
-  nameWithType: ExternalProgramExecutor.Running
 - uid: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.StartAsynchronously
   name: StartAsynchronously()
   href: api/GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.html#GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_StartAsynchronously
@@ -8006,6 +7999,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.UpdateConsoleTitle
   nameWithType: ExternalProgramExecutor.UpdateConsoleTitle
+- uid: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.Verbosity
+  name: Verbosity
+  href: api/GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.html#GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_Verbosity
+  commentId: P:GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.Verbosity
+  fullName: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.Verbosity
+  nameWithType: ExternalProgramExecutor.Verbosity
+- uid: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.Verbosity*
+  name: Verbosity
+  href: api/GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.html#GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_Verbosity_
+  commentId: Overload:GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.Verbosity
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.Verbosity
+  nameWithType: ExternalProgramExecutor.Verbosity
 - uid: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.WaitUntilTerminated
   name: WaitUntilTerminated()
   href: api/GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.html#GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor_WaitUntilTerminated
@@ -13420,6 +13426,19 @@ references:
   fullName.vb: GRYLibrary.Core.Miscellaneous.Utilities.Split(Of T)(T(), System.Int32)
   nameWithType: Utilities.Split<T>(T[], Int32)
   nameWithType.vb: Utilities.Split(Of T)(T(), Int32)
+- uid: GRYLibrary.Core.Miscellaneous.Utilities.SplitOnNewLineCharacter(System.String)
+  name: SplitOnNewLineCharacter(String)
+  href: api/GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_SplitOnNewLineCharacter_System_String_
+  commentId: M:GRYLibrary.Core.Miscellaneous.Utilities.SplitOnNewLineCharacter(System.String)
+  fullName: GRYLibrary.Core.Miscellaneous.Utilities.SplitOnNewLineCharacter(System.String)
+  nameWithType: Utilities.SplitOnNewLineCharacter(String)
+- uid: GRYLibrary.Core.Miscellaneous.Utilities.SplitOnNewLineCharacter*
+  name: SplitOnNewLineCharacter
+  href: api/GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_SplitOnNewLineCharacter_
+  commentId: Overload:GRYLibrary.Core.Miscellaneous.Utilities.SplitOnNewLineCharacter
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Miscellaneous.Utilities.SplitOnNewLineCharacter
+  nameWithType: Utilities.SplitOnNewLineCharacter
 - uid: GRYLibrary.Core.Miscellaneous.Utilities.StartsWith*
   name: StartsWith
   href: api/GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_StartsWith_
@@ -13891,6 +13910,36 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Miscellaneous.Utilities.XmlToString
   nameWithType: Utilities.XmlToString
+- uid: GRYLibrary.Core.Miscellaneous.Verbosity
+  name: Verbosity
+  href: api/GRYLibrary.Core.Miscellaneous.Verbosity.html
+  commentId: T:GRYLibrary.Core.Miscellaneous.Verbosity
+  fullName: GRYLibrary.Core.Miscellaneous.Verbosity
+  nameWithType: Verbosity
+- uid: GRYLibrary.Core.Miscellaneous.Verbosity.Full
+  name: Full
+  href: api/GRYLibrary.Core.Miscellaneous.Verbosity.html#GRYLibrary_Core_Miscellaneous_Verbosity_Full
+  commentId: F:GRYLibrary.Core.Miscellaneous.Verbosity.Full
+  fullName: GRYLibrary.Core.Miscellaneous.Verbosity.Full
+  nameWithType: Verbosity.Full
+- uid: GRYLibrary.Core.Miscellaneous.Verbosity.Normal
+  name: Normal
+  href: api/GRYLibrary.Core.Miscellaneous.Verbosity.html#GRYLibrary_Core_Miscellaneous_Verbosity_Normal
+  commentId: F:GRYLibrary.Core.Miscellaneous.Verbosity.Normal
+  fullName: GRYLibrary.Core.Miscellaneous.Verbosity.Normal
+  nameWithType: Verbosity.Normal
+- uid: GRYLibrary.Core.Miscellaneous.Verbosity.Quiet
+  name: Quiet
+  href: api/GRYLibrary.Core.Miscellaneous.Verbosity.html#GRYLibrary_Core_Miscellaneous_Verbosity_Quiet
+  commentId: F:GRYLibrary.Core.Miscellaneous.Verbosity.Quiet
+  fullName: GRYLibrary.Core.Miscellaneous.Verbosity.Quiet
+  nameWithType: Verbosity.Quiet
+- uid: GRYLibrary.Core.Miscellaneous.Verbosity.Verbose
+  name: Verbose
+  href: api/GRYLibrary.Core.Miscellaneous.Verbosity.html#GRYLibrary_Core_Miscellaneous_Verbosity_Verbose
+  commentId: F:GRYLibrary.Core.Miscellaneous.Verbosity.Verbose
+  fullName: GRYLibrary.Core.Miscellaneous.Verbosity.Verbose
+  nameWithType: Verbosity.Verbose
 - uid: GRYLibrary.Core.Miscellaneous.WriteableTuple`2
   name: WriteableTuple<T1, T2>
   href: api/GRYLibrary.Core.Miscellaneous.WriteableTuple-2.html

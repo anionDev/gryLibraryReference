@@ -109,6 +109,32 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public sealed class GRYLog : IDisposable, ILogger</code></pre>
   </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="GRYLibrary_Core_LogObject_GRYLog__Indentation" data-uid="GRYLibrary.Core.LogObject.GRYLog._Indentation">_Indentation</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string _Indentation = &quot;    &quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   
@@ -788,7 +814,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Log(LogLevel logLevel, Exception exception, string messageId)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Log(LogLevel logLevel, Exception exception, string messageId = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -825,7 +851,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Log(Exception exception, string messageId)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Log(Exception exception, string messageId = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -857,7 +883,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Log(Func&lt;string&gt; getMessage, LogLevel logLevel, Exception exception, string messageId)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Log(Func&lt;string&gt; getMessage, LogLevel logLevel, Exception exception, string messageId = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -899,7 +925,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Log(Func&lt;string&gt; getMessage, LogLevel logLevel, string messageId)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Log(Func&lt;string&gt; getMessage, LogLevel logLevel, string messageId = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -936,7 +962,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Log(Func&lt;string&gt; getMessage, Exception exception, string messageId)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Log(Func&lt;string&gt; getMessage, Exception exception, string messageId = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -973,7 +999,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Log(Func&lt;string&gt; getMessage, string messageId)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Log(Func&lt;string&gt; getMessage, string messageId = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
