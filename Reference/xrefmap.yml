@@ -7318,6 +7318,19 @@ references:
   fullName.vb: GRYLibrary.Core.Miscellaneous.EnumerableTools.TupleEquals(Of TKey, TValue)(System.Tuple(Of TKey, TValue), System.Tuple(Of TKey, TValue))
   nameWithType: EnumerableTools.TupleEquals<TKey, TValue>(Tuple<TKey, TValue>, Tuple<TKey, TValue>)
   nameWithType.vb: EnumerableTools.TupleEquals(Of TKey, TValue)(Tuple(Of TKey, TValue), Tuple(Of TKey, TValue))
+- uid: GRYLibrary.Core.Miscellaneous.EnumerableTools.TypeIsArrayGeneric(System.Type)
+  name: TypeIsArrayGeneric(Type)
+  href: api/GRYLibrary.Core.Miscellaneous.EnumerableTools.html#GRYLibrary_Core_Miscellaneous_EnumerableTools_TypeIsArrayGeneric_System_Type_
+  commentId: M:GRYLibrary.Core.Miscellaneous.EnumerableTools.TypeIsArrayGeneric(System.Type)
+  fullName: GRYLibrary.Core.Miscellaneous.EnumerableTools.TypeIsArrayGeneric(System.Type)
+  nameWithType: EnumerableTools.TypeIsArrayGeneric(Type)
+- uid: GRYLibrary.Core.Miscellaneous.EnumerableTools.TypeIsArrayGeneric*
+  name: TypeIsArrayGeneric
+  href: api/GRYLibrary.Core.Miscellaneous.EnumerableTools.html#GRYLibrary_Core_Miscellaneous_EnumerableTools_TypeIsArrayGeneric_
+  commentId: Overload:GRYLibrary.Core.Miscellaneous.EnumerableTools.TypeIsArrayGeneric
+  isSpec: "True"
+  fullName: GRYLibrary.Core.Miscellaneous.EnumerableTools.TypeIsArrayGeneric
+  nameWithType: EnumerableTools.TypeIsArrayGeneric
 - uid: GRYLibrary.Core.Miscellaneous.EnumerableTools.TypeIsDictionary(System.Type)
   name: TypeIsDictionary(Type)
   href: api/GRYLibrary.Core.Miscellaneous.EnumerableTools.html#GRYLibrary_Core_Miscellaneous_EnumerableTools_TypeIsDictionary_System_Type_
