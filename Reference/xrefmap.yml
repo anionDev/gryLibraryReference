@@ -1903,19 +1903,19 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.Curve
   nameWithType: Curve.Curve
-- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.BasePoint
-  name: BasePoint
-  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_Helper_Curve_BasePoint
-  commentId: P:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.BasePoint
-  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.BasePoint
-  nameWithType: Curve.BasePoint
-- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.BasePoint*
-  name: BasePoint
-  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_Helper_Curve_BasePoint_
-  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.BasePoint
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.BasePointX
+  name: BasePointX
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_Helper_Curve_BasePointX
+  commentId: P:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.BasePointX
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.BasePointX
+  nameWithType: Curve.BasePointX
+- uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.BasePointX*
+  name: BasePointX
+  href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_Helper_Curve_BasePointX_
+  commentId: Overload:GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.BasePointX
   isSpec: "True"
-  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.BasePoint
-  nameWithType: Curve.BasePoint
+  fullName: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.BasePointX
+  nameWithType: Curve.BasePointX
 - uid: GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.Curve25519
   name: Curve25519
   href: api/GRYLibrary.Core.CryptoSystems.EncryptionAlgorithms.ConcreteCommonAlgorithms.ConcreteAsymmetricAlgorithms.Helper.Curve.html#GRYLibrary_Core_CryptoSystems_EncryptionAlgorithms_ConcreteCommonAlgorithms_ConcreteAsymmetricAlgorithms_Helper_Curve_Curve25519
@@ -7708,6 +7708,12 @@ references:
   commentId: T:GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor
   fullName: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor
   nameWithType: ExternalProgramExecutor
+- uid: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.#ctor(System.String)
+  name: ExternalProgramExecutor(String)
+  href: api/GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.html#GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor__ctor_System_String_
+  commentId: M:GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.#ctor(System.String)
+  fullName: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.ExternalProgramExecutor(System.String)
+  nameWithType: ExternalProgramExecutor.ExternalProgramExecutor(String)
 - uid: GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.#ctor(System.String,System.String)
   name: ExternalProgramExecutor(String, String)
   href: api/GRYLibrary.Core.Miscellaneous.ExternalProgramExecutor.html#GRYLibrary_Core_Miscellaneous_ExternalProgramExecutor__ctor_System_String_System_String_
@@ -13334,15 +13340,12 @@ references:
   isSpec: "True"
   fullName: GRYLibrary.Core.Miscellaneous.Utilities.ReplaceUnderscoresInFolderTransitively
   nameWithType: Utilities.ReplaceUnderscoresInFolderTransitively
-- uid: GRYLibrary.Core.Miscellaneous.Utilities.ResolvePathOfProgram(System.String@,System.String@)
-  name: ResolvePathOfProgram(ref String, ref String)
-  href: api/GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_ResolvePathOfProgram_System_String__System_String__
-  commentId: M:GRYLibrary.Core.Miscellaneous.Utilities.ResolvePathOfProgram(System.String@,System.String@)
-  name.vb: ResolvePathOfProgram(ByRef String, ByRef String)
-  fullName: GRYLibrary.Core.Miscellaneous.Utilities.ResolvePathOfProgram(ref System.String, ref System.String)
-  fullName.vb: GRYLibrary.Core.Miscellaneous.Utilities.ResolvePathOfProgram(ByRef System.String, ByRef System.String)
-  nameWithType: Utilities.ResolvePathOfProgram(ref String, ref String)
-  nameWithType.vb: Utilities.ResolvePathOfProgram(ByRef String, ByRef String)
+- uid: GRYLibrary.Core.Miscellaneous.Utilities.ResolvePathOfProgram(System.String,System.String,System.String)
+  name: ResolvePathOfProgram(String, String, String)
+  href: api/GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_ResolvePathOfProgram_System_String_System_String_System_String_
+  commentId: M:GRYLibrary.Core.Miscellaneous.Utilities.ResolvePathOfProgram(System.String,System.String,System.String)
+  fullName: GRYLibrary.Core.Miscellaneous.Utilities.ResolvePathOfProgram(System.String, System.String, System.String)
+  nameWithType: Utilities.ResolvePathOfProgram(String, String, String)
 - uid: GRYLibrary.Core.Miscellaneous.Utilities.ResolvePathOfProgram*
   name: ResolvePathOfProgram
   href: api/GRYLibrary.Core.Miscellaneous.Utilities.html#GRYLibrary_Core_Miscellaneous_Utilities_ResolvePathOfProgram_
